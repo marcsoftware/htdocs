@@ -1,0 +1,32 @@
+git clone git@github.com:username/uername.github.io.git
+cd username.github.io
+echo 'Welcome to your first page' > index.html
+git add index.html
+git commit -m 'Add the first webpage'
+git push -u origin master
+
+git checkout -b gh-pages
+echo 'Welcome to your first page' > index.html
+git add index.html
+git commit -m 'Add index.html page'
+git push origin gh-pages
+
+sudo gem install bundler
+
+bundle install --path .vendor/bundle
+
+bundle exec jekyll new initdir
+mv initdir/{.,}* .
+rmdir initdir
+
+bundle exec jekyll serve --watch
+
+echo .vendor/ >> .gitignore
+echo .bundle/ >> .gitignore
+git add .
+git commit -m 'Init commit using Jekyll'
+git push origin master
+
+git checkout gh-pages
+
+cp _posts/2015-08-03-welcome-to-jekyll.markdown _posts/2015-08-04-testing-github-metadata-with-jekyll.markdown

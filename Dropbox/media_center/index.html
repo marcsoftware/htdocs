@@ -1,0 +1,219 @@
+<title>
+ Media Center
+</title>
+<?php
+ $path_file = 'C:\Users\Picard.Enterprise\Downloads';
+$vlc = "C:\Program Files (x86)\VideoLAN\VLC";
+$history_file = "C:\Users\Picard.Enterprise\AppData\Roaming\vlc\vlc-qt-interface.ini";
+
+
+
+//run vlc
+//pclose(popen("start \"$vlc\" \"$path_file\"", "r"));
+?>
+
+<style>
+
+
+span{
+    cursor:pointer;
+}
+
+.film:hover {
+    background-color: yellow;
+}
+
+.small{
+    color: grey;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    font-family: monospace;
+}
+
+</style>
+<script>
+  //TODO adapt this function to call readFolder.php
+    // side effect: stored filenames in the global variable
+    //              files names also have the filetype appedned to it  ':file' ':dir'
+    function readFolder(path){
+
+        var xmlhttp;
+
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+
+
+                fileNames =xmlhttp.responseText.split(',');
+
+                fileNames.pop(); //delete the last element since it will always be empty
+                fileNames.sort();
+                
+
+
+            }
+        }
+
+        xmlhttp.open("GET","/Dropbox/media_center/readFolder.php?path="+path,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+
+    }
+
+
+    function playVLC(path){
+
+        var xmlhttp;
+        path=path.replace(/MARC/g,'\\');
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+
+
+                (xmlhttp.responseText);
+
+
+
+            }
+        }
+
+        xmlhttp.open("GET","/Dropbox/media_center/playVLC.php?path="+path,true); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+
+    }
+
+
+      function readVLC(path){
+
+        var xmlhttp;
+
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+
+
+                vlc_raw =xmlhttp.responseText;
+                var start = vlc_raw.indexOf('[RecentsMRL]');
+                var end = vlc_raw.indexOf('[ToolbarProfiles]');
+                vlc_raw = vlc_raw.slice(start,end);
+
+                
+
+             
+                
+                
+
+
+            }
+        }
+
+        xmlhttp.open("GET","/Dropbox/media_center/readFile.php?path="+path,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+
+    }
+
+    var path;
+    function main(){
+
+        //read Downloads folder
+         path = `C:\\Users\\Spock\\Downloads`;
+        readFolder(path);        
+        
+        
+
+        //read VLC history
+        readVLC( "C:\\Users\\Spock\\AppData\\Roaming\\vlc\\vlc-qt-interface.ini");
+
+        //parse vlc history to get just video names
+        var start = vlc_raw.indexOf('list=');
+        var end = vlc_raw.indexOf('times=');
+
+         var vlc_files =vlc_raw.slice(start+5,end);
+         vlc_files = vlc_files.replace(/\,\W/g,'');
+         vlc_files = vlc_files.split('file:///');
+
+         
+         
+         
+         
+         
+
+         //turns times into an array
+         var vlc_times =vlc_raw.slice(end+6);
+         vlc_times = vlc_times.split(',');
+
+
+        //document.getElementById('vlc').innerHTML=vlc_times.join('<br/>');
+
+        //TODO get the array of times in seconds
+
+        fileNames = fileNames.filter(function(x){
+            return x.search(/(part|mkv|avi|mp4|mp3)/g) >=0;
+        
+        })
+        var wrapped = fileNames.map(function(x){
+            var full = path+'\\'+x;
+            var original = full.replace(/\\/g,'/');
+            var timer = vlc_files.indexOf(original);
+
+            full = full.replace(/\\/g,'MARC');
+            
+            
+            timer = vlc_times[timer-1];
+
+            if(timer === undefined){
+                timer=' ';
+            }else if(timer == 0){
+                timer='••••••••';
+            }else{
+                timer=secondsToTime(timer/1000)
+            }
+            return `<span class='small'>${timer}</span> <span class='film' onclick=playVLC(${'\"'+full+'\"'}) >${x}</span>`;
+        })
+
+        document.getElementById('Downloads').innerHTML= wrapped.join('<br/>');
+        
+    }
+
+    function secondsToTime(seconds){
+
+        var date = new Date(1970,0,1);
+        date.setSeconds(seconds);
+        var result=  date.toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
+        console.log(`${seconds}=>${result}`);
+        return result;
+    }
+
+</script>
+<html>
+<body onload=main()>
+    
+    <h6>
+        Downloads
+    </h6>
+    <p id='Downloads'></p>
+    <hr/>
+    
+</body>
+</html>

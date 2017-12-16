@@ -1,0 +1,120 @@
+// This is a single-line comment.
+/* This is also a comment */ // and here is another comment.
+/*
+* This is yet another comment.
+* It has multiple lines.
+*/
+
+---
+
+
+
+12 // The number twelve
+1.2 // The number one point two
+"hello world" // A string of text
+'Hi' // Another string
+true // A Boolean value
+false // The other Boolean value
+/javascript/gi // A "regular expression" literal (for pattern matching)
+null // Absence of an object
+
+---
+
+{ x:1, y:2 } // An object initializer
+[1,2,3,4,5] // An array initializer
+
+---
+
+i
+my_variable_name
+v13
+_dummy
+$str
+
+---
+
+var sí = true;
+var π = 3.14;
+
+---
+
+// these are reseved words
+
+break delete function return typeof
+case do if switch var
+catch else in this void
+continue false instanceof throw while
+debugger finally new true with
+default for null try
+
+class const enum export extends import super
+
+// these are only reserved in strict mode
+implements let private public yield
+interface package protected static
+
+
+//these or reserved in ecmascript 3 but you still should not use them in ecmascript 5
+abstract double goto native static
+boolean enum implements package super
+byte export import private synchronized
+char extends int protected throws
+class final interface public transient
+const float long short volatile
+
+//these are not reserved but you still should not use them
+arguments encodeURI Infinity Number RegExp
+Array encodeURIComponent isFinite Object String
+Boolean Error isNaN parseFloat SyntaxError
+Date eval JSON parseInt TypeError
+decodeURI EvalError Math RangeError undefined
+decodeURIComponent Function NaN ReferenceError URIError
+
+---
+
+a = 3;
+b = 4;
+
+---
+
+a = 3; b = 4;
+
+---
+
+var a
+a
+=
+3
+console.log(a)
+
+---
+
+var a; a = 3; console.log(a);
+
+---
+var y = x + f
+(a+b).toString()
+---
+var y = x + f(a+b).toString();
+---
+
+var x = 0 // Semicolon omitted here
+;[x,x+1,x+2].forEach(console.log) // Defensive ; keeps this statement separate
+---
+
+return
+true;
+
+---
+
+return; true;
+---
+return true;
+---
+x
+++
+y
+---
+
+x; ++y;
+---

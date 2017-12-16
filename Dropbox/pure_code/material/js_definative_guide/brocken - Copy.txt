@@ -1,0 +1,152 @@
+
+a = b * 2; // this is a statemetn
+a = b * 2; // it is made of 4 expresisons.
+alert( a );// this is a 'call' expression statement.
+
+// type into console and see how it runs.
+a = 21;
+
+b = a * 2;
+
+console.log( b );
+
+alert( b ); //create output you can see
+
+//get input
+age = prompt( "Please tell me your age:" );
+
+console.log( age );
+
+//operators
+a = 2;
+b = a + 1;
+
+//variables
+var a = 20;
+
+a = a + 1;
+a = a * 2;
+
+console.log( a );	// 42
+
+//covvert between types
+var a = "42";
+var b = Number( a );
+
+console.log( a );	// "42"
+console.log( b );	// 42
+
+//example
+var amount = 99.99;
+
+amount = amount * 2;
+
+console.log( amount );		// 199.98
+
+//silly example
+// convert `amount` to a string, and
+// add "$" on the beginning
+amount = "$" + String( amount );
+
+console.log( amount );		// "$199.98"
+
+var TAX_RATE = 0.08;	// 8% sales tax
+
+var amount = 99.99;
+
+amount = amount * 2;
+
+amount = amount + (amount * TAX_RATE);
+
+console.log( amount );				// 215.9784
+console.log( amount.toFixed( 2 ) );	// "215.98"
+
+
+
+//declare const as of ES6:
+const TAX_RATE = 0.08;
+
+var amount = 99.99;
+
+
+//general block
+var amount = 99.99;
+
+// a general block
+{
+	amount = amount * 2;
+	console.log( amount );	// 199.98
+}
+
+//conditional
+var amount = 99.99;
+
+// is amount big enough?
+if (amount > 10) {			// <-- block attached to `if`
+	amount = amount * 2;
+	console.log( amount );	// 199.98
+}
+
+
+//
+var bank_balance = 302.13;
+var amount = 99.99;
+
+if (amount < bank_balance) {
+	console.log( "I want to buy this phone!" );
+}
+
+//example with an ELSE attached
+const ACCESSORY_PRICE = 9.99;
+
+var bank_balance = 302.13;
+var amount = 99.99;
+
+amount = amount * 2;
+
+// can we afford the extra purchase?
+if ( amount < bank_balance ) {
+	console.log( "I'll take the accessory!" );
+	amount = amount + ACCESSORY_PRICE;
+}
+// otherwise:
+else {
+	console.log( "No, thanks." );
+}
+
+//loop
+while (numOfCustomers > 0) {
+	console.log( "How may I help you?" );
+
+	// help the customer...
+
+	numOfCustomers = numOfCustomers - 1;
+}
+
+// versus:
+
+do {
+	console.log( "How may I help you?" );
+
+	// help the customer...
+
+	numOfCustomers = numOfCustomers - 1;
+} while (numOfCustomers > 0);
+
+// loop with wierd break
+var i = 0;
+
+// a `while..true` loop would run forever, right?
+while (true) {
+	// stop the loop?
+	if ((i <= 9) === false) {
+		break;
+	}
+
+	console.log( i );
+	i = i + 1;
+}
+// 0 1 2 3 4 5 6 7 8 9
+
+continue pasting from the functions sub-chapter
+

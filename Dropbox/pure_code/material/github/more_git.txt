@@ -1,0 +1,147 @@
+//level 1
+git help
+git add
+git bisect
+git help config
+git config --global user.name "Gregg Pollack"
+git config --global user.email gregg@codeschool.com
+git config --global color.ui true
+mkdir store
+cd store
+git init
+git status
+git add README.txt
+git status
+git commit -m "Create a README."
+git add README.txt LICENSE
+git add --all
+git commit -m "Add LICENSE and finish README."
+git log
+git add <list of files>
+git add --all
+git add *.txt
+git add "*.txt" 
+git add docs/*.txt
+git add docs/ 
+//level 2
+git diff
+git add LICENSE
+git diff
+git diff --staged
+git status
+git reset HEAD LICENSE
+git checkout -- LICENSE
+git commit -a -m "Modify readme"
+git reset --soft HEAD^
+git add todo.txt
+git commit --amend -m "Modify readme & add todo.txt."
+git reset --soft HEAD^
+git commit --amend -m "New Message"
+git reset --hard HEAD^
+git reset --hard HEAD^^
+git remote add origin https/github.com/Gregg/git-real.git
+git remote -v
+git push -u origin master
+git pull
+git remote add <name> <address>
+git remote rm <name>
+git push -u <name> <branch>
+heroku create
+git remote -v
+git push heroku master
+//dont do these 4 after push
+git reset --soft HEAD^
+git commit --amend -m "New Message"
+git reset --hard HEAD^
+git reset --hard HEAD^^
+//level 3
+git clone https:/github.com/codeschool/git-real.git
+git clone https:/github.com/codeschool/git-real.git git-demo
+git remote -v
+git branch cat
+git checkout cat
+git add cat.txt
+git commit -m "Create quantum cat."
+ls
+git checkout master
+git branch -d cat
+git checkout -b admin
+//level 4
+git clone https://github.com/codeschool/git-real.git
+git add --all
+git commit -m "Add store and product models."
+git commit -am "Update the readme."
+git fetch
+git merge origin/master
+git pull
+git commit -a
+//level 5
+git checkout -b shopping_cart
+git push origin shopping_cart
+git commit -a -m "Add basic cart ability."
+git branch -r
+git remote show origin
+git push origin :shopping_cart
+git branch -d shopping_cart
+git branch -D shopping_cart
+git commit -m -a "Add ability to pay."
+git remote prune origin
+git branch
+git push heroku-staging staging
+git push heroku-staging staging:master
+git tag
+git checkout v0.0.1
+git tag -a v0.0.3 -m "version 0.0.3"
+git push --tags
+//level 6
+git commit -am "Update the readme."
+git rebase
+git rebase --continue
+//level 7  
+git config --global color.ui true
+git log --pretty=oneline
+git log --pretty=format:"%h %ad- %s [%an]"
+%ad author date
+%an author name
+%h SHA hash
+%s subject
+%d ref names
+git log --oneline -p
+git log --oneline --stat
+git log --oneline --graph
+git log --until=1.minute.ago
+git log --since=1.day.ago
+git log --since=1.hour.ago
+git log --since=1.month.ago --until=2.weeks.ago
+git log --since=2000-01-01 --until=2012-12-21
+git diff
+git diff HEAD
+git diff HEAD^
+git diff HEAD^^
+git diff HEAD~5
+git diff HEAD^..HEAD
+git diff 1adsf..4adsf
+git log --oneline
+git diff master bird
+git diff --since=1.week.ago --until=1.minute.ago 
+git blame index.html --date short
+git rm README.txt
+git rm --cached development.log
+git add .gitignore
+git config --global user.name "Gregg Pollack"
+git config --global user.email "gregg@codeschool.com"
+git config --global core.editor emacs
+git config --global merge.tool opendiff
+git config user.email "spamme@example.com"
+git config --list
+git config user.email
+git config --global alias.mylog \
+"log --pretty=format:'%h %s [%an]' --graph"
+git config --global alias.lol \
+"log --graph --decorate --pretty=oneline --abbrev-commit --all"
+git mylog
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git st
