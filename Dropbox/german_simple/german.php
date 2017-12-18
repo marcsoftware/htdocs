@@ -59,11 +59,16 @@
     $folder = '../pure_code/material/german';
 ?>
 
-<h6>A dual language youtube video</h6>
-step 3:<a class="hyperlink" onclick="nextPage(this,'de_easy_mc_smart.php')" rel="german_story.txt" name="../pure_code/material/german">german_story.txt</a><br/>
-step 4:<a class="hyperlink" onclick="nextPage(this,'de_easy_blank_smart.php')" rel="german_story.txt" name="../pure_code/material/german">german_story.txt</a>
-<br/>----<br/><br/>
-
+<h5>A dual language youtube video: <a href='https://www.youtube.com/watch?v=IwUuBYrlYy0'>YOUTUBE LINK</a></h5>
+step 1: audio not made yet.<br/>
+step 2: audio not made yet.<br/>
+step 3: <a class="hyperlink" onclick="nextPage(this,'de_easy_mc_smart.php')" rel="yt_german.txt" name="../pure_code/material/german">yt_german.txt</a><br/>
+step 4: <a class="hyperlink" onclick="nextPage(this,'de_easy_blank_smart.php')" rel="yt_german.txt" name="../pure_code/material/german">yt_german.txt</a><br/>
+ EDIT:
+ <a class="hyperlink" onclick="nextPage(this,'de_edit.php')" rel="yt.csv" name="../pure_code/material/german">yt.csv</a>
+ <?php getTime('yt.csv',$folder,'de_edit.php')?> <br/> 
+----
+<h5>short story: the kitchen clock</h5>
 
 <a href='https://therhinocolumn.wordpress.com/2014/05/01/the-kitchen-clock/'>human translation</a><br/>
 <a href='http://www.academia.edu/24526662/The_Kitchen_Clock_Die_K%C3%BCchenuhr_'> another human translation</a><br/>
@@ -94,7 +99,6 @@ EDIT :
 <br/>
 <a class="hyperlink" onclick="nextPage(this,'de_edit.php')" rel="full_story.csv" name="../pure_code/material/german">full_story.csv</a>
  <?php getTime('full_story.csv',$folder,'de_edit.php')?> <br/> 
- <a class="hyperlink" onclick="nextPage(this,'de_edit.php')" rel="yt.csv" name="../pure_code/material/german">yt.csv</a>
- <?php getTime('yt.csv',$folder,'de_edit.php')?> <br/> 
+
 
 </html>

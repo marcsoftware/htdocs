@@ -14,21 +14,6 @@
     //-----------------------------------------------------
     */
 
-
-
-//begin debug 	 
-  session_start(); 
-    if($_SESSION["customer_name"]){
-        echo $_SESSION["customer_name"] . "<br/>";
-    }
-
-	echo 'what';
-    $folder = '../pure_code/material/german';
-
-    // getTime('vocab_list_no_eng.txt',$folder,'de_spell.php');  // Thise lines together cause the bug. may be because of the require onece thing?   
-     getTime('vocab_list_no_eng.txt',$folder,'de_ear.php');    //
-     getTime('vocab_list_no_eng.txt',$folder,'de_ear.php');    //
-//end debug
   
   function formatTime($time){
         $seconds = ($time/1000);//
