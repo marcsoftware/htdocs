@@ -7,6 +7,7 @@
     //              
     // param  (string)   ($folder) the folder that the user is looking at.
     // param (string)    ($mode) the mode that the user has selected with the radio buttons
+    // param (string)    ($customer_name) name of the user
     // return (text)
     // 
     //-----------------------------------------------------
@@ -17,7 +18,8 @@
 
     $folder=$_GET["folder"]; // 
     $mode=$_GET["mode"]; // 
-    
+    $customer_name=$_GET["customer_name"]; // 
+
     $comment ='';
     
 
@@ -29,7 +31,7 @@
     }
     
     //TODO edit $sql to update if entry already exsists
-     $sql = "SELECT * from cookie where book='$folder' and game_type='$mode' ORDER BY timer ASC";
+     $sql = "SELECT * from cookie where book='$folder' and game_type='$mode' and customer_name='$customer_name' ORDER BY timer ASC";
 
 
     $result = $conn->query($sql);

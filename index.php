@@ -24,8 +24,10 @@ session_start();
 <p>My Top 5 Projects</p>
 1.<a href='/Dropbox/diet/diet.php'>Diet</a><br/>
 2.<a href='/Dropbox/manager/manager.php'>Manager</a><br/>
-3.<a href='/Dropbox/german_simple/german.php'>German Flashcards</a><br/>
-4. Mouse performance tester<br/><br/>
+3.<a href='/Dropbox/todo/todo.php'>TODO list, based on the Manager app</a>*<br/>
+4.<a href='/Dropbox/german_simple/german.php'>German Flashcards - short stories</a><br/>
+5.<a href='/Dropbox/german_simple/duolingo.php'>German Flashcards - duolingo</a>*<br/>
+6. Mouse performance tester<br/><br/>
 
 
 

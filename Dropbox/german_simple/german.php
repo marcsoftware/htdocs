@@ -5,7 +5,7 @@
 ?>
 <meta charset="UTF-8">
 <html>
-<title>german</title>
+<title>german stories</title>
 <?php include '../header.php';?>
 <?php include '../pure_code/getUsersTime.php';?>
 

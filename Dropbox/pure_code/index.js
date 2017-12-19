@@ -465,7 +465,7 @@ function getFolderStats(path){
 
      var new_path = FilePath.replace('/var/www/html',''); //delete un-needed part
 
-    xmlhttp.open("GET","/Dropbox/pure_code/getFolderStats.php?folder="+new_path+"&mode="+mode,false); // TODO This is badpractice. Turn false into true. //////
+    xmlhttp.open("GET","/Dropbox/pure_code/getFolderStats.php?folder="+new_path+"&mode="+mode+"&customer_name="+,false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
 
 }

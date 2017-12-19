@@ -1,0 +1,20 @@
+---------1 of 6
+Das Kind trinkt Milch.	 the child drinks milk
+Du trinkst.	you drink
+Wir trinken Wasser.	we drink water
+Danke, ichtrinke Wasser.	thanks i drink water
+Die Männer trinken Wasser.	the man are drinking water
+Wir trinken Wasser.		we are drinking water
+Die Jungen trinken Wasser.	the boys drink water
+Ich tringke Wasser. I drink water
+Wirwe trinken.	 we are drinking
+Der Junge trinkt Milch. the boy drinks milk
+Ich trinke, du trinkst. 	i drink, you drink
+Der Mann trinkt Milch.	the man drinks milk
+Ich trinke Wasser. i drink water
+Wir trinken Milch. we are drinking milk
+Ich trinke milk. i am drinking milk
+Du trinkst Milch. You drink milk
+X Du trinke Milch -> WRONG
+Wir trinken wasser. We are drinking water
+Ich trinke. i drink

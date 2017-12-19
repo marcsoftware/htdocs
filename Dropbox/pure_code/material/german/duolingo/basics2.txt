@@ -1,0 +1,20 @@
+Wir trinken	We drink
+Wir sind	We are
+Sie sind	They are
+Ihr seid	You (pl.) are
+der Männer	the men
+die Frauen	the women
+Sie ist	She is
+Sie sind	They are
+die Kinder	the children
+der Jungen	the boys
+lesen	to read
+haben	to have
+essen	to eat
+die Milch	the milk
+der Apfel	the apple
+die Zeitung	the newspaper
+Sie liest	She reads
+Du liest	You read
+das Buch	the book
+das Bücher	the books

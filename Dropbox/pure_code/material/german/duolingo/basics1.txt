@@ -1,0 +1,39 @@
+der Mann	the man
+die Frau	the woman
+der Junge	the boy
+das Mädchen	the girl
+das Kind	the child
+das Wasser	the water
+das Brot	the bread
+die Milch	the milk
+der Apfel	the apple
+gut	good
+sein	to be
+ich bin	I am
+du bist	you are
+er ist	he is
+wir sind	we are
+ihr seid	you are (pl)
+trinken	to drink
+ich trinke	I drink
+du trinkst	you drink
+er trinkt	he drinks
+wir trinken	we drink
+essen	to eat
+ich esse	I eat
+du isst	you eat
+wir essen	we eat
+ihr esst	you eat (pl)
+der	the (m)
+die	the (f)
+das	the (n)
+ein	a (m/n)
+eine	a (f)
+ich	I
+du	you
+er	he
+sie	she/they
+es	it
+wir	we
+ihr	you (plural)
+Sie	you (formal)
