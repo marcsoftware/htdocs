@@ -39,7 +39,7 @@
         die("Connection failed: " . $conn->connect_error);
     }
        
-    $today = date("m/d/Y h:i:s A");
+    $today = date("Y-m-d H:i:s");
 
         //  record doesn't already exsist so create ti
     $sql = "INSERT INTO manager

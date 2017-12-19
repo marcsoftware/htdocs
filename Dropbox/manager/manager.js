@@ -142,7 +142,6 @@ function update(name,project,body){
             }
         }
 
-
         xmlhttp.open("GET","/Dropbox/manager/readCookie.php?filter="+filter+'&projectName='+projectName,false); // TODO This is badpractice. Turn false into true. //////
         xmlhttp.send();
         

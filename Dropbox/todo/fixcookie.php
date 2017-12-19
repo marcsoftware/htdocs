@@ -30,7 +30,7 @@
 
     date_default_timezone_set('America/Denver');
      
-    $today = date("m/d/Y h:i:s A");
+    $today = date("Y-m-d H:i:s");
 
     $comment = '';
     

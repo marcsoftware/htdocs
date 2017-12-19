@@ -24,9 +24,6 @@
     require_once('../passwords/db_const.php');
     $dbname = "todo";
 
-
-    require_once('../passwords/db_const.php');
-
     $filter=$_GET["filter"]; 
     $projectName=$_GET["projectName"]; 
 

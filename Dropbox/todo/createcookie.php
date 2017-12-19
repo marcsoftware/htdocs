@@ -28,7 +28,6 @@
     $name=$_GET["name"]; 
     $project=$_GET["project"]; 
     $body=$_GET["body"]; 
-    $date=date("m/d/Y");
     
     $comment = '';
 
@@ -39,7 +38,7 @@
         die("Connection failed: " . $conn->connect_error);
     }
        
-    $today = date("m/d/Y h:i:s A");
+    $today = date("Y-m-d H:i:s");
 
         //  record doesn't already exsist so create ti
     $sql = "INSERT INTO todo
