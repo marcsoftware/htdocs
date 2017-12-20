@@ -1,29 +1,48 @@
-die Milch	the milk
-ihr trinkt	You all are drinking
-sie trinken	They are drinking
-ich trinke	I am drinking
-du trinkst	You are drinking (singular)
-er trinkt	He is drinking
-wir trinken	We are drinking
-ich esse	I eat
-du isst	You eat (singular)
-er isst	He is eating
-wir essen	We eat
-sie essen	They eat
-ihr esst	You all eat
-der Apfel	the apple
-ich lese	I read
-du liest	You read (singular)
-er liest	He is reading
-wir lesen	We read
-sie lesen	They read
-ihr lesen	You all read
+---------	1 of 6
+Das Kind trinkt Milch.	 the child drinks milk
+Du trinkst.	you drink
+Wir trinken Wasser.	we drink water
+Danke, ichtrinke Wasser.	thanks i drink water
+Die Männer trinken Wasser.	the man are drinking water
+Wir trinken Wasser.		we are drinking water
+Die Jungen trinken Wasser.	the boys drink water
+Ich tringke Wasser. I drink water
+Wirwe trinken.	 we are drinking
+Der Junge trinkt Milch. the boy drinks milk
+Ich trinke, du trinkst. 	i drink, you drink
+Der Mann trinkt Milch.	the man drinks milk
+Ich trinke Wasser. i drink water
+Wir trinken Milch. we are drinking milk
+Ich trinke milk. i am drinking milk
+Du trinkst Milch. You drink milk
+X Du trinke Milch -> WRONG
+Wir trinken wasser. We are drinking water
+Ich trinke. i drink
+
+---------	2 of 6
+der apfel	the apple
+we essen 	we eat
+ich esse 	i eat
+der junge isst	 the boy eats
+Die Männer essen Brot.	the men are eating bread
+Ihr esst. 	you eat
+Ihr esst.	you  all are eating
+Er isst einen Apfel. 	he eats an apple
+
+---------	3 of 6
 die Zeitung	the newspaper
-das Buch	the book
-Bücher	books
-ich habe	I have
-du hast	You have (singular)
-er hat	He has
-wir haben	We have
-sie haben	They have
-ihr habt	You all have
+du liest. 	you read
+Du liest eine Zeitung.	you read a newspaper
+Sie liest. 	she reads
+
+----------	4 of 6
+das Buch. the book
+Wir lesen Bücher. 	we read books
+Ich lese eine Zeitung.	i read a newspaper
+Er liest ein Buch. he reads a book
+wie lesen Bücher.	 we are reading books
+Ich lese die Zeitung.	i am reading the newspaper
+Du liest ein Buch. 	you read a book
+Ich lese. 	i am reading
+Die Kinder lesen Bücher.	the kids read books
+
