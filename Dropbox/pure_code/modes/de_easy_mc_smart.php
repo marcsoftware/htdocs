@@ -345,6 +345,8 @@ function NewQuiz (text,handle) {
 
      this.dictionary;
 
+     
+
 
 
     this.create = function(id) { //BROCKEN

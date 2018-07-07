@@ -1,0 +1,102 @@
+die Tiere	the animals
+die Katzen	the cats
+die Hunde	the dogs
+die Fische	the fish
+die Tomaten	the tomatoes
+die Zeitungen	the newspapers
+die Menschen	the people
+die Mädchen	the girls
+das Insekt	the insect
+die Orangen	the oranges
+die Äpfel	the apples
+die Kartoffeln	the potatoes
+die Eier	the eggs
+die Kühe	the cows
+die Schweine	the pigs
+die Vögel	the birds
+die Bären	the bears
+die Enten	the ducks
+die Mäuse	the mice
+perfekt	perfect
+schlecht	bad
+frei	free
+normal	normal
+toll 	great
+leicht 	light
+laut 	loud
+leise	quiet
+lang	long
+schwach	weak
+klar	clear
+klein	small
+rund	round
+groß	big
+ruhig	quiet
+neu	new
+schnell	fast
+langsam	slowly
+schön	beautiful
+wichtig	important
+teuer	expensive
+weit	far
+müde	tired
+kalt	cold
+schwer	heavy
+richtig	correct
+alt	old
+jung	young
+schmutzig	dirty
+sauber	clean
+hoch	high
+tief	deep
+warm	warm
+wollen	to want
+machen	to do
+spielen	to play
+laufen	to run
+gehen	to walk
+schlafen	to sleep
+mögen	to like
+lernen	to learn
+schreiben	to write
+sehen	to see
+hören	to hear
+kennen	to know
+bringen	to bring
+fahren	to drive
+rennen	to run
+denken	to think
+schwimmen	to swim
+beginnen	to begin
+bezahlen	to pay
+waschen	to wash
+brauchen	to need
+tragen	to carry
+das Kleid	the dress
+der Rock	the skirt
+der Hut	the hat
+der Schuh	the shoe
+die Kleidung	the clothes
+die Hose	the pants
+das Hemd	the shirt
+die Jacke	the jacket
+die Tasche	the bag
+der Knopf	the button
+der Schmuck	the jewelry
+der Ring	the ring
+passento	fit
+die Natur	the nature
+die Erde	the earth
+der Berg	the mountain
+der Baum	the tree
+der Wind	the wind
+das Feuer	the fire
+die Blume	the flower
+die Luft	the air
+das Meer	the sea
+der Mond	the moon
+der Himmel	the sky
+die Sonne	the Sun
+der Stern	the star
+fallen	to fall
+leben	to live

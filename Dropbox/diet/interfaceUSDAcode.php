@@ -10,34 +10,24 @@
     */
 
 	error_reporting(E_ALL); ini_set('display_errors', 1);
-	$item_code=$_GET["item_code"]; 
 	
-	$database = 'USDA_database/NUT_DATA.txt';
-	$reading = fopen($database, 'r');
+
 			
-	while (!feof($reading) ) { //has too loop through whole file even if already found
+	require_once('../passwords/db_const.php');
+    $dbname = "diet";
+	$conn = new mysqli($servername, $username, $password, $dbname);
 
-			$line = fgets($reading); 
+	$item_code = $_GET["item_code"];
+			
+	$sql = "SELECT * from usda where id='$item_code' ";
+	
+	$result = $conn->query($sql);
 
-			$fields = explode("^", $line);
+	while($row = $result->fetch_assoc()) {
+        // NOTE: id has to be the last field and be seperated by comma
+        echo($row["cal_per_100g"]);
+      
+    }
 
-
-			$code = $fields[0]; //code for food item
-			$nut_code = $fields[1]; 
-			$amount_per_100_grams=$fields[2];
-			$target_nut_code = 208;// 208 is the code for calories_per_100_grams.
-
-			if (preg_match("/$item_code/",$code) && preg_match("/$target_nut_code/",$nut_code) ) { // if extact match for code
-				
-				
-				echo "$amount_per_100_grams";
-				return;
-
-				
-				
-			}
-		  
-		 
-	}
-
+$conn->close();
 ?>

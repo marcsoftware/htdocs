@@ -1,0 +1,122 @@
+der Mann	the man
+die Frau	the woman
+der Junge	the boy
+ich	I
+ich bin	I am
+ein	one
+eine	a
+du	you
+du bist	you are
+das Kind	the child
+das Mädchen	the girl
+und	and
+das Brot	the bread
+das Wasser	the water
+er	he
+sie	they
+es	it
+ist	is
+er trinkt	he drinks
+wir	we
+ihr	you
+wir sind	we are
+ihr seid	you are
+die Männer	the men
+die Frauen	the women
+die Jungen	the boys
+die Kinder	the children
+hallo	hello
+tschüss	bye
+danke	thank you
+ja	yes
+nein	no
+guten morgen	good morning
+guten abend	good evening
+wie geht's	how are you
+mir geht's gut	I'm fine
+willkommen	welcome
+auf wiedersehen	goodbye
+bis später	see you later
+bis morgen	see you tomorrow
+es tut mir leid	I am sorry
+gute nacht	good night
+genau	exactly
+leider	unfortunately
+ich trinke	i drink
+du trinkst	you drink
+wir trinken	we drink
+die Milch	the milk
+ich esse	I eat
+sie isst	she eats
+wir essen	we eat
+ihr esst	y'll eat
+der Apfel	the apple
+sie liest	she reads
+die Zeitung	the newspaper
+ich lese	I read
+wir lesen	we read
+das Buch	the book
+die Bücher	the books
+er hat	he has
+ich habe	I have
+du hast	you have
+ihr habt	y'all have
+wir haben	we have
+kommen	to come
+aus	from
+deutschland	Germany
+Deutsch	German
+Englisch	English
+sprechen	to speak
+verstehen	to understand
+das Essen	the food
+der Hunger	the hunger
+die Pizza	the Pizza
+die Suppe	the soup
+der Fisch	the fish
+das Eis	the ice cream
+gut	good
+der Tee	the tea
+der Durst	the thirst
+schmeckt	tastes
+der Kaffee	the coffee
+das Bier	the beer
+der Wein	the Wine
+das Obst	the fruit
+die Orange	the orange
+die Banane	the banana
+der Saft	the juice
+der Apfelsaft	the apple juice
+der Orangensaft	the orange juice
+das Ei	the egg
+der Käse	the cheese
+das Fleisch	the meat
+das Gemüse	the vegetable
+die Kartoffel	the potato
+süß	sweet
+die Schokolade	the chocolate
+der Zucker	the sugar
+die Erdbeere	the strawberry
+frisch	fresh
+lecker	delicious
+das Salz	the salt
+die Nudeln	the noodles
+der Reis	the rice
+das Öl	the oil
+das Tier	the animal
+fressen	to eat(refering to aniamls)
+die Katze	the cat
+der Hund	the dog
+die Maus	the mouse
+der Bär	the bear
+das Haustier	the pet
+die Kuh	the cow
+das Pferd	the horse
+das Schwein	the pig
+der Vogel	the bird
+die Ente	the duck
+die Spinne	the spider
+das Insekt	the insect
+die Biene	the bee
+der Käfer	the beetle
+die Fliege	the fly

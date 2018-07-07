@@ -1,20 +1,84 @@
----------1 of 6
-Das Kind trinkt Milch.	 the child drinks milk
+//quizlet - put this in its own file as a master class maybe
+Hallo	hello
+Tschüß	bye
+Danke!	thank you!
+Bitte!	You're welcome!
+Bitte?	Please?
+Ja	yes
+Nein	no
+Guten Morgen	good morning
+Guten Tag	good afternoon
+Guten Abend	good evening
+Wie geht's?	What's up?
+Mir geht's gut.	I'm doing well.
+Mir geht's wunderbar.	I'm doing wonderful
+Mir geht's schlecht	I'm doing bad.
+Mir geht's nicht so gut.	I'm not doing so well.
+Willkommen!	welcome!
+Auf Wiedersehen!	Goodbye!
+Bis bald!	See you soon!
+Bis später!	See you later!
+Bis morgen!	See you tomorrow!
+Tut mir Leid.	I'm sorry.
+Gute Nacht!	Good night!
+Entschuldigung!	Excuse me!
+genau!	I agree.
+der Mann	the man
+die Frau	the woman
+der Junge	the boy
+das Mädchen	the girl
+ich bin	I am
+du bist	you are
+ein Mann	a man
+eine Frau	a woman
+ein Mädchen	a girl
+ein Junge	a boy
+ich trinke	I drink
+du trinkst	you drink
+er trinkt	he drinks
+sie trinkt	she drinks
+das Brot	the bread
+das Wasser	the water
+das Kind	the kid
+ein Kind	a kid
+wir sind	we are
+ihr seid	y'all are
+die Männer	the men
+die Frauen	the women
+die Jungen	the boys
+die Kinder	the kids
+//---------1 of 6
+Das Kind trinkt Milch.	the child drinks milk
 Du trinkst.	you drink
 Wir trinken Wasser.	we drink water
 Danke, ichtrinke Wasser.	thanks i drink water
 Die Männer trinken Wasser.	the man are drinking water
-Wir trinken Wasser.		we are drinking water
+Wir trinken Wasser.	we are drinking water
 Die Jungen trinken Wasser.	the boys drink water
-Ich tringke Wasser. I drink water
-Wirwe trinken.	 we are drinking
-Der Junge trinkt Milch. the boy drinks milk
-Ich trinke, du trinkst. 	i drink, you drink
+Ich tringke Wasser.	I drink water
+Wir trinken.	 we are drinking
+Der Junge trinkt Milch.	the boy drinks milk
+Ich trinke, du trinkst.	i drink, you drink
 Der Mann trinkt Milch.	the man drinks milk
-Ich trinke Wasser. i drink water
-Wir trinken Milch. we are drinking milk
-Ich trinke milk. i am drinking milk
-Du trinkst Milch. You drink milk
-X Du trinke Milch -> WRONG
-Wir trinken wasser. We are drinking water
-Ich trinke. i drink
+Ich trinke Wasser.	i drink water
+Wir trinken Milch.	we are drinking milk
+Ich trinke milk.	i am drinking milk
+Du trinkst Milch.	You drink milk
+X Du trinke Milch	- WRONG
+Wir trinken wasser.	We are drinking water
+Ich trinke.	i drink
+//---------2 of 6
+Guten Morgen.	Good morning.
+Hallo, Duo!	hello duo
+Willkommen!	welcome
+Guten Abend.	good afternoon
+Danke, guten Tag!	thanks good day
+Hallo, ich bin Duo.	hello i am Duo
+Tschüss Duo!	bye duo
+Ja bitte, Duo.	yes please duo
+..continoue form here
+
+//---------3 of 6
+//---------4 of 6
+//---------5 of 6
+//---------6 of 6

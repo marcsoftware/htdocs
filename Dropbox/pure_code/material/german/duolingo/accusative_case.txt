@@ -1,48 +1,70 @@
----------	1 of 6
-Das Kind trinkt Milch.	 the child drinks milk
+//dfdas
+du bist	you are
+er ist	he is
+es ist	it is
+sie ist	she is
+sie sind	they are
+Sie sind	you are (formal)
+wir sind	we are
+ihr seid	y'all are
+Das Kind trinkt Milch.	the child drinks milk
 Du trinkst.	you drink
 Wir trinken Wasser.	we drink water
-Danke, ichtrinke Wasser.	thanks i drink water
-Die Männer trinken Wasser.	the man are drinking water
-Wir trinken Wasser.		we are drinking water
+Danke; ich trinke Wasser.	thanks i drink water
+Die Männer trinken Wasser.	the men are drinking water
+Wir trinken Wasser.	we are drinking water
 Die Jungen trinken Wasser.	the boys drink water
-Ich tringke Wasser. I drink water
-Wirwe trinken.	 we are drinking
-Der Junge trinkt Milch. the boy drinks milk
-Ich trinke, du trinkst. 	i drink, you drink
+Ich trinke Wasser.	I drink water
+Wir trinken.	we are drinking
+Der Junge trinkt Milch.	the boy drinks milk
+Ich trinke; du trinkst.	i drink; you drink
 Der Mann trinkt Milch.	the man drinks milk
-Ich trinke Wasser. i drink water
-Wir trinken Milch. we are drinking milk
-Ich trinke milk. i am drinking milk
-Du trinkst Milch. You drink milk
-X Du trinke Milch -> WRONG
-Wir trinken wasser. We are drinking water
-Ich trinke. i drink
-
----------	2 of 6
+Ich trinke Wasser.	i drink water
+Wir trinken Milch.	we are drinking milk				
+Ich trinke milch.	i am drinking milk
+Du trinkst Milch.	You drink milk
+Wir trinken wasser.	We are drinking water
+Ich trinke.	i drink
 der apfel	the apple
-we essen 	we eat
-ich esse 	i eat
-der junge isst	 the boy eats
-Die Männer essen Brot.	the men are eating bread
-Ihr esst. 	you eat
-Ihr esst.	you  all are eating
-Er isst einen Apfel. 	he eats an apple
-
----------	3 of 6
+wir essen	we eat
+ich esse	i eat
+der junge isst	the boy eats
+Die Männer essen Brot	the men are eating bread
+Ihr esst	you  all are eating
+Er isst einen Apfel.	he eats an apple
 die Zeitung	the newspaper
-du liest. 	you read
-Du liest eine Zeitung.	you read a newspaper
-Sie liest. 	she reads
-
-----------	4 of 6
-das Buch. the book
-Wir lesen Bücher. 	we read books
-Ich lese eine Zeitung.	i read a newspaper
-Er liest ein Buch. he reads a book
-wie lesen Bücher.	 we are reading books
-Ich lese die Zeitung.	i am reading the newspaper
-Du liest ein Buch. 	you read a book
-Ich lese. 	i am reading
-Die Kinder lesen Bücher.	the kids read books
-
+du liest.	you read
+Du liest eine Zeitung	you read a newspaper
+Sie liest	she reads
+das Buch	the book
+Wir lesen Bücher	we read books
+Ich lese eine Zeitung	i read a newspaper
+Er liest ein Buch	he reads a book
+wir lesen Bücher	we are reading books
+Ich lese die Zeitung	i am reading the newspaper
+Du liest ein Buch.	you read a book
+Ich lese	i am reading
+Die Kinder lesen Bücher	the kids read books
+Du liest das Buch 	you read the book.
+Du liest die Zeitung 	you read the newspaper
+Sie hat Wasser	she has water
+Wir essen den Apfel 	we eat the apple
+Du trinkst das Wasser 	you drink the water
+Die Frau isst den Apfel	the woman eats the apple.
+Er hat einen Apfel 	he has an apple
+Du trinkst die Milch 	you drink the milk
+Der Mann trinkt das Wasser. 	the man drinks the water.
+sie hat wasser.	she has water.
+Der Junge isst das Brot.	the boy eats the bread
+Sie trinkt die Milch. 	she drinks the milk
+Er hat brot	he has bread.
+Ich habe Wasser 	i have water
+Wir haben Wasser	 we have water
+Du hast Wasser 	you have water
+Ihr habt wasser.	y'all have water
+Sie haben Bücher	They have books.
+Ihr habt Brot.	y'all have bread.
+Du hast ein Buch	you have a book.
+Wir haben einen Apfel .	we have an apple
+ich habe einen apfel.	I have an apple.
+ich habe ein Buch.	i have a book.

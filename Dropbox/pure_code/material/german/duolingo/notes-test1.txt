@@ -1,0 +1,175 @@
+basics 1
+--------
+GERMAN : all nouns are capitalized. 
+
+ein  -> a (masculine / neuter)
+eine -> a (feminine) 
+
+[sein] irregular so will have to memorize forms
+i am          ich bin
+you are       du bist  (singular)
+he  is        er ist
+it  is        es ist
+she is        sie ist
+they are      sie sind
+you are       Sie sind (formal,capitalized)
+we are        wir sind
+you are       ihr seid (plural)
+
+
+[trink]
+ich trinke -e I
+du trinkst -st you singular informal
+er trinkt  -t  he
+sie trinkt -t  she
+es trinkt  -t  it
+ihr trinkt -t you plural informal
+wir trinken -en we
+Sie trinken -en you formal [note the capital Sie]
+sie trinken -en they
+
+Don't ingnore dots. They can change the meaning of the word.
+Mutter -> mother
+Mütter -> mothers plural
+
+There is no continuous aspect in german.
+I drink. ----------\
+		     	    |---->Ich trinke.
+I am drinking. ----/
+
+Ich bin trinke    | These don't exist in german.
+Ich bin trinken   | 	
+
+--------
+basics 2
+--------
+
+in english "you are" can refer to one or even mutlple people,
+but not in german.
+		
+		/--- du bist (singular)
+you are ---- ihr seid (plural)
+        \--- sie sind (formal)
+
+
+In english present can be simple (learn) or 
+it can be progressive (learning) but not in 
+german.
+
+she learns--------\
+she is learning----|--->sie liernt.
+
+willkommen means welcome as in welcome to our house,
+It doens't mean 'thanks. Your welcome.
+
+There is no plural indefinate article
+a men      // very wrong
+ein Männer //also very wrong
+
+German plurals - the nominative Case
+
+In English, making plurals out of singular nouns is typically as straightforward as adding an "s" or an "es" at the end of the word. 
+In German, the transformation is more complex, and also the articles for each gender change. 
+
+    -e ending: most German one-syllable nouns will need -e in their plural form. 
+        das Brot => die Brote  
+        das Spiel => die Spiele
+    -er ending: most masculine or neuter nouns will need the -er ending, and there may be umlaut changes. F
+        das Kind => die Kinder 
+        der Mann => die Männer
+    -n/-en ending: most feminine nouns will take either -n or -en in all four grammatical cases, with no umlaut changes. 
+        die Frau => die Frauen
+        die Kartoffel => die Kartoffeln
+    -s ending: most foreign-origin nouns will take the -s ending for the plural, usually with no umlaut changes. 
+        der Chef => die Chefs
+    There is no change for most neuter or masculine nouns that contain any of these in the singular: -chen, -lein, -el, or -er. There may be umlaut changes.
+        das Mädchen => die Mädchen 
+        die Mutter =>  die Mütter
+
+Regardless of grammatical gender, all plural nouns take the definite article "die" (in the nominative case). 
+This does not make them feminine. The grammatical gender of a word never changes.
+Like many other words, "die" is simply used for multiple purposes.
+
+
+---------------
+accusative case
+---------------
+
+German Cases
+
+In English, the words "he" and "I" can be used as subjects (the ones doing the action in a sentence),
+ and they change to "him" and "me" when they are objects (the ones the action is applied to).
+  For example, we say "He likes me" and "I like him." 
+
+This is exactly the notion of a "grammatical case:" 
+the same word changes its form depending on its relationship to the verb. 
+
+    In English, only pronouns have cases, 
+    but in German most words other than verbs have cases: nouns, pronouns, determiners, adjectives, etc.
+
+Understanding the four German cases is one of the biggest hurdles in learning the language.
+most words change predictably so you only have to memorize a small set of rules.
+for now you just understand the difference between the two simplest cases: nominative and accusative.
+
+The subject of a sentence (the one doing the action) is in the nominative case.
+ So when we say "Die Frau spielt" (the woman plays), "Frau" is in the nominative.
+
+The accusative object is the thing or person that is directly receiving the action. 
+For example, in "Der Lehrer sieht den Ball" (the teacher sees the ball),
+ "Lehrer" is the nominative subject and "Ball" is the accusative object. 
+ Notice that the articles for accusative objects are not the same as the articles in the nominative case:
+  "the" is "der" in the nominative case and "den" in the accusative. 
+
+The following table shows how the articles change based on these two cases:
+Case  Masculine   Feminine  Neuter  Plural
+Nominative  der   die   das   die
+Accusative  den   die   das   die
+Case  Masculine   Feminine  Neuter
+Nominative  ein   eine  ein
+Accusative  einen   eine  ein
+
+The fact that most words in German are affected by the case explains why the sentence order is more flexible than in English. 
+For example, you can say "Das Mädchen hat den Apfel" (the girl has the apple) 
+or "Den Apfel hat das Mädchen."
+
+In both cases, "den Apfel" (the apple) is the accusative object, and "das Mädchen" is the nominative subject.
+Conjugations of the verb sein (to be)
+
+The verb "sein" (to be) is irregular, and its conjugations simply need to be memorized:
+German  English
+ich bin   I am
+du bist   you (singular informal) are
+er/sie/es ist   he/she/it is
+wir sind  we are
+ihr seid  you (plural informal) are
+sie sind  they are
+Sie sind  you (formal) are
+Conjugations of the verb essen (to eat)
+
+The verb "essen" (to eat) is slightly irregular in that the stem vowel changes from e to i in the second (du isst) and third person singular (er/sie/es isst) forms.
+English person  ending  German example
+I   -e  ich esse
+you (singular informal)   -st   du isst
+he/she/it   -t  er/sie/es isst
+we  -en   wir essen
+you (plural informal)   -t  ihr esst
+you (formal)  -en   Sie essen
+they  -en   sie essen
+How can you hear the difference between isst and ist?
+
+You can't. "isst" and "ist" sound exactly the same. In colloquial (rapid) speech, some speakers drop the "t" in "ist".
+
+So "Es ist ein Apfel" and "Es isst ein Apfel" sound the same?
+
+Yes, but you can tell it's "Es ist ein Apfel" because "Es isst ein Apfel" is ungrammatical. The accusative of "ein Apfel" is "einen Apfel". Hence, "It is eating an apple" translates as "Es isst einen Apfel."
+The verb haben (to have)
+
+In English, you can say "I'm having bread" when you really mean that you're eating or about to eat bread. This does not work in German. The verb haben refers to possession only. Hence, the sentence Ich habe Brot only translates to I have bread, not I'm having bread. Of course, the same applies to drinks. Ich habe Wasser only translates to I have water, not I'm having water.
+English person  ending  German example
+I   -e  ich habe
+you (singular informal)   -st   du hast
+he/she/it   -t  er/sie/es hat
+we  -en   wir haben
+you (plural informal)   -t  ihr habt
+you (formal)  -en   Sie haben
+they  -en   sie haben

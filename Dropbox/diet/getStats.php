@@ -20,6 +20,10 @@
     
     $item_name = ($_GET["item_name"]);
 
+    if(!$item_name){
+        return; // if name is empty don't do anything
+    }
+
     $customer_name = $_SESSION["customer_name"];
 
   
@@ -34,19 +38,20 @@
     
 
     $sql = "SELECT * from diet where customer_name='$customer_name' and name='$item_name' and
-        (( (total_cals != 0) and (total_amount !=0)) or ((cal_per_serv !=0) and (amount_per_serv!=0 )))
-        ORDER BY date ASC  ";
+        (( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 )))
+        ORDER BY date DESC  ";
 
     $result = $conn->query($sql);
     
 
-    //make sure the insert worked
-
-
-
     while($row = $result->fetch_assoc()) {
-        // NOTE: id has to be the last field and be seperated by comma
-        echo $row["name"].",".$row["total_cals"].",".$row["total_amount"].",".$row["cal_per_serv"].",".$row["amount_per_serv"]."{END}";
+        
+        
+
+       echo($row["name"].",".$row["total_cals"].",".$row["total_amount_unit"].$row["total_amount_label"].
+             ",".$row["cal_per_serv"].",".$row["amount_per_serv_unit"].$row["amount_per_serv_label"].","."  {END}\n"
+             );
+
       
     }
 

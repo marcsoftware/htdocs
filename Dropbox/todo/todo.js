@@ -25,20 +25,10 @@ lastFilter='';
 //-----------------------------------------------------------
 */
     function saveItem(){
-            var name =  document.getElementById('name').value;
-            var project =  document.getElementById('project').value;
             
-            var body =  document.getElementById('body').value.replace(/\n/g,"\\r");
-       
-            
-            
-            update(name,project,body);
-            
-              document.getElementById('name').value='';
-              document.getElementById('project').value='';
-              document.getElementById('body').value='';
-             
-            
+
+            update('000 new...','000 new...','new...',);
+
             main();
              
     }
@@ -51,8 +41,29 @@ lastFilter='';
 //turns quotes into codes to prevent errors
 function encode(x){
     try{
-        x= x.replace(/\'/g,"\\\'");
-        return x.replace(/\"/g,'\\\"');
+        x= x.replace(/\'/g,"ʽ");
+        x=x.replace(/\"/g,'ˮ');
+        x=x.replace(/\\/g,'\\\\');
+        x=x.replace(/&/g,'⅋'); // replace & because they break in the update function.
+        x=x.replace(/#/g,'⌗'); // replace # because they break in the update function.
+        x=x.replace(/\+/g,'✚'); // replace # because they break in the update function.
+        
+        //🎓
+        x=x.replace(/\]\]\]\]/g,'🎓');
+        //🦋
+        x=x.replace(/\[/g,'🐛');
+        x=x.replace(/\-\🐛/g,'🦋');
+        //📎
+        x=x.replace(/\]\]\]/g,'⚡');
+        //🔗
+        x=x.replace(/\]\]/g,'👓');
+
+        x=x.replace(/\]/g,'📌');
+        x=x.replace(/\-\📌/g,'    🆗 ');//📌🆗
+        x=x.replace(/\-\>/g,'⇨');
+        x=x.replace(/\>\>/g,'↳');
+        
+        return x;
     }catch(e){
         //do nothing
     }
@@ -95,6 +106,7 @@ function update(name,project,body){
                 
             }
         }
+
 
         xmlhttp.open("GET","/Dropbox/todo/createcookie.php?name="+name+'&project='+project+'&body='+body,false); // TODO This is badpractice. Turn false into true. //////
         xmlhttp.send();
@@ -276,13 +288,12 @@ function update(name,project,body){
         var container = document.getElementById('result');
 
         container.appendChild(inputProject);
-        container.appendChild(inputName);
+        //container.appendChild(inputName);
         container.appendChild(inputBody);
-        container.appendChild(inputDate);
-        container.appendChild(inputMark);
+        //container.appendChild(inputDate);
+        //container.appendChild(inputMark);
 
-        linebreak = document.createElement("br");
-        container.appendChild(linebreak);
+       
 
 
 
@@ -314,7 +325,7 @@ function update(name,project,body){
         
         // display each record from manager table to the user
                 
-        var result=`<input type='button' class='filter' value='${x}' onclick="setProject(this)"> </input>`;
+        var result=`<input type=button class='title' value='${x}' onclick="setProject(this)"> </input>`;
 
         document.getElementById('menu').innerHTML+=`${result}`;
 

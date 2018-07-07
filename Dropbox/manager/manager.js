@@ -51,8 +51,15 @@ lastFilter='';
 //turns quotes into codes to prevent errors
 function encode(x){
     try{
-        x= x.replace(/\'/g,"\\\'");
-        return x.replace(/\"/g,'\\\"');
+        x= x.replace(/\'/g,"ʽ");
+        x=x.replace(/\"/g,'ˮ');
+        x=x.replace(/\\/g,'\\\\');
+        x=x.replace(/&/g,'⅋'); // replace & because they break in the update function.
+        x=x.replace(/#/g,'⌗'); // replace # because they break in the update function.
+        x=x.replace(/\+/g,'✚'); // replace # because they break in the update function.
+        
+
+        return x;
     }catch(e){
         //do nothing
     }
@@ -194,6 +201,23 @@ function update(name,project,body){
         
     }
 
+
+/**
+//-----------------------------------------------------------
+//arg x
+//returns ☐  ☑
+//-----------------------------------------------------------
+*/
+
+function cast(x){
+    if(x===false){
+        return '☐';
+    }else{
+        return '☑';
+    }
+    
+}
+
 /**
 //-----------------------------------------------------------
 //
@@ -218,15 +242,14 @@ function update(name,project,body){
         inputName.type = "text";
         var inputBody = document.createElement("textarea");
         
-        var inputDate = document.createElement("input");
-        inputDate.type = "text";
+       
         var inputMark = document.createElement("input");
         inputMark.type = "button";
 
         inputProject.onchange="fix(${id},'${field[0]}',this.value)";
         inputName.onchange="fix(${id},'${field[1]}',this.value)";
        // inputBody.onchange="fix(${id},'${field[2]}',this.value)";
-        inputDate.onchange="fix(${id},'${field[3]}',this.value)";
+        
         x[4]=Number(x[4]);
         x[4]=Boolean(x[4]);
         inputMark.mousedown="fix(${id},'${field[4]}',this.value)";
@@ -234,14 +257,15 @@ function update(name,project,body){
         inputProject.value=x[0];
         inputName.value=x[1];
         inputBody.value=x[2];
-        inputDate.value=x[3];
-        inputMark.value=x[4];
+        
+        inputMark.value=cast(x[4]);
 
         //
         inputProject.className='big';
         inputName.className='big';
-        inputBody.className='big';
-        inputDate.className='big';
+        inputBody.className='notepad';
+        inputMark.className='small';
+        
         
         
         //add event listeners
@@ -261,10 +285,7 @@ function update(name,project,body){
         }, true);
 
 
-        inputDate.addEventListener("blur", function( event ) {
-            fix(id,field[3],this.value)
-            //event.target.style.background = "pink";    
-        }, true);
+     
 
         inputMark.addEventListener("click", function( event ) {
             markDone(id,field[4],this)
@@ -272,16 +293,19 @@ function update(name,project,body){
         }, true);
 
         //render the elements
-        var container = document.getElementById('result');
+        var bigger_container = document.getElementById('result');
 
+        //
+        var container =  document.createElement("div");
+        container.appendChild(inputMark);  
         container.appendChild(inputProject);
         container.appendChild(inputName);
         container.appendChild(inputBody);
-        container.appendChild(inputDate);
-        container.appendChild(inputMark);
-
+        
         linebreak = document.createElement("br");
         container.appendChild(linebreak);
+
+        bigger_container.appendChild(container);
 
 
 
@@ -416,16 +440,18 @@ function update(name,project,body){
     //
     function markDone(id,field,handle){
         value = handle.value;
-
-        if(value==='true'){
+        var mark;
+        if(value==='☑' || value===true){
             value=false;
+            mark = '☐';
         }else{
             value=true;
+            mark = '☑';
         }
 
         
 
-        handle.value=value;
+        handle.value=mark;
         fix(id,field,value);
     }
 

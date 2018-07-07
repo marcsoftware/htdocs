@@ -1,0 +1,288 @@
+ohne	without
+gegen	against
+durch	through
+für	for
+entlang	along
+// Zahlen 10/4	// Numbers 10/4
+es gibt	there are
+eins	one
+Zwei	two
+drei	three
+vier	four
+fünf	five
+sechs	six
+sieben	seven
+acht	eight
+Neun	nine
+zehn	ten
+elf	eleven
+zwölf	twelve
+dreizehn	thirteen
+vierzehn	fourteen
+fünfzehn	fifteen
+Sechszehn	sixteen
+siebzehn	seventeen
+achtzehn	eighteen
+neunzehn	nineteen
+die Zahl	the number
+zählen	to count
+die Summe	the sum
+die Hälfte	the half
+das Dutzend	the dozen
+das Telefon	the phone
+das Frühstück	breakfast
+wir frühstücken	we eat breakfast
+die Butter	the butter
+die Marmelade	the jam
+das Müsli	the cereal
+die Nuss	The Nut
+der Honig	the honey
+das Mittagsessen	the lunch
+salzig	salty
+das Rezept	the recipe
+die Tomate	the tomato
+der Pilz	the mushroom
+das Hähnchen	the chicken
+ich koche	I cook
+die Zitrone	the lemon
+das Getränk	the drink
+die Speisekarte	the menu
+die Vorspeise	the appetizer
+der Salat	the salad
+der Knoblauch	the garlic
+die Zwiebel	the onion
+der Senf	the mustard
+der Nachtisch	the dessert
+das Abendessen	the dinner
+der Löffel	the spoon
+die Gabel	the fork
+das Messer	the knife
+geben	to give
+zeigen	to show
+sagen	to say
+das Geld	the money
+Kosten	to cost
+der Euro	the euro
+der Cent	cent
+kaufen	to buy
+der Preis	the price
+gewinnen	to win
+der Dollar	the dollar
+Reich	rich
+haben	to have
+besitzen	have
+mir	me
+dir	you
+ihm	him
+das Trinkgeld	the tip
+helfen	to help
+danken	to thank
+gehören	to belong
+ihnen	them
+Folgen	to follow
+die Tante	the aunt
+der Onkel	the uncle
+die Nichte	the niece
+der Neffe	the nephew
+der Cousin	the cousin
+der Cousin	the cousin
+die Cousine	the cousin
+der Zwilling	the twin
+der Urenkel	the great-grandson
+die Partnerschaft	the partnership
+die Hochzeit	the wedding
+schwanger	pregnant
+der Halbbruder	the half-brother
+die Halbschwester	the half-sister
+verheiratet	married
+seit	since
+von	from
+mit	with
+nach	nach
+der Körper	the body
+der Kopf	the head
+das Haar	the hair
+das Auge	the eye
+das Ohr	the ear
+die Nase	the nose
+der Mund	the mouth
+der Zahn	the tooth
+der Hals	the neck
+der Arm	the arm
+sterben Hand	the hand
+der Finger	the finger
+die Schulter	the shoulder
+der Rücken	the back
+die Brust	the chest
+die Brust	the breast
+der Magen	the stomach
+das Herz	the heart
+das Bein	the leg
+die Haut	the skin
+der Fuß	the foot
+das Blut	the blood
+das Gesicht	the face
+irgendwie	somehow
+irgendwann	sometime
+einkaufen	shop
+die Bäckerei	the bakery
+der Laden	the load
+das Geschäft	the store
+verkaufen	to sell
+der Kunde	the customer
+der Supermarkt	the supermarket
+der Einkauf	the purchase
+die Kasse	the cash register
+die Tüte	the bag
+der Gutschein	the coupon
+Einkaufen	shopping
+die Apotheke	the pharmacy
+billig	cheap
+gratis	free
+Österreich	austria
+das Auto	the car
+Wien	Vienna
+der Zug	the train
+der Bus	the bus
+der Urlaub	the vacation
+der Pass	the passport
+Bayern	Bavaria
+Afrika	africa
+der Punkt von Interesse	the point of interest
+die Sehenswürdigkeiten	the attraction
+die Reise	the trip
+die Maut	the great
+der Zoll	the customs
+das Boot	the boat
+Frankreich	France
+Grossbritannien	Great Britain
+die Stadt	the city
+der Tourismus	the tourism
+der Weg	the way
+der Flug	the flight
+das Motorrad	the motorcycle
+Schweiz	switzerland
+Spanien	Spain
+das Abenteuer	the adventure
+die Miete	the rent
+die Route	the route
+die Strecke	the distance
+der Verkehr	the traffic
+die Fahrt	the drive
+Italien	italy
+die Bahn	the train
+der Urlaub	the vacation
+die Ferien	the holiday
+Der Besuch	the visit
+die Reise	the trip
+die Tour	The Tour
+Wandern	to hike
+Schweden	Sweden
+der Bus	the bus
+fliegen	to fly
+der Reiseführer	the travel guide
+die Fähre	the ferry
+die Verspätung	the delay
+buchen	to book
+zwanzig	twenty
+dreißig	thirty
+vierzig	Fourty
+fünfzig	fifty
+sechzig	sixty
+siebzig	seventy
+achtzig	eighty
+neunzig	ninety
+einundzwanzig	twenty-one
+dreiundzwanzig	twentythree
+zweiunddreißig	thirty-two
+vierundzwanzig	twenty four
+zweiundvierzig	forty-two
+achtundzwanzig	twenty eight
+zweiundachtzig	eighty-two
+hundert	hundred
+tausend	thousand
+hundertdreiundzwanzig 	one hundred twenty three
+der Meter	the meter
+das Prozent	the percent
+der Liter	the liter
+die Milliarde	the billion
+die Million	the million
+die Farbe	the color
+verrotten	red
+grün	green
+blau	blue
+gelb	yellow
+schwarz	black
+weiß	White
+auswendig	Red
+braun	brown
+grau	Gray
+bunt	colorful
+Rosa	pink
+biegen	to bend
+der Beruf	the profession
+der Arzt	the doctor
+der Bäcker	the baker
+die Bäckerin	the Baker
+der Koch	the chef
+der Köchin	the Cook
+der Student	the college student
+die Studentin 	the student
+der Lehrer	the teacher
+die Lehrerin	the teacher
+der Schüler	the pupil
+die Schülerin	the pupil
+die Professorin	the professor
+der Professor	the professor
+der Arbeitgeber	the employer
+der Mitarbeiter	the employee
+die Arbeit	the work
+der Bürgermeister	the mayor
+der Senior	the senior
+der Autor	the author
+der Trainer	the trainer
+der Chef	the boss
+die Chefin	the boss
+der Architekt	the architect
+der Verkäufer	the seller
+die Bedienung	the service
+der Fahrer	the driver
+die Feuerwehr	the fire department
+der Bauer	the farmer
+sitzen	to sit
+im	in
+unter	under
+zwischen	in between
+hinter	behind
+neben	next to
+während	while
+am	at the
+an	to
+wegen	because of
+einschließlich	Including
+außer	except
+Plastik	plastic
+das Glas	the glass
+der Sand	the sand
+der Stein	the stone
+die Wolle	the wool
+der Beton	the concrete
+die Pappe	the cardboard
+das Papier	the paper
+das Leder	the leather
+das Holz	the wood
+die Baumwolle	the cotton
+das Metall	the metal
+das Gold	the gold
+das Silber	the silver
+das Kupfer	the copper
+der Stahl	the steel
+die Mauer	the wall
+erste	first
+dritte	third
+zweite	second
+vierte	fourth
+fünfte	fifth
+sechste	sixth
+ähnlich	similar
+Mathematik	mathematics

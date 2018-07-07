@@ -23,12 +23,12 @@
    date_default_timezone_set('America/Denver');
 
      
-    $today = date("m/d/Y");
+    $today = date("Y/m/d");
 
     $today = new DateTime($today);
     date_add($today, date_interval_create_from_date_string("$date days"));
 
-    $today = $today->format('m/d/Y');
+    $today = $today->format('Y/m/d');
     
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -43,8 +43,8 @@
 
     while($row = $result->fetch_assoc()) {
         // NOTE: id has to be the last field and be seperated by comma
-        echo($row["name"]." ~ ".$row["total_cals"]." ~ ".$row["total_amount"].
-             " ~ ".$row["cal_per_serv"]."~".$row["amount_per_serv"].'~'.$row['date']." ~ ".$row["id"]."  <br/>\n"
+        echo($row["name"]." ~ ".$row["total_cals"]." ~ ".$row["total_amount_unit"].$row["total_amount_label"].
+             " ~ ".$row["cal_per_serv"]."~".$row["amount_per_serv_unit"].$row["amount_per_serv_label"].'~'.$row['date']." ~ ".$row["id"]."  <br/>\n"
              );
       
     }

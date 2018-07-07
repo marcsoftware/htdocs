@@ -28,7 +28,7 @@
 
 <?php
             } else {
-                require_once("db_const.php");
+                require_once("../passwords/db_const.php");
                 $mysqli = new mysqli($servername, $username, $password, $db_name);
                 # check connection
                 if ($mysqli->connect_errno) {
@@ -62,7 +62,7 @@ and finally the code for registration create a file called register.php
 </head>
 <body>  
 <?php
-require_once("db_const.php");
+require_once("../passwords/db_const.php");
 if (!isset($_POST['submit'])) {
 ?>  <!-- The HTML registration form -->
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
@@ -76,7 +76,7 @@ if (!isset($_POST['submit'])) {
 <?php
 } else {
 ## connect mysql server
-    $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    //$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
     # check connection
     if ($mysqli->connect_errno) {
         echo "<p>MySQL error no {$mysqli->connect_errno} : {$mysqli->connect_error}</p>";
@@ -86,8 +86,7 @@ if (!isset($_POST['submit'])) {
     # prepare data for insertion
     $username   = $_POST['username'];
     $password   = $_POST['password'];
-    $first_name = $_POST['first_name'];
-    $last_name  = $_POST['last_name'];
+
     $email      = $_POST['email'];
 
     # check if username and email exist else insert
@@ -107,8 +106,8 @@ if (!isset($_POST['submit'])) {
     else if ($exists == 3) echo "<p>Email already exists!</p>";
     else {
         # insert data into mysql database
-        $sql = "INSERT  INTO `user` (`id`, `username`, `password`, `first_name`, `last_name`, `email`) 
-                VALUES (NULL, '{$username}', '{$password}', '{$first_name}', '{$last_name}', '{$email}')";
+        $sql = "INSERT  INTO `user` (`id`, `username`, `password`,  `email`) 
+                VALUES (NULL, '{$username}', '{$password}', '{$email}')";
 
         if ($mysqli->query($sql)) {
             //echo "New Record has id ".$mysqli->insert_id;

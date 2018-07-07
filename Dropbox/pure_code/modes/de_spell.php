@@ -166,7 +166,7 @@ function NewQuiz (text,handle) {
     this.score=1;
     this.lines;
     this.maxScore=0;
-    this.comments;
+    this.comments=new RegExp("\/\/.*","g");;
     this.codes;
     this.id;
     //static variables
@@ -182,9 +182,11 @@ function NewQuiz (text,handle) {
 
        
         text = text.replace(this.catchComments,'');
+        var tabs = new RegExp("\t.*","g");
+        text = text.replace(tabs,'');
         this.codes=text.split('\n');
 
-        this.codes=this.codes.filter(function(n){ return n != undefined || n != '\n'}); 
+        this.codes=this.codes.filter(function(n){ return n != undefined || n.length >=2}); 
  
         this.maxScore=this.codes.length-1;
 
@@ -287,6 +289,7 @@ function NewQuiz (text,handle) {
 
 
     function playAudio(word){
+        word=word.replace(/\ /g,'.'); //our audiofolder has dots instead of spaces.
       var word = new Audio(`../../audio-de/${word}.wav`);
       word.play();
       delete word;
@@ -640,9 +643,10 @@ NewQuiz.prototype = new Quiz();
 
 
 <!--bar -->
-<span id='totalLines'></span><span class='space'></span>line:<br/>
+
 <progress id='lineProgress' value="22" max="100">
 </progress><br/>
+<span id='totalLines'></span><span class='space'></span>line:<br/>
 
 <!--bar -->
 <span id='totalChars'></span>characters:<br/>

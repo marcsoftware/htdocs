@@ -1,0 +1,51 @@
+//	
+ein Mann	a (indefinite masculine)
+ein Mädchen	a (indefinite neuter)
+eine Frau	a (indefinite feminine)
+der Mann	the (defininite masculine)
+das Mädchen	the (definite neuter)
+die Frau	the (definite feminine)
+ich bin	i am
+du bist	you (singular informal) are
+er/sie/es ist	he/she/it is
+wir sind	we are
+ihr seid	you (plural informal) are
+sie sind	they are
+Sie sind	you (formal) are
+ich trinke	i drink
+du trinkst	you drink
+er/sie/es trinkt	he/she/is drinks
+wir trinken	we drink
+ihr trinkt	y'all drink
+Sie trinken	you(formal) drink
+sie trinken	they drink
+e	I-
+st	you-
+t	he/she/it-
+en	we-
+t	y'all-
+en	you(formal)-
+en	they-
+ich bin	I am
+du bist	you are
+er/sie/es ist	he/she/it is
+wir sind	we are
+ihr seid	y'all are
+sie sind	they are
+Sie sind	you(formal) are
+den/einen	masculine  accusative
+der/ein	masculine nominative
+ich esse	I eat
+du isst	you eat
+er/sie/es isst	he/she/it eats
+wir essen	we eat
+ihr esst	y'all eat
+Sie essen	you(formal) eat
+sie essen	they eat
+ich habe	I have
+du hast	you have
+er/sie/es hat	he/she/it has
+wir haben	we have
+ihr habt	y'all have
+Sie haben	you(formal) have
+sie haben	they have

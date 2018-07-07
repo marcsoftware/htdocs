@@ -1,0 +1,140 @@
+mein	my
+meine	my
+dein	your
+deine	yours
+unser	our
+euer	your
+beide	both
+viele	many
+alle	all
+alles	everything
+niemand	no one
+jemand	someone
+etwas	something
+ein paar	a few
+keine	none
+niemals	never
+nichts	nothing
+auch	also
+so	so
+gerne	gladly
+wirklich	really
+noch	still
+nur	just
+schon	already
+immer	always
+zusammen	together
+vielleicht	maybe
+wieder	again
+alleine	alone
+das Gebäude	the building
+das Haus	the House
+der Markt	the market
+die Schule	the school
+der Garten	the garden
+die Ecke	the corner
+der Bahnhof	the train station
+das Restaurant	the restaurant
+die Bibliothek	the library
+die Bank	the bank
+das Hotel	the hotel
+die Straße	the road
+bauen	to build
+das Land	the country
+die Stadt	the city
+das Dorf	the village
+die Brücke	the bridge
+der Park	the park
+das Zimmer	the room
+das Fahrzeug	the vehicle
+das Flugzeug	the airplane
+das Werkzeug	the tool
+das Spielzeug	the toy
+mich	me
+dich	you
+ihn	him
+uns	us
+euch	you
+öffnen	to open
+die Wand	the wall
+das Fenster	the window
+die Tür	the door
+der Zaun	the fence
+die Treppe	the stairway
+die Wohnung	the apartment
+das Dach	the roof
+der Balkon	the balcony
+der Keller	the basement
+der Schlüssel	the key
+die Küche	the kitchen
+das Wohnzimmer	the living room
+der Tisch	the tablet
+der Stuhl	the chair
+der Schrank	the cabinet
+das Sofa	the sofa
+die Möbel	the furniture
+der Schlaf	the sleep
+das Bett	the bed
+der Teppich	the carpet
+die Lampe	the lamp
+das Licht	the light
+die Steckdose	the socket
+entweder	either
+oder	or
+aber	but
+denn	because
+wenn	if
+weil	because
+dass	that
+da	since
+obwohl	although
+die Person	the person
+der Freund	the friend
+der Name	the name
+der Vorname	the first name
+der Mensch	the human
+die Leute	the people
+der Herr	the gentleman
+die Dame	the lady
+der Bürger	the citizen
+das Publikum	the audience
+die Gruppe	the group
+der Gast	the guest
+der Vegetarier	the vegetarian
+der Gegner	the opponent
+das Mitglied	the member
+der Anfänger	the Beginner
+der Besucher	the guest
+der Feind	the enemy
+der Nachbar	the neighbor
+was	what
+wo	where
+wann	when
+warum	why
+wofür	for what
+wer	who
+wie	like
+worüber	about what
+wie viele	how many
+wie viel	how much
+die Frage	the question
+die Antwort	the answer
+wir antworten	we answer
+die Mutter	the mother
+der Vater	the father
+die Schwester	the sister
+der Bruder	the brother
+die Tochter	the daughter
+der Sohn	the son
+die Familie	the family
+die Eltern	the parents
+die Geschwister	the siblings
+der Partner	the partner
+die Beziehung	the relationship
+die Großeltern	the grandparents
+der Großvater	the grandpa
+die Großmutter	the grandmother
+der Enkel	the grandson
+die Enkelin	the granddaughter
+die Oma	the grandmother
+der Opa	the grandpa 

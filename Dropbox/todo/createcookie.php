@@ -43,7 +43,7 @@
         //  record doesn't already exsist so create ti
     $sql = "INSERT INTO todo
             VALUES (
-                NULL, '$today', '$name', '$body', '$project',0,'$customer_name'
+                NULL, '$project', '$name', '$body', '$today',0,'$customer_name'
                     )";
         
                 

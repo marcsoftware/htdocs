@@ -284,12 +284,6 @@ function NewQuiz (text,handle) {
 
     };
 
-    function playAudio(word){
-      var word = new Audio(`../../audio-de/${word}.wav`);
-      word.play();
-      delete word;
-
-    }
 
 
 
@@ -483,6 +477,7 @@ function NewQuiz (text,handle) {
             this.clear();
 
             this.correctAns();
+            
             playAudio(this.getCurrentLine().join('').trim());
             if(saveLines[this.id]<this.score || saveLines[this.id] === undefined){// if the new number is bigger
               saveLines[this.id]=this.score; // permantanly safe the users progress

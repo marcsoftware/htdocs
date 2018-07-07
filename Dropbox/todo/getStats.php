@@ -41,7 +41,7 @@
 
   //get all records that have the right costomer_name and count them.
   $sql = "SELECT COUNT(isDone) as total from todo where $condition AND customer_name='$customer_name'";
-
+  
   $result = $conn->query($sql);
   $row = $result->fetch_assoc();
   $total =  $row['total']; //save total

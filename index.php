@@ -3,10 +3,13 @@ ini_set('session.cookie_lifetime', 60 * 60 * 24 * 199);
 session_start(); 
 	if(isset($_SESSION["customer_name"])){
 		echo $_SESSION["customer_name"] . "<br/>";
+	}else{
+		 
 	}
 ?>
 <?php include 'Dropbox/header.php';?>
 <!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -24,21 +27,24 @@ session_start();
 <p>My Top 5 Projects</p>
 1.<a href='/Dropbox/diet/diet.php'>Diet</a><br/>
 2.<a href='/Dropbox/manager/manager.php'>Manager</a><br/>
-3.<a href='/Dropbox/german_simple/duolingo.php'>German Flashcards - duolingo</a>*<br/>
-4. Mouse performance tester<br/><br/>
-5. ?
+3.<a href='/Dropbox/german_simple/duolingo.php'> Flashcards - duolingo german</a><br/>
+3.<a href='/Dropbox/skill/skill.php'> skill trainer</a><br/>
+5. ?<br/>
 
 
 
 <?php
-	if($_SESSION["customer_name"] == "bob"){
+	if(isset($_SESSION["customer_name"]) && $_SESSION["customer_name"] == "bob"){
 		echo "
-
+		----EXPERIMENTAL : STILL IN DEVELOPMENT----<br/>
+a. <a href='/Dropbox/todo2/todo2.php'>todo version 2</a><br/>
+b. <a href='/Dropbox/german_simple/timeline.php'> timelines</a><br/>
 		#.<a href='/Dropbox/programming_simple/js.php'>JavaScript Notes</a><br/>
 		#.<a href='/Dropbox/pure_code/index.php'>Monolith</a><br/>
 		#.<a href='/Dropbox/guides/github/github.php'>Github Guide</a><br/>
 		#.<a href='/Dropbox/quicktools/clean_captions.php'>clean captions</a><br/>
-		----
+		#.<a href='/Dropbox/quicktools/clean_keys.php'>clean ans keys</a><br/>
+		----<br/>
 		#.<a href='/Dropbox/german_simple/german.php'>German Flashcards - short stories</a><br/>
 		#.<a href='/Dropbox/todo/todo.php'>TODO list, based on the Manager app</a>*<br/>
 		  

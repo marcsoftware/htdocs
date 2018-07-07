@@ -56,10 +56,10 @@
     
 
     //delete empty records
-    $sql = "DELETE FROM todo WHERE name = '' and project='' and  body=''";
+    $sql = "DELETE FROM todo WHERE project='' and  body=''";
     $conn->query($sql);
 
-    $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' order by date DESC ";
+    $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' order by project ASC ";
   
     $result = $conn->query($sql);
     

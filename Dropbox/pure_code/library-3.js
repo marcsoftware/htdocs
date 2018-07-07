@@ -31,6 +31,23 @@ var time_unit=1000*60; // one minute
 var doneWords;
 var doneChars;
 
+
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+function playAudio(word){
+      word=word.replace(/\ /g,'.'); //our audiofolder has dots instead of spaces.
+      var word = new Audio(`../../audio-de/${word}.wav`);
+      word.play();
+      try{
+       
+      }catch(e){
+        console.log("ERROR: cant delete word");
+      }
+}
+
 /**
 //-----------------------------------------------------------
 //
@@ -114,7 +131,7 @@ function parse(text){
 
     }else{
         
-        text = '<div>\n'+text+'\n</div>';
+        text = '<div>'+text+'</div>';
 
     }
 
@@ -141,6 +158,7 @@ function init(){
     readFile(file_path);
 
     original=parse(original); // TODO bad name. ReadFIle() returns this as a global varibale which is bad
+    
     document.getElementById('file').innerHTML=original.trim();
 
     //make file look like a quiz
@@ -165,12 +183,12 @@ function testArray(element){
 */
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
-
+ var seed = 0.1234;
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
 
     // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
+    randomIndex = Math.floor(seed * currentIndex);
     currentIndex -= 1;
 
     // And swap it with the current element.
@@ -181,6 +199,21 @@ function shuffle(array) {
 
   return array;
 }
+
+
+    /**
+     * Shuffles array in place.
+     * @param {Array} a items The array containing the items.
+     */
+    function shuffle2(a) {
+        var j, x, i;
+        for (i = a.length; i; i--) {
+            j = Math.floor(Math.random() * i);
+            x = a[i - 1];
+            a[i - 1] = a[j];
+            a[j] = x;
+        }
+    }
 
 /**
 //-----------------------------------------------------------
@@ -700,13 +733,7 @@ this.updateMapBar= function(done){
   this.markAsDone = function(){
     
     this.already_done =true;
-    this.handle.style.backgroundColor='black'; //
-    this.handle.style.borderColor='green'; //
-    this.handle.style.borderWidth='10px'; //
-    this.handle.style.borderStyle='solid'; //
-    this.handle.style.borderTopStyle='none'; //
-    this.handle.style.borderBottomStyle='none'; //
-    this.handle.style.borderRightStyle='none'; //
+
 
   }
 

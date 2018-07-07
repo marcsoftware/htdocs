@@ -356,7 +356,7 @@ function NewQuiz (text,handle) {
 
         this.codes=this.codes.filter(function(n){ return n != undefined }); 
 
-        this.maxScore=this.codes.length;
+        this.maxScore=this.codes.length-1;
 
         var new_text  = text.replace(/\<br\/\>/gm,'');
 
@@ -365,20 +365,9 @@ function NewQuiz (text,handle) {
         this.handle.innerHTML='';
 
 
-        //this.handle.innerHTML+="<br/><br/><br/>"; //make space between butotns and text
         
         this.handle.innerHTML+=`<p></p> <p></p><input id='userbox' type='text'></input>  <p></p> ` ;//make the place holder elements
-        
-        //this.display(this.lines);
 
-
-
-        
-        //this.drawTextBox();
-
-         
-        // if example  was compledted by user in previous session then mark it as grey
-       
         
         
         this.updateNavBar();

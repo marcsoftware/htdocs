@@ -25,8 +25,8 @@
     }
     
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT distinct name  from diet where customer_name='$customer_name'  and
-            ( (total_cals != 0) and (total_amount !=0)) or ((cal_per_serv !=0) and (amount_per_serv!=0 ))
+    $sql = "SELECT distinct name  from diet where customer_name='$customer_name'  and (name != 0) and
+            ( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 ))
             ORDER BY date DESC  ";
     
 
@@ -34,7 +34,7 @@
     
     while($row = $result->fetch_assoc()) {
         // NOTE: id has to be the last field and be seperated by comma
-        echo $row["name"]." , ";
+        echo $row["name"].",";
       
     }
 

@@ -1,0 +1,129 @@
+//
+Ich lese	I (am) read(ing)
+Du liest	you (are) read(ing)
+Er liest	he (is) read(ing)
+Sie liest	she (is) read(ing)
+Wir lesen	we (are) read(ing)
+Milch	milk
+der/ein Apfel	the/an apple
+die/eine Zeitung	the/a newspaper
+das/ein Buch	the/a book
+Bücher	books
+when use den/einen?	article used when masculine words receive the action
+hallo.	hello.
+tschüss	bye
+danke	thank you
+bitte	please
+ja	yes
+nein	no
+guten morgen	good morning
+guten tag	good afternoon
+guten abend	good evening
+gute nacht	good night
+gut	good
+mir geht's gut	I am well
+wie geht's?	how are you?
+gern geschehen	you're welcome
+gern	gladly
+willkommen	welcome
+auf wiedersehen	good bye
+bis bald	see you soon
+bis später	see you later
+bis morgen	see you tomorrow
+es tut mir leid	I'm sorry
+entschuldigung	Sorry/pardon
+genau	I agree
+in ordnung	alright
+leider	unfortunately
+mann	man
+frau	woman
+junge	boy
+ich	I
+bin	am (I)
+ein	a (masculine/neuter)
+eine	a (feminine)
+du	you
+bist	are (you)
+kind	kid
+mädchen	girl
+und	and
+brot	bread
+wasser	water
+er	he
+sie	they
+es	it
+ist	is
+trinkt	[he/she/it/you all] drink
+die	the (feminine)
+der	the (masculine)
+das	the (neuter)
+wir	we
+ihr	y'all
+sind	[we/they/you (formal)] are
+seid	[you all] are
+Männer	men
+frauen	women
+sie	they
+das	the (neuter)
+die	the (feminine)
+Jungen	boys
+Kinder	children
+heißen	to be called
+kommen	to come
+verstehen	to understand
+aus	from
+Deutschland	Germany
+deutsch	German 
+englisch	English 
+der Hund	the dog
+die Katze	the cat
+der Bär	the bear
+die Maus	the mouse
+das Tier	the animal
+die Ente	the duck
+der Vogel	the bird
+das Pferd	the horse
+die Kuh	the cow
+das Haustier	the pet
+das Schwein	the pig
+die Spinne	the spider
+der Käfer	the beetle
+die Biene	the bee
+die Fliege	the fly
+das Insekt	the insect
+Essen	eat
+Fressen	eat (referring to animals)
+das Essen	food
+der Hunger	hunger
+die Pizza	pizza
+die Suppe	soup
+der Fisch	fish
+das Eis	ice cream
+gut	good
+der Tee	tea
+der Durst	thirst
+schmeckt	tastes
+der Kaffee	coffee
+das Bier	beer
+der Wein	wine
+das Obst	fruit
+die Orange	orange
+die Banane	banana
+der Saft	juice
+der Apfelsaft	apple Juice
+der Orangensaft	orange juice
+das Ei	egg
+der Käse	cheese
+das Fleisch	meat
+das Gemüse	vegetables
+die Kartoffel	potato
+süß	sweet
+die Schokolade	chocolate
+der Zucker	sugar
+die Erdbeere	strawberry
+frisch	fresh
+lecker	delicious
+das Salz	salt
+die Nudeln	pasta
+der Reis	rice
+Öl	oil

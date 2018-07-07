@@ -5,28 +5,15 @@ session_start();
         echo $_SESSION["customer_name"] . "<br/>";
     }
 ?>
-<html>
-<head>
-    <title>Login Form</title>
-</head>
-<body>
-<?php include '../header.php';?>
-<?php
 
+
+
+
+
+
+
+<?php
 if (!isset($_POST['submit'])){
-?>
-
-
-
-<!-- The HTML login form -->
-    <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
-        Username: <input type="text" name="username" /><br />
-        Password: <input type="password" name="password" /><br />
-
-        <input type="submit" name="submit" value="Login" />
-    </form>
-
-<?php
 } else {
     require_once("../passwords/db_const.php");
     $mysqli = new mysqli($servername, $username, $password, $db_name);
@@ -44,14 +31,30 @@ if (!isset($_POST['submit'])){
     if (!$result->num_rows == 1) {
         echo "<p>Invalid username/password combination</p>";
     } else {
-        echo "<p>Logged in successfully</p>";
+        echo "<p>$username: Logged in successfully</p><br/>";
         
-        $_SESSION["customer_name"] = $username;
-        header('Location: /');
+        $_SESSION["customer_name"] = $username; 
         
-        // do stuffs
+        
+        
     }
 }
-?>      
-</body>
+?>
+<?php include '../header.php';?>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+
+
+
+<!-- The HTML login form -->
+    <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+        Username: <input type="text" name="username" /><br />
+        Password: <input type="password" name="password" /><br />
+
+        <input type="submit" name="submit" value="Login" />
+    </form>
+    </body>
 </html>

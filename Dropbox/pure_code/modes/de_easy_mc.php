@@ -248,6 +248,7 @@ var time;
 
 })();
 
+//events 
 window.onblur = function() { window.blurred = true; };
 window.onfocus = function() { window.blurred = false; };
 
@@ -335,38 +336,45 @@ function NewQuiz (text,handle) {
      Quiz.totalChars=0;
      Quiz.doneLines=0;
     Quiz.doneChars=0;
-     this.catchComments =  new RegExp("\/\/.*","g");
+     this.catchComments =  new RegExp("\/\/.*[\n]*","g");
      Quiz.prototype.navBar=[];
      Quiz.startChars;
      Quiz.page_score=0;
      this.save_score;
      this.startScore=0;
      this.perfect= true;
+     this.cleanup;
+     
     this.create = function(id) {
-
+        this.cleanup = '<?php  echo ($_GET["cleanup"]);?>';
         this.id = id;
 
 
         this.readCookie();
+        text = text.replace(this.catchComments,'');//delete comments
+        if(this.cleanup==1){
+          //delete the extra german words after the first <br> 
+          
+          
+          text = text.replace(/,[^\t\n]*/g,'\t'); //delte the extra words after the first comma
+          text = text.replace(/&lt;br&gt;.*/g,''); //  delete <br> tags and all text that follow the first <br> tag
+          
+          //delete the extra english words after the 1st comma
+
+        }
         
         
-       
-        text = text.replace(this.catchComments,'');
-        text = text.replace(/;.*/g,'');
-
-        //SMART CODE GOES HERE
-        
-
-
         this.codes=text.split('\n');
-        alert(this.codes);
         this.codes=this.codes.filter(function(n){ return n != undefined }); 
+        shuffle2(this.codes);
 
-        this.maxScore=this.codes.length;
+        this.maxScore=this.codes.length-1;
 
-        var new_text  = text.replace(/\<br\/\>/gm,'');
+      
+      
+        
 
-        Quiz.totalChars+=new_text.match(/\S/g).length;
+        Quiz.totalChars+=text.match(/\S/g).length;
 
         this.handle.innerHTML='';
 
@@ -468,11 +476,11 @@ function NewQuiz (text,handle) {
         var obj= this;
         var ans = this.getCurrentLine();
 
-        list[0].addEventListener("mouseout", function(){
+        list[0].addEventListener("mouseout", function(){ //event
           obj.scrambleDisplay();
         }); 
 
-        list[0].addEventListener("mouseover", function(){
+        list[0].addEventListener("mouseover", function(){ //event
           obj.smartDisplay();
         }); 
 
@@ -550,8 +558,11 @@ function NewQuiz (text,handle) {
 
 
  this.lineDisplay = function(){
+  
   org_targets= targets.split("<br/>");
+
     var word = org_targets[Quiz.page_score];
+    console.log(Quiz.page_score);
       word = `<p class='green'>${word}</p>`;
       org_targets[Quiz.page_score]= word;
 
@@ -576,7 +587,7 @@ function playSound() {
   this.correctAns = function( skip=0){
       playSound();
       Quiz.page_score++;
-      // hiligh current word
+      // hilight current word
       
       var pageLength = Quiz.BLOCK;
       
@@ -668,6 +679,7 @@ console.log('befure turnpage');
 
     //check if users input is correct 
     this.check = function(this_button, input) {
+
       targets_array = targets.split('<br/>');
        key = targets_array[Quiz.page_score];
       terms_array = original_terms;
@@ -753,7 +765,7 @@ console.log('befure turnpage');
             
             
             thisline = (this.codes[this.score+i]);
-            thisline= thisline.replace(/\t+/g,' ≈ ');
+            thisline= thisline.replace(/\t+/,' ≈ ');
 
 
             if(thisline){ // is THISLINE is valid
@@ -799,7 +811,7 @@ console.log('befure turnpage');
         console.log('Entered smartDisplay');
        var list = this.handle.getElementsByTagName('p');
        list[1].innerHTML='';
-       list[0].innerHTML=this.getCurrentLine();
+       list[0].innerHTML=this.getCurrentLine(); //
        
        
        
@@ -807,33 +819,24 @@ console.log('befure turnpage');
     };
 
 
-    /**
-     * Shuffles array in place.
-     * @param {Array} a items The array containing the items.
-     */
-    function shuffle(a) {
-        var j, x, i;
-        for (i = a.length; i; i--) {
-            j = Math.floor(Math.random() * i);
-            x = a[i - 1];
-            a[i - 1] = a[j];
-            a[j] = x;
-        }
-    }
-
     this.scrambleDisplay = function(input='') {
-       //TODO scramble the german words
+       //TODO scramble the buttons  words
        
 
        var all = this.getCurrentLine();
-       all = all.split('<br/>');
-       all = all.join(',').split('≈');
-       all = all.join().split(',');
+       all = all.replace(/\,/g,';;;');
+       all = all.replace(/\'/g,'ˋ');
+       
+       all = all.split('<br/>'); // this subtly inserts commas
+       all = all.join(',').split('≈'); // this subtly deletes commas and remakes commas
+       all = all.join().replace(/\;\;\;/g,'͵').split(',');
 
        // get list of de terms. 
        targets = all.filter(function(element, index, array) {
           return (index % 2 === 0);
         });
+       
+
        
        original_targets= targets.slice(); //copy array
 
@@ -846,7 +849,12 @@ console.log('befure turnpage');
        
        // scramble TERMS 
        original_terms = terms.slice();
-       shuffle(terms);
+       shuffle2(terms);
+       
+       //TODO hilight the current word in green
+       var word = targets[Quiz.page_score];
+       targets[Quiz.page_score]=`[${word}]`;
+      // this.lineDisplay();
        
        targets = targets.join('<br/>')
        

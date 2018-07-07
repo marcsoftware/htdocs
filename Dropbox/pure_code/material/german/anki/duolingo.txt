@@ -1,0 +1,2596 @@
+active	aktiv<br>aktiver<br>am aktivsten 
+actual, current, topical	aktuell<br>aktueller<br>am aktuellsten 
+additional	zusätzlich Keine Steigerung 
+renewed, <br>again, <br>once more	erneut Keine Steigerung 
+annually, yearly	jährlich Keine Steigerung 
+automatic	automatisch<br>automatischer<br>am automatischsten 
+available	verfügbar, erhältlich 
+bad	schlect<br>schlechter<br>am schlechtesten Sie ist die schlechteste Studentin. [= worst] 
+beautiful 	schön<br>schöner<br>am schönsten 
+big, large, tall	groß<br>größer<br>am größten 
+broken	kaputt<br>kaputter<br>am Kaputtesten gebrochen 
+cheap	billig 
+clear	klar<br>klarer<br>am klarsten 
+precise, clear	deutlich<br>deutlicher<br>am deutlichsten 
+clearly, definitely, conclusive	eindeutig<br>eindeutiger<br>am eindeutigsten Das war eine eindeutige Aussage 
+cold	kalt<br>kälter<br>am kältesten 
+to annouce	mitteilen<br>melden<br>ankündigen 
+completely, totally	komplett, völlig 
+correct, right	richtig<br>richtiger<br>am richtigsten 
+daily	täglich Keine Steigerung 
+dependent <br>independent	abhängig <br>unabhängig, selbständig 
+detailed	detailliert<br>detaillierter<br>am detailliertsten 
+I know what you mean.	Ich weiß was du meinst. 
+early	früh <br>früher<br>am frühstens 
+empty	leer<br>leerer<br>am leersten 
+equal [maths], <br>gives, <br>makes, <br>is 	gleich [maths]<br>gibt<br>macht <br>ist Drei plus vier ist gleich sieben. <br>Fünf minus zwei gibt drei.
+essential, <br>fundamental 	notwendig<br>wesentlich <br>fundamental Das war von fundamentaler Bedeutung. 
+european	europäisch<br>europäischer<br>am europäischsten 
+exactly, precisely, I agree	genau<br>genauer<br>am genauesten 
+excellent, magnificent	ausgezeichnet Keine Steigerung 
+expensive	teuer<br>teurer<br>am teuersten 
+external	extern<br>externer<br>am externsten 
+extreme	extrem<br>extremer<br>am extremsten 
+far	weit<br>weiter<br>am weitesten 
+finished, complete, done	erledigt <br><br>fertig<br>fertiger<br>am fertigsten 
+fit [condition]	fit<br>fitter<br>am fittesten 
+fitting, suitable, appropriate	passend<br>passender<br>am passendsten 
+free	frei<br>freier<br>am freiesten 
+free of charge	kostenlos <br>gratis Keine Steigerung 
+full	voll<br>voller<br>am vollsten 
+general	allgemein<br>allgemeiner<br>am allgemeinsten Das ist allgemein richtig. 
+german, germanic	deutsch<br>deutscher<br>am deutschsten 
+good	gut<br>besser<br>am besten 
+ph: How are you?	Wie geht's? 
+hard, solid, fixed, firm	fest<br>fester<br>am festesten 
+healthy	gesund<br>gesunder<br>am gesündesten 
+heavy<br>hard, difficult	schwer<br> 
+helpful	hilfreich<br>hilfreicher<br>am hilfreichsten 
+high	hoch<br>höher<br>am höchsten 
+hot	heiß<br>heißer<br>am heißesten 
+important	wichtig<br>wichtiger<br>am wichtigsten 
+false, <br>incorrect, <br>wrong, <br>imitation, counterfeit	falsch<br>falscher<br>am falschesten 
+remaining, left over, spare	übrig 
+the individual	die Einzelperson -en <br>das Individuum -duen Wir sind Individuen. 
+interesting	interessant<br>interessanter<br>am interessantesten 
+international	international Keine Steigerung 
+well known	bekannt<br>bekannter<br>am bekanntesten 
+last	letzte Keine Steigerung 
+left	link<br>linker<br>am linksten 
+light, easy	leicht<br>leichter<br>am leichtesten 
+long	lang<br>länger<br>am längsten 
+meaningful, sensible	sinnvoll<br>sinnvoller<br>am sinnvollsten 
+modern	modern<br>moderner<br>am modernsten 
+near, be close to	nahe<br>näher<br>am nähesten 
+necessary	nötig<br><br>notwendig<br>notwendiger<br>am notwendigsten 
+new	neu<br>neuer<br>am neusten 
+normal, usual	normal<br>gewöhnlich<br>üblich 
+obvious, self evident	selbstverständlich<br>selbstverständlicher<br>am selbstverständlichsten 
+old	alt<br>älter<br>am ältesten 
+open	offen<br>offener<br>am offensten 
+original [adj]	original<br>originaler<br>am originalsten 
+own	eigen<br>eigener<br>am eigensten 
+perfect, complete	perfekt, vollkommen 
+personal	persönlich<br>persönlicher<br>am persönlichsten 
+political	politisch<br>politischer<br>am politischsten 
+popular	populär <br><br>beliebt <br>beliebter<br>am beliebtesten 
+possible	möglich<br>möglicher<br>am möglichsten 
+postive	positiv<br>positiver<br>am positivsten 
+practical	praktisch<br>praktischer<br>am praktischsten 
+private	privat<br>privater<br>am privatesten 
+probably	wahrscheinlich<br>wahrscheinlicher<br>am wahrscheinlichsten 
+public [adj]	öffentlich<br>öffentlicher<br>am öffentlichsten 
+quiet, calm, peaceful	ruhig<br>ruhiger<br>am ruhigsten 
+ready, prepared	bereit <br>parat 
+real, actual	tatsächlich, wirklich Er hat es tatsächlich geschafft! 
+real, genuine	echt<br>echter<br>am echtesten 
+regional	regional Keine Steigerung 
+relative	relativ<br>relativer<br>am relativsten 
+responsible	zuständig <br>verantwortlich 
+rich	reich 
+round [adj]	rund<br>runder<br>am rundersten 
+satisfied, content	zufrieden<br>zufriedener<br>am zufriedensten 
+short, brief	kurz<br>kürzere<br>am kürzesten 
+scarce, short	knapp<br>knapper<br>am knappsten 
+similar	ähnlich<br>ähnlicher<br>am ähnlichsten 
+simple	einfach<br>einfacher<br>am einfachsten 
+sincere, heartfelt	herzlich<br>herzlicher<br>am herzlichsten 
+single	einzel Keine Steigerung 
+slow	langsam<br>langsamer<br>am langsamsten 
+small	klein<br>kleiner<br>am kleinsten 
+social	sozial<br>sozialer<br>am sozialsten 
+strong	stark<br>stärker<br>am stärksten 
+sudden	plötzlich<br>schlagartig<br>unvermittelt 
+technical	technisch Keine Steigerung 
+the same [identical]	derselbe <br>dieselbe <br>dasselbe Das ist derselbe Kongress [M]<br>Das ist dieselbe Institution [F]<br>Das ist dasselbe Gremium [N] <br>Das sind dieselben Leute [Pl]<br><br>Auf demselben Kongress [M]...<br>Auf dieselbe Institution [F]...<br>Auf dasselbe Gremium [N]... 
+tired	müde<br>müder<br>am müdesten 
+unknown	unbekannt<br>unbekannter<br>am unbekanntesten 
+useful	nützlich<br>nützlicher<br>am nützlichsten 
+visible	sichtbar<br>sichtbarer<br>am sichtbarsten 
+Flags...<br><br>UK, USA, France <br>red <br>white <br>blue <br><br>Germany<br>black <br>red <br>gold 	Pfannen...<br><br>UK, USA, Frankreich <br>rot <br>weiß <br>blau <br><br>Deutschland <br>schwarz <br>rot <br>gold 
+whole, entire, total	ganz, gesamt 
+yellow	gelb<br>gelber<br>am gelbsten 
+young	jung<br>jünger<br>am jüngsten 
+young <br>youthful<br>juvenile <br>teenage	jugendlich<br>jungendlicher<br>am jugendlichsten 
+definitely, <br>abolutely	definitiv <br>absolut <br>durchaus Das ist durchaus möglich. 
+above, upstairs	oben 
+actually, properly speaking	eigentlich 
+after it, afterwards	danach 
+on that, <br>about that	darauf Liegst du gut darauf?<br>Ich freue mich sehr darauf. 
+again	wieder 
+almost, nearly	fast fast wie neu = almost new 
+alone	allein Er ist alleine. 
+already	bereits, schon 
+also, likewise	auch 
+always	immer 
+at any time, <br>always	jederzeit Du kannst mich jederzeit anrufen. 
+this way, <br>as far as here	hierher Bis hierher und nicht weiter! 
+as far as	soweit Soweit ich gehört habe, .... 
+preferably	möglichst <br>vorzugsweise <br>liebe Du solltest dich möglichst zurückhalten. 
+at first	zuerst 
+at it/that, about that <br><br>Don't think about that any more. 	daran Denk nicht mehr daran ! 
+little, few	wenig<br>weniger<br>am wenigsten 
+at once, immediately	sofort 
+at the latest	spätestens 
+away, off, gone	weg 
+back [return]	zurück 
+by, at, near	bei Er ist bei diesem Haus 
+voluntarily, <br>freely 	freiwillig 
+before 	vorher, zuvor 
+behind, in the rear	hinten 
+below, downstairs	unten 
+thereby <br>as well <br>at the same time	dabei Wenn du schon dabei bist... 
+these days	heutzutage 
+ph: We would like some water	Wir hätten gerne Wasser 
+by the way, <br>incidently 	übrigens, <br>außerdem 
+different 	verschieden<br>unterschiedlich<br>anders Es geht nicht anders. 
+indeed	zwar, <br>sogar Gestern habe ich zehn Stunden gearbeitet und heute sogar zwölf! 
+everywhere	überall 
+exactly the same	genauso 
+finally, at last	endlich <br>schließlich <br>zuletzt 
+for it, for that	dafür 
+furthermore <br>continue doing	weiterhin 
+Get out ! Beat it ! <br>Out with it ! 	Raus ! Raus aus dem Bett mit dir! <br>Raus mit der Sprache, was ist los? 
+the marriage	die Ehe -n <br>die Heirat -en 
+gladly, willingly, with pleasure 	gern Wir hätten gerne Wasser = We would like some water.<br>Ich esse gern Pizza. 
+the footprint	der Fußabdruck -drücke 
+here	hier, her Schon ein Jahr hier 
+herewith	hiermit 
+ph: Are you ready for this?	Bist du hierzu bereit? 
+if at all	überhaupt 
+besides	außerdem 
+to this, <br>for this, <br>on this 	hierzu Hierzu sollte man Rotwein trinken. <br>Ich möchte Sie hierzu beglückwünschen. 
+in front	vorn Ich möchte vorn sitzen. 
+in front, <br>in advance	voraus Du müsst im voraus bezahlen 
+in it	drin 
+in order to <br>with it	damit 
+indeed, <br>but	allerdings Das Essen war gut, allerdings sehr teuer. 
+inside, outside	innen, außen <br>drinnen, draußen Die Tür geht nach innen/außen auf. <br>Drinnen ist es warm, draußen ist es kalt. <br>Es ist drinnen/draußen. 
+ph: It's my turn. 	Ich bin dran. 
+just now	soeben Ich bin soeben angekommen 
+likewise	ebenfalls 
+mostly 	meistens Meistens bezahle ich. 
+naturally, of course	natürlich 
+either <br>neither	entweder <br>weder Er ist weder groß noch klein. 
+never-the-less, despite	trotzdem Die Sonne schien, aber trotzdem war es kalt. 
+at least	mindestens<br>wenigstens 
+now	jetzt 
+now, well	nun 
+on the way	unterwegs 
+once,<br>twice,<br>thrice,<br>four times, <br>etc.	einmal, <br>zweimal, <br>dreimal, <br>viermal, <br>fünfmal, <br>usw. 
+once more	nochmals 
+only, merely	nur 
+otherwise	sonst, ansonsten <br>andereseits Du bist sonst nicht so empfindlich. 
+out with you	hinaus 
+about it	darüber Wir haben den Bericht gelesen und uns dann darüber (&#8776; über den Bericht) unterhalten. 
+over there	dort 
+past<br><br>Too late - it is passed !	vorbei Zu spät - es ist vorbei ! 
+perhaps, maybe	vielleicht 
+recently	neulich, jüngst, kurzlich, letztens 
+so far, <br>up till now 	bisher <br>bislang Bisher haben wir das immer so gemacht. [= up until now... ] 
+so, <br>thus, <br>like this	so Das machst du gut so!<br>Mir ist das so egal! 
+somehow	irgendwie 
+the hedgehog	die Egel " 
+about, <br>somewhat, <br>roughly 	etwa, <br>ungefähr 
+soon, shortly	bald 
+still, yet, one more	noch 
+ph: to the best of one's ability	nach bestem Vermögen [capability]<br>nach bestem Wissen [knowledge] Ich habe das nach bestem Wissen gemacht. 
+then, at that time	damals Damals gab es noch kein Internet. 
+then, <br>in that case	dann 
+instinctive	instinktiv 
+so, <br>therefore, <br>there you are	also Ich denke, also bin ich - Descartes 
+everything	alles 
+from that, thereof	davon Wir haben davon gesprochen. 
+including	inklusive<br>einschließlich ...einschließlich mir ! <br>Dies wäre der Preis einschließlich (der) Mehrwertsteuer. [Gen] 
+consequently	daraufhin 
+today	heute 
+together	zusammen<br>gemeinsam 
+well, <br>supposedly, <br>probably 	wohl Ich fühle mich nicht wohl.<br>Das kann man wohl sagen! 
+why	warum, wieso, weshalb, wozu, wofür 
+yesterday	gestern 
+yet, still, nevertheless <br><br>He is poor and still/nevertheless happy	dennoch Er ist arm und dennoch glücklich.<br> 
+the bear 	der Bär -en Weak noun...<br>Singular = den/dem/des Bären 
+the plant, equipment, facility 	die Anlage -n 
+the share [stock market]	die Aktie -n Wie stehen die Aktien? 
+the button, key [keyboard]	die Taste -n 
+the cable, <br>wire 	das Kabel " <br>der Draht Drähte 
+the calculator	der Rechner " 
+the camera	die Kamera -s 
+the communication	die Kommunikation -en 
+the computer	der Computer " 
+the database	die Datenbank -en 
+the email	die Email -s 
+the handwriting, font	die Schrift -en 
+the internet	das Internet -- 
+the key word, <br>password	das Kennwort -wörter 
+the keyboard	die Tastatur -en 
+the loud speaker	der Lautsprecher " 
+the magazine	das Magazin -edie Zeitschrift -en das Journal -e die Illustrierte -n 
+the appearance of ...	das Aussehen --<br>der Anschein -- 
+the mobile/cell phone	das Handy -s 
+the monitor, <br>screen 	der Monitor -en 
+the mouse	die Maus Mäuse 
+the network	das Netz -e 
+the news, <br>message 	die Nachricht -en 
+the newspaper	die Zeitung -en 
+the note [on a piece of paper]	der Zettel " <br>die Notiz -en 
+the data [information]	die Daten [Pl. only] 
+the number [1,2,3...]	die Nummer -n<br> die Zahl -en 
+the paper	das Papier -e 
+the phone, telephone,	das Telefon -e 
+the photography, <br>photo, <br>photographer	die Fotografie -n <br>das Foto -s <br>der Fotograf -en <br>die Fotografin -nen 
+the post, mail, <br>post office 	die Post " <br>das Postamt -ämte 
+the press [newspapers]	die Presse -n 
+the screen	der Schirm -e 
+the side, page	die Seite -n 
+the television broadcast, <br>the television set	das Fernsehen --<br>der Fernseher " Ich schaue Fern ! <br>Was gibt es heute in Fernsehen ? 
+the stool 	der Hocker " Dat.pl: -n 
+the broadcast, <br>program, <br>transmission	die Sendung -en 
+the transmitter	der Sender " 
+the art	die Kunst Künste NOTE: der Künstler [mit Umlaut] 
+the church	die Kirche -n 
+the cinema	das Kino -s 
+the concert	das Konzert -e 
+the dance	der Tanz Tänze 
+the event	die Veranstaltung -en <br>das Ereignis -se 
+the film, <br>movie 	der Film -e 
+the fun	der Spaß Späße 
+the game, match, <br>computer game	das Spiel -e <br>die Partie -n<br>das Computerspiel -e 
+the instrument	das Instrument -e Dat.pl: -en 
+the jazz	der Jazz " 
+the literature	die Literatur -en 
+the museum	das Museum Museen 
+the music, <br>pop/folk/classical 	die Musik -en Pop/Volks/klassische 
+the musician	der Musiker "<br>die Musikerin -nen 
+the note [music]<br>grade, exam mark.	die Note -n [music, exam result] 
+the public, audience	das Publikum -- 
+the radio	das Radio -s <br>der Rundfunk -- 
+the religion	die Religion -en 
+the show	die Schau -en 
+the song	das Lied -er 
+the studio	das Studio -s 
+the theatre	das Theater " 
+the toy	das Spielzeug "/-e NOTE: variation of plural...<br />Der Laden verkauft Spielzeug = ...sells toys.<br />Der Ingenieur baut Spielzeuge = ...builds toys. 
+the apple	der Apfel Äpfel Dat.pl: -n 
+the bakery	die Bäckerei -n 
+the bottle	die Flasche -n 
+the bowl	die Schüssel -n 
+the bread	das Brot -e das Weißbrot -edas Graubrot -e 
+the bread roll	das Brötchen " 
+the breakfast	das Frühstück -e 
+the butter	die Butter " 
+the cheese	der Käse " 
+the chocolate	die Schokolade -n die Praline -n 
+the coffee, <br>coffee can/pot	der Kaffee -s <br>die Kaffeekanne -n 
+the cola	die Cola -s 
+the cook, chef <br>	der Koch Köche <br>die Kochin -nen 
+the crockery, dishes	das Geschirr -e 
+the cup, <br>mug	die Tasse -n<br>der Becher " 
+the drink	das Getränk -e 
+the egg, <br>a boiled egg 	das Ei -er <br>ein gekocktes Ei 
+the food, meal	das Essen " <br>die Mahlzeit -en <br>das Lebensmittel " <br>die Verpflegung -en <br>die Ernährung -en 
+the fruit	das Obst --<br>die Frucht Früchte 
+the glass	das Glas Gläser 
+the juice, <br>orange juice, <br>fruit juice 	der Saft Säfte <br>der Organgensaft -säfte <br>der Fruchtsaft -säfte 
+the knife, <br>fork, <br>spoon 	das Messer " <br>die Gabel -n <br>der Löffel " 
+the lemon	die Zitrone -n 
+the marmalade, <br>jam [breakfast]	die Marmelade -n 
+the meat, <br>beef, <br>veal, <br>pork, <br>lamb 	das Fleisch " <br>das Rindfleisch " <br>das Kalbfleisch " <br>das Schweinefleisch " <br>das Lammfleisch " 
+the menu	die Speisekarte -n <br>das Menü -s 
+the milk	die Milch -e 
+the noodle, pasta	die Nudel -n 
+the nutrition	die Ernährung -- 
+the orange	die Orange -n <br>die Apfelsine -n 
+ph: Who does he think he is?	Was bildet er sich ein? 
+the plate	der Teller " 
+the pot	der Topf Töpfe 
+the potato	die Kartoffel -n 
+the restaurant	das Restaurant -s<br>die Gaststätte -n 
+the rice	der Reis -- 
+the roast	der Braten " 
+the salad, potato salad, lettuce salad	der Salat -e der Kartoffelsalat -e der Kopfsalat -e 
+the salt, pepper	das Salz -e<br>der Pfeffer -- 
+the sauce	die Soße -n 
+the sausage, <br>cooked sausage, <br>fried sausage 	die Wurst Würste <br>die Bockwurst -würste <br>die Bratwurst -würste 
+the soup, <br>broth 	die Suppe -n<br>die Brühe -n 
+the sugar	der Zucker " 
+the tea	der Tee -s 
+the tomato	die Tomate -n 
+the vegetable(s)	das Gemüse -- 
+the vegetarian	der Vegetarier " 
+the wine (white-, red-)	der Wein -e der Weißwein -e der Rotwein -e 
+the association	der Verband -bände<br>der Bund Bünde 
+the customs	der Zoll Zölle 
+the directorship [of film] <br>director	die Regie -n <br>der Regisseur -e 
+the election	die Wahl -en 
+the government	die Regierung -en 
+the judge	der Richter " 
+the judgement <br>verdict 	das Urteil -e 
+the lawyer, attorney	der Rechtsanwalt -wälte 
+the ministry	das Ministerium -rien 
+the reign	die Herrschaft -en Ein König/ein Diktator herrscht über das Volk.<br>Heutzutage herrscht nur das Geld. 
+the party [political, celebration]	die Partei -en [polit.]<br>die Party -s [celeb.] <br>die Feier -n [celeb.] 
+the politics [pl]	die Politik -en die Politik [sing] = the politics 
+the president	der Präsident -en Weak noun...<br>Singular = den/dem/des Presidenten 
+the discipline 	die Disziplin -en 
+the rule, regulation	die Regel -n <br>die Bestimmung -en <br>die Vorschrift -en 
+the republic	die Republik -en 
+the revolution	die Revolution -en 
+the address	die Adresse -n 
+the apartment	die Wohnung -en 
+the balcony	der Balkon -s 
+the bed	das Bett -en 
+the bed sheets & covers	der Bettbezug -züge 
+the building	das Gebäude " 
+the cheek	die Wange -n<br>die Backe -n 
+the cake, baking	der Kuchen "<br>die Torte -n 
+the cellar, basement	der Keller " 
+the city centre / center	das Zentrum Zentren<br>die Stadtmitte -n 
+the cleaning	die Reinigung -en 
+the cutlery [knife, fork, spoon, chopsticks]	das Besteck -e 
+the door	die Tür -en 
+the farmer	der Bauer -n <br>die Bäuerin -nen Weak noun...<br>Singular = den/dem/des Bauen 
+the fence	der Zaun Zäune 
+the fire	das Feuer " <br>der Brand Brände 
+the fire department, <br>fireman 	die Feuerwehr -en <br>der Feuerwehrmann -männer 
+the furniture	die Möbel " 
+the garden	der Garten Gärten 
+the gas	das Gas -e 
+the gate, goal	das Tor -e 
+the heater	die Heizung -en 
+the house, <br>standalone/detached house, <br>terraced house 	das Haus Häuser <br>das Einfamilienhaus -häuser <br>das Reihenhaus -häuser 
+the household	der Haushalt -e 
+the inside, interior	das Innere -n 
+the key	der Schlüssel " 
+the kitchen	die Küche -n 
+the lamp	die Lampe -n 
+the leather	das Leder " 
+the light	das Licht -er 
+the location, <br>position, <br>place 	die Stelle -n <br>die Lage -n <br>der Standort -e 
+the mirror	der Spiegel " 
+the path	der Weg -e <br>der Pfad -e 
+the picture	das Bild -er 
+the cushion, <br>pillow, <br>pillowcase	das Kissen -s <br>das Kopfkissen -s <br>der Kopfkissenbezug -züge 
+the place	der Platz Plätze <br>der Ort -e 
+the power socket [elec.]	die Steckdose -n 
+the roof	das Dach Dächer 
+the room, <br>dining room, <br>lounge/living room, <br>bedroom	der Raum Räume <br>das Zimmer " <br>das Esszimmer " <br>das Wohnzimmer " <br>das Schlafzimmer " 
+the scissors	die Schere -n 
+the sofa	das Sofa -s 
+the stairs, stairway, staircase 	die Treppe -n 
+the street, <br>road 	die Straße -n 
+the stuff	der Stoff -e<br>das Zeug -e 
+the surrounding, neighbourhood	die Umgebung -en<br>die Nachbarschaft -en 
+the table	der Tisch -e Es ist/steht/liegt auf dem Tisch 
+the tenent, lessee	der Mieter " 
+the toilet, <br>-paper, <br>-brush, <br>-lid	die Toilette -n<br>das Klo -s [Wasserkloset]<br><br>das Klopapier -e<br>die Klobürste -n <br>der Klodeckel " 
+the town	der Ort -e 
+the village	das Dorf Dörfer 
+the wall	die Wand Wände<br>die Mauer -n 
+the window	das Fenster " Ich schaute aus dem Fenster. 
+the academy	die Akademie -n 
+the approach, attempt	der Ansatz -sätze 
+the biology	die Biologie -n 
+the book	das Buch Bücher 
+the chemistry	die Chemie -- 
+the class	die Klasse -n 
+the conclusion, end, <br>successful school/uni graduation 	der Schluß -lüsse<br>der Abschluss -lüsse 
+the definition	die Definition -en 
+the apprenticeship, <br>apprentice	die Lehre -n<br>der Lehrling -e<br>AZUBI = AusZuBildene 
+the institute <br>institution	das Institut -e <br>die Anstalt -en 
+the instruction, <br><br>I don't like being told what to do ! 	die Vorschrift -en Sie mag keine Vorschriften ! 
+the knowledge, <br>skill	das Wissen --<br> die Kenntnis -se 
+the lesson, <br>class, <br>tuition, <br>teaching 	die Lektion -en <br>der Unterricht -- 
+the mathematics	die Mathematik -- 
+the philosophy	die Philosophie -n 
+the physics	die Physik -- 
+the professor	der Professor -en<br>die Professorin -nin 
+the qualification	die Qualifikation -en 
+the research	die Forschung -en 
+the school, <br>primary school, <br>secondary school, <br>secondary technical school, <br>technical school 	die Schule -n <br>die Grundschule -n <br>die Hauptschule -n <br>die Realschule -n <br>die Berufsschule -n 
+the science	die Wissenschaft -en 
+indifferent	egal<br>gleichgültig Das ist mir egal = I don't care. 
+the seminar	das Seminar -e 
+the external appearance	das Äußere -- 
+the student, pupil	der Student -en<br>die Studentin -nen<br><br>der Schüler " <br>die Schülerin -nen der Student is weak noun...<br>Male Singular = den/dem/des Studenten 
+the study	die Studie -n <br>das Studium -ien 
+the encouragement, suggestion	die Ermutigung -en<br>die Anregung -en 
+the teacher	der Lehrer "<br>die Lehrerin -nen 
+the test	die Prüfung -en <br>der Test -s <br>die Klassenarbeit -- 
+the theory	die Theorie -n 
+the university	die Universität -en die Uni -s 
+the university study 	das Studium -ien 
+the intern [medical work experience], <br>the internship	der Praktikant -en, die Praktikantin -nen, <br>das Praktikum Praktika 
+the basis, <br>grass roots	die Basis Basen 
+the calendar	der Kalender " 
+the case, event, trap/pitfall 	der Fall Fälle 
+the case [grammar]	der Fall Fälle<br>der Kasus " Nominativ Wer- oder Was-fall = subject .<br>Akkusativ Wen- oder Was-fall = direct object <br>Dativ Wem-fall = direct/indirect object <br>Genitiv Wes-fall = whose, possession 
+the centre, center	die Mitte -n<br> die Zentrale -n<br>das Zentrum Zentren 
+the century	das Jahrhundert -e 
+the change	die Änderung -en, die Veränderung -en<br /> der Wechsel "<br /> der Wandel -- 
+the christmas <br><br>Merry christmas, and a happy new year.	das Weihnachten Fröhliche Weihnachten, und ein gutes neues Jahr ! <br>Frohes neues Jahr ! 
+the colour, paint	die Farbe -n 
+the crack, <br>column in a newspaper	die Spalte -n 
+the comparison	der Vergleich -e<br>die Gegenüberstellung -en 
+the condition	die Bedingung -en<br>die Kondition -en 
+the contents	der Inhalt -e Dat.pl: -en 
+the context, <br>connection, <br>hang together	der Kontext -e<br>der Zusammenhang -hänge Aus dem Kontext gerissen ist die Äußerung missverständlich.<br>Was ist der Zusammenhang? 
+the criteria	das Kriterium -rien 
+the day	der Tag -e Dat.pl: -en Montag <br>Dienstag <br>Mittwoch <br>Donnerstag <br>Freitag <br>Samstag Sonnabend<br>Sonntag <br><br>Wir arbeiten an Werktagen 
+the degree	der Grad -e 
+the depth	die Tiefe -n 
+the description	die Beschreibung -en 
+the designation, marking, expression	die Bezeichnung -en 
+the detail	die Einzelheit -en <br>das Detail -s Ich weiß die Details nicht. 
+the difference	der Unterschied -e <br>die Differenz -en 
+the district, county	der Bezirk -e <br>der Landkreis -e 
+the effect	die Wirkung -en <br>der Effekt -- 
+the electricity, <br>current 	die Elektrizität --<br>der Strom -öme 
+the element	das Element -e 
+the end	das Ende -n 
+the establishment	die Gründung -en 
+the example, specimen	das Beispiel -e <br>das Exemplar -e <br>das Vorbild -er 
+the feature <br>characteristic 	das Merkmal -e 
+the figure [shape]	die Figur -en 
+the foundation, basis/basics	die Grundlage -n Diese Grundlagen (basics) sind gut 
+the frame	der Rahmen " 
+the gallery	die Galarie -n 
+the collection, gathering	die Sammlung -en 
+the gender <br><br>male, female, neuter, <br>masculine, feminine, neuter	das Geschlecht -er<br>das Genus Genera männlich, weiblich, sächlich,<br>maskulin, feminin, neutrum 
+the guitar	die Gitarre -n 
+to accept	akzeptieren 
+the hour	die Stunde -n 
+the improvement	die Verbesserung -en 
+the level	die Ebene -n 
+the line	die Linie -n <br>die Leitung -en <br>der Strich -e 
+the litre	der Liter " 
+the meaning	die Bedeutung -en 
+the measurement	das Maß -e 
+the method	die Methode -n 
+the minute	die Minute -n 
+the moment	der Moment -e<br>der Augenblick -e 
+the month	der Monat -e Dat.pl: -en Januar <br>Februar <br>März <br>April <br>Mai <br>Juni <br>Juli <br>August <br>September <br>Oktober <br>November<br>Dezember 
+the need	der Bedarf -e<br>die Not Nöte 
+the niveau	das Niveau -s 
+the occasion, time	der Anlass -lässe<br>das Mal -e Nächstes Mal bist du bitte pünktlich! 
+the opposite, contrast	das Gegenteil -e<br>der Gegensatz -sätze 
+the origin, source 	die Herkunft -künfte <br>die Quelle -n <br>der Ursprung Ursprünge 
+the overview	die Übersicht -en <br>der Überblick -e 
+the packet, <br>package	das Paket -en 
+the pair, <br>couple	das Paar -e 
+the pen	der Stift -e Dat.pl: -en 
+the phase	die Phase -n 
+the piece, item	das Stück Stücke 
+the plastic	der Kunststoff -e 
+the full stop, period <br>point, dot 	der Punkt -e 
+the preparation	die Vorbereitung -en 
+the profile	das Profil -e 
+the programme [Brit] <br>program [USA] 	das Programm -e 
+the quantity	die Menge -n 
+the quiet, calm, privacy	die Ruhe -- 
+the register	das Verzeichnis -se 
+the ring	der Ring -e 
+the risk	das Risiko Risiken <br>das Wagnis -se 
+the row [...of chairs]	die Reihe -n 
+the scope, extent, perimeter	der Umfang -fänge 
+the search	die Suche -n 
+the season	die Saison -s <br>die Jahreszeit -en der Sommer <br>der Herbst <br>der Winter <br>der Frühling 
+the second [unit of time]	die Sekunde -n 
+the section	der Abschnitt -e<br> die Rubrik -en 
+the sentence, clause	der Satz Sätze 
+the series [e.g. TV series]	die Serie -n 
+the sign	das Zeichen "<br>der Schild -er 
+the situation 	die Situation -en <br>die Lage -n <br>der Umstand -stände 
+the size	die Größe -n 
+the cucumber	die Gurke -n 
+the speciality	die Spezialität -en 
+the specific time, <br>point in time	der Zeitpunkt -e 
+the state/condition of s.t. or s.o.	der Zustand -stände 
+the state, country	der Staat -en 
+the statistic	die Statistik -en 
+the step	der Schritt -e <br>die Stufe -n 
+the structure	die Struktur -en 
+the style	der Stil -e 
+the surface	die Oberfläche -n 
+the symbol	das Symbol -e 
+the temperature	die Temperatur -en 
+the text	der Text -e 
+the theme, subject, issue, topic	das Thema Themen 
+the thing	die Sache -n <br>das Ding -e 
+the time	die Zeit -en Die guten alten Zeiten - the good old days 
+the process, procedure <br>trial	der Prozess -e<br>das Verfahren -s 
+the tone, <br>sound 	der Ton -e Or Töne <br>der Klang Klänge Das gehört einfach zum guten Ton. 
+the usage	der Gebrauch -bräuche <br>die Nutzung -en <br>die Anwendung -en 
+the variable	die Variable -n 
+the version	die Version -en 
+the war	der Krieg -e 
+the week	die Woche -n 
+the word	das Wort Pl: Worte/Wörter Dat.pl: -en 
+the year	das Jahr -e Dat.pl: -en 
+the account [bank]	das Konto -en 
+the amount [money]	der Betrag -äge 
+the bank, <br>bench	die Bank Bänke Ich gehe zur Bank <br>Ich bin in der Bank <br>Sie arbeitet bei der Bank <br>Mein Geld liegt auf der Bank 
+the cent	der Cent -- 
+the checkout, <br>cash register	die Kasse -n 
+the cheque/check, <br>checkbook 	der Scheck -s <br>das Scheckheft -e 
+the coin	die Münze -n 
+the course [direction], <br>course [education], <br>currency exchange rate	der Kurs -e 
+the credit	der Kredit -e 
+the economy, <br>economic state	die Wirtschaft -en <br>die Konjunktur -en 
+the finance	die Finanzierung -en 
+the gold	das Gold " 
+the interest [bank]	der Zins -en 
+the invoice, bill	die Rechnung -en 
+the loss	der Verlust -e 
+the money	das Geld -er 
+the note, banknote	der Schein -e 
+the payment	die Zahlung -en <br>die Bezahlung -en 
+the fan, ventilator	der Ventilator -en 
+the profit [business]	der Gewinn -e <br>der Profit -e 
+the stock exchange	die Börse -n 
+the shopping trolly, cart	der Einkaufswagen " 
+the value	der Wert -e 
+the air	die Luft Lüfte 
+the animal	das Tier -e 
+the atmosphere	die Atmosphäre -n 
+the berry	die Beere -n 
+the bird	der Vogel Vögel 
+the cat	die Katze -n 
+the cliff	der Hang Hänge<br>der Felsen " <br>die Klippe -n 
+the climate	das Klima -s 
+the cow	die Kuh Kühe ...wie eine Kuh auf der Weide 
+the deer	das Reh -e 
+the dog	der Hund -e 
+the duck [quack]	die Ente -n 
+the earth [planet], <br>soil	die Erde -- 
+the energy	die Energie -n 
+the evening	der Abend -e 
+the existence	die Existenz -en <br>das Dasein -- 
+to argue	streiten<br>argumentieren <br>zanken 
+the field, <br>meadow	das Feld -e [arable] <br>der Acker Äcker [arable] <br>die Wiese -n 
+the fish	der Fisch -e 
+the flower	die Blume -n 
+the foot	der Fuß Füße 
+the forest	der Wald Wälder 
+the grass, <br>lawn, <br>lawn mower 	das Gras Gräser <br>der Rasen " <br>der Rasenmäher " 
+the ground, <br>floor, <br>bottom 	der Boden Böden <br>der Grund Gründe 
+the hole	das Loch Löcher 
+the horse	das Pferd -e 
+the moon	der Mond -e 
+the mountain, <br>mountain range 	der Berg -e <br>das Gebirge " 
+the nature	die Natur -en 
+the night	die Nacht Nächte 
+the oil	das Öl -e 
+the park	der Park -s 
+the rain	der Regen " 
+the river	der Fluss Flüsse 
+the ocean, sea	der Ozean -e <br>das Meer -e <br>die See -- [= sea] NOTE: der See -n = lake 
+the skirt	der Rock Röcke 
+the sky, <br>heaven 	der Himmel " 
+the space, outer space	das All --<br>der Weltraum -räume 
+the star	der Stern -e Dat.pl: -en Der Himmel ist voll mit Sternen 
+the stone	der Stein -e 
+the sun	die Sonne -n 
+the tree	der Baum Bäume 
+the umbrella	der Regenschirm -e 
+the water, mineral water 	das Wasser " das Mineralwasser " - mit/ohne Kohlensäure 
+the weather	das Wetter " 
+the wind	der Wind -e Es ist windig ! 
+winter	der Winter " 
+the wood	das Holz Hölzer 
+the world	die Welt -en 
+the purchased item	der Kauf -äufe<br>der Einkauf -äufe 
+the accident	der Unfall Unfälle 
+the addiction	die Sucht Süchte<br />die Süchtigkeit -en <br />die Abhängigkeit -en (= dependence) Er ist drogensüchtig / alkoholsüchtig. 
+the adult	der Erwachsene [m]<br>die Erwachsene [f]<br>die Erwachsenen [pl] der Erwachsene [m] is Weak noun...<br>Singular = den/dem/des Erwachsenen 
+the advantage, <br>benefit 	der Vorteil -e 
+the advice	der Rat -- 
+the advisor<br>consultant	der Berater "<br>der Ratgeber " 
+the agreement	die Vereinbarung -en<br>die Zustimmung -en<br>das Einverständnis -se 
+the announcement, notification	die Mitteilung -en<br>die Meldung -en <br>die Ankundigung -en<br>die Ansage -n <br>die Durchsage -n Ich kündige mein Buch an. 
+the question <br>the answer 	die Frage -n <br>die Antwort -en Ich frage dich und ich antworte dir 
+the appointment 	die Verabredung -en<br>der Termin -e 
+the marketing	das Marketing --<br>der Vertrieb -e 
+the arm	der Arm -e 
+the attempt, try	der Versuch -e 
+the attitude, <br>adjustment, calibration	die Einstellung -en 
+the aunt	die Tante -n 
+the baby	das Baby -s 
+the bag, <br>hand bag 	die Tasche -n<br>die Tüte -n <br>die Handtasche -n 
+the band	die Band -s [music]<br>das Band Bänder [cord, ribbon, tape, rubber band] 
+the bath	das Bad Bäder 
+the fight, battle, struggle 	der Kampf Kämpfe<br>die Schlacht -en<br>das Gefecht -e NOTE: der Krieg = war 
+the beer	das Bier -e 
+the behaviour	das Verhalten "<br>das Benehmen -- 
+the belief	der Glaube -- Weak noun...<br>Singular = den/dem/des Glauben 
+the belt	der Gürtel " den Gürtel enger schnallen = to tighten one's belt 
+the birth, <br>birth date, <br>birth place 	die Geburt -en <br>das Geburtsdatum -ten <br>der Geburtsort -e 
+the blockage, constipation	die Verstopfung -en 
+the blood	das Blut -- 
+the body	der Körper " 
+the boy	der Junge -en Weak noun...<br>Singular = den/dem/des Jungen 
+the brain	das Gehirn -e <br>das Hirn -e 
+the brother	der Bruder Brüder 
+the brush	die Bürste -n<br>der Pinsel "<br>der Handbesen " 
+the button [clothes]	der Knopf Knöpfe 
+the buyer	der Käufer " 
+the care	die Betreuung -en <br> die Pflege --<br> die Fürsorge -n 
+the chance	die Chance -n 
+the child	das Kind -er Dat.pl: -ern 
+the circle, area	der Kreis -e 
+the citizen	der Bürger " <br>die Bürgerin -nen 
+the claim, entitlement	der Anspruch -sprüche 
+the clinic	die Klinik -en 
+the job offer, <br>job vacancy	das Stellenangebot -en 
+the dress, clothes	das Kleid -er<br> die Kleidung "<br>die Klamotten " Das Kleid steht dir! 
+the coat	der Mantel Mäntel 
+the combination	die Kombination -en 
+the commandment	das Gebot -e 
+the comment 	der Kommentar -e <br>die Bemerkung -en 
+the community	die Gemeinde -n 
+the composure, version	die Fassung -en 
+the concept	das Konzept -e 
+the connection	der Anschluss -schlüsse <br>die Verbindung -en 
+the consumer	der Verbraucher " 
+the control	die Kontrolle -n 
+the conversation, entertainment	die Konversation -en <br>das Gespräch -e<br>die Unterhaltung -en 
+the cooperation	die Zusammenarbeit -en<br>die Kooperation -en 
+the cosmetic	die Kosmetik -- 
+the flea market	der Flohmarkt -märkte 
+the culture	die Kultur -en 
+the dame, lady	die Dame -n 
+the danger	die Gefahr -en 
+the date	das Datum Daten 
+the daughter	die Tochter Töchter 
+the decision	die Entscheidung -en 
+the deployment	der Einsatz -sätze Wo war er im Einsatz ? 
+the enjoyment, pleasure, lust, sexual desire	die Lust Lüste Ich habe keine Lust = I don't feel like it 
+the diet	die Diät -en 
+the discussion	 die Diskussion -en <br>das Gespräch -e Wir führen ein Gespräch. 
+the doctor	der Arzt Ärzte<br>die Ärztin Ärztinnen Er ist beim Arzt. 
+the dream	der Traum Träume 
+the duration	die Dauer -n 
+the ear	das Ohr -en 
+the engagement <br>involvement <br>commitment 	das Engagement -s 
+the entrance [for people]	der Eingang -gänge <br>der Eintritt -e 
+the entry, notation on paper	die Eintragung -en 
+the flop	der Flop -s <br>der Reinfall -fälle 
+the error, mistake	der Fehler " <br>der Irrtum Irrtümer 
+the checkup, examination	die Untersuchung -en 
+the exception	die Ausnahme -n In Ihrem Fall, mache ich eine Ausnahme 
+the exchange	der Austausch -e<br>der Umtausch -e 
+the excitement	die Aufregung -en 
+the experience	die Erfahrung -en <br>das Erlebnis -se 
+the expression	der Ausdruck -e Wie drückt man das aus ? 
+the eye	das Auge -n 
+the face	das Gesicht -e 
+the family	die Familie -n 
+the fan	der Fan -s 
+the fashion	die Mode -n 
+the father	der Vater Väter <br>der Vati -s 
+the fear, anxiety	die Angst Ängste <br>die Furcht -- Ich habe angst vor dir. 
+the feeling	das Gefühl -e 
+the finger	der Finger " 
+the freedom	die Freiheit -en 
+the friend	der Freund -e Dat.pl: -en<br>die Freundin -nin<br><br>der Kumpel " 
+the future	die Zukunft -e Ein Blick in die Zukunft = A glance at the future 
+the ghost, <br>mind, spirit	der Geist -e Der Geist ist willig, aber das Fleisch ist schwach. <br>Im Geiste bin ich bei dir. 
+the girl	das Mädchen " 
+the god	der Gott Götter 
+the greeting	der Gruss Grüße 
+the group	die Gruppe -n <br>die Gruppierung -en <br>die Fraktion -en 
+the guest	der Gast Gäste 
+the hair	das Haar -e 
+the hand	die Hand Hände 
+the dealing with... <br />the handling of s.o / s.t	der Umgang -gänge 
+the hat	der Hut Hüte 
+the head	der Kopf Köpfe 
+the health	die Gesundheit -- 
+the health insurance	die Krankenversicherung -en 
+the heart	das Herz -en Weak noun...<br>Singular = den/dem Herzen, des Herzens 
+the height	die Höhe -n 
+the help	die Hilfe -n 
+the homeland, hometown	die Heimat -- 
+the hope	die Hoffnung -en 
+the humour	der Humor -e 
+the hunger	der Hunger " 
+the idea	die Idee -n <br>die Ahnung -en 
+the impression	der Eindruck Eindrücke <br>die Vorstellung -en 
+the influence	der Einfluss -flüsse 
+the information	die Information -en <br>die Auskunft -künfte 
+the interest [personal]	das Interesse -n 
+the introduction	die Vorstellung -en <br>die Einführung -en 
+the invitation	die Einladung -en 
+the jacket	die Jacke -n 
+the jeans	die Jeans " 
+the jewel, jewelry	das Juwel -en<br>der Schmuck -e 
+the joke	der Witz -e 
+the kidney	die Niere -n 
+the land, country	das Land Länder Ich bin auf dem Land = in the country <br>Ich gehe auf das Land = to the country 
+the language	die Sprache -n 
+the law, <br>legislation 	das Gesetz -e <br>das Recht -e <br>die Gesetzgebung -en 
+the leader	der Führer "<br>der Leiter " 
+the leg	das Bein -e 
+the library	die Bibliothek -en 
+the life	das Leben " 
+the liver	die Leber -n 
+the love, <br>dear [letters]	die Liebe -n Liebe Mary, .....<br>Lieber John, ..... 
+the luck<br>happiness	das Glück -- 
+the lung	die Lunge -n 
+the man <br>husband <br>spouse, partner	der Mann Männer Dat.pl: -n <br>der Ehemann -männer Dat.pl: -n <br>der Partner " , die Partnerin " 
+the medicine, <br>medication 	die Medizin -en<br>das Medikament -e 
+the mother, <br>mum	die Mutter Mütter <br>die Mutti -s 
+the mourning, grief, sorrow	die Trauer -- 
+the mouth	der Mund Münder 
+the name, <br>first/christian name	der Name -n <br>der Vorname -n Weak noun...<br>Singular = den/dem/des Namen<br><br>Was ist Ihr Name?<br>Was ist dein Name? 
+the nephew	der Neffe -n Weak noun...<br>Singular = den/dem/des Neffen 
+the nose	die Nase -n 
+the opinion	die Meinung -en <br>die Auffassung -en Nach meiner Meinung... <br>Das ist nicht meine Auffassung. 
+to exaggerate	übertreiben 
+the owner 	der Eigentümer " <br>der Besitzer " 
+the painter	der Maler " 
+the pants, trousers, <br>underpants, briefs	die Hose -n <br>die Unterhose -n 
+the parent[s]	die Eltern No German singular 
+the past, history	die Vergangenheit --<br>die Geschichte -en 
+the patient	der Patient -en<br>die Patientin -nin Weak noun...<br>Male Singular = den/dem/des Patienten 
+the person <br>people	die Person -en<br>der Mensch -en<br>die Leute pl only. Dat.pl: -n Der Betrieb sucht qualifizierte Leute. <br>Das sind die qualifizierten Leute. <br>Es sind die gleichen Personen, die zu spät kommen und zu früh gehen.<br><br>der Mensch is weak noun...<br>Singular = den/dem/des Menschen 
+the coffee shop, <br>cafe	das Café -s 
+the personnel, <br>staff	das Personal -- <br>die Belegschaft -en 
+the pharmacy, chemist, drugstore	die Apotheke -n [dispensing] <br>die Drogerie -n [non-dispensing] 
+the pleasure, joy	die Freude -n <br>der Genuss -- <br>das Vergnügen -- Ich bin außer mir vor Freude (overjoyed) 
+the possibility	die Möglichkeit -en 
+the power, force	die Macht Mächte 
+the present, gift	das Geschenk -e 
+the principle	das Prinzip -ien 
+the problem	das Problem -e 
+the public [noun]	die Öffentlichkeit -en <br>das Publikum -- 
+the publisher	der Verlag -e 
+the pullover	der Pulli -s 
+the purpose, sense of...	der Zweck -e<br> der Sinn -e Es hat keinen Sinn 
+ph: She is in the media 	Sie ist in den Medien [Plur] 
+the razor	der Rasierer -- <br>der Rasierapparat -e 
+the reader	der Leser " 
+the salutation, <br>form of address, <br>Mr, Mrs, Miss, Ms, Doctor, etc.	die Anrede -n Herr, Frau, Fräulein, Doktor, usw. 
+the reception	der Empfang -fänge 
+the recipe <br>script, prescription	das Rezept -e 
+the recommendation	die Empfehlung -en 
+the reference	der Bezug -züge <br>die Referenz -en 
+the relationship, <br>affair	das Verhältnis -se <br>die Beziehung -en 
+the resident	der Einwohner -n 
+the responsibility	die Verantwortung -en 
+the rest <br>remainder 	der Rest -e 
+the result	das Ergebnis -se<br>das Resultat -e 
+the role	die Rolle -n 
+the run	der Lauf Läufe 
+the sale	der Verkauf -äufe 
+the salesperson, vendor	der Verkäufer "<br>die Verkäuferin -nen 
+the choice, selection	die Auswahl -en Ich habe keine Wahl 
+the seriousness	der Ernst -- Es ist mein Ernst 
+the shirt	das Hemd -en 
+the shoe, <br>trainers	der Schuh -e <br>der Turnschuh -e 
+the shop, store	der Laden Läden 
+the sickness, disease	die Krankheit -en 
+the chin	das Kinn -e 
+the sister	die Schwester -n 
+the skin	die Haut Häute 
+the soap	die Seife -n 
+the sock	die Socke -n 
+the son	der Sohn Söhne 
+the soul, psyche	die Seele -n 
+the speech	die Rede -n <br>der Vortrag -äge 
+the stomach	der Bauch Bäuche<br>der Magen Mägen 
+the strength, craft	die Kraft Kräfte <br>die Stärke -n 
+the success	der Erfolg -e 
+the suggestion	der Vorschlag -äge 
+the survey, poll	die Umfrage -n 
+the cream [skin]	die Creme -s<br>die Salbe -n 
+the therapy	die Therapie -n 
+the thirst	der Durst -- 
+the thought	der Gedanke -n 
+the neck, throat	der Nacken " <br>der Hals Hälse <br>das Genick -e <br>die Kehle -n 
+the thumb	der Daumen " 
+the title	der Titel " 
+the tooth	der Zahn -ähne 
+the toothpaste	die Zahnpasta -pasten <br>die Zahncreme -s 
+to form, comprise of	formen <br>bilden Wir bilden drei Gruppen 
+the trailer, supporter	der Anhänger " 
+the translation	die Übersetzung -en 
+the truth	die Wahrheit -en 
+the uncle	der Onkel " 
+the understanding, <br>misunderstanding 	das Verständnis -se <br>das Missverständnis -se 
+the unit, unity	die Einheit -en 
+the user <br>use	der Nutzer " <br>der Nutzen " 
+the victim	das Opfer " 
+the victory	der Sieg -e 
+the view	die Ansicht -en<br> der Blick -e 
+the violence	die Gewalt -en 
+the visit	der Besuch -e 
+the visitor	der Besucher " 
+the voice, <br>vote	die Stimme -n 
+the wedding	die Hochzeit -en 
+the weight	das Gewicht -e 
+the wish	der Wunsch Wünsche 
+the woman, <br>wife, <br>spouse, partner 	die Frau -en <br>die Ehefrau -en <br>der Partner " , die Partnerin " 
+the worry	die Sorge -n 
+the club	der Verein -e <br>der Klub -s 
+the federal league [soccer]	die Bundesliga -gen 
+the football	der Fußball -älle 
+the golf	der Golf -e 
+the member	das Mitglied -er 
+the participant	der Teilnehmer " 
+the player	der Spieler " 
+the spectator	der Zuschauer " 
+the sport	der Sport -e 
+the team	die Mannschaft -en<br />das Team -s 
+the tennis	das Tennis -- 
+the trainer, <br>coach 	der Trainer " 
+the training	das Training -s 
+the accessories, <br>equipment	das Zubehör -e 
+the accommodation	die Unterkunft -künfte Wo finden wir Unterkunft? 
+the adventure	das Abenteuer " 
+the aircraft	das Flugzueg -e 
+the airport	der Flughafen -häfen 
+the alcohol	der Alkohol " 
+the area, <br>region	der Bereich -e<br>das Gebiet -e<br>die Gegend -en <br>die Fläche -n <br>die Region -en 
+the bar, <br>pub	die Bar -s<br>die Kneipe -n 
+the battery	die Batterie -n <br>der Akku -s [kurz für "Akkumulator"] 
+the beach	der Strand Strände Dat.pl: -en 
+the boat	das Boot -e 
+the bridge	die Brücke -n 
+the bus, <br>coach [long distance bus]	der Bus -se <br>der Reisebus -se <br>der Fernbus -se 
+the automobile, car	das Auto -s Wir sprechen vom Auto. 
+the clutch	die Kupplung -en 
+the diesel, benzine	der Diesel " das Benzin -- <br />das Normalbenzin, das Superbenzin 
+the direction, guidance <br>hint	der Hinweis -e <br>die Richtung -en<br>die Anweisung -en 
+the distance	die Entfernung -en <br>die Ferne -- 
+the driver	der Fahrer " <br>die Fahrerin -nen 
+the motor, engine	der Motor -en<br>die Maschine -n<br>das Triebwerk -e 
+the entry [for a vehicle]	die Einfahrt -en 
+the flight	der Flug Flüge 
+the hook, peg, <br>catch, snag, <br>tick [check mark]	der Haken " Er hängte seinen Mantel an den Haken.<br>Die Sache hat einen Haken &#8594; there’s a snag/catch. <br>Der Lehrer macht neben jede richtige Antwort einen Haken.<br>Einen Haken schlagen &#8594; to dart sideways. <br><br>NOTE: die Harke -n = the rake 
+the guesthouse	das Gasthaus -häuser <br>die Pension -en <br>die Vollpension -- [full board i.e. incl. breakfast, lunch and dinner] 
+the holiday/vacation [for workers],<br>school holiday/vacation	der Urlaub -e <br>die Ferien [pl only] 
+the half 	die Hälfte -n 
+the hotel	das Hotel -s 
+the island	die Insel -n 
+the lake	der See -n (lake) 
+the passport	der Reisepass -ässe <br>der Pass -ässe Hast du deinen Pass bei dir? 
+the railway	die Eisenbahn -en <br>die Bahn -en 
+the repair	die Reparatur -en 
+the route	die Strecke -n <br>die Route -n 
+the seat	der Sitzplatz -plätze 
+the ship	das Schiff -e 
+the ski	der Ski " 
+the speed, velocity 	die Geschwindigkeit -en 
+the stage [theatre]	die Bühne -n 
+the station, <br>railway station, <br>main/central railway station 	die Station -en<br> der Bahnhof -höfe <br>der Hauptbahnhof - höfe 
+the summer	der Sommer " 
+the swimming pool, <br>indoor swimming pool	der Pool -s <br>das Schwimmbad -bäder <br>das Freibad -bäder <br>das Hallenbad -bäder 
+the switch, counter	die Schaltung -en <br>der Schalter " 
+the ticket, card, map, <br>ticket office 	die Karte -n <br>die Fahrkarte -n <br>der Fahrkartenschalter -n 
+the tire, tyre	der Reifen " 
+the tour	die Tour -en 
+the traffic	der Verkehr " 
+the train	der Zug Züge <br>die Bahn -en 
+the transport, <br>transportation 	der Transport -e <br>die Beförderung -en <br>die Überführung -en 
+the trip, journey	die Reise -en Wir sind auf einer Reise.<br>Wir machen eine Reise. 
+the trip, journey [with vehicle, bike]	die Fahrt -en Man fährt Auto, <br>Man fährt Fahrrad,<br>Man reitet ein Pferd 
+the vehicle 	das Fahrzeug -e <br>der Wagen " 
+the wheel	das Rad Räder 
+the windscreen, <br>windshield	die Windshutzscheibe -en 
+the tax, <br>taxation, <br>steering wheel	die Steuer -n <br>die Besteuerung -en <br>das Steuer -- 
+the activity	die Tätigkeit -en<br>die Aktivität -en 
+the advertising <br>publicity	die Werbung -en<br>die Reklame -n 
+the advertisement <br>classified ad	die Anzeige -n <br>die Kleinanzeige -n 
+the agent <br>the agency 	der Agent -en <br>die Agentur -en 
+the analysis	die Analyse -n 
+the apparatus	der Apparat -e 
+the application	die Anwendung -en <br>die Verwendung -en <br>der Antrag -äge 
+the architect	der Architekt -en<br>die Architektin -nin Weak noun...<br>Male Singular = den/dem/des Architekten 
+the authority [building, office]	das Amt Ämter 
+the authority [people]	die Behörde -n 
+the average	der Durchschnitt -e 
+the beginner	der Anfänger " 
+the branch, <br>sector of industry	die Branche -n<br>die Filiale -n<br>der Zweig -e 
+the brand, label, mark	die Marke -n 
+the business	das Geschäft -e <br>das Business --<br>das Gewerbe " 
+the calculation	die Berechnung -en 
+the paradise	das Paradies -e 
+the career	die Karriere -n 
+the catalogue	der Katalog -e 
+the category	die Kategorie -n 
+the commitment, <br>obligation 	die Verpflichtung -en<br>das Engagement -s 
+the company, corporation, enterprise	das Unternehmen " 
+the company, <br>factory, <br>plant	der Betrieb -e <br>die Fabrik -en <br>das Werk -e 
+the competence	die Kompetenz -en 
+the confirmation	die Bestätigung -en 
+the consequence	die Konsequenz -en<br>der Effekt -e<br>die Folge -n<br>die Auswirkung -en<br>das Ergebnis -se<br>das Resultat -e 
+the construction	der Bau -ten<br />die Konstruktion -en 
+the consultancy	die Beratung -en 
+the contact	der Kontakt -e 
+the contract	der Vertrag -träge 
+the contribution	der Beitrag -äge 
+the course, process	der Verlauf -äufe 
+the customer	der Kunde -n Weak noun...<br>Singular = den/dem/des Kunden 
+the deadline	die Frist -en 
+the delivery	die Lieferung -en 
+the department	die Abteilung -en 
+the design	der Entwurf -würfe<br>das Design -s 
+the developer	der Entwickler " 
+the development	die Entwicklung -en 
+the dialogue	der Dialog -e 
+the document	das Dokument -e 
+the documentation	die Dokumentation -en 
+the draft, outline	der Entwurf -würfe 
+the employer	der Arbeitgeber " 
+the valuation, <br>evaluation, <br>assessment 	die Bewertung -en 
+famous	berühmt 
+the exhibition, fair	die Ausstellung -endie Messe -n 
+the expert, <br>professional 	der Experte -n<br>der Fachmann, die Fachleute <br>der Professional -len, <br>der Profi -s Weak noun...<br>Singular: den/dem/des Experten <br><br>Wir sind professionell. 
+the factory, plant	die Fabrik -en <br>das Werk -e 
+the firm, company	die Firma Firmen 
+the form	die Form -en [shape] <br>das Formular -e 
+the format	das Format -e 
+the function	die Funktion -en 
+the guarantee	die Garantie -n 
+the hall	die Halle -n <br>der Saal Säle 
+the hobby	das Hobby -s 
+the home worker, <br>handyman	der Heimwerker " 
+the industry	die Industrie -n 
+the insurance	die Versicherung -en 
+the integration	die Integration -en 
+the interview, <br>job interview	das Interview -s <br>das Vorstellungsgespräch -e <br>das Bewerbungsgespräch -e 
+the job	der Job -s <br>der Arbeitsplatz -plätze <br>die Arbeitsstelle - <br>die Stelle -n 
+the list	die Liste -n<br>die Auflistung -en 
+the logistics [pl]	die Logistik -- 
+the machine	die Maschine -n 
+the device, machine	das Gerät -e 
+the management, <br>leadership 	die Führung -en<br>das Management -s 
+the leader <br>manager	der Leiter " <br>der Manager " 
+the manufacturer	der Hersteller " 
+the market	der Markt Märkte 
+the master	der Meister " 
+the material	das Material -ien 
+the means, <br>resource, <br>capability	das Mittel " <br>die Ressource - n [meist Plur.] 
+the mediation	die Vermittlung -en 
+the metal	das Metall -e 
+the model	das Modell -e Sie arbeitet als Model. 
+the movement	die Bewegung -en 
+the offer, proposal	das Angebot -e 
+the office	das Büro -s 
+the opening	die Eröffnung -en 
+the operator	der Betreiber " 
+the option	die Option -en 
+the order [purchase order]	die Bestellung -en 
+the order, <br>job, <br>assignment, <br>mission	der Auftrag -äge 
+the order, <br>tidiness	die Ordnung -en 
+the organisation	die Organisation -en 
+the output, issue, edition <br>expense, cost	die Ausgabe -n 
+the morning [before midday]	der Vormittag " heute/gestern/morgen Vormittag 
+the partnership	die Partnerschaft -en 
+the performance [effort]	die Leistung -en 
+the plan	der Plan Pläne 
+the population	die Bevölkerung -en 
+the position	die Stellung -en <br>die Position -en 
+the practice [medical]	die Praxis Praxen [Artzt] 
+the pressure, press, print	der Druck -e Druck auf jemanden ausüben. <br>Jemanden unter Druck setzen. 
+the product	die Ware -n <br>das Produkt -e 
+the production <br>manufacture 	die Produktion -en <br>die Herstellung -en 
+the occupation, career, <br>profession [trained, qualified]	der Beruf -e 
+the project	das Projekt -e 
+the promotion, support 	die Förderung -en 
+the proof	der Beweis -e<br>der Nachweis -e 
+the pump	die Pumpe -n 
+the quality	die Qualität -en 
+the receiver, recipient	der Empfänger " 
+the report	der Bericht -e 
+the request	die Bitte -n<br>die Aufforderung -en Ich habe eine Bitte 
+the requirement, <br>demand 	die Anforderung -en <br>die Auflage -n 
+the service	die Bedienung -en <br>der Dienst -e<br>der Service -s <br>die Dienstleitung -en 
+the solution	die Lösung -en 
+the standard	der Standard -s <br>die Norm -en <br>der Maßstab -stäbe 
+the statement, <br>details or particulars o.s.	die Angabe -n <br>die Behauptung -en 
+the steel	der Stahl -ähle 
+the strategy	die Strategie -n 
+the subject, <br>compartment	das Fach Fächer 
+the supply	die Versorgung -en <br>der Vorrat -räte <br>der Nachschub -- 
+the system	das System -e 
+the tabulation	die Tabelle -n 
+the objective, target	das Ziel -e 
+the task, job	die Aufgabe -n 
+the technology	die Technik -en 
+the term [as in terminology]	der Begriff -e 
+the trade [business]	der Handel " 
+the trader, dealer [business]	der Händler " 
+the warehouse, camp	das Lager " 
+the work	die Arbeit -- 
+the work by tradesman/craft	das Handwerk -e 
+the worker	der Arbeiter " Dat.pl: -n 
+the workshop	die Werkstatt -ätten 
+the competition	der Wettbewerb -e <br>der Wettkamp -kämpfe 
+to abort, terminate	abbrechen 
+very,<br>rather <br><br>I am very sure...	ziemlich Ich bin ziemlich sicher... 
+to perform <br>achieve <br>accomplish	leisten <br>schaffen <br>auftreten Wir schaffen es. <br>Sie sind in USA aufgetreten. [performers] 
+to purchase <br>acquire 	erwerben 
+to activate	aktivieren 
+to appear, seem, shine <br>show up	scheinen, erscheinen 
+to be, <br>find oneself	befinden 
+to ask	fragen Ich frage dich , und ich antworte dir !<br> 
+the elite	die Elite -n 
+to be	sein 
+to bend <br>turn corner [left/right]	biegen <br>abbiegen Biege links ab! = Turn left! [sing.imperative] 
+to blush <br>become red in colour	erröten 
+to book, <br>reserve	buchen <br>reservieren 
+to bring	bringen 
+to build	bauen 
+to burn	brennen 
+to buy, shop	shoppen, <br>kaufen, <br>einkaufen 
+to calculate, charge	berechnen 
+to call	rufen 
+to call on telephone	telefonieren <br>anrufen 
+to be able, can	können 
+to close	schließen <br>abschließen <br>zumachen 
+to collect, gather, get	sammeln <br>kassieren 
+to come	kommen 
+to compare	vergleichen 
+to comply with <br>pay attention to <br>follow [the rules]	beachten 
+to concern, effect, apply to..	betreffen <br>angehen 
+to confirm	bestätigen 
+to consider	überlegen<br>berücksichtigen 
+to cost [money] 	kosten Das kostet 20 €. 
+to count	zählen eins <br>zwei <br>drei <br>vier <br>fünf <br>sechs <br>sieben <br>acht <br>neun <br>zehn<br>elf <br>zwölf <br>dreizehn <br>vierzehn <br>fünfzehn <br>sechzehn <br>siebzehn <br>achtzehn <br>neunzehn <br>zwanzig, dreißig, vierzig, fünfzig 
+to decide	entscheiden<br>beschließen 
+to define	definieren 
+to deliver	liefen, <br>bringen Ich bringe Milch. 
+to develop, evolve	entwickeln 
+to tidy up, collect the remaining...	aufräumen 
+to discover	entdecken 
+to try on [clothes]	anprobieren 
+to do	tun 
+to drive, ride	fahren Er fährt mich zum Arzt.<br><br>Auto fahren...<br>Rad fahren... [nicht reiten!]<br>Pferd reiten... 
+to earn, deserve	verdienen <br /> 
+to eat	essen [people] <br>fressen [animals] 
+to elect	wählen 
+to enable, make possible	ermöglichen 
+to ensure, guarantee	gewährleisten <br>garantieren 
+to enter in document <br>sign in	eintragen 
+to entitle, qualify	berechtigen<br>qualifizieren 
+to establish	etablieren<br>grunden 
+to evaluate	bewerten 
+to examine	untersuchen 
+to exist	existieren 
+to exist, consist, persist	bestehen Wasser besteht aus Wasserstoff und Sauerstoff. <br>Die Wohnung besteht aus fünf Zimmern, Küche und Bad. 
+to expect	erwarten 
+to experience, <br>find out	erfahren, <br>erleben 
+to expire, wear out, <br>to drain a liquid 	ablaufen 
+to explain	erklären 
+to extend, expand	erweitern 
+to fall	fallen 
+to fill	füllen 
+to find	finden 
+to flatter, <br>sweet talk, <br>suck up to s.o.	schmeicheln So eine Schmeichelei ! <br>Du brauchst mir gar nicht so zu schmeicheln ! 
+to forget	vergessen 
+to get, receive	bekommen 
+to give	geben 
+to give up/in <br>abandon	aufgeben 
+to go	gehen Geh! = Go! [sing.imperative] 
+to handle, act, treat	handeln, behandeln Mach jetzt! = Act now! [sing.imperative] <br>Das Unfallopfer wurde vom Notarzt behandelt. 
+to hang	hangen 
+to happen, occur	geschehen <br>passieren<br>erfolgen <br>stattfinden <br>vorkommen <br>ereignen Gern geschehen = You're welcome ! 
+to have	haben 
+to hear	hören 
+to hold	halten 
+to improve	bessern <br>verbessern 
+to raise, <br>increase	erhöhen 
+to increase, enlarge	vergrößern 
+to inform	informieren 
+to inquire	nachfragen 
+to install	installieren 
+to interest, <br>be concerned with	interessieren Er ist an dir interessiert. <br>Er interessiert sich für dich . 
+to introduce <br>imagine 	vorstellen = introduce <br>sich etwas vorstellen = imagine Sie stellte ihren Mann vor.<br>So hatte ich mir das nicht vorgestellt. 
+to investigate	ermitteln 
+to keep, retain	behalten 
+to kick, step	treten 
+to lay, be located	liegen 
+to lead	führen 
+to learn	lernen 
+to leave	verlassen 
+to lend, borrow	leihen 
+to let	lassen Lass mich in Ruhe ! = Back off ! <br>[sing.imperative] 
+to like	mögen Ich mag dich nicht mehr! <br>Ich möchte jetzt nach Hause! 
+to load	laden 
+to look	schauen<br>anschauen Ich werde mir das anschauen. 
+to lose	verlieren 
+to make	machen 
+pretty	hübsch 
+to mark	markieren 
+to may, <br>to be permitted/allowed to	dürfen Ich darf = I may<br>Ich dürfe = I am allowed to 
+to mean	meinen <br>bedeuten 
+to measure, compete	messen 
+to mediate, <br>broker	vermitteln 
+to meet	treffen, begegnen 
+to fullfill <br>to comply with <br>meet	erfüllen 
+to mourn, grieve	trauern 
+to move	bewegen 
+to have to <br>must	müssen 
+to need, require	brauchen<br>benötigen 
+to notice	merken 
+to reflect, <br>think about, <br>consider 	reflektieren <br>nachdenken, überlegen<br>erwägen Erwäge es = Consider it. 
+to offer	bieten, anbieten 
+to disperse 	auflösen 
+to paint	malen <br>anstreichen 
+to participate	teilnehmen 
+to pay	zahlen <br>bezahlen 
+to play	spielen 
+to please, be happy<br>to look forward to	freuen ich freue mich über... = be happy about<br>ich freue mich auf... = look forward to 
+to pray	beten 
+to prefer	bevorzugen 
+to print, <br>press, push 	drucken <br>drücken Die Zeitung drucken.<br>Den Knopf drücken. 
+to prevent, <br>avert	verhindern <br>vorbeugen 
+to promote, support	förden 
+to protect, defend, safeguard	schützen <br>verteidigen <br>wahren Ich schütze dich vor (etwas) 
+to provide, <br>take care, <br>look after	sorgen <br>versorgen <br>pflegen 
+to publish	veröffentlichen 
+to question, ask	fragen Ich frage dich, und antworte dir. 
+to quote	zitieren 
+to race, run	rennen, laufen 
+to reach, achieve	erreichen 
+to reach, hand over <br>be sufficient 	reichen 
+to read	lesen 
+to receive	erhalten<br>empfangen<br>bekommen 
+to recognise	erkennen 
+to recommend	empfehlen 
+to remove	raumen <br>entfernen <br>beseitigen 
+to rent,rent out	mieten vermieten 
+to repeat	wiederholen 
+the microwave [oven]	die Mikrowelle -n 
+to pay attention to,<br>to watch out for, <br>to respect 	achten <br>Respekt zeigen Er achtet dich = he respects you 
+to result in, amounts to	ergeben Zwei plus drei ergibt fünf. 
+to satisfy	befriedigen<br>gunügen 
+to save	sparen 
+to say	sagen 
+to secure	sichern 
+to see	sehen 
+to select, choose	auswählen 
+to sell	verkaufen 
+to stand s.t.<br>put, place	stellen 
+to share, divide	teilen 
+to should, is supposed to...	sollen 
+to set, place, put, <br>to sit	setzen <br>sitzen Sie setzt sich an das Fenster [Bewegung]<br>Sie sitzt beim/am Fenster [k.Bewegung] 
+to sleep, <br>go to sleep 	schlafen <br>einschlafen Sie ist eingeschlafen. 
+to smell	riechen 
+to solve, loosen	lösen 
+to speak, talk	sprechen, reden 
+to spring, jump	springen 
+to stand	stehen 
+to stay, remain	bleiben 
+to stipulate, determine	festlegen<br>stipulieren 
+to submit, deliver	abgeben <br>einreichen 
+to subscribe	abonnieren 
+to suggest	vorschlagen <br>suggerieren 
+to support	stützen<br>unterstützen 
+to swim	schwimmen 
+to take	nehmen 
+to take over	übernehmen 
+to testify, declare	aussagen 
+to think	denken 
+to threaten	drohen <br>androhen 
+to change	ändern, verändern (sich)<br />wechseln <br />wandeln 
+to contact	kontaktieren 
+to cook	kochen 
+to drink	trinken 
+to end, finish	enden, beenden 
+to function	funktionieren 
+the suitcase	der Koffer -- 
+to hope	hoffen 
+to know	wissen, kennen 
+to live	leben, wohnen 
+to love	lieben 
+to name	nennen 
+to open	öffnen, eröffnen 
+to order [buy, purchase] to cancel order	bestellen abbestellen 
+to own	besitzen 
+to plan	planen 
+to present, depict 	darstellen, präsentieren 
+to register, enrol, sign on	anmelden <br>registrieren Ich werde mich anmelden = I will sign on 
+to report 	berichten, melden 
+to ask, request [for s.t.]	bitten Ich werde dich nicht darum bitten . 
+to run	laufen, rennen 
+to search	suchen, durchsuchen 
+to send	schicken, senden 
+to show	zeigen Sie zeigt ihm die Schuhe 
+ph: You are different. 	Du bist anders. 
+to test	prüfen, testen 
+to use	nutzen<br>benützen<br>verwenden 
+to visit	besuchen 
+to voice, say <br>vote 	stimmen 
+to will, was, would	werden/wurden/würden Ich werde = I will/am going to <br>Ich wurde = I was <br>Ich würde = I would 
+to wish	wünschen Ich wünsche dir etwas.. 
+to work	arbeiten 
+to trek, hike 	wandern 
+to trust, have confidence	vertrauen Ich vertraue dir. 
+to try, <br>attempt	versuchen <br>probieren 
+to understand, comprehend	verstehen, kapieren 
+to update	aktualisieren 
+to view, consider	betrachten 
+to wait 	warten <br>abwarten Würden Sie bitte auf mich warten? 
+to wake	wecken, aufwecken 
+to wash	waschen 
+to wave, beckon	winken 
+to will, want	wollen 
+to win	gewinnen 
+to work on, process	bearbeiten 
+to work, appear	wirken 
+to would	würden<br>möchten Ich würde das nicht machen = I would not do that<br>Ich möchte gern = I would like... 
+to write	schreiben 
+to be absent, missing, lacking	fehlen Du fehlst mir 
+to advise	raten, beraten Ich rate dir....<br>Ich werde dich beraten 
+to agree, concur	zustimmen<br>einverstanden <br>abmachen <br>vereinbaren Ich stimme zu. <br>Ich stimme ihm zu. <br>Ich bin einverstanden 
+to answer <br>reply to	beantworten Ich beantworte deine Frage. (Akk)<br>Ich antworte dir. (Dat) 
+to believe, <br>think 	glauben Ich glaube dir 
+to belong to	gehören Es gehört mir 
+to damage	schaden <br>beschädigen Das schadet mir.<br>Bei dem Zusammenstoß wurde sein Auto schwer beschädigt. 
+to fit, suit, match	passen Das passt mir nicht 
+to follow, obey	folgen Ich werde deinem Rat folgen.<br>Würden Sie mir bitte folgen? 
+to have a thought, idea	einfallen Sein Name fällt mir gerade nicht ein = His name escapes me. <br>Mir fiel nichts ein = I couldn't think of anything to say. <br>Was fällt dir ein = How dare you. 
+to hurt, injure	verletzen <br>weh tun Das tut mir weh = That does me harm = That hurts 
+to listen	zuhören <br>anhören Ich höre dir genau zu<br>Ich habe mir die Musik angehört<br><br>Hör zu! = Listen up [sing. imperative]<br>Hört zu! = Listen up [plur. imperative] <br><br>Nur wenige Menschen können wirklich zuhören. 
+to order, command	befehlen Ich habe dir befohlen, etwas zu tun 
+to pardon, forgive	vergeben<br>verzeihen Das werde ich dir nie verzeihen 
+ph: To put it crudely...	Um es salopp zu sagen...<br>Salopp gesagt... 
+to please, <br>like	gefallen Wie gefällt es dir ? 
+to serve	dienen <br>bedienen Womit kann ich Ihnen dienen ?<br>Werden Sie schon bedient? 
+to apologize <br>be sorry	entschuldigen, leid tun Entschuldigung !<br>Es tut mir leid 
+to succeed	gelingen <br>Erfolg haben Es gelang mir, die Schwierigkeiten zu überwinden. 
+to taste	schmecken <br>kosten Lass es dir schmecken = Enjoy the food <br>Guten Appetit ! 
+to thank	danken Ich danke dir 
+to answer	antworten Ich frage dich , und antworte dir 
+to help	helfen Ich hilfe dir 
+the hard disk	die Festplatte -n 
+the actor, actress	der Schauspieler "<br>die Schauspielerin -nin 
+the administration	die Verwaltung -en 
+the democracy	die Demokratie -n 
+the empire, kingdom, realm	das Reich -e 
+the king	der König -e 
+the right [by law]	das Recht -e 
+the adverb	das Umstandswort -wörter<br>das Adverb -ien<br> 
+the chair	der Stuhl -Stühle Dat.Pl: Stühlen 
+the city	die Stadt -ädte<br> die City -s 
+the courtyard, <br>farm 	der Hof Höfe <br>der Bauenhof -höfe 
+the ladder	die Leiter " (klettern) 
+the lock, castle	das Schloss Schlösser 
+the chapter	das Kapitel " [innerhalb eines Buches] 
+the colleague	der Kollege -n<br>die Kollegin -nen der Kollege is Weak noun...<br />Singular = den/dem/des Kollegen 
+the formula [maths]	die Formel -n 
+the preparatory school for university	das Gymnasium -sien 
+the alternative	die Alternative -n 
+the damage	der Schaden -äden 
+the entry [into place, building] <br>access	der Zugang -änge 
+the medium <br>[ plural = media, as in "news media" ]	das Medium Medien Die Medien berichtet... 
+the near [noun]<br>nearby	die Nähe -- ...in der Nähe = nearby 
+the opportunity, occasion	die Gelegenheit -en 
+the original	das Original -e 
+the part, <br>portion, share	das / der Teil -e Artikel: das = ein bestimmter Gegenstand. <br> z.B. das Bauteil -e <br>das Einzelteil -e <br>das Teil des Motors<br>Jedes Teil kostet nur noch 5 Euro.<br><br>der Körperteil -e <br>der Stadtteil -e <br>der Bruchteil -e <br>der Vorteil -e <br>Ich habe mir meinen Teil dabei gedacht.<br><br>der Anteil -e = portion <br>die Portion -en 
+the round <br>lap 	die Runde -n 
+the account statement [bank]	der Kontoauszug -züge 
+the credit card	die Kreditkarte -n 
+the dollar	der Dollar " 
+the euro	der Euro " 
+the chicken	das Hähnchen " 
+the environment	die Umwelt -en 
+the plant [growing in the garden]	die Pflanze -n 
+the ball	der Ball Bälle 
+the order [instruction]	der Befehl -e 
+the property, characteristic	die Eigenschaft -en <br>das Eigentum -- <br>der Besitz -- 
+the fly 	die Fliege -n 
+the insect	das Insekt -en 
+the tomorrow, <br>tomorrow morning	der Morgen " <br>Morgen früh. 
+the quarter	das Viertel --<br>das Quartal -e 
+the Rhine [river]	der Rhein -- 
+the sleep	der Schlaf -- 
+the stress, strain	der Stress -e <br>die Überanstrengung -en <br>die Strapaze -n 
+funny	lustig, komisch, witzig 
+seldom	selten 
+rather	eher Ich bin eher in den Bergen als ans Meer [rather]<br>Er ist eher faul als dumm [more]<br>Je eher, desto besser [sooner]<br> 
+the education	die Bildung -en<br>die Ausbildung -en 
+the article, <br>item	das Geschlectswort -wörter<br>der Artikel " Nom Acc Dat Gen<br>M . der den dem des<br>F . die die der der<br>N . das das dem des<br>P . die die den der <br><br>also: ein-, kein-, dies-, jede- , manch-, solch-,<br> welch-, alle-, beide- <br>and Possessive Pronouns: mein-, dein-, sein-, <br>ihr-, sein-, unser-, euer-, ihr-, Ihr-. 
+the number: singular / plural	die Zahl Einzahl / Mehrzahl 
+the preposition	das Verhältniswort -wörter<br>die Präposition -en Akk: bis, durch, für, gegen, ohne, um.<br>Dat: ab, aus, außer, bei, gegenüber, mit, nach, seit, von, zu.<br>Akk or Dat: an, auf, hinter, in, neben, über, unter, vor, zwischen.<br>Gen: (an)statt, außerhalb, einschließlich, innerhalb, in der Nähe, trotz, während, wegen (s/t Dat.) 
+the pronoun	das Fürwort -wörter<br>das Pronomen " Nom Acc Dat Gen<br>I ich mich mir mein-<br>you du dich dir dein-<br>he er ihn ihm sein-<br>she sie sie ihr ihr- <br>it es es ihm sein-<br>we wir uns uns unser-<br>you ihr euch euch euer-<br>they sie sie ihnen ihr-<br>You Sie Sie Ihnen Ihr- <br><br>Note: also pronouns...<br>derselbe- <br>dieselbe- <br>dasselbe- <br>z.B. Sie sind dieselben Leute. 
+the noun	das Hauptwort -wörter<br>das Substantiv -e<br>das Nomen " 
+the tense <br><br>...of verbs eg. future, present, past.	die Zeit -en , das Tempus Tempora Zeitform des Verbs...<br>die Zukunft = das Futur<br>die Gegenwart = das Präsens<br>die Vergangenheit = das Präteritum 
+the verb	das Tätigkeitswort - wörter <br>das Verb -en 
+the inflection, declension <br><br>Inflection of number, gender, and case of...<br>article, <br>noun, <br>pronoun, <br>adjective	die Beugung -en<br>die Deklination -en 
+the grammar	die Grammatik -en Inflect an article, noun,<br>pronoun, or adjective.<br><br>Conjugate a verb. 
+the colloquial language, <br>idiom, <br>common speech, <br>slang 	die Umgangssprache --<br>das Idiom -e<br>die Redewendung -en <br>der Slang -s 
+the german language	das Deutsch -- Wie sagt man auf Deutsch.....? 
+straight, <br>straight ahead	gerade, <br>gerade aus 
+but	aber, doch 
+as well as...	sowohl sowohl...als auch...<br /> 
+rather, but	sondern Nicht für die Schule, sondern für das Leben lernen wir. 
+small portion of... <br>a little...	bisschen Nur ein bisschen Wein/Fleisch...<br> 
+ph: It is time.	Es ist soweit. 
+the league	die Liga -gen die Bundesliga 
+because	weil<br>wegen <br>da <br>dadurch <br>denn Alles wegen dir [Dativ] <br>Ich verzeihe ihm, denn er wusste nicht, was er tat. 
+the column	die Kolonne -n = convoy<br>die Säule -n = pillar<br>die Rubrik -en = section, category 
+the peace	der Friede -n Weak noun...<br>Singular = den/dem Frieden, des Friedens 
+the will, testament 	der Wille -n <br>das Testament -e Weak noun...<br>Singular = den/dem Willen, des Willens 
+the lion	der Löwe -n Weak noun...<br>Singular = den/dem/des Löwen 
+the elephant	der Elefant -en Weak noun...<br>Singular = den/dem/des Elefanten 
+the capital, [finance/asset, seat of governemt]<br>capitalist, <br>capital city	das Kapital -- [Finanz, Regierungssitz]<br>der Kapitalist -en <br>die Hauptstadt -städte Weak noun...<br>Singular = den/dem/des Kapitalisten <br>Note: das Kapitel = chapter 
+the diplomat	der Diplomat -en Weak noun...<br>Singular = den/dem/des Diplomaten 
+the candidate	der Kandidat -en Weak noun...<br>Singular = den/dem/des Kandidaten 
+the astronaut	der Astronaut -en Weak noun...<br>Singular = den/dem/des Astronauten 
+the emigrant	der Auswanderer "<br />der Emigrant -en der Emigrant is Weak noun...<br />Singular = den/dem/des Emigranten 
+the immigrant	der Einwanderer -n<br>der Immigrant -en der Immigrant is Weak noun...<br>Singular = den/dem/des Immigranten 
+the hero	der Held -en Weak noun...<br>Singular = den/dem/des Helden 
+the neighbour	der Nachbar -n Weak noun...<br>Singular = den/dem/des Nachbarn 
+the pilot	der Pilot -en Weak noun...<br>Singular = den/dem/des Piloten 
+the idiot, scatterbrain, blunderer 	der Idiot -en <br>der Trottel "<br>der Dummkopf -köpfe <br>der Schussel -- der Idiot is weak noun...<br>Singular = den/dem/des Idioten 
+the ape, monkey,<br>chimpanzee	der Affe -n<br>der Schimpanse -n Weak noun...<br>Singular = den/dem/des Schimpansen 
+the civil servant, official	der Beamte -n<br>die Beamtin -nin der Beamte is Weak noun...<br>Singular = den/dem/des Beamten 
+the german male	der Deutsche -n Weak noun...<br>Singular = den/dem/des Deutschen 
+the stranger	der Fremde -n Weak noun...<br>Singular = den/dem/des Fremden 
+the relative [family]	der Verwandte -n Weak noun...<br>Singular = den/dem/des Verwandten 
+the planet	der Planet -en Weak noun...<br>Singular = den/dem/des Planeten<br><br>der Jupiter <br>der Mars <br>der Merkur <br>der Neptun<br>der Pluto <br>der Saturn <br>der Uranus <br>die Venus 
+the investor	der Investor -en <br>der Anleger " 
+the software	die Software -- 
+Switzerland <br>Swiss [per]<br>Swiss [adj]	die Schweiz -- <br>der Schweizer, die Schweizerin, <br>schweizerisch [adj] Wir fahren in die Schweiz [Akk]<br>Wir machen Urlaub in der Schweiz [Dat]. 
+Austria <br>Austrian [per]<br>Austrian [adj]	Österreich <br>der Österreicher, die Österreicherin<br>österreichisch [adj] 
+Great Britain 	Großbritannien 
+France <br>French [per]<br>French [adj]	Frankreich <br>der Franzosen , die Französin<br>französisch [adj] 
+Italy <br>Italian [per] <br>Italian [adj] 	Italien <br>der Italiener, die Italienerin <br>italienisch [adj] 
+Spain <br>Spaniard [per]<br>Spanish [adj]	Spanien <br>der Spanier, die Spanierin, <br>spanisch [adj] 
+Sweden <br>Swede [per]<br>Swedish [adj]	Schweden <br />der Schwede, die Schwedin, <br />schwedisch [adj] der Schwede = Weak noun...<br />Singular = den/dem/des Schweden 
+Denmark <br>Dane [per]<br>Danisch [adj]	Dänemark <br>der Däne , die Dänin<br>dänisch [adj] 
+Norway <br>Norwegian [per] <br>Norwegian [adj] 	Norwegen <br>der Norweger, die Norwegerin, <br>norwegerisch [adj] 
+United States (of America) <br>American [per]<br>American [adj] 	die Vereinigten Staaten <br>der Amerikaner, die Amerikanerin, <br>amerikanisch [adj] 
+Australia <br>Australian [per]<br>Australian [adj]	Australien <br>der Australier, die Australierin <br>australische [adj] 
+New Zealand <br>New Zealander [per] <br>New Zealand [adj] 	Neuseeland <br>der Neuseeländer, die Neuseeländerin, <br>neuseeländisch [adj] 
+Holland, The Netherlands <br>Dutch [per]<br>Dutch [adj] 	Holland, die Niederlande <br>der Holländer, die Holländerin <br>holländisch [adj] 
+Philippines <br>Filipino [per] <br>Philippine [adj] 	die Philippinen [Pl] <br>der Philippiner, die Philippinerin, <br>Philippinisch [adj] 
+USA	die USA 
+Iraq <br>Iraqi [per]<br>Iraqi [adj] 	der Irak <br>der Iraker, die Irakerin <br>irakisch [adj] 
+Iran <br>Iranian [per]<br>Iranian [adj] 	der Iran <br>der Iraner, die Iranerin <br>iranisch [adj] 
+Turkey <br>Turk [per]<br>Turkish [adj] 	die Türkei <br>der Türke, die Türkin, <br>türkisch [adj] 
+the foundation <br>[financial tax free org for social purpose]	die Stiftung -en 
+on	auf Exception : a "two way" preposition that irregularly (i.e. without "movement") takes Akk. in many idioms... <br><br>Akkusativ<br>Er trifft den Nagel auf den Kopf. <br>Wir hoffen auf besseres Wetter.<br>Sie ist böse auf dich.<br>Er hat nicht auf meinen Vorschlag reagiert.<br>Du kannst auf dich stolz sein.<br>Ich freue mich auf deinen Besuch.<br>Ich werde auf dich warten.<br>Ich höre auf deinen Rat.<br><br>Dativ<br>Ich laufe auf der Straße.<br>Dein Geld liegt auf der Bank.<br>Sie lag auf dem Balkon. 
+over	über Exception : a "two way" preposition that takes Akk. in many idioms... <br><br>Das Buch über die Elemente. <br>Wir sind glücklich über das neue Haus.<br>Wir sprechen über die politische Situation.<br>...über jemanden/etwas sprechen/schreiben/ diskutieren/reden/ärgern. <br><br><br><br> 
+the forehead	die Stirn -en 
+the tongue	die Zunge -n 
+the shoulder	die Schulter -n 
+the chest	die Brust Brüste 
+the bone	der Knochen " 
+the elbow	der Ellbogen " 
+the joint	das Gelenk -e 
+the muscle	die Muskel -n 
+the back	der Rücken " 
+the buttocks, <br>backside 	das Gesäß -e<br>der Hintern "<br>der Po -s 
+the thigh	der Oberschenkel " 
+the knee	das Knie " 
+the genitals	das Geschlechtsteil -e<br>die Genitalien [pl only] 
+the nail [finger-/toe-nail]	der Nagel Nägel<br>der Fingernagel -nägel<br>der Fußnagel -nägel 
+the eyebrow	die Augenbraue -n<br>[usually pl.] 
+the heel	die Ferse -n <br>die Hacke -n [Nordd] <br>der Absatz -sätze = shoe heel<br> 
+the sole [foot]	die Sohle -n 
+the appendix [body]	der Blinddarm -därme 
+the pain	der Schmerz -en 
+the cold [illness]	die Erkältung -en<br>der Schnupfen " 
+to cut <br>cut out <br>cut through	schneiden <br>ausscheiden <br>durchschneiden 
+the cut [wound]	die Schnittwunde -n 
+the infection	die Ansteckung -en<br>die Infizierung -en<br>die Infektion -en 
+the bruise	die Beule -n<br>die Prellung -en<br>die Quetschung -en<br>der Bluterguss -güssen 
+the swelling	die Schwellung -en 
+the scratch [wound]	der Kratzer -n<br>die Kratzwunde -n 
+the sprain	die Verstauchung -en 
+the broken bone	der Knochenbruch -brüche 
+the sinew	die Sehne -n 
+the tissue [body]	das Gewebe " 
+the liquid, fluid	die Flüssigkeit -en 
+the plug [electrical]	der Stecker " 
+brave, bold, courageous	mutig<br>mutiger<br>am mutigsten 
+difficult	schwierig 
+the north, the east, the south, the west	der Nord -- , der Norden -- , nördlich der Ost -- , der Osten -- , östlichder Süd -- , der Süden -- , südlich der West -- , der Westen -- , westlich Im Osten geht die Sonne auf, im Süden nimmt sie ihren Lauf, im Westen geht sie unter. 
+nobody, no-one	keiner, niemand Keiner ist perfekt 
+the way, manner, mode, <br>wise man	die Weise -n Auf diese Weise, habe ich.... 
+the structure, rebuilding	der Aufbau -ten 
+the balancing act, splits	der Spagat -e Ihm gelingt der Spagat zwischen Kreativität und eiserner Disziplin. 
+to frighten, scare	angst machen<br>erschrecken <br>einjagen Das macht mir angst<br>Ich bin erschrocken 
+the invention	die Erfindung -en 
+sustainable	nachhaltig Eine nachhaltige Umwelt 
+the cream [dairy]	die Sahne -- 
+the downfall, demise, overthrow	der Umsturz -e 
+to predict	prophezeien <br>vorhersagen <br>voraussagen <br>prognostizieren 
+the trick, prank	der Trick -s<br>der Streich -e<br>der Kniff -e Das ist ein toller Trick 
+despite 	trotz Trotz des Wetters... [Gen]<br>Trotz allem...[no noun = Dat] <br>Trotz aller Bemühungen [Dat] 
+gradually, finally, at last	allmählich 
+to look...what I have here	gucken Guck mal, was ich hier habe! 
+the leniency, <br>mercy	die Nachsicht --<br>die Gnade -n 
+the privilege	das Privileg -ien 
+occassionally, <br>sometimes, <br>now and then	manchmal<br>gelegentlich<br>zuweilen, <br>ab und zu 
+the string, cord	die Schnur -üre 
+instead	stattdessen<br>anstatt 
+the pole, bar, rod	die Stange -n 
+the congestion, traffic jam	der Stau -s 
+to disturb	stören 
+the stop 	der Stopp -s 
+to stutter	stottern 
+to wear out	strapazieren<br>ablaufen 
+the strike	der Streik -s 
+to stretch	strecken <br>recken<br>dehnen 
+to groan, moan	stöhnen Der Verletzte stöhnte vor Schmerz. 
+the level, floor [of building]	der Stock Stöcke <br>das Stockwerk -e <br>das Geschoss -e Erste/zweite/dritte Stock, usw.<br><br>Erdgeschoss, Obergeschoss, Untergeschoss 
+the stick, pole	der Stock Stöcke Nordik Lauf-Stöcke 
+to climb	steigen<br>klettern 
+the asterisk, little star	das Sternchen " 
+the boot	der Stiefel " 
+the jump, leap	der Sprung -ünge 
+the stepfather/-mother, <br>the father/mother-in-law	der Stiefvater -väter<br>die Stiefmutter -müttern<br><br>der Schwiegervater -väter<br>die Schwiegermutter -müttern 
+the sigh	der Seufzer " ...einen Seufzer tun / unterdrücken 
+the New Year's Eve	der Silvester " 
+the slave	der Sklave -n <br>die Sklavin -nen 
+the skepticism	die Skepsis -- Ich bin sehr skeptisch [Adj] 
+since	seit 
+the sparkling wine, <br>champagne	der Sekt -e 
+the longing, <br>yearning	die Sehnsucht -süchte 
+to split	splittern 
+the point, tip, peak	die Spitze -n <br>der Gipfel " 
+departure time from... <br>arrival time at...	ab <br>an München ab 12.20 Uhr <br>an Berlin 15:10 Uhr 
+to copy	kopieren <br>abbilden <br>angucken 
+to brake, decelerate	bremsen 
+to put, take off, discard	ablegen 
+the spectacles, eye glasses	die Brille -n die Brille [sing] = pair of glasses 
+the offside [sport]	das Abseits -- 
+the ancestry, lineage, origin	die Abstammung -en 
+to coordinate, vote on	abstimmen 
+to resign, step down, <br>cede, hand over 	abtreten 
+the diversity	die Vielfältigkeit -en<br>die Abwechslung -en 
+the axle, axis	die Achse -n 
+attentive	aufmerksam<br>achtsam 
+the affair	die Affäre -n 
+to operate, <br>act 	agieren Viele seiner Kollegen agierten hinter seinem Rücken gegen ihn. 
+the ancestors, forbears	der/die Ahne [m/f] <br>die Ahnen [pl] 
+to suspect	verdächtigen<br>vermuten<br>ahnen 
+the maple tree	der Ahorn -e 
+the cupboard, <br>wardrobe, <br>file cabinet	der Schrank -schränke <br>der Kleiderschrank -schränke<br>der Aktenschrank -schränke 
+the ambiance	das Ambiente -- 
+the seizure, fit, attack [sickness]	der Anfall -fälle 
+to cheer on, encourage	anfeuern<br>ermuntern 
+apparently, <br>supposedly	angeblich <br>vermutlich 
+the fishing gear/tackle, hinge	der Angel -n 
+the employee, <br>- salary/white collar employee<br>- wages/blue collar employee/worker	der Arbeitnehmer " Dat.pl: -n <br>der Mitarbeiter " Dat.pl: -n<br><br>der Angestellte <br>der Arbeiter " Dat.pl: -n 
+to arrive	ankommen 
+on the occassion of...	anlässlich 
+to take on, accept	annehmen 
+the motivation, <br>incentive	die Motivation -en <br>der Anreiz -e<br>der Ansporn -- 
+to applaud clap	applaudieren <br>klatschen 
+annoying	ärgerlich 
+the sleeve	der Ärmel -- 
+the aspect, <br>point of view, <br>perspective 	der Aspekt -e<br>der Gesichtspunkt -e<br>die Perspektive -n 
+the breath	der Atem --<br>die Puste -- 
+the heartbeat	der Herzschlag -schläge ...seine Herzschläge zählen. 
+the blood pressure	der Blutdruck -- Sie leidet an hohem Blutdruck 
+the stopover, stay	der Aufenthalt -e 
+to challenge, summon 	herausforden<br>auffordern 
+angry, upset, furious, <br>outraged	wütend, <br>böse, <br>verärgert, <br>zornig, <br>aufgebracht 
+to cease, quit <br><br>e.g. stop smoking	aufhören ...mit dem Rauchen aufhören 
+to startle, arouse	aufschrecken 
+the climb, rise	der Aufstieg -e 
+luxurious, <br>lavish 	luxuriös 
+to irritate, confuse	irritieren, <br>konfus machen, <br>durcheinander bringen 
+the expansion	die Ausbreitung -en<br>die Ausdehnung -en <br>die Erweiterung -en 
+to fold out, swing out	ausklappen 
+the foreigner	der Ausländer " die Ausländerin -nen 
+to remark, <br>express	äußern <br>bemerken Möchten Sie noch einen Wunsch äußern? <br>Hat er sich zu den Vorwürfen geäußert? 
+to pronounce	aussprechen Wie wird es ausgesprochen? 
+to get off/out	aussteigen 
+to exit/leave an organisation that one belonged to	austreten 
+the axe	die Axt Äxte 
+Europe	das Europa -- 
+the banana	die Banane -n 
+the compassion, sympathy, pity	das Mitgefühl --<br>das Mitleid --<br>die Barmherzigkeit -en 
+to apply for	beantragen 
+to regret, <br>to feel sorry for s.o.	bedauern <br>bereuen 
+to be in favour of...	befürworten 
+the enthusiasm	die Begeisterung -en <br>der Eifer -en -- 
+ph: I am angry with him.	Ich bin sauer auf ihn. 
+the companion, <br>comrade	der Begleiter "<br>der Kamerad -en<br>der Genosse -n 
+comfortable	bequem<br>gemütlich<br>behaglich 
+persistent	anhaltend<br>beharrlich <br>hartnäckig Es regnet anhaltend. <br>Beharrlich versuchte sie, das Problem zu lösen. <br>Er hat sich hartnäckig geweigert, etwas zu tun. 
+continually, <br>constantly 	kontinuierlich<br>ständig <br>andauernd 
+to be good at, know well <br>dominate, master, govern, rule	beherrschen 
+the motor home, <br>mobile home, <br>campervan, <br>caravan 	das Wohnmobil -e <br>das Reisemobil -e <br>der Camper " <br>der Wohnwagen " 
+to eavesdrop, overhear	belauschen 
+to insult, offend	beleidigen 
+to strive, <br>endeavour, <br>strain	bemühen <br>anstreben <br>anstrengen 
+to behave	benehmen <br>verhalten 
+predictable <br>caculable	berechenbar, <br>voraussagbar Ich habe das vorausgesagt! 
+to emphasize <br>stress	betonen 
+employed, <br />occupied, <br />busy,	beschäftigt 
+the spring [season]	der Frühling -e 
+the autumn	der Herbst -e 
+to console	trösten Er tröstet sich mit einer neuen Freundin. 
+the soldier	der Soldat -en <br>die Soldatin -nen der Soldat is Weak noun...<br>Singular: den/dem/des Soldaten 
+the giving of Christmas presents [noun]	die Bescherung -en 
+to defeat, conquer	besiegen<br>schlagen 
+to bribe	bestechen 
+to cheat, swindle, deceive, rip off	betrügen <br>mogeln <br>schummeln<br>täuschen <br>abzocken <br>schwindeln 
+to prove	beweisen 
+the consciousness	das Bewußtsein -- 
+respectively, <br>or	beziehungsweise abgekürzt mit "bzw." &#8776; anders gesagt. <br>Ich habe vier Wochen bzw. 30 Tage Urlaub im Jahr. 
+to bind, tie down, commit	binden 
+the light bulb, <br>pear	die Birne -n 
+the bladder, <br>blister, <br>bubble	die Blase -n 
+the brake	die Bremse -n 
+the bronze	die Bronze -n 
+the fraction	der Bruchteil -e 
+the middle-age fortress	die Burg -en die Burgen des Rheintals 
+the sand	der Sand -- 
+the lid, cover	der Deckel " 
+to point to, <br>interpret, <br>indicate	deuten 
+the density	die Dichte -n 
+the thief, burglar, robber	der Dieb -e , die Diebin -nin <br>der Einbrecher " , die Einbrecherin -nen 
+the operating instruction, <br>user manual	die Betriebsanweisung -en <br>die Gebrauchsanweisung -en 
+to pressure, urge, rush, push	drängen<br>dringen 
+the haze, mist	der Dunst Dünste 
+the mess, confusion	das Durcheinander "<br>die Schweinerei -n 
+to fail, fall through	durchfallen <br>scheitern <br>versagen Ich möchte nicht versagen. 
+the drought	die Dürre -n 
+the foliage, leaves	das Laub -- 
+the ambition	der Ehrgeiz -- 
+peculiar, strange	merkwürdig<br>eigenartig 
+the empathy, <br>understanding	die Einfühlung -- <br>das Einfühlungsvermögen -- 
+the concensus	der Konsensus " <br>die Einigkeit -- 
+to memorise, remember	einprägen Ich habe mir das ins Gedächtnis einprägt. Ich habe mir das einprägt. <br>Ich werde mich daran erinnern. 
+to get in/on	einsteigen 
+to divide up, distribute	aufteilen [for other people]<br>einteilen [for self] 
+contrary to	entgegen 
+the exoneration, relief	die Entlastung -en 
+to relax	entspannen 
+the inheritance	das Erbe -- <br>die Erbschaft -en 
+to complement, add	ergänzen 
+to receive, maintain	erhalten 
+the recovery	die Erholung -en 
+the revenue, <br>proceeds, <br>income	der Erlös -e [companies]<br>die Einnahme -n [general orgs] <br>das Einkommen " [people, usually salary, wages] 
+to harden	erstarren 
+to catch someone doing something	ertappen<br>erwischen 
+the stage, leg, phase	die Etappe -n 
+eternal, <br>perpetual, <br>for ever 	ewig 
+to explode	explodieren 
+competent, capable	kompetent, fähig 
+the fist	die Faust Fäuste 
+the feather	die Feder -n 
+to hold on 	festhalten 
+the honeymoon	die Flitterwochen [Pl.only] 
+the fleet	die Flotte -n 
+the wing	der Flügel " 
+the researcher	der Forscher " 
+advanced	fortgeschritten 
+the question mark	das Fragezeichen " 
+to freeze <br>freeze to death 	frieren<br>erfrieren 
+the frustration	der Frust --<br>die Frustration -en 
+thoughtless	gedankenlos 
+pleasing	gefällig ein gefälliges Äußeres = a pleasing appearance<br>Sonst noch etwas gefällig? [oft ironisch] 
+the salary, <br>wage	das Gehalt Gehälter<br>der Lohn Löhne 
+mean, nasty	gemein 
+the general [military]	der General -e 
+the genius	das Genie -s 
+the satisfaction 	die Genugtuung -en <br>die Befriedigung -en<br>die Zufriedenheit -en 
+to justify, vindicate	rechtfertigen Das ist gerechtfertigt !<br>Eine gute Rechtfertigung. 
+slight, smallest, least	gering <br>geringste <br>am geringsten Das ist meine geringste Sorge 
+the noisy crash/roar/rumbling	das Getöse -- 
+to risk	riskieren<br>wagen Das hatte ich nicht riskiert/gewagt ! 
+so to speak <br> as it were	sozusagen<br>gewissermaßen 
+the habit	die Gewohnheit -en 
+greedy	gierig 
+the plaster [for broken arm]	der Gips -e 
+the railway track, platform	das Gleis -e 
+to glow, burn	glühen 
+to google	googeln 
+to dig, excavate	graben <br>buddeln 
+the grip, grasp	der Griff -e 
+to grin	grinsen 
+generous	großzügig, <br>gütig 
+valid	gültig 
+the wrist	das Handgelenk -e 
+the pile, heap, stack	der Haufen " <br>der Stapel " 
+the sound, <br>noise [speech/pronunciation]	das Geräusch -e <br>der Laut -e Aus dem Keller hörte man verdächtige Geräusche. 
+the vowel	Der Vokal -e Einfache Vokale: a e i o u<br>Umlaute: ä ö ü oder: ae, oe, ue<br>Diphthonge: au eu ei ai äu (Doppelvokal) 
+the fitness	die Fitness -- 
+the engineer	der Ingenieur -s 
+the body, bodywork [of vehicle]	die Karosserie -n 
+the rhythm	der Rhythmus -men 
+the tolerance	die Toleranz -en 
+undesirable, <br>frowned upon	verpönt 
+siblings<br>brothers and sisters	die Geschwister [pl] 
+the saint	der Heiliger -gen 
+the hypocrite	der Heuchler " Dat.pl: -n 
+the endurance 	die Ausdauer -- 
+the horizon	der Horizont -e Dat.pl: -en 
+the helicopter	der Hubschrauber " 
+the comfortable, cozy atmosphere in a home, restaurant, hotel, etc.	die Gemütlichkeit -- 
+the anniversary	der Jahrestag -e Dat.pl: -en 
+the jet [aircraft]	der Jet -s 
+the emperor	der Kaiser "<br>die Kaiserin -nen 
+the canal, <br>channel 	der Kanal -äle Dat.pl: -älen 
+the carnival	der Karneval -- 
+the carton, <br>cardboard box	der Karton -s <br>der Pappkarton -s 
+the box, case	die Box -en <br>die Kiste -n <br>der Kasten Kästen 
+pitiful, miserable	erbärmlich <br>miserabel <br>elend 
+scattered <br>absent-minded, <br>distracted 	zerstreut 
+accessable, approachable	zugänglich 
+accomplished, perfect	vollendet 
+familiar, accustomed 	vertraut <br>gewohnt 
+opposite<br>across from 	gegenüber 
+adjustable	regulierbar 
+sociable, <br>agreeable, <br>companionable	gesellig, <br>kontaktfreudig, <br>umgänglich 
+affected, pretentious	affig Ich finde sein Verhalten ausgesprochen affig. 
+against, toward, versus, anti, contrary to	gegen 
+aggravating, complicating	erschwerend 
+agreed <br>united	einig <br>vereint 
+agreed <br>arranged	abgemacht <br>vereinbart 
+to be aimed <br>targeted <br>specifically	gezielt 
+all of you/them	allesamt Ihr seid allesamt Betrüger! 
+almost, <br>more or less, <br>virtually	quasi <br>mehr oder weniger <br>nahezu <br>fast Das ist quasi das Gleiche. 
+along, alongside	entlang 
+although, <br>while, <br>notwithstanding, <br>even though	obwohl <br>obgleich <br>obschon 
+ambiguous	zweideutig 
+anyhow, <br>anyway	sowieso <br>ohnehin Ich werde das sowieso machen. 
+to frustrate	frustrieren 
+random <br>indiscriminate <br>arbitrary <br>haphazard 	willkürlich 
+artificial, synthetic	künstlich 
+as follows	folgendermaßen 
+in/with regard to, as regards,<br>in/with reference to, <br>in/with respect to, <br>in terms of	bezüglich [präp]<br>in Bezug auf [noun]<br>in puncto [präp] Bezüglich ihrer Frage kann ich nur sagen, dass ...<br>In Bezug auf seinen Beruf ist er sehr gewissenhaft. <br>In puncto Sauberkeit ist er sehr pingelig. 
+as well as, <br>as soon as, <br>plus	sowie Äpfel, Birnen sowie Aprikosen mag ich sehr gern. 
+aside	beiseite 
+to assume 	annehmen 
+astonishing, <br>amazing	erstaunlich <br>verblüffend 
+at home	zuhause, <br>zu Hause, <br>daheim Bist du morgen zuhause? [adv] <br>Bist du morgen zu Hause? [noun] 
+at midday	mittags Die Deutschen essen mittags warm. 
+at, around, in order to, about	um Das wird so um die 500 Euro kosten. [adv] <br>Sie rief an, um sich zu entschuldigen. = damit. [conj] <br>Die Vorstellung beginnt um 6 Uhr. [präp] 
+attractive 	attraktiv <br>reizend 
+to have averted <br>turned away	abgewendet <br>abgewandt 
+bad, dreadful	schlimm Das war schlimm.<br />Es hätte schlimmer kommen können. 
+bald, bare, barren, bleak	kahl 
+barely, merely, just, only	kaum <br>bloß Ich habe vor der Prüfung kaum geschlafen. 
+battered, beat up	zugerichtet 
+ph: better than ever	besser denn je 
+compulsory, <br>binding, <br>obligatory	verbindlich 
+bitter	bitter, herb 
+ph: Is she imagining things?	Bildet sie sich Sachen ein? 
+spectacular, <br>sensational	spektakuläre <br>sensationell<br>eklatant 
+stained, <br>blemished	befleckt 
+blind	blind 
+to boast, brag	prahlen <br>brüsten (sich) Er prahlt gern mit seinen Erfolgen.<br>Er brüstete sich schon wieder mit seiner Note. 
+bowed, stooping	gebeugt 
+brand-new	nagelneu 
+cheeky	frech Ein freches Kind. [adj] <br>Das Kind war sehr frech. [adv] 
+breakneck	halsbrecherisch 
+breath-taking	atemberaubend 
+brittle, chapped,	spröde 
+bullet-proof	kugelsicher 
+bumpy, rough, jarring 	holprig 
+besides, except, unless	außer 
+however	jedoch <br>aber <br>dagegen <br>hingegen <br> wie auch immer 
+ph: It is over between us.	Es ist aus zwischen uns. 
+in that, <br>as, <br>while 	indem [konj] Du kannst mir helfen, indem du den Tisch deckst. 
+conscientious, careful	sorgfältig 
+careless <br>untidy 	nachlässig <br>schlampig Sie ist besonders nachlässig und schlampig. 
+casual, informal, light hearted	informell, ungezwungen, zwanglos, <br>locker, leger, lässig 
+accidental <br>inadvertently <br>casually <br>by chance <br>random	zufällig<br>beiläufig <br>versehentlich 
+certain, surely	sicher, bestimmt, gewiss 
+lively, alert, feisty, spirited, 	munter, <br>lebendig, <br>lebhaft 
+sunny, buoyant	heiter 
+childish <br>to fool around	albern 
+chubby, plump, snug	mollig 
+bye <br>bye-bye <br>cheerio <br>ciao	tschüss [interjection] 
+to grant a claim/request	stattgeben 
+clear, <br>concrete, <br>transparent 	klar <br>anschaulich Ein anschauliches Beispiel geben. 
+clever, bright, sharp, quick	klug, schlau, gescheit 
+unskilled, <br>clumsy, <br>awkward, <br>careless, <br>inept	ungeschickt Es war ziemlich ungeschickt von dir. 
+coarse, rough <br>uncouth	grob <br>rau 
+ph: I did not like it.	Mir hat es nicht gefallen. 
+common, joint, shared	gemeinsam Sie haben viel gemeinsam. 
+condescending <br>patronizing 	herablassend Sein Ton war sehr herablassend. 
+partial, <br>limited, <br>conditioned	bedingt 
+self-confident, <br>confident	selbstbewusst<br>zuversichtlich 
+confused	verwirrt 
+significantly	maßgeblich <br />bedeutungsvoll 
+conservative	konservativ 
+considerate, thoughtful	rücksichtsvoll 
+controversial <br>contentious <br>disputed <br>debatable 	umstritten<br>strittig 
+cool, cold	kühl, kalt 
+courteous, polite	höflich 
+cowardly	feig Es war feige... 
+timid, <br>tentative	zaghaft Sei nicht so zaghaft und komm mit! 
+crafty, cunning	gerissen 
+creepy, spooky, weird	gruselig 
+gawking, rubber-necking, curious	schaulustig 
+curious, inquisitive, nosy	neugierig 
+curious, odd, strange, funny	kurios 
+curt, abrupt [behaviour]	schroff, brüsk, abrupt 
+cushioned <br>padded <br>upholstered	gepolstert 
+cute, dinky	niedlich, putzig 
+damaged	beschädigt 
+damned, blasted	verdammt, verflixt, verflucht 
+dangerous	gefährlich 
+dead <br>the death <br>to die 	tot Er ist tot [adj]<br>Der Tod kommt bald [noun] <br>Er wird bald sterben [verb] 
+deaf	taub 
+to have decayed, <br>decomposed, <br>fallen into ruin	verfallen <br>zerfallen <br>verkommen 
+defensive	abwehrend 
+sensitive <br>delicate, <br>temperamental 	sensibel <br>empfindlich Sei nicht so grob zu ihm, er ist sehr sensibel. <br>Er ist ein sensibler Junge. 
+delicious	sehr lecker <br>köstlich 
+delicious, exquisite, wonderful	köstlich 
+the demonstration 	die Demonstration -en 
+dense, thick, close, watertight	dicht 
+problematic	problematisch 
+depressed	deprimiert, <br>niedergeschlagen 
+religious, devout, believer	religiös, fromm, gläubig 
+laborious, <br>onerous, <br>arduous	mühsam, müselig Ein mühsam ausgehandelter Kompromiss. 
+difficult, awkward	schwierig <br>umständlich <br>zickig 
+Russia <br>Russian [per] <br>Russian [adj] 	Russland <br>der Russe, die Russin, <br>russisch [adj] 
+impolite, discourteous, disrespectful	unhöflich 
+disgusting, repulsive	ekelig <br>widerlich 
+dissatisfied	unzufrieden 
+distinctive, pronounced	ausgeprägt 
+upset, <br>angered, irritated 	aufgebracht <br>verstimmt Sie war ganz aufgebracht über sein Verhalten. <br>Sie hat ihn mit dieser Bemerkung sichtlich verstimmt. 
+doubtful	zweifelhaft 
+downhill <br>uphill	bergab, abwärts<br>berauf, aufwärts 
+to adopt	adoptieren 
+drafty	zugig Es zieht = It is drafty<br><br>NOTE: zügig = quickly, rapid 
+incredible, <br>really, a lot, <br>[positive and negative]	doll Das war ja ganz was Dolles. <br>Das Dollste kommt noch ! <br>Ich freue mich ganz doll. 
+to accuse 	vorwerfen <br>beschuldigen <br>anklagen 
+during, while	während Genitiv :<br>während des Schlafes/Tages<br>während der Vorstellung/Nacht<br>während des Spiels/Festes <br>während der Nächte/Spiele 
+each time <br>at the time <br>respectively	jeweils Für die Testfragen gibt es jeweils maximal vier Punkte. <br>Die Vorträge finden vom 10. bis 15. Juli jeweils um 18 Uhr statt. 
+each, every 	jede -r/s Das weiß doch jeder. [pron] <br>Ich habe sie jeden Tag besucht. [adj] 
+eager, <br>zealous, <br>keen 	eifrig 
+earthly	irdisch 
+eccentric	exzentrisch 
+economical, thrifty	sparsam 
+edgy, fidgety, jumpy	kribbelig 
+incredible, <br>eerie, <br>sinister, <br>terrible	unheimlich 
+efficient, capable, hard-working	effizient <br>tüchtig <br>fleißig 
+effortless	mühelos 
+cloudy 	bewölkt 
+elementary, elemental	elementar 
+thin, gaunt, under weight	abgemagert 
+embarrassing, awkward	peinlich <br>heikel 
+to emphasise, <br>stress 	betonten 
+active, employed	tätig 
+equal, similar, same, alike, <br>immediately, shortly	gleich 
+erect, straight as a rod	kerzengerade 
+to volunteer	sich freiwillig melden <br>anbieten 
+even if	auch wenn <br>selbst wenn 
+everyday, daily	täglich Er arbeitet täglich acht Stunden. [adj] <br>Man sollte täglich ein wenig Sport treiben. [adv] 
+exact, neat, clear	gestochen Das ist gestochen scharf. 
+to forsee, <br>refrain from	absehen Es ist noch gar nicht abzusehen, wie lange die Arbeit dauern wird. <br>Das Ende des Streiks ist noch nicht abzusehen. <br>Das Ende lässt sich noch nicht absehen. 
+exciting	aufregend <br>spannend 
+exclusive	exklusiv<br>ausschließlich 
+excusable<br><br>That is excusable.	entschuldbar <br>verzeihbar Das ist entschuldbar. 
+exhausted	erschöpft <br>verbraucht <br>hundemüde <br>übermüdet 
+the praise, <br>commendation	das Lob -e [selten Plur.] Sie möchte gelobt werden 
+explosive	explosiv, brisant 
+comprehensive, <br>extensive, <br>detailed	ausführlich <br>umfassend <br>umfangreich 
+to extinguish <br>erase <br>obliterate	löschen <br>auslöschen 
+extraterrestrial <br>alien 	außerirdisch <br>fremd 
+extravagant	extravagant<br>verschwenderisch<br> 
+fantastic, fabulous, marvellous	fantastisch <br>fabelhaft 
+fair, lawful, right	fair, <br>gerecht 
+to an acceptable degree, <br>somewhat, rather, alright, not too bad	einigermaßen Es geht mir wieder so einigermaßen. <br>Die Prüfung hat einigermaßen gut geklappt. 
+fat	fett, dick, korpulent 
+favorable, reasonable, convenient	günstig 
+powerless 	kraftlos <br>machtlos 
+productive, <br>fertile, abundant, fruitful, yielding, profitable	produktiv<br />ergiebig 
+first, <br>at first, <br>only, <br>not until 	erst Erst machst du deine Hausaufgaben. 
+in front, forward	voran <br>voraus<br>vorwärts Nur immer voran! = Keep going! 
+shocked, stunned, flabbergasted, in a daze	schockiert, <br>verdattert 
+flatulent	blähend <br>aufgebläht 
+fluent, <br>flowing	fließend Du sprichst fließend Englisch. 
+to be followed, chased, hunted	verfolgt 
+subsequently,<br>afterwards	anschließend, <br />danach, <br />nachher, <br />hinterher 
+mild	mild, gelinde 
+foolish, <br>silly, <br>rediculous, <br>laughable	lächerlich <br>läppisch 
+that's why, <br>for that reason, <br>therefore	daher <br>darum <br>deshalb <br>deswegen <br>demzufolge <br>folglich <br>somit 
+firstly, <br>for the time being 	vorerst Das Projekt wurde vorerst auf Eis gelegt. 
+for the sake of	zuliebe Tue es mir zuliebe = Do it for my sake 
+foreign, <br>out of town, <br>non-local	ausländisch <br>auswärtig <br>fremd 
+forensic 	forensisch <br>gerichtsmedizinisch 
+foreseeable	absehbar 
+to say nothing <br>keep quiet <br>be silent	schweigen 
+freshly caught	fangfrisch 
+frightened, anxious, uneasy	bange, ängstlich 
+from memory, by heart	auswendig Ich werde das auswendig lernen. 
+where from	woher 
+furtive, stealthy, sneaking	verstohlen 
+the foam, froth	der Schaum Schäume 
+gay, lesbian, homosexual <br>vs. <br>humid, muggy [weather]	schwul <br>vs. <br>schwül, feucht 
+German-speaking	deutschsprachig 
+specific	spezifisch 
+valid, acceptable	gültig <br>akzeptabel <br>zulässig <br>triftig 
+gracious, merciful, mild	gnädig 
+grainy, granular	körnig 
+serious	ernsthaft <br>schwerwiegen <br>gravierend NOTE: seriös = respectable, reputable, reliable 
+greasy, slimy	schmierig 
+great, fantastic, cool 	toll <br>prima <br>großartig <br>cool Du bist toll ! 
+grumpy, surly	muffig <br>mürrisch 
+corny, worn-out, banal	abgedroschen <br>banal 
+halfway through, <br>through the middle 	mittendurch Es gab ein Gewitter und wir flogen mittendurch. 
+harmless	harmlos <br>ungefährlich <br>unschädlich 
+hazy, misty, murky, steamy	dunstig 
+heavily indebted	überschuldet 
+helpless <br>at a loss	hilflos <br>ratlos 
+hesitant	zögerlich 
+high quality/value	hochwertig 
+high-carat	hochkarätig 
+historic, historical	historisch Der Tag ist historisch. 
+hopefully	hoffentlich Hoffentlich ist ihm nichts passiert! 
+hopeless	hoffnungslos 
+horizontal <br>vertical 	waagerecht <br>horizontal <br><br>senkrecht <br>vertikal 
+horrible, atrocious, nasty	scheußlich 
+massive <br>enormous <br>huge <br>powerful <br>colossal	massiv <br>enorm <br>riesig <br>gewaltig <br>kolossal 
+humble, <br>modest	demütig <br>bescheiden 
+surrender, <br>result from 	ergeben Wir ergeben uns. <br>Das wird sich ergeben. 
+hungry, hungrily	hungrig 
+hurtful	verletzend 
+lazy 	faul 
+if, <br>as if, <br>whether, <br>as though 	ob Wir gehen spazieren, ob es regnet oder nicht. 
+unmoveable, <br>immobile 	unbeweglich <br>immobil 
+impressive	eindrucksvoll 
+improper <br>indecent <br>unseemly <br>unreasonable <br>inappropriate	ungebührlich<br>unpassend<br>unkorrekt 
+in a mood to <br>inclined to	zumute Mir ist heute nicht danach zumute. 
+in any case, <br>anyhow, <br>nevertheless 	auf jeden Fall, <br>jedenfalls 
+ph: in service, on duty	im Dienst 
+finally, <br>eventually, <br>in the end	schließlich <br>endlich <br>letztendlich 
+in the middle of	mittendrin Wir wollten einen Film ansehen, wurden aber mittendrin unterbrochen. 
+the precaution	die Vorkehrung -en <br>die Vorsichtsmaßnahme -n 
+in, into	hinein 
+provided that, <br>as long as, <br>in so far as, <br>in as much as 	solange <br />insofern 
+unpredictable, <br>incalculable, <br>unforeseen 	unberechenbar <br>unabsehbar 
+incessantly, <br>unrelenting, <br>continually	unablässig <br>andauernd 
+unimportant<br>inconsequential	unwichtig <br>unbedeutend 
+inevitably, <br>invariably 	unweigerlich <br>zwangsläufig Sie kommt jeden Tag unweigerlich zu spät. <br>Computerspiele führen nicht zwangsläufig zu Aggressivität. 
+infamous, <br>notorious, <br>feared, <br>dreaded	berüchtigt 
+informative	informativ <br>aufschlussreich <br>lehrreich 
+ingenious	genial 
+inhibited, <br>self-conscious	gehemmt Er verhält sich immer so gehemmt mir gegenüber. 
+within, inland, domestic	binnen [präp]Binnen- [prefix] Binnenschiff,Binnenmeer, Binnenmarkt, Binnenwirtschaft 
+to inspire, enthuse	inspirieren <br>begeistern 
+instead of, in place of	anstatt, statt Er hat den ganzen Nachmittag gespielt, anstatt zu lernen. 
+insurmountable <br>cannot be overcome	unüberwindlich 
+intolerable	unerträglich<br>unausstehlich 
+involuntary, <br>unintentional 	unbeabsichtigt <br>ungewollt <br>nicht freiwillig 
+ironic, wry	ironisch 
+irregular	unregelmäßig 
+irrelevant, <br>besides the point 	nebensächlich 
+irresistable	unwiderstehlich 
+irreversible, irrevocable	unwiderruflich 
+to be annoyed, irritated	ärgern Sie ärgert sich über seine ständige Unpünktlichkeit. 
+to be isolated	abgeschieden <br>isoliert 
+joking	witzig <br>scherzhaft 
+funny, amusing, jolly, cheerful	lustig 
+also, likewise, as well	ebenso 
+just, simply<br><br>That's just the way it is!	halt Das ist halt so! 
+entitled <br>justifiable <br>legitimate	berechtigt 
+justified, vindicated	gerechtfertigt 
+kind, nice, good, loving 	lieb, nett Du bist ganz lieb. 
+kitschy	kitschig 
+convenient, opportune	praktisch <br>zweckmäßig <br>gelegen Es ist praktisch [= convenient] 
+lame <br>sluggish	lahm 
+ph: Either yes or no.	Entweder ja oder nein. 
+impossible	unmöglich 
+legitimate, lawful, legal	legal <br>legitim<br>gerecht<br>rechtmäßig 
+to leak	lecken 
+sexy, <br>lecherous, <br>horny, <br>randy, <br>wicked	geil 
+to lengthen, extend 	verlängern 
+lethargic	träge 
+the emotion	die Emotion -en 
+liberal	liberal<br>liberaler<br>am liberalsten liberale Ansichten = wide views 
+how <br>like <br>such as 	wie 
+literal	buchstäblich <br>wörtlich 
+live [radio/TV transmission]	live [Radio/Fernsehsendung] 
+to revive, <br>resuscitate 	beleben 
+local	lokal <br>einheimisch 
+start, go<br>left, went, gone, rid of 	los Los, mach schon! <br>Hier ist ja wirklich was los! 
+low	niedrig <br>teif 
+to assign, allocate, award, <br>pardon 	vergeben 
+happy, lucky<br>unhappy, unlucky	glücklich <br>unglücklich 
+magical, enchanting	magisch <br>zauberhaft 
+mainly, mostly	hauptsächlich, <br>überwiegend, <br>vorwiegend Ihr hauptsächliches Interesse gilt der Natur. [adj] <br>Dieses Produkt wird hauptsächlich von Frauen gekauft. [adv] 
+to assert <br>declare <br>maintain <br>contend	behaupten 
+treacherous <br>tricky	tückisch ein tückischer Plan. <br>ein tückischer Charakter. 
+marvelous, magnificent, delightful, exquisite, delicious, gorgeous	herrlich <br>großartig <br>ausgezeichnet <br>hervorragend 
+ph: The traffic is flowing.	Der Verkehr läuft. 
+meanwhile	inzwischen <br>mittlerweile <br>unterdessen 
+nostalgic, <br>melancholy	nostalgisch <br>melancholisch <br>wehmütig <br>schwermütig 
+merely, simply	lediglich Es handelt sich lediglich um eine Ausnahme. 
+cheerful, merry, jolly	fröhlich 
+middle, midst of, halfway, <br>in the middle of	mitten Er hat sie mitten im Satz unterbrochen. 
+one after the next	übernächste 
+minus, negative	minus, negativ 
+to misappropriate, <br>embezzle	unterschlagen 
+moderate	moderat <br>mäßig 
+ph: Now more than ever...	Jetzt erst recht... 
+motionless	bewegungslos <br>regungslos 
+many, much	viel Sie trinkt viel Kaffee. [pron] <br>Er hat viele Freunde. [pron] <br>Dem Patienten geht es jetzt schon viel besser. [adv] <br>Er schläft viel. [adv] 
+the filth, dirt	der Schmutz --<br>der Dreck --<br>die Sauerei -n<br>die Schweinerei -n 
+dull, cloudy, gray, bleak	trübe 
+to rush [hurry]<br>rustle [of leaves]	rauschen Sie ist wütend aus dem Zimmer gerauscht.<br>Die Blätter rauschten im Wind. 
+mute, dumb, silent	stumm 
+mutual, reciprocal	gegenseitig 
+urgent	dringend, <br />eilig 
+normally, <br>usually	normalerweise <br>gewöhnlich 
+ph: I am not guilty !	Ich bin nicht schuldig ! 
+nowhere	nirgendwo, <br />nirgends Sie ist nirgendwo zu finden. 
+obedient, submissive, compliant 	gehorsam, fugsam Eltern, Lehrer, Offiziere verlangen bedingungslosen Gehorsam... <br>Ein fügsames Kind. 
+objective	objektiv 
+obligatory, compulsory	obligatorisch 
+aged <br>obsolescent <br>dated	veraltet 
+obvious, blatant	offensichtlich Sie hat offensichtlich geträumt. 
+specifically, <br>why of all... <br><br>Why does that happen to me? [of all people]<br>Must that be today? [of all days]	ausgerechnet Ausgerechnet mir muss das passieren! <br>Muss das ausgerechnet heute sein? 
+of German origin	deutschstämmig Er ist deutschstämmig. 
+out <br>off <br>from 	aus 
+off, therefrom, thereof	davon Wir haben davon gesprochen. 
+often	häufig, oft Er ist häufig bei uns zu Gast. 
+old-fashioned	altmodisch 
+ph: on one's own...	auf eigene Faust 
+on that, for that	daran 
+because of...	wegen + Gen. oder Dat. Wegen des schlechten Wetters wurde...<br>Hat schon einer wegen des Autos / dem Auto angerufen? 
+on the one side, <br>on the other side	einerseits <br>andererseits Einerseits wollte er helfen, andererseits wagte er es nicht.<br> 
+the workdays	die Werktagen [pl] Wir arbeiten an Werktagen 
+on, about, at, an, by, in, to, upon	an 
+one and a half	anderthalb anderthalb Stunden &#8594; an hour and a half 
+one before the previous/last	vorletzte 
+one, an, a	ein <br>man Man soll zuhören = One should listen 
+sole, <br>single, <br>individual 	eigen <br>einzeln <br>einzig, individuell 
+open, frank, exposed	offen 
+usually, <br>ordinary	gewöhnlich 
+opportune	opportun 
+or	oder Es gibt nur Sieger oder Verlierer. 
+verbal, oral, spoken	verbal, mündlich, wörtlich 
+out, get out [Imperative]	Raus ! [Imperative] 
+out <br>out of <br>out here <br>forth	heraus Heraus mit dir (in den Garten)! Ist das neue Lexikon schon heraus? 
+the outer, <br>exterior, <br>external	das Äußere -- 
+outrageous, <br>unheard of, <br>unprecedented	entsetzlich <br>empörend <br>unverschämt <br>unerhört Ich bin empört !<br>Das ist unverschämt ! 
+ph: All sorts of people	Alle möglichen Leute 
+to cooperate, participate	kooperieren <br>mitmachen <br>zusammenarbeiten 
+past, bygone, elapsed	vergangen Wir sollten uns nicht über Vergangenes streiten. 
+to be perforated	gelöchert<br>perforiert 
+to be permissible <br>permitted	zulässig <br>gestattet <br>erlaubt 
+unmoved <br>persevering, constant, incessant	unentwegt 
+philosophical	philosophische 
+pitiless, <br>merciless	erbarmungslos 
+to be plagued by s.t. <br>bothered	geplagt 
+pleasant	angenehm 
+please [polite request]	bitte Bitte sei pünktlich! 
+to be pleasing, favorable	gefällig 
+plus, positive	plus Wirtsch: ein Plus erwirtschaften.<br>Vorteil: Seine Sprachkenntnisse sind ein entscheidendes Plus.<br>Math.Pluszeichen: Vor eine Zahl ein Plus setzen.<br>Phys: Positive Ladung der Strom fließt von Plus nach Minus. 
+pointless, futile	zwecklos <br>sinnlos <br>müßig <br>vergebens <br>vergeblich <br>umsonst 
+pompose, name-dropping	wichtigtuerei 
+pompous, snobbish, flatulant	wichtigtuerisch <br>snobistisch<br>aufgeblasen 
+poor 	arm [ohne Geld, Vermögen] 
+noble, classy	nobel, edel 
+practiced	geübt 
+numb, callous, insensitive, <br>without feeling	gefühllos 
+present, <br>current, <br>momentary	derzeitig <br />zurzeit <br />gegenwärtig <br />aktuell <br />momentan 
+presumed, <br>suspected 	mutmaßlich <br>vermutlich Das ist der mutmaßliche Täter. 
+prior to that, <br>before it, <br>in front	davor 
+prompt <br>right away <br>direct 	prompt <br>sofort <br>unverzüglich <br>unmittelbar <br>schnurstracks <br>direkt 
+drawn out lengthy <br />protracted <br />tedious <br />interminable 	langwierig 
+the pride	der Stolz -- 
+to provoke	provozieren 
+psychological	psychologisch 
+punishable	strafbar 
+pure, simple, clean	rein <br>pur Das Kleid ist aus reiner Seide. <br>Dieser Antrag ist eine reine Formalität. <br>Das ist reiner/purer Blödsinn ! <br>Ich habe reine Hände. 
+queasy, uneasy	mulmig, flau 
+questionable	fraglich, fragwürdig 
+questionable, arguable	fragwürdig <br>bedenklich 
+quick, agile, alert, brisk, deft	flink 
+several, quite a few	etliche 
+risky, dangerous	gewagt 
+reasonable	vernünftig 
+suitable <br>appropriate <br>measured 	angemessen <br>entsprechend <br>verhältnismäßig <br>geeignet <br>passend <br>angebracht <br>taugen 
+regular, <br>routinely	regulär, <br>regelmäßig 
+relentless	schonungslos <br>unermüderlich <br>unaufhaltsam 
+reliable <br>dependable	zuverlässig<br>verlässlich 
+to reward, remunerate	belohnen, lohnen 
+right	recht (s) 
+rigid, stiff	starr, steif 
+rotten	faul, verfault, verdorben 
+rusty	rostig 
+inconsiderate <br>ruthless <br>hard-nosed	rücksichtslos 
+scaly, flaky	schuppig 
+scarlet	scharlachrot 
+screwy, daft	bescheuert 
+seamless, unbroken	nahtlos 
+secret, furtive	heimlich 
+secular, <br>non-religious	säkular <br>nicht religiös 
+seductive, <br>enticing, <br>tempting 	verführerisch <br>verlockend 
+self, <br>itself 	selbst 
+feasible 	machbar 
+to be separate, <br>apart, <br>detached, <br>severed, <br>divided, <br>isolated 	getrennt 
+respectable <br>reliable <br>reputable <br>decent <br>proper 	seriös <br>respektabel <br>zuverlässig<br>solide <br>anständig <br>angesehen <br> 
+considerable <br>significant <br>extensive	erheblich 
+ph: Of course not.	Natürlich nicht. 
+shabby, rotten, mean, lousy	schäbig <br>mies <br>lausig 
+shaky, rickety, unsteady	wackelig 
+shallow	seicht 
+sharp nosed	spitznasig 
+shiny, <br>broke [no money]	blank 
+to be shocked	schockiert <br>betroffen <br>bestürzt <br>erschüttet 
+short-term	kurzfristig 
+shy, timid, halfhearted	schüchtern 
+bad, evil,<br>sick, ill	übel 
+the silence	die Stille -n 
+silly, stupid	blöd 
+simple <br>plain	einfach <br>schlicht 
+simultaneous, <br>at the same time	gleichzeitig, zugleich 
+single, unmarried	ledig 
+skeptical	skeptisch 
+skilled <br>expert <br>clever	geschickt <br>gewandt 
+slack, drooping, flabby, limp, feebly	schlaff 
+sleek, snappy, stylish	schnittig 
+sleek, supple, agile, lithe, adaptable	geschmeidig Sie bewegt sich geschmeidig wie eine Katze. 
+sleepy, drowsy	schläfrig <br>müde 
+slight, low, slim, modest	gering 
+slim, slender	schlank 
+slimy, sticky, mucous	schleimig 
+smart, neat	schick <br>adrett <br>gepflegt <br>flott 
+clever, smart, sharp, shrewd, cunning	schlau <br>raffiniert 
+smooth, flat, glossy <br>slippery 	glatt 
+arrogant<br>conceited<br>smug <br>vain 	arrogant <br>überheblich <br>selbsgefällig <br>eingebildet 
+snug, secure	geborgen 
+sober <br>austere <br>empty-stomached	nüchtern 
+sociable, gregarious	gesellig 
+soft as velvet	samtweich 
+soft, gentle	weich<br>sanft<br>zärtlich 
+some	einige, manche 
+sometime, someday	irgendwann 
+somewhere	irgendwo 
+sour, acidic, pickled <br>angry	sauer 
+to occupy, use, reserve, <br>document	belegen Diese beiden Plätze sind schon belegt. <br>Ein Brot mit Wurst belegen. 
+squeaky	piepsig, quietscht 
+flat/stale [taste]	schal Das Bier ist schal. 
+it is too! <br>still, yet	doch Ich habe es ihm verboten, aber er hat es doch gemacht. [adv] Der Geist ist willig, doch das Fleisch ist schwach. [conj] 
+hello	hallo <br>moin [Norddeutsch] 
+selfish, stingy, mean	geizig <br>knauserig 
+stocky, solid	stämmig 
+strange, odd, curious	merkwürdig, seltsam 
+stubborn, <br>obstinate	stur <br>dickköpfig <br>bockig 
+dumb, <br>stupid, <br>foolish 	dumm <br>blöd <br>doof <br>leichtsinnig <br>töricht 
+nitpicky, pedantic	spitzfindig, pedantisch 
+sudden, abrupt	plötzlich, <br>schlagartig, <br>abrupt 
+enough, <br>sufficient, <br>adequate	genug, genügend, <br>hinreichend, <br>ausreichend, <br>adäquat 
+anything	irgendetwas 
+ph: I will make a mental note of it.	Ich werde es im Kopf behalten. <br>Ich werde das auswendig lernen. 
+sunny	sonnig 
+superfluous	überflüssig 
+the supporting actor/actress	der Nebendarsteller --<br>die Nebendarstellerin -nen 
+sure <br>certain <br>safe <br>secure <br>reliable <br>confident	sicher 
+surprising	überraschend 
+fast, <br>quick, <br>swift, <br>rapid, <br>speedy	schnell,<br>zügig, <br>rasant, <br>rasch 
+symbolic	symbolisch 
+tall (person)	groß, <br>hochgewachsen 
+tame, obedient, moderate	zahm 
+temporary, <br>intermittent, <br>sporadic	vorübergehend <br>zeitweilig <br>sporadisch 
+gentle, <br>tender, <br>delicate, <br>sensitive	zart <br>zärtlich 
+terrible, <br>horrible 	entsetzlich <br>furchtbar <br>fürchterlich <br>grausam <br>schrecklich 
+thin <br>skinny	dünn <br>schmal <br>mager 
+freely, <br>of course, <br>naturally	freilich <br>natürlich 
+to disgust	ekeln <br>anekeln Der schlechte Geruch ekelte mich an. 
+that	jene -r/s Jener Hund <br>Jene Katze <br>Jenes Pferd 
+to, toward, in, too, closed, off, shut, with	zu 
+together, altogether, combined	zusammen, samt, beisammen Lasst uns das zusammen tun! 
+the toll [road] 	die Maut -en 
+to be torn open	aufgerissen 
+total	total 
+tough, tenacious	zäh 
+to be trained, <br>qualified, <br>educated	ausgebildet 
+to be trapped <br>locked in 	eingeschlossen 
+tricky	knifflig <br>verflixt <br>verzwickt <br>raffiniert 
+unapproachable <br>aloof <br>remote	unnahbar 
+unavoidable	unvermeidlich 
+unbearable <br>intolerable <br>unexceptable	unerträglich 
+unconscious <br>senseless	bewusstlos 
+unexpected	unerwartet 
+unfair, unjust	ungerecht 
+unlucky, <br>unfortunate	schade<br>unglücklich<br> 
+uninvolved <br>indifferent	unbeteiligt 
+unique	einzigartig 
+universal	universal 
+to be unmentioned	unerwähnt 
+unproductive	unproduktiv 
+unreal	unwirklich 
+unrelenting, <br>adamant 	unvermindert <br>unnachgiebig <br>unerbittlich 
+unshakable	unerschütterlich 
+unusual, remarkable, extraordinary, exceptional	ungewöhnlich<br>außergewöhnlich <br>außerordentlich 
+to go up <br>upstairs	herauf Ich gehe herauf 
+dynamic <br>brisk	dynamisch <br>zackig <br> 
+tasteless	geschmacklos 
+upright, erect	aufrecht 
+ph: What is going on? <br>What is wrong?	Was ist los? 
+ph: It would appear so.	Es würde so erscheinen. 
+likeable, nice, pleasant <br>sympathetic	sympathisch <br>nett 
+useless	nutzlos 
+absolutely, utterly	absolut 
+vague	vage 
+valid, substantial, well-founded	stichhaltig Wir können stichhaltige Beweise vorlegen. 
+valuable, precious	wertvoll, kostbar 
+versatile	vielseitig <br>vielfältig 
+intense	intensiv 
+vulnerable 	verletzlich <br>verwundbar 
+warm	warm 
+limp, weak	schlapp 
+limited 	beschränkt <br>begrenzt 
+when	wann 
+where	wo 
+where to	wohin 
+what, <br>what about 	was, wovon, worüber Was ist das ? <br>Wovon sprichst du ? <br>Worüber redet ihr ? 
+to itch <br>scratch 	jucken <br>kratzen 
+to be winking [with the eye]	augenzwinkernd 
+wireless	drahtlos, kabellos 
+with, also	mit 
+without	ohne 
+without delay <br>immediate <br>prompt	unverzüglich 
+to be worn out, ineffective	abgenützt 
+worthless	wertlos 
+enthusiastic	begeistert 
+yes <br>no <br>maybe <br>	ja <br>nein <br>vielleicht, kann sein 
+bankrupt <br>broke	bankrott <br>pleite 
+homeless	obdachlos 
+the suffering	das Leiden -- NOTE: das Leid -- = distress, sorrow 
+the abyss, <br>chasm, <br>precipice	der Abgrund -gründe 
+the acceleration	die Beschleunigung -en 
+the accordion	das Akkordeon -s<br>die Ziehharmonika -s/-en 
+the acid	die Säure -n 
+the acquisition	der Ankauf -äufe<br>der Erwerb -e<br>die Beschaffung -en 
+the acquittal	der Freispruch -sprüche 
+the act, action, plot, story	die Handlung -en 
+the act, <br>deed, <br>action	die Tat -en<br>der Akt -e 
+the activist <br>campaigner	der Aktivist -en 
+the added value	die Wertschöpfung -en 
+the addition, <br>attachment	der Zusatz -sätze <br>der Anhang -hänge 
+the adhesive tape	der Klebstreifen " 
+the adjournment, <br>postponement 	die Vertagung -en 
+the adjustment, pretense	die Verstellung -en 
+the administrator	der Verwalter " 
+the admiration	die Bewunderung -en 
+the confession, admission	das Geständnis -se 
+the focus	der Fokus Fokusse 
+the advocate [speaker]	der Fürsprecher "<br>die Fürsprecherin -nen 
+the affair, matter, business	die Angelegenheit -en 
+the affection	die Zuneigung -en 
+the age	das Alter " Ein hohes Alter<br>Neu für Alt<br>Alter vor Schönheit <br>Er hat mein Alter = He is my age 
+the age, era	das Zeitalter " 
+the aggression	die Aggression -en<br>die Aggressivität -en 
+the agony, <br>pain, suffering 	die Qual -en Die Qual der Wahl ! 
+the gear <br>aisle, corridor <br>meal course <br>gait <br>gang	der Gang Gänge 
+the alarm clock, bell, ringer	der Wecker " 
+the all-clear announcement	die Entwarnung -en 
+the alleviation, relief [from pain]	die Linderung -en 
+the alliance	die Allianz -en<br>das Bündnis -se 
+the almond nut, <br>tonsils	die Mandel -n 
+the ambassador, envoy	der Gesandte -n 
+the ambiguity	die Zweideutigkeit -en 
+the ambulance	der Krankenwagen "<br>der Rettungswagen " 
+the ammunition	die Munition -en 
+the angel	der Engel " 
+the animal collar	das Halsband -bänder 
+the ankle	das Fußgelenk -e<br>der Knöchel " 
+the tissue [paper]	das Tissuepapier -e 
+the annoyance	die Belästigung -en <br>der Ärger -- 
+the ant	die Ameise -n 
+the antarctic	die Antarktis -- 
+improper, <br>unbecoming, <br>unseemly 	ungehörig <br>unpassend <br>unkorrekt 
+the aperture <br>shutter <br>blind <br>screen	die Blende -n 
+the appeal, attraction, stimulus	der Reiz -e 
+to appeal 	appellieren Sie appellierte an seine Vernunft. 
+the applause	der Applaus --<br>der Beifall -- 
+the landing approach by an aircraft	der Anflug -flüge 
+the apron	die Schürze -n 
+the arbitrariness	die Willkür -- Er hat ein Beispiel willkürlich herausgreifen. 
+the arch of foot	das Fußgewölbe -- 
+the arctic	die Arktis " 
+the area, ground, terrain	das Gelände -- 
+the armchair	der Sessel -- 
+the armpit	die Achsel -n 
+the army	die Armee -n <br>das Heer -e 
+the arrest	die Verhaftung -en 
+the arrival	die Ankunft --<br>das Ankommen -- 
+the english [language, pronunciation]	das Englisch -- [Sprache, Aussprache] Du hast dein Englisch verbessert. 
+the artist	der Künstler -- <br>die Künstlerin -nen NOTE: die Kunst [ohne Umlaut] 
+the ash tree	die Esche -n 
+the donkey, <br>mule	der Esel -- <br>das Maultier -e 
+the assassination 	das Attentat -en NOTE: die Tat -en = act, deed 
+the assessment, estimate	die Einschätzung -en 
+the assets, fortune	das Vermögen " 
+the assistant	der Assistent -en<br>die Assistentin -nen der Assistent is weak noun...<br>Singular den/dem/des Assistenten 
+the assumption	die Vermutung -en<br>die Annahme -n 
+the promise, <br>assurance	die Versprechung -en<br>die Versicherung -en<br>die Zusicherung -en 
+the asteroid	der Asteroid -en der Asteroid is weak noun...<br>Singular den/dem/des Asteroiden 
+the attack	die Attacke -n <br>der Angriff -e 
+the impact	der Anschlag -äge<br>der Aufprall -e 
+the attacker	der Angreifer " 
+the attention, alertness	die Aufmerksamkeit -en 
+the store, storage, loft, <br>memory	der Speicher -- Dat.pl: -n 
+the auction	die Versteigerung -en 
+the author, writer	der Autor -en, die Autorin -nin <br>der Schriftsteller --, die Schriftstellerin -nen <br>der Verfasser " 
+the entitlement, justifiability	die Berechtigung -en 
+the autopsy <br>postmortem	die Autopsie -n 
+the availability	die Verfügbarkeit -en 
+the avocado	die Avocado -s 
+the award, <br>surcharge	der Zuschlag -schläge 
+the award, distinction, accolade	die Auszeichnung -en 
+the background	der Hintergrund -gründe 
+the backing, support	der Rückhalt -e <br>die Stutze -n 
+the bad luck	das Pech -e 
+the bail <br>security payment [against damages]	die Kaution -en 
+the bait	der Köder " 
+the balance, <br>equilibrium	das Gleichgewicht -e Dat.pl: -en 
+the ballast	der Ballast -e 
+the balloon	der Ballon -s 
+the Baltic Sea	die Ostsee -- 
+the bandage, sling, armband	die Binde -n <br>der Verband Verbände 
+the banishment	die Verbannung -en 
+the bank loan, <br>mortgage	das Darlehen " <br>die Hypothek -en 
+the robbery, <br>theft 	der Raub -e <br>der Überfall -fälle<br>der Einbruch -brüche <br>der Diebstahl -stähle 
+the bankruptcy, <br>bankrupt, <br>broke	der Bankrott -e<br>die Pleite -n 
+the flag, <br>banner	die Flagge -n <br>die Fahne -n <br>das Banner " Dat.pl: -n 
+the bar in a pub, <br>counter, bench 	die Tresen --<br>die Theke -n 
+the rake [gardening tool]	die Harke -n 
+the barbarity, <br>barbarism	die Barbarei -n 
+the barbed wire	der Stacheldraht -drähte 
+the bargain	das Schnäppchen " 
+the barn	die Scheune -n 
+the barrel, keg, cask	das Fass Fässer 
+the basin, <br>sink, <br>wash/hand basin	das Becken " <br>das Spülbecken " <br>das Waschbecken " 
+as <br>than <br><br>[when used for comparisons]	wie <br>als so größ wie... as large as...<br>größer als... larger than... 
+the basket	der Korb Körbe 
+the bat [flying fox]	die Fledermaus -mäuse 
+the beak, bill [bird]	der Schnabel -näbel 
+the beard, <br>facial hair, <br>stubble 	der Bart Bärte <br>die Bartstoppeln " 
+the finger print	der Fingerabdruck -drücke 
+the bed sheet	das Bettlaken " 
+the bedspread	die Tagesdecke -n 
+the beech tree	die Buche -n 
+astounding	erstaunlich 
+the beer mat, coaster	der Bierdeckel " 
+the beetroot	die Bete -n 
+the beginning, start	der Anfang -fänge <br>der Start -s 
+the cube, dice	der Würfel " 
+the believer	der Gläubiger " Dat.pl: -n <br>die Gläubige 
+the bell	die Glocke -n <br>die Klingel -n 
+the footpath, sidewalk	der Fußweg -e <br>der Bürgersteig -e 
+the bet	die Wette -n 
+the betrayal, treason	der Verrat -- 
+the bible	die Bibel -n 
+the person/party making an offer to sell or to buy	der Anbieter " 
+the biennial <br>...art exhibition or show <br>occurring every 2 years	die Biennale -n 
+the Big Bang	der Urknall -- 
+the bigwig, <br>big shot, <br>fat cat 	der Bonze -n 
+the birch tree	die Birke -n 
+the blackboard	die Tafel -n Die Lehrerin schrieb die Vokabeln an die Tafel. 
+the blackness, darkness	die Schwärze -n<br>die Dunkelheit -en 
+the blame, <br>guilt, <br>fault, <br>responsibility	die Schuld -en <br>der Fehler " ich war schuld daran, dass wir zu spät kamen. 
+the ceiling, <br>cover	die Decke -n 
+the beeper	der Piepser " 
+the blessing	der Segen " 
+the blouse	die Bluse -n 
+the punch, blow, strike	der Schlag -läge 
+the board, plank, shelf	das Brett -er 
+the body part	der Körperteil -e 
+the bolt	der Bolzen " 
+the bomb	die Bombe -n 
+the boo call	der Buhruf -e 
+the border crossing	der Grenzübergang -gänge 
+the border, <br>limit, deadline	die Grenze -n 
+the bow<br>arrow	der Bogen Bögen<br>der Pfeil -e 
+the flash report, <br>news flash	die Eilmeldung -en 
+the bra, brassiere	der Büstenhalter "<br>der BH " 
+the braces, suspenders	die Hosenträger " 
+the braille	die Blindenschrift -en 
+the brass	das Messing -- 
+the brass sign plate	das Messingschild -e 
+the cheekiness, audacity, brashness 	die Frechheit -en <br>die Dreistigkeit -en <br> 
+the break, breach	der Bruch Brüche 
+the breast, <br>bosom	der Busen " NOTE: die Brust Brüste = chest 
+the breeze	die Brise -n 
+the bribe	die Bestechung -en <br>das Schmiergeld -er 
+the brick	der Ziegel "<br>der Ziegelstein -e Dat.pl: -en <br>der Backstein -e Dat.pl: -en 
+the HQ <br>[head quarters, head office] 	die Zentrale -n 
+the broom	der Besen " 
+the brother/sister-in-law	der Schwager Schwäger<br>die Schwägerin -nen 
+the bucket	der Eimer " 
+the bud	die Knospe -n Die Knospen sprießen/gehen auf/entfalten sich. 
+the bull <br>policeman [slang]	der Bulle -n 
+the bump, dent, <br>bruise 	die Beule -n 
+the stove, <br>electric stove, <br>gas stove, <br>microwave, <br>stovetop	der Herd -e <br>der Elektroherd -e <br>der Gasherd -e <br>die Mikrowelle -n<br>die Herdplatte -n 
+the burp	der Rülpser " rülpsen = to burp 
+the bus stop	die Bushaltestelle -n 
+the butterfly	der Schmetterling -e 
+the gossip	der Klatsch -- <br>der Tratsch -- 
+the bee, <br>bumblebee, <br>wasp 	die Biene -n <br>die Hummel -n <br>die Wespe -n 
+the cabbage	der Kohl -e Dat.pl: -en 
+the cabin, cubicle	die Kabine -n 
+the cafeteria, canteen	die Cafeteria -ien<br>die Kantine -n<br>die Mensa -s [at university] 
+the calf (leg)	die Wade -n 
+the call center	das Callcenter " 
+the recall of a defective product	der Rückruf -e 
+the call, shout, <br>reputation	der Ruf -e 
+the camping, <br>the camping ground, <br>tent	das Camping -- <br>der Campingplatz -plätze <br>der Zelten " <br>der Zeltplatz -plätze <br>das Zelt -e 
+the can, tin	die Büchse -n <br>die Dose -n 
+the cancellation	die Stornierung -en 
+the candle	die Kerze -n 
+the cap [hat]	die Mütze -n 
+the cape [geog]	das Kap -s Kap der guten Hoffnung = Cape of Good Hope 
+the cardboard	die Pappe -n 
+the career soldier	der Berufsoldat -en<br>die Berufsoldatin -nen der Berufsoldat is Weak noun...<br>Singular: den/dem/des Berufsoldaten 
+the carpenter	der Zimmermann -männer <br>der Tischler "<br>der Schreiner " 
+the carpet	der Teppich -e 
+the cart, wheelbarrow	die Karre -n 
+the cartel	das Kartell -e 
+the shovel, <br>spade	die Schaufel -n <br>der Spaten -- 
+the cash	das Bargeld -er 
+the catastrophe	die Katastrophe -n 
+the catch (fish, etc.)	der Fang Fänge 
+the caterpillar	die Raupe -n 
+the cause, reason	der Grund Gründe Dat.pl: -en <br>die Begründung -en<br>die Ursache -n Ein guter Grund 
+the caution	die Vorsicht -- 
+the cavalry	die Kavallerie -n 
+the cement, <br>the concrete 	der Zement -e <br>das Beton -- 
+the Central European Time (CET)	die mitteleuropäische Zeit (MEZ) -en 
+the dozen 	das Dutzend " 
+the certainty	die Gewissheit -en <br>die Sicherheit -en 
+the certificate <br>reference, testimonial	das Zeugnis -se 
+the chain<br>string of lights <br>necklace 	die Kette -n<br>die Lichterkette -n <br>die Halskette -n 
+the chalk	die Kreide -n 
+the challenge	die Herausforderung -en 
+the chamois, shammy	das Fensterleder " 
+the channel, gutter	die Rinne -n 
+the charge, fee, commission	die Gebühr -en 
+the charm	der Charme -- 
+the chat, <br>chatter	die Plauderei -en <br>das Geschwätz -- <br>der Schnack -- <br>die Rederei -- 
+the cheat, swindler, con-man	der Betrüger "<br>der Schwindler -- <br>der Gauner "<br>der Abzocker" 
+the cherry	die Kirsche -n 
+the chess	das Schach -- 
+the tourist, <br>tourism 	der Tourist -en , die Touristin -nen <br>der Tourismus -- 
+the chick, broad [woman]	die Mieze -n <br>die Tussi -s 
+the floor	der Fußboden -böden 
+the chimney	der Schornstein -e <br>der Kamin -e 
+the potato chip/s, <br>french fries 	der Chip -s <br>die Pommes Frites [nur Pl.] 
+the choir	der Chor Chöre 
+the chunk	der Brocken " 
+the circulation, revolution, <br>blood circulation 	der Umlauf -läufe <br>der Kreislauf -läufe Er hat einen schwachen/stabilen Kreislauf. 
+the large city/town	die Großstadt -städte 
+the city/town map	der Stadtplan -pläne 
+the clamp, fastener, terminal <br>dilemma	die Klemme -n Wir sitzen ganz schön in der Klemme! 
+the clause, condition, proviso	die Klausel -n 
+the claw, talon	die Klaue -n 
+the clay	der Lehm -e <br>der Ton -e 
+the client [legal]	der Klient -en, die Klientin - nen <br>der Mandant -en, die Mandantin -nen 
+the clipboard	das Klemmbrett -er 
+the price, <br>prize	der Preis -e<br>die Auszeichnung -en 
+the coach, carriage	die Kutsche -n 
+the coal	die Kohle -n 
+the spider web	die Spinnwebe -n 
+the coincidence, <br>chance, <br>by accident 	der Zufall Zufälle 
+the cold, chill	die Kälte -- 
+the collapse	der Kollaps -e <br>der Zusammenbruch -brüche 
+the collar	der Kragen " 
+the collar size	die Kragenweite -n 
+the collective <br>cooperative	das Kollektiv -e 
+the comb	der Kamm Kämme 
+the committee of inquiry, <br>investigating committee	der Untersuchungsauschuss -schüsse 
+the committee, panel	das Komitee -s<br>das Gremium -mien <br>der Ausschuss -schüsse 
+the confusion, disturbance, trouble	die Verwirrung -en 
+the competitor, <br>opponent	der Konkurrent -en<br>der Gegner " 
+the concern, <br>worry	die Besorgnis -se <br>die Sorge -n 
+the concession	das Zugeständnis-se Ihre gefärbten Haare sind ein Zugeständnis an die Mode. 
+the condolence 	das Beileid -- <br>die Kondolenz -en<br>die Anteilnahme -n 
+the conscience	das Gewissen " Er bekam ein schlechtes Gewissen, als er sah, wie weh er ihr getan hatte. 
+the consent, agreement	die Einwilligung -en 
+the conservative	der Konservative -n ...zurückhaltend... 
+the consideration, <br>rear view	die Berücksichtigung -en<br>die Rücksicht -en 
+the constitution	die Verfassung -en <br>der Grundgesetz " 
+the constitutional protection	der Verfassungsschutz -- 
+the consumption	der Konsum -- <br>der Verbrauch -- 
+the container	der Container " <br>der Behälter " 
+the blood vessel, <br>container	das Gefäß -e 
+the contamination, pollution	die Verseuchung -en 
+the contempt, <br>scorn, <br>ridicule 	die Verachtung -en <br>der Hohn -- Jemanden mit Verachtung strafen.<br>Das ist der reinste Hohn. 
+the continuation <br>sequel	die Fortsetzung -en 
+the convergence	die Annäherung -en 
+the water coolant 	das Kühlwasser -wässer 
+the cooling, refrigeration	die Kühlung -en 
+the copper	das Kupfer -- 
+the copy, duplicate	die Kopie -n 
+the co-resident	der Mitbewohner " <br>die Mitbewohnerin -nen 
+the corner	die Ecke -n 
+the corpse, body	die Leiche -n 
+the dilemma 	das Dilemma -s <br>die Zwickmühle -n In einer Zwickmühle sein 
+the costs	die Kosten [pl] 
+the count, earl	der Graf -en <br>die Gräfin -nen 
+the trouble, <br>difficulty 	die Schwerigkeit -en <br>der Ärger -- 
+the coup, <br>putsch, <br>revolt	der Putsch -e 
+the courage, spirit	der Mut -- 
+the course, sequence, <br>draining of fluid	der Ablauf -läufe 
+to react, repond	reagieren 
+the courtroom	der Gerichtssaal -säle 
+the cousin	der Cousin -s <br>die Cousine -n <br>der Vetter -n 
+the cover, <br>guard, <br>backing, <br>security	die Deckung -en 
+the coward	der Feigling -e 
+the creation, conception	die Schöpfung -en 
+the credibility, believability	die Glaubwürdigkeit -en 
+the creditor, believer	der Gläubiger " <br>die Gläubigerin -nen 
+the creek, stream 	der Bach Bäche 
+the cricket [insect]	die Grille -n 
+the criminal offence	die Straftat -en 
+the crisis	die Krise -n 
+the job application 	die Bewerbung -en 
+the crook, <br>"old devil"	der Ganove -n <br>die Ganovin -nen 
+the crosswalk, <br>pedestrian crossing, <br>zebra-crossing 	der Fußgängerübergang -gänge <br>der Zebrastreifen -- 
+the crouch, squat position	die Hocke -n 
+the crowd, throng	das Gedränge -- <br>die Menge -n 
+the cruise	die Kreuzfahrt -en 
+the crutch	die Krücke -n 
+the CT scan	die Computertomographie -n 
+the flat rate, <br>lump sum	die Pauschale -n 
+the club, police nightstick/baton	der Knüppel " 
+the big numbers...<br>hundred 100<br>thousand 1,000<br>million 1,000,000<br>billion 1,000,000,000<br>trillion 1,000,000,000,000	Die großen Zahlen... <br>die Hundert " 100<br>die Tausend -e 1.000<br>die Million -en 1.000.000<br>die Milliarde -n 1.000.000.000<br>die Billion -en 1.000.000.000.000 
+the cultivation, breeding	die Zucht -en 
+the curiosity, <br>inquisitiveness	die Neugier -- 
+the curious person, <br>observer, <br>gawker, <br>rubber-necker	die Schaulustige -n 
+the currency	die Währung -en 
+the custom, tradition	die Tradition -en <br>der Brauch Bräuche <br>der Gebrauch Gebräuche <br>die Gepflogenheit -en <br>die Sitte -n 
+the cut, editing	der Schnitt -e 
+the dike, <br>dirt wall, <br>bank 	der Deich -e 
+the dandruff	der Kopfschuppen " 
+the anesthetic 	die Betäubung -en 
+the debut, <br>new job start	der Einstand -stände 
+the decade	das Jahrzehnt -e 
+the notification of a decision	der Bescheid -e 
+the decline, demise, downfall	der Niedergang -- <br>der Untergang -gänge<br>der Ruin -- <br>der Sturz Stürze <br> 
+the decree	das Dekret -e <br>der Erlass -e 
+the deduction, withdrawal	der Abzug -züge 
+the defect	der Defekt -e 
+the German federal defense force	die Bundeswehr -- Die Bundeswehr nennt man die Streitkräfte der Bundesrepublik Deutschland. <br>Mit 18 muss er zum Bund [= Bundeswehr]. 
+the defiance	der Trotz -- Im Alter von zwei bis vier Jahren machen Kinder eine Trotzphase durch. 
+the failure, <br>breakdown, <br>loss 	der Ausfall -fälle der Ausfall aller Antriebssysteme 
+the hesitation 	die Verzögerung -en 
+the delegation	die Delegation -en<br>die Abordnung -en 
+the demeanor, appearance, <br>occurrence	das Auftreten -- Ein sicheres Auftreten haben. <br>Bei Auftreten von Schwellungen… = in case swelling occurs... 
+the denial, <br>disclaimer	die Ablehnung -en <br>die Verleugnung -en <br>das Dementi -s 
+the dentist	der Zahnarzt -ärzte <br>die Zahnarztin -ärztinnen 
+the depiction	die Darstellung -en <br>die Schilderung -en 
+the depletion, <br>shrinkage, <br>loss	der Schwund -- 
+the hollow, depression, dip, drain	die Senke -n 
+the deputy	 der Stellvertreter " Dat.pl: -n <br>die Stellvertreterin -nen 
+the desert 	die Wüste -n 
+the deserter	der Deserteur -e 
+the desk	der Schreibtisch -e 
+the deskpad	die Schreibunterlage -n 
+desolate <br>wasteland	öde 
+the destiny	das Schicksal -e <br>die Bestimmung -en 
+the detective novel or film	der Krimi -s 
+the detour, <br>bypass, <br>diversion	die Umleitung -en <br>der Umweg <br>die Umgehung -en <br>die Umgehungsstraße -n 
+the dew	der Tau -e ( das Tau -e = rope ) 
+the diamond	die Diamant -en 
+the playing cards... <br>heart, diamond, club, spade<br>ace 2 3 4 5 6 7 8 9 10 knight queen king 	die Spielkarten...<br>das Herz, Karo, Kreuz, Pik<br>As <br>zwei <br>drei <br>vier <br>fünf <br>sechs <br>sieben <br>acht <br>neun <br>zehn <br>Bube <br>Dame <br>König<br> 
+the dietary fibre	die Ballaststoffe [Plur.] 
+the difficult age	das Trotzalter -- 
+the digestion	die Verdauung -en 
+the digit, numeral, figure, numbered clause	die Ziffer -n 
+the dignity, <br>rank, title	die Würde -n Die Würde des Menschen gilt als unantastbar. 
+the stall, stand [at market place] 	die Bude -n 
+the decay, deterioration, dillapidation	der Verfall -- 
+the disadvantage	der Nachteil -e 
+the displeasure	der Unmut -- Er hat seinen Unmut darüber geäußert. 
+the discount, <br>estate, inheritance 	der Nachlass -lässe 
+the discovery	die Entdeckung -en 
+the discussion about the situation	die Lagebesprechung -en 
+the disgust	der Ekel -- Er hat das Essen vor Ekel ausgespuckt 
+the dish, meal <br>court of law	das Gericht -e 
+the dislocation	die Verrenkung -en 
+the dispenser, <br>donor, contributor	der Spender " <br>die Spenderin -nen 
+the width	die Breite -n 
+the distance, gap, interval, clearance	der Abstand -stände 
+the distribution, <br>output, <br>issue, edition, <br>expenses, costs	die Ausgabe -n 
+the donation	die Spende -n 
+the doorbell	die Türklingel -n 
+the doorbell button	der Klingelknopf -knöpfe 
+the dormitory, residence hall	das Wohnheim -e 
+the doubt	der Zweifel " 
+the dough, pastry, batter, mixture	der Teig -e 
+the pouring of water, concrete, icing	der Guss Güsse Das war ein Regenguss! 
+the flea	der Floh Flöhe 
+the drawer [furniture]	die Schublade -n 
+the dressing down, <br>bollocking	der Anschiss -e 
+the automatic vending machine, <br>drink vending machine 	der Automat -en <br>der Getränkautomat -en 
+the drive, thrust	der Schub Schübe 
+the drive, motivation, <br>propulsion 	der Antrieb -e 
+the drum <br>base-drum	das Schlagzeug -edie Trommel -n <br />die Pauke -n 
+the drunkard (heavy drinker)	der Säufer -- 
+the drunkenness	der Suff -- 
+the duke <br>duchess 	der Herzog -zöge <br>die Herzogin -nen 
+the dumbbell, <br>barball	die Hantel -n 
+the dummy	die Attrappe -n 
+the dumpling	der Kloß Klöße <br>der Knödel " 
+the dust	der Staub -- 
+the duty 	die Pflicht -en Unsere Kinder übernehmen schon kleine Pflichten im Haushalt. 
+the eagle	der Adler " 
+the earthquake	das Erdbeben " 
+the economist	der Volkswirt -e <br>die Volkswirtin -nen 
+the dam [water]	der Staudamm -e <br>die Talsperre -n 
+the fox	der Fuchs Füchse 
+the asphalt, <br>bitumen	der Asphalt -e 
+the asylum	das Asyl -e 
+the appetite	der Appetit -- 
+the equator	der Äquator -- 
+the edge [of an object]	die Kante -n <br>der Rand Ränder 
+the editor	der Redakteur -e <br>die Redakteurin -nen 
+the effort, endeavor	die Mühe -n <br>die Bemühung -en <br>die Anstrengung -en 
+the eggplant	die Aubergine -n 
+the elephant's trunk	der Russel " 
+the elevator, lift	der Fahrstuhl -stühle <br>der Aufzug -züge 
+the elm tree	die Ulme -n 
+the embankment	die Böschung -en 
+the embassy, <br>good news	die Botschaft -en 
+the emergency	der Notfall -fälle 
+the entrepeneur	der Unternehmer " 
+the envelope	der Umschlag -schläge 
+the envoy, emissary	der Abgesandte -n 
+the furnishing, <br>fittings, <br>features	die Ausstattung -en <br>die Einrichtung -en Die Wohnung hat eine moderne Ausstattung. 
+the escalator	die Rolltreppe -n 
+the escape, flight (fleeing)	die Flucht -en 
+the etiquette	die Etikette -- Die Etikette verlangt, dass man beim Besuch.... <br><br>NOTE: das Etikett -e = price tag 
+the school exam	die Klausur -en<br>die Prüfung -en 
+boring	langweilig 
+the excess	das Exzess -e 
+the exclamation mark [ ! ] 	das Ausrufezeichen " [ ! ] 
+the excuse	die Ausrede -n 
+the execution	die Hinrichtung -en 
+the calcium, <br>lime 	das Kalzium -- <br>der Kalk -- 
+the expectation, anticipation	die Erwartung -en 
+the expenditure, outlay	der Aufwand -- Der Aufwand hat sich gelohnt. 
+the expert report	das Gutachten " 
+the explosive	der Sprengstoff -stöffe <br>der Zundstoff -stöffe 
+the extortion, <br>blackmail 	die Erpressung -en 
+the facial expression	der Gesichtsausdruck -drücke 
+the fact 	die Tatsache -n 
+the circumstance	der Umstand -stände 
+the failure	das Versagen -- <br>der Misserfolg -e <br>der Fehlschlag -äge 
+the fair, carnival, <br>festival, <br>harvest festival 	der Jahrmarkt -märkte, <br>das Fest -e<br>das Erntefest -e 
+the fairness, justice, <br>social justice 	die Gerechtigkeit -en <br>die soziale Gerechtigkeit -en 
+the crash (aircraft), collapse, flop	der Absturz -stürze 
+the fasting	das Fasten -- Verb: ich faste, wir fasten, usw. 
+the fatal shot	der Todesschuss -schüsse 
+the fellow student	der Kommilitone -n <br>die Kommilitonin -nen 
+the guy, fellow, chap, bloke, person	der Kerl -e 
+the fertilizer	das Düngemittel " 
+the loyalty, faithfulness	die Treue -- 
+the fig [fruit]	die Feige -n 
+the fig tree	der Feigenbaum -bäume 
+the file [data] 	die Datei -en aufrufen = call, open<br>abspeichern = save <br>anlegen = create <br>löschen = delete 
+the file, rasp [tool]	die Feile -n 
+the search engine	die Suchmachine -n 
+the backing, <br>rear cover, <br>covering one's rear/ass	die Rückendeckung -en 
+	 

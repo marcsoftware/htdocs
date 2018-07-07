@@ -1,18 +1,10 @@
 <?php session_start(); 
-    if($_SESSION["customer_name"]){
-        echo $_SESSION["customer_name"] . "<br/>";
+    if(isset($_SESSION["customer_name"])){
+        echo $_SESSION["customer_name"];
     }
 
 ?>
 
-<?php include '../header.php';?>
-
-<script src="../jquery-3.1.0.min.js"></script>
-
-<script src="diet.js"></script>
-
-<!DOCTYPE html>
- <!-- in this version the user clicks based on the commentary -->
 <html>
     <title>diet2</title>
 
@@ -21,12 +13,28 @@
     <style>
 
 
-       
+       #consumedCal{
+            color:red;
+            font-size: 20px;
+       }
+
+       #burnedCal{
+            font-size: 20px;
+        } 
+
+        #netCal{
+            font-size: 20px;
+        }
         input{
-         width: 10%;
-         height: 15px;
-         font-size: 12px;
+         width: 15%;
+         height: 40px;
+         font-size: 24px;
          margin-right:1px;
+         padding-left: 2px;
+        }
+
+        input:focus {
+           background-color: #ffff66;
         }
         
         #name{
@@ -34,14 +42,18 @@
 
         }
         #submit{
-            height: 30px;
+            height: 60px;
         }
         
 
         .big{
 
-            height:20px;
+            height:40px;
 
+        }
+
+        span{
+            cursor:default;
         }
 
         div{
@@ -52,26 +64,34 @@
 
 
 
+<script src="../jquery-3.1.0.min.js"></script>
 
 
-<body onload='main();'>
+<script src="diet.js"></script>
+<body >
 
+<span id='debug'></span>
     <div>
 
             
         <datalist id="suggestions">
-          
+          <option value="1">
 
         </datalist>
 
-        name:<input type='text' onkeyup="getSuggestions()" list="suggestions" id='name'></input><br/>
-        total cals:<input type='text' id='total_cals'></input><br/>
-        total amount:<input type='text' id='total_amount' value=''></input><br/>
-        cal per serv:<input type='text' id='cal_per_serv'></input><br/>
-        amount per serv:<input type='text' id='amount_per_serv'></input><br/>
+        <datalist id="suggestion_labels">
+           <option value="1">
+
+        </datalist>
+
+        name:<input type='text' list="suggestions" id='name' value=''></input><br/>
+        total cals:<input type='text' id='total_cals' value='' ></input><br/>
+        total amount:<input type='text' id='total_amount' list='suggestion_labels' value=''></input><span id='more_labels'></span><br/>
+        cal per serv:<input type='text' id='cal_per_serv' value=''></input><br/>
+        amount per serv:<input type='text' id='amount_per_serv' list='suggestion_labels' value=''></input><br/>
         <input type='button' value='submit' id='submit' onclick='saveItem()'></input>
     </div>
-
+  ⚡<span id='consumedCal'></span> consumed<br/>
     <br/>
     <input class='big' type=button value=⇦ onclick='changeDate(-1)'></input>
     <input class='big' type=button value='∘'  onclick='resetDate()'></input>
@@ -82,11 +102,11 @@
 
     <p id="result"></p>
 
-
-    <span id="burnedCal"></span>-
-    <span id='consumedCal'></span>=
-    <span id='netCal'></span><br/>
+  
+    <span id="burnedCal"></span> burned<br/>
+    <span id='netCal'></span> remaining<br/>
     At this rate you will  <span id='rate'></span> pounds in 6 weeks.
 
 </body>
+<?php include '../header.php';?>
 </html> 

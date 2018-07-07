@@ -1,8 +1,8 @@
  <?php session_start(); 
     if(isset($_SESSION["customer_name"])){
-        echo $_SESSION["customer_name"] . "<br/>";
+        echo $_SESSION["customer_name"] ;
     }else{
-        echo '...<br/>';
+        echo '';
     }
 ?>
  <!DOCTYPE html>
@@ -20,30 +20,61 @@
 
 
 body{
-      background-color:  #F5F5F5;
+      background-color:  #003d99 ;
+      color:gold;
+      font-size: 1px;
 }
     div{
-        
+     
 
     }
    
    .filter{
-    display: inline;
+     font-size:20px;
+
 
    }
 
 
-    input{
-        display: block;
-     width: 10%;
-     height: 18px;
-     font-size: 12px;
-     margin-right:1px;
 
-    }
+.title{
+	font-size: 20px;
+	height:auto;
+	width: 100%;
+	margin:1px;
+}
+
+  #menu{
+  	float:left;
+  	margin-right: 5px;
+	
+  }
+
+  #result{
+  	float:left;
+  	width:50%;
+  }
 
     .big{
-        width:100%;
+       
+        font-size: 20px;
+        color:green;
+        background-color: black;
+        border:none;
+
+        overflow:hidden;
+
+        
+        display: block;
+        resize: vertical;
+        
+        padding-left: 2px;
+        
+        
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+         
     }
 
     hr{
@@ -51,24 +82,31 @@ body{
     }
     
     #submit{
-        height: 30px;
+        height: 25px;
     }
     
-    textarea{
     
-        font-size: 12px;
-        color:green;
-        background-color: black;
 
-        overflow:hidden;
-
-        display: inline-block;
-        right: 0px;
-
-
-        width: 100%;
+    input{
         display: block;
-        resize: vertical;
+        
+        height: 20px;
+        font-size: 15px;
+        margin-right:1px;
+
+        border:none;
+        
+        
+
+        background-color:   #080808;
+        color:#034F84;
+        margin-bottom:0px;
+
+
+    }
+
+    input[type=text]{
+        color:#cc00cc;
     }
     </style>
 
@@ -78,21 +116,18 @@ body{
 
 
 
-project:<input type='text' id='project'></input>
-name:<input type='text' id='name' value=''></input>
-body:<textarea type='text'  id='body'></textarea><br/>
-<input type='button' value='submit' id='submit' onclick='saveItem()'></input><br/>
+<input type='button' value='ADD NEW' id='submit' onclick='saveItem("add...","add...")'></input>
 
 <input class='filter' type='button' id='startblue2'  value=''  onclick='setProject(this)'></input>
 <div id='menu'></div>
 
-<input class='filter' type='button' id='startblue'  value='active'  onclick='setFilter(this)'></input>
-<input class='filter' type='button' value='completed' onclick='setFilter(this)'></input>
-<input class='filter' type='button' value='both'  onclick='setFilter(this)'></input><br/>
 <span id='stats'></span>
 <div id='result'></div>
 
 
+<input class='filter' type='button' id='startblue'  value='active'  onclick='setFilter(this)'></input>
+<input class='filter' type='button' value='completed' onclick='setFilter(this)'></input>
+<input class='filter' type='button' value='both'  onclick='setFilter(this)'></input>
 
 
 </body>

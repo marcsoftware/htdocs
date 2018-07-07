@@ -16,54 +16,76 @@
     ?>
 <meta charset="UTF-8"> 
 <style>
+ hr{
+        width:100%;
+        display: block;
+    }
 
     div{
         
+        margin-bottom: 10px;
+        
+        padding:2px;
+        display: table;
+        width: 100%;
 
     }
    
-   .filter{
-    display: inline;
-
+   input[type=button]{
+    cursor: pointer;
+    
    }
+    
 
-
-    input{
-        display: block;
-     width: 10%;
-     height: 18px;
-     font-size: 12px;
-     margin-right:1px;
+/*-------------------------------------*/
+    .big {
+        width: 98%;
+        float: right;
+        padding:0px;
+        margin:0px;
+        background: black;
+        color:LightGreen  ;
+        border: none;
+        font-size: 12px;
+        height:20px;
     }
 
-    .big{
-        width:100%;
+    .notepad{
+        width: 100%;
+        float: right;
+        padding:0px;
+        margin:0px;
+        border:none;
+        padding-left: 40px;
+        color:green;
+        font-size: 8px;
+        background-color: black;
     }
 
-    hr{
-        width:100%;
+    .small {
+        float:left;
+        height:40px;
+        padding: 1px;
+        width: 2%;
+
     }
+
+    
+    .filter{
+       
+       
+       width: 5%px;
+
+    }
+
+
+/* ------------------------------------*/
     
     #submit{
         height: 30px;
     }
     
-    textarea{
-    
-        font-size: 12px;
-        color:green;
-        background-color: black;
-
-        overflow:hidden;
-
-        display: inline-block;
-        right: 0px;
-
-
-        width: 100%;
-        display: block;
-        resize: vertical;
-    }
+ 
     </style>
 
 
@@ -72,19 +94,19 @@
 
 
 
-project:<input type='text' id='project'></input>
-name:<input type='text' id='name' value=''></input>
+project:<input type='text' id='project'></input><br/>
+name:<input type='text' id='name' value=''></input><br/>
 body:<textarea type='text'  id='body'></textarea><br/>
-<input type='button' value='submit' id='submit' onclick='saveItem()'></input><br/>
-
+<input type='button' value='submit' id='submit' onclick='saveItem()'></input><br/><br/>
+<hr/>
 <input class='filter' type='button' id='startblue2'  value=''  onclick='setProject(this)'></input>
-<div id='menu'></div>
+<p id='menu'></p>
 
 <input class='filter' type='button' id='startblue'  value='active'  onclick='setFilter(this)'></input>
 <input class='filter' type='button' value='completed' onclick='setFilter(this)'></input>
-<input class='filter' type='button' value='both'  onclick='setFilter(this)'></input><br/>
-<span id='stats'></span>
-<div id='result'></div>
+<input class='filter' type='button' value='both'  onclick='setFilter(this)'></input>
+<span id='stats'></span><br/>
+<p id='result'></p>
 
 
 

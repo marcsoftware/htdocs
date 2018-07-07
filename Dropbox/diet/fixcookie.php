@@ -37,11 +37,42 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
+    
+    
+
     //  record doesn't already exsist so create ti
     $sql = "UPDATE diet
             SET $field = '$value'
             WHERE id=$id and customer_name='$customer_name';
            ";
+
+
+
+    //if field == 'total_amount' or 
+    // total_amount_label   total_amount_unit   amount_per_serv_unit    amount_per_serv 
+   
+    if( $field=='total_amount' || $field=='amount_per_serv'){
+    
+        
+        preg_match("/[0-9\.]+/", $value, $unit);
+        preg_match("/[a-zA-Z]+/", $value, $label);
+       
+        $unit=implode("",$unit);
+        $label=implode("",$label);
+        echo $label;
+
+        $fieldUnit=$field.'_unit'; 
+        $fieldLabel=$field.'_label';
+
+
+        $sql = "UPDATE diet
+            SET $fieldUnit = '$unit', $fieldLabel='$label'
+            WHERE id=$id and customer_name='$customer_name';
+           ";
+
+    }
+
+   
 
     $result = $conn->query($sql);
 

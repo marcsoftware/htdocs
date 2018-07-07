@@ -1,0 +1,204 @@
+//Plurals
+die Tiere
+die Katzen
+the dogs
+die Hunde
+Card Fact
+die Fische
+the tomatoes
+die Tomaten
+the newspapers
+die Zeitungen
+the people
+die Menschen
+the girls
+die Mädchen
+the insect
+das Insekt
+the oranges
+die Orangen
+the apples
+die Äpfel
+the potatoes
+die Kartoffeln
+the eggs
+die Eier
+the cows
+die Kühe
+the pigs
+die Schweine
+the birds
+die Vögel
+the bears
+die Bären
+the ducks
+die Enten
+the mice
+die Mäuse
+//Adjectives
+perfekt
+bad
+schlecht
+free
+frei
+normal
+normal
+great
+toll
+light
+leicht
+loud
+laut
+quiet
+leise
+long
+lang
+weak
+schwach
+clear
+klar
+small
+klein
+round
+rund
+big
+groß
+quiet
+ruhig
+//Not X?
+//Question 1 
+neu
+fast
+schnell
+slowly
+langsam
+beautiful
+schön
+important
+wichtig
+expensive
+teuer
+far
+weit
+tired
+müde
+cold
+kalt
+heavy
+schwer
+correct
+richtig
+old
+alt
+young
+jung
+dirty
+schmutzig
+clean
+sauber
+high
+hoch
+deep
+tief
+warm
+warm
+//Present 1 
+wollen
+to do
+machen
+to play
+spielen
+to run
+laufen
+to walk
+gehen
+to sleep
+schlafen
+to like
+mögen
+to learn
+lernen
+to write
+schreiben
+to see
+sehen
+to hear
+hören
+to know
+kennen
+to bring
+bringen
+to drive
+fahren
+to run
+rennen
+to think
+denken
+to swim
+schwimmen
+to begin
+beginnen
+to pay
+bezahlen
+to wash
+waschen
+to need
+brauchen
+//Clothing
+tragen
+Card Fact
+das Kleid
+Card Fact
+der Rock
+Card Fact
+der Hut
+the shoe
+der Schuh
+Card Fact
+die Kleidung
+Card Fact
+die Hose
+Card Fact
+das Hemd
+the jacket
+die Jacke
+the bag
+die Tasche
+the button
+der Knopf
+the jewelry
+der Schmuck
+the ring
+der Ring
+to fit
+passen
+//Nature 1
+die Natur
+Card Fact
+die Erde
+Card Fact
+der Berg
+Card Fact
+der Baum
+Card Fact
+der Wind
+Card Fact
+das Feuer
+Card Fact
+die Blume
+the air
+die Luft
+Card Fact
+das Meer
+Card Fact
+der Mond
+Card Fact
+der Himmel
+the Sun
+die Sonne
+Card Fact
+der Stern
+to fall
+fallen
+to live
+leben
