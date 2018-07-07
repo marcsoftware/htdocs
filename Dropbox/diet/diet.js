@@ -376,7 +376,17 @@
                          
             var xmlhttp;    
 
-            
+             if(item.name.includes(':')){
+                item.total_cals='0';
+                item.total_amount='0null';
+                item.amount_per_serv='0null';
+                item.cal_per_serv='0';
+                sendToDatabase(item);
+                alert(1);
+                return;
+
+            }
+
             //copy any numerals in the name into the total_amount field
             moveNumerals(item);
 
@@ -389,7 +399,6 @@
             }
 
 
-            
 
 
             //TODO needs to account for labels
@@ -627,6 +636,9 @@
             cal_per_serv = item.cal_per_serv|| 0;
 
             total_cals=item.total_cals||0;
+
+            alert("/Dropbox/diet/createcookie.php?id="+id+"&name="+name+'&total_cals='+total_cals+'&amount_per_serv='+
+                            amount_per_serv+'&total_amount='+total_amount+'&cal_per_serv='+cal_per_serv);
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?id="+id+"&name="+name+'&total_cals='+total_cals+'&amount_per_serv='+
                             amount_per_serv+'&total_amount='+total_amount+'&cal_per_serv='+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();

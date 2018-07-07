@@ -107,7 +107,7 @@
     if($id == 0){ //insert a new record
         $sql = "INSERT INTO diet
             VALUES (
-                    NULL, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name'
+                    NULL, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',0
             )";
        
     }else{ //update an old record
