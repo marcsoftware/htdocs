@@ -15,6 +15,8 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
             e.drop.get('node').get('parentNode').insertBefore(drag, drop);
             //Resize this nodes shim, so we can drop on it later.
             e.drop.sizeShim();
+
+
         }
     });
     //Listen for all drag:drag events
@@ -65,6 +67,9 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
                 drop.appendChild(drag);
             }
         }
+
+        //dropped
+        getNewOrder();
     });
 
     //Static Vars
@@ -94,3 +99,14 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
     });
 
 });
+
+/*
+//--------------------------------------------------
+//  get the new order of the list
+//---------------------------------------------------
+*/
+function getNewOrder(){
+    
+    var records = document.getElementById('result').children;
+    alert(records[0].innerHTML);
+}
