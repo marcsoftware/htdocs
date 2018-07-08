@@ -11,6 +11,7 @@
 
     // TODO press enter to submit 
     $(document).ready(function(){
+        
         init();
 
         var values = ["block","none"];
@@ -24,6 +25,12 @@
             }
 
         });
+
+
+
+
+
+  
 
 
     });
@@ -382,7 +389,7 @@
                 item.amount_per_serv='0null';
                 item.cal_per_serv='0';
                 sendToDatabase(item);
-                alert(1);
+                
                 return;
 
             }
@@ -637,8 +644,6 @@
 
             total_cals=item.total_cals||0;
 
-            alert("/Dropbox/diet/createcookie.php?id="+id+"&name="+name+'&total_cals='+total_cals+'&amount_per_serv='+
-                            amount_per_serv+'&total_amount='+total_amount+'&cal_per_serv='+cal_per_serv);
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?id="+id+"&name="+name+'&total_cals='+total_cals+'&amount_per_serv='+
                             amount_per_serv+'&total_amount='+total_amount+'&cal_per_serv='+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
@@ -935,15 +940,17 @@
 
             if(x[0].includes(':')){
                 
-                document.getElementById('result').innerHTML+=x[0]+delete_button+"<br/>";
+                document.getElementById('result').innerHTML+='<li class="label">'+x[0]+delete_button+"</></li><br/>";
                 return;
             }
 
+            var line= '';
             for(var i =0; i < x.length ; i++){
-                document.getElementById('result').innerHTML+=`<input value="${x[i]}" name=${id} onchange="recalculate(${id},'${field[i]}',this.value,item)"></input>`;
+                line+=`<input value="${x[i]}" name=${id} onchange="recalculate(${id},'${field[i]}',this.value,item)"></input>`;
             }
-            
-            document.getElementById('result').innerHTML+=delete_button+"<br/>";
+            line+=delete_button+"<br/>";
+
+            document.getElementById('result').innerHTML+='<li>'+line+'</li>';
 
         }
 

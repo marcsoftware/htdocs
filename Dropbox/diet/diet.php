@@ -52,6 +52,13 @@
 
         }
 
+        .label{
+            background-color:blue;
+            color: white;
+            margin-top:5px;
+            width:25%;
+            font-size: 20px;
+        }
         span{
             cursor:default;
         }
@@ -59,15 +66,35 @@
         div{
             background-color: gray;
         }
+
+        #play{
+        	background-color:white; 
+        }
+
+        ul{
+        	list-style-type: none;
+        	margin.left:0px;
+        	padding-left: 0px;
+        }
+
+        li{
+        	margin.left:0px;
+        	padding-left: 0px;
+        }
+
+
     </style>
 
 
 
 
 <script src="../jquery-3.1.0.min.js"></script>
+<script src="../yui-min.js"></script>
+
 
 
 <script src="diet.js"></script>
+<script src="sortable.js"></script>
 <body >
 
 <span id='debug'></span>
@@ -99,9 +126,10 @@
 
     <br/>
     <input value="name" ></input><input value="total cals" ></input><input value="total amount" ></input><input value="cals  serv" ></input><input value="amount  serv" ></input><input value="date" ></input>
-
-    <p id="result"></p>
-
+	<div id="play">
+	    <ul id="result" class="linked">
+	        </ul>
+	</div>
   
     <span id="burnedCal"></span> burned<br/>
     <span id='netCal'></span> remaining<br/>
