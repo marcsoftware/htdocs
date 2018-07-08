@@ -126,7 +126,7 @@
 
          $sql = "INSERT INTO diet
             VALUES (
-                    $id, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name'
+        $id, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',0
             )";
             
     }       

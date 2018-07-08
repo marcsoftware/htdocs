@@ -138,6 +138,14 @@
 
         function strcmp(a, b) {
 
+            if(typeof(b) == "undefined"){
+                b='';
+            }
+
+            if(typeof(a) == "undefined"){
+                a='';
+            }
+
             a = a.toString();
             b = b.toString();
             a = a.trim();
@@ -580,6 +588,7 @@
                 item.amount_per_serv='';
              }
 
+
              addNew(item);
                    
              softReset();
@@ -679,7 +688,10 @@
         //---------------------------------------------------------------------
         */
         function doBasicMathOnEntry(x){
-         
+           
+            if(typeof(x) == "undefined"){
+                return 0;
+            }
             x=x.toString();
             var label = x.match(/[a-zA-Z]+/g);
             
@@ -704,7 +716,9 @@
         //---------------------------------------------------------------------
         */
         function removeLabel(ref){
-           
+           if(typeof(ref) == "undefined"){
+                return 0;
+            }
               var x = ref.slice();
                 var label = '';
                 var number = '';
@@ -735,6 +749,9 @@
         */
         function isTrue(x){
                    
+            if(typeof(x) == "undefined"){
+                return false;
+            }
             x=x.toString();
             x=x.search(/[1-9\.]/g);
 
