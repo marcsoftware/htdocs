@@ -53,7 +53,9 @@
         }
 
         .label{
-            background-color:blue;
+            
+            background: linear-gradient(to bottom right, #826FD6, #412AA4);
+            border-radius: 15px;
             color: white;
             margin-top:5px;
             width:25%;
@@ -80,12 +82,14 @@
         li{
         	margin.left:0px;
         	padding-left: 0px;
+            border-radius: 25px;
         }
 
         ul li:before {
          content: " ⇳ ";
          color:black;
          font-size: 30px;
+         
          
          }
 

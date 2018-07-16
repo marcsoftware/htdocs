@@ -861,7 +861,7 @@
         
         /**
         //---------------------------------------------------------------------
-        //
+        // gets all the users data for the day
         //---------------------------------------------------------------------
         */
         function getData(){
@@ -894,7 +894,7 @@
                     }
                     for(var i =0;i<new_result.length;i++){
                         
-                        wrap(new_result[i]);
+                        wrap(new_result[i],i);
 
                     }
                     
@@ -919,7 +919,7 @@
         */
         //pre: make sure readCookie.php 
         var item;
-        function wrap(x){
+        function wrap(x,index){
             x= x.split("~");
             var id = x.pop(); // get the ID 
 
@@ -957,17 +957,17 @@
 
             if(x[0].includes(':')){
                 
-                document.getElementById('result').innerHTML+='<li class="label">'+x[0]+delete_button+"</></li><br/>";
+                document.getElementById('result').innerHTML+='<li class="label">'+x[0]+delete_button+`<p hidden>${x[6]+','+id}</p>`+`</li>`;
                 return;
             }
 
             var line= '';
-            for(var i =0; i < x.length ; i++){
+            for(var i =0; i < x.length-1 ; i++){
                 line+=`<input value="${x[i]}" name=${id} onchange="recalculate(${id},'${field[i]}',this.value,item)"></input>`;
             }
-            line+=delete_button+"<br/>";
+            line+=delete_button+"";
 
-            document.getElementById('result').innerHTML+='<li>'+line+'</li>';
+            document.getElementById('result').innerHTML+=`<li><p hidden>${x[6]+','+id}</p>`+line+`  </li>`;
 
         }
 
@@ -1461,7 +1461,7 @@
         
         /**
         //---------------------------------------------------------------------
-        //
+        //  just gets all item names form history
         //---------------------------------------------------------------------
         */        
         function getAllHistory(){

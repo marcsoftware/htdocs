@@ -27,7 +27,7 @@
     //TODO edit $sql to update if entry already exsists
     $sql = "SELECT distinct name  from diet where customer_name='$customer_name'  and (name != 0) and
             ( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 ))
-            ORDER BY date DESC  ";
+            ORDER BY  date ASC";//ORDER BY article_rating DESC, article_time DESC
     
 
     $result = $conn->query($sql);

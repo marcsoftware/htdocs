@@ -54,7 +54,7 @@ function encode(x){
         x=x.replace(/\[/g,'🐛');
         x=x.replace(/\-\🐛/g,'🦋');
         //📎
-        x=x.replace(/\]\]\]/g,'⚡');
+        x=x.replace(/\]\]\]/g,'🎯');
         //🔗
         x=x.replace(/\]\]/g,'👓');
 

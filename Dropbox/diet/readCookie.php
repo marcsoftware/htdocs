@@ -37,14 +37,14 @@
         die("Connection failed: " . $conn->connect_error);
     }
     
-    $sql = "SELECT * from diet where date='$today' and customer_name='$customer_name' ";
+    $sql = "SELECT * from diet where date='$today' and customer_name='$customer_name' ORDER BY  custom_sort DESC ";
 
     $result = $conn->query($sql);
 
     while($row = $result->fetch_assoc()) {
         // NOTE: id has to be the last field and be seperated by comma
         echo($row["name"]." ~ ".$row["total_cals"]." ~ ".$row["total_amount_unit"].$row["total_amount_label"].
-             " ~ ".$row["cal_per_serv"]."~".$row["amount_per_serv_unit"].$row["amount_per_serv_label"].'~'.$row['date']." ~ ".$row["id"]."  <br/>\n"
+             " ~ ".$row["cal_per_serv"]."~".$row["amount_per_serv_unit"].$row["amount_per_serv_label"].'~'.$row['date']." ~ ".$row["custom_sort"]." ~ ".$row["id"]."  <br/>\n"
              );
       
     }
