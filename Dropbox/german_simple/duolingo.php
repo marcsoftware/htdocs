@@ -85,7 +85,7 @@ EOF;
 
     // show stats on a particular day.
     function showStats(handle,day,diffs){
-        console.log(day);
+       // console.log(day);
     }
 
 
@@ -93,8 +93,8 @@ EOF;
     // selft study the selected day
     //param: color is a number, 1 is for red. 0 is for green
     function studyDay(handle,date,diffs,color){
-
-        console.log(handle.className );
+        alert(diffs);
+        //console.log(handle.className );
         gotoCalendarPage(date,color);
     }
 
@@ -143,7 +143,7 @@ EOF;
 
         //TODO pass the global var date
         
-alert('/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color);
+
         xmlhttp.open("GET",'/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color,false); // TODO This is badpractice. Turn false into true. //////
         xmlhttp.send();
         
@@ -184,9 +184,305 @@ alert('/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color);
     }
 
 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+var htmlContent = "";
+var FebNumberOfDays = "";
+var counter = 1;
+
+var dateNow = new Date();
+var month = dateNow.getMonth();
+var curMonth = month;
+var day = dateNow.getDate();
+var year = dateNow.getFullYear();
+var curYear = year;
+
+// names of months and week days.
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"];
+var dayPerMonth = ["31", "" + FebNumberOfDays + "", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"];
+
+function padDigits(number, digits) {
+    return Array(Math.max(digits - String(number).length + 1, 0)).join(0) + number;
+}
+
+// days in previous month and next one , and day of week.
+var nextDate, weekdays, weekdays2, numOfDays, nextMonth, prevMonth;
+
+//to set the correct htmlContent
+function getCal() {
+        //TODO wrap contents here
+
+ //TODO pass the global var date123456789
+            php_calendar = [];
+            <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+// when user completes selfttest.php mode
+// save words to database
+
+//create table if it doesn't already exsist
+if(isset($_SESSION["customer_name"])){
+    $customer_name = $_SESSION["customer_name"];
+
+    $dbname='flashcards';
+
+    require_once('../passwords/db_const.php');
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+    //get stats
+
+    $customer_name_calendar= $customer_name . '_calendar';
+    $sql = "SELECT *,COUNT(*)
+    FROM $customer_name_calendar      
+    GROUP BY first_look_date,difficulty";
+
+    $result = $conn->query($sql);
+    $response = $result->fetch_all(MYSQLI_ASSOC);
+
+    $days = [];
+    for($i=0;$i<count($response);$i++){
+        $date = ($response[$i]['first_look_date']);
+
+        $number = $response[$i]['COUNT(*)'];
+        $diff = $response[$i]['difficulty'];
+        
+        if(!isset ($days[$date])){
+            $days[$date]='';
+        }
+        $days[$date] .=$diff.':'.$number.'.';
+    }
+
+    
+
+    foreach ($days as $i => $diffs) {
+        $diffs_array = explode('.',$diffs);
+        
+        $total=0;
+        $green_total=0;
+        foreach ($diffs_array as $j => $diff_string) {
+            
+            $both = explode(':', $diff_string);
+            if(isset($both[1])){
+               $total+=( $both[1]);
+            }
+
+            if($j == 0){
+                $green_total = $both[1];
+            }
+        }
+
+$red_total = $total-$green_total;
+
+        
+        
+
+       echo "php_calendar['$i']='$diffs';";
+        
+    }    
+}
+
+?>
+
+
+ 
+
+  htmlContent = "";
+  nextMonth = month + 1; //+1; //Used to match up the current month with the correct start date.
+  prevMonth = month - 1;
+  counter = 1;
+
+
+  //Determing if February (28,or 29)  
+  if (month == 1) {
+    if ((year % 100 != 0) && (year % 4 == 0) || (year % 400 == 0)) {
+      FebNumberOfDays = 29;
+    } else {
+      FebNumberOfDays = 28;
+    }
+  }
+
+
+  // names of months and week days.
+  monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"];
+  dayPerMonth = ["31", "" + FebNumberOfDays + "", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"];
+
+  // days in previous month and next one , and day of week.
+  nextDate = new Date(nextMonth + ' 1 ,' + year);
+  weekdays = nextDate.getDay();
+  weekdays2 = weekdays;
+  numOfDays = dayPerMonth[month];
+
+  // this leave a white space for days of pervious month.
+  while (weekdays > 0) {
+    htmlContent += "<td class='monthPre'></td>";
+
+    // used in next loop.
+    weekdays--;
+  }
+
+  // loop to build the calander body.
+  while (counter <= numOfDays) {
+
+    // When to start new line.
+    if (weekdays2 > 6) {
+      weekdays2 = 0;
+      htmlContent += "</tr><tr>";
+    }
+
+    //TODO create the look up string
+    var lookup = ( curYear+'/'+padDigits(month+1,2)+'/'+padDigits(counter,2));
+     
+    
+    var contents='';
+    if(php_calendar[lookup] ==  void 0){
+        
+    }else{
+        
+        contents = php_calendar[lookup] ;
+    }
+    
+
+    // if counter is current day.
+    // highlight current day using the CSS defined in header.
+    i=lookup;
+    diffs=php_calendar[lookup];
+    
+    green_total=0;
+    red_total=0;
+
+    if(diffs !== void 0){
+       var both=simplifyDiffs(diffs);
+       green_total=both[0];
+       red_total=both[1];
+    }
+    var template = `<p onmouseover=showStats(this,'"+i+"','"+diffs+"')><span class='green' onclick=studyDay(this,'"+i+"','"+diffs+"',0)>${green_total}</span> <br/>\
+                 <span class=red onclick=studyDay(this,'"+i+"','"+diffs+"',1)>${red_total} </span></p>`;
+    //var blank = "<p onmouseover=showStats(this,'"+i+"','"+diffs+"')>$i <span class='green' onclick=studyDay(this,'"+i+"','"+diffs+"',0)> green_total</span> \
+    //             <span class=red onclick=studyDay(this,'"+i+"','"+diffs+"',1)>$red_total</span></p>";
+    
+    if(green_total !=0 || red_total !=0){
+     contents = template;
+    }else{
+
+    }
+
+    if (counter == day && month == curMonth && year == curYear) {
+      htmlContent += "<td class='dayNow'  onMouseOver='this.style.background=\"#FF0000\"; this.style.color=\"#FFFFFF\"' " +
+        "onMouseOut='this.style.background=\"#FFFFFF\"; this.style.color=\"#FF0000\"'>" + counter +contents +"</td>";
+    } else {
+      htmlContent += "<td class='monthNow' onMouseOver='this.style.background=\"#FF0000\"'" +
+        " onMouseOut='this.style.background=\"#FFFFFF\"'>" + counter +contents +"</td>";
+
+    }
+
+    weekdays2++;
+    counter++;
+  }
+}
+
+//turn the diff string into simplified form
+// eg 0:1.1:1.2:3 becomes [1,4]
+
+function  simplifyDiffs(diff_string){
+    var diff_array 
+    diffs_array = diff_string.split('.');
+     diffs_array.pop(); //delete the last element since it is always empty   
+    total=0;
+    green_total=0;
+    red_total=0;
+    //for (diffs_array as $j => $diff_string) {
+    for (var i =0;i<diffs_array.length;i++) {          
+        
+        diff_element = diffs_array[i];
+        
+        both = diff_element.split(':');
+        
+        if(both[1] != void 0){
+           both[1] =parseInt(both[1]); 
+           
+           total+=( both[1]);
+        }
+
+        if(both[0] == 0 ){
+            green_total = parseInt(both[1]);
+        }
+    }
+
+    red_total = total-green_total;
+    
+    return [green_total,red_total];
+}
+
+
+function displayCalendar() {
+
+  getCal(); // to get the htmlContent
+
+  // building the calendar html body.
+  var calendarBody = "<table class='calendar'> <tr class='monthNow'><th colspan='7'>" +
+    monthNames[month] + " " + year + "</th></tr>";
+  calendarBody += "<tr class='dayNames'>  <td>Sun</td>  <td>Mon</td> <td>Tues</td>" +
+    "<td>Wed</td> <td>Thurs</td> <td>Fri</td> <td>Sat</td> </tr>";
+  calendarBody += "<tr>";
+  calendarBody += htmlContent;
+  calendarBody += "</tr></table>";
+  // set the content of div .
+  document.getElementById("calendar").innerHTML = calendarBody;
+
+}
+
+function next() {
+
+  if(month+1==12){
+    ++year;
+    month=-1;
+  }
+
+  var calendarBody = "<table class='calendar'> <tr class='monthNow'><th colspan='7'>" +
+    monthNames[++month] + " " + year + "</th></tr>";
+  calendarBody += "<tr class='dayNames'>  <td>Sun</td>  <td>Mon</td> <td>Tues</td>" +
+    "<td>Wed</td> <td>Thurs</td> <td>Fri</td> <td>Sat</td> </tr>";
+  calendarBody += "<tr>";
+
+  getCal(); // to get the htmlContent
+
+  calendarBody += htmlContent;
+  calendarBody += "</tr></table>";
+  // set the content of div .
+  document.getElementById("calendar").innerHTML = calendarBody;
+
+}
+
+function prev() {
+  if(month-1==-1){
+    --year;
+    month=12;
+  }
+
+  var calendarBody = "<table class='calendar'> <tr class='monthNow'><th colspan='7'>" +
+    monthNames[--month] + " " + year + "</th></tr>";
+  calendarBody += "<tr class='dayNames'>  <td>Sun</td>  <td>Mon</td> <td>Tues</td>" +
+    "<td>Wed</td> <td>Thurs</td> <td>Fri</td> <td>Sat</td> </tr>";
+  calendarBody += "<tr>";
+
+  getCal(); // to get the htmlContent
+
+  calendarBody += htmlContent;
+  calendarBody += "</tr></table>";
+  // set the content of div .
+  document.getElementById("calendar").innerHTML = calendarBody;
+
+}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     window.onload = function(e){ 
         document.getElementById('focusstudy').addEventListener("click", function(){gotoFocusStudyPage(false)});
         document.getElementById('studyall').addEventListener("click", function(){gotoFocusStudyPage(true)}); 
+        displayCalendar();
     }
 
     // takes user to the special study page that has words form the database
@@ -253,8 +549,9 @@ alert('/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color);
 
 
 
-            //TODO pass the global var date
-            
+           
+
+
 
             xmlhttp.open("GET",'/Dropbox/pure_code/modes/setFilter.php?diffs='+picked,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
@@ -306,6 +603,12 @@ alert('/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color);
             margin-right:3px;
             border-radius: 25px;
 
+        }
+
+
+        td{
+            height:30px;
+            width:100px;
         }
 </style>
 
@@ -424,6 +727,10 @@ $red_total = $total-$green_total;
 ?>
 
 
+<button class='btns' onclick=prev()>Prev</button>
+<button style=margin-left:3.25%; class='btns' onclick=next()>Next</button>
+
+  <div id="calendar"></div>
 
 
 <h4>learn new words</h4>

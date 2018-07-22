@@ -28,9 +28,10 @@ $result = $conn->query($sql);
 //turn array into 3 array to make it easier to save
 $records=str_replace("'","Z",$records); // turn quotes into HTML so they don't break the SQL command
 $records = preg_split("/,/", $records);
+
 $template = " insert INTO $customer_name VALUES('GERMAN','ENGLISH','NULL',DIFF,'null','null','null') ON DUPLICATE KEY UPDATE  english='ENGLISH', difficulty=DIFF;";
 $list_sql='';
-for ($i = 0; $i < count($records); $i+=3) {
+for ($i = 0; $i < count($records)-1; $i+=3) {
    $new_sql =str_replace("GERMAN", $records[$i], $template);
    $new_sql =str_replace("ENGLISH", $records[$i+1], $new_sql);
    $new_sql =str_replace("DIFF", $records[$i+2], $new_sql);
@@ -54,14 +55,15 @@ $result = $conn->query($sql);
 //turn array into 3 array to make it easier to save
 $today =  date("Y/m/d");
 $template = " insert INTO $calendar_name VALUES('GERMAN','ENGLISH','NULL',DIFF,'null','null','$today') ;";
-
-for ($i = 0; $i < count($records); $i+=3) {
+$list_sql='';
+for ($i = 0; $i < count($records)-1; $i+=3) {
    $new_sql =str_replace("GERMAN", $records[$i], $template);
    $new_sql =str_replace("ENGLISH", $records[$i+1], $new_sql);
    $new_sql =str_replace("DIFF", $records[$i+2], $new_sql);
    $list_sql.=$new_sql;
 }
 
+echo $list_sql;
 // execute queries
 
 if ($conn->multi_query($list_sql) === TRUE) {
