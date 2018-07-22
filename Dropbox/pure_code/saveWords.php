@@ -23,6 +23,8 @@ $sql = "CREATE TABLE $customer_name LIKE _clone_user";
 
 $result = $conn->query($sql);
 
+
+
 //turn array into 3 array to make it easier to save
 $records=str_replace("'","Z",$records); // turn quotes into HTML so they don't break the SQL command
 $records = preg_split("/,/", $records);
@@ -42,11 +44,34 @@ for ($i = 0; $i < count($records); $i+=3) {
 
 
 
+//create calendar_table if it doesn't already exsist also
+$calendar_name = $customer_name . '_calendar';
+$sql = "CREATE TABLE $calendar_name LIKE _clone_user";
+
+$result = $conn->query($sql);
+
+
+//turn array into 3 array to make it easier to save
+$today =  date("Y/m/d");
+$template = " insert INTO $calendar_name VALUES('GERMAN','ENGLISH','NULL',DIFF,'null','null','$today') ;";
+
+for ($i = 0; $i < count($records); $i+=3) {
+   $new_sql =str_replace("GERMAN", $records[$i], $template);
+   $new_sql =str_replace("ENGLISH", $records[$i+1], $new_sql);
+   $new_sql =str_replace("DIFF", $records[$i+2], $new_sql);
+   $list_sql.=$new_sql;
+}
+
+// execute queries
+
 if ($conn->multi_query($list_sql) === TRUE) {
     echo "New records created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error . '<br/>';
-    echo $list_sql;
+   // echo $list_sql;
 }
+
+
+
 
 $conn->close();

@@ -967,7 +967,7 @@
             }
             line+=delete_button+"";
 
-            document.getElementById('result').innerHTML+=`<li><p hidden>${x[6]+','+id}</p>`+line+`  </li>`;
+            document.getElementById('result').innerHTML+=`<li> ░  <p hidden>${x[6]+','+id}</p>`+line+`  </li>`;
 
         }
 

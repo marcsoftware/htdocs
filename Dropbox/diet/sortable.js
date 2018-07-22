@@ -139,32 +139,7 @@ function getNewOrder(ref){
     
 }
 
-/*
-//--------------------------------------------------
-//  figure out which records moved
-//---------------------------------------------------
-*/
 
-function getChange(yui_ref){
-    
-    var id=yui_ref.get('id');
-    var ref=document.getElementById(id);
-    var info=(ref.children[0].innerHTML.split(',')); 
-
-    var after =ref.nextSibling.children[0].innerHTML.split(','); 
-    var before = ref.previousSibling.children[0].innerHTML.split(','); 
-
-    var median = (getMedian(before[0],after[0]));
-
-    info[0]=median;
-    database_id=info[1];
-    info.join(',');
-    ref.children[0].innerHTML=info;
-
-    fix(database_id,'custom_sort ',median);
-
-
-}
 
 /*
 //--------------------------------------------------

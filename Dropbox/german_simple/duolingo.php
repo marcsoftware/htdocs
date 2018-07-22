@@ -78,6 +78,80 @@ EOF;
 <?php include '../header.php';?>
 <?php include '../pure_code/getUsersTime.php';?>
 
+
+<script type='text/javascript'>
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //CALENDARY STUFF
+
+    // show stats on a particular day.
+    function showStats(handle,day,diffs){
+        console.log(day);
+    }
+
+
+
+    // selft study the selected day
+    //param: color is a number, 1 is for red. 0 is for green
+    function studyDay(handle,date,diffs,color){
+
+        console.log(handle.className );
+        gotoCalendarPage(date,color);
+    }
+
+
+    // takes user to the special study page that has words form the database
+    function gotoCalendarPage(date,color){
+        
+        setDate(date,color);
+        
+      
+        //go to a new web page
+        var page ="/Dropbox/pure_code/modes/de_selftest.php?fileName=getCalendarWords.php&folder=../pure_code/material/german/duolingo&mode=de_selftest.php&cleanup=0&block=4";
+
+        window.location.href=page; 
+        
+
+    }
+
+
+    /**
+    //---------------------------------------------------------------------
+    // creates a SESSION varibles that hold the 'day' that the user clicked on calendar
+    //---------------------------------------------------------------------
+    */
+    function setDate(date,color){
+
+        var xmlhttp;    
+        
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+                 
+                //alert(xmlhttp.responseText);
+                
+            }
+        }
+
+
+
+        //TODO pass the global var date
+        
+alert('/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color);
+        xmlhttp.open("GET",'/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+        
+    }
+
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</script>
+
 <script type='text/javascript'>
 	// this functin is called by an href element. that element has properties name and value
     // value should have the filename
@@ -199,7 +273,40 @@ EOF;
 
 		}
 
+        h4{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            border:0px;
+        }
 
+        p{
+            margin-top: 0px;
+            padding-top: 0px;
+            border:0px;
+        }
+
+
+        .red{
+            background-color:red;
+            color:white;
+            width:50px; /* or whatever width you want. */
+            max-width:50px; /* or whatever width you want. */
+            display: inline-block;
+            text-align: center;
+            border-radius: 25px;
+        }
+        .green{
+            background-color:green;
+            color:white;
+            width:50px; /* or whatever width you want. */
+            max-width:50px; /* or whatever width you want. */
+            text-align: center;
+            padding-right: 5px;
+            display: inline-block;
+            margin-right:3px;
+            border-radius: 25px;
+
+        }
 </style>
 
 <h4>review words</h4>
@@ -241,6 +348,84 @@ if(isset($_SESSION["customer_name"])){
 ?>
 <input type='button' value='focus study' id='focusstudy' />
 <input type='button' value='study all words' id='studyall' />
+
+
+
+<h4>CALENDAR VIEW</h4>
+
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+// when user completes selfttest.php mode
+// save words to database
+
+//create table if it doesn't already exsist
+if(isset($_SESSION["customer_name"])){
+    $customer_name = $_SESSION["customer_name"];
+
+    $dbname='flashcards';
+
+    require_once('../passwords/db_const.php');
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+    //get stats
+
+    $customer_name_calendar= $customer_name . '_calendar';
+    $sql = "SELECT *,COUNT(*)
+    FROM $customer_name_calendar      
+    GROUP BY first_look_date,difficulty";
+
+    $result = $conn->query($sql);
+    $response = $result->fetch_all(MYSQLI_ASSOC);
+
+    $days = [];
+    for($i=0;$i<count($response);$i++){
+        $date = ($response[$i]['first_look_date']);
+
+        $number = $response[$i]['COUNT(*)'];
+        $diff = $response[$i]['difficulty'];
+        
+        if(!isset ($days[$date])){
+            $days[$date]='';
+        }
+        $days[$date] .=$diff.':'.$number.'.';
+    }
+
+    echo '<br/>';
+
+    foreach ($days as $i => $diffs) {
+        $diffs_array = explode('.',$diffs);
+        
+        $total=0;
+        $green_total=0;
+        foreach ($diffs_array as $j => $diff_string) {
+            
+            $both = explode(':', $diff_string);
+            if(isset($both[1])){
+               $total+=( $both[1]);
+            }
+
+            if($j == 0){
+                $green_total = $both[1];
+            }
+        }
+
+$red_total = $total-$green_total;
+
+        echo "<p onmouseover=showStats(this,'".$i."','".$diffs."')>$i <span class='green' onclick=studyDay(this,'".$i."','".$diffs."',0)>
+                    $green_total</span><span class=red onclick=studyDay(this,'".$i."','".$diffs."',1)>$red_total</span></p>"; 
+        
+    }    
+}
+?>
+
+
+
+
 <h4>learn new words</h4>
 <?php
     $folder = '../pure_code/material/german/duolingo';

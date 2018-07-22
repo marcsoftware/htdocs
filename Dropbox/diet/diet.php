@@ -83,10 +83,11 @@
         	margin.left:0px;
         	padding-left: 0px;
             border-radius: 25px;
+            cursor: grab;
         }
 
         ul li:before {
-         content: " ⇳ ";
+         
          color:black;
          font-size: 30px;
          
