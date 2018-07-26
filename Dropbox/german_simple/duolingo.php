@@ -756,9 +756,9 @@ $red_total = $total-$green_total;
 <h5>spelling</h5>
 test1:<br/>
 <a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- <?php getTime($file,$folder,'de_spell.php')?> <br/> 
+ 
 <a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- <?php getTime($file,$folder,'de_ear.php')?> <br/> 
+ 
 
  <?php
     
@@ -766,9 +766,9 @@ test1:<br/>
 ?>
 test2:<br/>
 <a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- <?php getTime($file,$folder,'de_spell.php')?> <br/> 
+ 
 <a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- <?php getTime($file,$folder,'de_ear.php')?> <br/> 
+ 
 
   <?php
     
@@ -776,9 +776,9 @@ test2:<br/>
 ?>
 test2:<br/>
 <a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- <?php getTime($file,$folder,'de_spell.php')?> <br/> 
+ 
 <a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- <?php getTime($file,$folder,'de_ear.php')?> <br/> 
+ 
 
 
  <?php

@@ -956,8 +956,8 @@
             //draw header
 
             if(x[0].includes(':')){
-                
-                document.getElementById('result').innerHTML+='<li class="label">'+x[0]+delete_button+`<p hidden>${x[6]+','+id}</p>`+`</li>`;
+                var input = `<input class="label" value="${x[0]}" name=${id} onchange="fix(${id},'name',this.value,item)"></input>`;
+                document.getElementById('result').innerHTML+='<li >'+input+delete_button+`<p hidden>${x[6]+','+id}</p>`+`</li>`;
                 return;
             }
 

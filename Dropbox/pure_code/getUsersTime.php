@@ -16,6 +16,9 @@
 
   
   function formatTime($time){
+       if(!$time){
+         return '-';
+       }
         $seconds = ($time/1000);//
         $minutes =floor($seconds / 60);
         $seconds = ($seconds % 60);//
@@ -33,7 +36,7 @@
     
         require('../passwords/db_const.php');
     
-        $dbname = "cookie";
+        $dbname = "spelling";
 
 
 
@@ -52,7 +55,7 @@
 
 
        // TODO edit this $sql to get the time
-        $sql = "SELECT * FROM cookie where game_type='$mode' and chapter='$subject' and book='$book' and completed=1  and customer_name='$customer_name' limit 1"; 
+        $sql = "SELECT * FROM $dbname where game_type='$mode' and chapter='$subject' and book='$book' and completed=1  and customer_name='$customer_name' limit 1"; 
         $stmt = $conn->query($sql);
 
 
@@ -71,7 +74,7 @@
 
 
         //TODO get the current progress
-        $sql = "SELECT * FROM cookie where game_type='$mode' and chapter='$subject' and book='$book' and completed=0  and customer_name='$customer_name' limit 1";
+        $sql = "SELECT * FROM $dbname where game_type='$mode' and chapter='$subject' and book='$book' and completed=0  and customer_name='$customer_name' limit 1";
         
         $stmt = $conn->query($sql); 
         $result = $stmt->fetch(PDO::FETCH_ASSOC);
