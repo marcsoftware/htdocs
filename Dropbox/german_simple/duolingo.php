@@ -785,19 +785,6 @@ test2:<br/>
     
     $file = 'charts-test1.txt';
 ?>
-<h5> charts</h5>
-<p>
-STEP 1: multiple choice<br/> 
-<a class="hyperlink" onclick="nextPage(this,'de_easy_mc.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">multichoice</a>
- <?php getTime($file,$folder,'de_easy_mc.php')?> <br/> 
-
-STEP 2: short answere---------------------<br/> 
-<a class="hyperlink" onclick="nextPage(this,'de_easy_blank.php')" rel="<?php  echo $file ;?>"name="<?php  echo $folder ;?>">easy blank type english</a>
- <?php getTime($file,$folder,'de_easy_blank.php')?> <br/> 
-   <a class="hyperlink" onclick="nextPage(this,'de_easy_blank_reverse_hint.php',4)" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">easy type german with hints</a>
- <?php getTime($file,$folder,'de_easy_blank_reverse_hint.php')?> <br/> 
- <a class="hyperlink" onclick="nextPage(this,'de_easy_blank_reverse.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">type german</a>
- <?php getTime($file,$folder,'de_easy_blank_reverse.php')?> 
 
 <p>
 
