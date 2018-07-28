@@ -107,51 +107,33 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
 
 });
 
-/*
-//--------------------------------------------------
-//  get the new order of the list
-//---------------------------------------------------
-*/
-function getNewOrder(ref){
-    
-    var records = document.getElementById('result').children;
-   
-   var sorts=[];
-    for(var i =0;i<records.length;i++){
-        var record = records[i];
-        var length= record.children.length;
-        var line=record.children[length-1].innerHTML.trim().split(',');
-        
-        var obj = {};
-         obj.old_index_value =line[0];
-         obj.old_index_position=0;//?
-         obj.id=line[1];
-         obj.current_index=i;
-        
-        sorts.push(obj);
-
-    }
-    
-
-    findChange(sorts);
-
-
-    
-}
-
 
 
 /*
 //--------------------------------------------------
-//  
+//  figure out which records moved
 //---------------------------------------------------
 */
 
-function getMedian(x,y){
-    var dis= parseInt(y)-parseInt(x);
+function getChange(yui_ref){
     
-    dis=parseFloat(dis/2);
-    return parseInt(x)+dis;
+    var id=yui_ref.get('id');
+    alert(id);
+    var ref=document.getElementById(id);
+    var info=(ref.children[0].innerHTML.split(',')); 
+
+    var after =ref.nextSibling.children[0].innerHTML.split(','); 
+    var before = ref.previousSibling.children[0].innerHTML.split(','); 
+
+    var median = (getMedian(before[0],after[0]));
+
+    info[0]=median;
+    database_id=info[1];
+    info.join(',');
+    ref.children[0].innerHTML=info;
+
+    fix(database_id,'custom_sort',median);
+
 
 }
 
@@ -189,5 +171,19 @@ function fix(id,field,value){
     alert("/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value);
     xmlhttp.open("GET","/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value,false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
+
+}
+
+/*
+//--------------------------------------------------
+//  
+//---------------------------------------------------
+*/
+
+function getMedian(x,y){
+    var dis= parseInt(y)-parseInt(x);
+    
+    dis=parseFloat(dis/2);
+    return parseInt(x)+dis;
 
 }
