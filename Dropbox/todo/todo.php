@@ -52,18 +52,45 @@ body{
 
   #result{
   	float:left;
-  	width:50%;
+  	width:80%;
   }
 
     .big{
-       
-        font-size: 20px;
+        
+        font-size: 30px;
         color:green;
         background-color: black;
         border:none;
 
         overflow:hidden;
 
+        
+        display: block;
+        resize: vertical;
+        
+        padding-left: 2px;
+        
+        height: 40px;
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+         
+    }
+
+
+    .projectName{
+       margin-top: 10px;
+        font-size: 20px;
+        color:black;
+        background-color: darkgreen;
+        border:none;
+        text-align: center;
+        overflow:hidden;
+          border-radius: 25px;
+    
+    
+    
+    
         
         display: block;
         resize: vertical;
@@ -90,7 +117,7 @@ body{
     input{
         display: block;
         
-        height: 20px;
+        
         font-size: 15px;
         margin-right:1px;
 
@@ -106,7 +133,7 @@ body{
     }
 
     input[type=text]{
-        color:#cc00cc;
+        
     }
     </style>
 

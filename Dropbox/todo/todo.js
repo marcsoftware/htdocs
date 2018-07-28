@@ -238,7 +238,7 @@ function update(name,project,body){
 
         inputProject.onchange="fix(${id},'${field[0]}',this.value)";
         inputName.onchange="fix(${id},'${field[1]}',this.value)";
-       // inputBody.onchange="fix(${id},'${field[2]}',this.value)";
+        inputBody.onchange="fix(${id},'${field[2]}',this.value)";
         inputDate.onchange="fix(${id},'${field[3]}',this.value)";
         x[4]=Number(x[4]);
         x[4]=Boolean(x[4]);
@@ -251,7 +251,7 @@ function update(name,project,body){
         inputMark.value=x[4];
 
         //
-        inputProject.className='big';
+        inputProject.className='projectName';
         inputName.className='big';
         inputBody.className='big';
         inputDate.className='big';
@@ -288,7 +288,7 @@ function update(name,project,body){
         var container = document.getElementById('result');
 
         container.appendChild(inputProject);
-        //container.appendChild(inputName);
+        container.appendChild(inputName);
         container.appendChild(inputBody);
         //container.appendChild(inputDate);
         //container.appendChild(inputMark);

@@ -59,7 +59,7 @@
     $sql = "DELETE FROM todo WHERE project='' and  body=''";
     $conn->query($sql);
 
-    $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' order by project ASC ";
+    $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' order by name ASC ";
   
     $result = $conn->query($sql);
     
