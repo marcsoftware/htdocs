@@ -256,9 +256,10 @@
                 
                        console.log('special: but still need to convert to oz as intermediary.');
                        var copy = x.slice();
+
                        var intermediary= convertToOz(copy,'oz'); //todo check intermediary
-                        x=intermediary;
-                       
+                       x=intermediary;
+                       alert(intermediary);           
             }
 
 
@@ -281,7 +282,7 @@
             return x;
          }
         
-      
+
       
         /**
         //---------------------------------------------------------------------

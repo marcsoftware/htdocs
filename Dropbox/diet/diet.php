@@ -123,11 +123,11 @@
 
         </datalist>
 
-        name:<input type='text' list="suggestions" id='name' value=''></input><br/>
+        name:<input type='text' list="suggestions" id='name' value='coke'></input><br/>
         total cals:<input type='text' id='total_cals' value='' ></input><br/>
-        total amount:<input type='text' id='total_amount' list='suggestion_labels' value=''></input><span id='more_labels'></span><br/>
-        cal per serv:<input type='text' id='cal_per_serv' value=''></input><br/>
-        amount per serv:<input type='text' id='amount_per_serv' list='suggestion_labels' value=''></input><br/>
+        total amount:<input type='text' id='total_amount' list='suggestion_labels' value='1 liter'></input><span id='more_labels'></span><br/>
+        cal per serv:<input type='text' id='cal_per_serv' value='140'></input><br/>
+        amount per serv:<input type='text' id='amount_per_serv' list='suggestion_labels' value='12oz'></input><br/>
         <input type='button' value='submit' id='submit' onclick='saveItem()'></input>
     </div>
   ⚡<span id='consumedCal'></span> consumed<br/>
