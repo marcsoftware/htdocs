@@ -33,6 +33,8 @@
 
             
     	}
+
+        init();
     }
 
 document.title='🌌 '+document.title;

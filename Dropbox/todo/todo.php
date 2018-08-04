@@ -81,7 +81,7 @@ body{
     .projectName{
        margin-top: 10px;
         font-size: 20px;
-        color:black;
+        color:white;
         background-color: darkgreen;
         border:none;
         text-align: center;
@@ -89,7 +89,7 @@ body{
           border-radius: 25px;
     
     
-    
+      
     
         
         display: block;
@@ -98,7 +98,7 @@ body{
         padding-left: 2px;
         
         
-        width: 100%;
+        width: 50%;
         margin-left:auto;
         margin-right:auto;
          

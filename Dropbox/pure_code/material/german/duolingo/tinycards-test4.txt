@@ -1,9 +1,8 @@
-ohne	without
+﻿ohne	without
 gegen	against
 durch	through
 für	for
 entlang	along
-// Zahlen 10/4	// Numbers 10/4
 es gibt	there are
 eins	one
 Zwei	two

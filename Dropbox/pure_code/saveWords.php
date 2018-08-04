@@ -60,17 +60,7 @@ for ($i = 0; $i < count($records)-1; $i+=3) {
    $new_sql =str_replace("GERMAN", $records[$i], $template);
    $new_sql =str_replace("ENGLISH", $records[$i+1], $new_sql);
    $new_sql =str_replace("DIFF", $records[$i+2], $new_sql);
-   $list_sql.=$new_sql;
-}
-
-echo $list_sql;
-// execute queries
-
-if ($conn->multi_query($list_sql) === TRUE) {
-    echo "New records created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error . '<br/>';
-   // echo $list_sql;
+   $result = $conn->query($new_sql);
 }
 
 

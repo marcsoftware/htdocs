@@ -129,6 +129,9 @@
         cal per serv:<input type='text' id='cal_per_serv' value='140'></input><br/>
         amount per serv:<input type='text' id='amount_per_serv' list='suggestion_labels' value='12oz'></input><br/>
         <input type='button' value='submit' id='submit' onclick='saveItem()'></input>
+
+        <a href="pantry.php">pantry</a>
+
     </div>
   ⚡<span id='consumedCal'></span> consumed<br/>
     <br/>

@@ -99,8 +99,8 @@ function saveWords(){
    
 
 
-    alert("/Dropbox/pure_code/saveWords.php?records="+records);
-
+    
+alert("/Dropbox/pure_code/saveWords.php?records="+records);
     xmlhttp.open("GET","/Dropbox/pure_code/saveWords.php?records="+records,
     false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();

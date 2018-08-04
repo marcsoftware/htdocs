@@ -93,7 +93,7 @@ EOF;
     // selft study the selected day
     //param: color is a number, 1 is for red. 0 is for green
     function studyDay(handle,date,diffs,color){
-        alert(diffs);
+        
         //console.log(handle.className );
         gotoCalendarPage(date,color);
     }
@@ -145,6 +145,42 @@ EOF;
         
 
         xmlhttp.open("GET",'/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+        
+    }
+
+
+   /**
+    //---------------------------------------------------------------------
+    // empty table
+    //---------------------------------------------------------------------
+    */
+    function emptyTable(){
+
+        var xmlhttp;    
+        
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+                 
+                //alert(xmlhttp.responseText);
+                
+            }
+        }
+
+
+
+        //TODO pass the global var date
+        
+
+        xmlhttp.open("GET",'/Dropbox/pure_code/emptyTable.php',false); // TODO This is badpractice. Turn false into true. //////
         xmlhttp.send();
         
     }
@@ -360,8 +396,9 @@ $red_total = $total-$green_total;
        green_total=both[0];
        red_total=both[1];
     }
-    var template = `<p onmouseover=showStats(this,'"+i+"','"+diffs+"')><span class='green' onclick=studyDay(this,'"+i+"','"+diffs+"',0)>${green_total}</span> <br/>\
-                 <span class=red onclick=studyDay(this,'"+i+"','"+diffs+"',1)>${red_total} </span></p>`;
+    var template = `<p onmouseover=showStats(this,'${i}','${diffs}'')>
+                    <span class='green' onclick=studyDay(this,'${i}','${diffs}',0)>${green_total}</span> <br/>\
+                    <span class=red onclick=studyDay(this,'${i}','${diffs}',1)>${red_total} </span></p>`;
     //var blank = "<p onmouseover=showStats(this,'"+i+"','"+diffs+"')>$i <span class='green' onclick=studyDay(this,'"+i+"','"+diffs+"',0)> green_total</span> \
     //             <span class=red onclick=studyDay(this,'"+i+"','"+diffs+"',1)>$red_total</span></p>";
     
@@ -719,8 +756,8 @@ if(isset($_SESSION["customer_name"])){
 
 $red_total = $total-$green_total;
 
-        echo "<p onmouseover=showStats(this,'".$i."','".$diffs."')>$i <span class='green' onclick=studyDay(this,'".$i."','".$diffs."',0)>
-                    $green_total</span><span class=red onclick=studyDay(this,'".$i."','".$diffs."',1)>$red_total</span></p>"; 
+        echo "<p onmouseover=showStats(this,'$i','$diffs')>$i <span class='green' onclick=studyDay(this,'${i}','$diffs',0)>
+                    $green_total</span><span class=red onclick=studyDay(this,'$i','$diffs',1)>$red_total</span></p>"; 
         
     }    
 }
@@ -744,6 +781,7 @@ $red_total = $total-$green_total;
     
     
 ?>
+
 
 
 
