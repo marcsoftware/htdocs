@@ -15,8 +15,9 @@
     $dbname = "diet";
     
     $customer_name = $_SESSION["customer_name"];
+    $pantry_name = $customer_name.'_pantry';
     date_default_timezone_set('America/Denver');
- 
+ 	
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
@@ -25,8 +26,8 @@
     }
     
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT distinct name  from diet where 
-            ( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 ))
+    $sql = "SELECT distinct name  from $pantry_name where 
+            name != null and ( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 ))
             ORDER BY  date ASC";//ORDER BY article_rating DESC, article_time DESC
     
 

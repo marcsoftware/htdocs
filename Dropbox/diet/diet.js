@@ -259,13 +259,8 @@
 
                        var intermediary= convertToOz(copy,'oz'); //todo check intermediary
                        x=intermediary;
-                       alert(intermediary);           
+                                
             }
-
-
-            
-
-            
 
             if(x[1] ==='oz' && target_label !== 'oz'){
                 index=label.indexOf(target_label);
@@ -291,60 +286,82 @@
         */
         function doUnitConversion(item){
             
-                    var x = removeLabel( item.total_amount);
-                    var y = removeLabel(item.amount_per_serv);
+                    var consumed = removeLabel( item.total_amount);
+                    var serving = removeLabel(item.amount_per_serv);
                     
 
                     
                     
-                    x[1]+='';//convert to string;
-                    y[1]+='';//convert to string;
+                    consumed[1]+='';//convert to string;
+                    serving[1]+='';//convert to string;
+                    
 
                     
-                    if(x[1]==='null' && item.total_cals  && y[1] !== 'null'){
-                        x[1]='oz';
-                        item.total_amount=x[0]+x[1];
+                   
+
+                    var label = 1; //make INDEXs more readable
+                    var unit = 0;
+
+                    if(consumed[label]==='null' && item.total_cals  && servingy[label] !== 'null'){
+                        consumed[label]='oz'; 
+                        item.total_amount=consumed[unit]+consumed[label];
                     }
                    
-                    if(!strcmp(x[1],y[1])){ // compare the labels
+
+                    if(strcmp(consumed[label],serving[label])){ // compare the labels
+                        //if labels match our job is done.
+                        return;
+                    }
 
 
-                        if(y[1] !== 'oz' && y[1] !== 'null' ){
-                            
-                            if(!convertToOz(y,x[1])){
-                                
-                                getCustomLabel(item.name); 
-
-                                var index = global_list.indexOf(y[1]+'');
-                                if(index>=0){
-
-                                    item.cal_per_serv=global_list[index+2];
-                                    item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                                }                                
-                            }
-                            item.amount_per_serv=y[0]+' '+y[1]; // y[0] in the number, and y[1] is the unit label
-                        }
+                    if(serving[label] !== 'oz' && serving[label] !== 'null' ){
                         
-                        if(x[1] !== 'oz' && x[1] !== 'null' ){
-                            if(!convertToOz(x,x[1])){
+                        if(!convertToOz(serving,consumed[label])){
+                            
+                            getCustomLabel(item.name); 
+
+                            var index = global_list.indexOf(serving[label]+'');
+                            if(index>=0){
+
+                                item.cal_per_serv=global_list[index+2];
+                                item.amount_per_serv=global_list[index+1]+' '+global_list[index];
                                 
-                                getCustomLabel(item.name);
-
-                                 varindex = global_list.indexOf(x[1]+'');
-                                if(index>=0){
-
-                                    item.cal_per_serv=global_list[index+2];
-                                    item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                                }                                
-                            }
-                            item.total_amount=x[0]+' '+x[1]; // x[0] in the number, and x[1] is the unit label
+                            }                                
+                        }else{
+                            serving = convertToOz(serving,consumed[label])
                         }
+
+
+                        item.amount_per_serv=serving[unit]+' '+serving[label]; // y[0] in the number, and y[1] is the unit label
+                        
+                    
+                    }else if(consumed[label] !== 'oz' && consumed[label] !== 'null' ){
+                        console.log(1);
+                        if(!convertToOz(consumed,consumed[label])){
+                            //can't convert
+                            getCustomLabel(item.name);
+
+                             varindex = global_list.indexOf(consumed[label]+'');
+                            if(index>=0){
+
+                                item.cal_per_serv=global_list[index+2];
+                                item.amount_per_serv=global_list[index+1]+' '+global_list[index];
+                            }                                
+                        }else{
+                            consumed = convertToOz(serving,consumed[label])
+                            
+                        }
+                        item.amount_per_serv=consumed[unit]+' '+consumed[label]; 
+                        
+                    }
 
                         
                     
-                    }
+                    
 
         }
+
+
 
         /**
         //---------------------------------------------------------------------
@@ -426,7 +443,8 @@
 
             removeSynonyms(item);
 
-            doUnitConversion(item); // converts all labels to be compatable for algebra
+           doUnitConversion(item);// converts all labels to be compatable for algebra
+           
 
 
             doAlgebra(item); //fills in all the gaps that it can.
@@ -499,7 +517,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
@@ -775,7 +793,7 @@
 
 
             if(isTrue(item.cal_per_serv) && isTrue(item.amount_per_serv) && (item.total_amount || item.total_cals)){
-
+                //if true then we have enough info to work with
                 
                 
 
@@ -1059,7 +1077,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
@@ -1124,6 +1142,7 @@
         function init(){
             
             debug=document.getElementById('debug');
+
             getData();
             
 
@@ -1191,11 +1210,22 @@
             }
             document.getElementById('rate').innerHTML=(word)+(rate/3500).toFixed(2);
 
-            getAllHistory();
+            getAllSuggestions();
             
             
             
              
+        }
+
+
+        /**
+        //---------------------------------------------------------------------
+        //
+        //---------------------------------------------------------------------
+        */
+        function getAllSuggestions(){
+            getAllHistory();
+            getAllPantry();
         }
 
         /**
@@ -1296,7 +1326,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     //this is the database
                 };
@@ -1331,7 +1361,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
@@ -1415,7 +1445,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
@@ -1478,12 +1508,15 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
                         var result = (xmlhttp.responseText.split(","));
-                        
+                        result.pop();//delete the empty element at the end.
+
+                        result = global_suggestions.concat(result);
+                        result = removeDuplicates(result);
                         result = removeDuplicates(result);
                         var options='';
                         var template = '<option value="ITEM_NAME" />';
@@ -1514,6 +1547,62 @@
 
         /**
         //---------------------------------------------------------------------
+        //  just gets all item names form pantry
+        //---------------------------------------------------------------------
+        */    
+        var global_suggestions=[];    
+        function getAllPantry(){
+          
+            var xmlhttp;
+
+                if (window.XMLHttpRequest){
+                    // code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp=new XMLHttpRequest();
+                }
+                else{
+                    // code for IE6, IE5
+                    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+
+                
+                xmlhttp.onreadystatechange=function(){
+                    if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+
+                        var result = (xmlhttp.responseText.split(","));
+
+                        result.pop(); //delete the empty element at the end.
+                        result = global_suggestions.concat(result);
+                        result = removeDuplicates(result);
+
+                        var options='';
+                        var template = '<option value="ITEM_NAME" />';
+                        for(var i=0;i<result.length;i++){
+                            options+=template.replace("ITEM_NAME",result[i]);
+                            
+                        }  
+
+                        var my_list=document.getElementById("suggestions");
+                        my_list.innerHTML = options;
+
+
+                    }
+                };
+
+               
+               
+               
+               
+              
+
+                xmlhttp.open("GET","/Dropbox/diet/getAllPantry.php",
+                false); // TODO This is badpractice. Turn false into true. //////
+                xmlhttp.send();   
+
+        }
+
+
+        /**
+        //---------------------------------------------------------------------
         //
         //---------------------------------------------------------------------
         */
@@ -1530,7 +1619,7 @@
                     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
                 }
 
-                var globalEng='x';
+                
                 xmlhttp.onreadystatechange=function(){
                     if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
