@@ -100,7 +100,7 @@ function saveWords(){
 
 
     
-alert("/Dropbox/pure_code/saveWords.php?records="+records);
+
     xmlhttp.open("GET","/Dropbox/pure_code/saveWords.php?records="+records,
     false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
@@ -189,7 +189,7 @@ $( document ).ready(function() {
 //---------------------------------------------------------------------
 */
 function displayTheWords(lines){
-    
+    var line_length=lines.length;
 
     var result;
     var element;
@@ -199,7 +199,7 @@ function displayTheWords(lines){
 
         //put blank line before each 7th word to make it easier for the user to scroll
         if(i!=0 && i%6==0){
-          var node = document.createTextNode(i+'\n');
+          var node = document.createTextNode(i+' / '+line_length+'\n');
           var numberContainer = document.createElement("h6");
           numberContainer.appendChild(node);
           container.appendChild(numberContainer);

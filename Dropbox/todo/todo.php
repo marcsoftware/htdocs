@@ -21,8 +21,12 @@
 
 body{
       background-color:  #003d99 ;
+      background-image: url("wallpaper-green-boxes.png");
       color:gold;
-      font-size: 1px;
+      background-size: 5px;
+  
+  
+      
 }
     div{
      
