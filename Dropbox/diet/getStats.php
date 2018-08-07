@@ -25,7 +25,7 @@
     }
 
     $customer_name = $_SESSION["customer_name"];
-
+    $pantry_name = $customer_name . '_pantry';
   
     date_default_timezone_set('America/Denver');
 
@@ -40,6 +40,27 @@
     $sql = "SELECT * from diet where customer_name='$customer_name' and name='$item_name' and
         (( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 )))
         ORDER BY date DESC  ";
+
+    $result = $conn->query($sql);
+    
+
+    while($row = $result->fetch_assoc()) {
+        
+        
+
+       echo($row["name"].",".$row["total_cals"].",".$row["total_amount_unit"].$row["total_amount_label"].
+             ",".$row["cal_per_serv"].",".$row["amount_per_serv_unit"].$row["amount_per_serv_label"].","."  {END}\n"
+             );
+
+      
+    }
+
+
+
+    $sql = "SELECT * from $pantry_name where name='$item_name' and
+        (( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 )))
+        ORDER BY date DESC  ";
+
 
     $result = $conn->query($sql);
     

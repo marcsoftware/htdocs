@@ -254,7 +254,6 @@
             
             if(target_label !== 'oz' && x[1] !== 'oz'){
                 
-                       console.log('special: but still need to convert to oz as intermediary.');
                        var copy = x.slice();
 
                        var intermediary= convertToOz(copy,'oz'); //todo check intermediary
@@ -273,7 +272,7 @@
                 x[0] *= factor[index];
                 x[1] ='oz'; 
             }
-            console.log(x+'   ----   ');
+          
             return x;
          }
         
@@ -311,6 +310,8 @@
                     if(strcmp(consumed[label],serving[label])){ // compare the labels
                         //if labels match our job is done.
                         return;
+                    }else if(!item.total_amount && !item.total_cals){
+                        return; 
                     }
 
 
@@ -336,7 +337,7 @@
                         
                     
                     }else if(consumed[label] !== 'oz' && consumed[label] !== 'null' ){
-                        console.log(1);
+                   
                         if(!convertToOz(consumed,consumed[label])){
                             //can't convert
                             getCustomLabel(item.name);
@@ -488,7 +489,7 @@
             
             if(number && label == 'null'){
                  getLastLabel(item.name); // global_last_label
-                console.log('-------'+global_last_label);
+                
                 item.total_amount=item.total_amount.replace("null",'');
                 item.total_amount=item.total_amount+global_last_label;
             
@@ -1006,7 +1007,7 @@
                 handle.innerHTML=delete_message;
                 var item=createItemObject(id);
                 sendToDatabase(item);
-                console.log('clicked re-add');
+                
                 setDisabledTo(id,false);
 
             }else{//if user clicked detete item
@@ -1091,7 +1092,7 @@
                         //TODO should not fill in all the boxes.
                         global_stats=result;
                         
-
+                        console.log(result);
 
                         
                     }
@@ -1224,8 +1225,8 @@
         //---------------------------------------------------------------------
         */
         function getAllSuggestions(){
-            getAllHistory();
-            getAllPantry();
+            getAllHistory(); //TODO change these function so that they only populate global_suggestions
+            getAllPantry();  //     and then make a function to render them.
         }
 
         /**
@@ -1517,7 +1518,7 @@
 
                         result = global_suggestions.concat(result);
                         result = removeDuplicates(result);
-                        result = removeDuplicates(result);
+                        global_suggestions =(result);
                         var options='';
                         var template = '<option value="ITEM_NAME" />';
                         for(var i=0;i<result.length;i++){
@@ -1572,8 +1573,10 @@
 
                         result.pop(); //delete the empty element at the end.
                         result = global_suggestions.concat(result);
-                        result = removeDuplicates(result);
 
+                        
+                        result = removeDuplicates(result);
+                        global_suggestions =(result);
                         var options='';
                         var template = '<option value="ITEM_NAME" />';
                         for(var i=0;i<result.length;i++){
