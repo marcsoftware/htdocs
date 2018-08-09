@@ -301,7 +301,7 @@
                     var label = 1; //make INDEXs more readable
                     var unit = 0;
 
-                    if(consumed[label]==='null' && item.total_cals  && servingy[label] !== 'null'){
+                    if(consumed[label]==='null' && item.total_cals  && serving[label] !== 'null'){
                         consumed[label]='oz'; 
                         item.total_amount=consumed[unit]+consumed[label];
                     }
@@ -804,7 +804,7 @@
                     var unit = removeLabel(item.amount_per_serv)[0];
                     unit = parseFloat(unit);
                     item.total_amount=((item.total_cals/item.cal_per_serv)*unit)+label; 
-                    
+                    console.log('here');
                     
                 }else if(!isTrue(item.total_cals) && isTrue(item.total_amount)){
                     

@@ -109,9 +109,9 @@ function wrap(list){
             onchange="fix( ${id}  ,'name',this.value)"
             value=${name}>
         </input>
-        <a href="https://www.google.com/search?q=${UPC}">${UPC}</a>
+        <a href="https://www.google.com/search?q=${UPC}">🔎</a>
         <input type=text 
-            onchange="fix( ${id} ,'upc',this.value)"
+            onchange="fix( ${id} ,'upc',this.value,this)"
             value=${UPC}>
         </input>
         <input type=text 
@@ -130,6 +130,18 @@ function wrap(list){
     }
 }
 
+        /**
+        //---------------------------------------------------------------------
+        //
+        //---------------------------------------------------------------------
+        */  
+        function goToSearchPage(handle){
+            var UPC = handle.nextSibling.nextSibling.value;
+            
+            var URL=`https://www.google.com/search?q=${UPC}`; 
+            
+            window.open(URL);
+        }
 
         /**
         //---------------------------------------------------------------------
@@ -138,9 +150,18 @@ function wrap(list){
         */        
         //update a record in the database 
         //TODO needs to applya ratio and do math etc...
-        function fix(id,field,value){
+        function fix(id,field,value,handle){
            
             var xmlhttp;    
+
+            if(field=='upc'){
+                //if user edits the UPC then need to quicly update the hyperlink as well
+
+                handle.previousSibling.previousSibling.href=`https://www.google.com/search?q=${value}`;
+                handle.previousSibling.previousSibling.innerHTML=value;
+
+            }    
+
             value=value.trim();
             if (window.XMLHttpRequest){
                 // code for IE7+, Firefox, Chrome, Opera, Safari

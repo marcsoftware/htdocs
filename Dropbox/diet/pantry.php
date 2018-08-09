@@ -41,7 +41,7 @@
        }
 
         a{
-            width:100px;
+            cursor:pointer;
             display: inline-block;
             
             
