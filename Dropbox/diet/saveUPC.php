@@ -30,12 +30,24 @@ $date=date("Y/m/d");
 $records=str_replace("'","Z",$records); // turn quotes into HTML so they don't break the SQL command
 $records = preg_split("/,/", $records);
 
-$template = " insert INTO $customer_pantry (upc,date) VALUES('{UPC}',$date);";
+//get letters
+$template = " insert INTO $customer_pantry (name,upc,date) VALUES('{NAME}','{UPC}',$date);";
 $list_sql='';
+$name='';
 for ($i = 0; $i < count($records); $i+=1) {
-   $new_sql =str_replace("{UPC}", $records[$i], $template);
+   	//get letters
+ 	//get letters
 
-   $list_sql.=$new_sql;
+   	preg_match('/[a-z\ ]+/', $records[$i], $matches); //get letts from UPC
+    
+   	$matches=join('',$matches); //convert to STRING
+
+    $records[$i]=str_replace($matches,"",$records[$i]); // delete name from UPC
+   	
+
+   	$new_sql =str_replace("{UPC}", $records[$i], $template);
+    $new_sql =str_replace("{NAME}", $matches, $new_sql);
+   	$list_sql.=$new_sql;
 }
 //save words to the table
 
