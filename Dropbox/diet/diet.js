@@ -660,21 +660,56 @@
             }
 
             id=item.id || 0;
-            name = item.name || 0;
-            total_cals=parseInt(total_cals);
-            if(isNaN(total_cals)){
-                total_cals=0;
+            name = item.name || false;
+            
+            
+            amount_per_serv = item.amount_per_serv ;
+            total_amount = item.total_amount;
+            cal_per_serv = item.cal_per_serv;
+
+            total_cals=item.total_cals;
+            //id
+            if(id !==null && id!==undefined && id.length != 0){
+                id='id='+id;
+            }else{
+                id='';
             }
-            
-            
-            amount_per_serv = item.amount_per_serv || 0;
-            total_amount = item.total_amount|| 0;
-            cal_per_serv = item.cal_per_serv|| 0;
+            //name
+             if(name!==null && name!==undefined && name.length != 0){
+                name='&name='+name;
+            }
+            else{
+                name='';
+            }
+            //total_cals
+             if(total_cals!==null && total_cals!==undefined && total_cals.length != 0){
+                total_cals='&total_cals='+total_cals;
+            }else{
+                total_cals='';
+            }
+            //amount_per_serv
+             if(amount_per_serv!==null && amount_per_serv!==undefined && amount_per_serv.length != 0){
+                amount_per_serv='&amount_per_serv='+amount_per_serv;
+            }else{
+                amount_per_serv='';
+            }
+            //total moaunt
+             if(total_amount!==null && total_amount!==undefined && total_amount.length != 0){
+                total_amount='&total_amount='+total_amount;
+            }else{
+                total_amount='';
+            }
+            //calperserv
+             if(cal_per_serv!==null && cal_per_serv!==undefined && cal_per_serv.length != 0){
+                cal_per_serv='&cal_per_serv='+cal_per_serv;
+            }else{
+                cal_per_serv='';
+            }
 
-            total_cals=item.total_cals||0;
-
-            xmlhttp.open("GET","/Dropbox/diet/createcookie.php?id="+id+"&name="+name+'&total_cals='+total_cals+'&amount_per_serv='+
-                            amount_per_serv+'&total_amount='+total_amount+'&cal_per_serv='+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
+alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
+                            amount_per_serv+total_amount+cal_per_serv);
+            xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
+                            amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
         }
@@ -690,13 +725,19 @@
         // then this function will make item.total=10; 
         function doBasicMath(item){
          
-          
-           item.total_cals=doBasicMathOnEntry(item.total_cals)[0]; 
-           
-           item.total_amount=doBasicMathOnEntry(item.total_amount)[1]; 
-           item.cal_per_serv=doBasicMathOnEntry(item.cal_per_serv)[0]; 
-           item.amount_per_serv=doBasicMathOnEntry(item.amount_per_serv)[1]; 
-                
+            if(item.total_cals !== null &&item.total_cals !== undefined && item.total_amount.length !== 0){
+                item.total_cals=doBasicMathOnEntry(item.total_cals)[0]; 
+            }
+
+            if(item.total_amount !== null &&item.total_amount !== undefined && item.total_amount.length !== 0){
+                item.total_amount=doBasicMathOnEntry(item.total_amount)[1]; 
+            }
+            if(item.cal_per_serv !== null &&item.cal_per_serv !== undefined){
+                item.cal_per_serv=doBasicMathOnEntry(item.cal_per_serv)[0]; 
+            }
+            if(item.amount_per_serv !== null &&item.amount_per_serv !== undefined){
+                item.amount_per_serv=doBasicMathOnEntry(item.amount_per_serv)[1]; 
+            }    
             
             
 

@@ -23,14 +23,51 @@
     $dbname = "diet";
 
 
-    $name=$_GET["name"]; 
-    $total_cals=$_GET["total_cals"]; 
-    $id=$_GET["id"]; 
 
-    $total_amount=$_GET["total_amount"]; 
-    $cal_per_serv=$_GET["cal_per_serv"]; 
-    $amount_per_serv=$_GET["amount_per_serv"]; 
+  
+    
+   
+   
+  
+    
 
+    //
+    if(!isset($_GET["name"])){
+        $name='';
+    }else{
+         $name=$_GET["name"]; 
+    }
+
+    if(!isset($_GET["total_cals"])){
+        $total_cals='';
+    }else{
+        $total_cals=$_GET["total_cals"]; 
+    }
+
+    if(!isset($_GET["id"])){
+        $id='';
+    }else{
+         $id=$_GET["id"]; 
+    }
+
+
+    if(!isset($_GET["total_amount"])){
+        $total_amount='';
+    }else{
+         $total_amount=$_GET["total_amount"]; 
+    }
+
+    if(!isset($_GET["cal_per_serv"])){
+        $cal_per_serv='';
+    }else{
+        $cal_per_serv=$_GET["cal_per_serv"]; 
+    }
+
+    if(!isset($_GET["amount_per_serv"])){
+        $amount_per_serv='';
+    }else{
+        $amount_per_serv=$_GET["amount_per_serv"]; 
+    }
 
 
     $date=date("Y/m/d");
@@ -60,10 +97,14 @@
     //get the units
     preg_match('/[0-9\.]+/', $total_amount, $matches);
     $total_amount_unit=implode(',',$matches);
-    $total_amount_unit=number_format($total_amount_unit, 2, '.', '');
+    if($total_amount_unit){
+        $total_amount_unit=number_format($total_amount_unit, 2, '.', ''); 
+    }
     preg_match('/[0-9\.]+/', $amount_per_serv, $matches);
     $amount_per_serv_unit=implode(',',$matches);
-    $amount_per_serv_unit=number_format($amount_per_serv_unit, 2, '.', '');
+    if($amount_per_serv_unit){
+       $amount_per_serv_unit=number_format($amount_per_serv_unit, 2, '.', ''); ///----
+    }
     //get the labels
     preg_match('/[a-zA-Z]+/', $total_amount, $matches);
     $total_amount_label=implode(',',$matches);
@@ -74,7 +115,7 @@
     //if variable is empty set it to null
     function test(&$x){
         if(empty($x)){
-            $x='Null';
+            $x="' '";
             return true;
         }
 
@@ -88,19 +129,22 @@
     test( $amount_per_serv_unit );
     test( $cal_per_serv );
 
-    if(test(  $total_amount_label)){
+    echo '---------'.$cal_per_serv;
+    //if doen't have a name then dont add to database
+    if(!isset($name)){
+        return;
+    }
+
+    if(!$total_amount_unit && $total_amount_label ){ // check if need to add label to total_amount
         $total_amount_label='serving';
     }
 
-    //if doen't have a name then dont add to database
-    if(test($name)){
-        return;
-    }
-    if(test( $amount_per_serv_label)){
+    
+    if(!$amount_per_serv_unit && $amount_per_serv_label){ // check if need to add label to total_amount
         $amount_per_serv_label='serving';
     }
     
-    
+
        
     // 
      $time = (int) date("His");
