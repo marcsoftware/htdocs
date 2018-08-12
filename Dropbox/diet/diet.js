@@ -19,7 +19,7 @@
         $(document).keyup(function(e,element){ // keyboard event is only attached to "input" elements
             var target = (e.target.id);
 
-            if(e.keyCode==13 ){ //13 is for the [ENTER] key
+            if(e.keyCode==13 && target !== 'name' ){ //13 is for the [ENTER] key
                                                       // and disable the shortcut if NAME element is in focus
                 saveItem();
             }
@@ -683,6 +683,9 @@
             }
             //total_cals
              if(total_cals!==null && total_cals!==undefined && total_cals.length != 0){
+                if(total_cals.toString().indexOf(".")>=0){
+                    total_cals=total_cals.toFixed(2);
+                }
                 total_cals='&total_cals='+total_cals;
             }else{
                 total_cals='';
@@ -706,8 +709,7 @@
                 cal_per_serv='';
             }
 
-alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
-                            amount_per_serv+total_amount+cal_per_serv);
+
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
@@ -1187,7 +1189,7 @@ alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
 
             getData();
             
-
+/*
             document.getElementById('name').addEventListener("keyup",    
                 function(x){
                     
@@ -1204,7 +1206,7 @@ alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
 
 
             );
-
+*/
             var DAILY_CALORIES = 2000;
             //make calorie bar
             var d = new Date();
