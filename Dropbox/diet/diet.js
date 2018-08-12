@@ -1189,7 +1189,7 @@
 
             getData();
             
-/*
+
             document.getElementById('name').addEventListener("keyup",    
                 function(x){
                     
@@ -1206,7 +1206,7 @@
 
 
             );
-*/
+
             var DAILY_CALORIES = 2000;
             //make calorie bar
             var d = new Date();

@@ -83,7 +83,7 @@
 
 
 
-<script src="pantry.js"></script>
+<script src="allpantry.js"></script>
 
 
 
@@ -93,14 +93,14 @@
 <div>
     <p >output
  here</p>
- <a href='allpantry.php'>all pantry</a>
-<textarea id='inputUPC'></textarea>
+ <a href='pantry.php'>add to pantry</a>
 
- <input type='button' value='submit' id='submit' ></input>
-  <div class="loader" id='loader'></div> 
+
+ 
+
 
  <div>
-    <h6>missing info:</h6>
+    <h6>pantryo:</h6>
     <div id='missingData'></div>
 </body>
 <?php include '../header.php';?>
