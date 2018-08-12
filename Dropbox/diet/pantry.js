@@ -36,7 +36,7 @@ function saveUPCDatabase(records){
     xmlhttp.onreadystatechange=function(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
-            
+            document.getElementById('loader').style.display = "none";
             
 
         }
@@ -45,8 +45,9 @@ function saveUPCDatabase(records){
 
    records=records.replace(/\n/g,',');
 
- 
-    console.log("/Dropbox/diet/saveUPC.php?records="+records);
+    
+
+    
 
     xmlhttp.open("GET","/Dropbox/diet/saveUPC.php?records="+records,
     false); // TODO This is badpractice. Turn false into true. //////
