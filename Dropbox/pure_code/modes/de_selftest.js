@@ -65,7 +65,7 @@ function focusRedWords(){
 */
 function endGame(){
     document.getElementById('focusredwords').disabled = true; 
-    document.getElementById('file').innerHTML='YOU WON - GAME OVER';
+    document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
 /**
