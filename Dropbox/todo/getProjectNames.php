@@ -41,7 +41,7 @@
     }
 
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT DISTINCT project from todo where customer_name='$customer_name' order by project";
+    $sql = "SELECT DISTINCT project from todo where customer_name='$customer_name' order by date DESC";
 
     $result = $conn->query($sql);
     
