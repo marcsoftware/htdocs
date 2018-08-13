@@ -229,6 +229,22 @@ textarea {
     height: 1em;
 }
 
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+     display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 </style>
 
 
@@ -239,6 +255,7 @@ textarea {
 
 <input type='button'  id='focusredwords' value='focus on red words' />
 <input type='button'  id='hideans' value='hide answeres' />
+<div class="loader" id='loader'> saving progress...</div> 
 <pre id='file'></pre>
 
 

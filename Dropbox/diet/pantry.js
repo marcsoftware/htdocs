@@ -46,7 +46,7 @@ function saveUPCDatabase(records){
    records=records.replace(/\n/g,',');
 
     
-
+    document.getElementById('loader').style.display = "block";
     
 
     xmlhttp.open("GET","/Dropbox/diet/saveUPC.php?records="+records,

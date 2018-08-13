@@ -89,7 +89,7 @@ function saveWords(){
     xmlhttp.onreadystatechange=function(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
-            
+             document.getElementById('loader').style.display = "none";
             
 
         }
@@ -98,7 +98,7 @@ function saveWords(){
 
    
 
-
+      document.getElementById('loader').style.display = "block";
     
 
     xmlhttp.open("GET","/Dropbox/pure_code/saveWords.php?records="+records,
