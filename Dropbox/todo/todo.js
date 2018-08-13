@@ -63,6 +63,11 @@ function encode(x){
         x=x.replace(/\-\>/g,'⇨');
         x=x.replace(/\>\>/g,'↳');
         
+alert(1);
+           //these would cause problems if not delted
+        x=x.replace(/{comma}/g,''); // 
+        x=x.replace(/{END}/g,''); // could cause problem if not delted
+
         return x;
     }catch(e){
         //do nothing
