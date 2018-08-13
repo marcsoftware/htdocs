@@ -41,7 +41,7 @@
     }
 
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT DISTINCT project from manager where customer_name='$customer_name'";
+    $sql = "SELECT DISTINCT project from manager where customer_name='$customer_name' ";
 
     $result = $conn->query($sql);
     

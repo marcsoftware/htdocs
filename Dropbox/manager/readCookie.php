@@ -65,7 +65,7 @@
     $result = $conn->query($sql);
     
     while($row = $result->fetch_assoc()) {
-
+//TODO if a body has {comma} or {END} it would screw everyting up
         echo($row["id"]."{comma}" .$row["project"]."{comma}".$row["name"]."{comma}".$row["body"]."{comma}".$row["date"]."{comma}".$row["isDone"]." {END}");
       
     }

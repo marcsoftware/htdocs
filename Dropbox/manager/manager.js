@@ -57,6 +57,8 @@ function encode(x){
         x=x.replace(/&/g,'⅋'); // replace & because they break in the update function.
         x=x.replace(/#/g,'⌗'); // replace # because they break in the update function.
         x=x.replace(/\+/g,'✚'); // replace # because they break in the update function.
+        x=x.replace(/{comma}/g,''); // replace # because they break in the update function.
+        x=x.replace(/{end}/g,''); // replace # because they break in the update function.
         
 
         return x;
