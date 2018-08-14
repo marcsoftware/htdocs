@@ -4,6 +4,10 @@ var badcolor='maroon';
 var records =[]; //this variable will be passed to databse
 var roundNumber=0;
 var hovered = [];// save handles to cards taht were hovered over to they can be un-hovered.
+
+
+// added to avoid error
+function init(){}
 /**
 //---------------------------------------------------------------------
 // called when user click a button
@@ -11,6 +15,7 @@ var hovered = [];// save handles to cards taht were hovered over to they can be 
 // it then turns all red words back into unmarked-black words.
 //---------------------------------------------------------------------
 */
+
 function focusRedWords(){
    
         // delete all the gold numbers
@@ -46,11 +51,12 @@ function focusRedWords(){
     document.getElementById('file').innerHTML='';
     displayTheWords(redwords);
 
+    saveWords();    
     //if user didn't mark anywords as missed
     if(!missedAtLeastOne){ 
                           
       // then save all words to the database and end the game
-      saveWords();    
+      
       endGame();
 
       //
@@ -68,44 +74,37 @@ function endGame(){
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
+
+
+
 /**
 //---------------------------------------------------------------------
 // save words listed on the webpage to the database
 // called when the game is over.
+// this functions can send more words at a time. 
 //---------------------------------------------------------------------
 */
-function saveWords(){
+      function saveWords(){
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", '/Dropbox/pure_code/saveWordsPOST.php', true);
 
-    var xmlhttp;
+          //Send the proper header information along with the request
+          xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-    if (window.XMLHttpRequest){
-        // code for IE7+, Firefox, Chrome, Opera, Safari
-        xmlhttp=new XMLHttpRequest();
-    }
-    else{
-        // code for IE6, IE5
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-        if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
-
-             document.getElementById('loader').style.display = "none";
-            
-
-        }
-    }
+          xhr.onreadystatechange = function() {//Call a function when the state changes.
+              if(this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+                  // Request finished. Do processing here.
+                  records=[]; // delte after saving
+                  
+              }
+          }
+          xhr.send("records="+records); 
 
 
-   
 
-      document.getElementById('loader').style.display = "block";
-    
+      }
 
-    xmlhttp.open("GET","/Dropbox/pure_code/saveWords.php?records="+records,
-    false); // TODO This is badpractice. Turn false into true. //////
-    xmlhttp.send();
 
-}
 
 
 
