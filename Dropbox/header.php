@@ -34,7 +34,7 @@
             
     	}
 
-        init();
+        //init();
     }
 
 document.title='🌌 '+document.title;

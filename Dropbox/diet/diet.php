@@ -80,8 +80,8 @@
         }
 
         li{
-        	margin.left:0px;
-        	padding-left: 0px;
+        	margin.left:100px;
+        	padding-left: 100px;
             border-radius: 25px;
             cursor: grab;
         }
