@@ -118,7 +118,7 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
 function getChange(yui_ref){
     
     var id=yui_ref.get('id');
-    alert(id);
+    
     var ref=document.getElementById(id);
     var info=(ref.children[0].innerHTML.split(',')); 
 
@@ -168,7 +168,7 @@ function fix(id,field,value){
         }
     };
     
-    alert("/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value);
+    
     xmlhttp.open("GET","/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value,false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
 

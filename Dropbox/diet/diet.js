@@ -1256,7 +1256,7 @@
 
             getAllSuggestions();
             
-            alert(1);
+            
             
              
         }
