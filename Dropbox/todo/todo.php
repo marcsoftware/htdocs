@@ -82,31 +82,7 @@ body{
     }
 
 
-    .projectName{
-       margin-top: 10px;
-        font-size: 20px;
-        color:white;
-        background-color: darkgreen;
-        border:none;
-        text-align: center;
-        overflow:hidden;
-          border-radius: 25px;
-    
-    
-      
-    
-        
-        display: block;
-        resize: vertical;
-        
-        padding-left: 2px;
-        
-        
-        width: 50%;
-        margin-left:auto;
-        margin-right:auto;
-         
-    }
+
 
     hr{
         width:100%;
@@ -138,6 +114,32 @@ body{
 
     input[type=text]{
         
+    }
+
+        .projectName{
+       margin-top: 10px;
+        font-size: 20px;
+        color:white;
+        background-color: darkgreen;
+        border:none;
+        text-align: center;
+        overflow:hidden;
+          border-radius: 25px;
+    
+    
+      
+    
+        
+        display: block;
+        resize: vertical;
+        
+        padding-left: 2px;
+        
+        
+        width: 50%;
+        margin-left:auto;
+        margin-right:auto;
+         
     }
     </style>
 

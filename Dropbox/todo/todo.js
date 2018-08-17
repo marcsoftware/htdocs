@@ -219,6 +219,7 @@ function update(name,project,body){
 */
 
     //pre: make sure readCookie.php before calling this function
+    var global_previousName='';
     function wrap(x){
         x= x.split("{comma}");
         var id = x.shift(); // get the ID 
@@ -241,6 +242,8 @@ function update(name,project,body){
         var inputMark = document.createElement("input");
         inputMark.type = "button";
 
+        
+        
         inputProject.onchange="fix(${id},'${field[0]}',this.value)";
         inputName.onchange="fix(${id},'${field[1]}',this.value)";
         inputBody.onchange="fix(${id},'${field[2]}',this.value)";
@@ -292,20 +295,16 @@ function update(name,project,body){
         //render the elements
         var container = document.getElementById('result');
 
-        container.appendChild(inputProject);
+        if(x[0] !== global_previousName){
+            container.appendChild(inputProject); //don't show project name on consecutive items.
+        }
         container.appendChild(inputName);
         container.appendChild(inputBody);
         //container.appendChild(inputDate);
         //container.appendChild(inputMark);
 
-       
 
-
-
-
-
-
-
+        global_previousName=x[0];
     }
 
 /**
@@ -355,6 +354,7 @@ function update(name,project,body){
         getData(window.filter,window.projectName);
         lastProject=x; //save
 
+        showAllBody();
     }
 
 /**
@@ -418,12 +418,25 @@ function update(name,project,body){
         getData(window.filter,window.projectName);
         lastFilter=x;
 
+         
+    }
+
+
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+    function showAllBody(){
+
+      
          //this makes textarea size adjust to show all contents
         $('#result').on( 'change keyup keydown paste cut focus load', 'textarea', function (){
             $(this).height(0).height(this.scrollHeight);
         }).find( 'textarea' ).change();
 
     }
+
 
 /**
 //-----------------------------------------------------------
@@ -524,18 +537,6 @@ function update(name,project,body){
         //make calorie bar
         var d = new Date();
         setProject( document.getElementById('startblue2'));
-        
-        //this makes textarea size adjust to show all contents
-        $('#result').on( 'change keyup keydown paste cut focus load', 'textarea', function (){
-            $(this).height(0).height(this.scrollHeight);
-        }).find( 'textarea' ).change();
-        //TODO calculate consumedCal
-       
-        
-        
-      
-        
-        
-    
-        
+        showAllBody();
+              
     }
