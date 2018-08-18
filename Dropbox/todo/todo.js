@@ -244,12 +244,17 @@ function update(name,project,body){
 
         
         
-        inputProject.onchange="fix(${id},'${field[0]}',this.value)";
+        
         
         
         inputName.onchange =  function () {  
             fix(id,field[1],this.value);
         };
+
+        inputName.onfocus =  function () {  
+            //TODO show textarea on right
+        };
+
 
         inputBody.onchange=function () { 
             fix(id,field[2],this.value);
@@ -414,7 +419,7 @@ function update(name,project,body){
 
       
          //this makes textarea size adjust to show all contents
-        $('#result').on( 'change load', 'textarea', function (){
+        $('#result').on( 'change load keyup', 'textarea', function (){
             $(this).height(0).height(this.scrollHeight);
         }).find( 'textarea' ).change();
 
