@@ -56,7 +56,7 @@ body{
 
   #result{
   	float:left;
-  	width:80%;
+  	width:40%;
   }
 
     .big{
@@ -141,6 +141,15 @@ body{
         margin-right:auto;
          
     }
+
+    #currentBody{
+      position: fixed;
+      width:52%;
+       color:green;
+        background-color: black;
+      font-size: 30px;
+      height:50%;
+    }
     </style>
 
 
@@ -158,6 +167,8 @@ body{
 <div id='result'></div>
 
 
+
+<textarea id='currentBody'  ></textarea>
 <input class='filter' type='button' id='startblue'  value='active'  onclick='setFilter(this)'></input>
 <input class='filter' type='button' value='completed' onclick='setFilter(this)'></input>
 <input class='filter' type='button' value='both'  onclick='setFilter(this)'></input>

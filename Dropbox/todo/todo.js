@@ -252,7 +252,9 @@ function update(name,project,body){
         };
 
         inputName.onfocus =  function () {  
-            //TODO show textarea on right
+            //show textarea on right
+            global_currentItemId=id;
+            document.getElementById('currentBody').value=x[2];
         };
 
 
@@ -287,7 +289,7 @@ function update(name,project,body){
             container.appendChild(inputProject); //don't show project name on consecutive items.
         }
         container.appendChild(inputName);
-        container.appendChild(inputBody);
+        //container.appendChild(inputBody);
         //container.appendChild(inputDate);
         //container.appendChild(inputMark);
 
@@ -464,7 +466,7 @@ function update(name,project,body){
 */    
     //update a record in the database 
     function fix(id,field,value){
-
+console.log(id);
         value=encode(value);
 
         try{
@@ -526,5 +528,10 @@ function update(name,project,body){
         var d = new Date();
         setProject( document.getElementById('startblue2'));
         showAllBody();
-              
+        
+
+        var currentBody=document.getElementById('currentBody');
+        currentBody.onchange =  function () {  
+            fix(global_currentItemId, 'body',this.value);
+        };              
     }
