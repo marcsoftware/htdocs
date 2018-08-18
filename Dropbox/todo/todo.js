@@ -254,8 +254,8 @@ function update(name,project,body){
         inputBody.onchange=function () { 
             fix(id,field[2],this.value);
             };
-        inputDate.onchange=function () { 
-            fix(id,field[3],this.value);
+        inputProject.onchange=function () { 
+            fix(id,field[0],this.value);
             };
         x[4]=Number(x[4]);
         x[4]=Boolean(x[4]);
