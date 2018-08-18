@@ -245,9 +245,18 @@ function update(name,project,body){
         
         
         inputProject.onchange="fix(${id},'${field[0]}',this.value)";
-        inputName.onchange="fix(${id},'${field[1]}',this.value)";
-        inputBody.onchange="fix(${id},'${field[2]}',this.value)";
-        inputDate.onchange="fix(${id},'${field[3]}',this.value)";
+        
+        
+        inputName.onchange =  function () {  
+            fix(id,field[1],this.value);
+        };
+
+        inputBody.onchange=function () { 
+            fix(id,field[2],this.value);
+            };
+        inputDate.onchange=function () { 
+            fix(id,field[3],this.value);
+            };
         x[4]=Number(x[4]);
         x[4]=Boolean(x[4]);
         inputMark.mousedown="fix(${id},'${field[4]}',this.value)";
@@ -264,33 +273,7 @@ function update(name,project,body){
         inputBody.className='big';
         inputDate.className='big';
         
-        
-        //add event listeners
-        inputProject.addEventListener("blur", function( event ) {
-            fix(id,field[0],this.value)
-            //event.target.style.background = "pink";    
-        }, true);
-
-        inputName.addEventListener("blur", function( event ) {
-            fix(id,field[1],this.value)
-            //event.target.style.background = "pink";    
-        }, true);
-
-        inputBody.addEventListener("blur", function( event ) {
-            fix(id,field[2],this.value)
-            //event.target.style.background = "pink";    
-        }, true);
-
-
-        inputDate.addEventListener("blur", function( event ) {
-            fix(id,field[3],this.value)
-            //event.target.style.background = "pink";    
-        }, true);
-
-        inputMark.addEventListener("click", function( event ) {
-            markDone(id,field[4],this)
-            //event.target.style.background = "pink";    
-        }, true);
+      
 
         //render the elements
         var container = document.getElementById('result');
@@ -431,7 +414,7 @@ function update(name,project,body){
 
       
          //this makes textarea size adjust to show all contents
-        $('#result').on( 'change keyup keydown paste cut focus load', 'textarea', function (){
+        $('#result').on( 'change  paste cut focus load', 'textarea', function (){
             $(this).height(0).height(this.scrollHeight);
         }).find( 'textarea' ).change();
 
@@ -465,7 +448,7 @@ function update(name,project,body){
 //-----------------------------------------------------------
 */
     function adjustHeight(handle){
-        handle.height=handlge.scrollHeight;
+    
 
     }
 
