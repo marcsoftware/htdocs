@@ -414,7 +414,7 @@ function update(name,project,body){
 
       
          //this makes textarea size adjust to show all contents
-        $('#result').on( 'change  paste cut focus load', 'textarea', function (){
+        $('#result').on( 'change load', 'textarea', function (){
             $(this).height(0).height(this.scrollHeight);
         }).find( 'textarea' ).change();
 
