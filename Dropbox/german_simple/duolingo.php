@@ -1,4 +1,4 @@
-<?php session_start(); 
+<?php 
     if(isset($_SESSION["customer_name"])){
         echo $_SESSION["customer_name"] . "<br/>";
     
