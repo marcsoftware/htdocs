@@ -1,6 +1,5 @@
 <?php 
-ini_set('session.cookie_lifetime', 60 * 60 * 24 * 199);
-session_start(); 
+
 	if(isset($_SESSION["customer_name"])){
 		echo $_SESSION["customer_name"] . "<br/>";
 	}else{
@@ -14,7 +13,12 @@ session_start();
 <head>
 	<meta charset="UTF-8">
 
+<style>
 
+body{
+	font-size: 30px;
+}
+</style>
 	
 </head>
 <body>
@@ -26,9 +30,9 @@ session_start();
 
 <p>My Top 5 Projects</p>
 1.<a href='/Dropbox/diet/diet.php'>Diet</a><br/>
-2.<a href='/Dropbox/manager/manager.php'>Manager</a><br/>
+2.<a href='/Dropbox/todo/todo.php'>TODO list</a>*<br/>
 3.<a href='/Dropbox/german_simple/duolingo.php'> Flashcards - duolingo german</a><br/>
-3.<a href='/Dropbox/skill/skill.php'> skill trainer</a><br/>
+4.<a href='/Dropbox/skill/skill.php'> skill trainer</a><br/>
 5. ?<br/>
 
 
@@ -46,7 +50,7 @@ b. <a href='/Dropbox/german_simple/timeline.php'> timelines</a><br/>
 		#.<a href='/Dropbox/quicktools/clean_keys.php'>clean ans keys</a><br/>
 		----<br/>
 		#.<a href='/Dropbox/german_simple/german.php'>German Flashcards - short stories</a><br/>
-		#.<a href='/Dropbox/todo/todo.php'>TODO list, based on the Manager app</a>*<br/>
+		
 		  
 		";
 	}

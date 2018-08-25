@@ -1,5 +1,5 @@
- <?php session_start(); 
-    if(isset($_SESSION["customer_name"])){
+ <?php
+    if(isset($_SESSION)){
         echo $_SESSION["customer_name"] ;
     }else{
         echo '';
@@ -61,7 +61,7 @@ body{
 
     .big{
         
-        font-size: 30px;
+        font-size: 15px;
         color:green;
         background-color: black;
         border:none;
@@ -78,6 +78,7 @@ body{
         width: 100%;
         margin-left:auto;
         margin-right:auto;
+        margin-bottom: 1px;
          
     }
 
@@ -147,7 +148,7 @@ body{
       width:52%;
        color:green;
         background-color: black;
-      font-size: 30px;
+      font-size: 20px;
       height:50%;
     }
     </style>

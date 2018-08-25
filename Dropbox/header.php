@@ -1,3 +1,5 @@
+<?php ini_set('session.cookie_lifetime', 60 * 60 * 24 * 199);
+session_start();  ?> 
 <style>
  .header{
             background-color:#e6e6e6;
@@ -15,7 +17,7 @@
 </style>
 <script type='text/javascript'>
 
-	var customer_name =  '<?php if(isset($_SESSION["customer_name"] )){echo true; } ?>' ;
+	var customer_name =  '<?php if(isset($_SESSION)){echo true; } ?>' ;
 	
     window.onload = main;
 
