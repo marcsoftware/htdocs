@@ -6,6 +6,8 @@
     
     var result;
     var series2;
+
+var rawData=[];
     window.onload = function () {
         getProgress();
 
@@ -16,13 +18,20 @@
                 text: "Progress"
             },
             axisY:{
-                includeZero: false
+                includeZero: true,
+                interval:5000
             },
             axisX:{
-                  interval: 2,
+                  interval: 1,
                   intervalType: "day"
             },
-            data: [],
+            data: [{
+        name: "Myrtle Beach",
+        type: "spline",
+        yValueFormatString: "#0.## °C",
+        showInLegend: true,
+        dataPoints: rawData
+        }],
 
             toolTip:{
                    contentFormatter: function ( e ) {
@@ -32,10 +41,13 @@
         };
         
          
-        chartString.data.push(series2);
-        
+   
+
+         
         
         var chart = new CanvasJS.Chart("chartContainer", chartString);
+
+      
 
         chart.render();
 
@@ -46,9 +58,10 @@
 
     /**
     //---------------------------------------------------------------------
-    //
+    // gets daily average form the database
     //---------------------------------------------------------------------
     */        
+    var series2;
     function getProgress(){
       
         var xmlhttp;
@@ -66,24 +79,25 @@
             xmlhttp.onreadystatechange=function(){
                 if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
 
-                    result1 = (xmlhttp.responseText.split(":"));
-                    result1.pop(); //delete the last one since it is always empty
-                    result = result1.map(function(element,index,arr) {
-                                      var both = element.split(',');
-                                      var time=both[1];
-                                      var ms=both[0];
+                    result = (xmlhttp.responseText.split(":"));
 
-                                      return {x:new Date(time),y:makeFloat(ms)}; //TODO how to pass this to chart
-                                    });
+                    result.pop(); //delete the last one since it is always empty
+                    
+                    console.log(result);
 
-                    series2 = { //dataSeries - second quarter
-                                    type: "line",
-                                    name: "f",
-                               };
+                    for(var i=0;i<result.length;i++){
+                        var both = result[i].split(';');
+                        var time=both[1];
+                        var ms=both[0];
+                        ms = Math.round(ms);
+                       console.log(both);
 
+                        rawData.push(
+                           { x: new Date(time), y: ms }
+                        );
+                    }
 
-
-                    series2.dataPoints=result;
+                   
                    
                 }
             };

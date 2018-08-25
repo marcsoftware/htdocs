@@ -24,7 +24,7 @@
     $time=$_GET['time'];
     $size=$_GET['size'];
     $pattern=$_GET['pattern'];
-    $date = date("m.d.y");   
+    $date = date("Y,m,d");   
 
     // customer_name is made from login.php
 
@@ -48,7 +48,7 @@
     // 
     $sql = "INSERT INTO $dbname
             VALUES (
-                    NULL,'$time','$size','$pattern','$date'
+                    NULL,'$time','$size','$pattern','$date','$customer_name'
             )";
 
 echo $sql;

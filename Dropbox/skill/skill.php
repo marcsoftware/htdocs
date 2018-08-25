@@ -97,5 +97,5 @@ input{
      name="size" value="giant">
     <label for="">giant</label>
   </div>
-
+<a href='graph_history.php'>graph</a>
 </html> 

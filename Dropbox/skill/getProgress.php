@@ -23,15 +23,15 @@
     }
     
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT  *,AVG(milliseconds) AS avg, DATE_FORMAT(date, '%Y-%m-%d') as time   from skill where customer_name='$customer_name'  
-             group by DATE_FORMAT(date, '%Y-%m-%d') ";
+    $sql = "SELECT  *,AVG(time) AS avg, DATE_FORMAT(date, '%Y,%m,%d') as duration   from skill where customer_name='$customer_name'  
+             group by DATE_FORMAT(date, '%Y,%m,%d') ";
     
 
     $result = $conn->query($sql);
     
     while($row = $result->fetch_assoc()) {
         // NOTE: id has to be the last field and be seperated by comma
-        echo $row["avg"].",".$row["time"].':';
+        echo $row["avg"].";".$row["date"].':';
       
     }
 
