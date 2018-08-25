@@ -39,19 +39,9 @@ EOF;
         $folder = '../pure_code/material/german/duolingo';
         $template = "            
                     <h5>$file</h5>
-                    <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_spell.php') rel='$file' name='$folder'> spell</a><br/>
-                    STEP 1: multiple choice<br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_mc.php') rel='$file' name='$folder'> multichoice:pick english</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_mc_reverse.php') rel='$file' name='$folder'>multichoice: pick german</a><br/>
-                    STEP 2: short answerez<br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank.php') rel='$file' name='$folder'>type english</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank_reverse_hint.php',6) rel='$file' name='$folder'>type german with hint 6</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank_reverse_hint.php',4) rel='$file' name='$folder'>4</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank_reverse_hint.php',2) rel='$file' name='$folder'>2</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank_reverse_hint.php',1) rel='$file' name='$folder'>1</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_easy_blank_reverse.php') rel='$file' name='$folder'>type german</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><br/>
+                    
+                 
+                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a><br/>
                     ";
         
         echo $template;
@@ -781,50 +771,6 @@ $red_total = $total-$green_total;
     
     
 ?>
-
-
-
-
-<hr>
-<h4>Duolingo flashcards</h4>
- <?php
-    
-    $file = 'test1-spelling.txt';
-?>
-<h5>spelling</h5>
-test1:<br/>
-<a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- 
-<a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- 
-
- <?php
-    
-    $file = 'test2-spelling.txt';
-?>
-test2:<br/>
-<a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- 
-<a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- 
-
-  <?php
-    
-    $file = 'test3-spelling.txt';
-?>
-test2:<br/>
-<a class="hyperlink" onclick="nextPage(this,'de_spell.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">muscle memory</a>
- 
-<a class="hyperlink" onclick="nextPage(this,'de_ear.php')" rel="<?php  echo $file ;?>" name="<?php  echo $folder ;?>">spelling test</a>
- 
-
-
- <?php
-    
-    $file = 'charts-test1.txt';
-?>
-
-<p>
 
 
 </html>
