@@ -19,9 +19,12 @@
     require_once('../passwords/db_const.php');
     $dbname = "skill";
 
-   $canvas_width=$_GET['width'];
-   $canvas_height=$_GET['height'];
-   $milliseconds=$_GET['milliseconds'];
+    //id  time    size    pattern     date 
+    
+    $time=$_GET['time'];
+    $size=$_GET['size'];
+    $pattern=$_GET['pattern'];
+    $date = date("m.d.y");   
 
     // customer_name is made from login.php
 
@@ -45,10 +48,10 @@
     // 
     $sql = "INSERT INTO $dbname
             VALUES (
-                    NULL,'$customer_name', '$date', $canvas_width, $canvas_height, $milliseconds
+                    NULL,'$time','$size','$pattern','$date'
             )";
 
-
+echo $sql;
     $result = $conn->query($sql);
 
     $conn->close();

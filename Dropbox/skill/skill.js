@@ -42,6 +42,14 @@ function main(){
 
 	drawTarget(cenX,cenY);
 
+	//TODO get checked instead of assumed Horizontal
+	var patternChoice=document.getElementById('defaultPattern');
+	patternChoice.checked=true;
+	var sizeChoice=document.getElementById('defaultSize');
+    sizeChoice.checked=true;
+	handleClick(patternChoice);
+	handleClickSize(sizeChoice);
+
 	
 
 	drawMessage('Click the dot to start.');
@@ -51,23 +59,39 @@ function main(){
 }
 
 //draws timer after user clicks the 1st dot.
+var global_hit_time;
+var timer_handle;
 function startListening(){
 	range.addEventListener('mousedown',function(event){
 	    var point = getPos(event);//psuedo function
 	    
 	    
-	    if(point.x > liveXY[0] && point.x < live_width && point.y > liveXY[1] && point.y< live_height){
+	    if(point.x > liveXY[0] && point.x < live_width && point.y > liveXY[1] && point.y< live_height){ //if user makes a hit
 	       if(score===0 && reset_counter==0){ //this is the 1st hit user makes so start the timer
-	       		 startTime = Date.now();
+	       		startTime = Date.now();
+	       		
+			     
+			     last_hit=new Date();
+	       		timer_handle = setInterval(drawTimer, 100);
 	       		 
-	       		 timer_handle = setInterval(drawTimer, 100);
+	       }else{
+	       		
+			     new_hit=new Date();
+	       		global_hit_time= Math.abs(new_hit-last_hit);
+	       		
+	       		savescore();
 	       }
+
+	       
 	       moveTarget();
+	       
 	        
 	    }
 	},false); // close event listener
 
 }
+
+
 function drawMessage(message,offset=0,size=30){
 	//draw start
 	var ctx = canvs.getContext("2d");
@@ -131,6 +155,7 @@ function getPos( evt) {
 }
 
 // renders target at x,y coordinates
+// and sets the variables used for collision detection
 function drawTarget(x,y){
 
 	liveXY[0]=x-target_radius;
@@ -146,39 +171,84 @@ function drawTarget(x,y){
 	
 }
 
+
+function clearRect(){
+		var ctx = range.getContext("2d");
+	ctx.clearRect(0, 0, range.width, range.height);// clear the canvas
+	cenX = range.width / 2;
+	cenY = range.height / 2;
+	drawTarget(cenX,cenY);
+}
+
+//when user clicks a pattern-radio button this is called
+function handleClick(handle){
+	//get center
+	cenX = range.width / 2;
+	cenY = range.height / 2;
+
+	global_pattern_choice=handle.value; //this variable-value saved in database
+
+	if(handle.value === 'h'){
+		global_pattern=[20,cenY,range.width-20,cenY];
+	}
+
+	if(handle.value === 'v'){
+		
+		global_pattern=[cenX,20,cenX,range.height-20];
+	}
+}
+
+//when user clicks a size-radio button this is called
+var global_size_choice;
+function handleClickSize(handle){
+	//get center
+     global_size_choice=handle.value;
+    var factor =1.5; 
+	if(handle.value === 'small'){
+		target_radius=factor;
+	}
+
+	if(handle.value === 'medium'){
+		target_radius=factor*2;
+	}
+
+	if(handle.value === 'large'){
+		target_radius=factor*3;
+	}
+
+	if(handle.value === 'giant'){
+		target_radius=10;
+	}
+}
+
 //moves target around in a pattern
 // decides when to change direction and reset distance
 // called when user hits a target
 var score=0;
 var interval =2;
+var global_pattern=[];
 function moveTarget(){
    score++;
-   if(score % 2 == 1){ // if odd...
+   
 
-		distance+=interval; // .. increase distance
-	}
+	var removed = global_pattern.shift();
+	global_pattern.push(removed);
 	
-	vector=vector.reverse();
-	moveDirection(vector[0],distance);
+	 removed = global_pattern.shift();
+	global_pattern.push(removed);
+	
+	
+	drawTarget(global_pattern[0],global_pattern[1]);
 	
 	
 }
 
-// draw target in a particlar direction and distance from center
-function moveDirection(vector,d){
-	var coords = addVector(vector);
 
-	drawTarget(coords[0],coords[1])
-	
-	if(coords[1] >= range.height || coords[1]<=0){
-		reset();
-	}else if(coords[0] >= range.width || coords[0]<=0){
-		reset();
-	}
-	
-}
+
+
+
 var reset_counter=0;
-function reset(){
+function reset(){ //what is the differece between reset() and restartRound() function?
 		score=0;
 		reset_counter++;
 		console.log(reset_counter);
@@ -198,7 +268,7 @@ function reset(){
 		
 }
 
-//called when user completes the round.
+//called when user wins . called when user completes the round.
 function gameover(save=1){
 	savescore();
 	sessionTimes.push(convertMS( elapsedTime));
@@ -250,8 +320,13 @@ function savescore(){
 	}
 
 
-
-	xmlhttp.open("GET","/Dropbox/skill/savescore.php?milliseconds="+elapsedTime+'&width='+canvs.width+'&height='+canvs.height,false); // TODO This is badpractice. Turn false into true. //////
+  //time    size    pattern 
+  
+  time=global_hit_time;
+  size=global_size_choice;
+  pattern=global_pattern_choice;
+  
+	xmlhttp.open("GET","/Dropbox/skill/savescore.php?time="+time+'&size='+size+'&pattern='+pattern,false); // TODO This is badpractice. Turn false into true. //////
 	xmlhttp.send();
 }
 
