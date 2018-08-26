@@ -22,7 +22,7 @@
 body{
       background-color:  #003d99 ;
       background-image: url("wallpaper-green-boxes.png");
-   
+      background-color: grey;
       background-size: 5px;
   
   
