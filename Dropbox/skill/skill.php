@@ -1,11 +1,8 @@
 <?php include '../header.php';?>
-<?php 
 
-    if(isset($_SESSION["customer_name"])){
-        echo $_SESSION["customer_name"] . "<br/>";
-    }
-
-?>
+<script>
+    main();
+</script>
  <title>skill</title>
 
 

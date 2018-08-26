@@ -1,10 +1,6 @@
  <?php include '../header.php';?>
  <?php
-    if(isset($_SESSION)){
-        echo $_SESSION["customer_name"] ;
-    }else{
-        echo '';
-    }
+    
 ?>
  <!DOCTYPE html>
  <!-- in this version the user clicks based on the commentary -->
@@ -19,11 +15,14 @@
 <style>
 
 
+ p span{
+            font-color:black;
+        }
 
 body{
       background-color:  #003d99 ;
       background-image: url("wallpaper-green-boxes.png");
-      color:gold;
+   
       background-size: 5px;
   
   
@@ -156,7 +155,14 @@ body{
 
 
 <script src="todo.js"></script>
-<body onload='main();'>
+<script>
+
+  window.onload=function(){
+  main();
+  init();
+};
+  </script>
+<body >
 
 
 

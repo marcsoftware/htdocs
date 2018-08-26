@@ -29,7 +29,7 @@ lastFilter='';
 
             update('000 new...','000 new...','new...',);
 
-            main();
+            init();
              
     }
 
@@ -519,7 +519,7 @@ console.log(id);
 //-----------------------------------------------------------
 */
 
-    function main(){
+    function init(){
         
 
         getProjectNames();

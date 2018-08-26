@@ -1,6 +1,9 @@
+<?php include '../header.php';?>
 <?php 
+
+  
     if(isset($_SESSION["customer_name"])){
-        echo $_SESSION["customer_name"] . "<br/>";
+     
     
 
 
@@ -65,11 +68,14 @@ EOF;
     }
 </style>
 <title>german duolingo</title>
-<?php include '../header.php';?>
+
 <?php include '../pure_code/getUsersTime.php';?>
 
 
 <script type='text/javascript'>
+
+
+  main();
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     //CALENDARY STUFF
 
