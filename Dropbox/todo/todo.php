@@ -1,3 +1,4 @@
+ <?php include '../header.php';?>
  <?php
     if(isset($_SESSION)){
         echo $_SESSION["customer_name"] ;
@@ -10,7 +11,7 @@
 <html>
 <title>TODO LIST</title>
 <script src="../jquery-3.1.0.min.js"></script>
-<?php include '../header.php';?>
+
 <?php
 
     ?>

@@ -1,5 +1,6 @@
-<?php ini_set('session.cookie_lifetime', 60 * 60 * 24 * 199);
-session_start();  ?> 
+<?php  
+ session_start();
+ ?> 
 <style>
  .header{
             background-color:#e6e6e6;
@@ -17,7 +18,7 @@ session_start();  ?>
 </style>
 <script type='text/javascript'>
 
-	var customer_name =  '<?php if(isset($_SESSION)){echo true; } ?>' ;
+	var is_logged_in =  '<?php if(isset($_SESSION['customer_name'])){echo true; } ?>' ;
 	
     window.onload = main;
 
@@ -25,7 +26,7 @@ session_start();  ?>
 
 
    
-   		if(customer_name){
+   		if(is_logged_in){
    			//if user is logged in draw the logout button
     		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/logout.php'>logout</a><br/>`;
     	}else{

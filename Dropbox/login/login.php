@@ -1,7 +1,8 @@
+<?php include '../header.php';?>
 <?php 
-ini_set('session.cookie_lifetime', 60 * 60 * 24 * 199);
-session_start(); 
-    if($_SESSION["customer_name"]){
+
+
+    if($_SESSION){
         echo $_SESSION["customer_name"] . "<br/>";
     }
 ?>
@@ -40,7 +41,7 @@ if (!isset($_POST['submit'])){
     }
 }
 ?>
-<?php include '../header.php';?>
+
 <html>
 <head>
     <title>Login Form</title>
