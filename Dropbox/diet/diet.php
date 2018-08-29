@@ -1,4 +1,5 @@
-<?php session_start(); 
+<?php include '../header.php';?>
+<?php 
     if(isset($_SESSION["customer_name"])){
         echo $_SESSION["customer_name"];
     }
@@ -151,5 +152,5 @@
     At this rate you will  <span id='rate'></span> pounds in 6 weeks.
 
 </body>
-<?php include '../header.php';?>
+
 </html> 
