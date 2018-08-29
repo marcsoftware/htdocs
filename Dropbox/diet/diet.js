@@ -68,7 +68,7 @@
                         };
                 
                 addNew(item); 
-                
+                   sendToDatabase(item);
                 clearForm();
                 
                 softReset(); //debug
@@ -118,7 +118,7 @@
                         };
                 
                 addNew(item); 
-                
+                   sendToDatabase(item);
                 document.getElementById('total_cals').value='';
                 document.getElementById('name').value='';
                 
@@ -415,7 +415,7 @@
                 item.total_amount='0null';
                 item.amount_per_serv='0null';
                 item.cal_per_serv='0';
-                sendToDatabase(item);
+            
                 
                 return;
 
@@ -452,7 +452,7 @@
 
             doMoveAround(item);
 
-            sendToDatabase(item);
+      
        
         }
 
@@ -610,7 +610,7 @@
 
 
              addNew(item);
-                   
+                sendToDatabase(item);   
              softReset();
         }
 
@@ -915,7 +915,7 @@
                 }
             };
             
-            xmlhttp.open("GET","/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value+'&customer_name='+customer_name,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.open("GET","/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
 
         }
@@ -970,7 +970,7 @@
 
             //TODO pass the global var date
             
-            xmlhttp.open("GET","/Dropbox/diet/readCookie.php?date="+date+'&customer_name='+customer_name,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.open("GET","/Dropbox/diet/readCookie.php?date="+date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
         }
@@ -1135,7 +1135,7 @@
                         //TODO should not fill in all the boxes.
                         global_stats=result;
                         
-                        console.log(result);
+                     
 
                         
                     }
