@@ -1,0 +1,309 @@
+This timeline of natural history summarizes significant geological and biological events from the formation of the Earth to the arrival of modern humans. Times are listed in millions of years, or megaanni (Ma).
+Dating of the Geologic record[edit]
+
+The Geologic record is the strata (layers) of rock in the planet’s crust and the science of geology is much concerned with the age and origin of all rocks to determine the history and formation of Earth and to understand the forces that have acted upon it. Geologic time is the timescale used to calculate dates in the planet’s geologic history from its origin (currently estimated to have been some 4,600 million years ago) to the present day.
+
+Radiometric dating measures the steady decay of radioactive elements in an object to determine its age. It is used to calculate dates for the older part of the planet’s geological record. The theory is very complicated but, in essence, the radioactive elements within an object decay to form isotopes of each chemical element. Isotopes are atoms of the element that differ in mass but share the same general properties. Geologists are most interested in the decay of isotopes carbon-14 (into nitrogen-14) and potassium-40 (into argon-40). Carbon-14 aka radiocarbon dating works for organic materials that are less than about 50,000 years old. For older periods, the potassium-argon dating process is more accurate.
+
+Radiocarbon dating is carried out by measuring how much of the carbon-14 and nitrogen-14 isotopes are found in a material. The ratio between the two is used to estimate the material’s age. Suitable materials include wood, charcoal, paper, fabrics, fossils and shells. It is assumed that rock exists in layers according to age, with older beds below later ones. This is the basis of stratigraphy.
+
+The ages of more recent layers are calculated primarily by the study of fossils, which are remains of ancient life preserved in the rock. These occur consistently and so a theory is feasible. Most of the boundaries in recent geologic time coincide with extinctions (e.g., the dinosaurs) and with the appearances of new species (e.g., hominids).
+
+In the earliest solar system history, the Sun, the planetesimals and the jovian planets were formed. The inner solar system aggregated more slowly than the outer, so the terrestrial planets were not yet formed, including Earth and Moon.
+
+    c.4,570 Ma – A supernova explosion (known as the primal supernova) seeds our galactic neighborhood with heavy elements that will be incorporated into the Earth, and results in a shock wave in a dense region of the Milky Way galaxy. The Ca-Al-rich inclusions, which formed 2 million years before the chondrules,[1] are a key signature of a supernova explosion.
+    c.4,567±3 Ma – Rapid collapse of hydrogen molecular cloud, forming a third-generation Population I star, the Sun, in a region of the Galactic Habitable Zone (GHZ), about 25,000 light years from the center of the Milky Way Galaxy.[2]
+    c.4,566±2 Ma – A protoplanetary disc (from which Earth eventually forms) emerges around the young Sun, which is in its T Tauri stage.
+    c.4,560–4,550 Ma – Proto-Earth forms at the outer (cooler) edge of the habitable zone of the Solar System. At this stage the solar constant of the Sun was only about 73% of its current value, but liquid water may have existed on the surface of the Proto-Earth, probably due to the greenhouse warming of high levels of methane and carbon dioxide present in the atmosphere. Early bombardment phase begins: because the solar neighbourhood is rife with large planetoids and debris, Earth experiences a number of giant impacts that help to increase its overall size.
+
+Precambrian Supereon[edit]
+
+    c.4,533 Ma – The Precambrian (to c.541 Ma), now termed a "supereon" but formerly an era, is split into three geological periods called eons: Hadean, Archaean and Proterozoic. The latter two are sub-divided into several eras as currently defined. In total, the Precambrian comprises some 85% of geological time from the formation of Earth to the time when creatures first developed exoskeletons (i.e., hard outer parts) and thereby left abundant fossil remains.
+
+Hadean Eon[edit]
+
+    c.4,533 Ma – Hadean Eon, Precambrian Supereon and unofficial Cryptic era start as the Earth-Moon system forms, possibly as a result of a glancing collision between proto-Earth and the hypothetical protoplanet Theia. (The Earth was considerably smaller than now, before this impact.) This impact vaporized a large amount of the crust, and sent material into orbit around Earth, which lingered as rings, similar to those of Saturn, for a few million years, until they coalesced to become the Moon. The Moon geology pre-Nectarian period starts. Earth was covered by a magmatic ocean 200 kilometres (120 mi) deep resulting from the impact energy from this and other planetesimals during the early bombardment phase, and energy released by the planetary core forming. Outgassing from crustal rocks gives Earth a reducing atmosphere of methane, nitrogen, hydrogen, ammonia, and water vapour, with lesser amounts of hydrogen sulfide, carbon monoxide, then carbon dioxide. With further full outgassing over 1000-1500 K, nitrogen and ammonia become lesser constituents, and comparable amounts of methane, carbon monoxide, carbon dioxide, water vapour, and hydrogen are released.
+    c.4,500 Ma – Sun enters main sequence: a solar wind sweeps the Earth-Moon system clear of debris (mainly dust and gas). End of the Early Bombardment Phase. Basin Groups Era begins on Earth.
+    c.4,450 Ma – 100 million years after the Moon formed, the first lunar crust, formed of lunar anorthosite, differentiates from lower magmas. The earliest Earth crust probably forms similarly out of similar material. On Earth the pluvial period starts, in which the Earth's crust cools enough to let oceans form.
+    c.4,404 Ma – First known mineral, found at Jack Hills in Western Australia. Detrital zircons show presence of a solid crust and liquid water. Latest possible date for a secondary atmosphere to form, produced by the Earth's crust outgassing, reinforced by water and possibly organic molecules delivered by comet impacts and carbonaceous chondrites (including type CI shown to be high in a number of amino acids and polycyclic aromatic hydrocarbons (PAH)).
+    c.4,300 Ma – Nectarian Era begins on Earth.
+    c.4,250 Ma – Earliest evidence for life, based on unusually high amounts of light isotopes of carbon, a common sign of life, found in Earth's oldest mineral deposits located in the Jack Hills of Western Australia.[3]
+    c.4,100 Ma – Early Imbrian Era begins on Earth. Late heavy bombardment of the Moon (and probably of the Earth as well) by bolides and asteroids, produced possibly by the planetary migration of Neptune into the Kuiper belt as a result of orbital resonances between Jupiter and Saturn.[4] "Remains of biotic life" were found in 4.1 billion-year-old rocks in Western Australia.[5][6] According to one of the researchers, "If life arose relatively quickly on Earth ... then it could be common in the universe."[5]
+    c.4,030 Ma – Acasta Gneiss of Northwest Territories, Canada, first known oldest rock, or aggregate of minerals.
+
+Archean Eon[edit]
+Eoarchean Era[edit]
+
+    c.4,000 Ma – Archean Eon and Eoarchean Era start. Possible first appearance of plate tectonic activity in the Earth's crust as plate structures may have begun appearing. Possible beginning of Napier Mountains Orogeny forces of faulting and folding create first metamorphic rocks. Origins of life.
+    c.3,930 Ma – Possible stabilization of Canadian Shield begins
+    c.3,920–3,850 Ma – Final phase of Late Heavy Bombardment
+    c.3,850 Ma – Greenland apatite shows evidence of 12C enrichment, characteristic of the presence of photosynthetic life.[7]
+    c.3,850 Ma – Evidence of life: Akilia Island graphite off Western Greenland contains evidence of kerogen, of a type consistent with photosynthesis.[citation needed]
+    c.3,800 Ma – Oldest banded iron formations found.[citation needed]. First complete continental masses or cratons, formed of granite blocks, appear on Earth. Occurrence of initial felsic igneous activity on eastern edge of Antarctic craton as first great continental mass begins to coalesce. East European Craton begins to form - first rocks of the Ukrainian Shield and Voronezh Massif are laid down
+    c.3,750 Ma – Nuvvuagittuq Greenstone Belt forms
+    c.3,700 Ma – Graphite found to be biogenic in 3.7 billion-year-old metasedimentary rocks discovered in Western Greenland[8] Stabilization of Kaapval craton begins: old tonaltic gneisses laid down
+
+Paleoarchean Era[edit]
+
+    c.3,600 Ma – Paleoarchean Era starts. Possible assembly of the Vaalbara supercontinent; oldest cratons on Earth (such as the Canadian Shield, East European Craton and Kaapval) begin growing as a result of crustal disturbances along continents coalescing into Vaalbara - Pilbara Craton stabilizes. Formation of Barberton greenstone belt: Makhonjwa Mountains uplifts on the eastern edge of Kaapval craton, oldest mountains in Africa - area called the "genesis of life" for exceptional preservation of fossils. Narryer Gneiss Terrane stabilizes: these gneisses become the "bedrock" for the formation of the Yilgarn Craton in Australia - noted for the survival of the Jack Hills where the oldest mineral, a zircon was uncovered.
+    c.3,500 Ma – Lifetime of the Last universal ancestor: split between bacteria and archaea occurs as "tree of life" begins branching out - varieties of Eubacteria begin to radiate out globally. Fossils resembling cyanobacteria, found at Warrawoona, Western Australia.[citation needed]
+    c.3,480 Ma – Fossils of microbial mat found in 3.48 billion-year-old sandstone discovered in Western Australia.[9][10] First appearance of stromatolitic organisms that grow at interfaces between different types of material, mostly on submerged or moist surfaces.
+    c.3,460 Ma – Fossils of bacteria in chert.[citation needed] Zimbabwe Craton stabilizes from the suture of two smaller crustal blocks, the Tokwe Segment to the south and the Rhodesdale Segment or Rhodesdale gneiss to the north.
+    c.3.400 Ma – Eleven taxa of prokaryotes are preserved in the Apex Chert of the Pilbara craton in Australia. Because chert is fine-grained silica-rich microcrystalline, cryptocrystalline or microfibrious material, it preserves small fossils quite well. Stabilization of Baltic Shield begins.
+    c.3.340 Ma – Johannesburg Dome forms in South Africa: located in the central part of Kaapvaal Craton and consists of trondhjemitic and tonalitic granitic rocks intruded into mafic-ultramafic greenstone - the oldest granitoid phase recognised so far.
+    c.3,300 Ma – Onset of compressional tectonics.[11] Intrusion of granitic plutons on the Kaapvaal Craton.
+    c.3,260 Ma – One of the largest recorded impact events occurs near the Barberton Greenstone Belt, when a 58 km (36 mi) asteroid leaves a hole almost 480 km (300 mi) across – two and a half times larger in diameter than the Chicxulub crater.[12]
+
+Mesoarchean Era[edit]
+
+    c.3,200 Ma – Mesoarchean Era starts. Onverwacht series in South Africa form - contain some of the oldest microfossils mostly spheroidal and carbonaceous alga-like bodies.
+    c.3,200–2,600 Ma – Assembly of the Ur supercontinent to cover between 12–16% of the current continental crust. Formation of Limpopo Belt.
+    c.3,100 Ma – Fig Tree Formation: second round of fossilizations including Archaeosphaeroides barbertonensis and Eobacterium. Gneiss and greenstone belts in the Baltic Shield are laid down in Kola Peninsula, Karelia and northeastern Finland.
+    c.3,000 Ma – Humboldt Orogeny in Antarctica: possible formation of Humboldt Mountains in Queen Maud Land. Photosynthesizing cyanobacteria evolve; they use water as a reducing agent, thereby producing oxygen as a waste product. The oxygen initially oxidizes dissolved iron in the oceans, creating iron ore - over time oxygen concentration in the atmosphere slowly rises, acting as a poison for many bacteria. As Moon is still very close to Earth and causes tides 1,000 feet (305 m) high[citation needed], the Earth is continually wracked by hurricane-force winds - these extreme mixing influences are thought to stimulate evolutionary processes. Rise of Stromatolites: microbial mats become successful forming the first reef building communities on Earth in shallow warm tidal pool zones (to 1.5 Gyr). Tanzania Craton forms.
+    c.2,940 Ma – Yilgarn Craton of western Australia forms by the accretion of a multitude of formerly present blocks or terranes of existing continental crust.
+    c.2,900 Ma – Assembly of the Kenorland supercontinent, based upon the core of the Baltic shield, formed at c.3100 Ma. Narryer Gneiss Terrane (including Jack Hills) of Western Australia undergoes extensive metamorphism.
+
+Neoarchean Era[edit]
+
+    c.2,800 Ma – Neoarchean Era starts. Breakup of the Vaalbara: Breakup of supercontinent Ur as it becomes a part of the major supercontinent Kenorland. Kaapvaal and Zimbabwe cratons join together.
+    c.2,770 Ma – Formation of Hamersley Basin on the southern margin of Pilbara Craton - last stable submarine-fluviatile environment between the Yilgarn and Pilbara prior to rifting, contraction and assembly of the intracratonic Gascoyne Complex.
+    c.2,750 Ma – Renosterkoppies Greenstone Belt forms on the northern edge of the Kaapvaal Craton.
+    c.2,736 Ma – Formation of the Temagami Greenstone Belt in Temagami, Ontario, Canada.
+    c.2,707 Ma – Blake River Megacaldera Complex begins to form in present-day Ontario and Quebec - first known Precambrian supervolcano - first phase results in creation of 8 km long, 40 km wide, east-west striking Misema Caldera* - coalescence of at least two large mafic shield volcanoes.
+    c.2,705 Ma – Major komatiite eruption, possibly global[11] - possible mantle overturn event.
+    c.2,704 Ma – Blake River Megacaldera Complex: second phase results in creation of 30 km long, 15 km wide northwest-southeast trending New Senator Caldera - thick massive mafic sequences which has been inferred to be a subaqueous lava lake.
+    c.2,700 Ma – Biomarkers of cyanobacteria discovered, together with steranes (sterols of cholesterol), associated with films of eukaryotes, in shales located beneath banded iron formation hematite beds, in Hamersley Range, Western Australia;[13] skewed sulfur isotope ratios found in pyrites show a small rise in oxygen concentration in the atmosphere;[14] Sturgeon Lake Caldera forms in Wabigoon greenstone belt — contains well preserved homoclinal chain of greenschist facies, metamorphosed intrusive, volcanic and sedimentary layers (Mattabi pyroclastic flow considered third most voluminous eruptive event); stromatolites of Bulawayo series in Zimbabwe form — first verified reef community on Earth.
+    c.2,696 Ma – Blake River Megacaldera Complex: third phase of activity constructs classic east-northeast striking Noranda Caldera which contains a 7-to-9-km-thick succession of mafic and felsic rocks erupted during five major series of activity. Abitibi greenstone belt in present-day Ontario and Quebec begins to form: considered world's largest series of Archean greenstone belts, appears to represent a series of thrusted subterranes.
+    c.2,690 Ma – Formation of high pressure granulites in the Limpopo Central Region.
+    c.2,650 Ma – Insell Orogeny: occurrence of a very high grade discrete tectonothermal event (a UHT metamorphic event).
+    c.2,600 Ma – Oldest known giant carbonate platform.[11] Saturation of oxygen in ocean sediments is reached as oxygen now begins to dramatically appear in Earth's atmosphere.
+
+Proterozoic Eon[edit]
+
+The Proterozoic (from c.2500 Ma to c.541 Ma) saw the first traces of biological activity. Fossil remains of bacteria and algae.
+Paleoproterozoic Era[edit]
+Siderian Period[edit]
+
+    c.2,500 Ma – Proterozoic Eon, Paleoproterozoic Era, and Siderian Period start. Oxygen saturation in the oceans is reached: Banded iron formations form and saturate ocean floor deposits - without an oxygen sink, Earth's atmosphere becomes highly oxygenic. Great Oxygenation Event led by cyanobacteria's oxygenic photosynthesis - various forms of Archaea and anoxic bacteria become extinct in first great extinction event on Earth. Algoman Orogeny or Kenoran: assembly of Arctica out of the Canadian Laurentian Shield and Siberian craton - formation of Angaran Shield and Slave Province.
+    c.2,440 Ma – Formation of Gawler Craton in Australia.
+    c.2,400 Ma – Huronian glaciation starts, probably from oxidation of earlier methane greenhouse gas produced by burial of organic sediments of photosynthesizers. First cyanobacteria. Formation of Dharwar Craton in southern India.
+    c.2,400 Ma – Suavjarvi impact structure forms. This is the oldest known impact crater whose remnants are still recognizable. Dharwar Craton in southern India stabilizes.
+
+Rhyacian Period[edit]
+
+    c.2,300 Ma – Rhyacian period starts.
+    c.2,250 Ma – Bushveld Igneous Complex forms: world's largest reserves of platinum-group metals (platinum, palladium, osmium, iridium, rhodium and ruthenium), as well as vast quantities of iron, tin, chromium, titanium and vanadium appear – formation of Transvaal Basin begins.
+    c.2,200–1800 Ma – Continental Red Beds found, produced by iron in weathered sandstone being exposed to oxygen. Eburnean Orogeny, series of tectonic, metamorphic and plutonic events establish Eglab Shield to the north of West African Craton and Man Shield to its south – Birimian domain of West Africa established and structured.
+    c.2,200 Ma – Iron content of ancient fossil soils shows an oxygen built up to 5–18% of current levels.[15] End of Kenoran Orogeny: invasion of Superior and Slave Provinces by basaltic dikes and sills – Wyoming and Montana arm of Superior Province experiences intrusion of 5 km thick sheet of chromite-bearing gabbroic rock as Stillwater Complex forms.
+    c.2,100 Ma – Huronian glaciation ends. Earliest known eukaryote fossils found. Earliest multicellular organisms collectively referred to as the "Gabonionta" (Francevillian Group Fossil); Wopmay orogeny along western margin of Canadian Shield.
+    c.2,090 Ma – Eburnean Orogeny: Eglab Shield experiences syntectonic trondhjemitic pluton intrusion of its Chegga series – most of the intrusion is in the form of a plagioclase called oligoclase.
+    2.070 Ma – Eburnean Orogeny: asthenospheric upwelling releases large volume of post-orogenic magmas – magma events repeatedly reactivated from the Neoproterozoic to the Mesozoic.
+
+Orosirian Period[edit]
+
+    c.2,050 Ma – Orosirian Period starts. Significant orogeny in most continents.
+    c.2,023 Ma – Vredefort impact structure forms.
+    c.2,005 Ma – Glenburgh Orogeny (to c.1,920 Ma) begins: Glenburgh Terrane in western Australia begins to stabilize during period of substantial granite magmatism and deformation; Halfway Gneiss and Moogie Metamorphics result. Dalgaringa Supersuite (to c.1,985 Ma), comprising sheets, dykes and viens of mesocratic and leucocratic tonalite, stabilizes.
+    c.2,000 Ma – The lesser supercontinent Atlantica forms. The Oklo natural nuclear reactor of Gabon produced by uranium-precipitant bacteria.[16] First acritarchs.
+    c.1,900 - 1,880 Ma – Gunflint chert biota forms flourishes including prokaryotes like Kakabekia, Gunflintia, Animikiea and Eoastrion
+    c.1,850 Ma – Sudbury impact structure. Penokean orogeny. First eukaryotes. Bacterial viruses (bacteriophage) emerge before, or soon after, the divergence of the prokaryotic and eukaryotic lineages.[17]
+    c.1,830 Ma – Capricorn Orogeny (1.83 - 1.78 Gyr) stabilizes central and northern Gascoyne Complex: formation of pelitic and psammitic schists known as Morrissey Metamorphics and depositing Pooranoo Metamorphics an amphibolite facies
+
+Statherian Period[edit]
+
+    c.1,800 Ma – Statherian Period starts. Supercontinent Columbia forms, one of whose fragments being Nena. Oldest ergs develop on several cratons[11] Barramundi Orogeny (ca. 1.8 Gyr) influences MacArthur Basin in Northern Australia.
+    c.1,780 Ma – Colorado Orogeny (1.78 - 1.65 Gyr) influences southern margin of Wyoming craton - collision of Colorado orogen and Trans-Hudson orogen with stabilized Archean craton structure
+    c.1,770 Ma – Big Sky Orogeny (1.77 Gyr) influences southwest Montana: collision between Hearne and Wyoming cratons
+    c.1,765 Ma – As Kimban Orogeny in Australian continent slows, Yapungku Orogeny (1.765 Gyr) begins affecting Yilgarn craton in Western Australia - possible formation of Darling Fault, one of longest and most significant in Australia
+    c.1,760 Ma – Yavapai Orogeny (1.76 - 1.7 Gyr) impacts mid- to south-western United States
+    c.1,750 Ma – Gothian Orogeny (1.75 - 1.5 Gyr): formation of tonalitic-granodioritic plutonic rocks and calc-alkaline volcanites in the East European Craton
+    c.1,700 Ma – Stabilization of second major continental mass, the Guiana Shield in South America
+    c.1,680 Ma – Mangaroon Orogeny (1.68 - 1.62 Gyr), on the Gascoyne Complex in Western Australia: Durlacher Supersuite, granite intrusion featuring a northern (Minnie Creek) and southern belt - heavily sheared orthoclase porphyroclastic granites
+    c.1,650 Ma – Kararan Orogeny (1.65 Gyr) uplifts great mountains on the Gawler Craton in Southern Australia - formation of Gawler Range including picturesque Conical Hill Track and "Organ Pipes" waterfall
+
+Mesoproterozoic Era[edit]
+Calymmian Period[edit]
+
+    c.1,600 Ma – Mesoproterozoic Era and Calymmian Period start. Platform covers expand. Major orogenic event in Australia: Isan Orogeny influences Mount Isa Block of Queensland - major deposits of lead, silver, copper and zinc are laid down. Mazatzal Orogeny (to c.1,300 Ma) influences mid- to south-western United States: Precambrian rocks of the Grand Canyon, Vishnu Schist and Grand Canyon Series, are formed establishing basement of Canyon with metamorphosed gneisses that are intruded by granites. Belt Supergroup in Montana/Idaho/BC formed in basin on edge of Laurentia.
+    c.1,500 Ma – Supercontinent Columbia splits apart: associated with continental rifting along western margin of Laurentia, eastern India, southern Baltica, southeastern Siberia, northwestern South Africa and North China Block - formation of Ghats Province in India. First structurally complex eukaryotes (Hododyskia, colonial formamiferian?).
+
+Ectasian Period[edit]
+
+    c.1,400 Ma – Ectasian Period starts. Platform covers expand. Major increase in Stromatolite diversity with widespread blue-green algae colonies and reefs dominating tidal zones of oceans and seas
+    c.1,300 Ma – Break-up of Columbia Supercontinent completed: widespread anorogenic magmatic activity, forming anorthosite-mangerite-charnockite-granite suites in North America, Baltica, Amazonia and North China - stabilization of Amazonian Craton in South America Grenville orogeny(to c.1,000 Ma) in North America: globally associated with assembly of Supercontinent Rodinia establishes Grenville Province in Eastern North America - folded mountains from Newfoundland to North Carolina as Old Rag Mountain forms
+    c.1,270 Ma – Emplacement of Mackenzie granite mafic dike swarm - one of three dozen dike swarms, forms into Mackenzie Large Igneous Province - formation of Copper Creek deposits
+    c.1,250 Ma – Sveconorwegian Orogeny (to c.900 Ma) begins: essentially a reworking of previously formed crust on the Baltic Shield
+    c.1,240 Ma – Second major dike swarm, Sudbury dikes form in Northeastern Ontario around the area of the Sudbury Basin
+
+Stenian Period[edit]
+
+    c.1,200 Ma – Stenian Period starts. Red alga Bangiomorpha pubescens, earliest fossil evidence for sexually reproducing organism.[18] Meiosis and sexual reproduction are present in single-celled eukaryotes, and possibly in the common ancestor of all eukaryotes.[19] Supercontinent of Rodinia(1.2 Gyr - 750 Myr) completed: consisting of North American, East European, Amazonian, West African, Eastern Antarctica, Australia and China blocks, largest global system yet formed - surrounded by superocean Mirovia
+    c.1,100 Ma – First dinoflagellate evolve: photosynthetic some develop mixotrophic habits ingesting prey - with their appearance, prey-predator relationship is established for first time forcing acritarchs to defensive strategies and leading to open "arms" race. Late Ruker (1.1 - 1 Gyr) and Nimrod Orogenies (1.1 Gyr) in Antarctica possibly begins: formation of Gamburtsev mountain range and Vostok Subglacial Highlands. Keweenawan Rift buckles in the south-central part of the North American plate - leaves behind thick layers of rock that are exposed in Wisconsin, Minnesota, Iowa and Nebraska and creates rift valley where future Lake Superior develops.
+    c.1,080 Ma – Musgrave Orogeny (ca. 1.080 Gyr) forms Musgrave Block, an east-west trending belt of granulite-gneiss basement rocks - voluminous Kulgera Suite of granite and Birksgate Complex solidify
+    c.1,076 Ma – Musgrave Orogeny: Warakurna large igneous province develops - intrusion of Giles Complex and Winburn Suite of granites and deposition of Bentley Supergroup (including Tollu and Smoke Hill Volcanics)
+
+Neoproterozoic Era[edit]
+Tonian Period[edit]
+
+    c.1,000 Ma – Neoproterozoic Era and Tonian Period start. Grenville orogeny ends. First radiation of dinoflagellates and spiny acritarchs - increase in defensive systems indicate that acritarchs are responding to carnivorous habits of dinoflagellates - decline in stromatolite reef populations begins. Rodinia starts to break up. First vaucherian algae. Rayner Orogeny as proto-India and Antarctica collide (to c.900 Ma). Trace fossils of colonial Hododyskia (to c.900 Ma): possible divergence between animal and plant kingdoms begins. Stabilization of Satpura Province in Northern India. Rayner Orogeny (1 Gyr - 900 Myr) as India and Antarctica collide
+    c.920 Ma – Edmundian Orogeny (ca. 920 - 850 Myr) redefines Gascoyne Complex: consists of reactivation of earlier formed faults in the Gascoyne - folding and faulting of overlying Edmund and Collier basins
+    c.920 Ma – Adelaide Geosyncline laid down in central Australia - essentially a rift complex, consists of thick layer of sedimentary rock and minor volcanics deposited on Easter margin - limestones, shales and sandstones predominate
+    c.900 Ma – Bitter Springs Formation of Australia: in addition to prokaryote assemblage of fossils, cherts include eukaryotes with ghostly internal structures similar to green algae - first appearance of Glenobotrydion (900 - 720 Myr), among earliest plants on Earth
+    c.830 Ma – Rift develops on Rodinia between continental masses of Australia, eastern Antarctica, India, Congo and Kalahari on one side and Laurentia, Baltica, Amazonia, West African and Rio de la Plata cratons on other - formation of Adamastor Ocean.
+    c.800 Ma – With free oxygen levels much higher, carbon cycle is disrupted and once again glaciation becomes severe - beginning of second "snowball Earth" event
+    c.750 Ma – First Protozoa appears: as creatures like Paramecium, Amoeba and Melanocyrillium evolve, first animal-like cells become distinctive from plants - rise of herbivores (plant feeders) in the food chain. First Sponge-like animal: similar to early colonial foraminiferan Horodyskia, earliest ancestors of Sponges were colonial cells that circulated food sources using flagella to their gullet to be digested. Kaigas glaciation (c.750 Ma): first major glaciation of Earth - almost entire planet is covered with ice sheets up to more than a kilometer thick and identified from units in Namibia and the South China Block
+
+Cryogenian Period[edit]
+
+    c.720 Ma – Cryogenian Period starts, during which Earth freezes over (Snowball Earth or Slushball Earth) at least 3 times, 720 Ma – Sturtian glaciation continues process begun during Kaigas - great ice sheets cover most of the planet stunting evolutionary development of animal and plant life - survival based on small pockets of heat under the ice
+    c.700 Ma – Fossils of testate Amoeba first appear: first complex metazoans leave unconfirmed biomarkers - they introduce new complex body plan architecture which allows for development of complex internal and external structures. Worm trail impressions in China: because putative "burrows" under stromatolite mounds are of uneven width and tapering makes biological origin difficult to defend - structures imply simple feeding behaviours. Rifting of Rodinia is completed: formation of new superocean of Panthalassa as previous Mirovia ocean bed closes - Mozambique mobile belt develops as a suture between plates on Congo-Tanzania craton
+    c.660 Ma – As Sturtian glaciers retreat, Cadomian orogeny (660 - 540 Myr) begins on north coast of Armorica: involving one or more collisions of island arcs on margin of future Gondwana, terranes of Avalonia, Armorica and Ibera are laid down
+    c.650 Ma – First Demosponges appear: form first skeletons of spicules made from protein spongin and silica - brightly coloured these colonial creatures filter feed since they lack nervous, digestive or circulatory systems and reproduce both sexually and asexually
+    c.650 Ma – Final period of worldwide glaciation, Marinoan (650 - 635 Myr) begins: most significant "snowball Earth" event, global in scope and longer - evidence from Diamictite deposits in South Australia laid down on Adelaide Geosyncline
+
+Ediacaran Period[edit]
+
+    c.635 Ma – Ediacaran period begins. End of Marinoan Glaciation: last major "snowball Earth" event as future ice ages will feature less overall ice coverage of the planet
+    c.633 Ma – Beardmore Orogeny (to c.620 Ma) in Antarctica: reflection of final break-up of Rodinia as pieces of the supercontinent begin moving together again to form Pannotia
+    c.620 Ma – Timanide Orogeny (to c.550 Ma) affects northern Baltic Shield: gneiss province divided into several north-south trending segments experiences numerous metasedimentary and metavolcanic deposits - last major orogenic event of Precambrian
+    c.600 Ma – Pan-African Orogeny begins: Arabian-Nubian Shield formed between plates separating supercontinent fragments Gondwana and Pannotia - Supercontinent Pannotia (to c.500 Ma) completed, bordered by Iapetus and Panthalassa oceans. Accumulation of atmospheric oxygen allows for the formation of ozone layer: prior to this, land-based life would probably have required other chemicals to attenuate ultraviolet radiation enough to permit colonization of the land
+    c.575 Ma – First Ediacaran-type fossils.
+    c.560 Ma – Trace fossils, e.g., worm burrows, and small bilaterally symmetrical animals. Earliest arthropods. Earliest fungi.
+    c.555 Ma – The first possible mollusk Kimberella appears.
+    c.550 Ma – First possible comb-jellies, sponges, corals, and anemones.
+    c.544 Ma – The small shelly fauna first appears.
+
+Phanerozoic Eon[edit]
+Paleozoic Era[edit]
+Cambrian Period[edit]
+
+    c.541 ± 1.0 Ma – beginning of the Cambrian Period, the Paleozoic Era and the current Phanerozoic Eon. End of the Ediacaran Period, the Proterozoic Eon and the Precambrian Supereon. The Ediacaran fauna disappears, while the Cambrian explosion initiates the emergence of most forms of complex life, including vertebrates (fish), arthropods, echinoderms and molluscs. Pannotia breaks up into several smaller continents: Laurentia, Baltica and Gondwana.
+    c.540 Ma – Supercontinent of Pannotia breaks up.
+    c.530 Ma – First fish.
+    c.525 Ma – First graptolites.
+    c.521 Ma – First trilobites
+    c.505 Ma – Deposition of the Burgess Shale.
+
+Ordovician Period[edit]
+
+    c.485.4 ± 1.7 Ma – Beginning of the Ordovician and the end of the Cambrian Period.
+    c.485 Ma – First jawless fish.
+    c.450 Ma – Plants and arthropods colonize the land. Sharks evolve.
+
+Silurian Period[edit]
+
+    c.443.8 ± 1.5 Ma – Beginning of the Silurian and the end of the Ordovician Period.
+    c.420 Ma – First creature took a breath of air. First ray-finned fish and land scorpions.
+    c.410 Ma – First toothed fish and nautiloids.
+
+Devonian Period[edit]
+
+    c.419.2 ± 2.8 Ma – Beginning of the Devonian and end of the Silurian Period. First insects.
+    c.395 Ma – First of many modern groups, including tetrapods.
+    c.360 Ma – First crabs and ferns.
+    c.350 Ma – First large sharks, ratfish and hagfish.
+
+Carboniferous Period[edit]
+
+    c.358.9 ± 2.5 Ma – Beginning of the Carboniferous and the end of Devonian Period. Amphibians diversify.
+    c.330 Ma – First amniotes evolve.
+    c.320 Ma – First synapsids evolve.
+    c.315 Ma – The evolution of the first reptiles.
+    c.305 Ma – First diapsids evolve.
+
+Permian Period[edit]
+
+    c.298.9 ± 0.8 Ma – End of Carboniferous and beginning of Permian Period. By this time, all continents have fused into the supercontinent of Pangaea. Beetles evolve. Seed plants and conifers diversify along with temnospondyls and pelycosaurs.
+    c.275 Ma – First therapsids evolve.
+    c.251.4 Ma – Permian mass extinction. End of Permian Period and of the Palaeozoic Era. Beginning of Triassic Period, the Mesozoic era and of the age of the dinosaurs.
+
+Mesozoic Era[edit]
+Triassic Period[edit]
+
+    c.251.902 ± 0.4 Ma – Mesozoic era and Triassic Period begin. Mesozoic Marine Revolution begins.
+    c.245 Ma – First ichthyosaurs.
+    c.240 Ma – Cynodonts and rhynchosaurs diversify.
+    c.225 Ma – First dinosaurs and teleosti evolve.
+    c.220 Ma – First crocodilians and flies.
+    c.215 Ma – First turtles. Long-necked sauropod dinosaurs and Coelophysis, one of the earliest theropod dinosaurs, evolve. First mammals.
+
+Jurassic Period[edit]
+
+    c.201.3 ± 0.6 Ma – Triassic-Jurassic extinction event marks the end of Triassic and beginning of Jurassic Period. The largest dinosaurs, such as Diplodocus and Brachiosaurus evolve during this time, as do the carnosaurs; large, bipedal predatory dinosaurs such as Allosaurus. First specialized pterosaurs and sauropods. Ornithischians diversify.
+    c.190 Ma – Pliosaurs evolve, along with many groups of primitive sea invertebrates.
+    c.180 Ma – Pangaea splits into two major continents: Laurasia in the north and Gondwana in the south.
+    c.176 Ma – First stegosaurs.
+    c.170 Ma – First salamanders and newts evolve. Cynodonts go extinct.
+    c.165 Ma – First stingrays.
+    c.161 Ma – First ceratopsians.
+    c.155 Ma – First birds and triconodonts. Stegosaurs and theropods diversify.
+
+Cretaceous Period[edit]
+
+    c.145 ± 4 Ma – End of Jurassic and beginning of Cretaceous Period.
+    c.130 Ma – Laurasia and Gondwana begin to split apart as the Atlantic Ocean forms. First flowering plants.
+    c.115 Ma – First monotremes.
+    c.110 Ma – First hesperornithes.
+    c.106 Ma – Spinosaurus evolves.
+    c.100 Ma – First bees.
+    c.90 Ma – the Indian subcontinent splits from Gondwana, becoming an island continent. Ichthyosaurs go extinct. Snakes and ticks evolve.
+    c.80 Ma – Australia splits from Antarctica. First ants.
+    c.70 Ma – Multituberculates diversify.
+    c.68 Ma – Tyrannosaurus rex evolves.
+    c.66.038 ± 0.011 Ma – Cretaceous-Paleogene extinction event at the end of the Cretaceous Period marks the end of the Mesozoic era and the age of the dinosaurs; start of the Paleogene Period and the current Cenozoic era.
+
+Cenozoic Era[edit]
+Paleogene Period[edit]
+
+    c.63 Ma – First creodonts.
+    c.60 Ma – Evolution of the first primates and miacids. Flightless birds diversify.
+    c.56 Ma – Gastornis evolves.
+    c.55 Ma – the island of the Indian subcontinent collides with Asia, thrusting up the Himalayas and the Tibetan Plateau. Many modern bird groups appear. First whale ancestors. First rodents, lagomorphs, armadillos, sirenians, proboscideans, perissodactyls, artiodactyls, and mako sharks. Angiosperms diversify.
+    c.52 Ma – First bats.
+    c.50 Ma – Africa collides with Eurasia, closing the Tethys Sea. Divergence of cat and dog ancestors. Primates diversify. Brontotheres, tapirs, rhinos, and camels evolve.
+    c.49 Ma – Whales return to the water.
+    c.40 Ma – Age of the Catarrhini parvorder; first canines evolve. Lepidopteran insects become recognizable. Gastornis goes extinct. Basilosaurus evolves.
+    c.37 Ma – First Nimravids.
+    c.33.9 ± 0.1 Ma – End of Eocene, start of Oligocene epoch.
+    c.35 Ma – Grasslands first appear. Glyptodonts, ground sloths, peccaries, dogs, eagles, and hawks evolve.
+    c.33 Ma – First thylacinid marsupials evolve.
+    c.30 Ma – Brontotheres go extinct. Pigs evolve. South America separates from Antarctica, becoming an island continent.
+    c.28 Ma – Paraceratherium evolves.
+    c.26 Ma – Emergence of the first true elephants.
+    c.25 Ma – First deer. Cats evolve.
+
+    
+    c.23.03 ± 0.05 Ma – Neogene Period and Miocene epoch begin
+    c.20 Ma – Giraffes and giant anteaters evolve.
+    c.18-12 Ma – estimated age of the Hominidae/Hylobatidae (great apes vs. gibbons) split.
+    c.15 Ma – First mastodons, bovids, and kangaroos. Australian megafauna diversify.
+    c.10 Ma – Insects diversify. First large horses.
+    c.6.5 Ma – First members of the Hominini tribe.
+    c.6 Ma – Australopithecines diversify.
+    c.5.96 Ma – - 5.33 Ma – Messinian Salinity Crisis: the precursor of the current Strait of Gibraltar closes repeatedly, leading to a partial desiccation and strong increase in salinity of the Mediterranean Sea.
+    c.5.4-6.3 Ma – Estimated age of the Homo/Pan (human vs. chimpanzee) split.
+    c.5.5 Ma – Appearance of the genus Ardipithecus
+    c.5.33 Ma – Zanclean flood: the Strait of Gibraltar opens for the last (and current) time and water from the Atlantic Sea fills again the Mediterranean Sea basin.
+    c.5.333 ± 0.005 Ma – Pliocene epoch begins. First tree sloths and hippopotami. First large vultures. Nimravids go extinct.
+    c.4.8 Ma – The mammoth appears.
+    c.4.5 Ma – appearance of the genus Australopithecus
+    c.3 Ma – Isthmus of Panama joins North and South America. Great American Interchange.
+    c.2.7 Ma – Paranthropus evolve.
+    c.2.6 Ma – current ice age begins
+
+Quaternary Period[edit]
+
+    c.2.58 ± 0.005 Ma – start of the Pleistocene epoch, the Stone Age and the current Quaternary Period; emergence of the genus Homo. Smilodon, the best known of the sabre-toothed cats, appears.
+    c.1.9 Ma – Oldest known Homo erectus fossils. This species might be evolved some time before, up to c.2 Ma ago.
+    c.1.7 Ma – Australopithecines go extinct.
+    c.1.8-0.8 Ma – colonisation of Eurasia by Homo erectus.
+    c.1.5 Ma – earliest possible evidence of the controlled use of fire by Homo erectus
+    c.1.2 Ma – Homo antecessor evolves. Paranthropus dies out.
+    c.0.79 Ma – earliest demonstrable evidence of the controlled use of fire by Homo erectus
+    c.0.7 Ma – last reversal of the earth's magnetic field
+    c.0.64 Ma – Yellowstone caldera erupts
+    c.0.6 Ma – Homo heidelbergensis evolves.
+    c.0.3 Ma – Approximate age of Canis lupus. Middle Stone Age begins in Africa.
+    c.0.25 Ma – Neanderthals evolve.
+    c.0.2 Ma – Middle Paleolithic begins. Appearance of Homo sapiens in Africa
+    c.0.1 Ma – A fire caused by fragments of a comet consumed about 10 percent of the land surface of the Earth, or about 10 million square kilometres, which in turn caused another ice age[20]
