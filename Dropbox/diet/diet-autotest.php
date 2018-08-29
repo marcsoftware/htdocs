@@ -33,7 +33,7 @@ function testing(){
 	};
 	   
 	print(JSON.stringify(item));
-	testItem(item);
+	addNew(item);
 	print(JSON.stringify(item));
 
 	if(item.total_cals=='1000'){
@@ -60,7 +60,7 @@ function testing(){
 	};
 	   
 	print(JSON.stringify(item));
-	testItem(item);
+	addNew(item);
 	print(JSON.stringify(item));
 
 	if(item.total_cals=='600'){
@@ -114,57 +114,6 @@ function testing(){
                 xmlhttp.send();   
         }
 
-
-
-          function testItem(item){
-                         
-            var xmlhttp;    
-
-             if(item.name.includes(':')){
-                item.total_cals='0';
-                item.total_amount='0null';
-                item.amount_per_serv='0null';
-                item.cal_per_serv='0';
-               // sendToDatabase(item);
-                
-                return;
-
-            }
-
-            //copy any numerals in the name into the total_amount field
-            moveNumerals(item);
-
-            if(!item.amount_per_serv && !item.cal_per_serv){
-                getStats(item.name);
-                //alert(global_stats[3]+'---'+global_stats[4]);
-                item.cal_per_serv=global_stats[3];
-                item.amount_per_serv=global_stats[4];
-
-            }
-
-
-
-
-            //TODO needs to account for labels
-            
-            doBasicMath(item); // does simple arithmetic if present eg: 2.5*3 calories
-            
-
-            guess(item);
-
-            removeSynonyms(item);
-
-           doUnitConversion(item);// converts all labels to be compatable for algebra
-           
-
-
-            doAlgebra(item); //fills in all the gaps that it can.
-
-            doMoveAround(item);
-
-            //sendToDatabase(item);
-       
-        }
 
 
 
