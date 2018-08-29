@@ -84,7 +84,6 @@ der Onkel	the uncle
 die Nichte	the niece
 der Neffe	the nephew
 der Cousin	the cousin
-der Cousin	the cousin
 die Cousine	the cousin
 der Zwilling	the twin
 der Urenkel	the great-grandson
@@ -97,7 +96,7 @@ verheiratet	married
 seit	since
 von	from
 mit	with
-nach	nach
+nach	after
 der Körper	the body
 der Kopf	the head
 das Haar	the hair
