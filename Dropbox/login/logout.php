@@ -24,5 +24,5 @@ session_destroy();
 include '../header.php';
 
 
-   echo 'You are logged out.' 
+   echo 'You are logged out.' ;
     	

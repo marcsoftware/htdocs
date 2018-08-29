@@ -1,7 +1,5 @@
- <?php include '../header.php';?>
- <?php
-    
-?>
+<?php include '../header.php';?>
+
  <!DOCTYPE html>
  <!-- in this version the user clicks based on the commentary -->
 <html>
@@ -22,7 +20,7 @@
 body{
       background-color:  #003d99 ;
       background-image: url("wallpaper-green-boxes.png");
-      background-color: grey;
+      color: grey;
       background-size: 5px;
   
   
