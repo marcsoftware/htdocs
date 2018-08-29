@@ -21,16 +21,6 @@
 
     $result = $conn->query($sql);
 }
-    //make the buttons
-    //global var : mode
-    function makeButton($file){
-
-    $tempalte = <<< EOF
-    <p>Hello</p>
-    
-EOF;
-        echo str_replace("world","Peter","Hello world!");
-    }
 
 
     $folder = '../pure_code/material/german/duolingo';
