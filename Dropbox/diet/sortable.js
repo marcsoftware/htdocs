@@ -116,22 +116,40 @@ YUI().use('dd-constrain', 'dd-proxy', 'dd-drop', function(Y) {
 */
 
 function getChange(yui_ref){
-    
+
+    var before=[],after=[];
     var id=yui_ref.get('id');
-    
+    var before_name;
+    var after_name;
     var ref=document.getElementById(id);
     var info=(ref.children[0].innerHTML.split(',')); 
 
-    var after =ref.nextSibling.children[0].innerHTML.split(','); 
-    var before = ref.previousSibling.children[0].innerHTML.split(','); 
+    try{
+         after =ref.nextSibling.children[0].innerHTML.split(','); 
+         after_name = ref.nextSibling.children[1].value;
+    }catch(e){
+        // no element exsists. already the end of the list
+        console.log('no after');
+        after[0]=null;
 
-    var median = (getMedian(before[0],after[0]));
+    }
+    try{
+         before = ref.previousSibling.children[0].innerHTML.split(','); 
+         before_name = ref.previousSibling.children[1].value;
+    }catch(e){
+        //begining of list. so before does not exsist
+        console.log('no before');
+        before[0]=0;
+    }
+
+    console.log(before_name+'---'+after_name);
+    var median = (getMedian(before[1],after[1]));
 
     info[0]=median;
     database_id=info[1];
     info.join(',');
     ref.children[0].innerHTML=info;
-
+    console.log('=>'+median);
     fix(database_id,'custom_sort',median);
 
 
@@ -181,9 +199,21 @@ function fix(id,field,value){
 */
 
 function getMedian(x,y){
-    var dis= parseInt(y)-parseInt(x);
+    console.log(x+':'+y)
+    if(y==null || y == undefined){
+        y=parseInt(x)-100;
+    }
+
+
+    if(x==null || x== undefined){
+        x=parseInt(y)+100;
+    }
+
     
+    var dis= parseInt(y)-parseInt(x);
+     console.log(x+':'+y)
     dis=parseFloat(dis/2);
+    console.log(parseInt(x)+dis);
     return parseInt(x)+dis;
 
 }

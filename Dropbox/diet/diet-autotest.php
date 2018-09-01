@@ -67,7 +67,7 @@ function testing(){
 		print('✔️ 1xl is 600 cals');
 
 	}else{
-		print('❌️ 1xl is 600xl');
+		print('❌️ 1xl is 600cals');
 	}
 
 
@@ -136,6 +136,8 @@ function testing(){
 	<p id='netCal'></p>
 	<p id='rate'></p>
 	<p id='suggestions'></p>
+	<p id='more_labels'></p>
+	<p id='suggestion_label'></p>
 </div>
 </body>
 </html>

@@ -194,7 +194,7 @@
                     global_list=list;
                     list=removeDuplicates(list);
                     
-                    
+                    console.log('list:'+list);
 
                     populateLabelForm(list); 
                     
@@ -247,7 +247,7 @@
             var index = label.indexOf(x[1].toString().replace(/s(?:\s|$)/g,'')); //get rid of S at the end so that cups will match cup for example
 
             if(index === -1){
-                console.log(x+' : no match');
+                //not mach in array label[] so can't be converted
                 return false;
             }
             
@@ -281,6 +281,7 @@
         /**
         //---------------------------------------------------------------------
         // makes labels compatible for doing algebra
+
         //---------------------------------------------------------------------
         */
         function doUnitConversion(item){
@@ -301,7 +302,7 @@
                     var label = 1; //make INDEXs more readable
                     var unit = 0;
 
-                    if(consumed[label]==='null' && item.total_cals  && serving[label] !== 'null'){
+                    if(consumed[label]==='null' && item.total_cals  && serving[label] !== 'null'){ // assume that label is OZ
                         consumed[label]='oz'; 
                         item.total_amount=consumed[unit]+consumed[label];
                     }
@@ -311,11 +312,32 @@
                         //if labels match our job is done.
                         return;
                     }else if(!item.total_amount && !item.total_cals){
-                        return; 
+                        return; // nothing can be done
                     }
 
 
-                    if(serving[label] !== 'oz' && serving[label] !== 'null' ){
+                    if(consumed[label] !== 'oz' && consumed[label] !== 'null' ){
+                   
+                        if(!convertToOz(consumed,consumed[label])){
+                            //can't convert
+                            getCustomLabel(item.name);
+
+                             var index = global_list.indexOf(consumed[label]+'');
+                             console.log('index; '+index);
+                            if(index>=0){
+
+                                item.cal_per_serv=global_list[index+2];
+                                item.amount_per_serv=global_list[index+1]+' '+global_list[index];
+                                console.log('=> '+global_list);
+                                console.log('=> '+JSON.stringify(item));
+                            }                                
+                        }else{
+                            consumed = convertToOz(serving,consumed[label])
+                            
+                        }
+                        item.amount_per_serv=consumed[unit]+' '+consumed[label]; 
+                        
+                    }else if(serving[label] !== 'oz' && serving[label] !== 'null' ){
                         
                         if(!convertToOz(serving,consumed[label])){
                             
@@ -326,7 +348,7 @@
 
                                 item.cal_per_serv=global_list[index+2];
                                 item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                                
+                                console.log('=> '+global_list);
                             }                                
                         }else{
                             serving = convertToOz(serving,consumed[label])
@@ -336,25 +358,7 @@
                         item.amount_per_serv=serving[unit]+' '+serving[label]; // y[0] in the number, and y[1] is the unit label
                         
                     
-                    }else if(consumed[label] !== 'oz' && consumed[label] !== 'null' ){
-                   
-                        if(!convertToOz(consumed,consumed[label])){
-                            //can't convert
-                            getCustomLabel(item.name);
-
-                             varindex = global_list.indexOf(consumed[label]+'');
-                            if(index>=0){
-
-                                item.cal_per_serv=global_list[index+2];
-                                item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                            }                                
-                        }else{
-                            consumed = convertToOz(serving,consumed[label])
-                            
-                        }
-                        item.amount_per_serv=consumed[unit]+' '+consumed[label]; 
-                        
-                    }
+                    } 
 
                         
                     
@@ -407,7 +411,7 @@
         //arg: item should be an object with 5 fields.
         //
         function addNew(item){
-                         
+                 console.log('addnew()'+item.total_amount);        
             var xmlhttp;    
 
              if(item.name.includes(':')){
@@ -444,7 +448,7 @@
 
             removeSynonyms(item);
 
-           doUnitConversion(item);// converts all labels to be compatable for algebra
+            doUnitConversion(item);// converts all labels to be compatable for algebra
            
 
 
@@ -1184,7 +1188,7 @@
         var timouthandle;
         clearTimeout(timouthandle);
         function init(){
-            
+            document.title+='diet';
             debug=document.getElementById('debug');
 
             getData();
