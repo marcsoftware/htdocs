@@ -145,8 +145,8 @@ function getChange(yui_ref){
     
     var median = (getMedian(before[1],after[1]));
 
-    info[1]=median;
-    database_id=info[0];
+    info[0]=median;
+    database_id=info[1];
     info.join(',');
     ref.children[0].innerHTML=info;
     console.log(info);
