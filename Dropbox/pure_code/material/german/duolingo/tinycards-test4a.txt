@@ -1,0 +1,143 @@
+﻿ohne	without
+gegen	against
+durch	through
+für	for
+entlang	along
+es gibt	there are
+eins	one
+Zwei	two
+drei	three
+vier	four
+fünf	five
+sechs	six
+sieben	seven
+acht	eight
+Neun	nine
+zehn	ten
+elf	eleven
+zwölf	twelve
+dreizehn	thirteen
+vierzehn	fourteen
+fünfzehn	fifteen
+Sechszehn	sixteen
+siebzehn	seventeen
+achtzehn	eighteen
+neunzehn	nineteen
+die Zahl	the number
+zählen	to count
+die Summe	the sum
+die Hälfte	the half
+das Dutzend	the dozen
+das Telefon	the phone
+das Frühstück	breakfast
+wir frühstücken	we eat breakfast
+die Butter	the butter
+die Marmelade	the jam
+das Müsli	the cereal
+die Nuss	The Nut
+der Honig	the honey
+das Mittagsessen	the lunch
+salzig	salty
+das Rezept	the recipe
+die Tomate	the tomato
+der Pilz	the mushroom
+das Hähnchen	the chicken
+ich koche	I cook
+die Zitrone	the lemon
+das Getränk	the drink
+die Speisekarte	the menu
+die Vorspeise	the appetizer
+der Salat	the salad
+der Knoblauch	the garlic
+die Zwiebel	the onion
+der Senf	the mustard
+der Nachtisch	the dessert
+das Abendessen	the dinner
+der Löffel	the spoon
+die Gabel	the fork
+das Messer	the knife
+geben	to give
+zeigen	to show
+sagen	to say
+das Geld	the money
+Kosten	to cost
+der Euro	the euro
+der Cent	cent
+kaufen	to buy
+der Preis	the price
+gewinnen	to win
+der Dollar	the dollar
+Reich	rich
+haben	to have
+besitzen	have
+mir	me
+dir	you
+ihm	him
+das Trinkgeld	the tip
+helfen	to help
+danken	to thank
+gehören	to belong
+ihnen	them
+Folgen	to follow
+die Tante	the aunt
+der Onkel	the uncle
+die Nichte	the niece
+der Neffe	the nephew
+der Cousin	the cousin
+die Cousine	the cousin
+der Zwilling	the twin
+der Urenkel	the great-grandson
+die Partnerschaft	the partnership
+die Hochzeit	the wedding
+schwanger	pregnant
+der Halbbruder	the half-brother
+die Halbschwester	the half-sister
+verheiratet	married
+seit	since
+von	from
+mit	with
+nach	after
+der Körper	the body
+der Kopf	the head
+das Haar	the hair
+das Auge	the eye
+das Ohr	the ear
+die Nase	the nose
+der Mund	the mouth
+der Zahn	the tooth
+der Hals	the neck
+der Arm	the arm
+sterben Hand	the hand
+der Finger	the finger
+die Schulter	the shoulder
+der Rücken	the back
+die Brust	the chest
+die Brust	the breast
+der Magen	the stomach
+das Herz	the heart
+das Bein	the leg
+die Haut	the skin
+der Fuß	the foot
+das Blut	the blood
+das Gesicht	the face
+irgendwie	somehow
+irgendwann	sometime
+einkaufen	shop
+die Bäckerei	the bakery
+der Laden	the load
+das Geschäft	the store
+verkaufen	to sell
+der Kunde	the customer
+der Supermarkt	the supermarket
+der Einkauf	the purchase
+die Kasse	the cash register
+die Tüte	the bag
+der Gutschein	the coupon
+Einkaufen	shopping
+die Apotheke	the pharmacy
+billig	cheap
+gratis	free
+Österreich	austria
+das Auto	the car
+Wien	Vienna
+der Zug	the train

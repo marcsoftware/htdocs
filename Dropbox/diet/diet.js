@@ -95,7 +95,7 @@
         // Called when user edits an ITEM
         //---------------------------------------------------------------------
         */
-        function changeItem(){
+        function changeItemNOTUSED(){
 
                 //TODO call from the ELEMENTS in the RESULT menu
                 var name =  document.getElementById('name').value;
@@ -587,7 +587,10 @@
         //---------------------------------------------------------------------
         */
         function recalculate(id,field,value,item){
-              
+             
+             if(value == '') {
+                return; //don't do anything. user might want to change another field .
+             }
              var item= createItemObject(id);
              var record = document.getElementsByName(id);
              
@@ -614,7 +617,7 @@
 
 
              addNew(item);
-                sendToDatabase(item);   
+             sendToDatabase(item);   
              softReset();
         }
 
