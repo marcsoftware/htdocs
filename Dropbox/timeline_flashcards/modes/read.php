@@ -10,9 +10,9 @@
  $fileName = ($_GET["fileName"]);
   $folder = ($_GET["folder"]);
  $mode = ($_GET["mode"]);
-  $file_path=$folder.'/'.$fileName ;
+  $file_path="../$folder/$fileName ";
 
-
+$contents= file_get_contents($file_path);
 
 
 ?>
@@ -21,8 +21,33 @@
 
 
 <style>
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin-left: 100px;
+    margin-right: 100px;
+} 
 
 
+p {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    white-space: -moz-pre-wrap; 
+    
+
+        white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+} 
+
+body{
+
+    font-size: 20px;
+}
 </style>
 
 
@@ -30,15 +55,20 @@
 
 <script type='text/javascript'>
 
-
-
+function init(){
+	
+}
 
 
 
 </script>
+<body onload='init()'>
 
+<p id='file'>
+	<?php echo $contents;
+	?>
 
-<pre id='file'></pre>
+</p>
 
 <p class='small'>
   <span id='navBar'></span><br/>
@@ -52,4 +82,5 @@
 
 
 <p id='buffer'></p> <!-- this <p> is a buffer to stop the bottom fixed menu <small> from hidding content at the bottom of the page-->
+</body>
 </html>

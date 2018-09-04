@@ -14,6 +14,8 @@
                     
                  
                    <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> read </a><br/>
+                   <a class='hyperlink' onclick=nextPage(this,'study.php') rel='$file' name='$folder'> study </a><br/>
+                   <a class='hyperlink' onclick=nextPage(this,'blurry.php') rel='$file' name='$folder'> blurry </a><br/>
                     ";
         
         echo $template;
