@@ -122,8 +122,12 @@ function getChange(yui_ref){
     var before_name;
     var after_name;
     var ref=document.getElementById(id);
-    var info=(ref.children[0].innerHTML.split(',')); 
-
+    var info;
+    try{
+        info=(ref.children[0].innerHTML.split(',')); 
+    }catch(e){
+        console.log('-----'+id);
+    }
     try{
          after =ref.nextSibling.children[0].innerHTML.split(','); 
          after_name = ref.nextSibling.children[1].value;
@@ -143,13 +147,13 @@ function getChange(yui_ref){
     }
 
     
-    var median = (getMedian(before[1],after[1]));
+    var median = (getMedian(before[0],after[0]));
 
     info[0]=median;
     database_id=info[1];
     info.join(',');
     ref.children[0].innerHTML=info;
-    console.log(info);
+    console.log(before_name+':'+before[0]+'-('+info+')');
     
 
     fix(database_id,'custom_sort',median);
@@ -203,12 +207,14 @@ function fix(id,field,value){
 function getMedian(x,y){
     
     if(y==null || y == undefined){
-        y=parseInt(x)-100;
+        y=parseInt(x)+100;
+        
     }
 
 
     if(x==null || x== undefined){
         x=parseInt(y)+100;
+        
     }
 
     

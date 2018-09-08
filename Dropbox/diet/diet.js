@@ -691,7 +691,9 @@
             //total_cals
              if(total_cals!==null && total_cals!==undefined && total_cals.length != 0){
                 if(total_cals.toString().indexOf(".")>=0){
-                    total_cals=total_cals.toFixed(2);
+                    try{
+                        total_cals=total_cals.toFixed(2);
+                    }catch(e){}
                 }
                 total_cals='&total_cals='+total_cals;
             }else{
@@ -716,7 +718,7 @@
                 cal_per_serv='';
             }
 
-
+            console.log(id);
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();

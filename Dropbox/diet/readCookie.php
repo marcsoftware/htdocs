@@ -37,7 +37,7 @@
         die("Connection failed: " . $conn->connect_error);
     }
     
-    $sql = "SELECT * from diet where date='$today' and customer_name='$customer_name' ORDER BY  custom_sort DESC ";
+    $sql = "SELECT * from diet where date='$today' and customer_name='$customer_name' ORDER BY  custom_sort ASC ";
 
     $result = $conn->query($sql);
 

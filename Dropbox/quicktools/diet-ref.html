@@ -1,0 +1,64 @@
+<script type='text/javascript'>
+window.onload = init;
+
+var handle;
+var image_url= `<img src="pictures/IMAGE_NAME.png"  > `;
+function init(){
+  handle = document.getElementById('pictures');
+}
+
+function fruit(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'fruit1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'fruit2');
+}
+
+function veg(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'veg1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'veg2');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'veg3');
+}
+
+function grain(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'grain1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'grain2');
+}
+
+function diary(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'diary1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'diary2');
+}
+
+
+function protein(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'protein1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'protein2');
+}
+
+function oil(){
+	handle.innerHTML = image_url.replace(/IMAGE_NAME/g,'oil1');
+	handle.innerHTML += image_url.replace(/IMAGE_NAME/g,'oil2');
+}
+
+
+</script>
+<style type="text/css">
+
+img {
+    float: up;
+}
+</style>
+<html>
+<title>myplate reference quick</title>
+<body >
+
+
+<button onclick="fruit()">fruit</button>
+<button onclick="veg()">veg</button>
+<button onclick="grain()">grain</button>
+<button onclick="diary()">diary</button>
+<button onclick="protein()">protein</button>
+<button onclick="oil()">oil</button>
+
+<div id='pictures'></div>
+</body>
+<html>
