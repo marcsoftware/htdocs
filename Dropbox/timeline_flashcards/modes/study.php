@@ -76,13 +76,20 @@ function init(){
 	original = document.getElementById('file').innerHTML;
 	
 
-
+    //make study version
 	var study_file=original.replace(/[a-zA-Z]+/g, function (x) {
         return shuffleWord(x);
     });
 
 	
 	document.getElementById('study_file').innerHTML=study_file;
+
+    //make hard version
+    var hard_file=original.replace(/[a-zA-Z]+/g, function (x) {
+        return hideWord(x);
+    });
+
+    document.getElementById('hard_file').innerHTML=hard_file;
 }		
 
 
@@ -142,6 +149,35 @@ function shuffleWord(word){
 }
 
 
+/*
+//----------------------------------------------------------------------
+//
+//----------------------------------------------------------------------
+*/
+function hideWord2(word){
+    var first_letter = word.charAt(0);
+
+    word=word.replace(/./g,'◦');
+    word=word.replace(/^./g,first_letter);
+    
+    return word;
+}
+
+
+/*
+//----------------------------------------------------------------------
+//
+//----------------------------------------------------------------------
+*/
+function hideWord(word){
+    var first_letter = word.charAt(0);
+
+    word=word.replace(/[^aeiou]/g,'●');
+    word=word.replace(/^./g,first_letter);
+    
+    return word;
+}
+
 
 /*
 //----------------------------------------------------------------------
@@ -149,6 +185,7 @@ function shuffleWord(word){
 //----------------------------------------------------------------------
 */
     // TODO press enter to submit 
+    var global_mode=0;
     $(document).ready(function(){
         
       
@@ -159,6 +196,10 @@ function shuffleWord(word){
             
             var file=document.getElementById('file');
             var study_file=document.getElementById('study_file');
+            var hard_file=document.getElementById('hard_file');
+
+            var test  = [study_file,hard_file];
+             
 
             if(e.keyCode ){ //numpad 1 is 97
                                                  
@@ -166,11 +207,30 @@ function shuffleWord(word){
              
                 if (file.style.display === "none") {
                     file.style.display = "block";
-                    study_file.style.display = "none";
+                    test[global_mode].style.display = "none";
                 } else {
                     file.style.display = "none";
-                    study_file.style.display = "block";
+                    test[global_mode].style.display = "block";
                 }
+
+
+                // keycode 51 is the '3' key
+                 if(e.keyCode ==51 ){ //numpad 1 is 97
+                    file.style.display = "none";
+                    test[0].style.display = "none";
+                    test[1].style.display = "block";
+                    global_mode=1;
+
+                 }
+
+                 // keycode 51 is the '3' key
+                 if(e.keyCode ==50 ){ //numpad 1 is 97
+                    file.style.display = "none";
+                    test[0].style.display = "block";
+                    test[1].style.display = "none";
+                    global_mode=0;
+
+                 }
             }
 
             
@@ -191,6 +251,12 @@ function shuffleWord(word){
 <p id='study_file'>
 	
 	
+
+</p>
+
+<p id='hard_file'>
+    
+    
 
 </p>
 
