@@ -129,7 +129,7 @@
     test( $amount_per_serv_unit );
     test( $cal_per_serv );
 
-    echo '---------'.$cal_per_serv;
+    
     //if doen't have a name then dont add to database
     if(!isset($name)){
         return;
@@ -166,13 +166,26 @@
         }
 
 
-        $sql = "delete from diet where id=$id";
+        
         $conn->query($sql);
 
-         $sql = "INSERT INTO diet
-            VALUES (
-        $id, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',0
-            )";
+
+        //$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
+
+         $sql = "update diet
+    set
+                    date='$date',
+                    name='$name',
+
+                    total_cals=$total_cals,
+                    total_amount_label='$total_amount_label',
+                    total_amount_unit=$total_amount_unit,
+                    
+                    amount_per_serv_unit=$amount_per_serv_unit,
+                    amount_per_serv_label='$amount_per_serv_label',
+                    cal_per_serv=$cal_per_serv,
+                    customer_name='$customer_name'
+                where id=$id";
             
     }       
 

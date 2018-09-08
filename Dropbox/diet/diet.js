@@ -194,7 +194,7 @@
                     global_list=list;
                     list=removeDuplicates(list);
                     
-                    console.log('list:'+list);
+               
 
                     populateLabelForm(list); 
                     
@@ -323,13 +323,12 @@
                             getCustomLabel(item.name);
 
                              var index = global_list.indexOf(consumed[label]+'');
-                             console.log('index; '+index);
+                          
                             if(index>=0){
 
                                 item.cal_per_serv=global_list[index+2];
                                 item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                                console.log('=> '+global_list);
-                                console.log('=> '+JSON.stringify(item));
+                             
                             }                                
                         }else{
                             consumed = convertToOz(serving,consumed[label])
@@ -348,7 +347,7 @@
 
                                 item.cal_per_serv=global_list[index+2];
                                 item.amount_per_serv=global_list[index+1]+' '+global_list[index];
-                                console.log('=> '+global_list);
+                               
                             }                                
                         }else{
                             serving = convertToOz(serving,consumed[label])
@@ -411,7 +410,7 @@
         //arg: item should be an object with 5 fields.
         //
         function addNew(item){
-                 console.log('addnew()'+item.total_amount);        
+                     
             var xmlhttp;    
 
              if(item.name.includes(':')){
@@ -456,6 +455,7 @@
 
             doMoveAround(item);
 
+            
       
        
         }
@@ -599,9 +599,9 @@
             //need to delete extra fields so that we know which fields need to be recalculated  
             if(field==='total_amount' && isTrue(item.cal_per_serv)){
                 
-                item.total_cals +='';
+                item.total_cals ='';
              }else if(field==='total_cals' && isTrue(item.cal_per_serv)){
-                itemtotal_amount ='';
+                item.total_amount ='';
                 
              }else if(field==='cal_per_serv'){
                 
@@ -615,6 +615,9 @@
                 item.amount_per_serv='';
              }
 
+             if(id){
+                item.id=id;
+             }
 
              addNew(item);
              sendToDatabase(item);   
@@ -718,7 +721,7 @@
                 cal_per_serv='';
             }
 
-            console.log(id);
+           
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
@@ -856,7 +859,7 @@
                     var unit = removeLabel(item.amount_per_serv)[0];
                     unit = parseFloat(unit);
                     item.total_amount=((item.total_cals/item.cal_per_serv)*unit)+label; 
-                    console.log('here');
+                  
                     
                 }else if(!isTrue(item.total_cals) && isTrue(item.total_amount)){
                     
