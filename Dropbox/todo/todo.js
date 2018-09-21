@@ -12,7 +12,7 @@ $(window).keypress(function(event) {
     return false;
 });
 
-
+document.title+='todo';
 
 window.filter='active';
 window.projectName='';
@@ -224,6 +224,11 @@ function update(name,project,body){
         x= x.split("{comma}");
         var id = x.shift(); // get the ID 
         
+        if(id==lastFocus){
+    		global_currentItemId=id;
+            document.cookie='lastFocus='+id;
+            document.getElementById('currentBody').value=x[2];
+        }
         
         var field = ['project','name','body','date','isDone']; // make sure this corresponds to the database/table 
                                                     // and the readCookie.php output
@@ -254,7 +259,9 @@ function update(name,project,body){
         inputName.onfocus =  function () {  
             //show textarea on right
             global_currentItemId=id;
-            document.getElementById('currentBody').value=x[2];
+            document.cookie='lastFocus='+id;
+            
+            readrecord(id);
         };
 
 
@@ -501,6 +508,45 @@ console.log(id);
 
     }
     
+
+    /**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/    
+    //read one record in database
+    
+    function readrecord(id){
+
+        
+
+        
+        var xmlhttp;    
+        
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+                
+                result = (xmlhttp.responseText);
+                
+                
+                document.getElementById('currentBody').value=result; 
+
+                
+            }
+        }
+        
+        xmlhttp.open("GET","/Dropbox/todo/readrecord.php?id="+id,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+
+    }
 /**
 //-----------------------------------------------------------
 //
@@ -518,10 +564,11 @@ console.log(id);
 //
 //-----------------------------------------------------------
 */
-
+var lastFocus;
     function init(){
         
-
+    	 lastFocus=getCookie('lastFocus');
+    	console.log(lastFocus);
         getProjectNames();
         setFilter(document.getElementById('startblue'));
         //make calorie bar
@@ -533,5 +580,27 @@ console.log(id);
         var currentBody=document.getElementById('currentBody');
         currentBody.onchange =  function () {  
             fix(global_currentItemId, 'body',this.value);
+            //TODO
         };              
     }
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+
+    function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
