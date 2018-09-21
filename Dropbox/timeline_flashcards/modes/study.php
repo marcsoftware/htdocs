@@ -67,6 +67,9 @@ body{
 var original;
 var handle;
 
+
+
+var file,study_file,hard_file,gap_file,test;            
 /*
 //----------------------------------------------------------------------
 //
@@ -90,6 +93,21 @@ function init(){
     });
 
     document.getElementById('hard_file').innerHTML=hard_file;
+
+
+    //make gap version
+    var gap_file=original.replace(/[a-zA-Z]+/g, function (x) {
+        return gapWord(x);
+    });
+
+    document.getElementById('gap_file').innerHTML=gap_file;
+
+        file=document.getElementById('file');
+     study_file=document.getElementById('study_file'); //letter rearranged
+     hard_file=document.getElementById('hard_file');//consonants missing
+     gap_file=document.getElementById('gap_file'); // words missing
+     test  = [study_file,hard_file,gap_file];
+
 }		
 
 
@@ -181,6 +199,58 @@ function hideWord(word){
 
 /*
 //----------------------------------------------------------------------
+//
+//----------------------------------------------------------------------
+*/
+var global_last=1;
+function gapWord(word){
+    
+    var length = word.length;
+    if(length<=4){
+        word=hide(word);
+        return word;
+    }
+
+    if(global_last==2){ //show every 2nd key word
+        
+        global_last=1;
+    }else{ //hide word
+        word=hide(word);
+        
+            global_last++;
+        
+    }
+    return word;
+}
+
+function hide(x){
+    return x.replace(/./g,'●');
+}
+
+/*
+//----------------------------------------------------------------------
+// event listener
+//----------------------------------------------------------------------
+*/
+
+function hideOthers(number){
+   
+
+    for(var i=0;i<test.length;i++){
+        if(i==number){
+            test[i].style.display = "block";
+            console.log(i);
+        }else{
+            test[i].style.display = "none";
+        }
+        
+    }
+
+    global_mode=number;
+}
+
+/*
+//----------------------------------------------------------------------
 // event listener
 //----------------------------------------------------------------------
 */
@@ -194,11 +264,7 @@ function hideWord(word){
 
         $(document).keyup(function(e,element){ // keyboard event is only attached to "input" elements
             
-            var file=document.getElementById('file');
-            var study_file=document.getElementById('study_file');
-            var hard_file=document.getElementById('hard_file');
-
-            var test  = [study_file,hard_file];
+            
              
 
             if(e.keyCode ){ //numpad 1 is 97
@@ -213,27 +279,33 @@ function hideWord(word){
                     test[global_mode].style.display = "block";
                 }
 
-
-                // keycode 51 is the '3' key
-                 if(e.keyCode ==51 ){ //numpad 1 is 97
+                // keycode 52 is the '4' key
+              if(e.keyCode ==52 ){ 
                     file.style.display = "none";
-                    test[0].style.display = "none";
-                    test[1].style.display = "block";
-                    global_mode=1;
+                    
+                    hideOthers(2);
 
                  }
 
-                 // keycode 51 is the '3' key
-                 if(e.keyCode ==50 ){ //numpad 1 is 97
+
+                // keycode 51 is the '3' key
+                 if(e.keyCode ==51 ){ 
                     file.style.display = "none";
-                    test[0].style.display = "block";
-                    test[1].style.display = "none";
-                    global_mode=0;
+                    
+                    hideOthers(1);
+
+                 }
+
+                 // keycode 50 is the '2' key
+                 if(e.keyCode ==50 ){ 
+                    file.style.display = "none";
+                    
+                    hideOthers(0);
 
                  }
             }
 
-            
+
 
         });
 
@@ -248,17 +320,9 @@ function hideWord(word){
     ?>
 
 </p>
-<p id='study_file'>
-	
-	
-
-</p>
-
-<p id='hard_file'>
-    
-    
-
-</p>
+<p id='study_file'></p>
+<p id='hard_file'></p>
+<p id='gap_file'></p>
 
 <p class='small'>
   <span id='navBar'></span><br/>
