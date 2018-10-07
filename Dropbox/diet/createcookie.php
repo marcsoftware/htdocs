@@ -22,15 +22,6 @@
     require_once('../passwords/db_const.php');
     $dbname = "diet";
 
-
-
-  
-    
-   
-   
-  
-    
-
     //
     if(!isset($_GET["name"])){
         $name='';
@@ -39,7 +30,7 @@
     }
 
     if(!isset($_GET["total_cals"])){
-        $total_cals='';
+        $total_cals='null';
     }else{
         $total_cals=$_GET["total_cals"]; 
     }
@@ -152,24 +143,39 @@
     if($id == 0){ //insert a new record
         $sql = "INSERT INTO diet
             VALUES (
-                    NULL, '$date', '$name', $total_cals, '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',$time
+                    NULL, '$date', '$name', '$total_cals', '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',$time
             )";
        
-    }else{ //update an old record
+    }else{ //update an old record. If user updates an old record this will work and not change date. 
+        //TODO need to just pass date from js. then we can make this file more
 
         $sql = "select date from diet where id=$id"; // preserve the date
         $result = $conn->query($sql); //TODO need to process $date before we use it
         
 
-        while($row = $result->fetch_assoc()) {
-            $date= $row['date'];
-        }
 
-
+        $row = $result->fetch_assoc();
+        
         
         $conn->query($sql);
 
+        if(!$row){
+          $sql = "insert into diet
+    set
+                    date='$date',
+                    name='$name',
 
+                    total_cals='$total_cals',
+                    total_amount_label='$total_amount_label',
+                    total_amount_unit=$total_amount_unit,
+                    
+                    amount_per_serv_unit=$amount_per_serv_unit,
+                    amount_per_serv_label='$amount_per_serv_label',
+                    cal_per_serv=$cal_per_serv,
+                    customer_name='$customer_name',
+                 id=$id";
+        }else{
+$date=$row['date'];
         //$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
 
          $sql = "update diet
@@ -177,7 +183,7 @@
                     date='$date',
                     name='$name',
 
-                    total_cals=$total_cals,
+                    total_cals='$total_cals',
                     total_amount_label='$total_amount_label',
                     total_amount_unit=$total_amount_unit,
                     
@@ -187,7 +193,7 @@
                     customer_name='$customer_name'
                 where id=$id";
             
-    }       
+    }  }     
 
 echo $sql;
     $result = $conn->query($sql);

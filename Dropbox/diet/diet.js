@@ -721,7 +721,6 @@
                 cal_per_serv='';
             }
 
-           
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
