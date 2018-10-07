@@ -69,7 +69,7 @@ var handle;
 
 
 
-var file,study_file,hard_file,gap_file,test;            
+var file,study_file,hard_file,gap_file,three_file,test;            
 /*
 //----------------------------------------------------------------------
 //
@@ -102,11 +102,20 @@ function init(){
 
     document.getElementById('gap_file').innerHTML=gap_file;
 
+     //make three-letter version
+    var three_file=original.replace(/[a-zA-Z]+/g, function (x) {
+        return threeWord(x);
+    });
+
+    document.getElementById('three_file').innerHTML=three_file;
+
+
         file=document.getElementById('file');
      study_file=document.getElementById('study_file'); //letter rearranged
      hard_file=document.getElementById('hard_file');//consonants missing
      gap_file=document.getElementById('gap_file'); // words missing
-     test  = [study_file,hard_file,gap_file];
+     three_file=document.getElementById('three_file'); // words missing
+     test  = [study_file,hard_file,gap_file,three_file];
 
 }		
 
@@ -177,6 +186,23 @@ function hideWord2(word){
 
     word=word.replace(/./g,'◦');
     word=word.replace(/^./g,first_letter);
+    
+    return word;
+}
+
+/*
+//----------------------------------------------------------------------
+//
+//----------------------------------------------------------------------
+*/
+function threeWord(word){
+    if(word.length<=3){
+        return word;
+    }
+    var first_three_letter = word.substr(0, 3);
+
+    word=word.replace(/./g,'◦'); //repalce all letters
+    word=word.replace(/^.../g,first_three_letter); //re-add the firs three letters
     
     return word;
 }
@@ -279,6 +305,16 @@ function hideOthers(number){
                     test[global_mode].style.display = "block";
                 }
 
+
+
+                // keycode 53 is the '5' key
+                 if(e.keyCode ==53 ){ 
+                    file.style.display = "none";
+                    
+                    hideOthers(3);
+
+                 }
+
                 // keycode 52 is the '4' key
               if(e.keyCode ==52 ){ 
                     file.style.display = "none";
@@ -303,6 +339,8 @@ function hideOthers(number){
                     hideOthers(0);
 
                  }
+
+
             }
 
 
@@ -323,6 +361,7 @@ function hideOthers(number){
 <p id='study_file'></p>
 <p id='hard_file'></p>
 <p id='gap_file'></p>
+<p id='three_file'></p>
 
 <p class='small'>
   <span id='navBar'></span><br/>
