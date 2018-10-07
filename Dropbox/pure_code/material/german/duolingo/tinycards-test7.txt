@@ -1,0 +1,328 @@
+﻿genannt	called
+geprüft	checked
+nachdem	after this
+der Leser	the reader
+die Universität	the university
+der Stift	the pen
+die Grund	the reason
+die Übung	the exercise
+die Note	the grade
+die Bildung	the education
+der Test	the test
+die Forschung	the research
+das Studium	the study
+die Klasse	the class
+der Kurs	the course
+das Seminar	the seminar
+studieren	to study
+die Ausbildung	the education
+das Training	the training
+das Institut	the institute
+der Unterricht	the lesson
+die Akademie	the academy
+die Erziehung	the education
+die Uni	the University
+die Weiterbildung	the further education
+die Prüfung	the exam
+der Kindergarten	the kindergarten
+der Fachbereich	the subject area
+überlegen	to consider
+geschlossen	closed
+gekauft	bought
+die Verzeihung	the forgiveness
+naja	well
+die Wissenschaft	the science
+die Definition	the definition
+die Erfindung	the invention
+die Technologie	the technology
+die Theorie	the theory
+die Kenntnis	the knowledge
+die Physik	physics
+die Energie	the energy
+die Temperatur	the temperature
+die Strahlung	the radiation
+Achtung	warning
+der Motor	the motor
+messen	to measure
+das Wissen	the knowledge
+Technik	technology
+Statistik	statistics
+die Studie	the study
+die Maschine	the machine
+die Methode	the method
+Biologie	biology
+der Wissenschaftler	the scientist
+die Wissenschaftlerin	the scientist
+das Praktikum	the internship
+das Gas	the gas
+Chemie	chemistry
+der Kunststoff	the plastic
+die Analyse	the analysis
+der Nachweis	the proof
+die Atmosphäre	the atmosphere
+sich	themselves
+fühlen	to feel
+lohnen	to be worth
+ergeben	to yield
+interessieren	to interest
+melden	to report
+setzen	to sit
+sorgen	to care
+anschauen	look at
+holen	to get
+anmelden	to sign in
+verlaufen	lost
+erinnern	to recall
+die Post	the mail
+der Brief	the letter
+die Adresse	the address
+die Anrede	the salutation
+der Gruß	the greeting
+die Notiz	the note
+der Briefkasten	the mailbox
+senden	to send
+die Brief	the letter
+der Kontakt	the contact
+die Einladung	the invitation
+die Begründung	the reason
+das Thema	the topic
+die Bestätigung	the confirmation
+veröffentlichen	to publish
+der Verlag	the publishing company
+die Meldung	the message
+der Lautsprecher	the speaker
+das Radio	teh radio
+der Sender	the channel
+die Tasche	the bag
+die Anmeldung	the registration
+die Mitteilung	the message
+die Organisation	the organization
+das Unternehmen	the company
+die Fabrik	the factory
+das Büro	the office
+der Inhaber	the owner
+die Bestellung	the order
+der Kollege	the colleague
+die Beratung	the consultation
+das Projekt	the project
+das Management	the management
+der Wettbewerb	the competition
+das Dokument	the document
+die Miete	the rent
+der Beitrag	the contribution
+der Wert	the value
+der Gewinn	the profit
+der Handel	the trade
+der Verbraucher	the consumer
+der Kauf	the purchase
+der Käufer	the buyer
+der Job	the job
+die Bewerbung	the application
+der Anzug	the suit
+die Karriere	the career
+klein	small
+großartig	great
+die Bedeutung	the meaning
+die Idee	the idea
+das Wort	the word
+die Beschreibung	the description
+die Schrift	the font
+die Sprache	the language
+die Geschichte	the story
+die Zustimmung	the approval
+der Text	the text
+erzählen	to tell
+der Bericht	the report
+der Titel	the title
+das Konzept	the concept
+die Meinung	the opinion
+die Erklärung	the explanation
+das Zeichen	the sign
+das Kapitel	the chapter
+das Verzeichnis	the directory
+der Satz	the sentence
+Französisch	French
+die Unterhaltung	the conversation
+die Zusammenfassung	the Summary
+der Begriff	the term
+die Übersetzung	the translation
+bedeuten	to mean
+das Problem	the problem
+das Ziel	the aim
+die Form	the form
+das Verhalten	the behavior
+die Lösung	the solution
+die Änderung	the change
+die Auswahl	the selection
+der Druck	the pressure
+die Empfehlung	the recommendation
+der Nutzen	the use
+die Lage	the location
+das Ding	the thing
+das Engagement	the engagement
+die Hilfe	the help
+die Kompetenz	the competence
+die Entwicklung	the development
+die Sicherheit	the safety
+das Ergebnis	the result
+der Versuch	the attempt
+die Qualität	the quality
+die Zusammenarbeit	the collaboration
+die Gelegenheit	the opportunity
+wertvoll	precious
+die Nähe	the proximity
+das Maß	the measurement
+beißen	to bite
+das Eichhörnchen	the squirrel
+der Fuchs	the fox
+die Gans	the goose
+das Schaf	the sheep
+die Eule	the owl
+der Schmetterling	the butterfly
+fangen	to catch
+der Zoo	the zoo
+der Pinguin	the penguin
+das Säugetier	the mammal
+der Elefant	the elephant
+das Kamel	the camel
+der Löwe	the lion
+reiten	to ride
+die Giraffe	the giraffe
+der Wal	the whale
+der Hamster	the hamster
+die Schildkröte	the turtle
+der Affe	the monkey
+verrückt	crazy
+das Zebra	the zebra
+die Wespe	the wasp
+stechen	to sting
+der Delfin	the dolphin
+das Huhn	the hen
+das Horn	the horn
+der Tiger	the tiger
+die Schlange	the Snake
+harmlos	harmless
+gefährlich	dangerous
+der Hai	the shark
+der Wolf	the wolf
+springen	to jump
+berichten	to report
+bitten	to asking for
+erreichen	to accomplish
+bewerten	to evaluate
+präsentieren	to present
+dienen	to serve
+kontaktieren	to contact
+markieren	to mark
+erleben	to experience
+ermitteln	to determine
+erhöhen	to increase
+ermöglichen	to enable
+berechnen	to calculate
+bewegen	to move
+nennen	to name
+entwickeln	to develop
+treten	to step
+fördern	to promote
+verhindern	to prevent
+vermeiden	to avoid
+verändern	to change
+vergleichen	to compare
+betreffen	to affect
+definieren	to define
+das Gehirn	the brain
+die Stirn	the forehead
+die Lippe	the lip
+die Zunge	the tongue
+das Kinn	the chin
+die Lunge	the lung
+der Bauch	the belly
+der Daumen	the thumb
+der Brust	the chest
+dünn	thin
+die Ferse	the heel
+der Ellbogen	the elbow
+der Knöchel	the ankle
+die Hüfte	the hip
+der Zeh	the toe
+das Knie	the knee
+der Oberschenkel	the thigh
+die Leber	the liver
+der Knochen	the bone
+der Muskel	the muscle
+der Darm	the intestine
+das Organ	the organ
+diskutieren	to discuss
+vergrößern	enlarge
+beachten	to pay attention to
+zahlen	to pay
+anfragen	to inquire
+das Leben	the life
+das Gefühl	the feeling
+der Sinn	the meaning
+die Spiritualität	the spirituality
+die Seele	the soul
+das Wunder	the miracle
+die Hoffnung	the hope
+der Geist	the spirit
+das Schicksal	the fate
+meditieren	to meditate
+wunderschön	very beautiful
+glücklich	happy
+wunderbar	wonderful
+das Gleichgewicht	the balance
+die Wahrheit	the truth
+falls	if
+anfangen	start
+plus	plus
+gleich	equal
+minus	minus
+die Zahlung	the payment
+die Zinsen	the interest
+die Münze	the coin
+der Betrag	the amount
+die Rechnung	the bill
+die Finanzierung	the financing
+die Kredit	the credit
+das Konto	the account
+die Frist	the deadline
+die Planung	the planning
+die Erfahrung	the experience
+die Version	the version
+die Verbesserung	the improvement
+die Basis	the base
+der Unterschied	the difference
+die Kategorie	the category
+die Kraft	the force
+die Unterstützung	the support
+die Liste	the list
+die Menge	the amount
+die Eigenschaft	the characteristic
+das Original	the original
+die Länge	the length
+der Zugang	the access
+die Position	the position
+der Vorschlag	the suggestion
+die Höhe	the height
+das Element	the element
+die Spalte	the column
+die Rolle	the role
+die Einführung	the introduction
+die Verwendung	the usage
+der Hintergrund	the background
+die Anleitung	the instructions
+das Feld	the field
+die Referenz	the reference
+die Stufe	the step
+das Gewicht	the weight
+die Party	the party
+die Einzelheit	the detail
+die Wirkung	the effect
+der Überblick	the overview
+der Blick	the view
+die Kombination	the combination
+der Zustand	the state
+der Kreis	the circle
+die Umsetzung	the implementation
+falls	if
+anfangen	start

@@ -1,0 +1,367 @@
+﻿größer	bigger
+die Größe	the size
+langsamer	slower
+schöner	prettier
+leichter	easier
+wichtiger	more important
+höher	higher
+kleiner	smaller
+besser	better
+länger	longer
+stärker	stronger
+sehr	very
+ziemlich	quite
+super	great
+eher	rather
+normalerweise	usually
+der Haushalt	the household
+die Heizung	the heating
+die Reinigung	the cleaning
+der Umzug	the move
+das Gerät	the device
+der Schlaf	the sleep
+die Zahnpasta	the toothpaste
+der Raum	the room
+die Leiter	the ladder
+die Batterie	the battery
+voll	full
+leer	empty
+die Toilette	the Toilette
+die Tasse	the cup
+das Tor	the gate
+die Schüssel	the bowl
+der Teller	the plate
+der Kühlschrank	the refrigerator
+der Karton	the box
+der Rucksack	the backpack
+die Flasche	the bottle
+der Rasierer	the razor
+das Bad	the bathroom
+die Seife	the soap
+der Spiegel	the mirrior
+das Handtuch	the towel
+die Dusche	the shower
+der Tag	the daily
+Montag	Monday
+Dienstag	Tuesday
+Mittwoch	Wednesday
+Donnerstag	Thursday
+Freitag	Friday
+die Woche	the weekly
+wöchentlich	weekly
+das Wochenende	the weekend
+Samstag	Saturday
+Sonntag	Sunday
+bis	until
+die Zukunft	the Future
+täglich	daily
+die Vergangenheit	the Pflaster
+der Anfang	the beginning
+das Ende	the endlich
+bald	soon
+danach	after that
+spätestens	no later than
+endlich	finally
+inzwischen	meanwhile
+fit	fit
+regional	regional
+plötzlich	suddenly
+automatisch	automatically
+hilfreich	helpful
+aktiv	active
+relativ	relative
+allgemein	general
+extrem	extreme
+tatsächlich	indeed
+original	original
+seltsam	strange
+wert	value
+falsch	not correct
+beliebt	popular
+echt	real
+privat	private
+sinnvoll	meaningful
+verantwortlich	responsible
+bereit	ready
+egal	irrelevant
+offen	open
+ausgezeichnet	excellent
+komisch	funny
+weich	soft
+hart	hard
+kaputt	broken
+hier	here
+dort	there
+oben	up
+unten	down
+vorne	in front
+hinter	behind
+neben	next to
+drinnen	indoors
+draußen	outdoors
+innen	inside
+außen	outside
+überall	everywhere
+notwendig	necessary
+selbstverständlich	of course
+eindeutig	clearly
+begeistert	excited
+verfügbar	available
+zufrieden	satisfied
+sichtbar	visible
+unsichtbar	invisible
+abhängig	dependent
+unabhängig	independent
+bekannt	known
+unbekannt	unknown
+nützlich	useful
+unmöglich	impossible
+möglich	possible
+praktisch	practically
+persönlich	personally
+positiv	positive
+individuell	individually
+international	international
+kostenlos	free
+wahrscheinlich	probably
+deutlich	clearly
+wohnen	to live
+der Ort	the place
+die Kneipe	the pub
+der Platz	the place
+die Pension	the pension
+die Unterkunft	the accommodation
+der Bereich	the area
+der Flughafen	the airport
+das Bundesland	the federal state
+die Region	the region
+der Bezirk	the district
+gegenüber	opposite
+der Grund	the reason
+das Grundstück	the property
+die Zentrale	the headquarters
+das Zentrum	the center
+die Halle	the hall
+die Fläche	the area
+die Innenstadt	the downtown
+das Innere	the inside
+die Umgebung	the surroundings
+Ausland	foreign countries
+Europa	Europe
+die Ferien	the vacation
+die Heimat	the homeland
+die Insel	the island
+die Hauptstadt	the capital
+krank	sick
+der Patient	the patient
+das Medikament	the medicine
+das Pflaster	the bandaid
+bluten	to bleed
+der Rollstuhl	the wheelchair
+die Praxis	the practice
+die Gesundheit	the health
+die Untersuchung	the examination
+das Formular	the form
+die Krankheit	the disease
+die Medizin	the medicine
+das Krankenhaus	the hospital
+die Versicherung	the insurance
+der Unfall	the accident
+der Notfall	the emergency
+das Opfer	the Victim
+die Klinik	the clinic
+die Therapie	the therapy
+der Alkohol	the alcohol
+die Diät	the diet
+die Ernährung	the nutrition
+arbeiten	to work
+sammeln	to collect
+singen	to sing
+hoffen	to hope
+wissen	to know
+suchen	to search
+passieren	to happen
+finden	to find
+ändern	to change
+erlauben	to allow
+können	can
+treffen	to meet
+glauben	to believe
+benutzen	to use
+warten	to wait
+liegen	to lie
+stehen	to stand
+ersetzen	to replace
+nehmen	to take
+schließen	to close
+bestellen	to order
+funktionieren	to function
+erkennen	to recognize
+prüfen	to check
+halten	to hold
+abonnieren	to subscribe to
+spazieren	to walk
+bleiben	to stay
+schauen	to watch
+fehlen	to be missing
+stehlen	to steal
+akzeptieren	to accept
+verpassen	to miss
+der Monat	the month
+monatlich	monthly
+der Frühling	the spring
+März	March
+April	April
+Mai	May
+der Spargel	the asparagus
+das Jahr	the year
+jährlich	yearly
+das Quartal	the quarter
+der Sommer	the summer
+Juni	June
+Juli	July
+August	August
+heiß	hot
+das Datum	the date
+der Kalender	the calendar
+die Jahreszeit	the season
+Herbst	the autumn
+September	September
+Oktober	October
+November	November
+kühl	cool
+Winter	winter
+die Saison	the season
+Weihnachten	Christmas
+Dezember	December
+Februar	February
+Januar	January
+der Schluss	the conclusion
+das Alter	the age
+der Geburtstag	the birthday
+die Phase	the phase
+das Jahrhundert	the century
+enden	to end
+vorbei	over
+die Gemeinde	the community
+der Verein	the club
+die Öffentlichkeit	the public
+die Verbindung	the connection
+das Verhältnis	the relationship
+der Nutzer	the user
+die Bevölkerung	the population
+die Jugend	the youth
+die Mitgliedschaft	the membership
+der Einwohner	the resident
+das Paar	the pair
+besuchen	to visit
+werden	to become
+reden	to talk
+vergessen	to forget
+lieben	to love
+testen	to test
+rufen	to call
+lösen	to solve
+handeln	to act
+beraten	to advise
+schützen	to protect
+bieten	to offer
+merken	to notice
+erklären	to explain
+die Liebe	die Liebe
+der Traum	the dream
+träumen	to dream
+die Lust	the lust
+die Not	the distress
+die Freude	the pleasure
+der Wunsch	the wish
+das Verständnis	the understanding
+der Spaß	the fun
+der Ernst	the seriousness
+der Humor	the humor
+die Angst	the anxiety
+der Eindruck	the impression
+unheimlich	scary
+der Gedanke	the thought
+die Ruhe	the calm
+der Witz	the joke
+hassen	to hate
+interessant	interesting
+langweilig	boring
+der Ärger	the trouble
+lieber	Dear
+ehrlich	honest
+witzig	funny
+dumm	stupid
+schlau	clever
+stolz	proud
+total	total
+nett	nice
+tapfer	brave
+die Schuld	the fault
+lachen	to laugh
+schlimm	bad
+das Glück	the luck
+der Termin	the appointment
+der Moment	the moment
+dann	then
+jetzt	now
+heute	today
+gestern	yesterday
+morgen	tomorrow
+der Morgen	the morning
+der Nachmittag	the afternoon
+der Abend	the evening
+die Nacht	the night
+früh	early
+spät	late
+der Zeitraum	the timeframe
+der Augenblick	the moment
+die Uhr	the clock
+die Zeit	the time
+die Stunde	the hour
+die Minute	the minute
+später	later
+die Sekunde	the second
+dauern	to last
+halb	half
+viertel	quarter
+nachts	at night
+sofort	immediately
+etwa	about
+fast	almost
+gerade	just
+die Dauer	the duration
+damals	at that time
+lange	for a long time
+mehr	more
+oft	often
+als	when
+manchmal	sometimes
+wenig	little
+weniger	fewer
+zahlreich	numerous
+häufig	frequently
+das Mal	the time
+selten	rarely
+ob	if
+meist	mostly
+keinerlei	no
+je	ever
+müssen	to have to
+sollen	should
+dürfen	to be allowed to
+bestätigen	to confirm
+wiederholen	to repeat
+mieten	to rent
+wecken	to wake up
+entscheiden	to decide
+aussagen	to testify
+registrieren	to register
+teilnehmen	to take part
+mitmachen	to join in
+tun	to do
+fragen	to ask
+betrachten	to consider
+vorstellen	to imagine
+wünschen	to wish

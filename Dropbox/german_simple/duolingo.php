@@ -765,6 +765,10 @@ $red_total = $total-$green_total;
     makeButtons('tinycards-test3.txt');
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
+    makeButtons('tinycards-test5.txt');
+    makeButtons('tinycards-test6.txt');
+    makeButtons('tinycards-test7.txt');
+    makeButtons('tinycards-test8.txt');
     
     
 ?>

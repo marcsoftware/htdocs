@@ -1,0 +1,397 @@
+﻿die Firma	the company
+die Lieferung	the delivery
+die Versicherung	the insurance
+der Verkauf	the sale
+die Ware	the ware
+die Tabelle	the table
+die Industrie	the industry
+der Auftrag	the assignment
+die Chance	the chance
+die Anzeige	the advertisement
+die Garantie	the guarantee
+das Angebot	the offer
+der Antrag	the application
+das Lager	the warehouse
+die Bewertung	the rating
+die Bezahlung	the payment
+der Service	the service
+die Werbung	the advertising
+die Marke	the brand
+die Leistung	the performance
+die Produktion	the production
+die Gründung	the establishment
+die Ausgabe	the output
+das Stelle	the position
+die Börse	the exchange
+die Branche	the sector
+die Logistik	the logistics
+der Bedarf	the need
+die Dienstleistung	the service
+verhandeln	to negotiate
+verbessern	to improve
+festlegen	to establish
+auswählen	to choose
+leisten	to afford
+ansehen	to look at
+erfüllen	to fulfill
+entfernen	to remove
+telefonieren	to phone
+informieren	to inform
+Fußball	Soccer
+das Schwimmbad	the swimming pool
+das Fahrrad	the bycycle
+der Ball	the ball
+die Aktivität	the activity
+die Bundesliga	the national league
+der Zuschauer	the spectators
+der Sport	the Sport
+Tennis	tennis
+der Sieg	the victory
+die Liga	the league
+das Team	the team
+der Ski	the ski
+die Teilnahme	the participation
+die Bewegung	the move
+die Freizeit	the leisure time
+das Spiel	the game
+das Hobby	the hobby
+der Spieler	the player
+die Mannschaft	the team
+gedacht	thought
+verstanden	understood
+passiert	happened
+geführt	led
+akzeptiert	accepted
+gegründet	founded
+gebracht	brought
+gewusst	known
+verschwunden	missing
+gewählt	chosen
+gewollt	wanted
+die Gitarre	the guitar
+die Ausstellung	the exhibition
+die Galerie	the gallery
+das Studio	the studio
+der Musiker	the musician
+die Kunst	the art
+das Instrument	the instrument
+das Theater	the theater
+die Kultur	the culture
+der Künstler	teh artist
+malen	to paint
+die Musik	the music
+tanzen	to dance
+der Start	the start
+das Musikinstrument	the musical instrument
+der Film	the movie
+das Modell	the model
+der Entwurf	the blueprint
+die Fotografie	the photography
+die Sammlung	the collection
+das Design	the design
+die Kritik	the criticism
+die Literatur	the literature
+das Lied	the song
+das Museum	the museum
+der Jazz	the jazz
+die Bühne	the stage
+der Tanz	the dance
+die Mode	the fashion
+der Stil	the style
+das Konzert	the concert
+der Rahmen	the frame
+die Kamera	the camera
+das Kino	the movie theater
+die Dokumentation	the documentation
+die Tätigkeit	the activity
+der Schauspieler	the actor
+berücksichtigt	considered
+geboren	born
+bewertet	evaluated
+genutzt	used
+geändert	changed
+gewährleistet	guaranteed
+bevorzugt	prefered
+die Religion	the religion
+der Gott	the God
+der Tod	the death
+der Glaube	the faith
+der Priester	the priest
+beten	to pray
+christlich	Christian
+islamic	Islamisch
+heilig	holy
+atheistic	atheistisch
+das Paradies	the paradise
+muslim	muslimisch
+das Gebet	the prayer
+die Wiedergeburt	the reincarnation
+Buddhismus	Buddhism
+Hinduismus	Hinduism
+jüdisch	Jewish
+der Tempel	the temple
+die Moschee	the mosque
+der Mönch	the monk
+die Kirche	the church
+die Synagoge	the synagogue
+der Präsident	the president
+die Partei	the party
+der Frieden	the peace
+die Politik	the politics
+die Stimme	the voice
+die Macht	the power
+der Erfolg	the success
+der Vertrag	the contract
+das Interesse	the interest
+der Politiker	the politician
+die Politikerin	the politician
+die Republik	the republic
+das Volk	the people
+der König	the king
+die Behörde	the authority
+das Gesetz	the law
+die Verwaltung	the administration
+der Staat	the state
+die Wahl	the choice
+die Königin	the queen
+die Regierung	the government
+das Ministerium	the ministry
+das Recht	the right
+der Krieg	the war
+der Kampf	the struggle
+die Genehmigung	the approval
+die Vorschrift	the regulation
+der Prinz	the prince
+die Prinzessin	the princess
+wählen	to choose
+das Rathaus	the town hall
+die Regel	the rule
+der Einfluss	the influence
+die Kontrolle	the control
+der Schaden	the damage
+der Prozess	the process
+die Bedingung	the condition
+die Entscheidung	the decision
+das Verfahren	the process
+soeben	just
+ebenfalls	also
+schließlich	after all
+jederzeit	any time
+dennoch	still
+deswegen	therefore
+mittlerweile	meanwhile
+hingegen	however
+nochmals	again
+weiterhin	furthermore
+derzeit	at present
+hiermit	hereby
+insbesondere	especially
+die Anwendung	the usage
+die Rubrik	the category
+der Vergleich	the comparison
+die Förderung	the promotion
+die Anlage	the investment
+das System	the system
+das Kriterium	the criteria
+das Beispiel	the example
+der Verlust	the loss
+der Inhalt	the content
+die Eröffnung	the opening
+der Abschnitt	the section
+der Eintritt	the entry
+der Durchschnitt	the average
+die Reparatur	the repair
+der Anteil	the share
+die Auflage	the edition
+das Ereignis	the event
+der Rest	the rest
+die Geschwindigkeit	the speed
+die Versorgung	the supply
+die Verpflichtung	the obligation
+die Tradition	the tradition
+die Agentur	the agency
+das Niveau	the level
+die Oberfläche	the surface
+der Umfang	the circumference
+die Vorstellung	the idea
+der Charakter	the character
+der Vortrag	the lecture
+die Gewalt	the violence
+der Bezug	the reference
+die Qualifikation	the qualification
+die Gefahr	the danger
+das Material	the material
+die Runde	the round
+der Umgang	the handling
+die Einstellung	the setting
+der Empfang	the reception
+der Ansatz	the approach
+der Eingang	the entrance
+der Abschluss	the graduation
+die Kooperation	the cooperation
+die Schau	the show
+das Symbol	the symbol
+die Karte	the map
+die Vermittlung	the mediation
+der Fall	the case
+darstellen	to represent
+vorsichtig	careful
+die Philosophie	the philosophy
+der Optimist	the optimist
+der Pessimist	the pessimist
+skeptisch	skeptical
+das Bewusstsein	the awareness
+die Wirklichkeit	the reality
+wahr	true
+bekommen	to receive
+behandeln	to treat
+versuchen	to attempt
+empfehlen	to recommend
+fördern	to promote
+schaffen	to create
+entstehen	to arise
+existieren	to exist
+bestehen	to insist
+vertreten	to represent
+liefern	to supply
+planen	to plan
+aktivieren	to activate
+bilden	to form
+hängen	to hang
+beenden	to end
+eröffnen	to open
+bearbeiten	to edit
+garantieren	to guarantee
+genügen	to suffice
+berechtigen	to entitle
+vermitteln	to convey
+die Magie	the magic
+der Drache	the Dragon
+verwandeln	to transform
+retten	to rescue
+die Hexe	the witch
+der Planet	the planet
+magisch	magical
+entdecken	to discover
+die Dimension	the dimension
+die Galaxie	the Galaxy
+der Weltraum	outer space
+der Raum	the room
+verschwinden	to disappear
+das Einhorn	the unicorn
+unglaublich	incredible
+die Option	the option
+der Sitz	the seat
+die Berechnung	the calculation
+die Figur	the figure
+die Herkunft	the origin
+der Anschluss	the connection
+das Prinzip	the principle
+die Ordnung	the order
+der Ton	the tone
+die Serie	the series
+das Merkmal	the characteristic
+der Zweck	the purpose
+der Austausch	the exchange
+die Abteilung	the department
+die Betreuung	the care
+die Vorbereitung	the preparation
+der Gegensatz	the contrast
+der Lauf	the run
+der Vorteil	the advantage
+die Fassung	the version
+die Wertung	the rating
+die Sicht	the view
+das Format	the format
+die Leitung	the management
+die Situation	the situation
+die Übersicht	the overview
+die Quelle	the source
+der Zusammenhang	the correlation
+die Einheit	the unit
+die Entfernung	the distance
+die Ausnahme	the exception
+die Angabe	the statement
+die Linie	the line
+die Ebene	the level
+die Struktur	the structure
+die Reihe	the line
+der Punkt	the point
+die Bezeichnung	the designation
+das Risiko	the risk
+der Ausdruck	the expression
+der Standard	the standard
+der Schutz	the protection
+die Folge	the episode
+die Möglichkeit	the opportunity
+die Verantwortung	the responsibility
+der Schritt	the step
+die Ansicht	the view
+der Wechsel	the change
+die Breite	the width
+die Anforderung	the requirement
+die Aufgabe	the task
+die Tiefe	the depth
+die Alternative	the alternative
+das Detail	the detail
+der Eintrag	the entry
+die Aufnahme	the admission
+die Grundlage	the basis
+die Art	the kind
+das Teil	the part
+die Anregung	the stimulation
+die Mitte	the center
+das Band	the tape
+die Funktion	the function
+die Nutzung	the use
+der Fehler	the error
+RelativePronounsMIssing	relativePronounsMissing
+das Klavier	the piano
+der Komponist	the composer
+die Flöte	the flute
+die Melodie	the melody
+die Geige	the violin
+die Trommel	the drum
+der Dirigent	the conductor
+das Orchester	the orchestra
+klingen	to sound
+der Sänger	the singer
+die Sängerin	the singer
+die Oper	the Opera
+das Urteil	the judgment
+die Freiheit	the freedom
+die Strategie	the strategy
+die Veranstaltung	the event
+die Bundesregierung	the Federal government
+die Umfrage	the survey
+das Amt	the office
+das Reich	the realm
+die Polizei	the police
+die Steuer	the tax
+die Wirtschaft	the economy
+korrupt	corrupt
+der Anspruch	the claim
+die Vereinbarung	the agreement
+der Rat	the advice
+der Verband	the association
+protestieren	to protest
+das Fest	the celebration
+die Wurst	the sausage
+das Sauerkraut	the sauerkraut
+die Brezel	the pretzel
+der Kiosk	the kiosk
+Berlin	Berlin
+feiern	to celebrate
+der Kontinent	the continent
+Indien	India
+China	china
+die Union	the union
+europäisch	European
+Australien	Australia
+Asien	Asia
+nördlich	north
+Südamerika	South America
+die Pyramide	the pyramid
+Ägypten	Egypt
+Russland	Russia
+Türkei	Turkey

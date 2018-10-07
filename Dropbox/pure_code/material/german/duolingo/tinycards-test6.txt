@@ -1,0 +1,313 @@
+﻿weder noch	neither
+bereits	already
+damit	in order to
+darüber	about that
+allein	alone
+nun	now
+zuerst	first
+zuletzt	last
+genauso	just as
+daher	therefore
+sonst	otherwise
+einmal	once
+jedenfalls	anyway
+völlig	completely
+durchaus	thoroughly
+mindestens	at least
+meistens	mostly
+außerdem	also
+besonders	especially
+kaum	barely
+überhaupt	at all
+jedoch	however
+erneut	again
+die Wiese	the meadow
+der Strand	the beach
+die Umwelt	the environment
+der Bernstein	the amber
+die Welt	the world
+die Tier	the animal
+der See	the lake
+das Gras	the grass
+die Welle	the wave
+der Rhein	the Rhine
+das All	space
+der Wald	the forest
+der Fluss	the flow
+der Bach	the stream
+die Pflanze	the plant
+das Klima	the climate
+der Strom	the electricity
+die Landwirtschaft	the agriculture
+die Wüste	the desert
+des	of
+eines	of a
+der Verfasser	the author
+der Betreiber	the operator
+der Entwickler	the developer
+das Personal	the staff
+der Empfänger	the receiver
+der Teilnehmer	the subscriber
+die Werkstatt	the workshop
+der Schneider	the cutter
+der Hersteller	the manufacturer
+der Richter	the judge
+die Spezialität	the specialty
+der Experte	the expert
+die Richterin	the judge
+rechts	right
+gegessen	eaten
+gesehen	seen
+gelernt	learned
+gelesen	read
+geschlafen	slept
+gespielt	played
+behalten	keep
+erfahren	to experience
+veröffentlicht	released
+verbessert	improved
+besucht	visited
+gegeben	given
+geschrieben	written
+geschwommen	swum
+gelaufen	run
+gekommen	come
+geworden	become
+gefragt	asked
+gestohlen	stolen
+interessiert	interested
+informiert	informed
+verletzt	injured
+gegangen	gone
+erzählt	told
+gerannt	run
+gewesen	been
+getrunken	drunk
+gehabt	had
+gekocht	cooked
+gesprochen	spoken
+gemacht	made
+gesucht	searched
+gefunden	found
+gesagt	said
+gemocht	liked
+verkauft	sold
+bestellt	ordered
+geladen	loaded
+geschehen	occured
+größten	largest
+öffentlich	public
+neu	new
+letzter	last
+besonders	special
+eigener	own
+höher	higher
+aktuelle	current
+international	international
+hoch	high
+übrigen	remaining
+öffentlichen	public
+einzelnen	individual
+jugendlich	teenage
+zusätzliche	additional
+alt	old
+internationale	international
+notwendigen	necessary
+nächster	next
+links	left
+wichtigsten	main
+Höhe	height
+normal	normal
+richtig	right
+private	private
+zufällig	random
+besonderen	special
+passend	fitting
+weiter	further
+interessante	interesting
+wichtig	important
+deutsch	German
+nächster	next
+detailliert	detailed
+verschieden	different
+verfügbar	available
+ganz	all
+zuständig	competent
+stark	strong
+offen	open
+modern	modern
+eigene	own
+persönlichen	personal
+technischen	technical
+weitere	more
+vergangenen	past
+einzige	only one
+wichtige	important
+eigenen	own
+gleiche	same
+kostenlose	free
+zweiten	second
+alten	old
+privaten	private
+gesamten	overall
+bekannten	known
+schenken	to give
+heutigen	today's
+rechts	right
+links	left
+die Richtung	the direction
+der Norden	the north
+der Süden	the south
+der Osten	the east
+der Westen	the west
+woher	from where
+zurück	back
+voraus	ahead
+weg	away
+unterwegs	on the road
+die Stärke	the strength
+unterschiedlich	different
+höchste	highest
+externe	external
+möglichen	potential
+persönliche	personal
+gelb	yellow
+offene	open
+freien	free
+letzten	last
+politisch	political
+maßgeschneidert	custom
+sozial	social
+eigenes	own
+schön	nice
+aktiv	active
+schönen	beautiful
+öffentliches	public
+einfache	easy
+neuesten	latest
+ehemalige	former
+günstige	cheap
+einfach	easy
+zusätzlich	additional
+ähnlich	similar
+nächste	next
+gleichen	same
+englisch	English
+ansonsten	otherwise
+dafür	for this
+eigentlich	actually
+natürlich	naturally
+soweit	so far
+übrigens	incidentally
+also	so
+trotzdem	nevertheless
+jedoch	however
+darum	therefore
+sogar	even
+wenigstens	at least
+anders	different
+zugleich	at the same time
+deshalb	therefore
+bisher	so far
+dadurch	thereby
+herzlich	warmly
+zuvor	before
+vorher	before
+bevor	before
+erhalten	receive
+führen	to lead
+lassen	to leave
+brennen	to burn
+verlieren	to lose
+der Regen	the rain
+das Wetter	the Weather
+der Grad	the Degree
+scheint	seems
+der Schnee	the snow
+schneit	snowing
+der Sturm	the storm
+regnet	raining
+nass	wet
+trocken	dry
+der Regenbogen	the rainbow
+das Gewitter	the thunderstorm
+die Wolke	the cloud
+der Donner	the thunder
+der Blitz	the lightning
+der Plan	the plan
+das Büro	the office
+das Produkt	the product
+die Schere	the sissors
+die Sache	the thing
+der Katalog	the catalog
+der Boden	the ground
+das Zubehör	the accessories
+das Stück	the piece
+das Paket	the package
+das Geschenk	the gift
+die Kommunikation	the communication
+das Telefon	the phone
+das Handy	the mobile
+die Vorwahl	the area code
+das Gespräch	the conversation
+die Information	the information
+der Computer	the computer
+der Monitor	the monitor
+die Festplatte	the harddrive
+die Tastatur	the keyboard
+das Kabel	the cable
+starten	to start
+die Nachricht	the message
+der Artikel	the item
+das Interview	the interview
+die Zeitschrift	the magazine
+der Dialog	the dialog
+der Fernseher	the TV
+das Medium	the medium
+fernsehen	to watch TV
+die Sendung	the show
+die Rede	the speech
+die Diskussion	the discussion
+anbieten	to offer
+abbrechen	interrupt
+nachfragen	inquire
+aufgeben	give up
+vorschlagen	to suggest
+wenden	to turn
+beantworten	to answer
+benötigen	to need
+unterstützen	to support
+zitieren	to quote
+installieren	to install
+sparen	save up
+herunterladen	to download
+wechseln	to switch
+erwarten	to expect
+erwerben	to purchase
+erfolgen	to take place
+erscheinen	to appear
+teilen	to share
+verwenden	to use
+vergeben	to forgive
+verdienen	to earn
+verlassen	to leave
+sichern	to secure
+das Internet	the Internet
+die Seite	the page
+laden	to load
+die Suche	the search
+das Foto	the photo
+das Netz	the network
+schicken	to send
+geschickt	sent
+der Anhang	the appendix
+das Profil	the profile
+die Taste	the key
+drucken	to print
+aktualisieren	to update
+der Kommentar	the comment
+das Passwort	the password
+das Programm	the program
+das Bild	the image
+herunter	down
+geteilt	divided

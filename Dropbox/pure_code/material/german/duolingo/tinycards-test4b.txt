@@ -26,14 +26,11 @@ der Verkehr	the traffic
 die Fahrt	the drive
 Italien	italy
 die Bahn	the train
-der Urlaub	the vacation
 die Ferien	the holiday
 Der Besuch	the visit
-die Reise	the trip
 die Tour	The Tour
 Wandern	to hike
 Schweden	Sweden
-der Bus	the bus
 fliegen	to fly
 der Reiseführer	the travel guide
 die Fähre	the ferry
