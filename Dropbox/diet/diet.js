@@ -624,6 +624,22 @@
              softReset();
         }
 
+//---------------------------------------------
+//
+//---------------------------------------------
+function stringDate(){
+	var today = new Date();
+    today.setDate(today.getDate()+date);
+	var string_date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+(str_pad(today.getDate()));
+	
+	return string_date;
+
+}
+
+
+function str_pad(n) {
+    return String("00" + n).slice(-2);
+}
 
         /**
         //---------------------------------------------------------------------
@@ -721,8 +737,12 @@
                 cal_per_serv='';
             }
 
+            string_date='&date='+stringDate();
+    
+
+
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
-                            amount_per_serv+total_amount+cal_per_serv,false); // TODO This is badpractice. Turn false into true. //////
+                            amount_per_serv+total_amount+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
         }

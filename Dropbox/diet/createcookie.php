@@ -61,8 +61,8 @@
     }
 
 
-    $date=date("Y/m/d");
-
+  //  $date=date("Y/m/d");
+$date=$_GET["date"];
 
 
     // customer_name is made from login.php
@@ -138,12 +138,16 @@
 
        
     // 
-     $time = (int) date("His");
-
+      $time = (int) date("His");
+//id  date    name    total_cals  total_amount_label
+// custom_sort total_amount_unit   amount_per_serv_unit 
+//   amount_per_serv_label   cal_per_serv    customer_name
     if($id == 0){ //insert a new record
         $sql = "INSERT INTO diet
             VALUES (
-                    NULL, '$date', '$name', '$total_cals', '$total_amount_label',$total_amount_unit ,$amount_per_serv_unit, '$amount_per_serv_label', $cal_per_serv,'$customer_name',$time
+                    NULL, '$date', '$name', '$total_cals', '$total_amount_label',
+                    $total_amount_unit ,$amount_per_serv_unit, 
+                    '$amount_per_serv_label', $cal_per_serv,'$customer_name',$time
             )";
        
     }else{ //update an old record. If user updates an old record this will work and not change date. 
