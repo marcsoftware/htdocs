@@ -244,13 +244,36 @@ function update(name,project,body){
         
         var inputDate = document.createElement("input");
         inputDate.type = "text";
-        var inputMark = document.createElement("input");
-        inputMark.type = "button";
+       /* var inputMark = document.createElement("input");
+        inputMark.type = "text";
+*/
+        var inputMark = document.createElement( 'select' );
+        var option;
+        var inputdata = `-||done||stuck||working||next`;
+        
 
+         color_dict = {
+          '-': "grey",
+          'done': "green",
+          'stuck': "red",
+          'working': "gold",
+          'next': "purple"
+          
+          
+        };
+
+
+        inputdata.split( '||' ).forEach(function( item ) {
+
+                option = document.createElement( 'option' );
+
+                option.value = option.textContent = item;
+                option.style.backgroundColor=color_dict[item];
+                inputMark.appendChild( option );
+        });
         
-        
-        
-        
+      
+         
         
         inputName.onchange =  function () {  
             fix(id,field[1],this.value);
@@ -271,22 +294,32 @@ function update(name,project,body){
         inputProject.onchange=function () { 
             fix(id,field[0],this.value);
             };
-        x[4]=Number(x[4]);
-        x[4]=Boolean(x[4]);
-        inputMark.mousedown="fix(${id},'${field[4]}',this.value)";
+
+        inputMark.onchange=function () { 
+           
+            fix(id,field[4],this.value);
+            this.style.backgroundColor=color_dict[this.value];
+            };
+
+        
+        
+        //inputMark.mousedown="fix(${id},'${field[4]}',this.value)";
 
         inputProject.value=x[0];
         inputName.value=x[1];
         inputBody.value=x[2];
         inputDate.value=x[3];
+        x[4]=x[4].trim();
         inputMark.value=x[4];
+        
+        inputMark.style.backgroundColor=color_dict[x[4]];
 
         //
         inputProject.className='projectName';
         inputName.className='big';
         inputBody.className='big';
         inputDate.className='big';
-        
+        inputMark.className='inputMark big'
       
 
         //render the elements
@@ -298,7 +331,8 @@ function update(name,project,body){
         container.appendChild(inputName);
         //container.appendChild(inputBody);
         //container.appendChild(inputDate);
-        //container.appendChild(inputMark);
+        container.appendChild(inputMark);
+
 
 
         global_previousName=x[0];
@@ -473,7 +507,7 @@ function update(name,project,body){
 */    
     //update a record in the database 
     function fix(id,field,value){
-console.log(id);
+
         value=encode(value);
 
         try{
@@ -568,7 +602,7 @@ var lastFocus;
     function init(){
         
     	 lastFocus=getCookie('lastFocus');
-    	console.log(lastFocus);
+    
         getProjectNames();
         setFilter(document.getElementById('startblue'));
         //make calorie bar

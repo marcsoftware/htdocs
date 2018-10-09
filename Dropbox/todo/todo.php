@@ -67,16 +67,27 @@ body{
         overflow:hidden;
 
         
-        display: block;
+        
         resize: vertical;
         
         padding-left: 2px;
         
         height: 40px;
-        width: 100%;
+        width: 90%;
+        float:left;
         margin-left:auto;
         margin-right:auto;
         margin-bottom: 1px;
+         
+    }
+
+
+    .inputMark{
+      width:10%;
+      color:white;
+      background-color: black;
+      
+       
          
     }
 

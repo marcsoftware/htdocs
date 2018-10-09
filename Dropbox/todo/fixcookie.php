@@ -41,9 +41,9 @@
         die("Connection failed: " . $conn->connect_error);
     }
     
-    if($field !=='isDone'){
+
         $value = "'$value'";
-    }  
+   
 
     //  record doesn't already exsist so create ti
     $sql = "UPDATE todo
