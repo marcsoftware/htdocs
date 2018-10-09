@@ -738,8 +738,6 @@ function str_pad(n) {
             }
 
             string_date='&date='+stringDate();
-    
-
 
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
