@@ -253,7 +253,7 @@ function update(name,project,body){
         
 
          color_dict = {
-          '-': "grey",
+          '-': "black",
           'done': "green",
           'stuck': "red",
           'working': "gold",
