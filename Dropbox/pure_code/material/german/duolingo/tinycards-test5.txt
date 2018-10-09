@@ -55,7 +55,8 @@ Sonntag	Sunday
 bis	until
 die Zukunft	the Future
 täglich	daily
-die Vergangenheit	the Pflaster
+die Vergangenheit	the past
+der Pflaster	the plaster
 der Anfang	the beginning
 das Ende	the endlich
 bald	soon
