@@ -56,7 +56,7 @@
     
 
     //delete empty records
-    $sql = "DELETE FROM todo WHERE project='' and  body=''";
+    $sql = "DELETE FROM todo WHERE name='' and  body=''";
     $conn->query($sql);
 
     $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' GROUP BY project, name ";

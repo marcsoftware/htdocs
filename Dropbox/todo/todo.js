@@ -219,7 +219,7 @@ function update(name,project,body){
 */
 
     //pre: make sure readCookie.php before calling this function
-    var global_previousName='';
+    var global_previousName='x';
     function wrap(x){
         x= x.split("{comma}");
         var id = x.shift(); // get the ID 
@@ -236,6 +236,8 @@ function update(name,project,body){
         
      
         // display each record from manager table to the user 
+        var addButton = document.createElement("input");
+        addButton.type = "button";
         var inputProject = document.createElement("input");
         inputProject.type = "text";
         var inputName = document.createElement("input");
@@ -301,7 +303,7 @@ function update(name,project,body){
             this.style.backgroundColor=color_dict[this.value];
             };
 
-        
+       
         
         //inputMark.mousedown="fix(${id},'${field[4]}',this.value)";
 
@@ -311,8 +313,20 @@ function update(name,project,body){
         inputDate.value=x[3];
         x[4]=x[4].trim();
         inputMark.value=x[4];
-        
+        addButton.value='+';
+        addButton.innerHTML=global_previousName;
         inputMark.style.backgroundColor=color_dict[x[4]];
+
+
+        var handle=this;
+        handle.projectName=x[0];
+        addButton.onclick=function () { 
+            
+            update('',this.innerHTML,'',);
+
+            init();
+        };  
+
 
         //
         inputProject.className='projectName';
@@ -325,8 +339,13 @@ function update(name,project,body){
         //render the elements
         var container = document.getElementById('result');
 
-        if(x[0] !== global_previousName){
-            container.appendChild(inputProject); //don't show project name on consecutive items.
+        if(x[0] !== global_previousName){//don't show project name on consecutive items.
+            if(global_previousName !== 'x'){
+
+                container.appendChild(addButton);
+
+            }
+            container.appendChild(inputProject);  //show project name 
         }
         container.appendChild(inputName);
         //container.appendChild(inputBody);
