@@ -251,7 +251,7 @@ function update(name,project,body){
 */
         var inputMark = document.createElement( 'select' );
         var option;
-        var inputdata = `-||done||stuck||working||next`;
+        var inputdata = `-||done||stuck||working||next||trash`;
         
 
          color_dict = {
@@ -259,7 +259,8 @@ function update(name,project,body){
           'done': "green",
           'stuck': "red",
           'working': "gold",
-          'next': "purple"
+          'next': "purple",
+          'trash': "brown"
           
           
         };
