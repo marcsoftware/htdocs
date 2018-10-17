@@ -398,14 +398,14 @@ function update(name,project,body){
 
     function setProject(x){
         try{
-            lastProject.style.background='lightgrey';
+            lastProject.style.background='black';
         }catch(e){
             //
         }
         x.style.background='#468FDF';
         window.projectName=x.value;
 
-        getStats(window.projectName);
+       // getStats(window.projectName);
         getData(window.filter,window.projectName);
         lastProject=x; //save
 
@@ -470,7 +470,7 @@ function update(name,project,body){
         }
         x.style.background='#468FDF';
         window.filter=x.value;
-        getData(window.filter,window.projectName);
+      //  getData(window.filter,window.projectName);
         lastFilter=x;
 
          
