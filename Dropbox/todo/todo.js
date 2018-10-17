@@ -15,7 +15,7 @@ $(window).keypress(function(event) {
 document.title+='todo';
 
 window.filter='active';
-window.projectName='';
+global_projectName='';
 lastProject='';
 lastFilter='';
 
@@ -384,7 +384,7 @@ function update(name,project,body){
         
         // display each record from manager table to the user
                 
-        var result=`<input type=button class='title' value='${x}' onclick="setProject(this)"> </input>`;
+        var result=`<input type=button class='title' value='${x}' onclick="setProject(this);"> </input>`;
 
         document.getElementById('menu').innerHTML+=`${result}`;
 
@@ -398,15 +398,20 @@ function update(name,project,body){
 
     function setProject(x){
         try{
-            lastProject.style.background='black';
+            lastProject.style.background='#9999ff';
         }catch(e){
             //
         }
         x.style.background='#468FDF';
-        window.projectName=x.value;
-
-       // getStats(window.projectName);
-        getData(window.filter,window.projectName);
+        
+        if(global_projectName !==''){
+            global_projectName+='||'+x.value;
+        }else{
+            global_projectName+='||'+x.value;
+        }
+console.log(global_projectName);
+       
+        getData(window.filter,global_projectName);
         lastProject=x; //save
 
         showAllBody();
@@ -470,7 +475,7 @@ function update(name,project,body){
         }
         x.style.background='#468FDF';
         window.filter=x.value;
-      //  getData(window.filter,window.projectName);
+      
         lastFilter=x;
 
          
@@ -631,7 +636,7 @@ var lastFocus;
         setFilter(document.getElementById('startblue'));
         //make calorie bar
         var d = new Date();
-        setProject( document.getElementById('startblue2'));
+        getData( );
         showAllBody();
         
 
