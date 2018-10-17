@@ -220,6 +220,7 @@ function update(name,project,body){
 
     //pre: make sure readCookie.php before calling this function
     var global_previousName='x';
+    var global_previousHandle;
     function wrap(x){
         x= x.split("{comma}");
         var id = x.shift(); // get the ID 
@@ -315,7 +316,8 @@ function update(name,project,body){
         x[4]=x[4].trim();
         inputMark.value=x[4];
         addButton.value='+';
-        addButton.innerHTML=global_previousName;
+//        addButton.innerHTML=global_previousName;
+        addButton.innerHTML=x[0];
         inputMark.style.backgroundColor=color_dict[x[4]];
 
 
@@ -341,17 +343,19 @@ function update(name,project,body){
         var container = document.getElementById('result');
 
         if(x[0] !== global_previousName){//don't show project name on consecutive items.
-            if(global_previousName !== 'x'){
+            
+            container.appendChild(inputProject);  //show project name 
+        if(global_previousName !== 'x'){
 
                 container.appendChild(addButton);
+                global_previousHandle=addButton;
 
             }
-            container.appendChild(inputProject);  //show project name 
         }
-        container.appendChild(inputName);
+        container.insertBefore(inputName,global_previousHandle);
         //container.appendChild(inputBody);
         //container.appendChild(inputDate);
-        container.appendChild(inputMark);
+        container.insertBefore(inputMark,global_previousHandle);
 
 
 
