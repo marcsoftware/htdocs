@@ -27,8 +27,17 @@
     $filter=$_GET["filter"]; 
     $projectName=$_GET["projectName"]; 
 
-  
-   
+    
+    
+    //if projectName has multiple values
+    if(strpos($projectName, '||') !==true){
+        $projectName= explode('||',$projectName);
+        $projectName= implode("','",$projectName);
+        
+    }
+
+    
+
     date_default_timezone_set('America/Denver');
      
     $today = date("m/d/Y");
@@ -51,7 +60,10 @@
     //filter by projectname
     $secondCondition = 1;
     if($projectName){ //$projectname is assumed to be a valid name
-        $secondCondition = "project='$projectName'";
+        //$secondCondition = "project='$projectName'";
+        //WHERE ID IN ($values)";
+
+        $secondCondition = "project in ('$projectName')";
     }
     
 
