@@ -219,7 +219,7 @@ function update(name,project,body){
 */
 
     //pre: make sure readCookie.php before calling this function
-    var global_previousName='x';
+    var global_previousName='';
     var global_previousHandle;
     function wrap(x){
         x= x.split("{comma}");
@@ -345,12 +345,12 @@ function update(name,project,body){
         if(x[0] !== global_previousName){//don't show project name on consecutive items.
             
             container.appendChild(inputProject);  //show project name 
-        if(global_previousName !== 'x'){
+            if(global_previousName !== 'x'){
 
-                container.appendChild(addButton);
-                global_previousHandle=addButton;
+                    container.appendChild(addButton);
+                    global_previousHandle=addButton;
 
-            }
+                }
         }
         container.insertBefore(inputName,global_previousHandle);
         //container.appendChild(inputBody);
