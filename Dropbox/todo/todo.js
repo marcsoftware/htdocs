@@ -397,6 +397,7 @@ function update(name,project,body){
 */
 
     function setProject(x){
+        global_previousName='';
         try{
             lastProject.style.background='#9999ff';
         }catch(e){
@@ -474,7 +475,7 @@ console.log(global_projectName);
             //
         }
         x.style.background='#468FDF';
-        window.filter=x.value;
+        //window.filter=x.value;
       
         lastFilter=x;
 
