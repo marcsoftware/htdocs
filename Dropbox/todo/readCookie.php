@@ -71,7 +71,17 @@
     $sql = "DELETE FROM todo WHERE isDone='trash'";
     $conn->query($sql);
 
-    $sql = "SELECT * from todo where $condition AND $secondCondition AND customer_name='$customer_name' GROUP BY project, name ";
+    $sql = "SELECT * from (
+                        select * from todo where $condition AND $secondCondition AND customer_name='$customer_name' 
+            ) 
+            as tmp_table GROUP BY project,id";
+    /*
+SELECT * FROM ( 
+    SELECT `timestamp`, `fromEmail`, `subject`
+    FROM `incomingEmails` 
+    ORDER BY `timestamp` DESC
+) AS tmp_table GROUP BY LOWER(`fromEmail`)
+    */
   
     $result = $conn->query($sql);
     
