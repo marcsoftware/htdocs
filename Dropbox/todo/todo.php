@@ -177,7 +177,7 @@ body{
 
 <input type='button' value='ADD NEW' id='submit' onclick='saveItem("add...","add...")'></input>
 
-<input class='filter' type='button' id='startblue2'  value=''  onclick='setProject(this)'></input>
+<input class='filter' type='button' id='startblue2'  value=''  onclick='showAllProjectTabs()'></input>
 <div id='menu'></div>
 
 <span id='stats'></span>
