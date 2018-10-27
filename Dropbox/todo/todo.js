@@ -440,10 +440,10 @@ function selectProject(x){
         }
         x.style.background='#468FDF';
         
-        if(global_projectName !==''){
+        if(global_projectName !=='' && global_projectName !==undefined ){
             global_projectName+='||'+x.value;
         }else{
-            global_projectName+='||'+x.value;
+            global_projectName='||'+x.value;
         }
         console.log(global_projectName);
        
