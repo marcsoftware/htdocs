@@ -381,14 +381,25 @@ function update(name,project,body){
     //make tab to filter by project name
     function makeProjectTab(x){
 
-        
+        var style='';
         // display each record from manager table to the user
-                
-        var result=`<input type=button class='title' value='${x}' onclick="setProject(this);"> </input>`;
+        if(global_projectName!==undefined){
+            if(global_projectName.toString().includes(x)){
+               
+                style= `style="background-color:blue;"`; 
+            }
+            
+        }else{
+            style=' ';
+        }
+         
+        
+        var result=`<input type=button class='title' ${style} value='${x}' onclick="setProject(this);"> </input>`;
 
         document.getElementById('menu').innerHTML+=`${result}`;
-
     }
+
+    
 
 /**
 //-----------------------------------------------------------
@@ -398,6 +409,30 @@ function update(name,project,body){
 
     function setProject(x){
         global_previousName='';
+      
+        //check if tab was already selected
+        var result =window.location.toString().search(x.value);
+        console.log(result);
+
+
+        if(result >=0){//if already selected then unselect it. 
+            console.log(result +' :need to unselect');
+            unselectProject(x);
+            return;
+        }else{
+            selectProject(x);
+        }
+        
+      
+    }
+
+    /**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/ 
+function selectProject(x){
+      //show that it was selected. 
         try{
             lastProject.style.background='#9999ff';
         }catch(e){
@@ -410,14 +445,32 @@ function update(name,project,body){
         }else{
             global_projectName+='||'+x.value;
         }
-console.log(global_projectName);
+        console.log(global_projectName);
        
         getData(window.filter,global_projectName);
         lastProject=x; //save
 
         showAllBody();
-    }
+         window.location='todo.php?projects='+global_projectName;
 
+}
+
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/ 
+function unselectProject(x){
+    //change backgroudn color
+    x.style.backgroundColor='black';
+    
+    //remove form global_projectName variable
+    global_projectName=global_projectName.replace('||'+x.value,'');
+    //remove from URL parameter
+    window.location='todo.php?projects='+global_projectName;
+}
+
+-
 /**
 //-----------------------------------------------------------
 //
@@ -628,8 +681,24 @@ console.log(global_projectName);
 //
 //-----------------------------------------------------------
 */
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
 var lastFocus;
     function init(){
+        var projects = getUrlVars()["projects"];
+
+        global_projectName=projects;
         
     	 lastFocus=getCookie('lastFocus');
     
@@ -637,7 +706,12 @@ var lastFocus;
         setFilter(document.getElementById('startblue'));
         //make calorie bar
         var d = new Date();
-        getData( );
+        
+        if(projects ===undefined){
+            getData( );
+        }else{
+            getData(window.filter,global_projectName);
+        }
         showAllBody();
         
 
