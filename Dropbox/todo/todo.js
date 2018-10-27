@@ -384,7 +384,7 @@ function update(name,project,body){
         var style='';
         // display each record from manager table to the user
         if(global_projectName!==undefined){
-            if(global_projectName.toString().includes(x)){
+            if(global_projectName.toString().includes(x.replace(' ','%20'))){
                
                 style= `style="background-color:blue;"`; 
             }
