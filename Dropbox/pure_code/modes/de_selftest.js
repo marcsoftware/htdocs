@@ -329,7 +329,7 @@ function shuffleWordGroup(ref){
   arr= shuffle(arr);
   console.log(arr);
     
-    var elements = document.createDocumentFragment();
+    
 
 
 
