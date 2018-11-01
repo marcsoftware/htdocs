@@ -187,6 +187,7 @@ $( document ).ready(function() {
 //
 //---------------------------------------------------------------------
 */
+var global_group_container;
 function displayTheWords(lines){
     var line_length=lines.length;
 
@@ -194,10 +195,42 @@ function displayTheWords(lines){
     var element;
     var container=document.getElementById("file");
     container.innerHTML='';
-     lines.forEach(function(element, i) {
+    
 
+   // for(var i =0;i<line_length;i++){
+     // element=lines[i];
+    
+    lines.forEach(function(element, i) {
+        if(i==0){
+
+           global_group_container = document.createElement("div");
+        
+          
+          //container.appendChild(global_group_container);
+        }
         //put blank line before each 7th word to make it easier for the user to scroll
         if(i!=0 && i%6==0){
+          container.appendChild(global_group_container);//render the old group
+          
+          //create the shuffle button
+          var btn = document.createElement("BUTTON");       
+          var t = document.createTextNode("shuffle");       
+          btn.appendChild(t);    
+
+          //make button clickable
+          btn.handle=global_group_container;
+          btn.addEventListener("mouseup", function(e){
+            //this.handle=global_group_container.innerHTML;
+            //TODO pass a reference here
+            shuffleWordGroup(this.handle);
+          });
+
+          container.appendChild(btn);  
+
+          
+
+          global_group_container = document.createElement("div");//start making a new group
+
           var node = document.createTextNode(i+' / '+line_length+'\n');
           var numberContainer = document.createElement("h6");
           numberContainer.appendChild(node);
@@ -268,8 +301,9 @@ function displayTheWords(lines){
             delete para;
           
         }else{
-        
-        container.appendChild(para);
+          
+        	global_group_container.appendChild(para);
+
         }
         
         //appendToElement('file',result[1]);
@@ -277,7 +311,52 @@ function displayTheWords(lines){
     //printToElement('file',lines);
 }
 
+/*
+//---------------------------------------------------------------------
+// re-arrange group of words
+//---------------------------------------------------------------------
+*/
+function shuffleWordGroup(ref){
+  
 
+
+  //Array.from(Array(10).keys())
+ 
+  var items = ref.children;
+
+  arr=Array.from(Array(items.length).keys());
+   
+  arr= shuffle(arr);
+  console.log(arr);
+    
+    var elements = document.createDocumentFragment();
+
+
+
+    arr.forEach(function(idx) {
+      ref.appendChild(items[idx]);
+
+    });
+    
+    //ref.innerHTML = null;
+    ref.appendChild(elements);
+
+}
+
+/**
+ * Shuffles array in place.
+ * @param {Array} a items An array containing the items.
+ */
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
 /**
 //---------------------------------------------------------------------
 // edits the innerHTML of an element with an ID
