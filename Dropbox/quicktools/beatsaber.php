@@ -38,13 +38,13 @@ var pretty={
 		x=x.replace(/,/g,',\n'); 
 		x=x.replace(/\[/g,',]\n');
 		x=x.split(/[{}]/);
-		global_barMax=x.length; //sideeffect: 
+		
 		for(var i=0;i<x.length;i++){
 			if(x[i].includes('_type') ){
 				//get infomation
 				var raw = getInfo(x[i]); //extract info from the json
 				save(raw); //save it for easier access.
-				updateProgressBar(i);
+				
 				
 			}else{
 				
@@ -54,17 +54,14 @@ var pretty={
 
 	   for( i =0;i<time_cheat.length;i++){
 	   		draw(time_boards[time_cheat[i]],time_cheat[i]);
-	   		updateProgressBar(i);
+	   		
 	   		
 	   }
 		toggleLoader(); //turn off the loading  animation
 	}
 
 
-function updateProgressBar(i){
-	console.log(i);
-	document.getElementById('barValue').style.width='10%';
-}
+
 
 /*
 //--------------------
@@ -326,7 +323,7 @@ function changeFontSize(size){
 //----------------------------------------------------------------------------------------------------
 */
 function markRed(){
-	document.getElementById('input').style.backgroundColor='#FEBCBD';
+	document.getElementById('input').style.backgroundColor='#fff099';
 }
 
 
