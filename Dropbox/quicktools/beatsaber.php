@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <tag autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-<title>beatsaber sheetmusic</title>>
+<title>beatsaber sheetmusic</title>
 <script>
 var pretty={
 	'up':'↑',
@@ -27,7 +27,7 @@ var pretty={
 		var time_cheat=[];
 		var global_barMax;
 		var rowCheck;
-		
+		var global_sheetmusic='';
 	function clean() {
 		rowCheck = document.getElementById('rowCheck').checked;
 		
@@ -58,6 +58,7 @@ var pretty={
 	   		
 	   }
 		toggleLoader(); //turn off the loading  animation
+		document.getElementById('sheetmusic').innerHTML+=global_sheetmusic;
 	}
 
 
@@ -212,12 +213,13 @@ board=board.replace(/\)/g,'');
    
 var min=Math.floor(time/60);
 var seconds = Math.floor(time%60);
+	/*
 	document.getElementById('sheetmusic').innerHTML+='<span class="time">'+time+'</span>';
 	document.getElementById('sheetmusic').innerHTML+=makeTable(blank);
-
 	document.getElementById('sheetmusic').innerHTML+='<hr/>';
+	*/
 
-
+global_sheetmusic+='<span class="time">'+time+'</span>'+makeTable(blank)+'<hr/>';
 
 
 }
@@ -431,7 +433,7 @@ br{
 }
 </style>
 <body>
-
+C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\CustomSongs<br/>
 INPUT:
 <textarea id='input' onkeydown='markRed()'>
 </textarea>
