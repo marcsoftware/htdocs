@@ -215,6 +215,10 @@ board=board.replace(/\)/g,'');
    
 var min=Math.floor(time/60);
 var seconds = Math.floor(time%60);
+if(seconds<10){
+	seconds='0'+seconds;
+}
+var time = min+':'+seconds;
 	/*
 	document.getElementById('sheetmusic').innerHTML+='<span class="time">'+time+'</span>';
 	document.getElementById('sheetmusic').innerHTML+=makeTable(blank);
