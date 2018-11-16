@@ -1,3 +1,5 @@
+<?php include '../header.php';?>
+
 <!DOCTYPE html>
 <html>
 <tag autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
@@ -413,7 +415,7 @@ hr{
 	font-family: monospace; 
 	font-size:10px;
 	
-	column-count: 3;
+	column-count: 5;
 }
 
 span{
@@ -434,7 +436,7 @@ br{
 </style>
 <body>
 C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\CustomSongs<br/>
-INPUT:
+INPUT:<a href='howto.php'>help</a>
 <textarea id='input' onkeydown='markRed()'>
 </textarea>
 <br/>

@@ -1,9 +1,4 @@
-<?php session_start(); 
-    if(isset($_SESSION["customer_name"])){
-        echo $_SESSION["customer_name"];
-    }
 
-?>
 
 <html>
     <title>diet-pantry</title>
@@ -91,12 +86,11 @@
 <body >
 <br/>
 <div>
-    <p >output
- here</p>
+   
  <a href='allpantry.php'>all pantry</a>
 <textarea id='inputUPC'></textarea>
 
- <input type='button' value='submit' id='submit' ></input>
+ <input type='button' value='submit' id='submit' onclick='saveUPC()' ></input>
   <div class="loader" id='loader'></div> 
 
  <div>
