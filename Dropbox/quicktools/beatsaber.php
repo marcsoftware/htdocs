@@ -221,7 +221,11 @@ var seconds = Math.floor(time%60);
 	document.getElementById('sheetmusic').innerHTML+='<hr/>';
 	*/
 
-global_sheetmusic+='<span class="time">'+time+'</span>'+makeTable(blank)+'<hr/>';
+var table = makeTable(blank);
+if(table ){
+	global_sheetmusic+='<span class="time">'+time+'</span>'+makeTable(blank)+'<hr/>';
+}
+
 
 
 }
@@ -237,7 +241,7 @@ function makeTable(list){
 	list+=blank[4]+blank[5]+blank[6]+blank[7]+'<br/>';
 	list+=blank[0]+blank[1]+blank[2]+blank[3]+'<br/>';*/
 
-	
+
 
 	var tr1=	` <tr>
 					<td>${list[8]}</td>
@@ -245,19 +249,19 @@ function makeTable(list){
 					<td>${list[10]}</td>
 					<td>${list[11]}</td>
 				  </tr>`;
- var tr2=` 		<tr>
+	var tr2=` 		<tr>
 				    <td>${list[4]}</td>
 				    <td>${list[5]}</td>
 				    <td>${list[6]}</td>
 				    <td>${list[7]}</td>
 				  </tr>`;
- var tr3= `
-  <tr>
-    <td>${list[0]}</td>
-    <td>${list[1]}</td>
-    <td>${list[2]}</td>
-    <td>${list[3]}</td>
-  </tr>`;
+	var tr3= `
+	<tr>
+	<td>${list[0]}</td>
+	<td>${list[1]}</td>
+	<td>${list[2]}</td>
+	<td>${list[3]}</td>
+	</tr>`;
 
 
 
@@ -277,13 +281,19 @@ function makeTable(list){
 	}
 
 		var table = `<table >
- 	${tr1}
- 	${tr2}
- 	${tr3}
+		${tr1}
+		${tr2}
+		${tr3}
 
 
-</table>`;
+	</table>`;
+
+
+	if(tr1+tr2+tr3===''){
+	return false;
+	}
 	return table;
+
 }
 
 
