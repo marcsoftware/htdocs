@@ -13,6 +13,7 @@ function saveUPC(){
     var handle = document.getElementById('inputUPC');
     
     saveUPCDatabase(handle.value);
+    getMissingDataPantry();
 }
 
 
@@ -49,7 +50,7 @@ function saveUPCDatabase(records){
     
     document.getElementById('loader').style.display = "block";
     
-alert("/Dropbox/diet/saveUPC.php?records="+records);
+
     xmlhttp.open("GET","/Dropbox/diet/saveUPC.php?records="+records,
     false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
@@ -80,6 +81,7 @@ function getMissingDataPantry(){
             list=list.replace(/\s/g,'');
             list=list.split('{END}');
             list.pop(); //delete last one since it is empty
+    
             wrap(list);
 
         }
@@ -87,7 +89,7 @@ function getMissingDataPantry(){
     
 
     xmlhttp.open("GET","/Dropbox/diet/getMissingDataPantry.php",
-    false); // TODO This is badpractice. Turn false into true. //////
+    true); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
 
 }
