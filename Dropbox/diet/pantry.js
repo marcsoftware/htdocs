@@ -1,10 +1,11 @@
 
-
+window.onload=init();
  
  function init() {
- 
+ getMissingDataPantry();
+
     var x=document.getElementById("submit").addEventListener('click',saveUPC);
-    getMissingDataPantry();
+    
 };
 
 
@@ -13,7 +14,7 @@ function saveUPC(){
     var handle = document.getElementById('inputUPC');
     
     saveUPCDatabase(handle.value);
-    getMissingDataPantry();
+    
 }
 
 
