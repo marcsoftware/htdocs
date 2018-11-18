@@ -227,7 +227,24 @@ function displayTheWords(lines){
 
           container.appendChild(btn);  
 
+           
+          //create the TIME button
+          var btn = document.createElement("BUTTON");       
+          var t = document.createTextNode("mark time");       
+          btn.appendChild(t);    
+
           
+          
+          btn.addEventListener("mouseup", function(e){
+            //this.handle=global_group_container.innerHTML;
+            //TODO pass a reference here
+            makeTimeStamp(this);
+          });
+
+          container.appendChild(btn);  
+
+
+
 
           global_group_container = document.createElement("div");//start making a new group
 
@@ -309,6 +326,25 @@ function displayTheWords(lines){
         //appendToElement('file',result[1]);
     });
     //printToElement('file',lines);
+}
+/*
+//---------------------------------------------------------------------
+// function make timestap
+//---------------------------------------------------------------------
+*/
+var last_timestamp=new Date();
+function makeTimeStamp(handle){
+  var timestamp = new Date;
+
+//var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+var date_diff=timestamp-last_timestamp;
+
+
+ seconds=date_diff/1000;
+ min=parseInt(seconds/60);
+ seconds= parseInt(seconds % 60);
+  handle.innerHTML=min+':'+seconds;
+  last_timestamp=timestamp;
 }
 
 /*
