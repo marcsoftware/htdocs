@@ -239,6 +239,7 @@ function displayTheWords(lines){
             //this.handle=global_group_container.innerHTML;
             //TODO pass a reference here
             makeTimeStamp(this);
+            this.style.backgroundColor='lightgreen';
           });
 
           container.appendChild(btn);  
@@ -247,8 +248,9 @@ function displayTheWords(lines){
 
 
           global_group_container = document.createElement("div");//start making a new group
-
-          var node = document.createTextNode(i+' / '+line_length+'\n');
+          var total= Math.ceil(line_length/7);
+          var done=Math.ceil(i/7);
+          var node = document.createTextNode(done+' / '+total+'\n');
           var numberContainer = document.createElement("h6");
           numberContainer.appendChild(node);
           container.appendChild(numberContainer);
