@@ -121,9 +121,9 @@ beten	to pray
 christlich	Christian
 islamic	Islamisch
 heilig	holy
-atheistic	atheistisch
+atheistisch	atheistic
 das Paradies	the paradise
-muslim	muslimisch
+muslimisch	muslim
 das Gebet	the prayer
 die Wiedergeburt	the reincarnation
 Buddhismus	Buddhism
