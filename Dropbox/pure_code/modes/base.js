@@ -35,7 +35,8 @@ var all = global_group.join('\t');
 	all = all.split('\t');
 
 	for(var i =1;i<all.length;i=i+2){
-		var template= `<input type=button class='userInput' value='${all[i]}' onclick='check(this.value)'></input>`;
+		
+		var template= `<input type=button class='userInput' value="${all[i]}" onclick='check(this.value)'></input>`;
 		if(i==9){
 			document.getElementById('buttons').innerHTML+='<br/>';
 		}
