@@ -44,12 +44,7 @@
   margin:10px;
 }
 #hint{ 
-  position:absolute;
-  border-radius: 20px;
-  background-color: darkgreen;
-  color:white;
-  padding:2px;
-  margin-left: 15px;
+font-size: 8px;
 }
 
 progress{
@@ -268,7 +263,7 @@ textarea {
 <pre id='track'></pre>
 <pre id='buttons'></pre>
 
-
+<input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>
 
 <body oncontextmenu="return false;">
 

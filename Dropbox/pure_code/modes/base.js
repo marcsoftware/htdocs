@@ -80,7 +80,7 @@ console.log(ans_key);
 function addWord(){
 	
 	if(globalCounter>=global_group.length){
-		globalCounter=6;
+		globalCounter=global_group.length-1;
 		//nextGroup();
 	}
 
@@ -99,7 +99,15 @@ function nextGroup(){
 	
 	global_level_counter++;
 	
-	global_group=global_lines.slice(global_level_counter*7,global_level_counter*7+7);
+	//
+	var end_index=global_level_counter*7+7;
+	if(end_index>=global_lines.length){
+		end_index=global_lines.length;
+
+	}
+
+	global_group=global_lines.slice(global_level_counter*7,end_index);
+
 	drawButtons();
 	shuffle(global_group);	
 
@@ -121,7 +129,14 @@ function prevGroup(){
 	
 	global_level_counter--;
 	
-	global_group=global_lines.slice(global_level_counter*7,global_level_counter*7+7);
+	//
+	var end_index=global_level_counter*7+7;
+	if(end_index>=global_lines.length){
+		end_index=global_lines.length;
+
+	}
+
+	global_group=global_lines.slice(global_level_counter*7,end_index);
 	drawButtons();
 	shuffle(global_group);	
 
@@ -172,7 +187,7 @@ function drawActive(){
 	all = all.split('\t');
 
    var arrow='  ';
-	for(var i =0;i<=globalCounter && i<(all.length*2);i++){
+	for(var i =0;i<=globalCounter && i<(global_group.length);i++){
 		var template= `<span>${all[i*2]}</span> \n`;
 		if(i===globalArrow){
 				arrow='->';
@@ -192,7 +207,18 @@ function endGame(){
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
+/*
+//---------------------------------------------------------------------
+// 
+//---------------------------------------------------------------------
+*/
+function getHint(){
+		var word_pair = global_group[globalArrow];
+	word_pair = word_pair.split('\t');
+	var ans_key = word_pair[1];
 
+document.getElementById('hint').innerHTML=ans_key;
+}
 
 
 /**
