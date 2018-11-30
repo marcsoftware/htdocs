@@ -103,7 +103,7 @@ function nextGroup(){
 	//
 	var end_index=global_level_counter*7+7;
 	if(end_index>=global_lines.length){
-		end_index=global_lines.length;
+		end_index=global_lines.length-1;
 
 	}
 
@@ -133,7 +133,7 @@ function prevGroup(){
 	//
 	var end_index=global_level_counter*7+7;
 	if(end_index>=global_lines.length){
-		end_index=global_lines.length;
+		end_index=global_lines.length-1;
 
 	}
 
