@@ -155,7 +155,7 @@ function prevGroup(){
 //---------------------------------------------------------------------
 */
 function drawBar(){
-	var total = Math.floor(global_lines.length/7);
+	var total = Math.ceil(global_lines.length/7);
 	document.getElementById('bar').innerHTML=global_level_counter+'/'+total;
 }
 
