@@ -111,8 +111,7 @@ sterben Hand	the hand
 der Finger	the finger
 die Schulter	the shoulder
 der Rücken	the back
-die Brust	the chest
-die Brust	the breast
+die Brust	the chest,the breast
 der Magen	the stomach
 das Herz	the heart
 das Bein	the leg
