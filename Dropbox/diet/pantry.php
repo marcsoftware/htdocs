@@ -78,7 +78,7 @@
 
 
 
-<script src="pantry.js"></script>
+
 
 
 
@@ -98,4 +98,5 @@
     <div id='missingData'></div>
 </body>
 <?php include '../header.php';?>
+<script src="pantry.js"></script>
 </html> 
