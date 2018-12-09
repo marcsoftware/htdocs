@@ -74,7 +74,25 @@ function endGame(){
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+function playAudio(word){
+ 
 
+     console.log(word);
+     word=word.trim();
+      word=word.replace(/\ /g,'.'); //our audiofolder has dots instead of spaces.
+      var word = new Audio(`../../audio-de/${word}.wav`);
+      word.play();
+      try{
+       
+      }catch(e){
+        console.log("ERROR: cant delete word");
+      }
+}
 
 
 /**
@@ -289,8 +307,16 @@ function displayTheWords(lines){
             hovered.push(para);
           }); 
 
+
+   
+
         para.addEventListener("mouseup", function(e){
-          
+           if(e.which == 2){
+                e.preventDefault();
+                playAudio(para.target_word);
+                
+              }
+
             if(e.which==1){ //if left mouse button was clicked
               
               var color=e.target.style.backgroundColor;

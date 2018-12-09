@@ -23,6 +23,28 @@ function init(){
 	drawButtons();
 }
 
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+function playAudio(){
+  var word_pair = global_group[globalArrow];
+  word_pair = word_pair.split('\t');
+  var ans_key = word_pair[0];
+
+     word = ans_key;
+     word=word.trim();
+      word=word.replace(/\ /g,'.'); //our audiofolder has dots instead of spaces.
+      var word = new Audio(`../../audio-de/${word}.wav`);
+      word.play();
+      try{
+       
+      }catch(e){
+        console.log("ERROR: cant delete word");
+      }
+}
+
 
 /*
 //---------------------------------------------------------------------
@@ -58,7 +80,8 @@ function check(input){
 
 console.log(ans_key);
 	if(ans_key===input){
-			
+			playAudio();
+      alert(1+ans_key);
 			nextWord();
 	}else{
 		console.log('x: '+ans_key);

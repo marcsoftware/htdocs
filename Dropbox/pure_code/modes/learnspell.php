@@ -247,6 +247,10 @@ textarea {
     100% { transform: rotate(360deg); }
 }
 
+#last{
+  font-size: 10px;
+}
+
 </style>
 
 
@@ -263,11 +267,12 @@ textarea {
 
 
 <input type='text' id='input' onkeyup='check(this.value)' ></input>
+<input type='button' value='play audio' onclick='playAudio()' ></input><br/>
 
-<body oncontextmenu="return false;">
 
 
-  <span id='timer'></span>
+
+  <span id='last'></span>
 
 
 

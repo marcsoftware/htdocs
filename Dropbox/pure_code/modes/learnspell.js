@@ -30,7 +30,7 @@ function init(){
 */
 var global_ans_key;
 function drawActive(){
-  if(globalCounter>global_lines.length){
+  if(globalCounter >= global_lines.length){
     endGame();
 
   }
@@ -39,7 +39,7 @@ function drawActive(){
   german = removeArticles(german);
   global_ans_key=german;
   document.getElementById('track').innerHTML=german;
-  playAudio(german);
+  playAudio();
 }
 
 /**
@@ -47,7 +47,9 @@ function drawActive(){
 //
 //-----------------------------------------------------------
 */
-function playAudio(word){
+function playAudio(){
+     word = global_ans_key;
+     word=word.trim();
       word=word.replace(/\ /g,'.'); //our audiofolder has dots instead of spaces.
       var word = new Audio(`../../audio-de/${word}.wav`);
       word.play();
@@ -136,6 +138,7 @@ function drawBar(){
 //---------------------------------------------------------------------
 */
 function nextWord(){
+  document.getElementById('last').innerHTML=global_lines[globalCounter].replace(/\t/g, '---');
 	globalCounter++;	
   document.getElementById('input').value='';
   drawBar();
@@ -150,7 +153,7 @@ function nextWord(){
 //---------------------------------------------------------------------
 */
 function endGame(){
-    document.getElementById('focusredwords').disabled = true; 
+    
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
@@ -325,24 +328,6 @@ var timer=0;
 
   }
 
-
-
-
-/**
-//---------------------------------------------------------------------
-//
-//---------------------------------------------------------------------
-*/
-// Will remove all falsy values: undefined, null, 0, false, NaN and "" (empty string)
-function cleanArray(actual) {
-  var newArray = new Array();
-  for (var i = 0; i < actual.length; i++) {
-    if (actual[i]) {
-      newArray.push(actual[i]);
-    }
-  }
-  return newArray;
-}
 
 
 
