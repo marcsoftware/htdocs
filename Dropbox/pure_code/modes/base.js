@@ -81,7 +81,7 @@ function check(input){
 console.log(ans_key);
 	if(ans_key===input){
 			playAudio();
-      alert(1+ans_key);
+      
 			nextWord();
 	}else{
 		console.log('x: '+ans_key);
