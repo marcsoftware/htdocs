@@ -14,6 +14,7 @@
     */
     session_start();
     $customer_name = $_SESSION["customer_name"];
+    $table_name= $customer_name.'_pantry';
     error_reporting(E_ALL);
 
     date_default_timezone_set('America/Denver');
@@ -22,42 +23,49 @@
     require_once('../passwords/db_const.php');
     $dbname = "diet";
 
-    //
-    if(!isset($_GET["name"])){
-        $name='';
-    }else{
-         $name=$_GET["name"]; 
-    }
 
-    if(!isset($_GET["total_cals"])){
-        $total_cals='null';
-    }else{
-        $total_cals=$_GET["total_cals"]; 
-    }
-
-    if(!isset($_GET["id"])){
-        $id='';
+   if(!isset($_GET["id"])){
+        $id=null;
     }else{
          $id=$_GET["id"]; 
     }
 
+if(!isset($_GET["upc"])){
+        $upc=null;
+    }else{
+         $upc=$_GET["upc"]; 
+    }
+    //
+    if(!isset($_GET["name"])){
+        $name=null;
+    }else{
+         $name=$_GET["name"]; 
+    }
+
+    if(!isset($_GET["amount_per_serv"])){
+        $amount_per_serv=null;
+    }else{
+        $amount_per_serv=$_GET["amount_per_serv"]; 
+    }
+  
+echo $upc;
 
     if(!isset($_GET["total_amount"])){
-        $total_amount='';
+        $total_amount=null;
     }else{
          $total_amount=$_GET["total_amount"]; 
     }
 
-    if(!isset($_GET["cal_per_serv"])){
-        $cal_per_serv='';
+    if(!isset($_GET["serv_per_container"])){
+        $serv_per_container=null;
     }else{
-        $cal_per_serv=$_GET["cal_per_serv"]; 
+        $serv_per_container=$_GET["serv_per_container"]; 
     }
 
-    if(!isset($_GET["amount_per_serv"])){
-        $amount_per_serv='';
+  if(!isset($_GET["cal_per_serv"])){
+        $cal_per_serv=null;
     }else{
-        $amount_per_serv=$_GET["amount_per_serv"]; 
+        $cal_per_serv=$_GET["cal_per_serv"]; 
     }
 
 
@@ -122,8 +130,8 @@ $date=$_GET["date"];
 
     
     //if doen't have a name then dont add to database
-    if(!isset($name)){
-        return;
+    if(isset($name) && $name=='false'){
+        $name='';
     }
 
     if(!$total_amount_unit && $total_amount_label ){ // check if need to add label to total_amount
@@ -143,9 +151,9 @@ $date=$_GET["date"];
 // custom_sort total_amount_unit   amount_per_serv_unit 
 //   amount_per_serv_label   cal_per_serv    customer_name
     if($id == 0){ //insert a new record
-        $sql = "INSERT INTO diet
+        $sql = "INSERT INTO $table_name
             VALUES (
-                    NULL, '$date', '$name', '$total_cals', '$total_amount_label',
+                    NULL, '$date', '$name','$upc', '$total_cals', '$total_amount_label',
                     $total_amount_unit ,$amount_per_serv_unit, 
                     '$amount_per_serv_label', $cal_per_serv,'$customer_name',$time
             )";
@@ -153,7 +161,7 @@ $date=$_GET["date"];
     }else{ //update an old record. If user updates an old record this will work and not change date. 
         //TODO need to just pass date from js. then we can make this file more
 
-        $sql = "select date from diet where id=$id"; // preserve the date
+        $sql = "select date from $table_name where id=$id"; // preserve the date
         $result = $conn->query($sql); //TODO need to process $date before we use it
         
 
@@ -164,15 +172,15 @@ $date=$_GET["date"];
         $conn->query($sql);
 
         if(!$row){
-          $sql = "insert into diet
+          $sql = "insert into $table_name
     set
                     date='$date',
                     name='$name',
-
+                    upc='$upc',
                     total_cals='$total_cals',
                     total_amount_label='$total_amount_label',
                     total_amount_unit=$total_amount_unit,
-                    
+                    serv_per_container='$serv_per_container',
                     amount_per_serv_unit=$amount_per_serv_unit,
                     amount_per_serv_label='$amount_per_serv_label',
                     cal_per_serv=$cal_per_serv,
@@ -182,19 +190,19 @@ $date=$_GET["date"];
 $date=$row['date'];
         //$sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
 
-         $sql = "update diet
+         $sql = "update $table_name
     set
                     date='$date',
                     name='$name',
-
+                    upc='$upc',
                     total_cals='$total_cals',
                     total_amount_label='$total_amount_label',
                     total_amount_unit=$total_amount_unit,
-                    
+                    serv_per_container='$serv_per_container',
                     amount_per_serv_unit=$amount_per_serv_unit,
                     amount_per_serv_label='$amount_per_serv_label',
                     cal_per_serv=$cal_per_serv,
-                    customer_name='$customer_name'
+                    customer_name='$customer_name',
                 where id=$id";
             
     }  }     

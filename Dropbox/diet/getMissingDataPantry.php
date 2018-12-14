@@ -27,7 +27,7 @@
     
     //TODO edit $sql to update if entry already exsists
     $sql = "SELECT * from $customer_pantry where 
-             (total_cals is NULL) or (cal_per_serv is NULL) 
+             (total_cals is NULL) or (cal_per_serv is NULL) or (total_cals='') or (cal_per_serv='')
             ";//ORDER BY article_rating DESC, article_time DESC
     
 

@@ -79,6 +79,7 @@ function getMissingDataPantry(){
     xmlhttp.onreadystatechange=function(){
         if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
             var list = (xmlhttp.responseText);
+            
             list=list.replace(/\s/g,'');
             list=list.split('{END}');
             list.pop(); //delete last one since it is empty
@@ -232,62 +233,58 @@ function wrap(list){
             id=item.id || 0;
             name = item.name || false;
             
+            //name upc amount_per_serv cal_per_serv serv_per_container
             
             amount_per_serv = item.amount_per_serv ;
             total_amount = item.total_amount;
             cal_per_serv = item.cal_per_serv;
+            serv_per_container = item.serv_per_container;
+            upc = item.upc;
 
-            total_cals=item.total_cals;
-            //id
-            if(id !==null && id!==undefined && id.length != 0){
-                id='id='+id;
-            }else{
-                id='';
-            }
-            //name
-             if(name!==null && name!==undefined && name.length != 0){
-                name='&name='+name;
-            }
-            else{
-                name='';
-            }
-            //total_cals
-             if(total_cals!==null && total_cals!==undefined && total_cals.length != 0){
-                if(total_cals.toString().indexOf(".")>=0){
-                    try{
-                        total_cals=total_cals.toFixed(2);
-                    }catch(e){}
-                }
-                total_cals='&total_cals='+total_cals;
-            }else{
-                total_cals='';
-            }
-            //amount_per_serv
-             if(amount_per_serv!==null && amount_per_serv!==undefined && amount_per_serv.length != 0){
-                amount_per_serv='&amount_per_serv='+amount_per_serv;
-            }else{
-                amount_per_serv='';
-            }
-            //total moaunt
-             if(total_amount!==null && total_amount!==undefined && total_amount.length != 0){
-                total_amount='&total_amount='+total_amount;
-            }else{
-                total_amount='';
-            }
-            //calperserv
-             if(cal_per_serv!==null && cal_per_serv!==undefined && cal_per_serv.length != 0){
-                cal_per_serv='&cal_per_serv='+cal_per_serv;
-            }else{
-                cal_per_serv='';
-            }
+            
+            //validate everything
+            id = validate('id',id);
+            upc = validate('upc',upc);
+            name = validate('name',name);
+            amount_per_serv = validate('amount_per_serv',amount_per_serv);
+            serv_per_container = validate('serv_per_container',serv_per_container);
+            cal_per_serv = validate('cal_per_serv',cal_per_serv);
+           
+         
+
+            
+           
+             
 
             string_date='&date='+stringDate();
 
-            xmlhttp.open("GET","/Dropbox/diet/sendToDatabasePantry.php?"+id+name+total_cals+
-                            amount_per_serv+total_amount+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
+
+
+            xmlhttp.open("GET","/Dropbox/diet/sendToDatabasePantry.php?"+upc+id+name+amount_per_serv+serv_per_container+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
         }
+
+
+//---------------------------------------------
+//
+//---------------------------------------------
+function stringDate(){
+    var today = new Date();
+    today.setDate(today.getDate());
+    var string_date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+(str_pad(today.getDate()));
+    
+    return string_date;
+
+}
+
+//---------------------------------------------
+//
+//---------------------------------------------
+function str_pad(n) {
+    return String("00" + n).slice(-2);
+}
+
 
    /**
         //---------------------------------------------------------------------
@@ -295,7 +292,7 @@ function wrap(list){
         //---------------------------------------------------------------------
         */
 
-        function validate(value,name){
+        function validate(name,value){
              if(value!==null && value!==undefined && value.length != 0){
                 return `&${name}=${value}`;
             }else{
