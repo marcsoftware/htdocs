@@ -4,7 +4,7 @@
 
  <head>
 <meta charset="UTF-8">
-<title>study</title>
+
 <script src="../../jquery-3.1.0.min.js"></script>
 <?php
  $fileName = ($_GET["fileName"]);
@@ -372,7 +372,7 @@ function hideOthers(number){
     <br/><br/><br/> 
 </p>
 
-
+<title>study</title>
 
 <p id='buffer'></p> <!-- this <p> is a buffer to stop the bottom fixed menu <small> from hidding content at the bottom of the page-->
 </body>

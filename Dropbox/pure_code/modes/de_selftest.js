@@ -48,6 +48,7 @@ function focusRedWords(){
         }
     }
 
+
     document.getElementById('file').innerHTML='';
     displayTheWords(redwords);
 
@@ -207,6 +208,7 @@ $( document ).ready(function() {
 */
 var global_group_container;
 function displayTheWords(lines){
+
     var line_length=lines.length;
 
     var result;
@@ -294,7 +296,8 @@ function displayTheWords(lines){
        para.addEventListener("mouseover", function(e){
             
             try{
-              if(hovered.length>=3){
+              const MAX_HOVERED=1; // how many words can user hover over before they are hidden again.
+              if(hovered.length>=MAX_HOVERED){
                 var lasthovered=hovered.shift();
                 lasthovered.innerHTML=lasthovered.target_word+'\n';
                 
@@ -353,7 +356,7 @@ function displayTheWords(lines){
         
         //appendToElement('file',result[1]);
     });
-    //printToElement('file',lines);
+  //printToElement('file',lines);
 }
 /*
 //---------------------------------------------------------------------
