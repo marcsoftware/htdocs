@@ -14,6 +14,8 @@ function saveUPC(){
     var handle = document.getElementById('inputUPC');
     
     saveUPCDatabase(handle.value);
+    document.getElementById('missingData').innerHTML='';
+    getMissingDataPantry();
     
 }
 
