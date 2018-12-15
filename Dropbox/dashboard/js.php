@@ -61,13 +61,13 @@
 </style>
 <title>js dashboard</title>
 
-<?php include '../pure_code/getUsersTime.php';?>
+
 
 
 <script type='text/javascript'>
 
 
-  main();
+
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     //CALENDARY STUFF
 
@@ -505,9 +505,9 @@ function prev() {
 }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     window.onload = function(e){ 
-        document.getElementById('focusstudy').addEventListener("click", function(){gotoFocusStudyPage(false)});
-        document.getElementById('studyall').addEventListener("click", function(){gotoFocusStudyPage(true)}); 
-        displayCalendar();
+        
+        
+        
     }
 
     // takes user to the special study page that has words form the database
@@ -637,128 +637,16 @@ function prev() {
         }
 </style>
 
-<h4>review words</h4>
-select flashcards based on difficulty<br/>
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-// when user completes selfttest.php mode
-// save words to database
-
-//create table if it doesn't already exsist
-if(isset($_SESSION["customer_name"])){
-    $customer_name = $_SESSION["customer_name"];
-
-    $dbname='flashcards';
-
-    require_once('../passwords/db_const.php');
-
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
-    //get stats
-    $sql = "SELECT difficulty,COUNT(*)
-    FROM $customer_name      
-    GROUP BY difficulty;";
-
-    $result = $conn->query($sql);
-    $response = $result->fetch_all(MYSQLI_ASSOC);
-
-    for($i=0;$i<count($response);$i++){
-        $number = ($response[$i]['difficulty']);
-        echo "<input type='checkbox' name='pickDiff' value='$number'>";
-        echo $number.'  =>';
-        echo ($response[$i]['COUNT(*)']).'<br/>';
-    }
-}
-?>
-<input type='button' value='focus study' id='focusstudy' />
-<input type='button' value='study all words' id='studyall' />
 
 
 
-<h4>CALENDAR VIEW</h4>
-
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-// when user completes selfttest.php mode
-// save words to database
-
-//create table if it doesn't already exsist
-if(isset($_SESSION["customer_name"])){
-    $customer_name = $_SESSION["customer_name"];
-
-    $dbname='flashcards';
-
-    require_once('../passwords/db_const.php');
-
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
-    //get stats
-
-    $customer_name_calendar= $customer_name . '_calendar';
-    $sql = "SELECT *,COUNT(*)
-    FROM $customer_name_calendar      
-    GROUP BY first_look_date,difficulty";
-
-    $result = $conn->query($sql);
-    $response = $result->fetch_all(MYSQLI_ASSOC);
-
-    $days = [];
-    for($i=0;$i<count($response);$i++){
-        $date = ($response[$i]['first_look_date']);
-
-        $number = $response[$i]['COUNT(*)'];
-        $diff = $response[$i]['difficulty'];
-        
-        if(!isset ($days[$date])){
-            $days[$date]='';
-        }
-        $days[$date] .=$diff.':'.$number.'.';
-    }
-
-    echo '<br/>';
-
-    foreach ($days as $i => $diffs) {
-        $diffs_array = explode('.',$diffs);
-        
-        $total=0;
-        $green_total=0;
-        foreach ($diffs_array as $j => $diff_string) {
-            
-            $both = explode(':', $diff_string);
-            if(isset($both[1])){
-               $total+=( $both[1]);
-            }
-
-            if($j == 0){
-                $green_total = $both[1];
-            }
-        }
-
-$red_total = $total-$green_total;
-
-        echo "<p onmouseover=showStats(this,'$i','$diffs')>$i <span class='green' onclick=studyDay(this,'${i}','$diffs',0)>
-                    $green_total</span><span class=red onclick=studyDay(this,'$i','$diffs',1)>$red_total</span></p>"; 
-        
-    }    
-}
-?>
 
 
-<button class='btns' onclick=prev()>Prev</button>
-<button style=margin-left:3.25%; class='btns' onclick=next()>Next</button>
 
   <div id="calendar"></div>
 
 
-<h4>learn new words</h4>
+<h4>learn </h4>
 <?php
     $folder = '../pure_code/material/js-ref';
     $file = 'array1.txt';
