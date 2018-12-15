@@ -33,9 +33,10 @@
         $template = "            
                     <h5>$file</h5>
                     
-                  <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>learn spelling</a>
+                  
+                  
+                    <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> read</a><br/>
+                    <a class='hyperlink' onclick=nextPage(this,'retypeExamples.php') rel='$file' name='$folder'>retype examples</a>
                     ";
         
         echo $template;
