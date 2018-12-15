@@ -71,9 +71,66 @@ function testing(){
 	}
 
 
+ // test coke 1liter
+	
+
+	item = makeTestObject('coke','','12oz','394.5','1liter');   
+	print(JSON.stringify(item));
+	addNew(item);
+	print(JSON.stringify(item));
+
+	if(item.total_cals>='394.50'){
+		print('✔️ 1liter coke should be 394.50');
+
+	}else{
+		print('❌️ 1liter coke should be 394.50');
+	}
+ // test coke 12oz
+	item = makeTestObject('coke','','12oz','','');   
+	print(JSON.stringify(item));
+	addNew(item);
+	print(JSON.stringify(item));
+
+	if(item.total_cals=='140'){
+		print('✔️    12oz coke is 140');
+
+	}else{
+		print('❌️ 12oz coke is 140');
+	}
+
+ // test coke 1liter
+	item = makeTestObject('coke','','1liter','','');   
+	print(JSON.stringify(item));
+	addNew(item);
+	print(JSON.stringify(item));
+
+	if(item.total_cals=='394.50'){
+		print('✔️ 1liter coke should be 394.50');
+
+	}else{
+		print('❌️ 1liter coke should be 394.50');
+	}
 
 }
-	 /**
+
+
+/**
+//---------------------------------------------------------------------
+// delete all records from today that match the username
+//---------------------------------------------------------------------
+*/
+function makeTestObject(name, total_cals,total_amount,cal_per_serv,amount_per_serv){
+	return item = {
+		'name':name,
+		'total_cals':total_cals,
+		'total_amount':total_amount,
+		'cal_per_serv':cal_per_serv,
+		'amount_per_serv':amount_per_serv
+	};
+}
+
+
+		 /**
         //---------------------------------------------------------------------
         // delete all records from today that match the username
         //---------------------------------------------------------------------
