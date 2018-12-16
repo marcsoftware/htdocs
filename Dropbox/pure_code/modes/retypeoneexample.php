@@ -23,7 +23,7 @@
   
  
 </script>
-<script src="retypeExamples.js" content="text/html; charset=utf-8" ></script>
+<script src="retypeoneexample.js" content="text/html; charset=utf-8" ></script>
 
 <title>blank</title>
 <?php include '../../header.php';?>
@@ -263,8 +263,12 @@ textarea {
 <pre id='file'></pre>
 <pre id='track'></pre>
 <pre id='buttons'></pre>
-
-
+<textarea id='left'></textarea>
+<textarea id='right'></textarea>
+<br/>
+<input type='button' value='prev' onclick='prev()' />
+<span id='bar'></span>
+<input type='button' value='next' onclick='next()' />
 
 
 

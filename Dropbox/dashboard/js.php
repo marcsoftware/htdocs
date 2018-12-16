@@ -36,7 +36,8 @@
                   
                   
                     <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> read</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'retypeExamples.php') rel='$file' name='$folder'>retype examples</a>
+                    <a class='hyperlink' onclick=nextPage(this,'retypeExamples.php') rel='$file' name='$folder'>retype examples</a><br/>
+                    <a class='hyperlink' onclick=nextPage(this,'retypeoneexample.php') rel='$file' name='$folder'>retype one</a>
                     ";
         
         echo $template;

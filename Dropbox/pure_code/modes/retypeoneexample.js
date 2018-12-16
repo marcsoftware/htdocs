@@ -11,16 +11,63 @@ var hovered = [];// save handles to cards taht were hovered over to they can be 
 //
 //---------------------------------------------------------------------
 */
+var page =0;
+var total;
 function init(){
 	
-original=original.replace(/`([^`]+)\`/g,'<textarea>$1</textarea><textarea></textarea>');
-	document.getElementById('file').innerHTML=original;
+
+original=original.match(/`([^`]+)\`/g);
+total=original.length;
+	draw(original[page]);
 	
 }
 
 
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function draw(text){
 
+  text=text.replace(/\`/g,'');
+  document.getElementById('left').value=text;
+  updateBar();
 
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function updateBar(){
+  document.getElementById('bar').innerHTML=page+'/'+total;
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function next(){
+ page++;
+
+  draw(original[page]);
+  document.getElementById('right').value='';
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function prev(){
+page--;
+
+  draw(original[page]);
+  document.getElementById('right').value='';
+}
 
 
 /*

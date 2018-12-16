@@ -19,7 +19,8 @@ var last = fruits[fruits.length - 1];
 `
 Loop over an Array
 
-fr`uits.forEach(function(item, index, array) {
+`
+fruits.forEach(function(item, index, array) {
   console.log(item, index);
 });
 // Apple 0
