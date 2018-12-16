@@ -417,7 +417,7 @@ Return value
 The initial value given by the values() iterator. By default, using arr[Symbol.iterator] will return the values() function.
 Examples
 Iteration using for...of loop
-
+`
 var arr = ['w', 'y', 'k', 'o', 'p'];
 var eArr = arr[Symbol.iterator]();
 // your browser must support for..of loop
@@ -426,7 +426,7 @@ var eArr = arr[Symbol.iterator]();
 for (let letter of eArr) {
   console.log(letter);
 }
-
+`
 Alternative iteration
 
 var arr = ['w', 'y', 'k', 'o', 'p'];
@@ -457,11 +457,12 @@ The species property returns the default constructor function, which is the Arra
 Array[Symbol.species]; // function Array()
 
 In a derived collection object (e.g. your custom array MyArray), the MyArray species is the MyArray constructor. However, you might want to overwrite this, in order to return parent Array objects in your derived class methods:
-
+`
 class MyArray extends Array {
   // Overwrite MyArray species to the parent Array constructor
   static get [Symbol.species]() { return Array; }
 }
+`
 -----------------------------------------------------------------------4
 array.@@unscopables
 
@@ -482,7 +483,7 @@ Configurable 	yes
 Examples
 
 The following code works fine in ES5 and below. However, in ECMAScript 2015 and later, the Array.prototype.keys() method was introduced. That means that inside with environments, "keys" would now be the method and not the variable. This is where now the built-in @@unscopables Array.prototype[@@unscopables] symbol property comes into play and prevents that some of the Array methods are being scoped into the with statement.
-
+`
 var keys = [];
 
 with (Array.prototype) {
@@ -492,17 +493,18 @@ with (Array.prototype) {
 Object.keys(Array.prototype[Symbol.unscopables]); 
 // ["copyWithin", "entries", "fill", "find", "findIndex", 
 //  "includes", "keys", "values"]
+`
 ---------------------------------------------------------------------------------------------------5
 array.concat
 
 The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
-
+`
 var array1 = ['a', 'b', 'c'];
 var array2 = ['d', 'e', 'f'];
 
 console.log(array1.concat(array2));
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
-
+`
 
 Syntax
 
@@ -530,17 +532,17 @@ Examples
 Concatenating two arrays
 
 The following code concatenates two arrays:
-
+`
 var alpha = ['a', 'b', 'c'];
 var numeric = [1, 2, 3];
 
 alpha.concat(numeric);
 // result in ['a', 'b', 'c', 1, 2, 3]
-
+`
 Concatenating three arrays
 
 The following code concatenates three arrays:
-
+`
 var num1 = [1, 2, 3],
     num2 = [4, 5, 6],
     num3 = [7, 8, 9];
@@ -549,22 +551,22 @@ var nums = num1.concat(num2, num3);
 
 console.log(nums); 
 // results in [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+`
 Concatenating values to an array
 
 The following code concatenates three values to an array:
-
+`
 var alpha = ['a', 'b', 'c'];
 
 var alphaNumeric = alpha.concat(1, [2, 3]);
 
 console.log(alphaNumeric); 
 // results in ['a', 'b', 'c', 1, 2, 3]
-
+`
 Concatenating nested arrays
 
 The following code concatenates nested arrays and demonstrates retention of references:
-
+`
 var num1 = [[1]];
 var num2 = [2, [3]];
 
@@ -578,13 +580,14 @@ num1[0].push(4);
 
 console.log(nums);
 // results in [[1, 4], 2, [3]]
+`
 ----------------------------------------------------------------------------------------------------------------------------------------
 array.copyWithin
 
 The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.
 
 var array1 = [1, 2, 3, 4, 5];
-
+`
 // place at position 0 the element between position 3 and 4
 console.log(array1.copyWithin(0, 3, 4));
 // expected output: Array [4, 2, 3, 4, 5]
@@ -592,7 +595,7 @@ console.log(array1.copyWithin(0, 3, 4));
 // place at position 1 the elements after position 3
 console.log(array1.copyWithin(1, 3));
 // expected output: Array [4, 4, 5, 4, 5]
-
+`
 Syntax
 
 arr.copyWithin(target[, start[, end]])
@@ -620,7 +623,7 @@ The copyWithin function is intentionally generic, it does not require that its t
 
 The copyWithin method is a mutable method. It does not alter the length of this, but will change its content and create new properties if necessary.
 Examples
-
+`
 [1, 2, 3, 4, 5].copyWithin(-2);
 // [1, 2, 3, 1, 2]
 
@@ -645,9 +648,9 @@ i32a.copyWithin(0, 2);
 // On platforms that are not yet ES2015 compliant: 
 [].copyWithin.call(new Int32Array([1, 2, 3, 4, 5]), 0, 3, 4);
 // Int32Array [4, 2, 3, 4, 5]
-
+`
 Polyfill
-
+`
 if (!Array.prototype.copyWithin) {
   Array.prototype.copyWithin = function(target, start/*, end*/) {
     // Steps 1-2.
@@ -711,11 +714,12 @@ if (!Array.prototype.copyWithin) {
     return O;
   };
 }
+`
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 array.entries
 
 The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.
-
+`
 var array1 = ['a', 'b', 'c'];
 
 var iterator1 = array1.entries();
@@ -725,7 +729,7 @@ console.log(iterator1.next().value);
 
 console.log(iterator1.next().value);
 // expected output: Array [1, "b"]
-
+`
 Syntax
 
 array.entries()
@@ -735,7 +739,7 @@ Return value
 A new Array iterator object.
 Examples
 Using a for…of loop
-
+`
 var a = ['a', 'b', 'c'];
 var iterator = a.entries();
 
@@ -745,13 +749,14 @@ for (let e of iterator) {
 // [0, 'a']
 // [1, 'b']
 // [2, 'c'] 
+`
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 array.every
 
 The every() method tests whether all elements in the array pass the test implemented by the provided function.
 
 Note: This method returns true for any condition put on an empty array.
-
+`
 function isBelowThreshold(currentValue) {
   return currentValue < 40;
 }
@@ -760,7 +765,7 @@ var array1 = [1, 30, 39, 29, 10, 13];
 
 console.log(array1.every(isBelowThreshold));
 // expected output: true
-
+`
 Syntax
 
 arr.every(callback(element[, index[, array]])[, thisArg])
@@ -800,29 +805,29 @@ Examples
 Testing size of all array elements
 
 The following example tests whether all elements in the array are bigger than 10.
-
+`
 function isBigEnough(element, index, array) {
   return element >= 10;
 }
 [12, 5, 8, 130, 44].every(isBigEnough);   // false
 [12, 54, 18, 130, 44].every(isBigEnough); // true
-
+`
 Testing every object of an array for a value
-
+`
 [{a:1, b:2, c:3, d:4}, {a:1, x:2, y:3, z:4}, {a:1, x:2, y:3, z:4}].every(obj => obj.a === 1); //true
 [{a:1, b:2, c:3, d:4}, {a:1, x:2, y:3, z:4}, {a:2, x:2, y:3, z:4}].every(obj => obj.a === 1); //false
-
+`
 Using arrow functions
 
 Arrow functions provide a shorter syntax for the same test.
-
+`
 [12, 5, 8, 130, 44].every(x => x >= 10); // false
 [12, 54, 18, 130, 44].every(x => x >= 10); // true
-
+`
 Polyfill
 
 every was added to the ECMA-262 standard in the 5th edition; as such it may not be present in other implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of every in implementations which do not natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition, assuming Object and TypeError have their original values and that callbackfn.call evaluates to the original value of Function.prototype.call
-
+`
 if (!Array.prototype.every) {
   Array.prototype.every = function(callbackfn, thisArg) {
     'use strict';
@@ -886,11 +891,12 @@ if (!Array.prototype.every) {
     return true;
   };
 }
+`
 -----------------------------------------------------------------------------------------------------------------------------
 array.fill
 
 The fill() method fills all the elements of an array from a start index to an end index with a static value. The end index is not included.
-
+`
 var array1 = [1, 2, 3, 4];
 
 // fill with 0 from position 2 until position 4
@@ -904,7 +910,7 @@ console.log(array1.fill(5, 1));
 console.log(array1.fill(6));
 // expected output: [6, 6, 6, 6]
 
-
+`
 Syntax
 
 arr.fill(value[, start[, end]])
@@ -933,7 +939,7 @@ fill is a mutable method, it will change this object itself, and return it, not 
 
 When fill gets passed an object, it will copy the reference and fill the array with references to that object.
 Examples
-
+`
 [1, 2, 3].fill(4);               // [4, 4, 4]
 [1, 2, 3].fill(4, 1);            // [1, 4, 4]
 [1, 2, 3].fill(4, 1, 2);         // [1, 4, 3]
@@ -995,20 +1001,20 @@ if (!Array.prototype.fill) {
     }
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty, it's best not to polyfill Array.prototype methods at all, as you can't make them non-enumerable.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 array.filter
 
 The filter() method creates a new array with all elements that pass the test implemented by the provided function.
-
+`
 var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(word => word.length > 6);
 
 console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
-
+`
 Syntax
 
 var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
@@ -1050,7 +1056,7 @@ Examples
 Filtering out all small values
 
 The following example uses filter() to create a filtered array that has all elements with values less than 10 removed.
-
+`
 function isBigEnough(value) {
   return value >= 10;
 }
@@ -1114,9 +1120,9 @@ function filterItems(query) {
 
 console.log(filterItems('ap')); // ['apple', 'grapes']
 console.log(filterItems('an')); // ['banana', 'mango', 'orange']
-
+`
 ES2015 Implementation
-
+`
 const fruits = ['apple', 'banana', 'grapes', 'mango', 'orange'];
 
 /**
@@ -1169,12 +1175,13 @@ if (!Array.prototype.filter){
     return res;
   };
 }
+`
 -------------------------------------------------------------------------------------------------------------------------------
 
 array.find
 
 The find() method returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
-
+`
 var array1 = [5, 12, 8, 130, 44];
 
 var found = array1.find(function(element) {
@@ -1183,7 +1190,7 @@ var found = array1.find(function(element) {
 
 console.log(found);
 // expected output: 12
-
+`
 See also the findIndex() method, which returns the index of a found element in the array instead of its value.
 
 If you need to find the position of an element or whether an element exists in an array, use Array.prototype.indexOf() or Array.prototype.includes().
@@ -1222,7 +1229,7 @@ find does not mutate the array on which it is called.
 The range of elements processed by find is set before the first invocation of callback. Elements that are appended to the array after the call to find begins will not be visited by callback. If an existing, unvisited element of the array is changed by callback, its value passed to the visiting callback will be the value at the time that find visits that element's index; elements that are deleted are still visited.
 Examples
 Find an object in an array by one of its properties
-
+`
 var inventory = [
     {name: 'apples', quantity: 2},
     {name: 'bananas', quantity: 0},
@@ -1247,11 +1254,11 @@ const inventory = [
 const result = inventory.find( fruit => fruit.name === 'cherries' );
 
 console.log(result) // { name: 'cherries', quantity: 5 }
-
+`
 Find a prime number in an array
 
 The following example finds an element in the array that is a prime number (or returns undefined if there is no prime number).
-
+`
 function isPrime(element, index, array) {
   var start = 2;
   while (start <= Math.sqrt(element)) {
@@ -1295,11 +1302,11 @@ array.find(function(value, index) {
 // Visited index 4 with value undefined 
 // Visited index 5 with value undefined 
 // Visited index 6 with value 6
-
+`
 Polyfill
 
 This method has been added to the ECMAScript 2015 specification and may not be available in all JavaScript implementations yet. However, you can polyfill Array.prototype.find with the following snippet:
-
+`
 // https://tc39.github.io/ecma262/#sec-array.prototype.find
 if (!Array.prototype.find) {
   Object.defineProperty(Array.prototype, 'find', {
@@ -1346,7 +1353,7 @@ if (!Array.prototype.find) {
     writable: true
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty, it's best not to polyfill Array.prototype methods at all,
  as you can't make them non-enumerable.
 -------------------------------------------------------------------------------------
@@ -1355,7 +1362,7 @@ array.findIndex
 
 The findIndex() method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating no element passed the test.
 
-
+`
 var array1 = [5, 12, 8, 130, 44];
 
 function findFirstLargeNumber(element) {
@@ -1364,7 +1371,7 @@ function findFirstLargeNumber(element) {
 
 console.log(array1.findIndex(findFirstLargeNumber));
 // expected output: 3
-
+`
 See also the find() method, which returns the value of an array element, instead of that element's index.
 Syntax
 
@@ -1407,7 +1414,7 @@ Examples
 Find the index of a prime number in an array
 
 The following example returns the index of an element in the array that is a prime number, or -1 if there is no prime number.
-
+`
 function isPrime(element, index, array) {
   var start = 2;
   while (start <= Math.sqrt(element)) {
@@ -1422,20 +1429,20 @@ function isPrime(element, index, array) {
 
 console.log([4, 6, 8, 12].findIndex(isPrime)); // -1, not found
 console.log([4, 6, 7, 12].findIndex(isPrime)); // 2 (array[2] is 7)
-
+`
 Find index using arrow function
 
 The following example finds the index of a fruit using an arrow function:
-
+`
 const fruits = ["apple", "banana", "cantaloupe", "blueberries", "grapefruit"];
 
 const index = fruits.findIndex(fruit => fruit === "blueberries");
 
 console.log(index); // 3
 console.log(fruits[index]); // blueberries
-
+`
 Polyfill
-
+`
 // https://tc39.github.io/ecma262/#sec-array.prototype.findindex
 if (!Array.prototype.findIndex) {
   Object.defineProperty(Array.prototype, 'findIndex', {
@@ -1482,7 +1489,7 @@ if (!Array.prototype.findIndex) {
     writable: true
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty, it's best not to polyfill Array.prototype methods at all, as you can't make them non-enumerable.
 --------------------------------------------------------------------------------------------------------------
 array.flat
@@ -1505,7 +1512,7 @@ Return value
 A new array with the sub-array elements concatenated into it.
 Examples
 Flattening nested arrays
-
+`
 var arr1 = [1, 2, [3, 4]];
 arr1.flat(); 
 // [1, 2, 3, 4]
@@ -1517,18 +1524,18 @@ arr2.flat();
 var arr3 = [1, 2, [3, 4, [5, 6]]];
 arr3.flat(2);
 // [1, 2, 3, 4, 5, 6]
-
+`
 Flattening and array holes
 
 The flat method removes empty slots in arrays:
-
+`
 var arr4 = [1, 2, , 4, 5];
 arr4.flat();
 // [1, 2, 4, 5]
-
+`
 Alternative
 reduce and concat
-
+`
 var arr1 = [1, 2, [3, 4]];
 arr1.flat();
 
@@ -1565,6 +1572,7 @@ function flatten(input) {
   return res.reverse();
 }
 flatten(arr1);// [1, 2, 3, 1, 2, 3, 4, 2, 3, 4]
+`
 -------------------------------------------------------------------------------------
 array.flatMap
 
@@ -1601,7 +1609,7 @@ Description
 See Array.prototype.map() for a detailed description of the callback function. The flatMap method is identical to a map followed by a call to flat of depth 1.
 Examples
 map and flatMap
-
+`
 let arr1 = [1,2, 3, 4];
 
 arr1.map(x => [x * 2]); 
@@ -1613,11 +1621,11 @@ arr1.flatMap(x => [x * 2]);
 // only one level is flattened
 arr1.flatMap(x => [[x * 2]]);
 // [[2], [4], [6], [8]]
-
+`
 While the above could have been achieved by using map itself, here is an example showing usecase of flatMap better.
 
 Let's generate a list of words from a list of sentences.
-
+`
 let arr1 = ["it's Sunny in", "", "California"];
 
 arr1.map(x => x.split(" "));
@@ -1639,11 +1647,12 @@ arr1.reduce((acc, x) => acc.concat([x * 2]), []);
 // [2, 4, 6, 8]
 
 //=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+`
 --------------------------------------------------------------------
 array.forEach
 
 The forEach() method executes a provided function once for each array element.
-
+`
 
 var array1 = ['a', 'b', 'c'];
 
@@ -1654,8 +1663,7 @@ array1.forEach(function(element) {
 // expected output: "a"
 // expected output: "b"
 // expected output: "c"
-
-
+`
 Syntax
 
 arr.forEach(function callback(currentValue[, index[, array]]) {
@@ -1715,27 +1723,27 @@ Examples
 Converting a for loop to forEach
 
 before
-
+`
 const items = ['item1', 'item2', 'item3'];
 const copy = [];
 
 for (let i=0; i<items.length; i++) {
   copy.push(items[i])
 }
-
+`
 after
-
+`
 const items = ['item1', 'item2', 'item3'];
 const copy = [];
 
 items.forEach(function(item){
   copy.push(item)
 });
-
+`
 Printing the contents of an array
 
 The following code logs a line for each element in an array:
-
+`
 function logArrayElements(element, index, array) {
   console.log('a[' + index + '] = ' + element);
 }
@@ -1747,11 +1755,11 @@ function logArrayElements(element, index, array) {
 // a[0] = 2
 // a[1] = 5
 // a[3] = 9
-
+`
 Using thisArg
 
 The following (contrived) example updates an object's properties from each entry in the array:
-
+`
 function Counter() {
   this.sum = 0;
   this.count = 0;
@@ -1770,14 +1778,14 @@ obj.count;
 // 3 
 obj.sum;
 // 16
-
+`
 Since the thisArg parameter (this) is provided to forEach(), it is passed to callback each time it's invoked, for use as its this value.
 
 If passing the function argument using an arrow function expression the thisArg parameter can be omitted as arrow functions lexically bind the this value.
 An object copy function
 
 The following code creates a copy of a given object. There are different ways to create a copy of an object; the following is just one way and is presented to explain how Array.prototype.forEach() works by using ECMAScript 5 Object.* meta property functions.
-
+`
 function copy(obj) {
   const copy = Object.create(Object.getPrototypeOf(obj));
   const propNames = Object.getOwnPropertyNames(obj);
@@ -1792,11 +1800,11 @@ function copy(obj) {
 
 const obj1 = { a: 1, b: 2 };
 const obj2 = copy(obj1); // obj2 looks like obj1 now
-
+`
 If the array is modified during iteration, other elements might be skipped.
 
 The following example logs "one", "two", "four". When the entry containing the value "two" is reached, the first entry of the whole array is shifted off, which results in all remaining entries moving up one position. Because element "four" is now at an earlier position in the array, "three" will be skipped. forEach() does not make a copy of the array before iterating.
-
+`
 var words = ['one', 'two', 'three', 'four'];
 words.forEach(function(word) {
   console.log(word);
@@ -1807,9 +1815,9 @@ words.forEach(function(word) {
 // one
 // two
 // four
-
+`
 Polyfill
-
+`
 forEach() was added to the ECMA-262 standard in the 5th edition; as such it may not be present in other implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of forEach() in implementations that don't natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition, assuming Object and TypeError have their original values and that callback.call() evaluates to the original value of Function.prototype.call().
 
 // Production steps of ECMA-262, Edition 5, 15.4.4.18
@@ -1875,19 +1883,19 @@ if (!Array.prototype.forEach) {
     // 8. return undefined.
   };
 }
-
+`
 ------------------------------------------------------------------------------------------------------
 
 Array.from
 
 The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.
-
+`
 console.log(Array.from('foo'));
 // expected output: Array ["f", "o", "o"]
 
 console.log(Array.from([1, 2, 3], x => x + x));
 // expected output: Array [2, 4, 6]
-
+`
 
 Syntax
 
@@ -1919,7 +1927,7 @@ The length property of the from() method is 1.
 In ES2015, the class syntax allows for sub-classing of both built-in and user defined classes; as a result, static methods such as Array.from are "inherited" by subclasses of Array and create new instances of the subclass, not Array.
 Examples
 Array from a String
-
+`
 Array.from('foo'); 
 // ["f", "o", "o"]
 
@@ -1978,11 +1986,11 @@ range(0, 5, 1);
 // Generate the alphabet using Array.from making use of it being ordered as a sequence
 range('A'.charCodeAt(0), 'Z'.charCodeAt(0) + 1, 1).map(x => String.fromCharCode(x));
 // ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-
+`
 Polyfill
 
 Array.from was added to the ECMA-262 standard in the 6th edition (ES2015); as such it may not be present in other implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of Array.from in implementations that don't natively support it. This algorithm is exactly the one specified in ECMA-262, 6th edition, assuming Object and TypeError have their original values and that callback.call evaluates to the original value of Function.prototype.call. In addition, since true iterables can not be polyfilled, this implementation does not support generic iterables as defined in the 6th edition of ECMA-262.
-
+`
 // Production steps of ECMA-262, Edition 6, 22.1.2.1
 if (!Array.from) {
   Array.from = (function () {
@@ -2061,12 +2069,13 @@ if (!Array.from) {
     };
   }());
 }
+`
 --------------------------------------------------------------------------------------------------
 
 array.includes
 
 The includes() method determines whether an array includes a certain element, returning true or false as appropriate.
-
+`
 var array1 = [1, 2, 3];
 
 console.log(array1.includes(2));
@@ -2079,7 +2088,7 @@ console.log(pets.includes('cat'));
 
 console.log(pets.includes('at'));
 // expected output: false
-
+`
 Syntax
 
 arr.includes(searchElement[, fromIndex])
@@ -2097,26 +2106,26 @@ A Boolean which is true if the value searchElement is found within the array (or
 
 Note: Technically speaking, includes() uses the sameValueZero algorithm to determine whether the given element is found.
 Examples
-
+`
 [1, 2, 3].includes(2);     // true
 [1, 2, 3].includes(4);     // false
 [1, 2, 3].includes(3, 3);  // false
 [1, 2, 3].includes(3, -1); // true
 [1, 2, NaN].includes(NaN); // true
-
+`
 fromIndex is greater than or equal to the array length
 
 If fromIndex is greater than or equal to the length of the array, false is returned. The array will not be searched.
-
+`
 var arr = ['a', 'b', 'c'];
 
 arr.includes('c', 3);   // false
 arr.includes('c', 100); // false
-
+`
 Computed index is less than 0
 
 If fromIndex is negative, the computed index is calculated to be used as a position in the array at which to begin searching for searchElement. If the computed index is less or equal than -1 * array.length, the entire array will be searched.
-
+`
 // array length is 3
 // fromIndex is -100
 // computed index is 3 + (-100) = -97
@@ -2190,7 +2199,7 @@ if (!Array.prototype.includes) {
     }
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty(), it's best not to polyfill Array.prototype methods at all, as you can't make them non-enumerable.
 
 
@@ -2200,7 +2209,7 @@ array.indexOf
 The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 Note: For the String method, see String.prototype.indexOf().
-
+`
 var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 console.log(beasts.indexOf('bison'));
@@ -2212,7 +2221,7 @@ console.log(beasts.indexOf('bison', 2));
 
 console.log(beasts.indexOf('giraffe'));
 // expected output: -1
-
+`
 Syntax
 
 arr.indexOf(searchElement[, fromIndex])
@@ -2234,16 +2243,16 @@ Examples
 Using indexOf()
 
 The following example uses indexOf() to locate values in an array.
-
+`
 var array = [2, 9, 9];
 array.indexOf(2);     // 0
 array.indexOf(7);     // -1
 array.indexOf(9, 2);  // 2
 array.indexOf(2, -1); // -1
 array.indexOf(2, -3); // 0
-
+`
 Finding all the occurrences of an element
-
+`
 var indices = [];
 var array = ['a', 'b', 'a', 'c', 'a', 'd'];
 var element = 'a';
@@ -2272,11 +2281,11 @@ updateVegetablesCollection(veggies, 'spinach');
 // New veggies collection is : potato,tomato,chillies,green-pepper,spinach
 updateVegetablesCollection(veggies, 'spinach'); 
 // spinach already exists in the veggies collection.
-
+`
 Polyfill
 
 indexOf() was added to the ECMA-262 standard in the 5th edition; as such it may not be present in all browsers. You can work around this by utilizing the following code at the beginning of your scripts. This will allow you to use indexOf() when there is still no native support. This algorithm matches the one specified in ECMA-262, 5th edition, assuming TypeError and Math.abs() have their original values.
-
+`
 if (!Array.prototype.indexOf)  Array.prototype.indexOf = (function(Object, max, min){
   "use strict";
   return function indexOf(member, fromIndex) {
@@ -2292,9 +2301,9 @@ if (!Array.prototype.indexOf)  Array.prototype.indexOf = (function(Object, max, 
     return -1; // if the value was not found, then return -1
   };
 })(Object, Math.max, Math.min);
-
+`
 However, if you are more interested in all the little technical bits defined by the ECMA standard, and are less concerned about performance or conciseness, then you may find this more descriptive polyfill to be more useful.
-
+`
 // Production steps of ECMA-262, Edition 5, 15.4.4.14
 // Reference: http://es5.github.io/#x15.4.4.14
 if (!Array.prototype.indexOf) {
@@ -2356,17 +2365,18 @@ if (!Array.prototype.indexOf) {
     return -1;
   };
 }
+`
 --------------------------------------------------------------------------------
 
 Array.isArray
 
 The Array.isArray() method determines whether the passed value is an Array.
-
+`
 Array.isArray([1, 2, 3]);  // true
 Array.isArray({foo: 123}); // false
 Array.isArray('foobar');   // false
 Array.isArray(undefined);  // false
-
+`
 Syntax
 
 Array.isArray(value)
@@ -2385,7 +2395,7 @@ If the value is an Array, true is returned; otherwise, false is.
 
 See the article “Determining with absolute accuracy whether or not a JavaScript object is an array” for more details. Given a TypedArray instance, false is always returned.
 Examples
-
+`
 // all following calls return true
 Array.isArray([]);
 Array.isArray([1]);
@@ -2405,11 +2415,11 @@ Array.isArray('Array');
 Array.isArray(true);
 Array.isArray(false);
 Array.isArray({ __proto__: Array.prototype });
-
+`
 instanceof vs isArray
 
 When checking for Array instance, Array.isArray is preferred over instanceof because it works through iframes.
-
+`
 var iframe = document.createElement('iframe');
 document.body.appendChild(iframe);
 xArray = window.frames[window.frames.length-1].Array;
@@ -2419,22 +2429,23 @@ var arr = new xArray(1,2,3); // [1,2,3]
 Array.isArray(arr);  // true
 // Considered harmful, because doesn't work through iframes
 arr instanceof Array; // false
-
+`
 Polyfill
 
 Running the following code before any other code will create Array.isArray() if it's not natively available.
-
+`
 if (!Array.isArray) {
   Array.isArray = function(arg) {
     return Object.prototype.toString.call(arg) === '[object Array]';
   };
 }
+`
 -----------------------------------------------------------------------------------------
 
 array.join
 
 The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string.
-
+`
 var elements = ['Fire', 'Wind', 'Rain'];
 
 console.log(elements.join());
@@ -2446,7 +2457,7 @@ console.log(elements.join(''));
 console.log(elements.join('-'));
 // expected output: Fire-Wind-Rain
 
-
+`
 Syntax
 
 arr.join([separator])
@@ -2468,37 +2479,38 @@ Examples
 Joining an array four different ways
 
 The following example creates an array, a, with three elements, then joins the array four times: using the default separator, then a comma and a space, then a plus and an empty string.
-
+`
 var a = ['Wind', 'Rain', 'Fire'];
 a.join();      // 'Wind,Rain,Fire'
 a.join(', ');  // 'Wind, Rain, Fire'
 a.join(' + '); // 'Wind + Rain + Fire'
 a.join('');    // 'WindRainFire'
+`
 
 Joining an array-like object
 
 The following example joins array-like object (arguments), by calling Function.prototype.call on Array.prototype.join.
-
+`
 function f(a, b, c) {
   var s = Array.prototype.join.call(arguments);
   console.log(s); // '1,a,true'
 }
 f(1, 'a', true);
 //expected output: "1,a,true"
-
+`
 
 -------------------------------------------------------------
 array.keys
 
 The keys() method returns a new Array Iterator object that contains the keys for each index in the array.
-
+`
 var array1 = ['a', 'b', 'c'];
 var iterator = array1.keys(); 
   
 for (let key of iterator) {
   console.log(key); // expected output: 0 1 2
 }
-
+`
 Syntax
 
 arr.keys()
@@ -2508,19 +2520,19 @@ Return value
 A new Array iterator object.
 Examples
 Key iterator doesn't ignore holes
-
+`
 var arr = ['a', , 'c'];
 var sparseKeys = Object.keys(arr);
 var denseKeys = [...arr.keys()];
 console.log(sparseKeys); // ['0', '2']
 console.log(denseKeys);  // [0, 1, 2]
-
+`
 ----------------------------------------------------
 
 array.lastIndexOf
 
 The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, starting at fromIndex.
-
+`
 var animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
 
 console.log(animals.lastIndexOf('Dodo'));
@@ -2528,7 +2540,7 @@ console.log(animals.lastIndexOf('Dodo'));
 
 console.log(animals.lastIndexOf('Tiger'));
 // expected output: 1
-
+`
 
 Syntax
 
@@ -2552,7 +2564,7 @@ Examples
 Using lastIndexOf
 
 The following example uses lastIndexOf to locate values in an array.
-
+`
 var numbers = [2, 5, 9, 2];
 numbers.lastIndexOf(2);     // 3
 numbers.lastIndexOf(7);     // -1
@@ -2560,11 +2572,11 @@ numbers.lastIndexOf(2, 3);  // 3
 numbers.lastIndexOf(2, 2);  // 0
 numbers.lastIndexOf(2, -2); // 0
 numbers.lastIndexOf(2, -1); // 3
-
+`
 Finding all the occurrences of an element
 
 The following example uses lastIndexOf to find all the indices of an element in a given array, using push to add them to another array as they are found.
-
+`
 var indices = [];
 var array = ['a', 'b', 'a', 'c', 'a', 'd'];
 var element = 'a';
@@ -2576,7 +2588,7 @@ while (idx != -1) {
 
 console.log(indices);
 // [4, 2, 0]
-
+`
 Note that we have to handle the case idx == 0 separately here because the element will always be found regardless of the fromIndex parameter 
 if it is the first element of the array. This is different from the indexOf method.
 Polyfill
@@ -2584,7 +2596,7 @@ Polyfill
 lastIndexOf was added to the ECMA-262 standard in the 5th edition; as such it may not be present in other implementations of the standard. You can work around this by inserting the following code 
 at the beginning of your scripts, allowing use of lastIndexOf in implementations which do not natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition, assuming
  Object, TypeError, Number, Math.floor, Math.abs, and Math.min have their original values.
-
+`
 // Production steps of ECMA-262, Edition 5, 15.4.4.15
 // Reference: http://es5.github.io/#x15.4.4.15
 if (!Array.prototype.lastIndexOf) {
@@ -2621,7 +2633,7 @@ if (!Array.prototype.lastIndexOf) {
     return -1;
   };
 }
-
+`
 Again, note that this implementation aims for absolute compatibility with lastIndexOf in Firefox and the SpiderMonkey JavaScript engine, including in several cases which are
  arguably edge cases. If you intend to use this in real-world applications, you may be able to calculate from with less complicated code if you ignore those cases.
 
@@ -2632,17 +2644,17 @@ Again, note that this implementation aims for absolute compatibility with lastIn
 Array.length
 
 The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
-
+`
 var clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
 
 console.log(clothing.length);
 // expected output: 4
-
+`
 
 Description
 
 The value of the length property is an integer with a positive sign and a value less than 2 to the 32nd power (232).
-
+`
 var namelistA = new Array(4294967296); //2 to the 32nd power = 4294967296 
 var namelistC = new Array(-100) //negative sign
 
@@ -2683,7 +2695,7 @@ function printEntries(arr) {
 // undefined
 // undefined
 // === printed ===
-
+`
 But, the length property does not necessarily indicate the number of defined values in the array. See also Relationship between length and numerical properties.
 Property attributes of Array.length
 Writable 	yes
@@ -2698,18 +2710,18 @@ Examples
 Iterating over an array
 
 In the following example, the array numbers is iterated through by looking at the length property. The value in each element is then doubled.
-
+`
 var numbers = [1, 2, 3, 4, 5];
 var length = numbers.length;
 for (var i = 0; i < length; i++) {
   numbers[i] *= 2;
 }
 // numbers is now [2, 4, 6, 8, 10]
-
+`
 Shortening an array
 
 The following example shortens the array numbers to a length of 3 if the current length is greater than 3.
-
+`
 var numbers = [1, 2, 3, 4, 5];
 
 if (numbers.length > 3) {
@@ -2718,13 +2730,14 @@ if (numbers.length > 3) {
 
 console.log(numbers); // [1, 2, 3]
 console.log(numbers.length); // 3
+`
 ------------------------------------------------------------
 
 
 array.map
 
 The map() method creates a new array with the results of calling a provided function on every element in the calling array.
-
+`
 var array1 = [1, 4, 9, 16];
 
 // pass a function to map
@@ -2732,7 +2745,7 @@ const map1 = array1.map(x => x * 2);
 
 console.log(map1);
 // expected output: Array [2, 8, 18, 32]
-
+`
 Syntax
 
 var new_array = arr.map(function callback(currentValue[, index[, array]]) {
@@ -2776,16 +2789,16 @@ Examples
 Mapping an array of numbers to an array of square roots
 
 The following code takes an array of numbers and creates a new array containing the square roots of the numbers in the first array.
-
+`
 var numbers = [1, 4, 9];
 var roots = numbers.map(Math.sqrt);
 // roots is now [1, 2, 3]
 // numbers is still [1, 4, 9]
-
+`
 Using map to reformat objects in an array
 
 The following code takes an array of objects and creates a new array containing the newly reformatted objects.
-
+`
 var kvArray = [{key: 1, value: 10}, 
                {key: 2, value: 20}, 
                {key: 3, value: 30}];
@@ -2801,11 +2814,11 @@ var reformattedArray = kvArray.map(obj =>{
 // [{key: 1, value: 10}, 
 //  {key: 2, value: 20}, 
 //  {key: 3, value: 30}]
-
+`
 Mapping an array of numbers using a function containing an argument
 
 The following code shows how map works when a function requiring one argument is used with it. The argument will automatically be assigned from each element of the array as map loops through the original array.
-
+`
 var numbers = [1, 4, 9];
 var doubles = numbers.map(function(num) {
   return num * 2;
@@ -2813,33 +2826,33 @@ var doubles = numbers.map(function(num) {
 
 // doubles is now [2, 8, 18]
 // numbers is still [1, 4, 9]
-
+`
 Using map generically
 
 This example shows how to use map on a String to get an array of bytes in the ASCII encoding representing the character values:
-
+`
 var map = Array.prototype.map;
 var a = map.call('Hello World', function(x) { 
   return x.charCodeAt(0); 
 });
 // a now equals [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]
-
+`
 Using map generically querySelectorAll
 
 This example shows how to iterate through a collection of objects collected by querySelectorAll. In this case we get all selected options on the screen and printed on the console:
-
+`
 var elems = document.querySelectorAll('select option:checked');
 var values = Array.prototype.map.call(elems, function(obj) {
   return obj.value;
 });
-
+`
 Easier way would be using Array.from() method.
 Tricky use case
 
 (inspired by this blog post)
 
 It is common to use the callback with one argument (the element being traversed). Certain functions are also commonly used with one argument, even though they take additional optional arguments. These habits may lead to confusing behaviors.
-
+`
 // Consider:
 ['1', '2', '3'].map(parseInt);
 // While one could expect [1, 2, 3]
@@ -2881,11 +2894,11 @@ xs = xs.map(parseInt);
 
 console.log(xs);
 // Actual result of 10,NaN,2 may be unexpected based on the above description.
-
+`
 Polyfill
 
 map was added to the ECMA-262 standard in the 5th edition; as such it may not be present in all implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of map in implementations which do not natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition, assuming Object, TypeError, and Array have their original values and that callback.call evaluates to the original value of Function.prototype.call.
-
+`
 // Production steps of ECMA-262, Edition 5, 15.4.4.19
 // Reference: http://es5.github.io/#x15.4.4.19
 if (!Array.prototype.map) {
@@ -2975,7 +2988,7 @@ if (!Array.prototype.map) {
     return A;
   };
 }
-
+`
 ------------------------------------------------------------------------
 
 Array.of
@@ -2983,13 +2996,13 @@ Array.of
 The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
 
 The difference between Array.of() and the Array constructor is in the handling of integer arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7 (Note: this implies an array of 7 empty slots, not slots with actual undefined values).
-
+`
 Array.of(7);       // [7] 
 Array.of(1, 2, 3); // [1, 2, 3]
 
 Array(7);          // [ , , , , , , ]
 Array(1, 2, 3);    // [1, 2, 3]
-
+`
 Syntax
 
 Array.of(element0[, element1[, ...[, elementN]]])
@@ -3006,26 +3019,27 @@ Description
 
 This function is part of the ECMAScript 2015 standard. For more information see Array.of and Array.from proposal and Array.of polyfill.
 Examples
-
+`
 Array.of(1);         // [1]
 Array.of(1, 2, 3);   // [1, 2, 3]
 Array.of(undefined); // [undefined]
-
+`
 Polyfill
 
 Running the following code before any other code will create Array.of() if it's not natively available.
-
+`
 if (!Array.of) {
   Array.of = function() {
     return Array.prototype.slice.call(arguments);
   };
 }
+`
 --------------------------------------------------------------------------------------
 
 array.pop
 
 The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
-
+`
 var plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 
 console.log(plants.pop());
@@ -3039,7 +3053,7 @@ plants.pop();
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage"]
 
-
+`
 Syntax
 
 arr.pop()
@@ -3058,7 +3072,7 @@ Examples
 Removing the last element of an array
 
 The following code creates the myFish array containing four elements, then removes its last element.
-
+`
 var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
 
 var popped = myFish.pop();
@@ -3066,6 +3080,7 @@ var popped = myFish.pop();
 console.log(myFish); // ['angel', 'clown', 'mandarin' ] 
 
 console.log(popped); // 'sturgeon'
+`
 -----------------------------------------------------------------------------------------------------------------------------
 Array.prototype
 Description
@@ -3177,7 +3192,7 @@ Many methods on the JavaScript Array object are designed to be generally applied
 array.push
 
 The push() method adds one or more elements to the end of an array and returns the new length of the array.
-
+`
 var animals = ['pigs', 'goats', 'sheep'];
 
 console.log(animals.push('cows'));
@@ -3190,7 +3205,7 @@ animals.push('chickens');
 
 console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens"]
-
+`
 
 Syntax
 
@@ -3215,19 +3230,19 @@ Examples
 Adding elements to an array
 
 The following code creates the sports array containing two elements, then appends two elements to it. The total variable contains the new length of the array.
-
+`
 var sports = ['soccer', 'baseball'];
 var total = sports.push('football', 'swimming');
 
 console.log(sports); // ['soccer', 'baseball', 'football', 'swimming']
 console.log(total);  // 4
-
+`
 Merging two arrays
 
 This example uses apply() to push all elements from a second array.
 
 Do not use this method if the second array (moreVegs in the example) is very large, because the maximum number of parameters that one function can take is limited in practice. See apply() for more details.
-
+`
 var vegetables = ['parsnip', 'potato'];
 var moreVegs = ['celery', 'beetroot'];
 
@@ -3236,11 +3251,11 @@ var moreVegs = ['celery', 'beetroot'];
 Array.prototype.push.apply(vegetables, moreVegs);
 
 console.log(vegetables); // ['parsnip', 'potato', 'celery', 'beetroot']
-
+`
 Using an object in an array-like fashion
 
 As mentioned above, push is intentionally generic, and we can use that to our advantage. Array.prototype.push can work on an object just fine, as this example shows. Note that we don't create an array to store a collection of objects. Instead, we store the collection on the object itself and use call on Array.prototype.push to trick the method into thinking we are dealing with an array, and it just works, thanks to the way JavaScript allows us to establish the execution context however we please.
-
+`
 var obj = {
     length: 0,
 
@@ -3256,14 +3271,14 @@ obj.addElem({});
 obj.addElem({});
 console.log(obj.length);
 // → 2
-
+`
 Note that although obj is not an array, the method push successfully incremented obj's length property just like if we were dealing with an actual array.
 --------------------------------------------------------
 
 array.reduce
 
 The reduce() method executes a reducer function (that you provide) on each member of the array resulting in a single output value.
-
+`
 const array1 = [1, 2, 3, 4];
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
@@ -3274,7 +3289,7 @@ console.log(array1.reduce(reducer));
 // 5 + 1 + 2 + 3 + 4
 console.log(array1.reduce(reducer, 5));
 // expected output: 15
-
+`
 The reducer function is fed four parameters:
 
     Accumulator (acc)
@@ -3323,7 +3338,7 @@ Note: If initialValue isn't provided, reduce() will execute the callback functio
 If the array is empty and no initialValue is provided, TypeError will be thrown. If the array has only one element (regardless of position) and no initialValue is provided, or if initialValue is provided but the array is empty, the solo value will be returned without calling callback.
 
 It is usually safer to provide an initial value because there are three possible outputs without initialValue, as shown in the following example.
-
+`
 var maxCallback = ( acc, cur ) => Math.max( acc.x, cur.x );
 var maxCallback2 = ( max, cur ) => Math.max( max, cur );
 
@@ -3335,15 +3350,15 @@ var maxCallback2 = ( max, cur ) => Math.max( max, cur );
 // map/reduce; better solution, also works for empty or larger arrays
 [ { x: 22 }, { x: 42 } ].map( el => el.x )
                         .reduce( maxCallback2, -Infinity );
-
+`
 How reduce() works
 
 Suppose the following use of reduce() occurred:
-
+`
 [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array) {
   return accumulator + currentValue;
 });
-
+`
 The callback would be invoked four times, with the arguments and return values in each call being as follows:
 callback 	accumulator 	currentValue 	currentIndex 	array 	return value
 first call 	0 	1 	1 	[0, 1, 2, 3, 4] 	1
@@ -3354,15 +3369,15 @@ fourth call 	6 	4 	4 	[0, 1, 2, 3, 4] 	10
 The value returned by reduce() would be that of the last callback invocation (10).
 
 You can also provide an Arrow Function in lieu of a full function. The code below will produce the same output as the code in the block above:
-
+`
 [0, 1, 2, 3, 4].reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
-
+`
 If you were to provide an initial value as the second argument to reduce(), the result would look like this:
-
+`
 [0, 1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => {
     return accumulator + currentValue;
 }, 10);
-
+`
 callback 	accumulator 	currentValue 	currentIndex 	array 	return value
 first call 	10 	0 	0 	[0, 1, 2, 3, 4] 	10
 second call 	10 	1 	1 	[0, 1, 2, 3, 4] 	11
@@ -3373,23 +3388,23 @@ fifth call 	16 	4 	4 	[0, 1, 2, 3, 4] 	20
 The value returned by reduce() in this case would be 20.
 Examples
 Sum all the values of an array
-
+`
 var sum = [0, 1, 2, 3].reduce(function (accumulator, currentValue) {
   return accumulator + currentValue;
 }, 0);
 // sum is 6
-
+`
 Alternatively, written with an arrow function:
-
+`
 var total = [ 0, 1, 2, 3 ].reduce(
   ( accumulator, currentValue ) => accumulator + currentValue,
   0
 );
-
+`
 Sum of values in an object array
 
 To sum up values contained in an array of objects you must supply an initial value so that each item passes through your function.
-
+`
 var initialValue = 0;
 var sum = [{x: 1}, {x:2}, {x:3}].reduce(function (accumulator, currentValue) {
     return accumulator + currentValue.x;
@@ -3406,9 +3421,9 @@ var sum = [{x: 1}, {x:2}, {x:3}].reduce(
 );
 
 console.log(sum) // logs 6
-
+`
 Flatten an array of arrays
-
+`
 var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
   function(accumulator, currentValue) {
     return accumulator.concat(currentValue);
@@ -3416,16 +3431,16 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
   []
 );
 // flattened is [0, 1, 2, 3, 4, 5]
-
+`
 Alternatively, written with an arrow function:
-
+`
 var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
   ( accumulator, currentValue ) => accumulator.concat(currentValue),
   []
 );
-
+`
 Counting instances of values in an object
-
+`
 var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
 
 var countedNames = names.reduce(function (allNames, name) { 
@@ -3439,9 +3454,9 @@ var countedNames = names.reduce(function (allNames, name) {
 }, {});
 // countedNames is:
 // { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
-
+`
 Grouping objects by a property
-
+`
 var people = [
   { name: 'Alice', age: 21 },
   { name: 'Max', age: 20 },
@@ -3468,9 +3483,9 @@ var groupedPeople = groupBy(people, 'age');
 //   ], 
 //   21: [{ name: 'Alice', age: 21 }] 
 // }
-
+`
 Bonding arrays contained in an array of objects using the spread operator and initialValue
-
+`
 // friends - an array of objects 
 // where object field "books" - list of favorite books 
 var friends = [{
@@ -3498,9 +3513,9 @@ var allbooks = friends.reduce(function(accumulator, currentValue) {
 //   'Romeo and Juliet', 'The Lord of the Rings',
 //   'The Shining'
 // ]
-
+`
 Remove duplicate items in array
-
+`
 let arr = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4];
 let result = arr.sort().reduce((accumulator, current) => {
     const length = accumulator.length
@@ -3510,9 +3525,9 @@ let result = arr.sort().reduce((accumulator, current) => {
     return accumulator;
 }, []);
 console.log(result); //[1,2,3,4,5]
-
+`
 Running Promises in Sequence
-
+`
 /**
  * Runs promises from array of functions that can return promises
  * in chained manner
@@ -3581,9 +3596,9 @@ multiply6(6); // 36
 multiply9(9); // 81
 multiply16(16); // 256
 multiply24(10); // 240
-
+`
 write map using reduce
-
+`
 if (!Array.prototype.mapUsingReduce) {
   Array.prototype.mapUsingReduce = function(callback, thisArg) {
     return this.reduce(function(mappedArray, currentValue, index, array) {
@@ -3596,9 +3611,9 @@ if (!Array.prototype.mapUsingReduce) {
 [1, 2, , 3].mapUsingReduce(
   (currentValue, index, array) => currentValue + index + array.length
 ); // [5, 7, , 10]
-
+`
 Polyfill
-
+`
 // Production steps of ECMA-262, Edition 5, 15.4.4.21
 // Reference: http://es5.github.io/#x15.4.4.21
 // https://tc39.github.io/ecma262/#sec-array.prototype.reduce
@@ -3662,14 +3677,14 @@ if (!Array.prototype.reduce) {
     }
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty(), it's best not to polyfill Array.prototype methods at all, as you can't make them non-enumerable.
 ----------------------------------------------------------
 
 array.reduceRight
 
 The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
-
+`
 const array1 = [[0, 1], [2, 3], [4, 5]].reduceRight(
   (accumulator, currentValue) => accumulator.concat(currentValue)
 );
@@ -3677,7 +3692,7 @@ const array1 = [[0, 1], [2, 3], [4, 5]].reduceRight(
 console.log(array1);
 // expected output: Array [4, 5, 2, 3, 0, 1]
 
-
+`
 See also Array.prototype.reduce() for left-to-right.
 Syntax
 
@@ -3718,11 +3733,11 @@ The first time the function is called, the accumulator and currentValue can be o
 If the array is empty and no initialValue was provided, TypeError would be thrown. If the array has only one element (regardless of position) and no initialValue was provided, or if initialValue is provided but the array is empty, the solo value would be returned without calling callback.
 
 Some example run-throughs of the function would look like this:
-
+`
 [0, 1, 2, 3, 4].reduceRight(function(accumulator, currentValue, index, array) {
   return accumulator + currentValue;
 });
-
+`
 The callback would be invoked four times, with the arguments and return values in each call being as follows:
 callback 	accumulator 	currentValue 	index 	array 	return value
 first call 	4 	3 	3 	[0, 1, 2, 3, 4] 	7
@@ -3733,11 +3748,11 @@ fourth call 	10 	0 	0 	[0, 1, 2, 3, 4] 	10
 The value returned by reduceRight would be that of the last callback invocation (10).
 
 And if you were to provide an initialValue, the result would look like this:
-
+`
 [0, 1, 2, 3, 4].reduceRight(function(accumulator, currentValue, index, array) {
   return accumulator + currentValue;
 }, 10);
-
+`
 callback 	accumulator 	currentValue 	index 	array 	return value
 first call 	10 	4 	4 	[0, 1, 2, 3, 4] 	14
 second call 	14 	3 	3 	[0, 1, 2, 3, 4] 	17
@@ -3748,21 +3763,21 @@ fifth call 	20 	0 	0 	[0, 1, 2, 3, 4] 	20
 The value returned by reduceRight this time would be, of course, 20.
 Examples
 Sum up all values within an array
-
+`
 var sum = [0, 1, 2, 3].reduceRight(function(a, b) {
   return a + b;
 });
 // sum is 6
-
+`
 Flatten an array of arrays
-
+`
 var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
     return a.concat(b);
 }, []);
 // flattened is [4, 5, 2, 3, 0, 1]
-
+`
 Run a list of asynchronous functions with callbacks in series each passing their results to the next
-
+`
 const waterfall = (...functions) => (callback, ...args) =>
   functions.reduceRight(
     (composition, fn) => (...results) => fn(composition, ...results),
@@ -3803,20 +3818,20 @@ const computation2 = (input, callback) => {
   const f2 = x => mult3(f3, x);
   add5(f2, input);
 }
-
+`
 ​​​​​​Difference between reduce and reduceRight
-
+`
 var a = ['1', '2', '3', '4', '5']; 
 var left  = a.reduce(function(prev, cur)      { return prev + cur; }); 
 var right = a.reduceRight(function(prev, cur) { return prev + cur; }); 
 
 console.log(left);  // "12345"
 console.log(right); // "54321"
-
+`
 Polyfill
 
 reduceRight was added to the ECMA-262 standard in the 5th edition; as such it may not be present in all implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of reduceRight in implementations which do not natively support it.
-
+`
 // Production steps of ECMA-262, Edition 5, 15.4.4.22
 // Reference: http://es5.github.io/#x15.4.4.22
 if ('function' !== typeof Array.prototype.reduceRight) {
@@ -3848,13 +3863,13 @@ if ('function' !== typeof Array.prototype.reduceRight) {
     return value;
   };
 }
-
+`
 --------------------------------------------
 
 array.reverse
 
 The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.
-
+`
 
 var array1 = ['one', 'two', 'three'];
 console.log('array1: ', array1);
@@ -3868,7 +3883,7 @@ console.log('reversed: ', reversed);
 the original array */ 
 console.log('array1: ', array1);
 // expected output: Array ['three', 'two', 'one']
-
+`
 
 Syntax
 
@@ -3884,7 +3899,7 @@ Examples
 Reversing the elements in an array
 
 The following example creates an array a, containing three elements, then reverses the array. The call to reverse() returns a reference to the reversed array a.
-
+`
 const a = [1, 2, 3];
 
 console.log(a); // [1, 2, 3]
@@ -3892,14 +3907,14 @@ console.log(a); // [1, 2, 3]
 a.reverse();
 
 console.log(a); // [3, 2, 1]
-
+`
 
 --------------------------------------------------------
 
 array.shift
 
 The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
-
+`
 var array1 = [1, 2, 3];
 
 var firstElement = array1.shift();
@@ -3909,7 +3924,7 @@ console.log(array1);
 
 console.log(firstElement);
 // expected output: 1
-
+`
 
 Syntax
 
@@ -3927,7 +3942,7 @@ Examples
 Removing an element from an array
 
 The following code displays the myFish array before and after removing its first element. It also displays the removed element:
-
+`
 var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
 
 console.log('myFish before:', JSON.stringify(myFish));
@@ -3951,13 +3966,13 @@ while( (i = names.shift()) !== undefined ) {
     console.log(i);
 }
 // Andrew, Edward, Paul, Chris, John
-
+`
 ----------------------------------------------------------------------------------
 
 array.slice
 
 The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
-
+`
 var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
@@ -3969,7 +3984,7 @@ console.log(animals.slice(2, 4));
 console.log(animals.slice(1, 5));
 // expected output: Array ["bison", "camel", "duck", "elephant"]
 
-
+`
 Syntax
 
 arr.slice([begin[, end]])
@@ -4001,17 +4016,17 @@ slice does not alter the original array. It returns a shallow copy of elements f
 If a new element is added to either array, the other array is not affected.
 Examples
 Return a portion of an existing array
-
+`
 var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
 var citrus = fruits.slice(1, 3);
 
 // fruits contains ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
 // citrus contains ['Orange','Lemon']
-
+`
 Using slice
 
 In the following example, slice creates a new array, newCar, from myCar. Both include a reference to the object myHonda. When the color of myHonda is changed to purple, both arrays reflect the change.
-
+`
 // Using slice, create newCar from myCar.
 var myHonda = { color: 'red', wheels: 4, engine: { cylinders: 4, size: 2.2 } };
 var myCar = [myHonda, 2, 'cherry condition', 'purchased 1997'];
@@ -4031,9 +4046,9 @@ console.log('The new color of my Honda is ' + myHonda.color);
 // Display the color of myHonda referenced from both arrays.
 console.log('myCar[0].color = ' + myCar[0].color);
 console.log('newCar[0].color = ' + newCar[0].color);
-
+`
 This script writes:
-
+`
 myCar = [{color: 'red', wheels: 4, engine: {cylinders: 4, size: 2.2}}, 2,
          'cherry condition', 'purchased 1997']
 newCar = [{color: 'red', wheels: 4, engine: {cylinders: 4, size: 2.2}}, 2]
@@ -4042,19 +4057,19 @@ newCar[0].color = red
 The new color of my Honda is purple
 myCar[0].color = purple
 newCar[0].color = purple
-
+`
 Array-like objects
 
 slice method can also be called to convert Array-like objects / collections to a new Array. You just bind the method to the object. The arguments inside a function is an example of an 'array-like object'.
-
+`
 function list() {
   return Array.prototype.slice.call(arguments);
 }
 
 var list1 = list(1, 2, 3); // [1, 2, 3]
-
+`
 Binding can be done with the .call function of Function.prototype and it can also be reduced using [].slice.call(arguments) instead of Array.prototype.slice.call. Anyway, it can be simplified using bind.
-
+`
 var unboundSlice = Array.prototype.slice;
 var slice = Function.prototype.call.bind(unboundSlice);
 
@@ -4132,7 +4147,7 @@ Although host objects (such as DOM objects) are not required by spec to follow t
     };
   }
 }());
-
+`
 -----------------------------------------------------------------------
 
 
@@ -4142,7 +4157,7 @@ The some() method tests whether at least one element in the array passes the tes
 
 Note: This method returns false for any condition put on an empty array.
 
-
+`
 var array = [1, 2, 3, 4, 5];
 
 var even = function(element) {
@@ -4153,7 +4168,7 @@ var even = function(element) {
 console.log(array.some(even));
 // expected output: true
 
-
+`
 Syntax
 
 arr.some(callback(element[, index[, array]])[, thisArg])
@@ -4191,25 +4206,25 @@ Examples
 Testing value of array elements
 
 The following example tests whether any element in the array is bigger than 10.
-
+`
 function isBiggerThan10(element, index, array) {
   return element > 10;
 }
 
 [2, 5, 8, 1, 4].some(isBiggerThan10);  // false
 [12, 5, 8, 1, 4].some(isBiggerThan10); // true
-
+`
 Testing array elements using arrow functions
 
 Arrow functions provide a shorter syntax for the same test.
-
+`
 [2, 5, 8, 1, 4].some(x => x > 10);  // false
 [12, 5, 8, 1, 4].some(x => x > 10); // true
-
+`
 Checking whether a value exists in an array
 
 To mimic the function of the includes() method, this custom function returns true if the element exists in the array:
-
+`
 var fruits = ['apple', 'banana', 'mango', 'guava'];
 
 function checkAvailability(arr, val) {
@@ -4220,9 +4235,9 @@ function checkAvailability(arr, val) {
 
 checkAvailability(fruits, 'kela');   // false
 checkAvailability(fruits, 'banana'); // true
-
+`
 Checking whether a value exists using an arrow function
-
+`
 var fruits = ['apple', 'banana', 'mango', 'guava'];
 
 function checkAvailability(arr, val) {
@@ -4231,9 +4246,9 @@ function checkAvailability(arr, val) {
 
 checkAvailability(fruits, 'kela');   // false
 checkAvailability(fruits, 'banana'); // true
-
+`
 Converting any value to Boolean
-
+`
 var TRUTHY_VALUES = [true, 'true', 1];
 
 function getBoolean(value) {
@@ -4252,9 +4267,9 @@ getBoolean(false);   // false
 getBoolean('false'); // false
 getBoolean(1);       // true
 getBoolean('true');  // true
-
+`
 Polyfill
-
+`
 some() was added to the ECMA-262 standard in the 5th edition; as such it may not be present in all implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of some() in implementations which do not natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition, assuming Object and TypeError have their original values and that fun.call evaluates to the original value of Function.prototype.call().
 
 // Production steps of ECMA-262, Edition 5, 15.4.4.17
@@ -4283,7 +4298,7 @@ if (!Array.prototype.some) {
     return false;
   };
 }
-
+`
 
 ----------------------------------------------------------------------------------------
 
@@ -4292,7 +4307,7 @@ array.sort
 The sort() method sorts the elements of an array in place and returns the array. The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
 The time and space complexity of the sort cannot be guaranteed as it is implementation dependent.
-
+`
 var months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months);
@@ -4303,7 +4318,7 @@ array1.sort();
 console.log(array1);
 // expected output: Array [1, 21, 30, 4]
 
-
+`
 Syntax
 
 arr.sort([compareFunction])
@@ -4330,7 +4345,7 @@ If compareFunction is supplied, all non-undefined array elements are sorted acco
     compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
 
 So, the compare function has the following form:
-
+`
 function compare(a, b) {
   if (a is less than b by some ordering criterion) {
     return -1;
@@ -4341,15 +4356,15 @@ function compare(a, b) {
   // a must be equal to b
   return 0;
 }
-
+`
 To compare numbers instead of strings, the compare function can simply subtract b from a. The following function will sort the array ascending (if it doesn't contain Infinity and NaN):
-
+`
 function compareNumbers(a, b) {
   return a - b;
 }
-
+`
 The sort method can be conveniently used with function expressions:
-
+`
 var numbers = [4, 2, 5, 1, 3];
 numbers.sort(function(a, b) {
   return a - b;
@@ -4357,9 +4372,9 @@ numbers.sort(function(a, b) {
 console.log(numbers);
 
 // [1, 2, 3, 4, 5]
-
+`
 Objects can be sorted given the value of one of their properties.
-
+`
 var items = [
   { name: 'Edward', value: 21 },
   { name: 'Sharpe', value: 37 },
@@ -4388,12 +4403,12 @@ items.sort(function(a, b) {
   // names must be equal
   return 0;
 });
-
+`
 Examples
 Creating, displaying, and sorting an array
 
 The following example creates four arrays and displays the original array, then the sorted arrays. The numeric arrays are sorted without, then with, a compare function.
-
+`
 var stringArray = ['Blue', 'Humpback', 'Beluga'];
 var numericStringArray = ['80', '9', '700'];
 var numberArray = [40, 1, 5, 200];
@@ -4417,7 +4432,7 @@ console.log('Sorted with compareNumbers:', numericStringArray.sort(compareNumber
 console.log('mixedNumericArray:', mixedNumericArray.join());
 console.log('Sorted without a compare function:', mixedNumericArray.sort());
 console.log('Sorted with compareNumbers:', mixedNumericArray.sort(compareNumbers));
-
+`
 This example produces the following output. As the output shows, when a compare function is used, numbers sort correctly whether they are numbers or numeric strings.
 
 stringArray: Blue,Humpback,Beluga
@@ -4438,18 +4453,18 @@ Sorted with compareNumbers: 1,5,9,40,80,200,700
 Sorting non-ASCII characters
 
 For sorting strings with non-ASCII characters, i.e. strings with accented characters (e, é, è, a, ä, etc.), strings from languages other than English: use String.localeCompare. This function can compare those characters so they appear in the right order.
-
+`
 var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
 items.sort(function (a, b) {
   return a.localeCompare(b);
 });
 
 // items is ['adieu', 'café', 'cliché', 'communiqué', 'premier', 'réservé']
-
+`
 Sorting with map
 
 The compareFunction can be invoked multiple times per element within the array. Depending on the compareFunction's nature, this may yield a high overhead. The more work a compareFunction does and the more elements there are to sort, the wiser it may be to consider using a map for sorting. The idea is to traverse the array once to extract the actual values used for sorting into a temporary array, sort the temporary array and then traverse the temporary array to achieve the right order.
-
+`
 // the array to be sorted
 var list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];
 
@@ -4474,14 +4489,14 @@ var result = mapped.map(function(el){
   return list[el.index];
 });
 
-
+`
 ---------------------------------------------------------------------------
 
 array.splice
 
 The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
 
-
+`
 var months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');
 // inserts at 1st index position
@@ -4493,7 +4508,7 @@ months.splice(4, 1, 'May');
 console.log(months);
 // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
 
-
+`
 
 Syntax
 
@@ -4518,7 +4533,7 @@ Description
 If you specify a different number of elements to insert than the number you're removing, the array will have a different length at the end of the call.
 Examples
 Remove 0 (zero) elements from index 2, and insert "drum"
-
+`
 var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
 var removed = myFish.splice(2, 0, 'drum');
 
@@ -4573,12 +4588,12 @@ var removed = myFish.splice(2);
 // myFish is ["angel", "clown"] 
 // removed is ["mandarin", "sturgeon"]
 
-
+`
 -----------------------------------------------
 array.toLocaleString
 
 The toLocaleString() method returns a string representing the elements of the array. The elements are converted to Strings using their toLocaleString methods and these Strings are separated by a locale-specific String (such as a comma “,”).
-
+`
 var array1 = [1, 'a', new Date('21 Dec 1997 14:12:00 UTC')];
 var localeString = array1.toLocaleString('en', {timeZone: "UTC"});
 
@@ -4586,7 +4601,7 @@ console.log(localeString);
 // expected output: "1,a,12/21/1997, 2:12:00 PM",
 // This assumes "en" locale and UTC timezone - your results may vary
 
-
+`
 Syntax
 
 arr.toLocaleString([locales[, options]]);
@@ -4611,15 +4626,15 @@ The elements of the array are converted to strings using their toLocaleString me
     Date: Date.prototype.toLocaleString()
 
 Always display the currency for the strings and numbers in the prices array:
-
+`
 var prices = ['￥7', 500, 8123, 12]; 
 prices.toLocaleString('ja-JP', { style: 'currency', currency: 'JPY' });
 
 // "￥7,￥500,￥8,123,￥12"
-
+`
 For more examples, see also the Intl, NumberFormat, and DateTimeFormat pages.
 Polyfill
-
+`
 // https://tc39.github.io/ecma402/#sup-array.prototype.tolocalestring
 if (!Array.prototype.toLocaleString) {
   Object.defineProperty(Array.prototype, 'toLocaleString', {
@@ -4701,7 +4716,7 @@ if (!Array.prototype.toLocaleString) {
     }
   });
 }
-
+`
 If you need to support truly obsolete JavaScript engines that don't support Object.defineProperty, it's best not to polyfill Array.prototype methods at all, as you can't make them non-enumerable.
 
 ----------------------------------------------
@@ -4711,12 +4726,12 @@ array.toString
 
 The toString() method returns a string representing the specified array and its elements.
 
-
+`
 var array1 = [1, 2, 'a', '1a'];
 
 console.log(array1.toString());
 // expected output: "1,2,a,1a"
-
+`
 
 Syntax
 
@@ -4739,7 +4754,7 @@ Starting in JavaScript 1.8.5 (Firefox 4), and consistent with ECMAScript 5th edi
 array.unshift
 
 The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
-
+`
 var array1 = [1, 2, 3];
 
 console.log(array1.unshift(4, 5));
@@ -4748,7 +4763,7 @@ console.log(array1.unshift(4, 5));
 console.log(array1);
 // expected output: Array [4, 5, 1, 2, 3]
 
-
+`
 Syntax
 
 arr.unshift(element1[, ...[, elementN]])
@@ -4767,7 +4782,7 @@ The unshift method inserts the given values to the beginning of an array-like ob
 
 unshift is intentionally generic; this method can be called or applied to objects resembling arrays. Objects which do not contain a length property reflecting the last in a series of consecutive, zero-based numerical properties may not behave in any meaningful manner.
 Examples
-
+`
 var arr = [1, 2];
 
 arr.unshift(0); // result of call is 3, the new array length
@@ -4778,13 +4793,13 @@ arr.unshift(-2, -1); // = 5
 
 arr.unshift([-3]);
 // arr is [[-3], -2, -1, 0, 1, 2]
-
+`
 --------------------------------------
 
 array.values
 
 The values() method returns a new Array Iterator object that contains the values for each index in the array.
-
+`
 const array1 = ['a', 'b', 'c'];
 const iterator = array1.values();
 
@@ -4800,7 +4815,7 @@ console.log(iterator.next().value); // y
 console.log(iterator.next().value); // k 
 console.log(iterator.next().value); // o 
 console.log(iterator.next().value); // p
-
+`
 Syntax
 
 arr.values()
@@ -4810,14 +4825,14 @@ Return value
 A new Array iterator object.
 Examples
 Iteration using for...of loop
-
+`
 var arr = ['w', 'y', 'k', 'o', 'p'];
 var iterator = arr.values();
 
 for (let letter of iterator) {
   console.log(letter);
 }
-
+`
 Array.prototype.values is default implementation of Array.prototype[Symbol.iterator].
 
 Array.prototype.values === Array.prototype[Symbol.iterator]      //true
