@@ -229,6 +229,7 @@ border-left-style: solid;
 textarea {
     width: 30%;
     height: 20em;
+    spellcheck:false;
     
     
 }
