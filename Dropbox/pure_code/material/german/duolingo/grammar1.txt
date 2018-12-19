@@ -1,0 +1,95 @@
+﻿//Grammar1 Ends on "Fressen vs Essen"
+//Grammar2 starts on  "German plurals"
+
+i drink :
+   ich trink_
+[e]
+`
+you drink:
+   du trink_
+[st]
+`
+he drink:
+   er trink_
+[t]
+`
+she drink:
+   sie trink_
+[t]
+`
+it drink:
+   es trink_
+[t]
+`
+
+we drink
+wir trink_
+[en]
+`
+y'll drink
+ihr trink_
+[t]
+`
+they drink
+sie trink_
+[en]
+
+`
+
+i am
+ich ___
+[bin]
+`
+you are
+du ___
+[bist]
+`
+he is
+   er ___
+[ist]
+`
+she is
+   sie ___
+[ist]
+`
+it is
+   es ___
+[ist]
+`
+we are
+   wir ___
+[sind]
+`
+y'll are
+   ihr ___
+[seid]
+`
+they are
+   sie ___
+[sind]
+`
+the man
+[der Mann]
+`
+the girl
+[das Mädchen]
+`
+the woman
+[die Frau]
+`
+a man:
+   Mann 
+[ein]
+`
+a girl
+   ___ Mädchen 
+[ein]
+`
+a woman
+   ___ Frau 
+[eine]
+`
+idioms?
+it is enough [Es reicht]
+so-so. [es geht]
+`

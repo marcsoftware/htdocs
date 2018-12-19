@@ -41,6 +41,22 @@
         echo $template;
     }
 
+
+    function makeOtherButtons($file){
+
+        //  getTime($file,$folder,'read.php')
+        $folder = '../pure_code/material/german/duolingo';
+        $template = "            
+                    <h4>$file</h4>
+                    
+                    <a class='hyperlink' onclick=nextPage(this,'fillinblank.php') rel='$file' name='$folder'>grammar</a>
+                   
+                    
+                    ";
+        
+        echo $template;
+    }
+
 ?>
 <meta charset="UTF-8">
 <html>
@@ -762,14 +778,18 @@ $red_total = $total-$green_total;
     $folder = '../pure_code/material/german/duolingo';
     $file = 'tinycards-test1.txt';
     makeButtons('tinycards-test1.txt');
+    makeOtherButtons('grammar1.txt');
     makeButtons('tinycards-test2.txt');
+    makeOtherButtons('grammar2.txt');
     makeButtons('tinycards-test3.txt');
+    makeOtherButtons('grammar3.txt');
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
     makeButtons('tinycards-test5.txt');
     makeButtons('tinycards-test6.txt');
     makeButtons('tinycards-test7.txt');
     makeButtons('tinycards-test8.txt');
+    makeButtons('all-german-words.txt');
 
     
     

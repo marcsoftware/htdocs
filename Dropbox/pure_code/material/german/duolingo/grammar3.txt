@@ -1,0 +1,361 @@
+﻿
+//grammar3
+
+ich
+mine
+[mein]
+`
+du
+your
+[dein]
+`
+er/es 	
+his/its
+[sein]
+`
+sie (feminine) 	
+hers
+[ihr]
+`
+wir
+our
+[unser]
+`
+ihr(ihr is a possevive pronoun as well)
+
+[euer]
+`
+sie (plural) 	[ihr]
+`
+
+der Hund 	 	 	
+a dog
+___ Hund
+[ein] 	 	 	
+`
+das Insekt
+a insect
+___ Insekt
+[ein]
+
+`
+die Katze
+a cat
+___ Katze
+[eine]
+`
+die Hunde
+no dogs
+___ Hunde
+[keine]
+`
+
+der Hund 	
+my dog 	 	
+___ Hund
+[mein]
+
+das Insekt
+my insekt
+___ Insekt
+[mein]
+
+die Katze
+my cat
+___ Katze
+[meine]
+
+die Hunde
+my dog
+___ Hunde
+[meine]
+
+`
+der Hund
+your dog
+___ Hund
+[dein]
+das Insekt
+your insekt
+___ Insekt
+[dein]
+die Katze
+your cat
+___ Katze
+[deine]
+die Hunde
+your dog
+___ Hunde
+[deine]
+`
+
+der Hund 
+___Hund
+[sein]
+`
+das Insekt 
+___Insekt
+[sein]
+`
+die Katze 
+___Katze
+[seine]
+`
+die Hunde
+___Hunde
+[seine]
+`
+der Hund 
+___Hund
+[ihr]
+`
+das Insekt 
+___Insekt
+[ihr]
+`
+die Katze 
+___Katze
+[ihre]
+`
+die Hunde
+___Hunde
+[ihre]
+`
+der Hund 
+___Hund
+[unser]
+`
+das Insekt 
+___Insekt
+[unser]
+`
+die Katze 
+___Katze
+[unsere]
+`
+die Hunde
+___Hunde
+[unsere]
+`
+der Hund 
+___Hund
+[euer]
+`
+das Insekt 
+___Insekt
+[euer]
+`
+die Katze 
+___Katze
+[eure]
+`
+die Hunde
+___Hunde
+[eure]
+`
+der Hund 
+___Hund
+[ihr]
+`
+das Insekt 
+___Insekt
+[ihr]
+`
+die Katze 
+___Katze
+[ihre]
+`
+die Hunde
+___Hunde
+[ihre]
+`
+//Demonstrative Pronouns
+
+That one is strange!
+    [Der] ist komisch! 
+
+    `
+My kids? They/Those are in England.
+    Meine Kinder? [Die] sind in England. 
+
+`
+This boy is reading a newspaper, that boy is reading a book.
+    [Der] Junge liest eine Zeitung, [der] Junge liest ein Buch.
+
+
+`
+//Some other pronouns
+
+this boy eats.
+[dieser] Junge isst.
+`
+this girl eats.
+[dieses] Mädchen isst.
+`
+this woman eats.
+[diese] Frau isst.
+`
+these women are eating.
+[diese] Frauen isst.
+`
+These boys are eating.
+[Diese] Jungen isst.
+`
+every boy eats.
+[jeder] Junge isst. 
+`
+every girl eats.
+[jedes] Mädchen isst.
+`
+every woman eats.
+[jede] Frau isst.
+`
+some boy eats.
+[mancher] Junge isst.
+`
+some girl eats.
+[manches] Mädchen isst.
+`
+some woman eats.
+[manche]  Frau isst.
+`
+some women eat.
+[manche] Frauen isst.
+`
+some boys eat.
+[manche] Jungen isst.
+`
+
+I drink a lot of water.
+Ich trinke [viel] Wasser.
+`
+I have many dogs.
+Ich habe [viele] Hunde.
+`
+
+(I do not eat.)
+Ich esse [nicht].
+`
+ (I eat nothing.)
+Ich esse [nichts]. 
+`
+(I eat everything.)
+Ich esse [alles]. 
+`
+(I eat all (oranges).)
+Ich esse [alle] (Orangen). 
+`
+
+
+
+
+
+//Nicht
+
+    Negating a noun that has a definite article like der Junge (the boy) 
+    That is not the boy.
+    Das ist [nicht] der Junge. 
+    
+`
+
+    Negating a noun that has a possessive pronoun like mein Glas (my glass) 
+     Das ist [nicht] mein Glas. (That is not my glass).
+`    
+    Negating the verb:
+    I do not drink.
+     Ich trinke [nicht]. 
+`    
+    Negating an adverb or adverbial phrase. 
+    I do not dance often.
+     Ich tanze [nicht] oft. 
+`    
+    Negating an adjective that is used with sein (to be):
+     I am not hungry.
+     Ich bin [nicht] hungrig .
+`
+
+
+//Kein
+
+He is a man
+    Er ist ein Mann.  — 
+`
+She is not a/no man.
+    Sie ist [kein] Mann. 
+`
+    I have a cat.]
+    Ich habe eine Katze.  
+    `
+     I have no cat.
+     Ich habe [keine] Katze.
+
+`
+ It is eating an apple 
+  Es isst [einen] Apfel . 
+`
+Don't create stress!
+Mach [keinen] Druck
+
+`
+I do not eat.
+    Ich esse [nicht]. 
+    `
+    I eat nothing.
+    Ich esse [nichts]. 
+    `
+The student does not learn.
+
+    Der Schüler lernt [nicht]. 
+    `
+    The student does not learn anything.
+     Der Schüler lernt [nichts]. 
+`
+
+
+
+    Ich [mag] Bier. (I like beer.)
+`
+    Sie [mag] Katzen. (She likes cats.)
+`
+    Wir [mögen] dich. (We like you.)
+`
+    Ihr [mögt] Bücher. (You like books.)
+`
+
+(I like to drink beer)or(I like drinking beer.)
+    Ich trinke gerne Bier. 
+`
+(I like drinking beer.)or(I like to drink beer)
+    Ich trinke gern Bier. 
+
+`
+
+
+[ich] (I) 	[mich] (me)
+[du] (you singular informal) 	[dich] (you singular informal)
+[er] (he) sie (she) es (it) 	[ihn] (him) sie (her) es (it)
+[wir] (we) 	[uns] (us)
+[ihr] (you plural informal) 	[euch] (you plural informal)
+[sie] (they) 	sie (them)
+`
+ He sees a dog.
+ Er sieht [einen] Hund.
+ He sees a insect.
+ Er sieht [ein] Insekt.
+ He sees a cat.
+ Er sieht [eine] Katze.
+`
+ He sees your dog.
+ Er sieht [deinen] Hund.
+ He sees your insect.
+ Er sieht [dein] Insekt.
+ He sees your cat.
+ Er sieht [deine] Katze.
+ He sees your dogs.
+ Er sieht [deine] Hunds.
+`
+i drink a lot of water.
+    Ich trinke [viel] Wasser.
+    I have many dogs.
+    Ich habe [viele] Hunde.
+`

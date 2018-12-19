@@ -50,8 +50,11 @@ a. <a href='/Dropbox/todo2/todo2.php'>todo version 2</a><br/>
 		#.<a href='/Dropbox/guides/github/github.php'>Github Guide</a><br/>
 		#.<a href='/Dropbox/quicktools/clean_captions.php'>clean captions</a><br/>
 		#.<a href='/Dropbox/quicktools/clean_keys.php'>clean ans keys</a><br/>
+		#.<a href='/Dropbox/quicktools/grammartable.php'>grammartable.php</a>-turn table into grammar questions<br/>
+		#.<a href='/Dropbox/quicktools/grammerSentence.php'>grammartable.php</a>-make sentences to translate<br/>
 		----<br/>
 		#.<a href='/Dropbox/german_simple/german.php'>German Flashcards - short stories</a><br/>
+		grammerSentence.php
 		
 		  
 		";
