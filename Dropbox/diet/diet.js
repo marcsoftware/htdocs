@@ -630,7 +630,7 @@
 function stringDate(){
 	var today = new Date();
     today.setDate(today.getDate()+date);
-	var string_date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+(str_pad(today.getDate()));
+	var string_date = today.getFullYear()+'/'+(  str_pad(today.getMonth()+1)   )+'/'+(str_pad(today.getDate()));
 	
 	return string_date;
 
