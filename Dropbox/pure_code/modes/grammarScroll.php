@@ -23,9 +23,9 @@
   
  
 </script>
-<script src="fillinblank.js" content="text/html; charset=utf-8" ></script>
+<script src="grammarScroll.js" content="text/html; charset=utf-8" ></script>
 
-<title>fill in blank</title>
+<title>grammar track</title>
 <?php include '../../header.php';?>
 
 
@@ -70,7 +70,7 @@ body {
         color: white;
         background-color: black;
         max-width: 100%;
-        font-size: 20px;
+        font-size: 50px;
 }
 
 .userInput{
@@ -97,16 +97,7 @@ span{
     background-color:rgba(1,0,0,0)  ;
     padding-right: 0px;
 
-       -moz-user-select: -moz-none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-
-   /*
-     Introduced in IE 10.
-     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-   */
-   -ms-user-select: none;
-   user-select: none;
+  
 }
 
 p{
@@ -119,10 +110,10 @@ p{
 }
 
 #file{
-  padding-left: 0px;
-  font-size: 10px;
-   word-wrap: break-word;
-  width:100%;
+  padding-left: 10px;
+  font-size: 20px;
+   display: block;    
+  width:50%;
   
     margin: 0px auto;
 
@@ -227,21 +218,11 @@ border-left-style: solid;
 }
 
 textarea {
-    width: 30%;
-    height: 20em;
-    spellcheck:false;
-    
-    
+    width: 10em;
+    height: 1em;
 }
 
-#bar{
-  font-size: 10px;
-}
 
-#quickPage{
-  font-size: 5px;
-  cursor: pointer;
-}
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 16px solid #3498db; /* Blue */
@@ -265,20 +246,16 @@ textarea {
 </head>
 <body>
 
+<input type='button'  onclick='prevGroup()' value='prev group' />
+<input type='button'  onclick='nextGroup()' value='next group' /><span id='bar'></span>
 
-<p id='quickPage'></p>
-
+<div class="loader" id='loader'> saving progress...</div> 
 <pre id='file'></pre>
+<pre id='track'></pre>
+<pre id='buttons'></pre>
 
+<input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>
 
-
-
-<input type='button' value='<' onclick='prev()' />
-<span id='bar'></span>
-<input type='button' value='>' onclick='next()' />
-<input type='button' value='hint' onclick='showHint()' />
-
-<pre id='que'></pre>
 
 
 

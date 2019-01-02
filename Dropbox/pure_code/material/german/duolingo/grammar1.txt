@@ -3,91 +3,91 @@
 
 i drink :
    ich trink_
-[e]
+[e:st:t:en]
 `
 you drink:
    du trink_
-[st]
+[st:e:st:t:en]
 `
 he drink:
    er trink_
-[t]
+[t:e:st:t:en]
 `
 she drink:
    sie trink_
-[t]
+[t:e:st:t:en]
 `
 it drink:
    es trink_
-[t]
+[t:e:st:t:en]
 `
 
 we drink
 wir trink_
-[en]
+[en:e:st:t:en]
 `
 y'll drink
 ihr trink_
-[t]
+[t:e:st:t:en]
 `
 they drink
 sie trink_
-[en]
+[en:e:st:t:en]
 
 `
 
 i am
 ich ___
-[bin]
+[bin:bist:bin:ist:sind:seid]
 `
 you are
 du ___
-[bist]
+[bist:bin:ist:sind]
 `
 he is
    er ___
-[ist]
+[ist:bin:bist:bin:ist:sind:seid]
 `
 she is
    sie ___
-[ist]
+[ist:bin:bist:bin:ist:sind:seid]
 `
 it is
    es ___
-[ist]
+[ist:bin:bist:bin:ist:sind:seid]
 `
 we are
    wir ___
-[sind]
+[sind:bin:bist:bin:ist:sind:seid]
 `
 y'll are
    ihr ___
-[seid]
+[seid:bin:bist:bin:ist:sind:seid]
 `
 they are
    sie ___
-[sind]
+[sind:bin:bist:bin:ist:sind:seid]
 `
 the man
-[der Mann]
+[der:das:die:der] Mann
 `
 the girl
-[das Mädchen]
+[das:das:die:der] Mädchen
 `
 the woman
-[die Frau]
+[die:das:die:der] Frau
 `
 a man:
    Mann 
-[ein]
+[ein:eine]
 `
 a girl
    ___ Mädchen 
-[ein]
+[ein:eine]
 `
 a woman
    ___ Frau 
-[eine]
+[eine:ein]
 `
 idioms?
 it is enough [Es reicht]

@@ -47,9 +47,10 @@
         //  getTime($file,$folder,'read.php')
         $folder = '../pure_code/material/german/duolingo';
         $template = "            
-                    <h4>$file</h4>
                     
-                    <a class='hyperlink' onclick=nextPage(this,'fillinblank.php') rel='$file' name='$folder'>grammar</a>
+                    
+                    <br/>$file <a class='hyperlink' onclick=nextPage(this,'fillinblank.php') rel='$file' name='$folder'>grammar</a>
+                    <a class='hyperlink' onclick=nextPage(this,'grammarScroll.php') rel='$file' name='$folder'>scroll</a>
                    
                     
                     ";

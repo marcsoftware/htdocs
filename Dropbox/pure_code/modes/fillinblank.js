@@ -23,9 +23,16 @@ original=original.split(/`/g);
 original =original.filter(function (el) {
   return el.search(/[a-zA-Z]/g)>=0;
 });
+
+original = shuffleGroup(original)
 total=original.length;
-	draw(original[page]);
+//initilize quickPage
+  quickPage.length=total;
+  quickPage.fill('◼');
+  //
+	draw(original[mask(page)]);
 	
+  
 }
 
 
@@ -36,14 +43,31 @@ total=original.length;
 */
 var global_hint='';
 function draw(text){
+quickPage[page]='☀';
   updateBar();
+  
 text=text.trim();
-  var que = makeBlank(text);
+  var que = makeInput(text);
   
   document.getElementById('que').innerHTML=que;
   setFocus();
   
 
+}
+
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+var lap=0;
+var start=0;
+function mask(page_number){
+ 
+
+  
+  return page;
 }
 
 /*
@@ -65,10 +89,11 @@ function setFocus(){
 //---------------------------------------------------------------------
 */
 function makeBlank(text){
+
   global_hint=text.match(/\[.*\]/g);  
   text = text.replace(/\[(.*)\]/g,function (match, capture) { 
     return parse(capture);
-}); 
+   }); 
 /*
 "string".replace(/st(ring)/, function (match, capture) { 
     return "gold " + capture + "|" + match;
@@ -78,13 +103,51 @@ function makeBlank(text){
 
 }
 
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+var path=false;
+function makeInput(text){
+
+ if(path){
+  return makeBlank(text);
+}else{
+  return makeButton(text);
+}
+
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function makeButton(text){
+  global_hint=text.match(/\[.*\]/g);  
+  text = text.replace(/\[(.*)\]/g,function (match, capture) { 
+    return parseButton(capture);
+   }); 
+/*
+"string".replace(/st(ring)/, function (match, capture) { 
+    return "gold " + capture + "|" + match;
+}); 
+*/
+  return text;
+
+}
+
+
+
 /*
 //---------------------------------------------------------------------
 //
 //---------------------------------------------------------------------
 */
 function parse(x){
-  
+   x=x.replace(/\:.*/g,'')
   x=x.replace(/\ /g,'_');
 
     return `<input  onkeyup=check(this,'${x}')></input>`;
@@ -95,8 +158,79 @@ function parse(x){
 //
 //---------------------------------------------------------------------
 */
+function parseButton(x){
+  var options=x.split(':');
+  
+  //delete repeats
+  options = options.filter(function(item, pos) {
+    return options.indexOf(item) == pos;
+  })
+
+options.forEach(wrapOptions);
+shuffle(options);
+
+
+  
+  x=x.replace(/\ /g,'_');
+
+    return options.join('');
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
 function updateBar(){
   document.getElementById('bar').innerHTML=page+' /'+total;
+  updateQuickPage();
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+var quickPage=[];
+function updateQuickPage(){
+  var newpage = quickPage.slice();
+   newpage.forEach(wrap);
+  document.getElementById('quickPage').innerHTML=newpage.join('');
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function wrap(item, index,array){
+  array[index]= `<span onclick=gotoPage(${index})>${item}</span>`;
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function wrapOptions(item, index,array){
+  item=item.replace(/\ /g,'_');
+   if(index==0){ // By convention an index of 0  means it is the correct ans
+       key=item;
+   }else{
+       key='wrong';
+   }
+        array[index]= `<input type=button onclick=check(this,'${key}') value='${item}'></input>`;
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function gotoPage(number){
+    
+    page=number;
+    draw(original[page]);
 }
 
 /*
@@ -131,19 +265,19 @@ page--;
 */
 function check(ref,key){
 	key=key.replace(/\_/g,' ');
-	input=ref.value
 
+	input=ref.value
+  input=input.replace(/\_/g,' ');
   key=key.toLowerCase();
   input=input.toLowerCase();
 	var ans_key = key;
   
 console.log(ans_key);
 	if(ans_key===input){
-			
-      ref.style.backgroundColor='green';
-			next();
+			handleCorrectInput(ref);
+      
 	}else{
-		console.log('x: '+ans_key);
+		  handleIncorrectInput(ref);
 	}
 
 	
@@ -152,8 +286,30 @@ console.log(ans_key);
 
 
 
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function handleCorrectInput(ref){
+  if(quickPage[page]!='☒'){
+    quickPage[page]='☑';
+  }
+  ref.style.backgroundColor='green';
+      next();
+}
 
 
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function handleIncorrectInput(ref){
+  quickPage[page]='☒';
+  ref.style.backgroundColor='red';
+  updateQuickPage();
+}
 
 
 
@@ -258,8 +414,34 @@ function shuffle(a) {
     }
     return a;
 }
+/**
+*
+*/
+
+function shuffleSubarray(arr, start, length) {
+    var i = length, temp, index;
+    while (i--) {
+        index = start + Math.floor(i * Math.random());
+        temp = arr[index];
+        arr[index] = arr[start + i];
+        arr[start + i] = temp;
+    }
+    return arr;
+}
 
 
+
+/**
+ * 
+ */
+
+ function shuffleGroup(a){
+  var size=6;
+  for(var i=0;i<a.length;i+=size){
+    shuffleSubarray(a,i,size);
+  }
+  return a;
+ }
 
 
 /**
