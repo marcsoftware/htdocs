@@ -60,7 +60,7 @@ function drawButtons(){
 
     try{
     document.getElementById('active').innerHTML+='<span id="buttons"></span><br/>';
-    
+    }catch(e){}
     var buttons = makeButton(x);
     
     
@@ -69,7 +69,7 @@ function drawButtons(){
     document.getElementById('buttons').innerHTML+='';
 
     document.getElementById('buttons').innerHTML+=buttons;
-}catch(e){}
+
   
 }
 
@@ -94,7 +94,7 @@ function drawButtons(){
 */
 function parseButton(x){
       var options=x.split(':');
-console.log('---------------------'+options[0]);
+
       //delete repeats
       options = options.filter(function(item, pos) {
         return options.indexOf(item) == pos;
@@ -123,9 +123,12 @@ function makeButton(text){
    }); 
 
   helpLink=original.match(/\{.*\}/g); 
-  helpLink=helpLink.join().match(/\d+/g); 
-  helpLink=`<span onclick=alert('${helpLink}')>🌐</span>`;
-  
+  if(helpLink !== null){ // check if not null
+    helpLink=helpLink.join().match(/\d+/g); 
+    helpLink=`<span onclick=alert('${helpLink}')>🌐</span>`;
+  }else{
+    helpLink='';
+  }
   return text+helpLink;
 
 }
