@@ -52,7 +52,17 @@ progress{
 
 }
 
+#active{
+  background-color:#153972;
+  color:white;
+  
+  padding:3px;
+  
+  display: block;
+}
+#buttons{
 
+}
 #map{
   font-family: monospace;
   max-width: 25%;
@@ -80,14 +90,7 @@ body {
   padding:1px;
 }
 
-div{
-  margin: 0px;
-    padding: 0px;
-    border-style:dotted;
-    padding: 0px;
-    font-size: 20px;
-    margin-top: 0px;
-}
+
 
 span{
   margin: 0px;
@@ -251,7 +254,7 @@ textarea {
 
 <div class="loader" id='loader'> saving progress...</div> 
 <pre id='file'></pre>
-<pre id='track'></pre>
+<div id='track'></div>
 <pre id='buttons'></pre>
 
 <input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>

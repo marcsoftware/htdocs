@@ -54,21 +54,38 @@ function playAudio(){
 //---------------------------------------------------------------------
 */
 function drawButtons(){
-    document.getElementById('buttons').innerHTML='';
+  removeElement('buttons');
   
     var x = global_group[globalArrow];
+
+    try{
+    document.getElementById('active').innerHTML+='<span id="buttons"></span><br/>';
     
     var buttons = makeButton(x);
     
     
     
 
-    document.getElementById('buttons').innerHTML+='<br/>';
+    document.getElementById('buttons').innerHTML+='';
 
     document.getElementById('buttons').innerHTML+=buttons;
-
+}catch(e){}
   
 }
+
+/*
+//---------------------------------------------------------------------
+//  draw buttons that the user clicks on
+//---------------------------------------------------------------------
+*/
+
+    function removeElement(elementId) {
+      try{
+        // Removes an element from the document
+        var element = document.getElementById(elementId);
+        element.parentNode.removeChild(element);
+      }catch(e){}
+    }
 
 /*
 //---------------------------------------------------------------------
@@ -322,10 +339,10 @@ function drawActive(){
   
    var arrow='  ';
   for(var i =0;i<=globalCounter && i<(global_group.length);i++){
-    var template= `<span>${all[i].trim()}</span> \n`;
+    var template= `<span>${all[i].trim()}</span><br/> \n`;
     if(i===globalArrow){
-        arrow='-><span style="background-color:#153972;">';
-        arrowRight='</span>';
+        arrow='<span id="active">';
+        arrowRight='</span>\n';
     }else{
       arrow='  ';
       arrowRight='';
@@ -437,6 +454,9 @@ function readFile(url) {
 
 
 }
+
+
+
 
 /**
 //---------------------------------------------------------------------
