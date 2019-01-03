@@ -60,7 +60,7 @@ function drawButtons(){
 
     try{
     document.getElementById('active').innerHTML+='<span id="buttons"></span><br/>';
-    }catch(e){}
+    
     var buttons = makeButton(x);
     
     
@@ -69,7 +69,7 @@ function drawButtons(){
     document.getElementById('buttons').innerHTML+='';
 
     document.getElementById('buttons').innerHTML+=buttons;
-
+}catch(e){}
   
 }
 

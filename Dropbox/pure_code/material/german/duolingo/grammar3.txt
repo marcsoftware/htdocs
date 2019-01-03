@@ -21,29 +21,29 @@ hers (sie)     [ihr:mein:dein:sein:ihr:unser:euer]  {2}
 
 ` 	 	
 a dog
-___ Hund
-[ein:eine:keine] 	 	 	
+[ein:eine:keine] Hund
+ 	 	 	
 `
 a insect
-___ Insekt
-[ein:ein:eine:keine]
+[ein:ein:eine:keine] Insekt
+
 
 `
 a cat
-___ Katze
-[eine:ein:eine:keine]
+[eine:ein:eine:keine] Katze
+
 `
 no dogs
-___ Hunde
-[keine:ein:eine:keine]
+[keine:ein:eine:keine] Hunde
+
 `
 my dog 	 	
-___ Hund
-[mein:meine]
+[mein:meine] Hund
+
 `
 my insect
-___ Insekt
-[mein:meine]
+[mein:meine] Insekt
+
 `
 
 my cats
