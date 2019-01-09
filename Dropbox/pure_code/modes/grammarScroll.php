@@ -60,6 +60,18 @@ progress{
   
   display: block;
 }
+
+#ref{
+  
+  font-size: 8px;
+  float:left;
+}
+
+#track{
+  
+  float:left;
+}
+
 #buttons{
 
 }
@@ -101,6 +113,10 @@ span{
     padding-right: 0px;
 
   
+}
+
+table, th, td {
+  border: 1px solid white;
 }
 
 p{
@@ -210,6 +226,7 @@ h6{
 
 }
 
+
 .buttons{
 
  
@@ -256,7 +273,7 @@ textarea {
 <pre id='file'></pre>
 <div id='track'></div>
 <pre id='buttons'></pre>
-
+<div id='ref'></div>
 <input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>
 
 

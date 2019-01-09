@@ -21,8 +21,7 @@ function init(){
 
   globalCounter=0;
   globalArrow=0;
-  drawActive();
-  drawButtons();
+  drawEverything();
 }
 
 /**
@@ -56,10 +55,11 @@ function playAudio(){
 function drawButtons(){
   removeElement('buttons');
   
+  
     var x = global_group[globalArrow];
 
     try{
-    document.getElementById('active').innerHTML+='<span id="buttons"></span><br/>';
+    document.getElementById('active').innerHTML+='<span id="buttons"></span>';
     
     var buttons = makeButton(x);
     
@@ -124,14 +124,79 @@ function makeButton(text){
 
   helpLink=original.match(/\{.*\}/g); 
   if(helpLink !== null){ // check if not null
-    helpLink=helpLink.join().match(/\d+/g); 
-    helpLink=`<span onclick=alert('${helpLink}')>🌐</span>`;
+    helpLink=helpLink.join().match(/[\d\w]+/g); 
+    getRef(3,helpLink);
+    helpLink=`<span onclick=gotoRefPage('${helpLink}')>🌐</span>`;
   }else{
     helpLink='';
+    document.getElementById('ref').innerHTML='';
   }
   return text+helpLink;
 
 }
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function gotoRefPage(numbers){
+  // parse for filename & elementID
+  
+  if(numbers.includes('-')){
+    numbers = numbers.split('-');
+    elementID=numbers[1];
+    chapterID=numbers[0];
+  }else{
+    elementID=numbers[0];
+    chapterID=3;
+  }
+  openInNewTab(elementID,chapterID);
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function openInNewTab(elementID,chapterID) {
+  chapterID=3;
+  url = `../material/german/duolingo/grammar${chapterID}.php?s=`+elementID;
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+function getRef(chapterID,elementID) {
+ 
+   if(elementID.length==2){
+      elementID=elementID[1];
+       
+   }
+   chapterID=`../material/german/duolingo/grammar${chapterID}b.php`;
+    var xhr = new XMLHttpRequest();
+
+    xhr.onload = function () {
+        original = this.responseText; 
+        
+        //original= original.replace(/\</g,"&lt");
+        document.getElementById('ref').innerHTML=(original);
+        
+
+    };
+
+
+
+    url=`/Dropbox/pure_code/modes/getRef.php?ch=${chapterID}&el=${elementID}`;
+    xhr.open('GET', url,false);
+    xhr.send();
+
+
+
+}
+
 
 /*
 //---------------------------------------------------------------------
@@ -235,8 +300,7 @@ function addWord(){
   }
 
   minishuffle(global_group);
-  drawActive();
-  drawButtons();
+  drawEverything();
 
 }
 
@@ -264,9 +328,7 @@ function nextGroup(){
 
   globalCounter=0;
   globalArrow=0;
-  drawActive();
-  drawButtons();
-  drawBar();
+  drawEverything();
 }
 
 
@@ -294,9 +356,7 @@ function prevGroup(){
 
   globalCounter=6;
   globalArrow=0;
-  drawActive();
-  drawButtons();
-  drawBar();
+  drawEverything();
 }
 
 /*
@@ -324,10 +384,23 @@ function nextWord(){
 
   }
 
+  drawEverything();
   
-  drawActive();     
-  drawButtons();
 }
+
+
+/*
+//---------------------------------------------------------------------
+// 
+//---------------------------------------------------------------------
+*/
+function drawEverything(){
+    drawActive();  
+  
+  drawButtons();
+  drawBar();
+}
+
 /*
 //---------------------------------------------------------------------
 // 

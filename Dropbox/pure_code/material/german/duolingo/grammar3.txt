@@ -1,254 +1,259 @@
 ﻿
 //grammar3
-mine (ich)     [mein:mein:dein:sein:ihr:unser:euer]     {2}  
+mine (ich)     [mein:mein:dein:sein:ihr:unser:euer]     {2,test1}  
 ` 
-yours (du)  [dein:mein:dein:sein:ihr:unser:euer] {2}       
+yours (du)  [dein:mein:dein:sein:ihr:unser:euer] {2,test1}       
 `
-his (er)  [sein:mein:dein:sein:ihr:unser:euer]   {2}     
+his (er)  [sein:mein:dein:sein:ihr:unser:euer]   {2,test1}     
 `
-its (es)  [sein:mein:dein:sein:ihr:unser:euer]  {2}      
+its (es)  [sein:mein:dein:sein:ihr:unser:euer]  {2,test1}     
 `
- ours (wir)     [unser:mein:dein:sein:ihr:unser:euer]  {2}      
+ ours (wir)     [unser:mein:dein:sein:ihr:unser:euer]  {2,test1}      
 `
-yours (ihr)     [euer:mein:dein:sein:ihr:unser:euer]   {2}   
+yours (ihr)     [euer:mein:dein:sein:ihr:unser:euer]   {2,test1}   
 `
-theirs (sie)     [ihr:mein:dein:sein:ihr:unser:euer]  {2}        
+theirs (sie)     [ihr:mein:dein:sein:ihr:unser:euer]  {2,test1}        
 `
-y'll/yours (Sie)     [ihr:mein:dein:sein:ihr:unser:euer]   {2}       
+y'll/yours (Sie)     [ihr:mein:dein:sein:ihr:unser:euer]   {2,test1}       
 `
-hers (sie)     [ihr:mein:dein:sein:ihr:unser:euer]  {2}        
+hers (sie)     [ihr:mein:dein:sein:ihr:unser:euer]  {2,test1}        
 
 
 ` 	 	
 a dog
-[ein:eine:keine] Hund
+[ein:eine:keine] Hund {2,test2}  
  	 	 	
 `
 a insect
-[ein:ein:eine:keine] Insekt
+[ein:ein:eine:keine] Insekt {2,test2} 
 
 
 `
 a cat
-[eine:ein:eine:keine] Katze
+[eine:ein:eine:keine] Katze {2,test2} 
 
 `
 no dogs
-[keine:ein:eine:keine] Hunde
+[keine:ein:eine:keine] Hunde {2,test2}
 
 `
 my dog 	 	
-[mein:meine] Hund
+[mein:meine] Hund {2,test2}
 
 `
 my insect
-[mein:meine] Insekt
+[mein:meine] Insekt  {2,test2}
 
 `
 
 my cats
-[meine:mein] Katze
+[meine:mein] Katze  {2,test2}
 
 `
 
 my dogs
-[meine:mein] Hunde
+[meine:mein] Hunde  {2,test2}
 
 
 `
 
 your dog
-[dein:deine] Hund
+[dein:deine] Hund  {2,test2}
 
 `
 
 your insekt
-[dein:deine] Insekt
+[dein:deine] Insekt  {2,test2}
 `
 
 your cat
-[deine:dein] Katze
+[deine:dein] Katze  {2,test2}
 
 `
 
 your dogs
-[deine:dein] Hunde
+[deine:dein] Hunde  {2,test2}
 
 `
 
 his/its dog.
-[sein:seine] Hund
+[sein:seine] Hund  {2,test2}
 
 `
 his/its insect.
-[sein:seine] Insekt
+[sein:seine] Insekt  {2,test2}
 
 `
 his/its cats.
-[seine:sein] Katze
+[seine:sein] Katze  {2,test2}
 
 `
 his/its dogs.
-[seine:sein] Hunde
+[seine:sein] Hunde  {2,test2}
 
 `
 her dog
-[ihr:ihre] Hund
+[ihr:ihre] Hund  {2,test2}
 
 `
 her insect
-[ihr:ihre] Insekt
+[ihr:ihre] Insekt  {2,test2}
 
 `
 her cats
-[ihre:ihr] Katze
+[ihre:ihr] Katze  {2,test2}
 
 `
 her dogs
-[ihre:ihr] Hunde
+[ihre:ihr] Hunde  {2,test2}
 
 `
 our dog 
-[unser:unsere:unser] Hund
+[unser:unsere:unser] Hund  {2,test2}
 
 `
 our insect
-[unser:unsere:unser] Insekt
+[unser:unsere:unser] Insekt  {2,test2}
 
 `
 our cats
-[unsere:unsere:unser] Katze
+[unsere:unsere:unser] Katze  {2,test2}
 
 `
 our dogs
-[unsere:unser] Hunde
+[unsere:unser] Hunde  {2,test2}
 
 `
 your dog
-[euer:eure:euer] Hund
+[euer:eure:euer] Hund  {2,test2}
 
 `
 your insect
-[euer:eure:euer] Insekt
+[euer:eure:euer] Insekt  {2,test2}
 
 `
 your cats
-[eure:eure:euer] Katze
+[eure:eure:euer] Katze  {2,test2}
 
 `
 your dogs
-[eure:euer] Hunde
+[eure:euer] Hunde  {2,test2}
 
 `
 y'lls Hund 
-[ihr:ihre] Hund
+[ihr:ihre] Hund {2,test2}
 
 `
 y'lls Insekt 
-[ihr:ihre] Insekt
+[ihr:ihre] Insekt {2,test2}
 
 `
 y'lls Katze 
-[ihre:ihr] Katze
+[ihre:ihr] Katze {2,test2}
 
 `
 y'lls Hunde
-[ihre:ihr] Hunde
+[ihre:ihr] Hunde {2,test2}
 
 `
 //Demonstrative Pronouns
 
 That one is strange!
     [Der:Die:Das] ist komisch! 
+    {3}
 `
 My kids? They/Those are in England.
 Meine Kinder? [Die:Der:Das] sind in England. 
-
+{3}
 `
 This boy is reading a newspaper,
-that boy is reading a book.
 [Der:Die:Der:Das] Junge liest eine Zeitung,
+
+{3}
+`
+{3}
+that boy is reading a book.
 [der:die:der:das] Junge liest ein Buch.
 `
 //Some other pronouns
-
+{4}
 this boy eats.
 [dieser:dieses:dieses:diese] Junge isst.
-`
+`{4}
 this girl eats.
 [dieses:dieser:dieses:dieses:diese] Mädchen isst.
-`
+`{4}
 this woman eats.
 [diese:dieser:dieses:dieses:diese] Frau isst.
-`
+`{4}
 these women are eating.
 [diese:dieser:dieses:dieses:diese] Frauen isst.
-`
+`{4}
 These boys are eating.
 [Diese:dieser:dieses:dieses] Jungen isst.
-`
+`{4}
 every boy eats.
 [jeder:jede:jedes] Junge isst. 
-`
+`{4}
 every girl eats.
 [jedes:jeder:jede:jedes] Mädchen isst.
-`
+`{4}
 every woman eats.
 [jede:jeder:jede:jedes] Frau isst.
-`
+`{4}
 some boy eats.
 [mancher:manches:manche] Junge isst.
-`
+`{4}
 some girl eats.
 [manches:mancher:manches:manche] Mädchen isst.
-`
+`{4}
 some woman eats.
 [manche:mancher:manches:manche]  Frau isst.
-`
+`{4}
 some women eat.
 [manche:mancher:manches:manche] Frauen isst.
-`
+`{4}
 some boys eat.
 [manche:mancher:manches:manche] Jungen isst.
-`
+`{5}
 I drink a lot of water.
 Ich trinke [viel:viele] Wasser.
-`
+`{5}
 I have many dogs.
 Ich habe [viele:viel] Hunde.
-`
+`{6}
 (I do not eat.)
 Ich esse [nicht:nichts].
-`
+`{6}
  (I eat nothing.)
 Ich esse [nichts:nicht]. 
-`
+`{6}
 (I eat everything.)
 Ich esse [alles:alle]. 
-`
+`{6}
 (I eat all (oranges).)
 Ich esse [alle:alles] (Orangen). 
 `
 //Nicht
-
+{9}
 Negating a noun that has a 
 definite article like der Junge (the boy) 
 That is not the boy.
 Das ist [nicht] der Junge. 
     
-`
+`{9}
 Negating a noun that has a 
 possessive pronoun like mein Glas (my glass) 
 Das ist [nicht] mein Glas. (That is not my glass).
-`    
+`    {9}
 Negating the verb:
 I do not drink.
 Ich trinke [nicht]. 
-`    
+`    {9}
 Negating an adverb or adverbial phrase. 
 I do not dance often.
 Ich tanze [nicht] oft. 
-`    
+`    {9}
 Negating an adjective that is used with sein (to be):
 I am not hungry.
 Ich bin [nicht] hungrig .
@@ -256,30 +261,30 @@ Ich bin [nicht] hungrig .
 
 
 //Kein
-
+{10}
 He is a man
 Er ist [ein:eine:einen] Mann. 
-`
+`{10}
 She is not a/no man.
 Sie ist [kein:keine:keinen] Mann. 
-`
+`{10}
 I have a cat.
 Ich habe [eine:ein:einen] Katze.  
-`
+`{10}
 I have no cat.
 Ich habe [keine:kein:keinen] Katze.
 
-`
+`{10}
 It is eating an apple 
 Es isst [einen:ein:eine] Apfel . 
-`
+`{10}
 Don't create stress!
 Mach [keinen:kein:keine] Druck
 
-`
+`{11}
 I do not eat.
 Ich esse [nicht:nichts]. 
-    `
+`{11}
 I eat nothing.
 Ich esse [nichts:nicht]. 
     `
