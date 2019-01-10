@@ -1,2 +1,27 @@
-﻿//Grammar2 starts on  "German plurals"
-// gramm2 ends on  - false friends ahoy!
+﻿//2
+
+
+die Frau
+plural: die Frau[en]
+`
+die Ente
+plural: die Ent[en]
+`
+der Junge
+plural: die Jung[en]
+`
+//3
+
+
+das Sofa, 
+plural:die Sofa[s]
+`
+das Auto
+plural: die Auto[s]
+`
+das Baby:
+plural: die Baby[s]
+`
+das Café
+plural: die Café[s]
+`

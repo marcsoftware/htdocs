@@ -260,7 +260,7 @@
     <div id='10'>
         <p>Here are the conjugation tables from "Basics 1" (where you can find a more detailed explanation) again.</p>
         <p><em>trinken</em> (to drink)</p>
-        <table class="table">
+        <table class="table" id='trink'>
             <thead>
             <tr>
                 <th>English person</th>
@@ -287,7 +287,7 @@
             </tbody>
         </table>
         <p><em>sein</em> (to be)</p>
-        <table class="table">
+        <table class="table" id='be'>
             <thead>
             <tr>
                 <th>English</th>

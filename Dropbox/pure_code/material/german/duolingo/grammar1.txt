@@ -2,71 +2,69 @@
 //Grammar2 starts on  "German plurals"
 
 i drink :
-   ich trink_
-[e:st:t:en]
+   ich trink[e:st:t:en] {10,trink}
 `
 you drink:
-   du trink_
-[st:e:st:t:en]
+   du trink[st:e:st:t:en]{10,trink}
 `
 he drink:
    er trink_
-[t:e:st:t:en]
+[t:e:st:t:en]{10,trink}
 `
 she drink:
    sie trink_
-[t:e:st:t:en]
+[t:e:st:t:en]{10,trink}
 `
 it drink:
    es trink_
-[t:e:st:t:en]
+[t:e:st:t:en]{10,trink}
 `
 
 we drink
 wir trink_
-[en:e:st:t:en]
+[en:e:st:t:en]{10,trink}
 `
 y'll drink
 ihr trink_
-[t:e:st:t:en]
+[t:e:st:t:en]{10,trink}
 `
 they drink
 sie trink_
-[en:e:st:t:en]
+[en:e:st:t:en]{10,trink}
 
 `
 
 i am
 ich ___
-[bin:bist:bin:ist:sind:seid]
+[bin:bist:bin:ist:sind:seid]{10,be}
 `
 you are
 du ___
-[bist:bin:ist:sind]
+[bist:bin:ist:sind]{10,be}
 `
 he is
    er ___
-[ist:bin:bist:bin:ist:sind:seid]
+[ist:bin:bist:bin:ist:sind:seid]{10,be}
 `
 she is
    sie ___
-[ist:bin:bist:bin:ist:sind:seid]
+[ist:bin:bist:bin:ist:sind:seid]{15}
 `
 it is
    es ___
-[ist:bin:bist:bin:ist:sind:seid]
+[ist:bin:bist:bin:ist:sind:seid]{15}
 `
 we are
    wir ___
-[sind:bin:bist:bin:ist:sind:seid]
+[sind:bin:bist:bin:ist:sind:seid]{15}
 `
 y'll are
    ihr ___
-[seid:bin:bist:bin:ist:sind:seid]
+[seid:bin:bist:bin:ist:sind:seid]{15}
 `
 they are
    sie ___
-[sind:bin:bist:bin:ist:sind:seid]
+[sind:bin:bist:bin:ist:sind:seid]{15}
 `
 the man
 [der:das:die:der] Mann
