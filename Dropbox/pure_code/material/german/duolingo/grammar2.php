@@ -22,7 +22,7 @@
     <h1 class="p-2 mt-5 mb-2 bg-success text-white">Duolingo German Tips and Notes</h1>
 </div>
 
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">1 German plurals</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='1'>1 German plurals</h3>
     <div>
         <p>
             In English, making plurals out of singular nouns is typically as straightforward as adding an <em>-(e)s</em>
@@ -41,7 +41,7 @@
             mastering German plurals will become much easier :)
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">2 Ending in <em>-(e)n</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='2'>2 Ending in <em>-(e)n</em></h4>
     <div>
         <p>
             <strong>All nouns ending in <em>-e</em></strong>, and <strong>most feminine nouns</strong> will add an <em>-(e)n</em>
@@ -53,7 +53,7 @@
             <li>der Junge, die Junge<strong>n</strong></li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">3 Ending in <em>-s</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='3'>3 Ending in <em>-s</em></h4>
     <div>
         <p>Most nouns <strong>ending in a full vowel</strong> will add an <em>-s</em> in the plural.</p>
         <ul>
@@ -70,7 +70,7 @@
             <li>der Job, die Job<strong>s</strong></li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">4 No ending change</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='4'>4 No ending change</h4>
     <div>
         <p>
             There is <strong>no change</strong> for <strong>neuter or masculine</strong> nouns that have <strong>
@@ -98,7 +98,7 @@
             <li>die Gabel (the fork), die Gabel<strong>n</strong></li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">5 Ending in <em>-e/-er</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='5'>5 Ending in <em>-e/-er</em></h4>
     <div>
         <p>
             Most German <strong>one-syllable nouns</strong> will add an <em>-e</em> in their plural form. There might be
@@ -118,7 +118,7 @@
             <li>der Mann (the man), die M<strong>ä</strong>nn<strong>er</strong></li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">6 German feminine plurals - nouns ending in <em>-in</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white"  id='6'>6 German feminine plurals - nouns ending in <em>-in</em></h3>
     <div>
         <p>Job descriptions are usually masculine:</p>
         <ul>
@@ -155,7 +155,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">7 Predicate adjectives</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white"  id='7'>7 Predicate adjectives</h3>
     <div>
         <p>Predicate adjectives, i.e. <strong>adjectives that don't precede a noun, are not inflected</strong>.</p>
         <ul>
@@ -174,7 +174,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">8 German Negatives - <em>nicht</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='8'>8 German Negatives - <em>nicht</em></h3>
     <div>
         <p>
             There are different ways to negate expressions in German (much like in English you can use "no" in some
@@ -183,21 +183,21 @@
         </p>
         <p><strong>Use <em>nicht</em></strong> in the following situations:</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">9 <em>Nicht</em> + definite article</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='9'>9 <em>Nicht</em> + definite article</h4>
     <div>
         <p><em>Nicht</em> negates a <strong>noun that has a definite article</strong>:</p>
         <ul>
             <li>Das ist <strong>nicht</strong> <em>der Junge</em>. (That is not the boy.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">10 <em>Nicht</em> + possessive pronoun</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='10'>10 <em>Nicht</em> + possessive pronoun</h4>
     <div>
         <p><em>Nicht</em> negates a <strong>noun that has a possessive pronoun</strong>:</p>
         <ul>
             <li>Das ist <strong>nicht</strong> <em>mein Glas</em>. (That is not my glass.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">11<em>Nicht</em> negates a verb</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='11'>11<em>Nicht</em> negates a verb</h4>
     <div>
         <p>When negating a verb, use <em>nicht</em>.</p>
         <ul>
@@ -206,14 +206,14 @@
         <p><strong>Why does the <em>nicht</em> appear at the end here?</strong></p>
         <p>Refer to the section "Position of <em>nicht</em>" below to find the answer.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">12<em>Nicht</em> negates an adverb</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='12'>12<em>Nicht</em> negates an adverb</h4>
     <div>
         <p><em>Nicht</em> appears before an <strong>adverb or adverbial phrase</strong>:</p>
         <ul>
             <li>Ich tanze <strong>nicht</strong> <em>oft</em>. (I don't dance often.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">13<em>Nicht</em> negates an adjective at the end of a sentence</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='13'>13<em>Nicht</em> negates an adjective at the end of a sentence</h4>
     <div>
         <p>When an adjective is part of a verb, also use <em>nicht</em>.</p>
         <ul>
@@ -221,7 +221,7 @@
         </ul>
         <p>The infinitive here is <em>hungrig sein</em> (to be hungry).</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">14 Position of <em>Nicht</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='14'>14 Position of <em>Nicht</em></h4>
     <div>
         <p>
             Adverbs end up in different places in different languages. You cannot simply place the German adverb <em>nicht</em>
@@ -237,7 +237,7 @@
         </ul>
         <p>So, what about <em>Ich trinke nicht</em>?</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">15 ♫ The German Sentence Bracket ♫</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='15'>15 ♫ The German Sentence Bracket ♫</h4>
     <div>
         <p>Consider this English sentence:</p>
         <ul>
@@ -285,7 +285,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">16 Yes/No Questions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='16'>16 Yes/No Questions</h3>
     <div>
         <p>When <strong>asking a yes/no question</strong> in English, you would say:</p>
         <ul>
@@ -303,7 +303,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">17 No continuous aspect</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='17'>17 No continuous aspect</h3>
     <div>
         <p>
             Remember that in German, there's no continuous aspect, i.e. there are no separate forms for "I drink" and "I
@@ -311,10 +311,10 @@
         </p>
         <p>There's no such thing as <em>Ich bin trinke</em> or <em>Ich bin trinken!</em></p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">18 Verb conjugation</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='18'>18 Verb conjugation</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">19 Conjugating regular verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='19'>19 Conjugating regular verbs</h4>
     <div>
         <p>Here again is the complete table for conjugating regular verbs:</p>
         <p>Example: <em>gehen</em> (to go)</p>
@@ -358,7 +358,7 @@
             pronunciation. It is not pronounced!
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">20 Vowel change in some verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='20'>20 Vowel change in some verbs</h4>
     <div>
         <p>A few common verbs change the vowel in the <strong>second and third person singular</strong>.</p>
         <p>Normally the vowel will change:</p>
@@ -421,7 +421,7 @@
         </ul>
         <p>This is because the <em>-s-</em> from <em>du …-st</em> and the <em>-s</em> from the verb stem merge.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">21 <em>Wollen</em> and <em>mögen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='21'>21 <em>Wollen</em> and <em>mögen</em></h4>
     <div>
         <p><em>Wollen</em> (to want) and <em>mögen</em> (to like) follow a different conjugation system:</p>
         <table class="table">
@@ -477,7 +477,7 @@
             in singular is different from the vowel in plural.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">22 How do you like things in German?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='22'>22 How do you like things in German?</h3>
     <div>
         <p>Use the verb <em>mögen</em> to express that you <strong>like something or someone</strong>.</p>
         <p><strong><em>Mögen</em> cannot be used for verbs!</strong></p>
@@ -492,7 +492,7 @@
             translates as "I <em>would like to</em> play soccer", not "I <em>like</em> playing soccer".)
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">23 <em>Mögen</em> is used for things, animals, and people:</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='23'>23 <em>Mögen</em> is used for things, animals, and people:</h4>
     <div>
         <ul>
             <li>
@@ -511,7 +511,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">24 <em>Kleider</em> - dresses or clothes?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='24'>24 <em>Kleider</em> - dresses or clothes?</h4>
     <div>
         <p>
             <em>Das Kleid</em> means "the dress", and <em>die Kleider</em> means "the dresses", but the plural <em>
@@ -522,7 +522,7 @@
             that sense as well.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">25 <em>Hose</em> or <em>Hosen</em>?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  id='25'>25 <em>Hose</em> or <em>Hosen</em>?</h4>
     <div>
         <p>
             Both <em>Hose</em> and <em>Hosen</em> translate to "pants" ("trousers" in British English), but they're not
@@ -532,7 +532,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">26 Lakes and seas - false friends ahoy!</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='26'>26 Lakes and seas - false friends ahoy!</h3>
     <div>
         <p>
             The German for "the lake" is <em>der See</em> (masculine) and the most commonly used word for "the sea" is

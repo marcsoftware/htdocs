@@ -25,7 +25,7 @@
 
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">1 Welcome to German :)</h3>
-    <div>
+    <div id='1'>
         <p>
             Welcome to the German course! We will provide you with tips and notes throughout the course. However, be
             aware that these are optional. Only read them when you feel stuck, or when you are interested in the
@@ -37,7 +37,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">2 Capitalizing nouns</h3>
-    <div>
+    <div id='2'>
         <p>
             In German, <strong>all nouns are capitalized</strong>. For example, "my name" is <em>mein <strong>N</strong>ame</em>,
             and "the apple" is <em>der <strong>A</strong>pfel</em>. This helps you identify which words are the nouns in
@@ -45,7 +45,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">3 German genders are strange</h3>
-    <div>
+    <div id='3'>
         <p>
             Nouns in German are either <strong>feminine, masculine or neuter</strong>. For example, <em>Frau</em> (woman)
             is feminine, <em>Mann</em> (man) is masculine, and <em>Kind</em> (child) is neuter.
@@ -92,10 +92,10 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">4 Verb conjugations</h3>
-    <div>
+    <div id='4'>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">5 Conjugating regular verbs</h4>
-    <div>
+    <div id='5'>
         <p>
             <strong>Verb conjugation</strong> in German is more complex than in English. To conjugate a regular verb in
             the present tense, identify the stem of the verb and <strong>add the ending</strong> corresponding to any of
@@ -130,7 +130,7 @@
         </table>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">6 Conjugations of the verb <em>sein</em> (to be)</h4>
-    <div>
+    <div id='6'>
         <p>
             Like in English, <em>sein</em> (to be) is completely irregular, and its conjugations simply need to be
             memorized. Again, you will learn the plural forms soon.
@@ -159,7 +159,7 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">7 Umlauts</h3>
-    <div>
+    <div id='7'>
         <p>
             <strong>Umlauts</strong> are letters (more specifically vowels) that have two dots above them and appear in
             some German words like <em>Mädchen</em>.
@@ -195,7 +195,7 @@
         <p>An umlaut change may change the meaning. That's why it's important not to ignore those little dots.</p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">8 No continuous aspect</h3>
-    <div>
+    <div id='8'>
         <p>
             In German, there's <strong>no continuous aspect</strong>. There are no separate forms for "I drink" and "I am
             drinking". There's only one form: <em>Ich trinke.</em>
@@ -212,7 +212,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">9 Definite articles</h3>
-    <div>
+    <div id='9'>
         <p>
             As mentioned in <em>Basics 1</em>, German nouns have one of <strong>three genders</strong>: <strong>
             feminine,
@@ -257,7 +257,7 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">10 Conjugating verbs</h3>
-    <div>
+    <div id='10'>
         <p>Here are the conjugation tables from "Basics 1" (where you can find a more detailed explanation) again.</p>
         <p><em>trinken</em> (to drink)</p>
         <table class="table">
@@ -311,7 +311,7 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">11 Generic vs. specific (German is not Spanish or French)</h3>
-    <div>
+    <div id='11'>
         <p>
             Just like in English, using or dropping the definite article makes the <em>
             difference between specific and
@@ -329,7 +329,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">12 German plurals are also strange :)</h3>
-    <div>
+    <div id='12'>
         <p>
             In English, making plurals out of singular nouns is typically as straightforward as adding <em>-(e)s</em> at
             the end of the word. In German, the transformation is more complex. You will learn details about this in a
@@ -366,7 +366,7 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">13 You, you and you</h3>
-    <div>
+    <div id='13'>
         <p>Most languages use different words to address one person, or several people.</p>
         <p>In German, when <strong>addressing a single person, use <em>du</em></strong>:</p>
         <ul>
@@ -383,7 +383,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">14 <em>Ihr</em> vs. <em>er</em></h3>
-    <div>
+    <div id='14'>
         <p>
             If you're new to German, <em>ihr</em> and <em>er</em> may sound confusingly similar, but there is actually a
             difference. <em>ihr</em> sounds similar to the English word "ear", and <em>er</em> sounds similar to the
@@ -399,7 +399,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">15 Verb conjugation</h3>
-    <div>
+    <div id='15'>
         <p>Here is the complete table for conjugating regular verbs:</p>
         <p>Example: <em>trinken</em> (to drink)</p>
         <table class="table">
@@ -484,7 +484,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">16 Common phrases</h3>
-    <div>
+    <div id='16'>
         <p>
             Commonly used phrases are often <em>shortened versions of a longer sentence</em>. Or they might be <em>
             leftovers
@@ -495,7 +495,7 @@
         <p>For now, just learn them like you would learn a long word.</p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">17 <em>Wie geht's?</em></h4>
-    <div>
+    <div id='17'>
         <p>
             There are many ways to ask someone how they are doing. Take "How are you?," "How do you do?" and "How is it
             going?" as examples. In German, the common phrase or idiom uses the verb <em>gehen</em> (go): <em>
@@ -506,7 +506,7 @@
         <p>This can be shortened to <em>Wie geht's?</em>.</p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">18 <em>Willkommen</em> can be a false friend</h4>
-    <div>
+    <div id='18'>
         <p>
             In German, <em>Willkommen</em> means welcome as in "Welcome to our home", but it does not mean welcome as in
             "Thank you - You're welcome". The German for the latter is <em>Gern geschehen</em> (or just <em>Gern!</em>)
@@ -514,7 +514,7 @@
         </p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">19 <em>Entschuldigung!</em></h4>
-    <div>
+    <div id='19'>
         <p>
             Sometimes, German words can be a mouthful. Later on, you will find that you can take long words apart, and
             recognize the meaning from its elements.
@@ -552,7 +552,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">20 Duo</h3>
-    <div>
+    <div id='20'>
         <p>
             <em>Duo</em> is the name of Duolingo's mascot (the green owl). He will guide you through this course. If you
             make him happy, he will make you happy :)
@@ -561,7 +561,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">21 German Cases</h3>
-    <div>
+    <div id='21'>
         <p>
             In English, the words "he" and "I" can be used as subjects (the ones doing the action in a sentence), and
             they change to "him" and "me" when they are objects (the ones the action is applied to). Here's an
@@ -660,7 +660,7 @@
         </table>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">22 Flexible sentence order</h3>
-    <div>
+    <div id='22'>
         <p>
             The fact that most words in German are affected by the case explains why the <strong>
             sentence order is more
@@ -679,7 +679,7 @@
         </ul>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">23 Vowel change in some verbs</h3>
-    <div>
+    <div id='23'>
         <p>A few common verbs change the vowel in the <strong>second and third person singular</strong>.</p>
         <p>Here is the table for a verb without vowel change:</p>
         <table class="table">
@@ -773,7 +773,7 @@
         <p><em>Sprechen</em> (to speak) will be introduced in one of the next lessons.</p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">24 <em>Isst</em> vs. <em>ist</em></h3>
-    <div>
+    <div id='24'>
         <p>
             <em>Isst</em> and <em>ist</em> sound exactly the same. So do <em>Es ist ein Apfel.</em> and <em>
             Es isst ein
@@ -799,7 +799,7 @@
         <p>Only context will tell you here :)</p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">25 <em>Ich habe Brot</em></h3>
-    <div>
+    <div id='25'>
         <p>
             In English, you can say "I'm having bread" when you really mean that you're eating or about to eat bread.
             <strong>This does not work in German.</strong> The verb <strong>
@@ -848,14 +848,14 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">26 Grammar break!</h3>
-    <div>
+    <div id='26'>
         <p>
             There is no new grammar in this lesson. If you're confused, you can review the grammar points from earlier
             lessons.
         </p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">27 Harness the power of other learners</h4>
-    <div>
+    <div id='27'>
         <p>
             Or you can check the discussion that's available for each sentence. You can reach these when tapping or
             clicking on the speech bubble. Your question might already have been answered there. Otherwise, you can
@@ -865,7 +865,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">28 <em>Ich habe Hunger!</em></h3>
-    <div>
+    <div id='28'>
         <p>
             As mentioned in the "Accusative" lesson, <em>haben</em> is not used in the sense of "I'm having bread" or
             "I'm having tea" in German. <em>Ich habe Brot</em> only translates to "I have bread".
@@ -887,7 +887,7 @@
         </ul>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">29 Compound words</h3>
-    <div>
+    <div id='29'>
         <p>
             A compound word is a word that consists of two or more words. These are <strong>
             written as one word (no
@@ -927,7 +927,7 @@
         </ul>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">30<em>Mittagessen</em> — lunch or dinner?</h3>
-    <div>
+    <div id='30'>
         <p>
             We're aware that "dinner" is sometimes used synonymously with "lunch", but for the purpose of this course,
             we're defining <em>Frühstück</em> as "breakfast", <em>Mittagessen</em> as "lunch", and "dinner/supper" as
@@ -935,7 +935,7 @@
         </p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">31 Cute like sugar!</h3>
-    <div>
+    <div id='31'>
         <p>The word <em>süß</em> means "sweet" when referring to food, and "cute" when referring to living beings.</p>
         <ul>
             <li>Der Zucker ist <em>süß</em>. (The sugar is <em>sweet</em>.)</li>
@@ -943,7 +943,7 @@
         </ul>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">32 Does <em>Gemüse</em> mean "vegetable" or "vegetables"?</h3>
-    <div>
+    <div id='32'>
         <p>
             In German, <em>Gemüse</em> is used as a mass noun. That means it's grammatically singular and takes a
             singular verb.
@@ -952,7 +952,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">33 Recognizing noun gender</h3>
-    <div>
+    <div id='33'>
         <p>
             While noun genders might seem random for many words, there are quite a few ways to at least land a likely
             hit.
@@ -984,7 +984,7 @@
         <p>There are many more endings like these. You will learn more about them throughout this course.</p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">34 <em>Fressen</em> vs. <em>essen</em></h3>
-    <div>
+    <div id='34'>
         <p>
             Unlike English, German has two similar but different verbs for "to eat": <em>essen</em> and <em>fressen</em>.
             The latter is the standard way of expressing that an animal is eating something. Be careful
