@@ -145,12 +145,12 @@ function gotoRefPage(numbers){
   if(numbers.includes('-')){
     numbers = numbers.split('-');
     elementID=numbers[1];
-    chapterID=numbers[0];
+    chapterID=global_chapterID;
   }else{
     elementID=numbers[0];
-    chapterID=3;
+    
   }
-  openInNewTab(elementID,chapterID);
+  openInNewTab(elementID,global_chapterID);
 }
 
 /*
@@ -159,7 +159,7 @@ function gotoRefPage(numbers){
 //---------------------------------------------------------------------
 */
 function openInNewTab(elementID,chapterID) {
-  chapterID=3;
+  chapterID=global_chapterID;
   url = `../material/german/duolingo/grammar${chapterID}.php?s=`+elementID;
   var win = window.open(url, '_blank');
   win.focus();
@@ -175,6 +175,8 @@ function getRef(chapterID,elementID) {
       elementID=elementID[1];
        
    }
+
+   chapterID=global_chapterID;
    chapterID=`../material/german/duolingo/grammar${chapterID}b.php`;
     var xhr = new XMLHttpRequest();
 
@@ -540,6 +542,7 @@ function readFile(url) {
 //---------------------------------------------------------------------
 */
 var global_lines;
+var global_chapterID;
 $( document ).ready(function() {
 
  
@@ -548,7 +551,7 @@ $( document ).ready(function() {
     
 
     readFile(file_path); //the variable called 'original' now contains the file contents.
-
+global_chapterID=(file_path.match(/\d/g));
 original=original.replace(/\/\/.*/g,'');
 //original=original.match(/`([^`]+)\`/g);
 original=original.split(/`/g);
