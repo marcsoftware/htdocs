@@ -237,6 +237,10 @@ border-left-style: solid;
   border-left-color: blue;
 }
 
+.icon{
+	font-size: 12px;
+	cursor: help;
+}
 textarea {
     width: 10em;
     height: 1em;
@@ -274,7 +278,7 @@ textarea {
 <div id='track'></div>
 <pre id='buttons'></pre>
 <div id='ref'></div>
-<input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>
+
 
 
 
