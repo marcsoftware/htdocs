@@ -282,7 +282,15 @@ function addWord(){
   drawEverything();
 
 }
-
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function drawGameOver(){
+	document.getElementById('track').innerHTML='GAMEOVER - YOU WIN.'
+	document.getElementById('ref').innerHTML='';
+}
 /*
 //---------------------------------------------------------------------
 //
@@ -294,8 +302,9 @@ function nextGroup(){
   global_level_counter++;
   
   //
-  var end_index=global_level_counter*7+7;
+  var end_index=global_level_counter;
   if(end_index>=global_lines.length){
+  	drawGameOver();
     end_index=global_lines.length-1;
 
   }
@@ -371,6 +380,7 @@ function nextWord(){
 //---------------------------------------------------------------------
 */
 function drawEverything(){
+	document.getElementById('ref').innerHTML='';
     drawActive();  
   
   drawButtons();
