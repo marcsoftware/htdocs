@@ -8,86 +8,75 @@ you drink:
    du trink[st:e:st:t:en]{10,trink}
 `
 he drink:
-   er trink_
-[t:e:st:t:en]{10,trink}
+   er trink[t:e:st:t:en]{10,trink}
 `
 she drink:
-   sie trink_
-[t:e:st:t:en]{10,trink}
+   sie trink[t:e:st:t:en]{10,trink}
 `
 it drink:
-   es trink_
-[t:e:st:t:en]{10,trink}
+   es trink[t:e:st:t:en]{10,trink}
 `
 
 we drink
-wir trink_
-[en:e:st:t:en]{10,trink}
+wir trink[en:e:st:t:en]{23,trink}
 `
 y'll drink
-ihr trink_
-[t:e:st:t:en]{10,trink}
+ihr trink[t:e:st:t:en]{23,trink}
 `
 they drink
-sie trink_
-[en:e:st:t:en]{10,trink}
+sie trink[en:e:st:t:en]{23,trink}
 
 `
 
 i am
-ich ___
-[bin:bist:bin:ist:sind:seid]{10,be}
+ich [bin:bist:bin:ist:sind:seid]{10,be}
 `
 you are
-du ___
-[bist:bin:ist:sind]{10,be}
+du [bist:bin:ist:sind]{10,be}
 `
 he is
-   er ___
-[ist:bin:bist:bin:ist:sind:seid]{10,be}
+er [ist:bin:bist:bin:ist:sind:seid]{10,be}
 `
 she is
-   sie ___
-[ist:bin:bist:bin:ist:sind:seid]{15}
+   sie [ist:bin:bist:bin:ist:sind:seid]{15,be2}
 `
 it is
-   es ___
-[ist:bin:bist:bin:ist:sind:seid]{15}
+   es [ist:bin:bist:bin:ist:sind:seid] {15,be2}
 `
-we are
-   wir ___
-[sind:bin:bist:bin:ist:sind:seid]{15}
+we are <br/>
+wir [sind:bin:bist:bin:ist:sind:seid] {15,be2}
 `
 y'll are
-   ihr ___
-[seid:bin:bist:bin:ist:sind:seid]{15}
+   ihr [seid:bin:bist:bin:ist:sind:seid]{15,be2}
 `
 they are
-   sie ___
-[sind:bin:bist:bin:ist:sind:seid]{15}
+   sie [sind:bin:bist:bin:ist:sind:seid]{15,be2}
 `
 the man
-[der:das:die:der] Mann
+[der:das:die:der] Mann{9,gender}
 `
 the girl
-[das:das:die:der] Mädchen
+[das:das:die:der] Mädchen{9,gender}
 `
 the woman
-[die:das:die:der] Frau
+[die:das:die:der] Frau {9,gender}
 `
 a man:
    Mann 
-[ein:eine]
+[ein:eine] {9,gender}
 `
 a girl
-   ___ Mädchen 
-[ein:eine]
+   [ein:eine] Mädchen 
+{9,gender}
 `
 a woman
-   ___ Frau 
-[eine:ein]
+   [eine:ein] Frau 
+{9,gender}
 `
 idioms?
+ 
 it is enough [Es reicht]
+`
+idioms?
 so-so. [es geht]
 `

@@ -229,7 +229,7 @@
             for neuter, and <strong><em>die</em></strong> for feminine. Later in this course you will learn that these
             might be modified according to "case".
         </p>
-        <table class="table">
+        <table class="table" id='gender'>
             <thead>
             <tr>
                 <th>gender</th>
@@ -260,7 +260,7 @@
     <div id='10'>
         <p>Here are the conjugation tables from "Basics 1" (where you can find a more detailed explanation) again.</p>
         <p><em>trinken</em> (to drink)</p>
-        <table class="table" id='trink'>
+        <table class="table" >
             <thead>
             <tr>
                 <th>English person</th>
@@ -402,7 +402,7 @@
     <div id='15'>
         <p>Here is the complete table for conjugating regular verbs:</p>
         <p>Example: <em>trinken</em> (to drink)</p>
-        <table class="table">
+        <table class="table" id='trink2'>
             <thead>
             <tr>
                 <th>English person</th>
@@ -445,7 +445,7 @@
         </table>
         <p>Notice that the first and the third person plural have the same ending.</p>
         <p>And here's the complete table for the irregular verb <em>sein</em> (to be):</p>
-        <table class="table">
+        <table class="table" id='be2'>
             <thead>
             <tr>
                 <th>English</th>
@@ -682,7 +682,7 @@
     <div id='23'>
         <p>A few common verbs change the vowel in the <strong>second and third person singular</strong>.</p>
         <p>Here is the table for a verb without vowel change:</p>
-        <table class="table">
+        <table class="table" id='trink'>
             <thead>
             <tr>
                 <th>En. person</th>
