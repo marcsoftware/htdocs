@@ -126,8 +126,8 @@ function makeButton(text){
   helpLink=original.match(/\{.*\}/g); 
   if(helpLink !== null){ // check if not null
     helpLink=helpLink.join().match(/[\d\w]+/g); 
-    getRef(3,helpLink);
-    helpLink=`<span onclick=gotoRefPage('${helpLink}')>🌐</span>`;
+    getRef(global_chapterID,helpLink);
+    helpLink=`<span onclick=gotoRefPage(${helpLink})>🌐</span>`;
   }else{
     helpLink='';
     document.getElementById('ref').innerHTML='';
@@ -143,12 +143,12 @@ function makeButton(text){
 function gotoRefPage(numbers){
   // parse for filename & elementID
   
-  if(numbers.includes('-')){
-    numbers = numbers.split('-');
-    elementID=numbers[1];
-    chapterID=global_chapterID;
-  }else{
+  if(numbers.length > 1){
+    
     elementID=numbers[0];
+    
+  }else{
+    elementID=numbers;
     
   }
   openInNewTab(elementID,global_chapterID);
@@ -322,11 +322,8 @@ function prevGroup(){
   global_level_counter--;
   
   //
-  var end_index=global_level_counter*7+7;
-  if(end_index>=global_lines.length){
-    end_index=global_lines.length-1;
-
-  }
+  var end_index=global_level_counter;
+  
 
   global_group=global_lines[global_level_counter];
   
