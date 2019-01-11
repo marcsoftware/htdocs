@@ -49,7 +49,7 @@
         $template = "            
                     
                     
-                    <br/>$file <a class='hyperlink' onclick=nextPage(this,'fillinblank.php') rel='$file' name='$folder'>grammar</a>
+                    <br/>$file <a class='hyperlink' onclick=nextPage(this,'grammarBlank.php') rel='$file' name='$folder'>blank</a>
                     <a class='hyperlink' onclick=nextPage(this,'grammarScroll.php') rel='$file' name='$folder'>scroll</a>
                    
                     
