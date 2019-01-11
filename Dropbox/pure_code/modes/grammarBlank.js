@@ -14,10 +14,10 @@ var hovered = [];// save handles to cards taht were hovered over to they can be 
 function init(){
 
   var track=document.getElementById('track');
-  shuffle(global_lines);
+  //shuffle(global_lines);
   global_group=global_lines[0];
  
-  shuffle(global_group);  
+  
 
   globalCounter=0;
   globalArrow=0;
@@ -306,6 +306,7 @@ function nextGroup(){
   var end_index=global_level_counter;
   if(end_index>=global_lines.length){
   	drawGameOver();
+  	return;
     end_index=global_lines.length-1;
 
   }
@@ -313,7 +314,7 @@ function nextGroup(){
   global_group=global_lines[global_level_counter];
 
   
-  shuffle(global_group);  
+  
 
   globalCounter=0;
   globalArrow=0;
@@ -337,7 +338,7 @@ function prevGroup(){
 
   global_group=global_lines[global_level_counter];
   
-  shuffle(global_group);  
+  
 
 
   globalCounter=6;

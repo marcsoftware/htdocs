@@ -146,15 +146,14 @@
         
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='3'>3 Demonstrative Pronouns</h4>
-    <div>
-       
+    <div id='rule3'>
+       That means, der, die and das can also mean "that (one)" or "this (one)" depending on the gender of the respective noun, and "die" (plural) can mean "these" or "those." 
     </div>
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='4'>4 Some other pronouns</h3>
-    <div>
-        <p>Some other words can function as pronouns.</p>
-        <p>The following ones change their endings like definite articles:</p>
+    <div id='table4'>
+        
         <table class="table">
             <thead>
             <tr>
@@ -203,18 +202,9 @@
             </tr>
             </tbody>
         </table>
-        <ul>
-            <li><em>Dieser</em> Junge isst, <em>dieser</em> (Junge) trinkt.</li>
-            <li>
-                <p><em>This</em> boy eats, <em>that</em> (boy/one) drinks.</p>
-            </li>
-            <li>
-                <p><em>Jedes</em> Kind mag Pizza. (<em>Every</em> kid likes pizza.)</p>
-            </li>
-            <li><em>Manche</em> Kinder mögen Käse. (<em>Some</em> kids like cheese.)</li>
-        </ul>
+  
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='5'>5 <em>Viel</em> vs. <em>viele</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='5'>Use viel with uncountable nouns, viele with countable ones</h3>
     <div>
         <p>
             These roughly correspond to English "much/many". Use <em>viel</em> with uncountable nouns, <em>viele</em>
@@ -225,7 +215,7 @@
             <li>Ich habe <strong>viele</strong> Hunde.</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='6'>6 <em>Alles</em> oder <em>nichts</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='6'>Just like nicht (not) has a look-alike nichts (nothing), alle (all) has alles (everything) as a counterpart. </h3>
     <div>
         <p>
             Just like <em>nicht</em> (not) has a look-alike <em>nicht<strong>s</strong></em> (nothing), <em>alle</em>
@@ -260,7 +250,10 @@
             you need to use <em>kein</em> (not a).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='9'>9 <em>Nicht</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='9'>
+    If you can use "not a/no" in English, use kein.
+    If you need to use "not", use nicht.
+</h4>
     <div>
         <p>As mentioned in the lesson "Not", you should use <em>nicht</em> in the following situations:</p>
         <ul>
@@ -290,7 +283,10 @@
         </ul>
         <p>For details, and to learn where to put <em>nicht</em> in a sentence, refer to the "Not" lesson.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='10'>10<em>Kein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='10'>
+    If you can use "not a/no" in English, use kein.
+    If you need to use "not", use nicht.
+</h4>
     <div>
         <p>
             Simply put, <strong><em>kein</em> is composed of <em>k + ein</em></strong> and placed where the indefinite
@@ -305,7 +301,7 @@
             <li>Ich habe ein<em>e</em> Katze. (I have a cat.) — Ich habe kein<em>e</em> Katze. (I have no cat.)</li>
         </ul>
         <p>Here are the endings of the indefinite article so far:</p>
-        <table class="table">
+        <table class="table" id='table10'>
             <thead>
             <tr>
                 <th></th>
@@ -370,7 +366,10 @@
             <li>If you <strong>need to use "not", use <em>nicht</em></strong>.</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='11'>11<em>Nicht</em> vs. <em>Nichts</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='11'>
+    If you can use "not a/no" in English, use kein.
+    If you need to use "not", use nicht.
+</h4>
     <div>
         <p>
             <em>Nicht</em> is an adverb and is useful for negations. On the other hand, <em>nicht<strong>s</strong></em>
@@ -483,8 +482,57 @@
             </li>
         </ul>
         <p>Please refer to lesson "Present 1" for more details on <em>mögen</em>.</p>
+
+        <table class="table" id='table14'>
+            <thead>
+            <tr>
+                <th>English</th>
+                <th>pronoun</th>
+                <th>wollen</th>
+                <th>mögen</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>I want/like</td>
+                <td>ich</td>
+                <td>w<strong>i</strong>ll</td>
+                <td>m<strong>a</strong>g</td>
+            </tr>
+            <tr>
+                <td>you (sg. inf.)</td>
+                <td>du</td>
+                <td>w<strong>i</strong>ll<strong>st</strong></td>
+                <td>m<strong>a</strong>g<strong>st</strong></td>
+            </tr>
+            <tr>
+                <td>he/she/it</td>
+                <td>er/sie/es</td>
+                <td>w<strong>i</strong>ll</td>
+                <td>m<strong>a</strong>g</td>
+            </tr>
+            <tr>
+                <td>we</td>
+                <td>wir</td>
+                <td>w<strong>o</strong>ll<strong>en</strong></td>
+                <td>m<strong>ö</strong>g<strong>en</strong></td>
+            </tr>
+            <tr>
+                <td>you (pl. inf.)</td>
+                <td>ihr</td>
+                <td>w<strong>o</strong>ll<strong>t</strong></td>
+                <td>m<strong>ö</strong>g<strong>t</strong></td>
+            </tr>
+            <tr>
+                <td>they</td>
+                <td>sie</td>
+                <td>w<strong>o</strong>ll<strong>en</strong></td>
+                <td>m<strong>ö</strong>g<strong>en</strong></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='15'>15<em>Gern(e)</em> is used for verbs/activities:</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='15'>Gern(e) is used for verbs/activities:</h4>
     <div>
         <ul>
             <li>
@@ -681,7 +729,7 @@
             For instance, <em>ich</em> changes to <em>mich</em> (accusative object) as in <em>Sie sieht mich.</em> (She
             sees me.).
         </p>
-        <table class="table">
+        <table class="table" id='table23'>
             <thead>
             <tr>
                 <th>Nominative (subject)</th>
@@ -761,7 +809,7 @@
             dog.
         </p>
         <p>Here is the table of possessive pronouns for the accusative case:</p>
-        <table class="table">
+        <table class="table" id='table24'>
             <thead>
             <tr>
                 <th>Accusative</th>
@@ -834,9 +882,9 @@
     <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='25'>25 Other declining words</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='26' >26 <em>Viel</em> vs. <em>viele</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"  >26 <em>Viel</em> vs. <em>viele</em></h4>
     <div>
-        <p>
+        <p id='26'>
             These roughly correspond to English "much/many". Use <em>viel</em> with uncountable nouns, <em>viele</em>
             with countable ones.
         </p>
@@ -849,7 +897,7 @@
             and accusative, for now it will look always the same.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='27' >27 <em>Jeder</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='27' >Jeder changes endings like definite articles:</h4>
     <div>
         <p><em>Jeder</em> changes endings like definite articles:</p>
         <ul>
@@ -931,7 +979,7 @@
         </ul>
         <p>Examples: <em>entweder … oder, nicht nur … sondern auch, weder … noch</em></p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='33'>33 Sondern</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='33'>Sondern works like "but … instead" in English. It only takes the element that is different:</h4>
     <div>
         <p><em>Sondern</em> works like "but … instead" in English. It only takes the element that is different:</p>
         <ul>
@@ -963,9 +1011,9 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='36'>36 Yes/No Questions</h3>
-    <div>
-        <p>Questions can be asked by <strong>switching the subject and verb</strong>. For instance,</p>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" >36 Yes/No Questions</h3>
+    <div >
+        <p id='36'>Questions can be asked by <strong>switching the subject and verb</strong>. </p>
         <ul>
             <li><em>Du verstehst</em> das. (You understand this.)</li>
         </ul>
@@ -982,7 +1030,7 @@
     <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='37'>37 Asking a Question in German With a W-Word</h3>
     <div>
         <p>There are seven W-questions in German:</p>
-        <table class="table">
+        <table class="table" id='table37'>
             <thead>
             <tr>
                 <th>English</th>
@@ -1029,7 +1077,7 @@
             If you ask <em>was</em> with a preposition, the two normally turn into a new word, according to the following
             pattern:
         </p>
-        <table class="table">
+        <table class="table" id='table38'>
             <thead>
             <tr>
                 <th>English</th>
@@ -1083,7 +1131,7 @@
             German (Genitive). You would use <em>wessen</em> here. This corresponds to English "whose".
         </p>
         <p>The endings look like the endings of <em>der</em> (but don't change with gender/number):</p>
-        <table class="table">
+        <table class="table" id='table39'>
             <thead>
             <tr>
                 <th>case</th>
@@ -1117,7 +1165,7 @@
             is yours?".
         </p>
         <p>This declines not only for case, but also for gender. The endings are the same as for definite articles:</p>
-        <table class="table">
+        <table class="table" id='table40'>
             <thead>
             <tr>
                 <th>article</th>
@@ -1176,7 +1224,7 @@
         <ul>
             <li><em>Wo</em> kommst du <em>her</em>?</li>
         </ul>
-        <table class="table">
+        <table class="table" id='table41'>
             <thead>
             <tr>
                 <th>English</th>
@@ -1199,7 +1247,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='42'>42 <em>Wann</em> (when)</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='42'>Don't confuse wann with wenn which you learned in Conjunctions. Both translate to "when" in English, but they have different functions in German. </h4>
     <div>
         <p>
             <em>Wann</em> (when) does not change depending on the case. <em>Wann</em> can be used with conjunctions such
@@ -1229,9 +1277,9 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='43'>43<em>Warum</em> (why)</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" >43<em>Warum</em> (why)</h4>
     <div>
-        <p>
+        <p id='43'>
             <em>Warum</em> (why) is also not declinable. It will never change endings. <em>Wieso</em>, <em>Weshalb</em>,
             and <em>Weswegen</em> can be used instead of <em>Warum</em>. There's no difference in meaning.
         </p>
@@ -1251,9 +1299,9 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='44'>44<em>Wie viel</em> vs. <em>wie viele</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" >44<em>Wie viel</em> vs. <em>wie viele</em></h4>
     <div>
-        <p>
+        <p id='44'>
             <em>Wie viel</em> is used with uncountable or countable nouns (how much/how many), and <strong>
             <em>
                 wie
@@ -1307,7 +1355,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='46'>46 Family plurals</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='46'>You might notice that most members of the close family have their own "system" of plurals:</h4>
     <div>
         <p>You might notice that most members of the close family have their own "system" of plurals:</p>
         <table class="table">

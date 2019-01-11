@@ -160,59 +160,59 @@ y'lls Hunde
 
 That one is strange!
     [Der:Die:Das] ist komisch! 
-    {3}
+    {3,rule3}
 `
 My kids? They/Those are in England.
 Meine Kinder? [Die:Der:Das] sind in England. 
-{3}
+{3,rule3}
 `
 This boy is reading a newspaper,
 [Der:Die:Der:Das] Junge liest eine Zeitung,
 
-{3}
+{3,rule3}
 `
-{3}
+{3,rule3}
 that boy is reading a book.
 [der:die:der:das] Junge liest ein Buch.
 `
 //Some other pronouns
-{4}
+{4,table4}
 this boy eats.
 [dieser:dieses:dieses:diese] Junge isst.
-`{4}
+`{4,table4}
 this girl eats.
 [dieses:dieser:dieses:dieses:diese] Mädchen isst.
-`{4}
+`{4,table4}
 this woman eats.
 [diese:dieser:dieses:dieses:diese] Frau isst.
-`{4}
+`{4,table4}
 these women are eating.
 [diese:dieser:dieses:dieses:diese] Frauen isst.
-`{4}
+`{4,table4}
 These boys are eating.
 [Diese:dieser:dieses:dieses] Jungen isst.
-`{4}
+`{4,table4}
 every boy eats.
 [jeder:jede:jedes] Junge isst. 
-`{4}
+`{4,table4}
 every girl eats.
 [jedes:jeder:jede:jedes] Mädchen isst.
-`{4}
+`{4,table4}
 every woman eats.
 [jede:jeder:jede:jedes] Frau isst.
-`{4}
+`{4,table4}
 some boy eats.
 [mancher:manches:manche] Junge isst.
-`{4}
+`{4,table4}
 some girl eats.
 [manches:mancher:manches:manche] Mädchen isst.
-`{4}
+`{4,table4}
 some woman eats.
 [manche:mancher:manches:manche]  Frau isst.
-`{4}
+`{4,table4}
 some women eat.
 [manche:mancher:manches:manche] Frauen isst.
-`{4}
+`{4,table4}
 some boys eat.
 [manche:mancher:manches:manche] Jungen isst.
 `{5}
@@ -227,7 +227,8 @@ Ich esse [nicht:nichts].
 `{6}
  (I eat nothing.)
 Ich esse [nichts:nicht]. 
-`{6}
+`
+{6}
 (I eat everything.)
 Ich esse [alles:alle]. 
 `{6}
@@ -236,48 +237,43 @@ Ich esse [alle:alles] (Orangen).
 `
 //Nicht
 {9}
-Negating a noun that has a 
-definite article like der Junge (the boy) 
 That is not the boy.
 Das ist [nicht] der Junge. 
     
 `{9}
-Negating a noun that has a 
-possessive pronoun like mein Glas (my glass) 
-Das ist [nicht] mein Glas. (That is not my glass).
+
+Das ist [nicht:nichts:kein:keine:keinen] mein Glas. (That is not my glass).
 `    {9}
-Negating the verb:
 I do not drink.
-Ich trinke [nicht]. 
+Ich trinke [nicht:nichts:kein:keine:keinen]. 
 `    {9}
-Negating an adverb or adverbial phrase. 
 I do not dance often.
-Ich tanze [nicht] oft. 
+Ich tanze [nicht:nichts:kein:keine:keinen] oft. 
 `    {9}
-Negating an adjective that is used with sein (to be):
+
 I am not hungry.
-Ich bin [nicht] hungrig .
+Ich bin [nicht:nichts:kein:keine:keinen] hungrig .
 `
 
 
 //Kein
-{10}
+{10,table10}
 He is a man
 Er ist [ein:eine:einen] Mann. 
-`{10}
+`{10,table10}
 She is not a/no man.
 Sie ist [kein:keine:keinen] Mann. 
-`{10}
+`{10,table10}
 I have a cat.
 Ich habe [eine:ein:einen] Katze.  
-`{10}
+`{10,table10}
 I have no cat.
 Ich habe [keine:kein:keinen] Katze.
 
-`{10}
+`{10,table10}
 It is eating an apple 
 Es isst [einen:ein:eine] Apfel . 
-`{10}
+`{10,table10}
 Don't create stress!
 Mach [keinen:kein:keine] Druck
 
@@ -287,11 +283,11 @@ Ich esse [nicht:nichts].
 `{11}
 I eat nothing.
 Ich esse [nichts:nicht]. 
-    `
+    `{11}
 The student does not learn.
 
 Der Schüler lernt [nicht:nichts:nicht]. 
-    `
+    `{11}
 The student does not learn anything.
 Der Schüler lernt [nichts:nicht:nichts:nicht]. 
 `
@@ -299,127 +295,127 @@ Der Schüler lernt [nichts:nicht:nichts:nicht].
 
 
 Ich [mag:mögen:mögt] Bier. 
-(I like beer.)
+(I like beer.) {14,table14}
 `
 Sie [mag:mag:mögen:mögt] Katzen.
- (She likes cats.)
+ (She likes cats.){14,table14}
 `
 Wir [mögen:mag:mögen:mögt] dich. 
-(We like you.)
+(We like you.){14,table14}
 `
 Ihr [mögt:mag:mögen:mögt] Bücher.
- (You like books.)
+ (You like books.){14,table14}
 `
 
 (I like to drink beer)or(I like drinking beer.)
-    Ich trinke [gerne][gern] Bier. 
+    Ich trinke [gerne] [gern] Bier. {15} 
 `
-[gern] and [gerne] are the same word. use whichever 
+[gern and gerne:garn and garne] are the same word. use whichever {15}
 `
 //23
 ich (I) 	
-[mich] (me)
+[mich] (me) {23,table23}
 `
 du (you singular informal) 	
-[dich] (you singular informal)
+[dich] (you singular informal){23,table23}
 `
 er (he) 
-[ihn] (him) 
+[ihn] (him) {23,table23}
   `
 sie (she) 
-[sie] (her) 
+[sie] (her) {23,table23}
 `
 es (it)
-[es] (it)
+[es] (it){23,table23}
 `
 wir (we) 	
-[uns] (us)
+[uns] (us){23,table23}
 `
 ihr (you plural informal) 
-[euch] (you plural informal)
+[euch] (you plural informal){23,table23}
   `
 sie (they) 	
-[sie] (them)
+[sie] (them){23,table23}
 `
 //24
 Meinen Hund mag die Frau nicht.
-[the woman hates my dog]{24}
+[the woman hates my dog]{24,table24}
 `
-{24}
+{24,table24}
 Mein Hund mag die Frau nicht.
 [my dogs hates the woman]
 
 `
  He sees a dog.
  Er sieht [einen:ein:eine] Hund.
- {24}
+ {24,table24}
 `
  He sees a insect.
- Er sieht [ein:einen:eine] Insekt.
+ Er sieht [ein:einen:eine] Insekt. {24,table24}
  `
  He sees a cat.
- Er sieht [eine:ein:einen] Katze.
+ Er sieht [eine:ein:einen] Katze. {24,table24}
 `
  He sees your dog.
- Er sieht [deinen:dein:deine] Hund.
+ Er sieht [deinen:dein:deine] Hund. {24,table24}
  `
  He sees your insect.
- Er sieht [dein:deinen:dein:deine] Insekt.
+ Er sieht [dein:deinen:dein:deine] Insekt. {24,table24}
  `
  He sees your cat.
- Er sieht [deine:deinen:dein:deine] Katze.
+ Er sieht [deine:deinen:dein:deine] Katze. {24,table24}
  `
  He sees your dogs.
- Er sieht [deine:deinen:dein:deine] Hunds.
+ Er sieht [deine:deinen:dein:deine] Hunds. {24,table24}
 `
  He sees my dog.
- Er sieht [meinen:mein:meine] Hund.
+ Er sieht [meinen:mein:meine] Hund. {24,table24}
  `
  He sees my insect.
- Er sieht [mein:meinen:meine] Insekt.
+ Er sieht [mein:meinen:meine] Insekt. {24,table24}
  `
  He sees my cat.
- Er sieht [meine:meinen:mein:meine] Katze.
+ Er sieht [meine:meinen:mein:meine] Katze. {24,table24}
  `
  He sees my dogs.
- Er sieht [meine:meinen:mein:meine] Hunds.
+ Er sieht [meine:meinen:mein:meine] Hunds. {24,table24}
  `
   He sees her dog.
- Er sieht [ihren:ihr:ihre] Hund.
+ Er sieht [ihren:ihr:ihre] Hund. {24,table24}
  `
  He sees her insect.
- Er sieht [ihr:ihren:ihr:ihre] Insekt.
+ Er sieht [ihr:ihren:ihr:ihre] Insekt. {24,table24}
  `
  He sees her cat.
- Er sieht [ihre:ihren:ihr:ihre] Katze.
+ Er sieht [ihre:ihren:ihr:ihre] Katze. {24,table24}
  `
  He sees her dogs.
- Er sieht [ihre:ihren:ihr:ihre] Hunds.
+ Er sieht [ihre:ihren:ihr:ihre] Hunds. {24,table24}
 
  `
 He sees our dog.
- Er sieht [unseren:unser:unsere] Hund.
+ Er sieht [unseren:unser:unsere] Hund. {24,table24}
  `
  He sees our insect.
- Er sieht [unser:unseren:unser:unsere] Insekt.
+ Er sieht [unser:unseren:unser:unsere] Insekt. {24,table24}
  `
  He sees our cat.X
- Er sieht [unsere:unseren:unser] Katze.
+ Er sieht [unsere:unseren:unser] Katze. {24,table24}
  `
  He sees our dogs.
- Er sieht [unsere:unseren:unser] Hunds.
+ Er sieht [unsere:unseren:unser] Hunds. {24,table24}
  `
  He sees y'alls dog.
- Er sieht [euren:euer:eure] Hund.
+ Er sieht [euren:euer:eure] Hund. {24,table24}
 `
  He sees y'alls insect.
- Er sieht [euer:euren:euer:eure] Insekt.
+ Er sieht [euer:euren:euer:eure] Insekt. {24,table24}
 ` 
  He sees y'alls cat.
- Er sieht [eure:euren:euer:eure] Katze.
+ Er sieht [eure:euren:euer:eure] Katze. {24,table24}
 `
  He sees y'alls dogs.
- Er sieht [eure:euren:euer:eure] Hunds.
+ Er sieht [eure:euren:euer:eure] Hunds. {24,table24}
  
  `
  {24}
@@ -429,107 +425,110 @@ Consider this example:
     Meinen Hund mag die Frau nicht.
 
 It is clear here that the dog must be the object (accusative). 
-So actually the woman does not like the dog. 
+So actually the [woman:dog] does not like the dog. 
  `
 //26
 i drink a lot of water.
-    Ich trinke [viel:viele] Wasser.
+    Ich trinke [viel:viele] Wasser. {26}
 `
     I have many dogs.
-    Ich habe [viele:viel] Hunde.
+    Ich habe [viele:viel] Hunde.{26}
 `
 //27
 
 
 
 
-    die Frau, jed[e:es:er] Frau
+    die Frau, jed[e:es:er] Frau{27}
     `
-    das Mädchen, jed[es:er:e] Mädchen
+    das Mädchen, jed[es:er:e] Mädchen{27}
     `
-    der Mann, jed[er:s:e] Mann — den Mann, jeden Mann (accusative)
+    der Mann, jed[er:s:e] Mann — den Mann, jeden Mann (accusative){27}
 
 
 `
 
     Ich trage kein Kleid. Ich trage eine Hose.
 
-    Ich trage kein Kleid, [sondern] eine Hose.
+    Ich trage kein Kleid, [sondern] eine Hose. {33}
 `
     Sie kommt nicht aus Deutschland. Sie kommt aus China.
-    Sie kommt nicht aus Deutschland, [sondern] aus China.
+    Sie kommt nicht aus Deutschland, [sondern] aus China.{33}
 
 `
 //36
 
-    Du verstehst das. (You understand this.)
+    Du verstehst das. (You understand this.) 
 
 
 
-    Verstehst [du das]? (Do you understand this?).
+    Verstehst [du das]? (Do you understand this?).{36}
 `
 //37 
-what  [was:wer:wo:wann:wie:warum:welcher]
+what  [was:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-who   [wer:wer:wo:wann:wie:warum:welcher]
+who   [wer:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-where   [wo:wer:wo:wann:wie:warum:welcher]
+where   [wo:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-when  [wann:wer:wo:wann:wie:warum:welcher]
+when  [wann:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-how   [wie:wer:wo:wann:wie:warum:welcher]
+how   [wie:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-why   [warum:wer:wo:wann:wie:warum:welcher]
+why   [warum:wer:wo:wann:wie:warum:welcher]{37,table37}
 `
-which   [welcher:wer:wo:wann:wie:warum:welcher]
+which   [welcher:wer:wo:wann:wie:warum:welcher]{37,table37}
 
 `
 //38
-wo=where
-for what  für   [wofür]
-about what  über  [worüber]
-with what   mit   [womit]
+
+
+for what  für   [wofür] {38,table38}
+`
+about what  über  [worüber]{38,table38}
+`
+with what   mit   [womit]{38,table38}
 `
 //39
-[Wer:Wen:Wem] ist da? (Who is there?).
+[Wer:Wen:Wem] ist da? (Who is there?).{39,table39}
 `
-[Wen:Wer:Wen:Wem] siehst du? — Ich sehe den Hund.
+[Wen:Wer:Wen:Wem] siehst du? — Ich sehe den Hund.{39,table39}
 (Whom do you see? — I see the dog.)
 `
-[Wem:Wer:Wen:Wem] kaufst du den Computer? Ich kaufe den Computer meinem Bruder. 
+[Wem:Wer:Wen:Wem] kaufst du den Computer? Ich kaufe den Computer meinem Bruder. {39,table39}
 (For whom are you buying the computer?
     `
-//39
+//40
 article   welch*
-der   welch[er:es:e:en]
+der   welch[er:es:e:en] {40,table40}
 `
-das   welch[es:er:es:e:en]
+das   welch[es:er:es:e:en]{40,table40}
 `
-die   welch[e:er:es:e:en]
+die   welch[e:er:es:e:en]{40,table40}
 `
-die (pl.)   welche[e:er:es:e:en]
+die (pl.)   welche[e:er:es:e:en]{40,table40}
 `
-den   welch[en:er:es:e:en]
+den   welch[en:er:es:e:en]{40,table40}
 `
 
 //41
 
 
-    [Wo:wohin:woher] ist mein Schuh? (Where is my shoe?)
-
-    [Wohin:Wo:wohin:woher] gehst du? (Where are you going (to)?)
-
+    [Wo:wohin:woher] ist mein Schuh? (Where is my shoe?) {41,table41}
+`
+    [Wohin:Wo:wohin:woher] gehst du? (Where are you going (to)?){41,table41}
+`
 Furthermore, wohin is separable into wo + hin:
 
-    [Wo:Wo:wohin:woher] ist mein Schuh hin? (Where did my shoe go?)
-
+    [Wo:Wo:wohin:woher] ist mein Schuh hin? (Where did my shoe go?){41,table41}
+`
 The same goes for woher (where from):
 
-    [Woher:Wo:wohin:woher] kommst du? (Where are you from)
-
+    [Woher:Wo:wohin:woher] kommst du? (Where are you from){41,table41}
+`
 might become
 
-    [Wo:Wo:wohin:woher] kommst du (her)?
+    [Wo:Wo:wohin:woher] kommst du (her)?{41,table41}
     `
     //42
     
@@ -537,25 +536,25 @@ might become
 
 
 
-    [Seit:Bis] wann wartest du? (Since when have you been waiting?)
+    [Seit:Bis] wann wartest du? (Since when have you been waiting?) {42}
 `
-    [Bis:Seit] wann geht der Film? (Till when does the movie last?).
+    [Bis:Seit] wann geht der Film? (Till when does the movie last?).{42}
 `
 
-    [Wann:Wenn] kommst du? (When are you coming?)
-`
+    [Wann:Wenn] kommst du? (When are you coming?){42}
+`{42}
     Ich schlafe nicht, [wenn:wann] ich Musik höre. (I don't sleep when I listen to music)
 
 `
 
 //43
-    Wa[rum] ist das Auto so alt?
+    Wa[rum] ist das Auto so alt? {43}
 `
-    Wi[eso] ist das Auto so alt?
+    Wi[eso] ist das Auto so alt?{43}
 `
-    Wesh[alb] ist das Auto so alt?
+    Wesh[alb] ist das Auto so alt?{43}
 `
-    Wesw[egen] ist das Auto so alt?
+    Wesw[egen] ist das Auto so alt?{43}
 
 
 
@@ -564,17 +563,21 @@ might become
 
 
 
-    Wie [viel] Milch trinkst du? (How much milk do you drink?)
+    Wie [viel] Milch trinkst du? (How much milk do you drink?) {44}
  `
- Some people think that "wie viel" can only be used with uncountable nouns, but that is not true.
-    Wie [viel][viele] Tiere siehst du? (How many animals do you see?)
+ 
+    Wie [viel][viele] Tiere siehst du? (How many animals do you see?){44}
 
 `
 
-//46
-die Mutter  die [Mütter]
-der Vater   die Väter
-der Bruder  die Brüder
-die Tochter   die Töchter
-die Schwester   die [Schwestern]
+//
+die Mutter  die [Mütter]{46}
+`
+der Vater   die [Väter]{46}
+`
+der Bruder  die [Brüder]{46}
+`
+die Tochter   die [Töchter]{46}
+`
+die Schwester   die [Schwestern]{46}
 `
