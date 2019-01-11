@@ -127,7 +127,7 @@ function makeButton(text){
   if(helpLink !== null){ // check if not null
     helpLink=helpLink.join().match(/[\d\w]+/g); 
     getRef(global_chapterID,helpLink);
-    helpLink=`<span onclick=gotoRefPage(${helpLink})>🌐</span>`;
+    helpLink=`<span class='icon' onclick=gotoRefPage(${helpLink})>🌐</span>`;
   }else{
     helpLink='';
     document.getElementById('ref').innerHTML='';
@@ -290,6 +290,7 @@ function addWord(){
 function drawGameOver(){
 	document.getElementById('track').innerHTML='GAMEOVER - YOU WIN.'
 	document.getElementById('ref').innerHTML='';
+	document.getElementById('bar').innerHTML='';
 }
 /*
 //---------------------------------------------------------------------
