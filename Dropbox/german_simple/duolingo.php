@@ -32,9 +32,15 @@
         $folder = '../pure_code/material/german/duolingo';
         $template = "<h5>$file</h5>
                    vocab: 
+
                   <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
                     <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
-                    <br/>spelling:<a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>learn spelling</a>
+
+                    <br/>spelling:<a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>blank</a>
+                    <br/>reverse:
+                    <a class='hyperlink' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest</a>
+                    <a class='hyperlink' onclick=nextPage(this,'testvocab.php') rel='$file' name='$folder'>blank</a>
+
                     ";
         
         echo $template;
