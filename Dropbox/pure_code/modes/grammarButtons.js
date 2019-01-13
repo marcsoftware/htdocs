@@ -49,19 +49,6 @@ function playAudio(){
 
 /*
 //---------------------------------------------------------------------
-//
-//---------------------------------------------------------------------
-*/
-function setFocus(){
-  //ex1
-    //document.getElementById("mytext").focus();
-//ex2
-    document.getElementById("buttons").firstElementChild.focus();
-
-}
-
-/*
-//---------------------------------------------------------------------
 //  draw buttons that the user clicks on
 //---------------------------------------------------------------------
 */
@@ -82,11 +69,7 @@ function drawButtons(){
     document.getElementById('buttons').innerHTML+='';
 
     document.getElementById('buttons').innerHTML+=buttons;
-   }catch(e){
-      console.log(e)
-    }
-
-    setFocus();
+}catch(e){console.log(e)}
   
 }
 
@@ -113,17 +96,18 @@ function parseButton(x){
       var options=x.split(':');
 
       //delete repeats
-      options = options[0];
+      options = options.filter(function(item, pos) {
+        return options.indexOf(item) == pos;
+      })
 
-      
-      options = wrapOptions(options);
-      
+      options.forEach(wrapOptions);
+      shuffle(options);
 
 
 
-      
+      x=x.replace(/\ /g,'_');
 
-      return options;
+      return options.join('');
 }
 
 /*
@@ -224,7 +208,6 @@ function getRef(chapterID,elementID) {
 //---------------------------------------------------------------------
 */
 function check(ref,key){
-  
    key=key.replace(/\_/g,' ');
 
   input=ref.value
@@ -272,14 +255,14 @@ function handleCorrectInput(ref){
 //
 //---------------------------------------------------------------------
 */
-function wrapOptions(key){
-  key=key.replace(/\ /g,'_');
-   
-       
-   
-       
-   
-        return `<input type=text onkeyup=check(this,'${key}') ></input>`;
+function wrapOptions(item, index,array){
+  item=item.replace(/\ /g,'_');
+   if(index==0){ // By convention an index of 0  means it is the correct ans
+       key=item;
+   }else{
+       key='wrong';
+   }
+        array[index]= `<input type=button onclick=check(this,'${key}') value='${item}'></input>`;
 }
 
 
@@ -639,7 +622,38 @@ function minishuffle(a) {
     return a;
 }
 
+/*
+//---------------------------------------------------------------------
+// re-arrange group of words. 
+//arg: ref <--refernce to an html element that has SPANs as children
+//---------------------------------------------------------------------
+*/
+function shuffleWordGroup(ref){
+  
 
+
+  //Array.from(Array(10).keys())
+ 
+  var items = ref.children;
+
+  arr=Array.from(Array(items.length).keys());
+   
+  arr= shuffle(arr);
+  
+    
+    
+
+
+
+    arr.forEach(function(idx) {
+      ref.appendChild(items[idx]);
+
+    });
+    
+    //ref.innerHTML = null;
+    ref.appendChild(elements);
+
+}
 
 /**
  * Shuffles array in place.

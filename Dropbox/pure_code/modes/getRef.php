@@ -33,4 +33,8 @@ function getHTML($e) {
 }
 
 $div = $dochtml->getElementById($elementID);
+if(!$div){
+	echo "ERROR: element with id=$elementID does not exsist ";
+
+}
 echo getHTML( $div);

@@ -42,7 +42,8 @@ body{
 		echo "
 		----EXPERIMENTAL : STILL IN DEVELOPMENT----<br/>
 a. <a href='/Dropbox/todo2/todo2.php'>todo version 2</a><br/>
-        
+        #<a href='http://offline.com/Dropbox/dashboard/js.php'> code js typer</a><br/>
+
         b. <a href='/Dropbox/passwords/write.ignorethisfile.php'> money</a><br/>
         c.<a href='/Dropbox/timeline_flashcards/timeline_home.php'> timelines</a><br/>
 		#.<a href='/Dropbox/programming_simple/js.php'>JavaScript Notes</a><br/>

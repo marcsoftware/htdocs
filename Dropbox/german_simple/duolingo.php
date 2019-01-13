@@ -30,12 +30,11 @@
 
         //  getTime($file,$folder,'read.php')
         $folder = '../pure_code/material/german/duolingo';
-        $template = "            
-                    <h5>$file</h5>
-                    
+        $template = "<h5>$file</h5>
+                   vocab: 
                   <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a><br/>
-                    <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>learn spelling</a>
+                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
+                    <br/>spelling:<a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>learn spelling</a>
                     ";
         
         echo $template;
@@ -47,10 +46,27 @@
         //  getTime($file,$folder,'read.php')
         $folder = '../pure_code/material/german/duolingo';
         $template = "            
+                    <br/>grammar:
+                    <a class='hyperlink' onclick=nextPage(this,'grammarButtons.php') rel='$file' name='$folder'>buttons</a>
+                    <a class='hyperlink' onclick=nextPage(this,'grammarBlank.php') rel='$file' name='$folder'>blank</a>
                     
+                   
                     
-                    <br/>$file <a class='hyperlink' onclick=nextPage(this,'grammarBlank.php') rel='$file' name='$folder'>blank</a>
-                    <a class='hyperlink' onclick=nextPage(this,'grammarScroll.php') rel='$file' name='$folder'>scroll</a>
+                    ";
+        
+        echo $template;
+    }
+
+
+    function makeSenButtons($file){
+
+        //  getTime($file,$folder,'read.php')
+        $folder = '../pure_code/material/german/duolingo';
+        $template = "            
+                    <br/>sentences:
+                    
+                    <a class='hyperlink' onclick=nextPage(this,'grammarBlank.php') rel='$file' name='$folder'>blank</a>
+                    
                    
                     
                     ";
@@ -780,10 +796,12 @@ $red_total = $total-$green_total;
     $file = 'tinycards-test1.txt';
     makeButtons('tinycards-test1.txt');
     makeOtherButtons('grammar1.txt');
+    makeSenButtons('grammar1s.txt');
     makeButtons('tinycards-test2.txt');
     makeOtherButtons('grammar2.txt');
     makeButtons('tinycards-test3.txt');
     makeOtherButtons('grammar3.txt');
+    makeSenButtons('grammar3s.txt');
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
     makeButtons('tinycards-test5.txt');
@@ -791,7 +809,7 @@ $red_total = $total-$green_total;
     makeButtons('tinycards-test7.txt');
     makeButtons('tinycards-test8.txt');
     makeButtons('all-german-words.txt');
-
+    makeOtherButtons('grammar9.txt');
     
     
 ?>
