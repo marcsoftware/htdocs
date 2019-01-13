@@ -4760,7 +4760,7 @@
 </div>
 <!----------------beginning of shortcut 5----------------------->
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 73 German is simpler than English! (sometimes)</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" id='73'> 73 German is simpler than English! (sometimes)</h4>
     <div>
         <p>In English, there are two systems for making comparisons:</p>
         <ul>

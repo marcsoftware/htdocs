@@ -804,6 +804,7 @@ $red_total = $total-$green_total;
     makeSenButtons('grammar3s.txt');
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
+    makeOtherButtons('grammar9a.txt');
     makeButtons('tinycards-test5.txt');
     makeButtons('tinycards-test6.txt');
     makeButtons('tinycards-test7.txt');
