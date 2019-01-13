@@ -14,7 +14,7 @@
     </script>
     <meta charset="UTF-8">
     <title>Downloaded Grammar 1</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="duolingo.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body class="container">
@@ -567,7 +567,7 @@
             they change to "him" and "me" when they are objects (the ones the action is applied to). Here's an
             example:
         </p>
-        <table class="table">
+        <table class="table" id='table21'>
             <thead>
             <tr>
                 <th>Subject</th>
@@ -607,7 +607,8 @@
             and <em>den Ball</em> is the (accusative) object.
         </p>
         <p>For the articles, nominative and accusative are nearly the same. Only the masculine ("der") forms change:</p>
-        <table class="table">
+        <span id='table21b'>
+        <table class="table" >
             <thead>
             <tr>
                 <th>"a(n)"</th>
@@ -658,6 +659,7 @@
             </tr>
             </tbody>
         </table>
+    </span>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">22 Flexible sentence order</h3>
     <div id='22'>

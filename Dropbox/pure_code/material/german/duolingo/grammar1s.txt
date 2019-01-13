@@ -1,0 +1,85 @@
+﻿//Grammar1 Ends on "Fressen vs Essen"
+//Grammar2 starts on  "German plurals"
+
+ Der Mann sieht [den:der:die:das] Ball. (The man sees the ball.){21,table21b}
+
+`
+i drink :
+   [ich trinke:st:t:en] {10,trink}
+`
+you drink:
+   [du trinkst:e:st:t:en]{10,trink}
+`
+he drink:
+   [er trinkt:e:st:t:en]{10,trink}
+`
+she drink:
+   [sie trinkt:e:st:t:en]{10,trink}
+`
+it drink:
+   [es trinkt:e:st:t:en]{10,trink}
+`
+
+we drink
+[wir trinken:e:st:t:en]{23,trink}
+`
+y'll drink
+[ihr trinkt:e:st:t:en]{23,trink}
+`
+they drink
+[sie trinken:e:st:t:en]{23,trink}
+
+`
+
+i am
+[ich bin:bist:bin:ist:sind:seid]{10,be}
+`
+you are
+[du bist:bin:ist:sind]{10,be}
+`
+he is
+[er ist:bin:bist:bin:ist:sind:seid]{10,be}
+`
+she is
+   [sie ist:bin:bist:bin:ist:sind:seid]{15,be2}
+`
+it is
+   [es ist:bin:bist:bin:ist:sind:seid] {15,be2}
+`
+we are <br/>
+[wir sind:bin:bist:bin:ist:sind:seid] {15,be2}
+`
+y'll are
+   [ihr seid:bin:bist:bin:ist:sind:seid]{15,be2}
+`
+they are
+   [sie sind:bin:bist:bin:ist:sind:seid]{15,be2}
+`
+the man
+[der Mann]{9,gender}
+`
+the girl
+[das Mädchen:das:die:der] {9,gender}
+`
+the woman
+[die Frau:das:die:der]  {9,gender}
+`
+a man:
+    
+[ein Mann:eine] {9,gender}
+`
+a girl
+   [ein Mädchen:eine]  
+{9,gender}
+`
+a woman
+   [eine Frau:ein]  
+{9,gender}
+`
+idioms?
+ 
+it is enough [Es reicht]
+`
+idioms?
+so-so. [es geht]
+`

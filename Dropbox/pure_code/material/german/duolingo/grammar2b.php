@@ -14,7 +14,7 @@
     </script>
     <meta charset="UTF-8">
     <title>Downloaded Grammar 2</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="duolingo.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body class="container">
@@ -42,8 +42,8 @@
         </p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">2 Ending in <em>-(e)n</em></h4>
-    <div id='2'>
-        <p>
+    <div >
+        <p id='2'>
             <strong>All nouns ending in <em>-e</em></strong>, and <strong>most feminine nouns</strong> will add an <em>-(e)n</em>
             ending in the plural.
         </p>
@@ -54,8 +54,8 @@
         </ul>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">3 Ending in <em>-s</em></h4>
-    <div id='3'>
-        <p>Most nouns <strong>ending in a full vowel</strong> will add an <em>-s</em> in the plural.</p>
+    <div >
+        <p id='3'>Most nouns <strong>ending in a full vowel</strong> will add an <em>-s</em> in the plural.</p>
         <ul>
             <li>das Sof<strong>a</strong>, die Sofa<strong>s</strong></li>
             <li>das Aut<strong>o</strong>, die Auto<strong>s</strong></li>
@@ -72,15 +72,15 @@
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">4 No ending change</h4>
     <div id='4'>
-        <p>
+        <p id='rule4a'>
             There is <strong>no change</strong> for <strong>neuter or masculine</strong> nouns that have <strong>
             any of
-            these singular endings
+            these singular endings <strong>-chen, -lein, -el, or -er</strong>. 
         </strong>:
         </p>
         <ul>
             <li>
-                <p><strong>-chen, -lein, -el, or -er</strong>. </p>
+                <p></p>
             </li>
             <li>
                 <p>das Mädchen, <strong>die</strong> Mädchen</p>
@@ -88,11 +88,11 @@
             <li>der Computer, <strong>die</strong> Computer</li>
             <li>der Löffel (the spoon), <strong>die</strong> Löffel</li>
         </ul>
-        <p>Some words for close family members will have an umlaut change:</p>
+        <p id='rule4b'>Some words for close family members will have an umlaut change:</p>
         <ul>
             <li>der Bruder (the brother), die Br<strong>ü</strong>der</li>
         </ul>
-        <p>If words with these endings are <strong>feminine, the plural will end in <em>-n</em></strong>:</p>
+        <p id='rule4c'>If words with these endings are <strong>feminine, the plural will end in <em>-n</em></strong>:</p>
         <ul>
             <li>die Schwester (the sister), die Schwester<strong>n</strong></li>
             <li>die Gabel (the fork), die Gabel<strong>n</strong></li>
@@ -100,7 +100,7 @@
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">5 Ending in <em>-e/-er</em></h4>
     <div  id='5'>
-        <p>
+        <p id=rule5a>
             Most German <strong>one-syllable nouns</strong> will add an <em>-e</em> in their plural form. There might be
             an umlaut change.
         </p>
@@ -109,7 +109,7 @@
             <li>der Tisch (the table), die Tisch<strong>e</strong></li>
             <li>der Ball (the ball), die B<strong>ä</strong>lle</li>
         </ul>
-        <p>
+        <p id='rule5b'>
             Many other <strong>masculine or neuter</strong> nouns will need the <em>-er</em> ending, and there may be
             umlaut changes.
         </p>
@@ -153,11 +153,11 @@
             <li>die <strong>Ä</strong>rzt<strong>innen</strong></li>
         </ul>
     </div>
-</div>
+
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">7 Predicate adjectives</h3>
     <div id='7'>
-        <p>Predicate adjectives, i.e. <strong>adjectives that don't precede a noun, are not inflected</strong>.</p>
+        <p id='rule7'>Predicate adjectives, i.e. <strong>adjectives that don't precede a noun, are not inflected. inflected means they take an ending that depends on the gender and case of the noun phrase.</strong>.</p>
         <ul>
             <li>Der Mann ist <em>groß</em>.</li>
             <li>Die Männer sind <em>groß</em>.</li>
@@ -250,7 +250,7 @@
         <ul>
             <li>Ich <em>wache</em> in China <em>auf</em>.</li>
         </ul>
-        <p>
+        <p id='rule15'>
             The infinitive here is <em>auf|wachen</em>. German will normally put the last element of the infinitive (the
             part that changes with the person) in position 2 of the sentence. Everything else will end up at the very
             end. The rest of the sentence (for example, adverbs), will appear between this "sentence bracket".
@@ -293,7 +293,7 @@
             <li>"<strong>Do</strong> you <strong>have</strong> a dog?" or</li>
             <li>"<strong>Does</strong> the man <strong>drink</strong> water?".</li>
         </ul>
-        <p>German will not use "do" here. We will <strong>switch subject and verb for all verbs</strong>. </p>
+        <p id='rule16'>German will not use "do" here. We will <strong>switch subject and verb for all verbs</strong>. </p>
         <ul>
             <li><strong>Ist</strong> es kalt?</li>
             <li><strong>Hast</strong> du einen Hund?</li>
@@ -309,7 +309,7 @@
             Remember that in German, there's no continuous aspect, i.e. there are no separate forms for "I drink" and "I
             am drinking". There's only one form: <em>Ich trinke.</em>
         </p>
-        <p>There's no such thing as <em>Ich bin trinke</em> or <em>Ich bin trinken!</em></p>
+        <p id='rule17'>There's no such thing as <em>Ich bin trinke</em> or <em>Ich bin trinken!</em></p>
     </div>
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">18 Verb conjugation</h3>
     <div id='18'>
@@ -360,7 +360,7 @@
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">20 Vowel change in some verbs</h4>
     <div id='20'>
-        <p>A few common verbs change the vowel in the <strong>second and third person singular</strong>.</p>
+        <p id='rule20'>A few common verbs change the vowel in the <strong>second and third person singular</strong>.</p>
         <p>Normally the vowel will change:</p>
         <ul>
             <li>from <em>a</em> to <em>ä</em></li>
@@ -424,7 +424,7 @@
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">21 <em>Wollen</em> and <em>mögen</em></h4>
     <div id='21'>
         <p><em>Wollen</em> (to want) and <em>mögen</em> (to like) follow a different conjugation system:</p>
-        <table class="table">
+        <table class="table" id='table21'>
             <thead>
             <tr>
                 <th>English</th>

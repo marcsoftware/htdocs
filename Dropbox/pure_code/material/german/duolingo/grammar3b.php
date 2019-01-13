@@ -15,7 +15,7 @@
     </script>
     <meta charset="UTF-8">
     <title>Downloaded grammar 3</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="duolingo.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body class="container">
@@ -301,7 +301,8 @@
             <li>Ich habe ein<em>e</em> Katze. (I have a cat.) — Ich habe kein<em>e</em> Katze. (I have no cat.)</li>
         </ul>
         <p>Here are the endings of the indefinite article so far:</p>
-        <table class="table" id='table10'>
+        <span id='table10' >
+        <table class="table" >
             <thead>
             <tr>
                 <th></th>
@@ -328,7 +329,6 @@
             </tr>
             </tbody>
         </table>
-        <p>Here is the list of the respective <em>kein</em> forms:</p>
         <table class="table">
             <thead>
             <tr>
@@ -356,6 +356,7 @@
             </tr>
             </tbody>
         </table>
+    </span>
         <p>
             <em>Kein</em> is also used for <strong>negating nouns that have no article</strong>: <em>Er hat Brot.</em>
             (He has bread.) versus <em>Er hat kein Brot.</em> (He has no bread.).

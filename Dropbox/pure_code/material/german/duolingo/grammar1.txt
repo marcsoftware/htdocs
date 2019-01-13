@@ -1,6 +1,9 @@
 ﻿//Grammar1 Ends on "Fressen vs Essen"
 //Grammar2 starts on  "German plurals"
 
+ Der Mann sieht [den:der:die:das] Ball. (The man sees the ball.){21,table21b}
+
+`
 i drink :
    ich trink[e:st:t:en] {10,trink}
 `

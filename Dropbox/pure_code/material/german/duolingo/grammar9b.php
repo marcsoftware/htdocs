@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Duolingo Tips and Notes</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="duolingo.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body class="container">
@@ -4759,7 +4759,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">German is simpler than English! (sometimes)</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 73 German is simpler than English! (sometimes)</h4>
     <div>
         <p>In English, there are two systems for making comparisons:</p>
         <ul>
@@ -4851,7 +4851,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Comparative adjectives are just adjectives</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">74 Comparative adjectives are just adjectives</h4>
     <div>
         <p>Consider these examples:</p>
         <ul>
@@ -4875,14 +4875,14 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Superlative</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">75 Superlative</h3>
     <div>
         <p>
             Please refer to the lesson "Comparisons" for a table of comparative and superlative forms, especially how to
             form the irregular forms.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Superlative as an adverb</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">76 Superlative as an adverb</h4>
     <div>
         <p>In the last lesson, you learned the comparative:</p>
         <ul>
@@ -4902,7 +4902,7 @@
             That means its endings will never change.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Superlative as an adjective</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">77 Superlative as an adjective</h4>
     <div>
         <p>Like in English, you can also use superlatives as adjectives.</p>
         <p>Remember that adjectives change their endings according to the noun, if they come before the noun:</p>
@@ -4939,17 +4939,17 @@
         </em> at the end of a sentence.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Ganz</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">78 <em>Ganz</em></h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">As an adjective: easy</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">79 As an adjective: easy</h4>
     <div>
         <p>The word "ganz" has several functions in German. As an adjective, it means "whole":</p>
         <ul>
             <li>Ich esse den ganzen Apfel. (I eat the whole apple.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">As an adverb: tricky!</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">80 As an adverb: tricky!</h4>
     <div>
         <p>
             As as adverb, it can <strong>intensify <em>or</em> de-intensify</strong> other words (depending on which
@@ -5023,7 +5023,7 @@
 </div>
 <div class="row d-block">
     <h3 class="p-2 mt-5 mb-2 bg-info text-white">
-        <em>Das Handtuch</em> (the towel) vs. <em>das Tuch</em> (the cloth)
+        81<em>Das Handtuch</em> (the towel) vs. <em>das Tuch</em> (the cloth)
     </h3>
     <div>
         <p>
@@ -5034,7 +5034,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Days of the week</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">82 Days of the week</h4>
     <div>
         <p>Earlier, the weekday started with Sunday:</p>
         <table class="table">
@@ -5080,7 +5080,7 @@
             :)
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Am, im, um</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">83 Am, im, um</h4>
     <div>
         <p>If you want to say "on Monday" and so on, that would be <em>am Montag</em>.</p>
         <p>Here's a mnemonic to remember when to use which:</p>
@@ -5092,10 +5092,10 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Location</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">84 Location</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Hier, da, dort</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">85 <em>Hier, da, dort</em></h4>
     <div>
         <p>
             When talking about locations in English, you can use <em>here</em>, <em>there</em>, <em>this</em>, and <em>that</em>
@@ -5120,7 +5120,7 @@
             <li><em>Da hinten</em> wohnt er. (He lives there in the back.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Das hier</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">86 <em>Das hier</em></h4>
     <div>
         <p>You can combine all of them with articles, and use them similar to <em>this</em> and <em>that</em> !</p>
         <ul>
@@ -5150,7 +5150,7 @@
             <li>Die Katzen <em>dort drüben</em> sind süß. (Those cats <em>over there</em> are cute.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Innen, drinnen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">87 <em>Innen, drinnen</em></h4>
     <div>
         <p><em>Innen</em> and <em>außen</em> mostly refer to the inside and outside of objects.</p>
         <p>
@@ -5170,10 +5170,10 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Common adjective endings</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">88 Common adjective endings</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>-ig</em>, <em>-lich</em>, <em>-isch</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">89 <em>-ig</em>, <em>-lich</em>, <em>-isch</em></h4>
     <div>
         <p>Here are three common endings, which sound very similar:</p>
         <ul>
@@ -5191,7 +5191,7 @@
             <li>mögli<em>ch</em>: der mögli<em>che</em> … (still sounds like <em>ch</em>)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>-bar</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">90 <em>-bar</em></h4>
     <div>
         <p><em>-bar</em> often corresponds to "-(a)ble" in English:</p>
         <ul>
@@ -5200,7 +5200,7 @@
         </ul>
         <p>Yes, there are lots of bars with joke adjective names in Germany :)</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>-los</em>, <em>-voll</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">91 <em>-los</em>, <em>-voll</em></h4>
     <div>
         <p>These correspond to English "-less" and "-ful".</p>
         <ul>
@@ -5208,7 +5208,7 @@
             <li>hoffnungs<em>los</em> (hope<em>less</em>)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>-tion</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">92 <em>-tion</em></h3>
     <div>
         <p>
             In English, the "-tion" ending is pronounced "-shen". In German, it always becomes "-tsion". It will always
@@ -5228,14 +5228,14 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Bundesland</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">93 Bundesland</h3>
     <div>
         <p>
             Germany is a Federal Republic (Bundesrepublik). It consists of 16 federal states, which have some degree of
             autonomy. These are called <em>Bundesländer</em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Pension</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">94 Pension</h3>
     <div>
         <p>
             <em>Die Pension</em> has different meanings, depending on context. Here it means "guest house". It can also
@@ -5244,7 +5244,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">What is a <em>Pflaster?</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">95 What is a <em>Pflaster?</em></h3>
     <div>
         <p><em>Das Pflaster</em> is a small adhesive bandage. </p>
         <p>Depending on where you live, you may call it "Band-Aid", "plaster" or "Elastoplast" in English. </p>
@@ -5255,7 +5255,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Wissen</em> vs. <em>kennen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">96 <em>Wissen</em> vs. <em>kennen</em></h3>
     <div>
         <p>
             <em>Wissen</em> and <em>kennen</em> both translate to "to know" in English. <em>Können</em> (to be able to)
@@ -5268,7 +5268,7 @@
         </ul>
         <p>So how to know which one to use?</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Kennen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">97 <em>Kennen</em></h4>
     <div>
         <p>
             <em>Kennen</em> is used when talking about people, places and the like. It means that you are aware of its
@@ -5278,7 +5278,7 @@
             <li>Ich <em>kenne</em> diesen Mann nicht! (I don't know this man!)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Wissen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">98 <em>Wissen</em></h4>
     <div>
         <p>
             <em>Wissen</em> is used for knowledge about something. It usually does not have an object. Commonly, it is
@@ -5302,7 +5302,7 @@
             don't know what it means.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Können</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">99 <em>Können</em></h4>
     <div>
         <p>
             <em>Können</em> generally means "be able to", and is generally used like "can/be able to" in English. The
@@ -5313,7 +5313,7 @@
             <li>Ich <em>kann</em> Deutsch (I can <em>speak</em> German.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Conjugation of <em>wissen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">100 Conjugation of <em>wissen</em></h4>
     <div>
         <p>
             We already used a range of <strong>
@@ -5426,7 +5426,7 @@
             </tbody>
         </table>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Non-stressed prefixes</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">101 Non-stressed prefixes</h3>
     <div>
         <p>You already noticed that in German, some verb prefixes can split off:</p>
         <ul>
@@ -5441,7 +5441,7 @@
         </ul>
         <p>If you encounter a different prefix, guessing that it splits off will most likely be correct.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Gefallen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">102 <em>Gefallen</em></h3>
     <div>
         <p>So far, you have learned two ways to say "I like".</p>
         <p><em>Mögen</em> is used with nouns:</p>
@@ -5469,7 +5469,7 @@
         </ul>
         <p>Like <em>mögen</em>, you would only use it with nouns (not with verbs).</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Legen</em> vs. <em>liegen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">103 <em>Legen</em> vs. <em>liegen</em></h3>
     <div>
         <p>Earlier, you learned the verb <em>legen</em>:</p>
         <ul>
@@ -5483,7 +5483,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Monatlich</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">104 <em>Monatlich</em></h3>
     <div>
         <p>
             Just as in English you have "year/yearly", German has the same word pairs. In German, some of these have an
@@ -5528,7 +5528,7 @@
             <em>Monatlich</em> is emphasized on the first syllable.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Seasons</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">105 Seasons</h3>
     <div>
         <p>The seasons in German are as follows:</p>
         <table class="table">
@@ -5570,7 +5570,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Verein</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">106<em>Verein</em></h3>
     <div>
         <p>
             <em>Der Verein</em> (the <em>r</em> is silent) is something between a club and a society. It is very common
@@ -5581,7 +5581,7 @@
             A <em>Verein</em> might help the homeless, offer tennis lessons, dance together, among many other activities.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Man</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">107 <em>Man</em></h3>
     <div>
         <p>
             In English, you can say "you can say" or "one can say". In German, <em>man</em> is commonly used for this
@@ -5594,7 +5594,7 @@
             <li><em>Man</em> schläft nicht in der Küche! (One does not sleep in the kitchen!)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Ein paar</em> vs. <em>ein Paar</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">108 <em>Ein paar</em> vs. <em>ein Paar</em></h4>
     <div>
         <p>
             <em>Ein paar</em> (lowercase p) means <em>a few</em>, <em>some</em> or <em>a couple (of)</em> (only in the
@@ -5608,7 +5608,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + Infinitiv = Futur</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">109 <em>Werden</em> + Infinitiv = Futur</h3>
     <div>
         <p>German <strong>normally uses the present tense to indicate the future</strong>.</p>
         <ul>
@@ -5672,7 +5672,7 @@
             <li>Ich <em>will</em> spielen! (I <em>want to</em> play!)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> has three different functions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">110 <em>Werden</em> has three different functions</h3>
     <div>
         <p>
             Using <em>werden</em> can be confusing for learners. However, there are <strong>
@@ -5681,7 +5681,7 @@
         </strong>:
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + adjective/noun = "to become"</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">111<em>Werden</em> + adjective/noun = "to become"</h4>
     <div>
         <p>
             If <em>werden</em> is used <strong>in combination with an adjective or noun</strong>, the meaning will be
@@ -5696,11 +5696,11 @@
             <li>Sie <em>bekommt</em> eine Tochter. (She's getting a daughter.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + Infinitiv = Futur</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">112 <em>Werden</em> + Infinitiv = Futur</h4>
     <div>
         <p>This case is explained above.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + past participle = passive</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">113 <em>Werden</em> + past participle = passive</h4>
     <div>
         <p>
             If used <strong>in combination with a participle</strong>, <em>werden</em> creates one type of <strong>passive</strong>:
@@ -5712,10 +5712,10 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Long and short vowels</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">114 Long and short vowels</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Which sounds are there?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">115 Which sounds are there?</h4>
     <div>
         <p>In German, every vowel can be long or short. The short one often sounds more open than the long one.</p>
         <p>
@@ -5793,7 +5793,7 @@
         </table>
         <p>You can also google "german sounds" for a longer introduction to German sounds.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">When is a vowel short or long?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">116 When is a vowel short or long?</h4>
     <div>
         <p>German has a range of spelling convention which will clearly show whether a vowel is short or long:</p>
         <p>A vowel before a double consonant will be short:</p>
@@ -5840,7 +5840,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Times of day</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">117 Times of day</h3>
     <div>
         <p>German uses a system similar to English:</p>
         <table class="table">
@@ -5904,7 +5904,7 @@
             <em> morgen</em>s<em>, vormittag</em>s<em>, abend</em>s<em>, nacht</em>s*, …
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Morgen am Morgen</em>?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">118 <em>Morgen am Morgen</em>?</h4>
     <div>
         <p>
             Similar to Spanish, the <strong>words for "tomorrow" and "morning" are the same</strong> in German. Unlike
@@ -5912,10 +5912,10 @@
         </p>
         <p>Instead of <em>morgen am Morgen</em> or <em>morgen morgens</em> we say <strong>morgen früh</strong>.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Telling the time</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">119 Telling the time</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Official time</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">120 Official time</h4>
     <div>
         <p>
             In German, there are "official" and informal ways to say the time. Here's the official one (often used on
@@ -5949,7 +5949,7 @@
             confusingly might not last one hour).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Informal time</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">121 Informal time</h4>
     <div>
         <p>In everyday life, people will often use informal time.</p>
         <p>There are several systems, with two forms dominant. In many parts of Germany, this system is used:</p>
@@ -6026,7 +6026,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Ob</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">122 <em>Ob</em></h3>
     <div>
         <p>Indirect questions are subordinate clauses in German:</p>
         <ul>
@@ -6040,7 +6040,7 @@
             <li>Er fragt, <em>ob</em> du ins Kino <em>gehst</em>.</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Je … desto …</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">123 <em>Je … desto …</em></h3>
     <div>
         <p><em>Je … desto …</em> works roughly like "the … the …" in English:</p>
         <ul>
@@ -6072,7 +6072,7 @@
             or directly behind the verb.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Mal</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">124 <em>Mal</em></h4>
     <div>
         <p><em>(-)mal</em> can often be translated with "time(s)" in English:</p>
         <table class="table">
@@ -6114,10 +6114,10 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Modal verbs</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">125 Modal verbs</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Verb forms</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">126 Verb forms</h4>
     <div>
         <p>You already learned some modal verbs:</p>
         <table class="table">
@@ -6174,7 +6174,7 @@
             vowel of the infinitive.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">127 
         Forms of <em>müssen</em>, <em>sollen</em>, <em>wollen</em>,
         <em>dürfen</em>, <em>möchten</em>
     </h4>
@@ -6290,7 +6290,7 @@
             <li>Ich <em>möchte</em> Pizza. (I <em>would like</em> (to eat) Pizza.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">How to use modal verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">128 How to use modal verbs</h4>
     <div>
         <p>As in English, <strong>modal verbs are combined with the infinitive of a verb</strong>:</p>
         <ul>
@@ -6306,7 +6306,7 @@
             <li>Ich <strong>muss</strong> jeden Tag <strong>arbeiten</strong>. (I have to work every day.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Müssen</em> vs. <em>dürfen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">129 <em>Müssen</em> vs. <em>dürfen</em></h4>
     <div>
         <p>
             A common problem for English speakers learning German is to <strong>use <em>müssen</em> right</strong>.
@@ -6336,7 +6336,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Damit</em> vs. <em>damit</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">130 <em>Damit</em> vs. <em>damit</em></h3>
     <div>
         <p>There are two words spelled <em>damit</em> in German.</p>
         <p>
@@ -6376,11 +6376,11 @@
             end.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Damit, um … zu …, zum …</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">131 <em>Damit, um … zu …, zum …</em></h3>
     <div>
         <p>There are at least three ways to express a goal.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Zum</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">132 <em>Zum</em></h4>
     <div>
         <p>The easiest just takes a simple verb:</p>
         <ul>
@@ -6392,7 +6392,7 @@
             verb turns into a noun, it always gets neuter gender (das Essen, das Lachen).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Um … zu …</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">133 <em>Um … zu …</em></h4>
     <div>
         <p>
             If you have a more complicated verb complex (for example, with adverbs or objects), you cannot use
@@ -6425,7 +6425,7 @@
             <li>Ich fahre in die Stadt, <em>um</em> mit Freunden im Supermarkt ein<em>zu</em>kaufen.</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Damit</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">134 <em>Damit</em></h4>
     <div>
         <p>
             If your main sentence has a different subject than your goal, you can't use an infinitive. Use <em>damit</em>,
@@ -6439,7 +6439,7 @@
         </ul>
         <p>Read the section "<em>damit</em> vs. <em>damit</em>" for more information on how to use it.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Womit? Damit!</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">135 <em>Womit? Damit!</em></h3>
     <div>
         <p>
             Many prepositions can be combined with <em>wo-</em> and <em>da-</em>. <em>da</em> roughly translates to
@@ -6534,7 +6534,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Der See</em> vs. <em>die See</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">136 <em>Der See</em> vs. <em>die See</em></h3>
     <div>
         <p>
             <em>Der See</em> means "the lake". <em><strong>Die</strong> See</em> means "the sea, the ocean". It is less
@@ -6545,14 +6545,14 @@
             feminine and which one is masculine :)
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Der Strand</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">137 <em>Der Strand</em></h3>
     <div>
         <p>
             <em>Der Strand</em> means "the beach". This meaning still survives in the English adjective "stranded"
             (literally, ended up on a lonely beach).
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Holz, Wald, Forst</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">138 <em>Holz, Wald, Forst</em></h3>
     <div>
         <p>In English, "wood" can refer to a material, and to a forest.</p>
         <p>
@@ -6660,7 +6660,7 @@
         </tbody>
     </table>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Nouns</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">139 Nouns</h3>
 <div>
     <p>
         <strong>Nouns consisting of one syllable tend to add <em>-es</em> in the masculine and neuter</strong>. The
@@ -6679,7 +6679,7 @@
         discussion of these nouns.
     </p>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Genitive phrases have a fixed word order</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">140 Genitive phrases have a fixed word order</h3>
 <div>
     <p>
         You can say <em>das Fahrrad des Kindes</em>, but <strong>you cannot say <em>des Kindes Fahrrad</em></strong>. The
@@ -6687,7 +6687,7 @@
         but it’s no longer used in contemporary Standard German.
     </p>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Proper names</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">141 Proper names</h3>
 <div>
     <p>In contrast to common nouns, <strong>proper names precede the noun</strong>.</p>
     <ul>
@@ -6701,7 +6701,7 @@
         <li><em>Hans’</em> Fahrrad ist alt.</li>
     </ul>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Adjectives</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">142 Adjectives</h3>
 <div>
     <p>
         <strong>Adjectives in the genitive case end in <em>-en</em></strong>. The only <strong>
@@ -6741,7 +6741,7 @@
         </tbody>
     </table>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Prepositions that take the genitive case</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">143 Prepositions that take the genitive case</h3>
 <div>
     <p>The most common <strong>prepositions that take the genitive</strong> case are:</p>
     <table class="table">
@@ -6787,14 +6787,14 @@
         <li>Trotz <em>dem</em> Regen spielt er Fußball. (Dative)</li>
     </ul>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Verbs that take the genitive case</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">144 Verbs that take the genitive case</h3>
 <div>
     <p>
         There’s a small set of verbs that take the genitive. Most of them are not used a lot in everyday speech and they
         may sound a bit stilted.
     </p>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">The dative as an alternative</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">145 The dative as an alternative</h3>
 <div>
     <p>
         As an <strong>alternative for the genitive</strong>, you can often use <strong>
@@ -6838,7 +6838,7 @@
     </p>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Student</em> or <em>Schüler</em>?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">146 <em>Student</em> or <em>Schüler</em>?</h3>
     <div>
         <p>
             A <em>Student</em> is a university student and a <em>Schüler</em> is a pupil/student at a primary, secondary
@@ -6846,7 +6846,7 @@
             called <em>Schüler</em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Dropping articles</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">147 Dropping articles</h3>
     <div>
         <p>
             When talking about your or someone else's profession in sentences such as <em>I'm a teacher</em> or <em>
@@ -6864,7 +6864,7 @@
         </p>
         <p>Also note that <strong>you can't drop the definite article</strong> <em>(der/die/das)</em>.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Male and female variants</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">148 Male and female variants</h3>
     <div>
         <p>
             The grammatical gender usually matches the biological sex of the person you're referring to, i.e. the word
@@ -6892,7 +6892,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">When is the <em>Perfekt</em> used?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">149 When is the <em>Perfekt</em> used?</h3>
     <div>
         <p>
             The <em>Perfekt</em> is used to describe past events. In spoken German, the <em>Perfekt</em> is preferred
@@ -6913,7 +6913,7 @@
             <li>Ich lebe seit drei Jahren hier. (I have been living here for three years.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Verbs mostly used in <em>Präteritum</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">150 Verbs mostly used in <em>Präteritum</em></h4>
     <div>
         <p>The following verbs are normally not used in the <em>Perfekt</em>. Use <em>Präteritum</em> instead.</p>
         <table class="table">
@@ -6968,7 +6968,7 @@
             </tbody>
         </table>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">How is <em>Perfekt</em> formed?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white"> 151 How is <em>Perfekt</em> formed?</h3>
     <div>
         <p>
             The <em>Perfekt</em> is formed by combining a conjugated form of <em>haben</em> (to have) or <em>sein</em>
@@ -6981,7 +6981,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">When to use <em>sein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"152 >When to use <em>sein</em></h4>
     <div>
         <p>The vast majority of verbs take <em>haben</em> (just like in English).</p>
         <p>Verbs that indicate a motion normally take <em>sein</em> as a helper verb. Here are some common examples:</p>
@@ -7058,7 +7058,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">How to form the participle</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 153 How to form the participle</h4>
     <div>
         <h5>Regular verbs</h5>
         <p>
@@ -7182,7 +7182,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Adjective endings</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">154 Adjective endings</h3>
     <div>
         <p>When an adjective comes before a noun, its ending will change according to this noun.</p>
         <ul>
@@ -7194,7 +7194,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Article + Adjective</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">155 Article + Adjective</h4>
     <div>
         <p>
             You can think of the adjective endings as "markers", that kind of mark what part of speech the adjective
@@ -7295,7 +7295,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Accusative adjective endings</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">156 Accusative adjective endings</h3>
     <div>
         <p>
             Do you remember that quite often, the <em>accusative looks like the nominative</em>? Specifically, <em>
@@ -7385,7 +7385,7 @@
 <div class="row d-block">
     <p>Please refer to the previous lessons on adjectives about the endings for nominative and accusative.</p>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">Dative</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white">157 Dative</h3>
 <div>
     <p>Dative, as always, is even simpler.</p>
     <p>4) <strong>Dative</strong>: <strong>all adjectives get an <em>-en</em> ending</strong></p>
@@ -7468,7 +7468,7 @@
         <li>Sie mag Männer <strong>mit rote<em>n</em> Haare<em>n</em></strong> (She likes men with red hair)</li>
     </ul>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white">When do dative adjectives not end in <em>-n</em>?</h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">158 When do dative adjectives not end in <em>-n</em>?</h4>
 <div>
     <p>There is a rather rare case when dative adjectives <strong>do not end in <em>-en</em></strong>.</p>
     <p>Rarely, single nouns will be used without any article. This mostly happens in idiomatic expressions.</p>
@@ -7479,7 +7479,7 @@
     <p>What happens here is that the ending that would normally be used in the article now ends up on the adjective.</p>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Weg</em> vs. <em>weg</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">159 <em>Weg</em> vs. <em>weg</em></h4>
     <div>
         <p><em>Der Weg" (with a long </em>e*) roughly means "the path".</p>
         <ul>
@@ -7494,7 +7494,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Nominative</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">160 Nominative</h3>
     <div>
         <p>
             Remember that nominative is used for the subject of a sentence. These are the <strong>
@@ -7590,7 +7590,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Trotzdem</em> vs. <em>obwohl</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">161 <em>Trotzdem</em> vs. <em>obwohl</em></h3>
     <div>
         <p><em>Obwohl</em> translates to "although", while <em>trotzdem</em> translates to "however/nevertheless".</p>
         <ul>
@@ -7612,7 +7612,7 @@
             See the lesson "Conjunctions" for more details.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Darum, deshalb, deswegen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">162 <em>Darum, deshalb, deswegen</em></h3>
     <div>
         <p>These three adverbs are synonymous. They can be used interchangeably.</p>
         <p>
@@ -7630,7 +7630,7 @@
             <li>Ich habe nicht geschlafen. <strong>Darum</strong> bin <em>ich</em> müde.</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Womit? Damit!</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">163 <em>Womit? Damit!</em></h3>
     <div>
         <p>
             Many prepositions can be combined with <em>wo-</em> and <em>da-</em>. <em>Da</em> roughly translates to
@@ -7725,7 +7725,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">When is the <em>Präteritum</em> used?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">164 When is the <em>Präteritum</em> used?</h3>
     <div>
         <p>
             The <em>Präteritum</em> (also called <em>Imperfekt</em>) is used to describe past events. Its use is mostly
@@ -7736,7 +7736,7 @@
             Using the <em>Präteritum</em> in normal conversation may sound unnatural or pretentious.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Verbs mostly used in <em>Präteritum</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">165 Verbs mostly used in <em>Präteritum</em></h4>
     <div>
         <p>The following verbs are normally not used in the <em>Perfekt</em>. Use <em>Präteritum</em> instead.</p>
         <table class="table">
@@ -7791,17 +7791,17 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Möchten</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">166 <em>Möchten</em></h4>
     <div>
         <p>
             The verb <em>möchten</em> (would like to/to want to), which is technically the subjunctive of <em>mögen</em>,
             does not have a preterite form. Instead, the preterite of <em>wollen</em> (to want [to]) is used.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">How is the <em>Präteritum</em> formed?</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">167 How is the <em>Präteritum</em> formed?</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Regular weak verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">168 Regular weak verbs</h4>
     <div>
         <p>
             The <em>Präteritum</em> of <strong>regular weak verbs</strong> is formed by adding <em>
@@ -7845,7 +7845,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Irregular weak verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">169 Irregular weak verbs</h4>
     <div>
         <p>
             Some weak verbs, although generally regular, have a slightly irregular verb stem in the <em>Präteritum</em>.
@@ -7860,7 +7860,7 @@
             <li>d<strong>ü</strong>rfen - ich d<strong>u</strong>rfte, du durftest, …</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Strong verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">170 Strong verbs</h4>
     <div>
         <p>
             To form the <em>Präteritum</em> of <strong>strong verbs</strong>, you need to <strong>
@@ -7982,7 +7982,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Gewitter</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">171 <em>Gewitter</em></h3>
     <div>
         <p>
             <em>Das Gewitter</em> refers to bad weather with lightning and thunder, not necessarily to strong winds.
@@ -7991,7 +7991,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Hose, Schere, Brille</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">172 <em>Hose, Schere, Brille</em></h3>
     <div>
         <p>
             Pants used to be two hoses, until somebody had the idea of stitching them together. Glasses are now joined
@@ -8005,14 +8005,14 @@
         </em> (plural) is at least two pairs of pants.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Stelle</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">173 <em>Stelle</em></h3>
     <div>
         <p>
             <em>Die Stelle</em> has the meaning of "position" in at least two ways. It can be a location, or it can be a
             job position.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Geschenk, Gift</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">174<em>Geschenk, Gift</em></h3>
     <div>
         <p>
             The common German word German for "gift" is <em>das Geschenk</em>. <strong>
@@ -8029,7 +8029,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Phones and cellphones</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">175 Phones and cellphones</h3>
     <div>
         <p>
             Believe it or not, people still use landline phones, especially in business contexts. A (tele)phone can be a
@@ -8049,7 +8049,7 @@
             able to use <em>(tele)phone/Telefon</em> and <em>cellphone/Handy</em> interchangeably.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Rufen, anrufen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">176 <em>Rufen, anrufen</em></h3>
     <div>
         <p><em>Rufen</em> translates to "call":</p>
         <ul>
@@ -8064,11 +8064,11 @@
             <li>Ich <em>ruf(e)</em> die Polizei!!</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Informationen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">177 <em>Informationen</em></h3>
     <div>
         <p>Unlike English, the German word <em>die Information</em> has a singular and a plural form.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Fernseher, Fernsehen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">178 <em>Fernseher, Fernsehen</em></h3>
     <div>
         <p>
             <em>Der Fernsehe<strong>r</strong></em> refers to a TV set. <em>Das Fernsehe<strong>n</strong></em> refers to
@@ -8080,7 +8080,7 @@
         </ul>
         <p>"Ich bin im Fernseher!" would mean "I'm inside the TV set!".</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Fernsehen, frühstücken</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">179 <em>Fernsehen, frühstücken</em></h3>
     <div>
         <ul>
             <li>Ich sehe fern. Ich habe fern<strong>ge</strong>sehen.</li>
@@ -8101,7 +8101,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + Infinitiv = Futur</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">180 <em>Werden</em> + Infinitiv = Futur</h3>
     <div>
         <p>German <strong>normally uses the present tense to indicate the future</strong>.</p>
         <ul>
@@ -8165,7 +8165,7 @@
             <li>Ich <em>will</em> spielen! (I <em>want to</em> play!)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> has three different functions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">181 <em>Werden</em> has three different functions</h3>
     <div>
         <p>
             Using <em>werden</em> can be confusing for learners. However, there are <strong>
@@ -8174,7 +8174,7 @@
         </strong>:
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + adjective/noun = "to become"</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">182 <em>Werden</em> + adjective/noun = "to become"</h4>
     <div>
         <p>
             If <em>werden</em> is used <strong>in combination with an adjective or noun</strong>, the meaning will be
@@ -8189,11 +8189,11 @@
             <li>Sie <em>bekommt</em> eine Tochter. (She's getting a daughter.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + Infinitiv = Futur</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">183 <em>Werden</em> + Infinitiv = Futur</h4>
     <div>
         <p>This case is explained above.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + past participle = passive</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">184 <em>Werden</em> + past participle = passive</h4>
     <div>
         <p>
             If used <strong>in combination with a participle</strong>, <em>werden</em> creates one type of <strong>passive</strong>:
@@ -8205,7 +8205,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Die Seite</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">185 <em>Die Seite</em></h3>
     <div>
         <p><em>Die Seite</em> can mean "the side" or "the page", depending on context.</p>
         <ul>
@@ -8214,14 +8214,14 @@
         </ul>
         <p>In the context of the internet, it refers to a web page, as well as to a web site.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>WLAN</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">186 <em>WLAN</em></h3>
     <div>
         <p>
             <em>WLAN</em> is pronounced [ˈveːlaːn] in German. Unfortunately, the computer voice of the German course
             refuses to acknowledge this, and insists on pronouncing it wrong.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Drucken</em> vs. <em>drücken</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">187 <em>Drucken</em> vs. <em>drücken</em></h3>
     <div>
         <p>
             <em>Dr<strong>u</strong>cken</em> means "to print". The machine commonly used for that is <em>
@@ -8243,10 +8243,10 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Past perfect</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">188 Past perfect</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">When is the past perfect used?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">189 When is the past perfect used?</h4>
     <div>
         <p>
             The past perfect is used to describe past events, more specifically events that happened <em>way</em> back in
@@ -8271,7 +8271,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">How is the past perfect formed?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">190 How is the past perfect formed?</h4>
     <div>
         <p>
             The past perfect is formed almost the same way as the Perfekt. The only difference is that the helper verb
@@ -8288,13 +8288,13 @@
             <li>Ich <em>war</em> geschwommen. (I had swum.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">How to end up with the right participle?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">191 How to end up with the right participle?</h4>
     <div>
         <p>Refer to the "Perfect" lesson in order to review how to form the perfect participle that goes with it.</p>
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Student</em> or <em>Schüler?</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">192 <em>Student</em> or <em>Schüler?</em></h3>
     <div>
         <p>
             A <em>Student</em> is a university student and a <em>Schüler</em> is a pupil/student at a primary, secondary
@@ -8302,7 +8302,7 @@
             called <em>Schüler</em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">A <em>Hochschule</em> is not a <em>high school</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">193 A <em>Hochschule</em> is not a <em>high school</em></h3>
     <div>
         <p>
             Careful: a <em>Hochschule</em> is not a high school. Depending on the context, <em>Hochschule</em> is either
@@ -8315,7 +8315,7 @@
             offered in cooperation with other universities.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">A <em>Gymnasium</em> is not a <em>gym</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">194 A <em>Gymnasium</em> is not a <em>gym</em></h3>
     <div>
         <p>In German, the word <em>das Gymnasium</em> refers to a university prep-school.</p>
         <p>
@@ -8327,7 +8327,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Future Perfect</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">195 Future Perfect</h3>
     <div>
         <p>
             The future perfect talks about actions that will have been completed in the future. It's used pretty much
@@ -8338,7 +8338,7 @@
             the past participle of the main verb.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Haben</em> vs. <em>sein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">196 <em>Haben</em> vs. <em>sein</em></h4>
     <div>
         <p>
             The vast majority of verbs take <em>haben</em>. Verbs that take <em>sein</em> have to be intransitive, i.e.
@@ -8351,7 +8351,7 @@
             use <em>haben</em> or <em>sein</em>.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Future Perfect with <em>haben</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">197 Future Perfect with <em>haben</em></h4>
     <div>
         <p><em>essen</em> (to eat):</p>
         <p>
@@ -8398,7 +8398,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Future Perfect with <em>sein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">198 Future Perfect with <em>sein</em></h4>
     <div>
         <p><em>gehen</em> (to leave/to go):</p>
         <p>
@@ -8447,7 +8447,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Naja</em>, <em>na und</em>, <em>na sowas</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">199 <em>Naja</em>, <em>na und</em>, <em>na sowas</em></h3>
     <div>
         <p><em>Na</em> appears in some short interjections or phrases:</p>
         <table class="table">
@@ -8484,7 +8484,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Motor, Motoren</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">200 <em>Motor, Motoren</em></h3>
     <div>
         <p>Normally, nouns don't change the stress pattern when they change into the plural:</p>
         <ul>
@@ -8502,7 +8502,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Reflexive verbs</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">201 Reflexive verbs</h3>
     <div>
         <p>
             Reflexive verbs are pretty common in many European languages, but in comparison are rather rare in
@@ -8523,7 +8523,7 @@
             <li>Ich erinnere <em>mich</em> nicht. ("I don't remember" (myself))</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Verb objects</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">202 Verb objects</h4>
     <div>
         <p>Remember that verbs often have a "direct object". This will be in the accusative case:</p>
         <ul>
@@ -8535,7 +8535,7 @@
         </ul>
         <p>The reflexive pronoun will take the place of one of these objects.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Replacing the "lost" object</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">203 Replacing the "lost" object</h4>
     <div>
         <p>
             Because the <strong>reflexive part takes up the object</strong>, <strong>
@@ -8551,7 +8551,7 @@
             <li>sich treffen <em>mit</em> (to meet with)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Accusative reflexive verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">204 Accusative reflexive verbs</h4>
     <div>
         <p>
             In most reflexive verbs, the direct object gets replaced by the reflexive pronoun. Thus, use the accusative
@@ -8561,7 +8561,7 @@
             <li>Ich rasiere <em>mich</em>. ("I shave", literally "I shave myself")</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative reflexive verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">205 Dative reflexive verbs</h4>
     <div>
         <p>
             If the <strong>verb already has a direct (accusative) object</strong>, the <strong>
@@ -8587,7 +8587,7 @@
             <li>Ich habe <em>mir</em> das Bein gebrochen. (I broke my leg.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Reflexive pronouns</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">206 Reflexive pronouns</h4>
     <div>
         <p>Here is a review of the <strong>normal pronouns</strong>:</p>
         <table class="table">
@@ -8692,7 +8692,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Post</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">207 <em>Post</em></h3>
     <div>
         <p><em>Die Post</em> has several meanings in German.</p>
         <p>It can refer to the mail in your mailbox:</p>
@@ -8710,7 +8710,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Fabrik</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">208 <em>Fabrik</em></h3>
     <div>
         <p>
             Don't confuse <em>die Fabrik</em> (the manufacturing plant) with the English word "fabric". The former is the
@@ -8721,7 +8721,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Geschichte</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">209 <em>Geschichte</em></h3>
     <div>
         <p>In German, the words for "story" and "history" are the same (just as in Spanish).</p>
         <p>However, they are used differently. When used with an article, it generally refers to a story:</p>
@@ -8739,7 +8739,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Drucken</em> vs. <em>drücken</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">210 <em>Drucken</em> vs. <em>drücken</em></h3>
     <div>
         <p>
             <em>Dr<strong>u</strong>cken</em> means "to print". The machine commonly used for that is <em>
@@ -8771,7 +8771,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Affen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">211 <em>Affen</em></h3>
     <div>
         <p>In German, <em>der Affe</em> may refer to all primates, or to all primates excluding lemurs.</p>
         <p>
@@ -8780,7 +8780,7 @@
             <em>Menschenaffen</em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Kamele</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">212 <em>Kamele</em></h3>
     <div>
         <p>
             <em>Das Kamel</em> is stressed on the last syllable: [kaˈmeːl]. Unfortunately, Duolingo's computer voice has
@@ -8790,7 +8790,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Telefonieren, anrufen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">213 <em>Telefonieren, anrufen</em></h3>
     <div>
         <p>
             <em>Telefonieren</em> does not have an object (it is "intransitive"). Hence, you need a preposition for the
@@ -8808,7 +8808,7 @@
             <li><em>Ruf</em> die Polizei! (<em>Call</em> the police!)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Wechseln, tauschen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">214 <em>Wechseln, tauschen</em></h3>
     <div>
         <p><em>Tauschen</em> generally means to swap, or to change something:</p>
         <ul>
@@ -8831,13 +8831,13 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Hirn, Gehirn</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">215 <em>Hirn, Gehirn</em></h3>
     <div>
         <p>The words <em>das Gehirn</em> und <em>das Hirn</em> are used more or less interchangeably in German.</p>
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Drucken</em> vs. <em>drücken</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">216 <em>Drucken</em> vs. <em>drücken</em></h3>
     <div>
         <p>
             <em>Dr<strong>u</strong>cken</em> means "to print". The machine commonly used for that is <em>
@@ -8869,7 +8869,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Wunderbar</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">217 <em>Wunderbar</em></h3>
     <div>
         <p>
             Due to its use as a loanword in English, <em>wunderbar</em> is often overused by English-speaking learners of
@@ -8883,7 +8883,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Conditional mood</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">218 Conditional mood</h3>
     <div>
         <p>The conditional mood is mostly used for wishes or unreal situations.</p>
         <ul>
@@ -8891,7 +8891,7 @@
             <li>If I <em>were</em> you, I <em>would</em> sleep more.</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Use <em>würde</em> for most verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">219 Use <em>würde</em> for most verbs</h4>
     <div>
         <p>Where English uses <em>would</em>, German uses forms of <em>würde</em>:</p>
         <table class="table">
@@ -8929,7 +8929,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Some verbs have their own forms</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">220 Some verbs have their own forms</h4>
     <div>
         <p>Sometimes, English uses special forms for the Conditional. These generally look like Simple Past forms:</p>
         <ul>
@@ -9064,7 +9064,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Equals</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">221 Equals</h3>
     <div>
         <p>There are several ways to talk about equations:</p>
         <ul>
@@ -9077,7 +9077,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Das Konto, die Konten</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">222<em>Das Konto, die Konten</em></h3>
     <div>
         <p>Most nouns in German for the plural by appending an ending. There might be an umlaut change.</p>
         <ul>
@@ -9092,7 +9092,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Party, Partei</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">223 <em>Party, Partei</em></h3>
     <div>
         <p>
             <em>Die Party</em>, an English loanword, refers to a celebration. A political party will be <em>
@@ -9103,7 +9103,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Conditional Perfect</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">224 Conditional Perfect</h3>
     <div>
         <p>
             Conditional Perfect works just as normal Perfect, but <strong>
@@ -9133,7 +9133,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Firma</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">225 <em>Firma</em></h4>
     <div>
         <p>Most verbs in German get their plural by attaching an ending. There might be an umlaut change:</p>
         <ul>
@@ -9154,7 +9154,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">The power of <em>machen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">226 The power of <em>machen</em></h3>
     <div>
         <p>
             <em>Machen</em> (to do) is a very versatile word. Often, when you don't know the word for an action, you can
@@ -9182,7 +9182,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Plastik</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">227 <em>Plastik</em></h3>
     <div>
         <p><em>Plastik</em> is one of the few words that changes meaning, depending on which gender it is.</p>
         <ul>
@@ -9192,7 +9192,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Passive with <em>werden</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">228 Passive with <em>werden</em></h3>
     <div>
         <p>In German, <em>werden</em> + <em>perfect participle</em> forms a passive:</p>
         <ul>
@@ -9209,7 +9209,7 @@
             <li>Mein Handy <em>wurde</em> repariert. ("My phone was fixed." — You don't care by whom.)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> has three different functions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">229 <em>Werden</em> has three different functions</h3>
     <div>
         <p>
             Using <em>werden</em> can be confusing for learners. However, there are <strong>
@@ -9218,7 +9218,7 @@
         </strong>:
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + adjective/noun = "to become"</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">230 <em>Werden</em> + adjective/noun = "to become"</h4>
     <div>
         <p>
             If <em>werden</em> is used <strong>in combination with an adjective or noun</strong>, the meaning will be
@@ -9233,11 +9233,11 @@
             <li>Sie <em>bekommt</em> eine Tochter. (She's getting a daughter.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + Infinitiv = Futur</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">231 <em>Werden</em> + Infinitiv = Futur</h4>
     <div>
         <p>Refer to the lesson "Future 2" for details.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Werden</em> + past participle = passive</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">232 <em>Werden</em> + past participle = passive</h4>
     <div>
         <p>
             If used <strong>in combination with a participle</strong>, <em>werden</em> creates one type of <strong>passive</strong>:
@@ -9249,7 +9249,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Conditional mood</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">233 Conditional mood</h4>
     <div>
         <p>
             Please refer to lesson "Verbs: Conditional 1" to review to German's "Konjunktiv II" mood. This is normally
@@ -9264,7 +9264,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Konjunktiv I</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">234 Konjunktiv I</h4>
     <div>
         <p>
             German has another, lesser used form, the "Konjunktiv I". It is mostly used for marking indirect speech in
@@ -9383,7 +9383,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Der/Die Außerirdische</em>: adjectival nouns</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">235 <em>Der/Die Außerirdische</em>: adjectival nouns</h3>
     <div>
         <p>
             Some <strong>adjectives can turn into nouns</strong> in German. If they do so, <strong>
@@ -9411,7 +9411,7 @@
         <p>Google "german adjectival nouns" for more information.</p>
         <p>If you want, now would be a good time to review the adjective endings in earlier lessons :)</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">N-declension</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">236 N-declension</h3>
     <div>
         <p>
             Don't confuse adjectival nouns with nouns that follow the "n-declension". (See lesson "Dative" for
@@ -9424,7 +9424,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Relative clauses</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">237 Relative clauses</h3>
     <div>
         <p>In English, relative clauses look like this:</p>
         <ul>
@@ -9442,7 +9442,7 @@
         <p>Relative clauses are <em>always</em> set off by commas from the rest of the sentence. </p>
         <p>(There's no distinction between restrictive and non-restrictive clauses.)</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Relative pronouns</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">238 Relative pronouns</h4>
     <div>
         <p>
             The <strong>relative pronouns look like the definite articles</strong>, with the <strong>
@@ -9509,7 +9509,7 @@
         </table>
         <p>Relative pronouns can never be dropped.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Genitive relative clauses</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">239 Genitive relative clauses</h4>
     <div>
         <p>The <strong>genitive version derives from the possessive pronoun</strong>:</p>
         <ul>
@@ -9548,7 +9548,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">The relative clause determines which pronoun to use</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">240 The relative clause determines which pronoun to use</h4>
     <div>
         <p>Be aware that the <strong>relevant case is in the relative clause</strong>, not the main clause:</p>
         <ul>
@@ -9571,7 +9571,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">What is a <em>Wurst?</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">241 What is a <em>Wurst?</em></h3>
     <div>
         <p>
             A <em>Wurst</em> is a sausage. It does not specifically refer to any kind of sausage. It could be a salami,
@@ -9581,7 +9581,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Congratulations! :)</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">242 Congratulations! :)</h3>
     <div>
         <p>Welcome to the last lesson of this course!</p>
         <p>
@@ -9596,9 +9596,9 @@
 <!--------------------------------------------------------------->
 
 <div class="row d-block">
-    <h1 class="p-3 mb-2 mt-5 bg-warning text-white">Extra!</h1>
+    <h1 class="p-3 mb-2 mt-5 bg-warning text-white">243 Extra!</h1>
 
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Dieses/Jenes</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">244 Dieses/Jenes</h3>
     <div>
         <p>
             There is no such clear cut difference in German as in English between this and that. In principle, there are
@@ -9697,7 +9697,7 @@
     </div>
 
 
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Conjuctions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">245 Conjuctions</h3>
     <div>
         <p>
             Conjuctions are fairly easy, there are just two different kinds. The ones who connect two or more main
@@ -9784,7 +9784,7 @@
     </div>
 
 
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Nicht</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">246 Nicht</h3>
     <div>
         <p>
             The placement of nicht is really pretty complicated, and I don't think I can give you a rule that fits for

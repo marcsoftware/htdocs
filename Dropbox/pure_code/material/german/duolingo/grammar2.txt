@@ -1,27 +1,167 @@
-﻿//2
+﻿//{2}
 
 
 die Frau
-plural: die Frau[en]
+plural: [die Frauen]{2}
 `
 die Ente
-plural: die Ent[en]
+plural: [die Enten]{2}
 `
 der Junge
-plural: die Jung[en]
+plural: [die Jungen]{2}
 `
-//3
+//{3}
 
 
 das Sofa, 
-plural:die Sofa[s]
+plural:[die Sofas]{3}
 `
 das Auto
-plural: die Auto[s]
+plural: [die Autos]{3}
 `
 das Baby:
-plural: die Baby[s]
+plural: [die Babys]{3}
 `
 das Café
-plural: die Café[s]
+plural: [die Cafés]{3}
 `
+//{4}
+    das Mädchen, 
+    [die Mädchen]{4,rule4a}
+    `
+    der Computer,
+     [die Computer]{4,rule4a}
+     `
+    der Löffel (the spoon), 
+    [die Löffel]{4,rule4a}
+`
+    der Bruder (the brother), [die Brüder]{4,rule4b}
+`
+    die Schwester (the sister), [die Schwestern]{4,rule4c}
+    `
+    die Gabel (the fork), [die Gabeln]{4,rule4c}
+`
+//{5}
+
+
+
+
+    das Brot (the bread), [die Brote]{5,rule5a}
+    `
+    der Tisch (the table), [die Tische]{5,rule5a}
+    `
+    der Ball (the ball), [die Bälle]{5,rule5a}
+`
+
+
+    das Kind (the child), [die Kinder]{5,rule5b}
+    `
+    der Mann (the man), [die Männer]{5,rule5b}
+`
+
+//{6} skipped
+{7}
+
+the man is great.
+    Der Mann ist groß. {7,rule7}
+
+    `
+
+
+
+
+
+    I wake up in China.
+
+ translate:   [Ich wache in China auf,Ich wache auf in China]. {15,rule15}
+
+. 
+
+
+
+
+    "Is it cold?",
+     [Ist es kalt]? {16,rule16}
+     `
+    "Do you have a dog?" or
+    [Hast du einen Hund]?{16,rule16}
+    `
+    "Does the man drink water?".
+[Trinkt der Mann Wasser]?{16,rule16}
+`
+"I drink" and "I am drinking"
+
+these translate to the same sentence:[ Ich trinke] {17,rule17}
+
+`
+
+{20,rule20}
+ich 	schlafe
+du 	[schläfst]
+`
+ich sehe
+du 	[siehst]{20,rule20}
+
+`
+
+
+    fahren (to ride) 
+     du [fährst]{20,rule20}
+    `
+    waschen (to wash) 
+     du [wäschst]{20,rule20}
+`
+I want/like		ich	[will]	{21,table21}
+
+`
+you (sg. inf.)	want	du	[willst]	{21,table21}
+`
+he/she/it	wants	er/sie/es	[will]	{21,table21}
+`
+we	want	wir	[wollen]	{21,table21}
+`
+you (pl. inf.)	want	ihr	[wollt]	{21,table21}
+`
+they	want	sie	[wollen]	{21,table21}
+`
+I	like	ich	[mag]	{21,table21}
+`
+you	like	du	[magst]	{21,table21}
+`
+he/she/it	likes	er/sie/es	[mag]	{21,table21}
+`
+we	like	wir	[mögen]	{21,table21}
+`
+you (pl. inf.)	like	ihr	[mögt]	{21,table21}
+`
+they	like	sie	[mögen]	{21,table21}
+`
+{22}
+mögen to express that you like [something or someone.]
+example:Ich mag Bier. (I like beer.)
+`
+{22}
+use gern to express that you like [activities]
+example:Ich trinke gern Bier. (I like to drink beer.)
+
+`
+{26}
+the lake
+[der] See
+
+
+`{26}
+the sea
+[die] See
+`
+-the lakes
+-the seas
+both translate to [die] Seen
+`
+
+    [das] Band (die Bänder) - the tape (band){26}
+    `
+    [der] Band (die Bände) - the volume/tome{26}
+    `
+    [die] Band (pronounced as in English) (die Bands) - the music band{26}
+    `

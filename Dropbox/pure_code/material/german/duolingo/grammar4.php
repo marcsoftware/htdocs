@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html dir="ltr">
 <head>
+	
     <meta charset="UTF-8">
     <title>grammar 4</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+   <link rel="stylesheet" href="duolingo.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body class="container">
@@ -27,7 +28,7 @@
             <li><em>Die</em> Katze trinkt <em>die</em> Milch. (both are feminine)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Accusative prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 1 Accusative prepositions</h4>
     <div>
         <p>Accusative prepositions <em>always</em> trigger the accusative case.</p>
         <ul>
@@ -36,7 +37,7 @@
         </ul>
         <p>German has these common accusative prepositions: <strong>durch, für, gegen, ohne, um</strong></p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Entlang</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">2<em>Entlang</em></h4>
     <div>
         <p>
             <em>Entlang</em> is a strange word :) It is commonly used with the accusative case. But then it has to appear
@@ -52,7 +53,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">German numbers</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">3German numbers</h3>
     <div>
         <p>
             You might notice that German numbers look very similar to those in English. The two languages are closely
@@ -104,7 +105,7 @@
             words.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Zahlen, zahlen, zählen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">4<em>Zahlen, zahlen, zählen</em></h3>
     <div>
         <p>
             You learned <em>bezahlen</em> (to pay) earlier. There's also the word <em>zahlen</em>, which also means to
@@ -118,7 +119,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Küche</em> vs. <em>Kuchen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">5<em>Küche</em> vs. <em>Kuchen</em></h4>
     <div>
         <p>
             <em>Die Küche</em> (the kitchen) and <em>der Kuchen</em> (the cake) are often confused by learners. To German
@@ -145,7 +146,7 @@
         </table>
         <p><em>Kochen</em> (to cook) also has a short vowel.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Schmecken</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">6<em>Schmecken</em></h4>
     <div>
         <p><em>Schmecken</em> is very similar to the English word "to taste":</p>
         <ul>
@@ -157,10 +158,10 @@
             <li>Die Pizza schmeckt nicht! (The pizza does not taste <em>good</em>!)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Some popular food</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">7Some popular food</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Müsli</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">8<em>Müsli</em></h4>
     <div>
         <p>
             <em>Müsli</em> originally refers to "Bircher Müesli", a Swiss breakfast dish, based on rolled oats and fresh
@@ -168,7 +169,7 @@
         </p>
         <p>Nowadays, people will use it for all kinds of cereals or granola, often with high sugar content.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Hähnchen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">9<em>Hähnchen</em></h4>
     <div>
         <p>
             <em>Hähnchen</em> usually refers to a chicken that has been turned into a dish. While derived from the word
@@ -176,7 +177,7 @@
         </p>
         <p>Remember that words ending in <em>-chen</em> are always neuter: <em>das Hähnchen</em>.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Salat</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">10<em>Salat</em></h4>
     <div>
         <p>
             <em>Salat</em> can refer to the dish, as well as to the green leaves (usually lettuce) that often go into it.
@@ -184,11 +185,11 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">The Dative Case</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">11The Dative Case</h3>
     <div>
         <p>Welcome to the third important case in German :) Later on, there will be a last, less important one.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Remember the Accusative ?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">12Remember the Accusative ?</h4>
     <div>
         <p>You already saw that the <strong>accusative case</strong> can be used in different ways.</p>
         <p>It can signify the <em>object of a sentence</em>:</p>
@@ -202,7 +203,7 @@
             <li>Er hat einen Mantel <em>ohne Knöpfe</em>. (He has a coat without buttons.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative object</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">13 Dative object</h4>
     <div>
         <p>The <strong>dative case</strong> also <strong>has a range of different functions</strong>.</p>
         <p>
@@ -221,7 +222,7 @@
         </ul>
         <p>Generally, the <strong>dative object comes before the accusative object</strong>.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">14 Dative verbs</h4>
     <div>
         <p>
             The dative is also used for certain dative verbs such as <em>danken</em> (to thank) and <em>antworten</em>
@@ -234,7 +235,7 @@
         </ul>
         <p>These verbs don't have an accusative object.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative articles</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">15 Dative articles</h4>
     <div>
         <p>Note that the <strong>dative changes all articles for the words</strong>.</p>
         <p>
@@ -350,7 +351,7 @@
             </tbody>
         </table>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Plural Nouns in Dative</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 16 Plural Nouns in Dative</h4>
     <div>
         <p>Here's a great rule:</p>
         <p><strong>Plural Dative: Everything gets an <em>-n</em></strong></p>
@@ -371,7 +372,7 @@
             <li>If the plural ends in <em>-s</em>, there's also no change.</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Even more <em>-n</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">17 Even more <em>-n</em></h4>
     <div>
         <p>
             <strong>Some masculine nouns add an <em>-en</em> or <em>-n</em> ending</strong> in the dative and in <strong>
@@ -383,7 +384,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Euro</em> or <em>Euros</em>?</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">18 <em>Euro</em> or <em>Euros</em>?</h4>
     <div>
         <p>
             In German, the singular is <em>Euro</em> and the <strong>plural is usually <em>Euro</em></strong> as well. As
@@ -410,7 +411,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Personal Pronouns in the Dative Case</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" >19Personal Pronouns in the Dative Case</h4>
     <div>
         <p>
             Many words change in the dative case. For the third person pronouns, the following are different from the
@@ -480,7 +481,7 @@
             she" would sound to an English speaker).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative verbs</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">20 Dative verbs</h4>
     <div>
         <p>
             Remember that some verbs have a dative object. This is just a quirk of German. There was a reason for it when
@@ -497,12 +498,12 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Tall and short people</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">21 Tall and short people</h4>
     <div>
         <p>Tall people are <em>groß</em>, not <em>hoch</em>, and short people are <em>klein</em>, not <em>kurz</em>.</p>
         <p>This is why German people will often refer to tall people as "big" :)</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Cousin, Cousine</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">22 <em>Cousin, Cousine</em></h4>
     <div>
         <p>
             These are French words. While it is possible to write <em>Cousine</em> as <em>Kusine</em> now, German never
@@ -511,7 +512,7 @@
         </p>
     </div>
     <h4 class="p-2 mt-5 mb-2 bg-info text-white">
-        <em>Die Frau kennt seinen Onkel</em> - Why not <em>ihren Onkel?</em>
+        23 <em>Die Frau kennt seinen Onkel</em> - Why not <em>ihren Onkel?</em>
     </h4>
     <div>
         <p>
@@ -529,14 +530,14 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Dative prepositions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">24 Dative prepositions</h3>
     <div>
         <p>Earlier, you learned that some prepositions always trigger the accusative case.</p>
         <p>The most common ones are <strong>durch, für, gegen, ohne, um</strong>.</p>
         <p>In the same way, dative prepositions <strong>always</strong> trigger the dative case.</p>
         <p>Again, here are the common ones: <strong>aus, bei, gegenüber, mit, nach, seit, von, zu</strong>.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Contractions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">25 Contractions</h3>
     <div>
         <p>Some prepositions and articles can be contracted.</p>
         <table class="table">
@@ -571,7 +572,7 @@
         </table>
         <p>There are some more, which you will learn later.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Seit</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">26 <em>Seit</em></h3>
     <div>
         <p><em>Seit</em> roughly means "since". However, it works a bit differently.</p>
         <p>First, it always denotes something that is <strong>still going on</strong>.</p>
@@ -595,7 +596,7 @@
         </em> (I can think) turns into <em>seit ich denken <strong>kann</strong></em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Zu Hause</em> vs. <em>nach Hause</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">27 <em>Zu Hause</em> vs. <em>nach Hause</em></h3>
     <div>
         <p>
             <em>Zu Hause</em> means <em>at home</em>, and <em>nach Hause</em> means <em>home</em> (<em>homewards</em>,
@@ -616,14 +617,14 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Hals</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">28 <em>Hals</em></h4>
     <div>
         <p>
             <em>Der Hals</em> refers to the whole connection between head and shoulders. German does have more
             specialized words for "neck" and "throat", but we normally use <em>Hals</em> for both.
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Haare</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">29<em>Haare</em></h4>
     <div>
         <p>
             <em>Das Haar</em> normally refers to a single hair. It <em>can</em> be used to refer to all the hair on
@@ -634,7 +635,7 @@
             <li>Sein Haar ist lang. (sounds a bit old)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Bein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">30<em>Bein</em></h4>
     <div>
         <p>
             <em>Das Bein</em> refers to the leg. It used to mean "bone" a long time ago. This meaning survives in some
@@ -647,14 +648,14 @@
             <li>Gebein(e) (a collection of bones)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Magen</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">31<em>Magen</em></h4>
     <div>
         <p>
             <em>Der Magen</em> is the stomach, the part of your body that starts digestion. It is not commonly used to
             refer to the belly (<em>der Bauch</em>).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Brust</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">32<em>Brust</em></h4>
     <div>
         <p><em>Die Brust</em> can have several meanings, depending on context.</p>
         <ul>
@@ -673,14 +674,14 @@
     </p>
     <p>Need more details? Then read on :)</p>
 </div>
-<h3 class="p-2 mt-5 mb-2 bg-info text-white">German You: Who are you talking to?</h3>
+<h3 class="p-2 mt-5 mb-2 bg-info text-white"> 33German You: Who are you talking to?</h3>
 <div>
     <p>
         In English, "you" can be either singular or plural, and no distinction is made between formal and informal.
         In German, there are <strong>three ways of saying "you"</strong>.
     </p>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Du</em></h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">34<em>Du</em></h4>
 <div>
     <p>
         If you are <strong><em>familiar</em> with someone, you use <em>du</em></strong> (which is called "duzen"). For
@@ -691,7 +692,7 @@
     </ul>
     <p>Use this form for family members, co-students, children and young adults.</p>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Ihr</em></h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">35<em>Ihr</em></h4>
 <div>
     <p>
         If you <strong>refer to more than one person, you use <em>ihr</em></strong>. This is also a "familiar" form, so
@@ -702,7 +703,7 @@
         <li>Hans und Karl, habt ihr Zeit? (Hans and Karl, do you have time?)</li>
     </ul>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Sie</em> (formal you)</h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">36<em>Sie</em> (formal you)</h4>
 <div>
     <p>
         If you are <strong>not familiar</strong> with someone or still wish to stay <strong>
@@ -755,7 +756,7 @@
         people like "How are they today?"
     </p>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white">How do you know if <em>sie</em> means "she", "they", or "you"?</h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">37 How do you know if <em>sie</em> means "she", "they", or "you"?</h4>
 <div>
     <p>
         You can distinguish the formal <em>Sie</em> from the plural <em>sie</em> (they) because the <strong>
@@ -774,7 +775,7 @@
         translates to "She is beautiful." There's no ambiguity.
     </p>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white">Other formal "you"s</h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">38 Other formal "you"s</h4>
 <div>
     <p>
         There are more ways to address people formally in German, but they are not in common use and/or outdated, so we
@@ -789,7 +790,7 @@
         <li><em>Ihr</em> habt einen schönen Hut. (literally, "<em>You all</em> have a nice hat.")</li>
     </ul>
 </div>
-<h4 class="p-2 mt-5 mb-2 bg-info text-white">You will encounter the informal you in this skill as well</h4>
+<h4 class="p-2 mt-5 mb-2 bg-info text-white">39 You will encounter the informal you in this skill as well</h4>
 <div>
     <p>
         As some of the sentences in this skill are shared among multiple skills, you will encounter the informal you in
@@ -798,7 +799,7 @@
     </p>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Kaufen</em> vs. <em>einkaufen</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">40 <em>Kaufen</em> vs. <em>einkaufen</em></h3>
     <div>
         <p><em>Kaufen</em> is normally used in the meaning of "to buy":</p>
         <ul>
@@ -814,13 +815,13 @@
         </ul>
         <p><em>Verkaufen</em> means "to sell". The prefix <em>ver-</em> is often associated with an "away" notion.</p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Laden, Geschäft</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">41 <em>Laden, Geschäft</em></h3>
     <div>
         <p>A variety of words exist for "shop". These are two common ones, with roughly exchangeable usage.</p>
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Sehenswürdigkeiten?!</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">42 Sehenswürdigkeiten?!</h4>
     <div>
         <p>
             The word <em>Sehenswürdigkeit</em> (<em>sight</em> as in <em>sightseeing</em>) is made up of several
@@ -861,7 +862,7 @@
             ends in <em>-keit</em>, it will always be feminine (die).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Urlaub</em> vs. <em>Ferien</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">43 <em>Urlaub</em> vs. <em>Ferien</em></h4>
     <div>
         <p>
             Just like in English there's "holidays" and "vacation", in German there are <em>Ferien</em> and
@@ -876,14 +877,14 @@
             <li>Wann ist der Urlaub? (When is the vacation?)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Visum</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">44 <em>Visum</em></h4>
     <div>
         <p>
             In English, you need "a visa". In German, the singular is <em>das Visum</em>, <em>Visa</em> is the plural (as
             it is in Latin, the source language of this word).
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Weg</em> vs. <em>weg</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">45<em>Weg</em> vs. <em>weg</em></h4>
     <div>
         <p><em>Der Weg</em> (with a long <em>-e-</em>) roughly means "the path".</p>
         <ul>
@@ -897,7 +898,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">German numbers</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">46 German numbers</h4>
     <div>
         <p>You learned earlier that the numbers from 1-19 are very similar to those in English.</p>
         <p>
@@ -907,11 +908,11 @@
         <p>So <strong>84 would be <em>vier|und|acht|zig</em></strong> (literally, four and eighty).</p>
         <p>This might take some getting used to, but at least it's consistent ;)</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Hundert</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">47 Hundert</h4>
     <div>
         <p>For "100", people would usually just say <em>hundert</em>, not <em>einhundert</em> (as in English).</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Huge numbers</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 48 Huge numbers</h4>
     <div>
         <p>
             There used to be two different systems for huge numbers, called "short scale" and "long scale".
@@ -958,7 +959,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Adjective endings</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">49 Adjective endings</h3>
     <div>
         <p>When an adjective comes before a noun, its ending will change according to this noun.</p>
         <ul>
@@ -970,7 +971,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Article + Adjective</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 50 Article + Adjective</h4>
     <div>
         <p>
             You can think of the adjective endings as "markers", that kind of mark what part of speech the adjective
@@ -1235,12 +1236,12 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Imperative</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white"> 51 Imperative</h3>
     <div>
         <p>The imperative mood is used to express commands, just like in English.</p>
         <p>There are three different forms, according to the three types of "you" in German.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Du</em> imperative</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">52 <em>Du</em> imperative</h4>
     <div>
         <p>The imperative for <em>du</em> is very similar to English:</p>
         <ul>
@@ -1269,7 +1270,7 @@
             <li>F<strong>a</strong>hr mit dem Taxi!</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Ihr</em> imperative</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">53 <em>Ihr</em> imperative</h4>
     <div>
         <p>
             The second one is used to address more than one person informally. It uses the same conjugation as the
@@ -1281,7 +1282,7 @@
             <li><em>Fahrt</em> nach Paris! (Go to Paris!)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Sie</em> imperative</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">54 <em>Sie</em> imperative</h4>
     <div>
         <p>
             The third one is used to address one or more people formally. It uses the same conjugation as the regular
@@ -1295,7 +1296,7 @@
             <li>Lernen Sie Deutsch<strong>?</strong> (Do you learn German?)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Imperative for <em>sein</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">55 Imperative for <em>sein</em></h4>
     <div>
         <p>The verb <em>sein</em> (to be) is highly irregular. It even has its own imperative version:</p>
         <table class="table">
@@ -1327,7 +1328,7 @@
             <li><em>Seien Sie</em> bitte ruhig! (some person in the cinema)</li>
         </ul>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Nehmen, du nimmst</em>??</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">56 <em>Nehmen, du nimmst</em>??</h3>
     <div>
         <p>
             As mentioned before, a small number of common verbs changes the vowel in the second + third person
@@ -1399,7 +1400,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Student</em> or <em>Schüler?</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">57 <em>Student</em> or <em>Schüler?</em></h3>
     <div>
         <p>
             <strong><em>Ein Student</em> is a university student</strong> and a <em>Schüler</em> is a pupil/student at a
@@ -1407,7 +1408,7 @@
             schools may also be called <em>Schüler</em>.
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Dropping articles</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">58 Dropping articles</h3>
     <div>
         <p>
             When talking about your or someone else's profession in sentences such as <em>I'm a teacher</em> or <em>
@@ -1432,7 +1433,7 @@
         </p>
         <p>Also note that <strong>you can't drop the definite article</strong> <em>(der/die/das)</em>.</p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Male and female variants</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" >59 Male and female variants</h4>
     <div>
         <p>The grammatical gender usually matches the biological sex of the person you're referring to.</p>
         <p>
@@ -1486,7 +1487,7 @@
             <li>der <strong>A</strong>rzt, die <strong>Ä</strong>rztin (the doctor)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Sie ist der Boss!</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">60 <em>Sie ist der Boss!</em></h4>
     <div>
         <p>
             There are a few words for people where the grammatical and the natural gender differ. One of them is <em>
@@ -1501,20 +1502,20 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Prepositions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">61 Prepositions</h3>
     <div>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Accusative prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">62 Accusative prepositions</h4>
     <div>
         <p>Accusative prepositions <strong>always</strong> trigger the accusative case.</p>
         <p>Here are the most common ones: <strong>durch, für, gegen, ohne, um</strong></p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Dative prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">63 Dative prepositions</h4>
     <div>
         <p>Dative prepositions <strong>always</strong> trigger the dative case.</p>
         <p>Here are the most common ones: <strong>aus, außer, bei, gegenüber, mit, nach, seit, von, zu</strong></p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Two-way prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">64 Two-way prepositions</h4>
     <div>
         <p>
             <strong>Two-way prepositions</strong> take the <strong>dative case or the accusative case</strong>, depending
@@ -1537,7 +1538,7 @@
             These prepositions can switch case: <strong>an, auf, hinter, in, neben, über, unter, vor, zwischen</strong>
         </p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">When <em>not</em> to think about location change</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">65 When <em>not</em> to think about location change</h4>
     <div>
         <p>Two-way prepositions are very common in everyday speech, so it's a good idea to practice them to fluency.</p>
         <p>However, don't forget that <strong>for some prepositions, you don't have to decide</strong>:</p>
@@ -1558,7 +1559,7 @@
             <li>Ich komme <em>von der</em> Arbeit. (I come from work.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Other uses for two-way prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">66 Other uses for two-way prepositions</h4>
     <div>
         <p>
             Some verbs use one of these prepositions in a way that is <em>not about location</em>. This is part of
@@ -1587,7 +1588,7 @@
             <li>Der Film <em>basiert</em> <em>auf meinem</em> Leben. (The film is based on my life.)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Contractions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">67 Contractions</h4>
     <div>
         <p>Some prepositions and articles can be contracted.</p>
         <table class="table">
@@ -1660,7 +1661,7 @@
             <li>In <em>das</em> Kino gehe ich nicht! (I won't go into <em>that</em> cinema!)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">Preposition at the end of a sentence??</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">68 Preposition at the end of a sentence??</h4>
     <div>
         <p>
             An important part of German grammar is that some verbs can split off their prefix. This often ends up at the
@@ -1692,7 +1693,7 @@
             hope this will change soon :)
         </p>
     </div>
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white"><em>Zu Hause</em> vs. <em>nach Hause</em></h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">69 <em>Zu Hause</em> vs. <em>nach Hause</em></h3>
     <div>
         <p>
             <em>Zu Hause</em> means <em>at home</em>, and <em>nach Hause</em> means <em>home</em> (<em>homewards</em>,
@@ -1710,7 +1711,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Plastik</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">70 <em>Plastik</em></h4>
     <div>
         <p><em>Plastik</em> is one of the few words that changes meaning, depending on which gender it is.</p>
         <ul>
@@ -1718,7 +1719,7 @@
             <li>die Plastik (a word for "sculpture")</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"><em>Holz, Wald, Forst</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">71 <em>Holz, Wald, Forst</em></h4>
     <div>
         <p>In English, "wood" can refer to a material, and to a forest.</p>
         <p>
@@ -1729,7 +1730,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">Ordinal numbers</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">72 Ordinal numbers</h3>
     <div>
         <p>German ordinal numbers are pretty regular. The general rule is:</p>
         <table class="table">
