@@ -31,13 +31,14 @@
         //  getTime($file,$folder,'read.php')
         $folder = '../pure_code/material/german/duolingo';
         $template = "<h5>$file</h5>
-                   vocab: 
+                   read german: 
 
                   <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
                     <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
 
-                    <br/>spelling:<a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>blank</a>
-                    <br/>reverse:
+                    
+                    <br/>type german:
+                    <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>audio</a>
                     <a class='hyperlink' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest</a>
                     <a class='hyperlink' onclick=nextPage(this,'testvocab.php') rel='$file' name='$folder'>blank</a>
 
@@ -810,8 +811,10 @@ $red_total = $total-$green_total;
     makeSenButtons('grammar3s.txt');
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
-    makeOtherButtons('grammar9a.txt');
+    
     makeButtons('tinycards-test5.txt');
+    makeOtherButtons('grammar9a.txt');
+    
     makeButtons('tinycards-test6.txt');
     makeButtons('tinycards-test7.txt');
     makeButtons('tinycards-test8.txt');
