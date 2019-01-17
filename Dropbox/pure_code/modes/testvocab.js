@@ -34,6 +34,8 @@ function drawActive(){
     endGame();
 
   }
+
+  
   var words = global_lines[globalCounter].split('\t');
   var german= words[0];
   var english= words[1];
@@ -43,7 +45,7 @@ function drawActive(){
   global_ans_key=german;
   global_audio=german;
   document.getElementById('track').innerHTML=english;
-  playAudio();
+  //playAudio();
 }
 
 /**
@@ -91,25 +93,66 @@ function drawButtons(){
 */
 function check(input){
 	
-	
-	var key=global_ans_key.toLowerCase();
-  input = input.toLowerCase();
-  var key = simplify(global_ans_key);
-  input = simplify(input);
-
-
-
-	if(key===input){
-			
-			nextWord();
-	}else{
-		
-	}
-
+	if(global_ans_key.includes(':')){
+    var keys = global_ans_key.split(':');
+    result=false;
+    for(var i =0;i<keys.length && !result;i++){
+      if(compare(input,keys[i])){
+        result=true;
+      }
+       
+    }
+     
+     if(result){
+        nextWord();
+     }
+    console.log(result);
+  }else{
+    if (compare(input,global_ans_key)){
+      
+    }else{
+      //do nothing.
+    }
+  }
 
 
 }
 
+
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function showhint(){
+    alert(global_ans_key);
+}
+
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function compare(input,key){
+  console.log(input+':::'+key);
+  input=input.trim();
+
+  input = input.toLowerCase();
+  var key = simplify(key);
+  input = simplify(input);
+
+
+
+  if(key===input){
+    
+      return true;
+      
+  }else{
+    return false;
+  }
+}
 /*
 //---------------------------------------------------------------------
 //
@@ -213,13 +256,64 @@ $( document ).ready(function() {
 
      lines = original.replace(/[\n\r]+/g,'\n');
     lines=lines.split('\n');
+    lines = findMultiMaps(lines);
+    
     global_lines=lines;
+    //
     init();
     
     
 
 });
 
+/**
+//---------------------------------------------------------------------
+// Some german words are maped to the same english word.
+// Therefore, modes that require the user to type German 
+// might have multiple correct answeres. 
+//---------------------------------------------------------------------
+*/
+function findMultiMaps(list){
+  
+  var eng = [];
+  var ger = [];
+  for(var i=0;i<list.length;i++){
+      var sides = list[i].split('\t');
+      var left = sides[0];  // GERMAN so should already have  repeats removed
+      var right = sides[1]; // may have repeats since GERMAN words may map to same word.
+      
+      if(eng.indexOf(right)>=0){ //found a repeat
+        index =eng.indexOf(right)
+        ger[index]+=':'+left; // add german word
+
+      }else{
+        
+        eng.push(right);
+        ger.push(left);
+      }
+  }
+  list = merge(ger,eng);
+  
+  return list;
+}
+
+
+/**
+//---------------------------------------------------------------------
+// merge two array to there values alternate.
+//---------------------------------------------------------------------
+*/
+ function merge(array1, array2) {
+      if (array1.length == array2.length) {
+          var c = [];
+          for (var i = 0; i < array1.length; i++) {
+              c.push(array1[i]+"\t"+ array2[i]);
+          }
+          return c;
+      }
+      return null;
+
+}
 /**
 //---------------------------------------------------------------------
 //
@@ -319,7 +413,7 @@ var timer=0;
 //
 //---------------------------------------------------------------------
 */
-  function compare(x,y){
+  function stringcompare(x,y){
 
     x= x.replace(/[\W]/g,'');
     y= y.replace(/[\W]/g,'');
