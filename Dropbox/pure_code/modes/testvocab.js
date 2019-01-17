@@ -109,7 +109,7 @@ function check(input){
     console.log(result);
   }else{
     if (compare(input,global_ans_key)){
-      
+      nextWord();
     }else{
       //do nothing.
     }
