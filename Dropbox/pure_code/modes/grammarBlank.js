@@ -151,6 +151,8 @@ function makeButton(text){
   return text+helpLink;
 
 }
+
+
 /*
 //---------------------------------------------------------------------
 //
@@ -225,7 +227,7 @@ function getRef(chapterID,elementID) {
 */
 function check(ref,key){
   
-   key=key.replace(/\_/g,' ');
+   key=key.replace(/\_+/g,' ');
 
   input=ref.value
   input=input.replace(/\_/g,' ');
@@ -254,6 +256,14 @@ function check(ref,key){
 
 }
 
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+function showHint(){
+  alert(global_key);
+}
 
 /*
 //---------------------------------------------------------------------
@@ -278,7 +288,7 @@ function wrapOptions(key){
        
    
        
-   
+   global_key=key;
         return `<input type=text onkeyup=check(this,'${key}') ></input>`;
 }
 
@@ -441,18 +451,6 @@ function endGame(){
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
 }
 
-/*
-//---------------------------------------------------------------------
-// 
-//---------------------------------------------------------------------
-*/
-function getHint(){
-    var word_pair = global_group[globalArrow];
-  word_pair = word_pair.split('\t');
-  var ans_key = word_pair[1];
-
-document.getElementById('hint').innerHTML=ans_key;
-}
 
 
 /**

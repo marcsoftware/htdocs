@@ -279,7 +279,7 @@ textarea {
 <pre id='buttons'></pre>
 <div id='ref'></div>
 
-
+<input type='button'  onclick='showHint()' value='hint' />
 
 
 
