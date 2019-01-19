@@ -39,6 +39,7 @@
                     
                     <br/>type german:
                     <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>audio</a>
+                    <a class='hyperlink' onclick=nextPage(this,'typetrack.php') rel='$file' name='$folder'>typetrack</a>
                     <a class='hyperlink' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest</a>
                     <a class='hyperlink' onclick=nextPage(this,'testvocab.php') rel='$file' name='$folder'>blank</a>
 
