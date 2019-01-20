@@ -72,7 +72,7 @@
         $folder = '../pure_code/material/german/duolingo';
         $template = "            
                     <br/>sentences:
-                    
+                    <a class='hyperlink' onclick=nextPage(this,'grammartrack.php') rel='$file' name='$folder'>gtrack</a>
                     <a class='hyperlink' onclick=nextPage(this,'grammarBlank.php') rel='$file' name='$folder'>blank</a>
                     
                    
