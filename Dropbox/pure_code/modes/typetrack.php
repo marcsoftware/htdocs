@@ -80,6 +80,14 @@ body {
   padding:1px;
 }
 
+.userInput:focus{
+  
+  
+  
+  background-color: lightyellow;
+  padding:left 5px;
+}
+
 div{
   margin: 0px;
     padding: 0px;
