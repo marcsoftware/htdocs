@@ -18,8 +18,9 @@ function init(){
 	
 
 	
-	
+	shuffle(global_lines);
 	drawActive();
+  
 	drawButtons();
 }
 
