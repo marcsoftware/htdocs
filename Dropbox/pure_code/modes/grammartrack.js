@@ -247,6 +247,9 @@ function drawActive(){
     if(i===globalArrow){
         arrow='->';
         global_ans = problem.match(/\[[^\:]+\:/);
+        if(global_ans===null){
+          global_ans = problem.match(/\[[^\]]+\]/);
+        }
         global_ans=global_ans[0].replace(/[ \: \[ ]/g,'');
         
     }else{
