@@ -63,7 +63,7 @@ plural: [die Cafés]{3}
 {7}
 
 the man is great.
-    Der Mann ist groß. {7,rule7}
+    [Der Mann ist groß]. {7,rule7}
 
     `
 
@@ -73,9 +73,9 @@ the man is great.
 
     I wake up in China.
 
- translate:   [Ich wache in China auf,Ich wache auf in China]. {15,rule15}
+ translate:   [Ich wache in China auf. Ich wache auf in China]. {15,rule15}
 
-. 
+`
 
 
 
@@ -94,10 +94,8 @@ the man is great.
 these translate to the same sentence:[ Ich trinke] {17,rule17}
 
 `
-
-{20,rule20}
-ich 	schlafe
-[du 	schläfst]
+   ich	schlafe
+    [du schläfst]{20,rule20}
 `
 ich sehe
 [du siehst]{20,rule20}
@@ -116,21 +114,21 @@ I want/like		[ich will]	{21,table21}
 `
 you (sg. inf.)	want	[du	willst]	{21,table21}
 `
-he	wants	[er	will]	{21,table21}
+he	wants	[er	will ]	{21,table21}
 `
-she   wants   [sie   will]  {21,table21}
+she   wants   [sie   will ]  {21,table21}
 `
-it   wants   [es   will]  {21,table21}
+it   wants   [es   will ]  {21,table21}
 `
-we	want	[wir wollen]	{21,table21}
+we	want	[wir wollen ]	{21,table21}
 `
-you (pl. inf.)	want	[ihr wollt]	{21,table21}
+you (pl. inf.)	want	[ihr wollt ]	{21,table21}
 `
-they	want	[sie	wollen]	{21,table21}
+they	want	[sie	wollen ]	{21,table21}
 `
-I	like	[ich	mag]	{21,table21}
+I	like	[ich	mag ]	{21,table21}
 `
-you	like	[du	magst]	{21,table21}
+you	like	[du	magst ]	{21,table21}
 `
 he/she/it	likes	[er/sie/es	mag]	{21,table21}
 `

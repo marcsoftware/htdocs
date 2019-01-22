@@ -250,7 +250,7 @@ function drawActive(){
         if(global_ans===null){
           global_ans = problem.match(/\[[^\]]+\]/);
         }
-        global_ans=global_ans[0].replace(/[ \: \[ ]/g,'');
+        global_ans=global_ans[0].replace(/[\:\[]/g,'');
         
     }else{
       arrow='  ';
@@ -279,11 +279,8 @@ function endGame(){
 //---------------------------------------------------------------------
 */
 function getHint(){
-		var word_pair = global_group[globalArrow];
-	word_pair = word_pair.split('\t');
-	var ans_key = word_pair[0];
-
-document.getElementById('hint').innerHTML=ans_key;
+	 
+document.getElementById('hint').innerHTML=global_ans;
 }
 
 
