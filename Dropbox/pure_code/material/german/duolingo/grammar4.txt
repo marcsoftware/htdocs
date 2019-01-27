@@ -1,0 +1,412 @@
+﻿//grammar 4
+
+
+    Der Hund trinkt [den:der:die] Saft. 
+    (juice is singular maculine thus changes from der to den)
+    {0}
+    `
+    Die Katze trinkt [die:der:den] Milch. 
+    (milk is feminine so it doesn't change)
+    {0}
+    `
+
+
+    Nicht ohne [meinen:mein] Hund! (Not without my dog!){1}
+    `
+    Die Suppe ist für [den:der] Mann ohne Zähne. (The soup is for the man without teeth.)
+{1}
+`
+
+{2}
+
+Ich gehe [den:der] Fluss entlang. (I walk along the river.)
+`
+ bezahlen means (to pay). 
+  zahlen, which also means (to pay). 
+  however:  [zählen:zahlen], which means "to count". {4}
+
+`
+zahlen means (to Pay)
+ but the word [Zahlen]. The upper-case initial tells you this is a noun. It is the plural of die Zahl (the number). {4}
+ `
+ die Kuchen -> the cakes
+ [die Küchen] -> the kitcheins {5}
+ `
+
+ {6}
+ Die Pizza [schmeckt] nicht! (The pizza does not taste good!)
+
+ `
+ {12}
+
+    Sie geht ohne [den] Hund. (She walks without the dog.)
+    `
+    Er hat [einen] Mantel ohne Knöpfe. (He has a coat without buttons.){12}
+    `
+
+    {13}
+    Das Mädchen gibt einer Frau den Apfel. (A girl gives the apple to a woman.)
+    apfel <- accusative object
+    [frau] <- dative object (or indirect object)
+    `
+
+    {14}
+    
+    Ich danke [dem] Kind. (I thank the child.)
+    `
+    Ich helfe [der] Frau. (I help the woman.){14}
+    `
+    Ich antworte [meinem] Bruder. (I answer my brother.){14}
+`
+ {15}
+
+    Dative endings
+Masculine/Neuter    [m]
+Feminine    [r]
+Plural  [n]
+`
+{16}
+ Er spielt mit drei [Hunden]. (He plays with three dogs.)
+ `
+ {16}
+Die Computer sind alt. Ich antworte den [Computern]. (I answer the computers.)
+`
+{19}
+
+to me
+[mir]
+`
+to you
+[dir]{19}
+`
+to him
+[ihm]{19}
+`
+to her 
+[ihr]{19}
+`
+to it
+[ihm]{19}
+`
+to you(pl)
+[euch]{19}
+`
+to us
+[uns]{19}
+`
+to them
+[ihnem]{19}
+`
+{20}
+[Wem gehört das Kleid]? ("Whose dress is it?" - Literally, "Whom does the dress belong to?")
+`
+
+{21}
+
+Tall people are [groß], not hoch.
+`
+{22} short people are [klein], not kurz.
+`
+{23}
+ Die Frau kennt [ihren] Onkel. =>  woman's own uncle, another female person's uncle, or the uncle of multiple people. 
+ `
+
+Die Frau kennt [seinen] Onkel =>another male person's uncle . People can know other people's relatives. 
+{23}
+`
+{25}
+[beim] (at the / in the / with the)
+`
+von + dem = [vom] (from the){25}
+`
+vor + das = [vors] (in front of the){25}
+
+Sie geht vors Haus.
+(She goes in front of the house.)
+`
+ zu + dem = [zum] (to the / to){25}
+
+Wie komme ich zum Stadtzentrum?
+(How do I get to the city center?)
+`
+zu + der = [zur] (to the / to){25}
+
+Die Kinder gehen zur Schule.
+(The kids are going to school.)
+
+Wir stehen gerne zur Verfügung.
+(We’re pleased to be available.)
+`
+
+{26}
+
+    [Ich lerne seit sechs Jahren Englisch]. (I'm learning English for six years now.)
+    `
+    [Ich lerne seit 2012 Englisch] (I've been learning English since 2012.){26}
+    `
+    [Ich lerne Englisch, seit ich denken kann]. (I've been learning English since I can think.){26}
+`
+
+
+{27}
+    [Ich bin zu Hause]. (I am at home.)
+
+`
+{27}    [Ich gehe nach Hause]. (I am walking home.)
+`
+{28}
+[Der Hals] refers to the whole connection between head and shoulders. German does have more specialized words for "neck" and "throat", but we normally use Hals for both. 
+`
+{30}
+
+    [Seine Haare sind lang. ](his hair is long)
+    `
+    [Sein Haar ist lang.] (his hair is long -sounds a bit old){30}
+`
+{31}
+[Der Magen] is the stomach, the part of your body that starts digestion. It is not commonly used to refer to the belly (der Bauch). 
+`
+{32}
+
+
+Die Brust can have several meanings, depending on context.
+
+    Komm an meine Brust! - This means the chest area. It will always be used in the singular.
+    Vögel haben keine Brüste. (Birds don't have breasts) - This refers to female breasts. It can be used in the singular.
+
+`
+{40}
+    ich kaufe einen Hut.(keufe => to buy)
+
+
+    Ich kaufe im Supermarkt ein. (I shop in the supermarket)
+    Wann gehst du einkaufen? (When do you go shopping?)
+kaufe and [einkaufen] can be translated => ' to shop'
+`
+{41}
+there are many words that can roughly translate to  shopping.
+
+ [Laden, Geschäft] are two examples
+ `
+ {42}
+ [Sehenswürdigkeiten] measn sightseeing.
+ `
+ {43}
+
+ Ferien only exists as a plural noun:
+
+    Die [Ferien] sind im Sommer. (The holidays are in summer.)
+`
+Urlaub only exists as a singular noun:
+
+    Wann ist der [Urlaub]? (When is the vacation?){43}
+`
+{44}
+das Visum=> means one visa, 
+[Visa] => means plural visas because it is a  lating word.
+`
+{45}
+
+Der [Weg] ist lang. (The path is long.)
+`
+    Geh [weg]! (Go away!){45}
+    `
+    Ich bin [weg]! (I'm gone!){45}
+`
+
+{47}
+use [Hundert] For "100", people would dont usually  say einhundert (as in English).
+`
+{48}
+Number  US English (short scale)    German (long scale)
+10^6    million     Million
+10^9    billion     [Milliarde]
+10^12   trillion    Billion
+10^15   quadrillion     Billiarde
+10^18   quintillion     Trillion
+`
+
+{49}
+
+
+
+
+    Die Katze ist alt.
+
+    Das ist eine [alte] Katze.
+
+`
+{50}
+
+masc.   der     [rote]    Hut
+`
+    ein     [roter]   Hut{50}
+`
+neut.   das     [rote]    Hemd{50}
+`
+    ein     [rotes]   Hemd{50}
+`
+fem.    die     [rote]    Rose{50}
+`
+    eine    [rote]    Rose{50}
+`
+Plural  die     [roten]   Schuhe{50}
+`
+    keine   [roten]   Schuhe{50}
+`
+    -   [rote]    Schuhe{50}
+`
+
+
+//{50} table 2
+masc.   dem     [roten]   Hut{50}
+`
+    einem   [roten]   Hut{50}
+`
+neut.   dem     [roten]   Hemd{50}
+`
+    einem   [roten]   Hemd{50}
+`
+fem.    der     [roten]   Rose{50}
+`
+    einer   [roten]   Rose{50}
+`
+Plural  den     [roten]   Schuhen{50}
+`
+    keinen  [roten]   Schuhen{50}
+`
+    -   [roten]   Schuhen{50}
+`
+
+{52}
+
+    Du gehst nach Hause. (You go home.)
+   [ Geh] nach Hause! (Go home!)
+`
+
+    Du fährst mit dem Taxi.
+    [Fahr] mit dem Taxi!
+{52}
+`
+{53}
+   Du fährst mit dem Taxi.
+    Ihr fahrt nach Paris. (You go to Paris.)
+    [Fahrt] nach Paris! (Go to Paris!)
+
+`
+
+{54}
+Sie lernen Deutsch. (You learn German.)
+[Lernen] Sie Deutsch! (Learn German!)
+`
+{55}
+
+    [Sei] bitte ruhig! (one friend)
+    `
+    [Seid] bitte ruhig! (several friends){55}
+    `
+    [Seien] Sie bitte ruhig! (some person in the cinema){55}
+`
+{56}
+ich            gebe       
+du            [gibst]   
+er/sie/es      gibt    
+`
+{56}
+ich         nehme    
+du          [nimmst]  
+er/sie/es   nimmt   
+`
+{56}
+ich            esse        
+du           [isst]    
+er/sie/es       isst   
+`
+{56}
+ich           lese       
+du             [liest]   
+er/sie/es     liest 
+`
+{56}
+ich            lasse    
+du            [lässt]
+er/sie/es     lässt
+`
+{56}
+ich            gebe       
+du            gibst   
+er/sie/es      [gibt]    
+`
+{56}
+ich         nehme    
+du          nimmst  
+er/sie/es   [nimmt]   
+`
+{56}
+ich            esse        
+du           isst    
+er/sie/es       [isst]    
+`
+{56}
+ich           lese       
+du             liest  
+er/sie/es     [liest]  
+`
+{56}
+ich            lasse    
+du            lässt
+er/sie/es     [lässt]
+`
+{57}
+Ein [Student] is a university student 
+`
+[ Schüler] is a pupil/student at a primary, secondary or high school.{57}
+`
+ Students attending other types of schools such as language or dancing schools may also be called [Schüler]. {57}
+`
+{58}
+
+Ich bin Lehrer. (I am a teacher.)
+`
+
+ {59}   
+male    der Koch    die Köche
+female  die [Köchin]  die Köchinnen
+
+`{59}   
+male    der Koch    die Köche
+female  die [Köchin]  die Köchinnen
+
+`
+{59}
+male    der Arzt
+female [die Ärztin] (the doctor)
+`
+{60}
+    Mein [Boss] heißt Linda Ackermann.
+
+    
+`
+{62}
+Here are the most common ones: durch, für, gegen, ohne, um
+these always trigger the [accusative] case
+`
+{63}
+Here are the most common ones: aus, außer, bei, gegenüber, mit, nach, seit, von, zu
+these always trigger the [dative] case
+`
+{64}
+an, auf, hinter, in, neben, über, unter, vor, zwischen
+these words can trigger [both] cases
+`
+{64}
+If there's movement from one place to another, use the accusative case.
+    Die Katze geht in [die] Küche. (The cat walks into the kitchen.)
+        `
+{64}
+If there's no movement, or if there's movement within a certain place, use the dative case.
+
+    Die Katze schläft in [der] Küche. (The cat sleeps in the kitchen.)
+    Die Katze geht in [der] Küche. (The cat walks within the kitchen.)
+`
+//{65}continue from 65

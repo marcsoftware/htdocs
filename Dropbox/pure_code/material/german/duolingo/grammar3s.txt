@@ -162,12 +162,12 @@ That one is strange!
     [Der  ist komisch:Die:Das]! 
     {3,rule3}
 `
-My kids? They/Those are in England.
-Meine Kinder? [Die sind in England:Der:Das] . 
+They/Those are in England.
+ [Die sind in England:Der:Das] . 
 {3,rule3}
 `
 This boy is reading a newspaper,
-[Der Junge liest eine Zeitung:Die:Der:Das] ,
+[dieser Junge liest eine Zeitung:Die:Der:Das] ,
 
 {3,rule3}
 `
@@ -181,7 +181,7 @@ this boy eats.
 [dieser Junge isst:dieses:dieses:diese] .
 `{4,table4}
 this girl eats.
-[dieses  Mädchen iss:dieser:dieses:dieses:diese]t.
+[dieses  Mädchen isst:dieser:dieses:dieses:diese].
 `{4,table4}
 this woman eats.
 [diese Frau isst:dieser:dieses:dieses:diese] .

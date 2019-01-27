@@ -1,9 +1,6 @@
-﻿//beginin of shortcut5
+//beginin of shortcut5
 //{73}
 
 `
-testing: this is called 9a 
-,but is actually 4.
-and it references the grammar9.php files
-[testing]{73}
+
 `

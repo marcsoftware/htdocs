@@ -204,7 +204,8 @@ function prevGroup(){
 //---------------------------------------------------------------------
 */
 function drawBar(){
-	var total = Math.ceil(global_lines.length/7);
+	var total = Math.ceil((global_lines.length-1)/7);
+  
 	document.getElementById('bar').innerHTML=global_level_counter+'/'+total;
 }
 
@@ -250,7 +251,13 @@ function drawActive(){
         if(global_ans===null){
           global_ans = problem.match(/\[[^\]]+\]/);
         }
-        global_ans=global_ans[0].replace(/[\:\[]/g,'');
+
+        if(global_ans!==null){
+          global_ans=global_ans[0].replace(/[\:\[]/g,'');  
+        }else{
+          global_ans='ERROR.';
+        }
+        
         
     }else{
       arrow='  ';

@@ -140,21 +140,21 @@ they	like	[sie	mögen]	{21,table21}
 `
 {22}
 mögen to express that you like a [noun]
-example:Ich mag Bier. (I like beer.)
+
 `
 {22}
 use gern to express that you like a [verb]
-example:Ich trinke gern Bier. (I like to drink beer.)
+
 
 `
-{26}
+
 the lake
-[der See]
+[der See]{26}
 
 
-`{26}
+`
 the sea
-[die See]
+[die See] {26}
 `
 -the lakes
 -the seas

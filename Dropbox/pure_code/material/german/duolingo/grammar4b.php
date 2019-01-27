@@ -11,7 +11,7 @@
 
 
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">0 Prepositions</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white" id='0'>1 Prepositions</h3>
     <div>
         <p>Prepositions take a noun (or a noun phrase):</p>
         <ul>
@@ -28,16 +28,16 @@
             <li><em>Die</em> Katze trinkt <em>die</em> Milch. (both are feminine)</li>
         </ul>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white"> 1 Accusative prepositions</h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white" > 1 Accusative prepositions</h4>
     <div>
         <p>Accusative prepositions <em>always</em> trigger the accusative case.</p>
         <ul>
             <li>Nicht <strong>ohne meinen Hund</strong>! (Not without my dog!)</li>
             <li>Die Suppe ist <strong>für den Mann ohne Zähne</strong>. (The soup is for the man without teeth.)</li>
         </ul>
-        <p>German has these common accusative prepositions: <strong>durch, für, gegen, ohne, um</strong></p>
+        <p id='1'>German has these common accusative prepositions: <strong>durch, für, gegen, ohne, um</strong></p>
     </div>
-    <h4 class="p-2 mt-5 mb-2 bg-info text-white">2<em>Entlang</em></h4>
+    <h4 class="p-2 mt-5 mb-2 bg-info text-white">2 <em>Entlang</em></h4>
     <div>
         <p>
             <em>Entlang</em> is a strange word :) It is commonly used with the accusative case. But then it has to appear
@@ -53,7 +53,7 @@
     </div>
 </div>
 <div class="row d-block">
-    <h3 class="p-2 mt-5 mb-2 bg-info text-white">3German numbers</h3>
+    <h3 class="p-2 mt-5 mb-2 bg-info text-white">3 German numbers</h3>
     <div>
         <p>
             You might notice that German numbers look very similar to those in English. The two languages are closely
