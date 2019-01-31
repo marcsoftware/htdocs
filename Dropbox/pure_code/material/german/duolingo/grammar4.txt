@@ -410,3 +410,16 @@ If there's no movement, or if there's movement within a certain place, use the d
     Die Katze geht in [der] Küche. (The cat walks within the kitchen.)
 `
 //{65}continue from 65
+
+    Das Kind rennt durch [den] Wald. (The child is running through the forest.){65}
+    `
+    Die Stühle stehen um [den] Tisch. (The chairs are standing around the table.){65}
+`
+Aus, von, zu will always be dative, although they might signify a location change.
+
+    Er kommt aus [der] Küche (He comes out of the kitchen.){65}
+    `
+    Ich fahre zur [] Arbeit. (I go to work.){65}
+    `
+    Ich komme von [der] Arbeit. (I come from work.){65}
+    `

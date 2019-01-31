@@ -1,0 +1,105 @@
+﻿//grammar from othe rbook
+{1}
+
+
+1.[der:die:das] Apfel
+2. [der:die:das] Bruder
+3. [die:der:die:das] Übung
+4. [das:der:die:das] Gesetz
+5.[die:der:die:das]  Reise
+6. [das:der:die:das] Album
+7.[die:der:die:das]  Krankheit
+8.[das:der:die:das]  Eisen
+9.[die:der:die:das]  Schwester
+10.[das:der:die:das]  Eigentum
+11.[das:der:die:das]  Appartement
+12. [die:der:die:das] Qualität
+13.[die:der:die:das]  Eleganz
+
+14. [der:die:das] Onkel
+15.[die:der:die:das]  Explosion
+16.[die:der:die:das]  Eigenschaft
+17.[das:der:die:das]  Schwimmen
+18.[die:der:die:das]  Lehre
+19.[der:die:das]  Schlag
+20.[das:der:die:das]  Ereignis
+21. [die:der:die:das] Donau
+22.[das:der:die:das]  Museum
+23. [der:der:die:das] Honig
+24.[der:die:das]  Sozialismus
+25.[der:die:das]  Regen
+
+
+{2}
+Provide nouns that exemplify the characteristics shown in parentheses. For example:
+(-ung) die Untersuchung
+1. (-nis) das [Verständnis]
+2. (-heit) die [Gesundheit]
+3. (Ge-) das [Gesicht]
+4. (-e) die [Bitte]
+5. (-um) das [Museum]
+6. (-er) der [Kellner]
+7. (-el) der [Mantel]
+8. (-keit) die [Einsamkeit]
+9. (-ling) der [Frühling]
+10. (-ig) der [König]
+11. (-tum) das [Eigentum]
+12. (-in) die [Schauspielerin]
+13. (-en) der [Laden]
+14. (-lein) das [Büchlein]
+15. (-ion) die [Situation]
+
+{3}
+Rewrite the following plural nouns as singular nouns. Provide the appropriate definite article.
+1. die Tannen [die Tanne]
+2. die Flüsse [der Fluss]
+3. die Bücher [das Buch]
+4. die Übungen [die Übung]
+5. die Zeiten [die Zeit]
+6. die Bäume [der Baum ]
+7. die Arme [der Arm]
+8. die Kinder [das Kind ]
+9. die Freundinnen [die Freundin]
+10. die Könige [der König]
+11. die Zeitungen [die Zeitung]
+12. die Länder [das Land]
+13. die Bälle [der Ball]
+14. die Finger [der Finger]
+15. die Mädchen [das Mädchen]
+
+{4}
+Rewrite the following singular nouns as plural nouns.
+1. der Mantel die [Mäntel]
+2. die Frau die [Frauen]
+3. das Haus die [Häuser]
+4. das Fräulein die [Fräulein]
+5. die Küste die [Küsten]
+6. das Schwimmen die [NA]
+7. der Wagen die [Wagen]
+8. der Lehrer die [Lehrer]
+9. die Richterin die [Richterinnen]
+10. der Bleistift die [Bleistifte]
+11. der Platz die [Plätze]
+12. die Sitte die [Sitten]
+13. das Lachen die [N/A ]
+14. die Nase die [Nasen]
+15. der Lautsprecher die [Lautsprecher]
+
+Exercise 5
+1. List ten masculine nouns, five of which refer to males and five of which are inanimate objects.
+These are sample answers.
+1. der [Gärtner] der [Tisch]
+der [Soldat] der [Wagen]
+der [Arzt] der [Wald]
+der [Vater] der [Computer]
+der [Tourist] der [Führerschein]
+2. die [Tante] die [Lampe]
+die [Tochter] die [Kreide]
+die [Lehrerin] die [Zeitung]
+die [Tänzerin] die [Schule]
+die [Physikerin] die [Bücherei]
+3. [das Kind] das [Geheimnis]
+das [Mädchen] das [Bild]
+das [Fräulein] das [Gesicht]
+das [Pferd das] [Fundament]
+das [Schwein] das [Gebäude]

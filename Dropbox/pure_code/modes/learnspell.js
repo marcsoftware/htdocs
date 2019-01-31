@@ -23,6 +23,146 @@ function init(){
 	drawButtons();
 }
 
+
+
+   // compares two string and returns a string with colorized feedback.
+    // the return string has a <span> around each letter. green for correct char. red for incorrect
+    // compares two string and returns a string with colorized feedback
+    var lastLength=0;
+    function smartCompare(user_input,ans_key) {
+
+
+     var fresh = user_input.length;
+     user_input = this.decodeEntities(user_input);
+     ans_key = this.decodeEntities(ans_key );
+
+     // if too long prevent error later in this function
+     var user_input_right = '';
+     if(user_input.length>ans_key.length){
+         var user_input_left=user_input.substr(0,ans_key.length); // if too long prevent later in this function
+         user_input_right=user_input.substr(ans_key.length);
+         user_input = user_input_left;
+
+     }
+
+     var chars = ['⌁','˽','·','•','⁀','⊛',
+                      '░','▒','▕','◥','▯',
+                      '▮','▩','▢','☲','☰'];
+     var filler_char = chars[6];
+     var punc_char = chars[7];
+
+     ans_key=ans_key.replace("<br/>",'¶');
+     ans_key=ans_key.replace(/\¶+/g,'¶');
+     ans_key=ans_key.replace(/\n/g,'¶');
+     ans_key =ans_key.replace(/\s\s+/g,' '); //replace double whitespaces
+     ans_key=ans_key.replace(/\¶+/g,'¶');
+     ans_key=ans_key.replace(/\ \¶/g,'¶');
+     ans_key=ans_key.trim();
+     var template =ans_key; //preserve line break
+     
+
+     
+     template = template.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\+\<\>]/g,punc_char); // replace punctuation with char
+     template= template.replace(/[a-zA-Z]/g,filler_char); // replace letters with char, but keep length the same
+
+     var input=user_input.split('');
+     
+     //var key=ans_key.replace(/zzzzzzz/g,' ').trim().split(''); //one
+     var key = ans_key;
+
+     
+     var text;
+
+     template=template.split('');
+
+
+     var green_span = document.createElement("span");
+     green_span.className='green';
+
+     var colors = [];
+     // wraps a span around each individual letter
+     
+     var counter=0;
+     var allGreen =1;
+     for(var i=0;i<input.length && i<key.length;i++){
+
+         if(template[i]==='¶'){
+            input.unshift(' ');
+
+         } else if(input[i]===key[i]){ //correct letter
+             template[i]='<span class="green">'+input[i]+'</span>';
+             counter++;
+
+         }else if(key[i].search(/[ \t\r\n\v\f]/g)>=0){ // wrong char, should be whitespace instead
+             template[i]='<span class="grey">'+input[i]+'</span>';
+
+
+         }else if(key[i].search(/[.,?!]/g)>=0){ // wrong char, should be puntuation //TODO change this test to incldue all typale puctuation
+             template[i]='<span class="yellow">'+input[i]+'</span>';
+             allGreen =0;
+
+         }else if(input[i].toLowerCase()===key[i].toLowerCase()){ //wrong char, should be differant case
+            allGreen =0;
+             template[i]='<span class="green">'+key[i]+'</span>'; //ignore case
+
+         }else if(input[i]==='`' && key[i].search(/\w/)<0){
+
+             // if key has a key that is not easy to type than skip it with ` key
+             template[i]='<span class="green">'+key[i]+'</span>';
+             counter++;
+
+         }else {
+             template[i]='<span class="red">'+input[i]+'</span>';
+             allGreen =0;
+             
+
+         }
+
+         //play audio?
+         lastLength = lastLength || 0;
+         if( counter > lastLength && counter%10 ==0 && allGreen){
+            audioMedium.play(); //TODO dings too much bug
+
+         }
+
+     }
+
+     
+      lastLength = fresh;
+
+     //text = document.createTextNode('\n'+template.join()+'\n');
+     template = template.join('');
+     template = template.replace(/¶/g,'\n');
+
+     return '\n'+template+user_input_right+'\n';
+   };
+
+/**
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+*/
+    this.decodeEntities =function(s){
+        if(s==null){
+            return "";
+
+
+        }
+        s=s.replace(/\</g,'&lt;');
+
+        s=s.replace(/[“”]/g,'"'); // replace smart quotes
+        s=s.replace(/[‘’]/g,"'");
+
+        var str, temp= document.createElement('p');
+        temp.innerHTML= s;
+        str= temp.textContent || temp.innerText;
+        temp=null;
+        return str;
+    };
+
+
+
+
 /*
 //---------------------------------------------------------------------
 //
