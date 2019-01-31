@@ -756,8 +756,10 @@ function str_pad(n) {
         // then this function will make item.total=10; 
         function doBasicMath(item){
          
-            if(item.total_cals !== null &&item.total_cals !== undefined && item.total_amount.length !== 0){
+            if(item.total_cals !== null &&item.total_cals !== undefined ){
                 item.total_cals=doBasicMathOnEntry(item.total_cals)[0]; 
+                
+         
             }
 
             if(item.total_amount !== null &&item.total_amount !== undefined && item.total_amount.length !== 0){
@@ -788,7 +790,9 @@ function str_pad(n) {
             var label = x.match(/[a-zA-Z]+/g);
             
             var number = x.match(/[\d\+\-\*\/\.]+/g);
+            number=number.join('');
             number = eval(number);
+            
             number = number || 0; //if number is invalid make it a 0.
             
             if(label && (number ===0 )){
