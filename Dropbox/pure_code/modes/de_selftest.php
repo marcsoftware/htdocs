@@ -260,7 +260,6 @@ textarea {
 
 
 
-<body oncontextmenu="return false;">
 
 
   <span id='timer'></span>
