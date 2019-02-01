@@ -381,6 +381,57 @@ function displayTheWords(lines){
         }
         
         //appendToElement('file',result[1]);
+         if( i==line_length-1){ 
+            container.appendChild(global_group_container);
+            
+  
+          //create the shuffle button
+          var btn = document.createElement("BUTTON");       
+          var t = document.createTextNode("shuffle");       
+          btn.appendChild(t);    
+
+          //make button clickable
+          btn.handle=global_group_container;
+          btn.addEventListener("mouseup", function(e){
+            //this.handle=global_group_container.innerHTML;
+            //TODO pass a reference here
+            shuffleWordGroup(this.handle);
+          });
+
+
+          container.appendChild(btn);  
+
+           
+          //create the TIME button
+          var btn = document.createElement("BUTTON");       
+          var t = document.createTextNode("mark time");       
+          btn.appendChild(t);    
+
+          
+          
+          btn.addEventListener("mouseup", function(e){
+            //this.handle=global_group_container.innerHTML;
+            //TODO pass a reference here
+            makeTimeStamp(this);
+            this.style.backgroundColor='lightgreen';
+          });
+
+          container.appendChild(btn);  
+
+
+
+
+          global_group_container = document.createElement("div");//start making a new group
+          var total= Math.ceil(line_length/7);
+          var done=Math.ceil(i/7);
+          var node = document.createTextNode(done+' / '+total+'\n');
+          var numberContainer = document.createElement("h6");
+          numberContainer.appendChild(node);
+          container.appendChild(numberContainer);
+
+
+
+          }
     });
   //printToElement('file',lines);
 }
