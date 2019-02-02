@@ -31,12 +31,15 @@ function init(){
 */
 var global_ans_key;
 function drawActive(){
+  
+
   if(globalCounter >= global_lines.length){
     endGame();
+    return;
 
   }
 
-  
+  current_word_missed=false;
   var words = global_lines[globalCounter].split('\t');
   var german= words[0];
   var english= words[1];
@@ -107,7 +110,7 @@ function check(input){
      if(result){
         nextWord();
      }
-    console.log(result);
+    
   }else{
     if (compare(input,global_ans_key)){
       nextWord();
@@ -126,8 +129,27 @@ function check(input){
 //
 //---------------------------------------------------------------------
 */
+var current_word_missed = false;
 function showhint(){
     alert(global_ans_key);
+
+    if(!current_word_missed){
+      // not already added to add it to end
+      addWordToEnd();
+
+    }
+    current_word_missed=true;
+}
+
+/*
+//---------------------------------------------------------------------
+//
+//---------------------------------------------------------------------
+*/
+var missed_list=[];
+function addWordToEnd(){
+  missed_list.push(global_lines[globalCounter]);
+
 }
 
 
@@ -137,7 +159,7 @@ function showhint(){
 //---------------------------------------------------------------------
 */
 function compare(input,key){
-  console.log(input+':::'+key);
+  
   input=input.trim();
 
   input = input.toLowerCase();
@@ -202,10 +224,33 @@ function nextWord(){
 */
 function endGame(){
     
-    document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
+    var missed_count = missed_list.length ;
+
+    if(missed_count !=0){
+      button = `<input type='button' value=review onclick=nextStage()></input>`;
+      msg = `missed: ${missed_count} word(s)`+button;
+
+    }else{
+      msg = 'you missed 0 words!'
+    }
+    document.getElementById('file').innerHTML='YOU WON - your progress is saved.<br/>'+msg;
 }
 
+/**
+//---------------------------------------------------------------------
+// 
+//---------------------------------------------------------------------
+*/
+function nextStage(){
+  alert('next stage');
+  global_lines=missed_list.slice(); //copy array by value 
+  globalCounter=0;
+  missed_list=[];
+  document.getElementById('file').innerHTML='';
+  drawBar();
+  drawActive();
 
+}
 
 
 
