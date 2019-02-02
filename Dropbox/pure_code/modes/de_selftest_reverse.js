@@ -294,8 +294,8 @@ function displayTheWords(lines){
 
 
           global_group_container = document.createElement("div");//start making a new group
-          var total= Math.ceil(line_length/7);
-          var done=Math.ceil(i/7);
+          var total= Math.ceil(line_length/6);
+          var done=Math.floor(i/6);
           var node = document.createTextNode(done+' / '+total+'\n');
           var numberContainer = document.createElement("h6");
           numberContainer.appendChild(node);
@@ -422,8 +422,8 @@ function displayTheWords(lines){
 
 
           global_group_container = document.createElement("div");//start making a new group
-          var total= Math.ceil(line_length/7);
-          var done=Math.ceil(i/7);
+          var total= Math.ceil(line_length/6);
+          var done=Math.ceil(i/6);
           var node = document.createTextNode(done+' / '+total+'\n');
           var numberContainer = document.createElement("h6");
           numberContainer.appendChild(node);
