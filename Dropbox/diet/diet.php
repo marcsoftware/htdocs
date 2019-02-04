@@ -34,6 +34,14 @@
          padding-left: 2px;
         }
 
+        .recalc{
+            width: 100px;
+            height: 15px;
+            font-size:9px;
+            margin-right:1px;
+            padding-left: 2px;
+        }
+
         input:focus {
            background-color: #ffff66;
         }

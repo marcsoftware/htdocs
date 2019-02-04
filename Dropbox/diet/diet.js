@@ -586,34 +586,16 @@
         //
         //---------------------------------------------------------------------
         */
-        function recalculate(id,field,value,item){
-             
-             if(value == '') {
-                return; //don't do anything. user might want to change another field .
-             }
+        function recalculate(id){
+           
              var item= createItemObject(id);
              var record = document.getElementsByName(id);
              
-
-              
-            //need to delete extra fields so that we know which fields need to be recalculated  
-            if(field==='total_amount' && isTrue(item.cal_per_serv)){
-                
-                item.total_cals ='';
-             }else if(field==='total_cals' && isTrue(item.cal_per_serv)){
-                item.total_amount ='';
-                
-             }else if(field==='cal_per_serv'){
-                
-                item.total_cals='';
-             }else if(field==='amount_per_serv'){
-                
-                item.total_cals='';
+             for(var i=0;i<record.length;i++){
+                record[i].style.backgroundColor='white';
+                record[i].style.border = "thin solid black"; 
              }
-            
-             if(!isTrue(item.cal_per_serv)){
-                item.amount_per_serv='';
-             }
+       
 
              if(id){
                 item.id=id;
@@ -624,6 +606,18 @@
              softReset();
         }
 
+
+
+        /**
+        //---------------------------------------------------------------------
+        //
+        //---------------------------------------------------------------------
+        */
+        function color(handle){
+             handle.style.backgroundColor='#ffdb99';
+             handle.style.border = "thick solid black"; 
+           
+        }
 //---------------------------------------------
 //
 //---------------------------------------------
@@ -783,7 +777,7 @@ function str_pad(n) {
         */
         function doBasicMathOnEntry(x){
            
-            if(typeof(x) == "undefined"){
+            if(typeof(x) == "undefined" || x===''){
                 return 0;
             }
             x=x.toString();
@@ -1048,6 +1042,7 @@ function str_pad(n) {
              }
                
             var delete_button =`<span onclick="addOrRemove(${id},this)" >❌</span>`;   
+             var recalc_button =`<input type='button' onclick="recalculate(${id})" class='recalc' value='recalculate & save'></input>`; 
 
             //draw header
 
@@ -1059,9 +1054,9 @@ function str_pad(n) {
 
             var line= '';
             for(var i =0; i < x.length-1 ; i++){
-                line+=`<input value="${x[i]}" name=${id} onchange="recalculate(${id},'${field[i]}',this.value,item)"></input>`;
+                line+=`<input value="${x[i]}" name=${id} onchange="color(this)"></input>`;
             }
-            line+=delete_button+"";
+            line+=delete_button+recalc_button+"";
 
             document.getElementById('result').innerHTML+=`<li> ░  <p hidden>${x[6]+','+id}</p>`+line+`  </li>`;
 
