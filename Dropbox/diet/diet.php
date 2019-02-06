@@ -40,6 +40,7 @@
             font-size:9px;
             margin-right:1px;
             padding-left: 2px;
+            display: none;
         }
 
         input:focus {

@@ -586,8 +586,10 @@
         //
         //---------------------------------------------------------------------
         */
-        function recalculate(id){
-           
+        function recalculate(id,handle){
+
+             handle.style.display = "none";
+             
              var item= createItemObject(id);
              var record = document.getElementsByName(id);
              
@@ -616,6 +618,13 @@
         function color(handle){
              handle.style.backgroundColor='#ffdb99';
              handle.style.border = "thick solid black"; 
+
+             var id = handle.name;
+             var list = document.getElementsByName(id);
+             var button = list[list.length-1];
+             button.style.display = "inline";
+             
+
            
         }
 //---------------------------------------------
@@ -777,7 +786,7 @@ function str_pad(n) {
         */
         function doBasicMathOnEntry(x){
            
-            if(typeof(x) == "undefined" || x===''){
+            if(typeof(x) == "undefined" || x==='' || isNaN(x)){
                 return 0;
             }
             x=x.toString();
@@ -1042,7 +1051,7 @@ function str_pad(n) {
              }
                
             var delete_button =`<span onclick="addOrRemove(${id},this)" >❌</span>`;   
-             var recalc_button =`<input type='button' onclick="recalculate(${id})" class='recalc' value='recalculate & save'></input>`; 
+             var recalc_button =`<input type='button' onclick="recalculate(${id},this)" class='recalc' name=${id} value='recalculate & save'></input>`; 
 
             //draw header
 
