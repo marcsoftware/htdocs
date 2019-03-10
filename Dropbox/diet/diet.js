@@ -1228,7 +1228,7 @@ function str_pad(n) {
             
 
             document.getElementById('name').addEventListener("keyup",    
-                function(x){
+                function(x){  //TODO this is laggy
                     
                         var entry = x.target.value;
                         if(x.keyCode==9){ // tab key is 9
