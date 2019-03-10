@@ -52,10 +52,11 @@ if (!isset($_POST['submit'])){
 
 <!-- The HTML login form -->
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
-        Username: <input type="text" name="username" /><br />
+        Username<input type="text" name="username" /><br />
         Password: <input type="password" name="password" /><br />
 
         <input type="submit" name="submit" value="Login" />
+        <a href='forgotpassword.php'>forgot password</a>
     </form>
     </body>
 </html>
