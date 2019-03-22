@@ -46,7 +46,7 @@
         //init();
     }
 
-document.title='🌌 '+document.title;
+
 	</script>
 
 
