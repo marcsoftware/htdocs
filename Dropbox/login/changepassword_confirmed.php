@@ -8,6 +8,7 @@
 
 
 </script> 
+<?php include '../header.php';?>
 <?php
 
     require_once("../passwords/db_const.php");
