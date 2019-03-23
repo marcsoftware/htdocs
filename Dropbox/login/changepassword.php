@@ -27,7 +27,9 @@ function checkInput(){
 <?php
 
     require_once("../passwords/db_const.php");
+
     $mysqli = new mysqli($servername, $username, $password, $db_name);
+    
     # check connection
 
     if ($mysqli->connect_errno) {

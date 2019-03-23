@@ -41,6 +41,8 @@
 
                 $sql = "SELECT * from user WHERE username LIKE '{$username}' AND password LIKE '{$password}' LIMIT 1";
                 $result = $mysqli->query($sql);
+
+                //TODO use (password_verify($unhashed_password, $hashed_password)) {
                 if (!$result->num_rows == 1) {
                     echo "<p>Invalid username/password combination</p>";
                 } else {
@@ -54,7 +56,7 @@
 </body>
 </html>
 
-and finally the code for registration create a file called register.php
+
 
 <html>
 <head>
@@ -86,7 +88,7 @@ if (!isset($_POST['submit'])) {
     # prepare data for insertion
     $username   = $_POST['username'];
     $password   = $_POST['password'];
-
+ $password = password_hash($password, PASSWORD_DEFAULT);
     $email      = $_POST['email'];
 
     # check if username and email exist else insert
@@ -106,6 +108,7 @@ if (!isset($_POST['submit'])) {
     else if ($exists == 3) echo "<p>Email already exists!</p>";
     else {
         # insert data into mysql database
+
         $sql = "INSERT  INTO `user` (`id`, `username`, `password`,  `email`) 
                 VALUES (NULL, '{$username}', '{$password}', '{$email}')";
 

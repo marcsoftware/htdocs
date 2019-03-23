@@ -20,13 +20,13 @@
     }
 
 
-    //TODO get token from URL
 
 
 //URL parameters : t=? n = ?
      $check_token=   $_POST['token'];
       $check_name=  $_POST['username'];
-      $newPassword=  $_POST['newPassword'];
+      $newPassword=  $_POST['newPassword']; 
+      $newPassword = password_hash($newPassword, PASSWORD_DEFAULT);
 // databasefields : token   token_date
 
 $today = date("d/m/Y");
@@ -34,7 +34,7 @@ $yesterday = date("d/m/Y", strtotime( '-1 days' ) );
 
 //echo "$check_token \n $check_name \n $today \n $yesterday";
 
-//TODO get token and token_date from database
+//get token and token_date from database
 
 $sql  = "select * from user where username='$check_name' AND token='$check_token'";
 $result = $mysqli->query($sql);
@@ -58,7 +58,7 @@ $result = $mysqli->query($sql);
         $sql = "UPDATE user SET token='' , token_date='' WHERE username='$check_name' AND token='$check_token'";
         $result = $mysqli->query($sql);
 
-        //TODO send newpassword to database
+        // send newpassword to database
 
     }else{
         echo 'ERROR: Request is invalid or expired.';        

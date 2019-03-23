@@ -52,7 +52,7 @@ $token = bin2hex(openssl_random_pseudo_bytes(64));
 $token = strtr($token, '+/', '-_');
 
 $date = date("d/m/Y"); 
-$token_date = date("m/d/Y", strtotime($date));
+$token_date = date("d/m/Y");
 
 
 //save token and token_date to the user databse

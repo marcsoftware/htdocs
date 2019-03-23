@@ -25,17 +25,28 @@ if (!isset($_POST['submit'])){
     }
 
     $username = $_POST['username'];
-    $password = $_POST['password'];
+    $raw_password = $_POST['password'];
 
-    $sql = "SELECT * from user WHERE username LIKE '{$username}' AND password LIKE '{$password}' LIMIT 1";
+    $sql = "SELECT password from user WHERE username LIKE '{$username}'  LIMIT 1";
     $result = $mysqli->query($sql);
+    
     if (!$result->num_rows == 1) {
         echo "<p>Invalid username/password combination</p>";
     } else {
-        echo "<p>$username: Logged in successfully</p><br/>";
-        
-        $_SESSION["customer_name"] = $username; 
-        
+
+
+        //TODO use (password_verify($unhashed_password, $hashed_password)) {
+        // $sql  = "select * from user where username='$check_name' AND token='$check_token'";
+        //$result = $mysqli->query($sql);
+        $row = $result->fetch_assoc();
+        $hashed_password=  $row["password"]; // security: never echo email.
+
+        if(password_verify($raw_password, $hashed_password)){ 
+            echo "<p>$username: Logged in successfully</p><br/>";
+            $_SESSION["customer_name"] = $username; 
+        }else{
+            echo "<p>Password did not match</p><br/>";
+        }
         
         
     }

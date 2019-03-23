@@ -1,4 +1,1 @@
-RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^marcdmelcher\.com [NC]
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.marcdmelcher.com/$1 [R,L]
+Redirect permanent /secure https://www.marcdmelcher.com/
