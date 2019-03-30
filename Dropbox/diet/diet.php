@@ -1,6 +1,6 @@
 <?php include '../header.php';?>
 <?php 
-    if(isset($_SESSION["customer_name"])){
+    if(isset($_SESSION["customer_"])){
         echo $_SESSION["customer_name"];
     }
 

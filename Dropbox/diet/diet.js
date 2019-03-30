@@ -68,7 +68,9 @@
                         };
                 
                 addNew(item); 
+                 
                    sendToDatabase(item);
+
                 clearForm();
                 
                 softReset(); //debug
@@ -90,45 +92,7 @@
         }
 
 
-         /**submit
-        //---------------------------------------------------------------------
-        // Called when user edits an ITEM
-        //---------------------------------------------------------------------
-        */
-        function changeItemNOTUSED(){
-
-                //TODO call from the ELEMENTS in the RESULT menu
-                var name =  document.getElementById('name').value;
-                if(!name){
-                    return; //dont save if not valid name
-                }
-                var total_cals =  document.getElementById('total_cals').value;
-                
-                var total_amount =  document.getElementById('total_amount').value;
-                var cal_per_serv =  document.getElementById('cal_per_serv').value;
-                var  amount_per_serv =  document.getElementById('amount_per_serv').value;
-                
-
-                var item = {
-                            'name':name,
-                            'total_cals':total_cals,
-                            'total_amount':total_amount,
-                            'cal_per_serv':cal_per_serv,
-                            'amount_per_serv':amount_per_serv
-                        };
-                
-                addNew(item); 
-                   sendToDatabase(item);
-                document.getElementById('total_cals').value='';
-                document.getElementById('name').value='';
-                
-                document.getElementById('total_amount').value='';
-                document.getElementById('cal_per_serv').value='';
-                document.getElementById('amount_per_serv').value='';
-                
-                softReset(); //debug
-                 
-        }
+      
 
         /**
         //---------------------------------------------------------------------
@@ -410,7 +374,7 @@
         //arg: item should be an object with 5 fields.
         //
         function addNew(item){
-                     
+                      
             var xmlhttp;    
 
              if(item.name.includes(':')){
@@ -429,7 +393,7 @@
 
             if(!item.amount_per_serv && !item.cal_per_serv){
                 getStats(item.name);
-                //alert(global_stats[3]+'---'+global_stats[4]);
+                
                 item.cal_per_serv=global_stats[3];
                 item.amount_per_serv=global_stats[4];
 
@@ -440,8 +404,10 @@
 
             //TODO needs to account for labels
             
+           
+
             doBasicMath(item); // does simple arithmetic if present eg: 2.5*3 calories
-            
+
 
             guess(item);
 
@@ -722,6 +688,7 @@ function str_pad(n) {
                 total_cals='';
             }
             //amount_per_serv
+
              if(amount_per_serv!==null && amount_per_serv!==undefined && amount_per_serv.length != 0){
                 amount_per_serv='&amount_per_serv='+amount_per_serv;
             }else{
@@ -758,7 +725,7 @@ function str_pad(n) {
         // if item.total is the string '2*10';
         // then this function will make item.total=10; 
         function doBasicMath(item){
-         
+
             if(item.total_cals !== null &&item.total_cals !== undefined ){
                 item.total_cals=doBasicMathOnEntry(item.total_cals)[0]; 
                 
@@ -766,7 +733,10 @@ function str_pad(n) {
             }
 
             if(item.total_amount !== null &&item.total_amount !== undefined && item.total_amount.length !== 0){
+               
                 item.total_amount=doBasicMathOnEntry(item.total_amount)[1]; 
+               
+                
             }
             if(item.cal_per_serv !== null &&item.cal_per_serv !== undefined){
                 item.cal_per_serv=doBasicMathOnEntry(item.cal_per_serv)[0]; 
@@ -786,10 +756,12 @@ function str_pad(n) {
         */
         function doBasicMathOnEntry(x){
            
-            if(typeof(x) == "undefined" || x==='' || isNaN(x)){
+            if(typeof(x) == "undefined" || x==='') {
                 return 0;
             }
+            
             x=x.toString();
+
             var label = x.match(/[a-zA-Z]+/g);
             
             var number = x.match(/[\d\+\-\*\/\.]+/g);
@@ -804,7 +776,7 @@ function str_pad(n) {
 
             
 
-            
+      
             return [number,number+''+label];
 
         }
