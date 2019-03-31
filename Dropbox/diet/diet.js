@@ -1168,19 +1168,11 @@ function str_pad(n) {
         */
         function getSuggestions(entry){
             
-            if(entry.includes('[')){ // if item name has a '~' then the item is from the USDA database
-                            //TODO calculate calories 
-                            var code = entry.match(/\[.*\]/g);
-                            code = code[0].replace(/[\[\]]/g,'');
-                            interfaceUSDAcode(code);
+          
+            getStats(entry);
+            autofillSubmitionForm(global_stats);
+            getCustomLabel(entry);
 
-                            
-                        }else{
-
-                            getStats(entry);
-                            autofillSubmitionForm(global_stats);
-                            getCustomLabel(entry);
-            }   
         }
 
 

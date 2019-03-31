@@ -46,21 +46,6 @@
 
 
 
-    //DISTINCT c1, c2, c3
-    $sql = "SELECT DISTINCT amount_per_serv_label,cal_per_serv,amount_per_serv_unit from $dbname where customer_name='$customer_name' and
-            name='$item_name' and cal_per_serv!=0 ORDER BY date ASC";
-
-    $result = $conn->query($sql);
-
-    while($row = $result->fetch_assoc()) {
-        // NOTE: id has to be the last field and be seperated by comma
-       //echo( $row['name'].','. $row['label'].','. $row['label_unit']       .','. $row['calories'].','. $row['equivilent_label'].','. $row['equivilent_label_unit']."{END}" );
-        echo(  $row['amount_per_serv_label'].','.$row['amount_per_serv_unit'].','.$row['cal_per_serv'].',' );
-
-             
-      
-    }
-
     
 
     $conn->close();
