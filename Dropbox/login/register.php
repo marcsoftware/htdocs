@@ -39,16 +39,7 @@
                 $username = $_POST['username'];
                 $password = $_POST['password'];
 
-                $sql = "SELECT * from user WHERE username LIKE '{$username}' AND password LIKE '{$password}' LIMIT 1";
-                $result = $mysqli->query($sql);
-
-                //TODO use (password_verify($unhashed_password, $hashed_password)) {
-                if (!$result->num_rows == 1) {
-                    echo "<p>Invalid username/password combination</p>";
-                } else {
-                    echo "<p>Logged in successfully</p>";
-                    // do stuffs
-                }
+              
             }
 ?>   
 
