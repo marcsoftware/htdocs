@@ -62,7 +62,7 @@ if (!isset($_POST['submit'])) {
         Username: <input type="text" name="username" /><br />
         Password: <input type="password" name="password" /><br />
   
-        Email: <input type="type" name="email" /><br />
+        Email: <input type="type" name="email" />(optional)<br />
 
         <input type="submit" name="submit" value="Register" />
     </form>
@@ -86,18 +86,21 @@ if (!isset($_POST['submit'])) {
     $exists = 0;
     $result = $mysqli->query("SELECT username from user WHERE username = '{$username}' LIMIT 1");
     if ($result->num_rows == 1) {
-        $exists = 1;
-        $result = $mysqli->query("SELECT email from user WHERE email = '{$email}' LIMIT 1");
-        if ($result->num_rows == 1) $exists = 2;    
-    } else {
-        $result = $mysqli->query("SELECT email from user WHERE email = '{$email}' LIMIT 1");
-        if ($result->num_rows == 1) $exists = 3;
-    }
+        echo "<p>Username already exists!</p>";
+        $exists=1;
 
-    if ($exists == 1) echo "<p>Username already exists!</p>";
-    else if ($exists == 2) echo "<p>Username and Email already exists!</p>";
-    else if ($exists == 3) echo "<p>Email already exists!</p>";
-    else {
+    } 
+
+    if($email !== ''){ //email is optional
+        $result = $mysqli->query("SELECT email from user WHERE email = '{$email}' LIMIT 1");
+        
+         echo "<p>Email already exists!</p>";  
+         $exists=1;
+        
+    }
+    
+
+    if ($exists == 0 ) {
         # insert data into mysql database
 
         $sql = "INSERT  INTO `user` (`id`, `username`, `password`,  `email`) 
