@@ -706,7 +706,7 @@ if(isset($_SESSION["customer_name"])){
 
 
 
-
+    
 
 <?php
 error_reporting(E_ALL);
