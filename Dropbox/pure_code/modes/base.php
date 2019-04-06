@@ -1,4 +1,4 @@
-<!-- this file handles the actually typeing game-->
+<?php include '../../header.php';?>
 <!DOCTYPE html>
 <html>
 
@@ -26,7 +26,7 @@
 <script src="base.js" content="text/html; charset=utf-8" ></script>
 
 <title>racetrack</title>
-<?php include '../../header.php';?>
+
 
 
 <script>

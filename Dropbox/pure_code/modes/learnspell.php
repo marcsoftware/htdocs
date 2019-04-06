@@ -1,4 +1,4 @@
-<!-- this file handles the actually typeing game-->
+<?php include '../../header.php';?><!-- this file handles the actually typeing game-->
 <!DOCTYPE html>
 <html>
 
@@ -26,7 +26,7 @@
 <script src="learnspell.js" content="text/html; charset=utf-8" ></script>
 
 <title>learn to spell</title>
-<?php include '../../header.php';?>
+
 
 
 <script>

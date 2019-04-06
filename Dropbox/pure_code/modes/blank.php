@@ -1,3 +1,4 @@
+<?php include '../../header.php';?>
 <!-- this file handles the actually typeing game-->
 <!DOCTYPE html>
 <html>
@@ -26,7 +27,7 @@
 <script src="blank.js" content="text/html; charset=utf-8" ></script>
 
 <title>blank</title>
-<?php include '../../header.php';?>
+
 
 
 <script>
