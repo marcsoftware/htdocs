@@ -107,154 +107,137 @@ das [Schwein] das [Gebäude]
 {6}
 Exercise 6
 Rewrite the following masculine nouns as plural nouns.
-1. der Vogel
-2. der Spiegel
-3. der Gärtner
-4. der Brief
-5. der Lehrling
-6. der Physiker
-7. der Laden
-8. der Käfig
-9. der Hammer
-10. der Schuh
-
-Exercise 6
-1. die Vögel 2. die Spiegel 3. die Gärtner 4. die Briefe 5. die Lehrlinge 6. die Physiker 7. die Läden 8. die Käfige
-9. die Hämmer 10. die Schuhe
-
+1. der Vogel -die[Vögel]
+2. der Spiegel -die[Spiegel]
+3. der Gärtner -die[Gärtner]
+4. der Brief -die[Briefe]
+5. der Lehrling -die[Lehrlinge]
+6. der Physiker -die[Physiker]
+7. der Laden -die[Läden]
+8. der Käfig -die[Käfige]
+9. der Hammer -die[Hämmer]
+10. der Schuh -die[Schuhe]
 
 ---------------------------------------
 {7}
 Exercise 7
 Rewrite the following feminine nouns as plural nouns.
-1. die Maus
-2. die Schülerin
-3. die Kasse
-4. die Landkarte
-5. die Hausarbeit
-6. die Macht
-7. die Wurst
-8. die Schwester
-9. die Tafel
-10. die Tanne
+1. die Maus - die [Mäuse]
+2. die Schülerin - die [Schülerinnen]
+3. die Kasse - die [Kassen]
+4. die Landkarte - die [Landkarten]
+5. die Hausarbeit - die [Hausarbeiten]
+6. die Macht - die [Mächte]
+7. die Wurst - die [Würste]
+8. die Schwester - die [Schwestern]
+9. die Tafel - die [Tafeln]
+10. die Tanne - die [Tannen]
 
-Exercise 7
-1. die Mäuse 2. die Schülerinnen 3. die Kassen 4. die Landkarten 5. die Hausarbeiten 6. die Mächte 7. die
-Würste 8. die Schwestern 9. die Tafeln 10. die Tannen
+
 ---------------------------------------------
 
 Exercise 8
 Rewrite the following neuter nouns as plural nouns.
-1. das Heft
-2. das Wort
-3. das Hotel
-4. das Kind
-5. das Rad
-6. das Gesicht
-7. das Bein
-8. das Blatt
-9. das Büchlein
-10. das Zimmer
+1. das Heft - die [Hefte]
+2. das Wort - die [Wörter]
+3. das Hotel - die [Hotels]
+4. das Kind - die [Kinder]
+5. das Rad - die [Räder]
+6. das Gesicht - die [Gesichte]
+7. das Bein - die [Beine]
+8. das Blatt - die [Blätter]
+9. das Büchlein - die [Büchlein]
+10. das Zimmer - die [Zimmer]
 
-Exercise 8
-1. die Hefte 2. die Wörter 3. die Hotels 4. die Kinder 5. die Räder 6. die Gesichte 7. die Beine 8. die Blätter
-9. die Büchlein 10. die Zimmer
 -------------------------------------------
 Exercise 9
 Rewrite the following plural nouns as singular nouns. Provide the
 appropriate definite article to identify the gender of the noun.
-1. die Schulen
-2. die Lehrer
-3. die Kinos
-4. die Hütten
-5. die Bände
-6. die Würstchen
-7. die Eulen
-8. die Namen
-9. die Würmer
-10. die Straßen
-11. die Sachen
-12. die Läden
-13. die Wölfe
-14. die Schweine
-15. die Franzosen
+1. die Schulen - [die Schule]
+2. die Lehrer - [der Lehrer]
+3. die Kinos - [das Kino]
+4. die Hütten - [die Hütte ]
+5. die Bände - [der Band]
+6. die Würstchen - [das Würstchen ]
+7. die Eulen - [die Eule ]
+8. die Namen - [der Name]
+9. die Würmer - [der Wurm ]
+10. die Straßen - [die Straße]
+11. die Sachen - [die Sache]
+12. die Läden - [der Laden ]
+13. die Wölfe - [der Wolf]
+14. die Schweine - [das Schwein]
+15. die Franzosen - [der Franzose]
 
-
-Exercise 9
-1. die Schule 2. der Lehrer 3. das Kino 4. die Hütte 5. der Band 6. das Würstchen 7. die Eule 8. der Name
-9. der Wurm 10. die Straße 11. die Sache 12. der Laden 13. der Wolf 14. das Schwein 15. der Franzose
 ------------------------------------------------------------------------------
 
 Exercise 10
 In the space provided, write the letter P if the noun shown is plural. Write the letter S if the noun
 shown is singular. Write the letter B if the noun can be either plural or singular.
-1. Leute
-2. Häuser
-3. Brille
-4. Haar
-5. Nase
-6. Wanderer
-7. Rechtsanwälte
-8. Hunde
-9. Katze
-10. Dichterinnen
-11. Lehrer
-12. Wagen
-13. Anzug
-14. Spielzeug
-15. Fenster
-16. Lehrlinge
-17. Mädchen
-18. Bäume
-19. Touristin
-20. Bilder
-21. Büchlein
-22. Bein
-23. Soldaten
-24. Mäntel
-25. Städte
+1. Leute - [p]
+2. Häuser - [p]
+3. Brille - [s]
+4. Haar - [s]
+5. Nase - [s]
+6. Wanderer - [b]
+7. Rechtsanwälte - [p]
+8. Hunde - [p]
+9. Katze - [s]
+10. Dichterinnen - [p]
+11. Lehrer - [b]
+12. Wagen - [b]
+13. Anzug - [s]
+14. Spielzeug - [s]
+15. Fenster - [b]
+16. Lehrlinge - [p]
+17. Mädchen - [b]
+18. Bäume - [p]
+19. Touristin - [s]
+20. Bilder - [p]
+21. Büchlein - [b]
+22. Bein - [s]
+23. Soldaten - [p]
+24. Mäntel - [p]
+25. Städte - [p]
 
-Exercise 10
-1. P 2. P 3. S 4. S 5. S 6. B 7. P 8. P 9. S 10. P 11.B 12. B 13. S 14. S 15. B 16. P 17. B 18. P 19. S 20. P 21. B
-22. S 23. P 24. P 25. P
+
 ----------------------------------------------------------------------
 Exercise 11
 In the space provided, write the pronoun that would be a substitute for the noun shown. Use er, sie
 s., es, or sie pl.
-1. Lehrerin
-2. Wald
-3. Haus
-4. Kinder
-5. Schule
-6. Kino
-7. Mutter
-8. Mütter
-9. Keller
-10. Kellner
+1. Lehrerin - [sie s]
+2. Wald - []
+3. Haus - [es]
+4. Kinder - [sie pl]
+5. Schule - [sie s]
+6. Kino - [es]
+7. Mutter - [sie s]
+8. Mütter - [sie pl]
+9. Keller - [er]
+10. Kellner - [er]
 
-Exercise 11
-1. sie s. 2. er 3. es 4. sie pl. 5. sie s. 6. es 7. sie s. 8. sie pl. 9. er 10. er
+
 
 ----------------------------------------------------------------------
 Exercise 12
 In the space provided, give the pronoun that appropriately replaces the noun or phrase in bold print.
 For example:
 Der Mann hat uns geholfen. Er
-1. Meine Schwester wohnt jetzt in der Hauptstadt.
-2. Wo sind die Kinder?
-3. Viele Leute wollen eine Deutschlandreise machen.
-4. Mein Bruder und ich sind Mitglieder der Fußballmannschaft.
-5. Ist das Mädchen eine Bekannte von dir?
-6. Diese Bücher sind sehr interessant.
-7. Die Frauen haben es von einem Fremden gehört.
-8. Der Schüler lernt oft dumme Sachen.
-9. Ist Ihr Volkswagen neu?
-10. Das Land, das ich am meisten liebe, ist meine Heimat.
-11. Die neue Wohnung ist ziemlich klein.
-12. Warum ist diese Tür zu?
-13. Der Dieb behauptete, den Ring auf der Straße gefunden zu haben.
-14. Dieser rote Apfel ist für dich.
-15. Meine Freunde und ich fahren morgen in die Stadt.
+1. *Meine Schwester* wohnt jetzt in der Hauptstadt. - [Sie]
+2. Wo sind *die Kinder*?- [sie]
+3. *Viele Leute* wollen eine Deutschlandreise machen.- [Sie]
+4. *Mein Bruder und ich* sind Mitglieder der Fußballmannschaft.- [Wir]
+5. Ist *das Mädchen* eine Bekannte von dir?- [es]
+6. *Diese Bücher* sind sehr interessant.- [Sie]
+7. *Die Frauen* haben es von einem Fremden gehört.- [Sie]
+8. *Der Schüler* lernt oft dumme Sachen.- [Er]
+9. Ist *Ihr Volkswagen* neu?- [er]
+10.*Das Land, das ich am meisten liebe*, ist meine Heimat.- [Es]
+11. *Die neue Wohnung* ist ziemlich klein.- [Sie]
+12. Warum ist *diese Tür* zu?- [sie]
+13. *Der Dieb* behauptete, den Ring auf der Straße gefunden zu haben.- [Er]
+14. *Dieser rote Apfel* ist für dich.- [Er]
+15.*Meine Freunde und ich* fahren morgen in die Stadt.- [Wir]
 
 Exercise 12
 1. Sie 2. sie 3. Sie 4. Wir 5. es 6. Sie 7. Sie 8. Er 9. er 10. Es 11. Sie 12. sie 13. Er 14. Er 15. Wir
@@ -264,45 +247,63 @@ Exercise 12
 --------------------------------
 Exercise 13
 Replace the pronoun in bold print with any appropriate noun. For example:
-Sie tanzt gut. Meine Mutter tanzt gut.
-1. Er ist alt aber fährt gut.
-2. Ist er ein guter Freund von euch?
-3. Sie spielen gern Schach.
-4. Wo wird sie wohnen?
-5. Es ist nur sechs Jahre alt und kann schon lesen und schreiben.
-6. Sie kann Englisch und Arabisch.
-7. Liegt es auf dem Tisch?
-8. Er hat sein Fahrrad verkaufen müssen.
-9. Es glaubt mir nicht.
-10. Ist sie kaputt?
-11. Wo ist es?
-12. Sie will uns nicht stören.
-13. Wir wohnen in der Goethestraße.
-14. Ist sie grün?
-15. Er schläft in einer Ecke der Küche.
-Exercise 13
-These are sample answers. 1. Der Wagen ist alt aber fährt gut. 2. Ist der Rechtsanwalt ein guter Freund von
-euch? 3. Die Männer spielen gern Schach. 4. Wo wird Ihre Tante wohnen? 5. Das Kind ist nur sechs Jahre
-alt und kann schon lesen und schreiben. 6. Meine Kusine kann Englisch und Arabisch. 7. Liegt das Buch auf
-dem Tisch? 8. Unser Bruder hat sein Fahrrad verkaufen müssen. 9. Das Mädchen glaubt mir nicht. 10. Ist die
-Maschine kaputt? 11. Wo ist dein Heft? 12. Die Krankenschwester will uns nicht stören. 13. Mein Mann und
-ich wohnen in der Goethestraße. 14. Ist die neue Lampe grün? 15. Der alte Hund schläft in einer Ecke der
-Küche.
+*Sie* tanzt gut. => *Meine Mutter* tanzt gut.
+1. *Er* ist alt aber fährt gut. - [Der Wagen ist alt aber fährt gut.]
+2. Ist *er* ein guter Freund von euch? - [Ist der Rechtsanwalt ein guter Freund von euch?]
+3. *Sie* spielen gern Schach. - [Die Männer spielen gern Schach.]
+4. Wo wird *sie* wohnen? - [ Wo wird Ihre Tante wohnen?]
+5. *Es* ist nur sechs Jahre alt und kann schon lesen und schreiben. - [Das Kind ist nur sechs Jahre alt und kann schon lesen und schreiben.]
+6. *Sie* kann Englisch und Arabisch. - [Meine Kusine kann Englisch und Arabisch.]
+7. Liegt *es* auf dem Tisch? - [Liegt das Buch auf dem Tisch?]
+8. *Er* hat sein Fahrrad verkaufen müssen. - [Unser Bruder hat sein Fahrrad verkaufen müssen.]
+9. *Es* glaubt mir nicht. - [ Das Mädchen glaubt mir nicht.]
+10. Ist *sie* kaputt? - [Ist die Maschine kaputt?]
+11. Wo ist *es*? - [Wo ist dein Heft?]
+12. *Sie* will uns nicht stören. - [Die Krankenschwester will uns nicht stören.]
+13. *Wir* wohnen in der Goethestraße. - [Mein Mann und ich wohnen in der Goethestraße.]
+14. Ist *sie* grün? - [Ist die neue Lampe grün?]
+15. *Er* schläft in einer Ecke der Küche. - [Der alte Hund schläft in einer Ecke der Küche.]
+ 
 ----------------------------------------------------------------------
-
 Exercise 14
-1. Man kann nicht jedem gefallen. 2. In unserem Klassenzimmer spricht man nur Deutsch. 3. Was man
-verspricht, das muss man halten. 4. Hat man an die Tür geklopft? 5. Warum muss man so lange warten? 6. Bei
-grün darf man über die Straße gehen. 7. Damals war man großzügiger. 8. Man hat sie davor gewarnt. 9. Man
-soll nicht fluchen. 10. Man wird es schnell vergessen. 11. Man muss im Wartesaal warten. 12. Man soll nicht
-vergessen. 13. Man steht an der Tür und weint. 14. Während der Krise war man hoffnungslos. 15. Man darf
-nicht lachen.
+Change the subject of each sentence to the pronoun man. For example:
+Du sollst nicht schreien. Man soll nicht schreien.
+1. Ich kann nicht jedem gefallen. - [ Man kann nicht jedem gefallen.]
+2. In unserem Klassenzimmer sprechen wir nur Deutsch.- [In unserem Klassenzimmer spricht man nur Deutsch.]
+3. Was du versprichst, das musst du halten.- [Was man verspricht, das muss man halten.]
+4. Hat jemand an die Tür geklopft?- [Hat man an die Tür geklopft?]
+5. Warum müssen Sie so lange warten?- [Warum muss man so lange warten?]
+6. Bei grün dürfen wir über die Straße gehen.- [Bei grün darf man über die Straße gehen.]
+7. Damals wart ihr großzügiger.- [Damals war man großzügiger.]
+8. Sein Vater hat sie davor gewarnt.- [Man hat sie davor gewarnt.]
+9. Die Jungen sollen nicht fluchen.- [Man soll nicht fluchen]
+10. Meine Großmutter wird es schnell vergessen.- [Man wird es schnell vergessen. ]
+11. Ihr müsst im Wartesaal warten.- [Man muss im Wartesaal warten.]
+12. Ich soll nicht vergessen.- [Man soll nicht vergessen.]
+13. Jemand steht an der Tür und weint.- [Man steht an der Tür und weint.]
+14. Während der Krise waren sie hoffnungslos.- [Während der Krise war man hoffnungslos.]
+15. Du darfst nicht lachen.- [Man darf nicht lachen.]
+
+----------------------------------------------------------------------
+Exercise 15
+Change the subject of each sentence to jemand and then to niemand. For example:
+Peter steht an der Tür. Jemand steht an der Tür. Niemand steht an der Tür.
+1. Seine Schwester hat das Geld gefunden.- [] []
+2. Ist mein Bruder da?
+3. Die Lehrerinnen haben etwas zu sagen.
+4. Der alte Herr hat den roten Sportwagen gekauft.
+5. Ich werde dir helfen.
+6. Frau Schneider hat das Geld verloren.
+7. Heute kommen unsere Verwandten zu Besuch.
+8. Meine Freunde warten an der Ecke.
+
 Exercise 15
 1. Jemand hat das Geld gefunden. Niemand hat das Geld gefunden. 2. Ist jemand da? Ist niemand da? 3. Jemand
 hat etwas zu sagen. Niemand hat etwas zu sagen. 4. Jemand hat den roten Sportwagen gekauft. Niemand hat
 den roten Sportwagen gekauft. 5. Jemand wird dir helfen. Niemand wird dir helfen. 6. Jemand hat das Geld
 verloren. Niemand hat das Geld verloren. 7. Heute kommt jemand zu Besuch. Heute kommt niemand zu Besuch.
 8. Jemand wartet an der Ecke. Niemand wartet an der Ecke.
+------------------------------
 Exercise 16
 1. N 2. S 3. S 4. P 5. P 6. S 7. P 8. S 9. N 10. S
 Exercise 17
