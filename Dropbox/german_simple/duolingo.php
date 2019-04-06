@@ -706,7 +706,7 @@ if(isset($_SESSION["customer_name"])){
 
 
 
-<h4>CALENDAR VIEW</h4>
+
 
 <?php
 error_reporting(E_ALL);
