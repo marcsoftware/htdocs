@@ -111,8 +111,71 @@
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     //CALENDARY STUFF
 
+    // show stats on a particular day.
+    function showStats(handle,day,diffs){
+       // console.log(day);
+    }
 
 
+
+    // selft study the selected day
+    //param: color is a number, 1 is for red. 0 is for green
+    function studyDay(handle,date,diffs,color){
+        
+        //console.log(handle.className );
+        gotoCalendarPage(date,color);
+    }
+
+
+    // takes user to the special study page that has words form the database
+    function gotoCalendarPage(date,color){
+        
+        setDate(date,color);
+        
+      
+        //go to a new web page
+        var page ="/Dropbox/pure_code/modes/de_selftest.php?fileName=getCalendarWords.php&folder=../pure_code/material/german/duolingo&mode=de_selftest.php&cleanup=0&block=4";
+
+        window.location.href=page; 
+        
+
+    }
+
+
+    /**
+    //---------------------------------------------------------------------
+    // creates a SESSION varibles that hold the 'day' that the user clicked on calendar
+    //---------------------------------------------------------------------
+    */
+    function setDate(date,color){
+
+        var xmlhttp;    
+        
+        if (window.XMLHttpRequest){
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else{
+            // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function(){
+            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+                 
+                //alert(xmlhttp.responseText);
+                
+            }
+        }
+
+
+
+        //TODO pass the global var date
+        
+
+        xmlhttp.open("GET",'/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color,false); // TODO This is badpractice. Turn false into true. //////
+        xmlhttp.send();
+        
+    }
 
 
    /**
@@ -185,6 +248,36 @@
     }
 
 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+var htmlContent = "";
+var FebNumberOfDays = "";
+var counter = 1;
+
+var dateNow = new Date();
+var month = dateNow.getMonth();
+var curMonth = month;
+var day = dateNow.getDate();
+var year = dateNow.getFullYear();
+var curYear = year;
+
+// names of months and week days.
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"];
+var dayPerMonth = ["31", "" + FebNumberOfDays + "", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"];
+
+function padDigits(number, digits) {
+    return Array(Math.max(digits - String(number).length + 1, 0)).join(0) + number;
+}
+
+// days in previous month and next one , and day of week.
+var nextDate, weekdays, weekdays2, numOfDays, nextMonth, prevMonth;
+
+//to set the correct htmlContent
+function getCal() {
+        //TODO wrap contents here
+
+ //TODO pass the global var date123456789
+            php_calendar = [];
             <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -393,18 +486,7 @@ function  simplifyDiffs(diff_string){
 
 function displayCalendar() {
 
-  getCal(); // to get the htmlContent
 
-  // building the calendar html body.
-  var calendarBody = "<table class='calendar'> <tr class='monthNow'><th colspan='7'>" +
-    monthNames[month] + " " + year + "</th></tr>";
-  calendarBody += "<tr class='dayNames'>  <td>Sun</td>  <td>Mon</td> <td>Tues</td>" +
-    "<td>Wed</td> <td>Thurs</td> <td>Fri</td> <td>Sat</td> </tr>";
-  calendarBody += "<tr>";
-  calendarBody += htmlContent;
-  calendarBody += "</tr></table>";
-  // set the content of div .
-  document.getElementById("calendar").innerHTML = calendarBody;
 
 }
 
@@ -624,7 +706,7 @@ if(isset($_SESSION["customer_name"])){
 
 
 
-
+<h4>CALENDAR VIEW</h4>
 
 <?php
 error_reporting(E_ALL);
@@ -699,7 +781,7 @@ $red_total = $total-$green_total;
 
 
 
-  <div id="calendar"></div>
+  
 
 
 <h4>learn new words</h4>
