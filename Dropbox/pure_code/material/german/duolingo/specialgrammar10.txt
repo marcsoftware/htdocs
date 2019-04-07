@@ -288,21 +288,32 @@ Du sollst nicht schreien. Man soll nicht schreien.
 Exercise 15
 Change the subject of each sentence to jemand and then to niemand. For example:
 Peter steht an der Tür. Jemand steht an der Tür. Niemand steht an der Tür.
-1. Seine Schwester hat das Geld gefunden.- [] []
+1. Seine Schwester hat das Geld gefunden.
+- [Jemand hat das Geld gefunden.] 
+- [Niemand hat das Geld gefunden.]
 2. Ist mein Bruder da?
+- [Ist jemand da?]
+- [Ist niemand da?]
 3. Die Lehrerinnen haben etwas zu sagen.
+-[Jemand hat etwas zu sagen.]
+-[Niemand hat etwas zu sagen. ]
 4. Der alte Herr hat den roten Sportwagen gekauft.
+- [Jemand hat den roten Sportwagen gekauft.]
+- [Niemand hat den roten Sportwagen gekauft. ]
 5. Ich werde dir helfen.
+- [ Jemand wird dir helfen. ]
+- [Niemand wird dir helfen.]
 6. Frau Schneider hat das Geld verloren.
+- [Jemand hat das Geld verloren.]
+- [Niemand hat das Geld verloren. ]
 7. Heute kommen unsere Verwandten zu Besuch.
+- [ Heute kommt jemand zu Besuch. ]
+- [Heute kommt niemand zu Besuch.]
 8. Meine Freunde warten an der Ecke.
+- [Jemand wartet an der Ecke.]
+- [Niemand wartet an der Ecke.]
 
-Exercise 15
-1. Jemand hat das Geld gefunden. Niemand hat das Geld gefunden. 2. Ist jemand da? Ist niemand da? 3. Jemand
-hat etwas zu sagen. Niemand hat etwas zu sagen. 4. Jemand hat den roten Sportwagen gekauft. Niemand hat
-den roten Sportwagen gekauft. 5. Jemand wird dir helfen. Niemand wird dir helfen. 6. Jemand hat das Geld
-verloren. Niemand hat das Geld verloren. 7. Heute kommt jemand zu Besuch. Heute kommt niemand zu Besuch.
-8. Jemand wartet an der Ecke. Niemand wartet an der Ecke.
+
 ------------------------------
 Exercise 16
 1. N 2. S 3. S 4. P 5. P 6. S 7. P 8. S 9. N 10. S
