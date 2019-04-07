@@ -728,53 +728,7 @@ if(isset($_SESSION["customer_name"])){
         die("Connection failed: " . $conn->connect_error);
     } 
     //get stats
-
-    $customer_name_calendar= $customer_name . '_calendar';
-    $sql = "SELECT *,COUNT(*)
-    FROM $customer_name_calendar      
-    GROUP BY first_look_date,difficulty";
-
-    $result = $conn->query($sql);
-    $response = $result->fetch_all(MYSQLI_ASSOC);
-
-    $days = [];
-    for($i=0;$i<count($response);$i++){
-        $date = ($response[$i]['first_look_date']);
-
-        $number = $response[$i]['COUNT(*)'];
-        $diff = $response[$i]['difficulty'];
-        
-        if(!isset ($days[$date])){
-            $days[$date]='';
-        }
-        $days[$date] .=$diff.':'.$number.'.';
-    }
-
-    echo '<br/>';
-
-    foreach ($days as $i => $diffs) {
-        $diffs_array = explode('.',$diffs);
-        
-        $total=0;
-        $green_total=0;
-        foreach ($diffs_array as $j => $diff_string) {
-            
-            $both = explode(':', $diff_string);
-            if(isset($both[1])){
-               $total+=( $both[1]);
-            }
-
-            if($j == 0){
-                $green_total = $both[1];
-            }
-        }
-
-$red_total = $total-$green_total;
-
-        echo "<p onmouseover=showStats(this,'$i','$diffs')>$i <span class='green' onclick=studyDay(this,'${i}','$diffs',0)>
-                    $green_total</span><span class=red onclick=studyDay(this,'$i','$diffs',1)>$red_total</span></p>"; 
-        
-    }    
+   
 }
 ?>
 
