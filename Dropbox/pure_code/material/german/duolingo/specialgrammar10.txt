@@ -316,7 +316,21 @@ Peter steht an der Tür. Jemand steht an der Tür. Niemand steht an der Tür.
 
 ------------------------------
 Exercise 16
-1. N 2. S 3. S 4. P 5. P 6. S 7. P 8. S 9. N 10. S
+In the blank provided, write S if the word or phrase in bold print is the subject of the sentence. Write
+P if the word or phrase in bold print is the predicate nominative. Write N if the word or phrase is
+neither the subject nor the predicate nominative. For example:
+S Die Männer spielen Karten.
+1. Meine Eltern kaufen *ein neues Haus*. - [n]
+2. Wann haben *Sie* diesen Roman gelesen?- [s]
+3. *Meine Verwandten* wohnen jetzt in Bremen.- [s]
+4. Seine Schwester will *Ärztin* werden.- [p]
+5. Er ist *kein Genie*.- [p]
+6. Dürfen *die Gäste* jetzt ein Stück Kuchen haben?- [s]
+7. Diese Mädchen sind alle *Tänzerinnen*.- [p]
+8. *Sie* spricht nicht nur Deutsch, sondern auch Italienisch.- [s]
+9. Ich brauche *es* für ein Experiment.- [n]
+10. Wo hast *du* diese Münzen gefunden?- [s]
+-------------------------------------------
 Exercise 17
 1. Haben deine (meine) Eltern sehr lange darauf gewartet? 2. War Onkel Franz in Dänemark? 3. Hast du mit
 deinem (Habe ich mit meinem) Professor gesprochen? 4. Ist die junge Krankenschwester eine Bekannte von
