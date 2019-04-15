@@ -1191,7 +1191,7 @@ function str_pad(n) {
             getData();
             
 
-            document.getElementById('name').addEventListener("keyup",    
+            document.getElementById('name').addEventListener("blur",    
                 function(x){  //TODO this is laggy
                     
                         var entry = x.target.value;
