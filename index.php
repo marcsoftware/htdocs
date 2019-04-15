@@ -32,7 +32,7 @@ body{
 <h1>CSV</h1>
 
 <p>My Top 5 Projects</p>
-1.<a href='/Dropbox/diet/diet.php'>Diet</a><br/>
+1.<a href='/Dropbox/diet/diet.php'>Calorie Tracker </a> - quickly add food & calories counts to database in fewer clicks that other websites. <br/>
 2.<a href='/Dropbox/todo/todo.php'>TODO list</a>*<br/>
 3.<a href='/Dropbox/german_simple/duolingo.php'> Flashcards - duolingo german</a><br/>
 4.<a href='/Dropbox/skill/skill.php'> skill trainer</a><br/>
