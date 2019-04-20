@@ -41,11 +41,11 @@
 
 
 
-    $sql = "SELECT * from $pantry_name where name='$item_name' and
+    $sql = "SELECT * from diet where name='$item_name' and
         (( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 )))
         ORDER BY date DESC  ";
 
-
+echo $sql;
     $result = $conn->query($sql);
     
 

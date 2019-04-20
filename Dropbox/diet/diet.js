@@ -68,8 +68,8 @@
                         };
                 
                 addNew(item); 
-                 
-                   sendToDatabase(item);
+                
+                sendToDatabase(item);
 
                 clearForm();
                 
@@ -407,7 +407,7 @@
            
 
             doBasicMath(item); // does simple arithmetic if present eg: 2.5*3 calories
-
+            alert(item.name);
 
             guess(item);
 
@@ -418,7 +418,7 @@
 
 
             doAlgebra(item); //fills in all the gaps that it can.
-
+            alert(item.name);
             doMoveAround(item);
 
             
@@ -1120,7 +1120,7 @@ function str_pad(n) {
         var global_stats;
         function getStats(item_name){
                var xmlhttp;
-
+console.log('getstats called');
                 if (window.XMLHttpRequest){
                     // code for IE7+, Firefox, Chrome, Opera, Safari
                     xmlhttp=new XMLHttpRequest();
@@ -1136,14 +1136,14 @@ function str_pad(n) {
 
                         var result = (xmlhttp.responseText.split("{END}"));
                         
-                        
+                        alert(result);
                         result=result[0].split(',');
                         
                         //echo $row["name"]." , ".$row[""]." , ".$row[""]." , ".$row[""]." , ".$row[""]."{END}";
 
                         //TODO should not fill in all the boxes.
                         global_stats=result;
-                        
+                        alert(result);
                      
 
                         
@@ -1155,6 +1155,7 @@ function str_pad(n) {
                
                
               item_name=item_name.replace(/[0-9]+/g,'');
+              alert("/Dropbox/diet/getStats.php?item_name="+item_name);
                 
                 xmlhttp.open("GET","/Dropbox/diet/getStats.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
@@ -1195,13 +1196,8 @@ function str_pad(n) {
                 function(x){  //TODO this is laggy
                     
                         var entry = x.target.value;
-                        if(x.keyCode==9){ // tab key is 9
-                            getSuggestions(entry); // if user hits tab key , immediately calculate calories
-                            return;
-                        }
-                        clearTimeout(timouthandle);
-                        
-                        timouthandle = setTimeout(function() { getSuggestions(entry)}, 500);
+                       
+                       getSuggestions(entry);
                 }
 
 
