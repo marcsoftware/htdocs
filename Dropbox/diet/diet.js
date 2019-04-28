@@ -407,7 +407,7 @@
            
 
             doBasicMath(item); // does simple arithmetic if present eg: 2.5*3 calories
-            alert(item.name);
+          
 
             guess(item);
 
@@ -418,7 +418,7 @@
 
 
             doAlgebra(item); //fills in all the gaps that it can.
-            alert(item.name);
+            
             doMoveAround(item);
 
             
@@ -1136,14 +1136,14 @@ console.log('getstats called');
 
                         var result = (xmlhttp.responseText.split("{END}"));
                         
-                        alert(result);
+                        
                         result=result[0].split(',');
                         
                         //echo $row["name"]." , ".$row[""]." , ".$row[""]." , ".$row[""]." , ".$row[""]."{END}";
 
                         //TODO should not fill in all the boxes.
                         global_stats=result;
-                        alert(result);
+                       
                      
 
                         
@@ -1155,7 +1155,7 @@ console.log('getstats called');
                
                
               item_name=item_name.replace(/[0-9]+/g,'');
-              alert("/Dropbox/diet/getStats.php?item_name="+item_name);
+              
                 
                 xmlhttp.open("GET","/Dropbox/diet/getStats.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
