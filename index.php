@@ -146,7 +146,7 @@ img{
 </div>
 
 <div class="box">
-    <h2>skill trainer </h2>
+    <h2>todo list </h2>
     <p>
      • a todo list that allows user to add a breakdown of steps<br/>
      </p>
