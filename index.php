@@ -75,7 +75,7 @@ body{
     <h2>Calorie Tracker</h2>
     <p> • quickly add food & calories counts to database in fewer clicks that other websites. <br/>
 <br/>
-<a href='/Dropbox/diet/diet.php' class='button' > Live </a> 
+<a href='/Dropbox/diet/diet.php' class='button' >Live</a> 
 <a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a></p>
 </div>
 
@@ -87,7 +87,7 @@ body{
 
     </p>
 <br/>
-<a href='/Dropbox/german_simple/duolingo.php' class='button' > Live </a>
+<a href='/Dropbox/german_simple/duolingo.php' class='button' >Live</a>
 <a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/pure_code" class='button'>Git</a>
 </div>
 
@@ -95,8 +95,8 @@ body{
     <h2>skill trainer </h2>
     <p> • target practice for FPS games but the target is not random so metrics are consistant.<br/>
 <br/>
-<a href='/Dropbox/skill/skill.php' class='button'> Live</a>
-<a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/skill' class='button'>Git </a>
+<a href='/Dropbox/skill/skill.php' class='button'>Live</a>
+<a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/skill' class='button'>Git</a>
 
 </div>
 
