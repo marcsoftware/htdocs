@@ -13,7 +13,7 @@ session_set_cookie_params(36000000);
 <style>
  .header{
             background-color:#e6e6e6;
-            display:inline-block;
+           
             padding:5px;
             margin: 0px;
             font-size: 10px;
@@ -43,12 +43,12 @@ session_set_cookie_params(36000000);
    
    		if(is_logged_in){
    			//if user is logged in draw the logout button
-    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/logout.php'>logout</a><br/>`;
+    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/logout.php'>logout</a>`;
             document.getElementById('username').innerHTML=customer_name;
     	}else{
     		//if user is not logged in draw the login button
-    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/login.php'>login</a><br/>`;
-    		document.getElementById('log').innerHTML+=`<a href='/Dropbox/login/register.php'>register</a><br/>`;
+    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/login.php'>login</a>`;
+    		document.getElementById('log').innerHTML+=`<a href='/Dropbox/login/register.php'>register</a>`;
 
             
     	}
@@ -63,7 +63,7 @@ session_set_cookie_params(36000000);
 <html>
 
     <p class='header'>
-        <a href='/'>HOME</a><br/>
+        <a href='/'>HOME</a>
         <span id='log'></span>       
         <span id='username'></span>   
     </p><br/>
