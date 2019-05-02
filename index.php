@@ -36,6 +36,14 @@ body{
 }
 
 
+td,
+th {
+
+  text-align: left;
+  padding: 0px;
+  width:50%;
+}
+
 
 .box h2 {
 	width:100%;
@@ -68,8 +76,8 @@ body{
 
 img{
 	object-fit: scale-down;
-	max-width:50%;
-	max-height:50%;
+	max-width:100%;
+	max-height:100%;
 	
 	
 }
@@ -84,80 +92,106 @@ img{
 </head>
 <body>
 	
-
 <div class="box">
-    <h2>Calorie Tracker</h2>
-    <p> 
-    	
-    	• quickly add food & calories counts to database in fewer clicks that other websites. <br/>
-    </p>
-    <div class="container">
-    		<img src="diet_picture.PNG" alt="screenshot of diet app" /><br/>
-    </div>
-<br/>
-<a href='/Dropbox/diet/diet.php' class='button' >Live</a> 
-<a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a></p>
+	<h2>Calorie Tracker</h2>
+	<table>
+		<tr>
+			<th>• quickly add food & calories counts to database in fewer clicks that other websites.</th>
+			<th><img src="diet_picture.PNG" alt="screenshot of diet app" /></th>
+
+		</tr>
+
+	</table>
+	<br/>
+	<a href='/Dropbox/diet/diet.php' class='button' >Live</a> 
+	<a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a>
 </div>
 
-<div class="box">
-    <h2>Flashcards </h2>
-    <p> 
-    	• flashcards but with lots of different modes.<br/>
-    	• Vocabulary is based on Duolingo German course.<br/>
 
-    </p>
-    <div class="container">
-    		<img src="capture_flashcards.PNG" alt="screenshot of flashcard app" /><br/>
-    </div>
-<br/>
-<a href='/Dropbox/german_simple/duolingo.php' class='button' >Live</a>
+
+
+
+<div class="box">
+	<h2>Flashcards</h2>
+	<table>
+		<tr>
+			<th>• quickly add food & calories counts to database in fewer clicks that other websites.</th>
+			<th>
+				<img src="capture_flashcards.PNG" alt="screenshot of flashcard app" /><br/>
+			</th>
+
+		</tr>
+
+	</table>
+	<br/>
+	<a href='/Dropbox/german_simple/duolingo.php' class='button' >Live</a>
 <a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/pure_code" class='button'>Git</a>
 </div>
 
-<div class="box">
-    <h2>skill trainer </h2>
-    <p>
-     • target practice for FPS games but the target is not random so metrics are consistant.<br/>
-     </p>
-     <div class="container">
-    		<img src="capture_skill.PNG" alt="screenshot of skill app" /><br/>
-    </div>
-<br/>
-<a href='/Dropbox/skill/skill.php' class='button'>Live</a>
-<a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/skill' class='button'>Git</a>
 
+
+<div class="box">
+	<h2>skill trainer</h2>
+	<table>
+		<tr>
+			<th> 
+				• target practice for FPS games but the target is not random so metrics are consistant.<br/> 
+			 </th>
+			<th>
+				<img src="capture_skill.PNG" alt="screenshot of skill app" />
+			</th>
+
+		</tr>
+
+	</table>
+	<br/>
+	<a href='/Dropbox/skill/skill.php' class='button'>Live</a>
+<a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/skill' class='button'>Git</a>
 </div>
 
 
 
 
 <div class="box">
-    <h2>BeatSaber - printable notation </h2>
-    <p>
-     • make printable sheets for BeatSaber game<br/>
-     </p>
-     <div class="container">
-    		
-    </div>
-<br/>
+	<h2>   BeatSaber - printable notation   </h2>
+	<table>
+		<tr>
+			<th>
+				• make printable sheets for BeatSaber game  
+			 </th>
+			<th>
+				
+			</th>
+
+		</tr>
+
+	</table>
+	<br/>
 <a href='/Dropbox/quicktools/beatsaber.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/quicktools' class='button'>Git</a>
-
 </div>
+
 
 <div class="box">
-    <h2>todo list </h2>
-    <p>
-     • a todo list that allows user to add a breakdown of steps<br/>
-     </p>
-     <div class="container">
-    		
-    </div>
-<br/>
+	<h2>   todo list  </h2>
+	<table>
+		<tr>
+			<th>
+				• a todo list that allows user to add a breakdown of steps  
+			 </th>
+			<th>
+				
+			</th>
+
+		</tr>
+
+	</table>
+	<br/>
 <a href='/Dropbox/todo/todo.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/todo' class='button'>Git</a>
-
 </div>
+
+
 
 <?php
 	if(isset($_SESSION["customer_name"]) && $_SESSION["customer_name"] == "bob"){
