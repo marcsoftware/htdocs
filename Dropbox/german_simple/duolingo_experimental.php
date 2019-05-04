@@ -34,13 +34,10 @@
                    read german: 
 
                   <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
-                  <a class='hyperlink' onclick=nextPage(this,'multichoice.php') rel='$file' name='$folder'>multichoice</a>
-                  <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a>
-                  <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
+                    <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a><a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
 
-                    <br/>
                     
-                    type german:
+                    <br/>type german:
                     <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>audio</a>
                     <a class='hyperlink' onclick=nextPage(this,'typetrack.php') rel='$file' name='$folder'>typetrack</a>
                     <a class='hyperlink' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest</a>
@@ -746,26 +743,29 @@ if(isset($_SESSION["customer_name"])){
     $folder = '../pure_code/material/german/duolingo';
     $file = 'tinycards-test1.txt';
     makeButtons('tinycards-test1.txt');
-
+    makeOtherButtons('grammar1.txt');
+    makeSenButtons('grammar1s.txt');
 
     makeButtons('tinycards-test2.txt');
-
+    makeOtherButtons('grammar2.txt');
+    makeSenButtons('grammar2s.txt');
 
     makeButtons('tinycards-test3.txt');
-
+    makeOtherButtons('grammar3.txt');
+    makeSenButtons('grammar3s.txt');
     
     makeButtons('tinycards-test4a.txt');
     makeButtons('tinycards-test4b.txt');
-
+    makeOtherButtons('grammar4.txt');
 
     makeButtons('tinycards-test5.txt');
-  
+    makeOtherButtons('grammar9a.txt');
     
     makeButtons('tinycards-test6.txt');
     makeButtons('tinycards-test7.txt');
     makeButtons('tinycards-test8.txt');
     makeButtons('all-german-words.txt');
-  
+    makeOtherButtons('grammar9.txt');
     
     
 ?>
