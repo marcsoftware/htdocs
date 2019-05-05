@@ -1,4 +1,4 @@
-<?php include '../../header.php';?>
+<?php include '../../header.php';?><!-- this file handles the actually typeing game-->
 <!DOCTYPE html>
 <html>
 
@@ -25,7 +25,7 @@
 </script>
 <script src="multichoice.js" content="text/html; charset=utf-8" ></script>
 
-<title>racetrack</title>
+<title>learn to spell</title>
 
 
 
@@ -33,29 +33,25 @@
 
 </script>
 
-
-
-<link rel="stylesheet" href="../modestyle.css">
-
-
+<link rel="stylesheet" type="text/css" href="multichoice.css">
 
 </head>
 <body>
 
-<input type='button'  onclick='prevGroup()' value='prev group' />
-<input type='button'  onclick='nextGroup()' value='next group' /><span id='bar'></span>
+<span id='bar'></span>
 
 <div class="loader" id='loader'> saving progress...</div> 
 <pre id='file'></pre>
 <pre id='track'></pre>
-<pre id='buttons'></pre>
-
-<input type='button'  onclick='getHint()' value='hint' /><pre id='hint'></pre>
-
-<body oncontextmenu="return false;">
 
 
-  <span id='timer'></span>
+<input type='text' id='input' onkeyup='check(this.value)' ></input>
+<input type='button' value='play audio' onclick='playAudio()' ></input><br/>
+<br/><br/><br/><br/>
+
+<input type='button' value='hint' onclick='showhint()' ></input><br/>
+
+  <span id='last'></span>
 
 
 
