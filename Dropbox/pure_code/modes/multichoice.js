@@ -21,7 +21,7 @@ function init(){
 	shuffle(global_lines);
 	drawActive();
   
-	drawButtons();
+
 }
 
 /*
@@ -41,6 +41,9 @@ function drawActive(){
 
   current_word_missed=false;
   var words = global_lines[globalCounter].split('\t');
+
+  
+
   var german= words[0];
   var english= words[1];
   global_audio=german;
@@ -50,7 +53,60 @@ function drawActive(){
   global_audio=german;
   document.getElementById('track').innerHTML=english;
   //playAudio();
+  drawButtons();
 }
+
+/*
+//---------------------------------------------------------------------
+//  draw buttons that the user clicks on
+//---------------------------------------------------------------------
+*/
+function drawButtons(){
+
+	var random_words = [];
+
+	while(random_words.length < 3){
+		random_line = ( global_lines[Math.floor(Math.random()*global_lines.length)] );
+		one_word = random_line.split('\t');
+		one_word=one_word[0] ;// zero get the left side which is german
+		one_word = removeArticles(one_word);
+		random_words.push(one_word[0]);
+	}
+	random_words.push(global_ans_key[0]);
+
+
+	document.getElementById('buttons').innerHTML='';
+	var all = random_words;
+	shuffle(all);
+	for(var i =0;i<all.length;i++){
+
+		var template= `<input type=button class='userInput' value="${all[i]}" onclick='check(this.value)'></input>`;
+		if(i==9){
+			document.getElementById('buttons').innerHTML+='<br/>';
+		}
+
+		document.getElementById('buttons').innerHTML+=template;
+	}
+
+}
+
+
+/**
+ * Shuffles array in place.
+ * @param {Array} a items An array containing the items.
+ */
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
+
 
 /**
 //-----------------------------------------------------------
@@ -76,18 +132,10 @@ function playAudio(){
 //---------------------------------------------------------------------
 */
 function removeArticles(word){
-  return word.replace(/(der |die |das |the )/g,'')
+  	return word.replace(/(der |die |das |the )/g,'')
 }
 
-/*
-//---------------------------------------------------------------------
-//  draw buttons that the user clicks on
-//---------------------------------------------------------------------
-*/
-function drawButtons(){
 
-	
-}
 
 
 /*
@@ -168,7 +216,7 @@ function compare(input,key){
 
 
 
-  if(key===input){
+  if(key[0]===input[0]){ //[0] mean compare just the 1st letter
     
       return true;
       
@@ -208,10 +256,10 @@ function drawBar(){
 //---------------------------------------------------------------------
 */
 function nextWord(){
-  document.getElementById('last').innerHTML=global_lines[globalCounter].replace(/\t/g, '---');
+	document.getElementById('last').innerHTML=global_lines[globalCounter].replace(/\t/g, '---');
 	globalCounter++;	
-  document.getElementById('input').value='';
-  drawBar();
+
+	drawBar();
 	drawActive();
 
 	

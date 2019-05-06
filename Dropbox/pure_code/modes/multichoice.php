@@ -44,13 +44,8 @@
 <pre id='file'></pre>
 <pre id='track'></pre>
 
-
-<input type='text' id='input' onkeyup='check(this.value)' ></input>
-<input type='button' value='play audio' onclick='playAudio()' ></input><br/>
-<br/><br/><br/><br/>
-
-<input type='button' value='hint' onclick='showhint()' ></input><br/>
-
+ <span id='buttons'></span>
+<br/>
   <span id='last'></span>
 
 
