@@ -92,6 +92,7 @@
 
   body{
      background-color: #2ECC71;
+     background-color: white;
   }
     h5{
         

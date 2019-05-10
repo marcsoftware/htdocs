@@ -18,6 +18,7 @@
 	font-family: inherit;
 	font-size: 10px;
 	color: inherit;
+
 	background: none;
 	cursor: pointer;
 	padding: 10px ;
@@ -36,6 +37,7 @@
 
 .btn:after {
 	content: '';
+
 	position: absolute;
 	z-index: -1;
 	-webkit-transition: all 0.3s;
@@ -143,16 +145,21 @@
 	border-radius: 10px;
 	border: 3px solid #fff;
 	color: #fff;
+	color:black;
 	overflow: hidden;
+	border-color:black;
 }
 
 .btn-4:active {
 	border-color: #17954c;
+
+
 	color: #17954c;
 }
 
 .btn-4:hover {
 	background: #24b662;
+	border-color:white;
 }
 
 .btn-4:before {
