@@ -19,19 +19,24 @@
             font-size: 20px;
        }
 
-       #burnedCal{
-            font-size: 20px;
-        } 
-
-        #netCal{
-            font-size: 20px;
-        }
-        input{
-         width: 15%;
+      
+        .form{
+         width: 70%;
          height: 40px;
          font-size: 24px;
          margin-right:1px;
-         padding-left: 2px;
+         padding-left: 5px;
+         margin-bottom:4px;
+
+        }
+
+        input{
+        	 width: 15%;
+         height: 40px;
+         font-size: 24px;
+         margin-right:1px;
+         padding-left: 5px;
+         margin-bottom:4px;
         }
 
         .recalc{
@@ -47,10 +52,7 @@
            background-color: #ffff66;
         }
         
-        #name{
-            width: 50%;
-
-        }
+       
         #submit{
             height: 60px;
         }
@@ -75,8 +77,12 @@
             cursor:default;
         }
 
-        div{
-            background-color: gray;
+        #form{
+            background-color: #e6e6ff;
+            margin:auto;
+            width:40%;
+            padding:10px;
+           border: 1px solid blue;
         }
 
         #play{
@@ -105,6 +111,7 @@
          }
 
 
+
     </style>
 
 
@@ -120,7 +127,7 @@
 <body >
 
 <span id='debug'></span>
-    <div>
+    <div id='form' >
 
             
         <datalist id="suggestions">
@@ -133,12 +140,13 @@
 
         </datalist>
 
-        name:<input type='text' list="suggestions" id='name' value=''></input><br/>
-        total cals:<input type='text' id='total_cals' value='' ></input><br/>
-        total amount:<input type='text' id='total_amount' list='suggestion_labels' value=''></input><span id='more_labels'></span><br/>
-        cal per serv:<input type='text' id='cal_per_serv' value=''></input><br/>
-        amount per serv:<input type='text' id='amount_per_serv' list='suggestion_labels' value=''></input><br/>
-        <input type='button' value='submit' id='submit' onclick='saveItem()'></input>
+        <input type='text' class='form' list="suggestions" id='name' value=''></input>name:<br/>
+        <input type='text' class='form' id='total_cals' value='' ></input>total cals:<br/>
+        <input type='text'  class='form' id='total_amount' list='suggestion_labels' value=''>total amount:</input><br/>
+        <span id='more_labels'> </span><br/>
+        <input type='text'  class='form' id='cal_per_serv' value=''></input>cal per serv:<br/>
+        <input type='text' class='form' id='amount_per_serv' list='suggestion_labels' value=''></input>amount per serv:<br/>
+        <input type='button' class='form' value='submit' id='submit' onclick='saveItem()'></input>
 
         <a href="pantry.php">pantry</a>
 
