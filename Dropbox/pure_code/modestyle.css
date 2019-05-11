@@ -34,6 +34,7 @@ body {
         background-color: black;
         max-width: 100%;
         font-size: 50px;
+        text-align: center;
 }
 
 .userInput{
