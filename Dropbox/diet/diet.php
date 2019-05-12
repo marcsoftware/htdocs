@@ -87,6 +87,8 @@
 
         #play{
         	background-color:white; 
+        	margin-top:0px;
+        	padding-top: 0px;
         }
 
         ul{
@@ -110,7 +112,43 @@
          
          }
 
+         #day_menu{
+         	margin:auto;
+         	display:block;
+         	width:20%;
+         	margin-bottom: 0px;
+         	
+         }
 
+
+        .day_button{
+        	 width: 32%;
+         height: 40px;
+         font-size: 24px;
+         margin-right:1px;
+         padding-left: 5px;
+         margin-bottom:4px;
+        }
+
+       .title{
+       	text-decoration:underline;
+       	display: inline-block;
+         width: 14%;
+         
+         font-size: 24px;
+         margin-right:1px;
+         padding-left: 5px;
+        
+         border-color: red;
+         margin-bottom: 0px;  
+         padding:0px;
+         text-align: center;
+
+       }
+
+       .padding{
+       	margin-left: 110px;
+       }
 
     </style>
 
@@ -153,12 +191,18 @@
     </div>
   ⚡<span id='consumedCal'></span> consumed<br/>
     <br/>
-    <input class='big' type=button value=⇦ onclick='changeDate(-1)'></input>
-    <input class='big' type=button value='∘'  onclick='resetDate()'></input>
-    <input class='big' type=button value=⇨  onclick='changeDate(1)'></input>
-
+    <span id='day_menu'>
+	    <input class='day_button' type=button value=⇦ onclick='changeDate(-1)'></input>
+	    <input class='day_button' type=button value='∘'  onclick='resetDate()'></input>
+	    <input class='day_button' type=button value=⇨  onclick='changeDate(1)'></input>
+   </span>
     <br/>
-    <input value="name" ></input><input value="total cals" ></input><input value="total amount" ></input><input value="cals  serv" ></input><input value="amount  serv" ></input><input value="date" ></input>
+    <span  class='title padding' value="name" >name</span>
+    <span class='title'  value="total cals" >total cals</span>
+    <span  class='title' value="total amount" >total amout</span>
+    <span  class='title' value="cals  serv" >cals serv</span>
+    <span  class='title' value="amount  serv" >amount serv</span>
+    <span  class='title' value="date" >date</span>
 	<div id="play">
 	    <ul id="result" class="linked">
 	        </ul>
