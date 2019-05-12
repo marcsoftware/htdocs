@@ -32,7 +32,7 @@
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	width:15%;
+	width:20%;
 }
 
 .btn:after {
@@ -95,7 +95,7 @@
 }
 
 .icon-arrow-right:before {
-	content: "\e00d";
+	content: "🡆";
 }
 
 .icon-arrow-left:before {
@@ -151,15 +151,18 @@
 }
 
 .btn-4:active {
-	border-color: #17954c;
 
 
-	color: #17954c;
+background: white;
+	border-color:black;
+	color:black;
+	
 }
 
 .btn-4:hover {
-	background: #24b662;
-	border-color:white;
+	background: white;
+	border-color:black;
+	color:black;
 }
 
 .btn-4:before {
@@ -167,7 +170,7 @@
 	height: 100%;
 	
 	line-height: 3.5;
-	color: #fff;
+	color: black;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;

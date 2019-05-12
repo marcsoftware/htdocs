@@ -96,7 +96,7 @@
   }
     h5{
         
-        color:#299F2B;
+        color:red;
         
         padding:0px;
 
@@ -142,22 +142,45 @@
 
 
 div{
-  color:white;
+  color:black;
   padding-bottom:5px;
   width:30%;
   margin:auto;
   padding-top: 2px;
   padding-left: 2px;
-    border-style: dashed;
+   
     border-color: #2ECC71;
     border-bottom-color: black;
+    margin-top:0px;
   
 }
-div:hover{
-  border-style: dashed;
-  border-color: black;
+.tab:hover{
+
 }
 
+
+.tabBar{
+  border-style: none;
+
+}
+
+
+.tab_button{
+  background-color: black;
+  color:white;
+  margin:0;
+  width: 9%;
+  border-style: none;
+  border-color: black;
+  padding: 0;
+}
+
+.clicked{
+  background-color:white;
+  color:red;
+  border-top-color: red;
+  border-top-style: solid;
+}
 
  
 
@@ -180,8 +203,16 @@ function openTab(ref) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
+
+  var x = document.getElementsByClassName("clicked");
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.remove('clicked');
+  }
+  ref.classList.add('clicked');
+
   document.getElementById(tabName).style.display = "block";  
 }
+
 
 
 window.onload = function() {
@@ -204,17 +235,17 @@ window.onload = function() {
 
 <body>
 
-<div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button"  id='start' onclick="openTab(this)">1</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">2</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">3</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">4a</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">4b</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">5</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">6</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">7</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">8</button>
-  <button class="w3-bar-item w3-button" onclick="openTab(this)">all</button>
+<div class="w3-bar w3-black tabBar" >
+  <button class="w3-bar-item w3-button tab_button"  id='start' onclick="openTab(this)">1</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">2</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">3</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">4a</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">4b</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">5</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">6</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">7</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">8</button>
+  <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">all</button>
 </div>
 
 
