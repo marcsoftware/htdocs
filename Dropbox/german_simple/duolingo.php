@@ -171,151 +171,26 @@ div:hover{
 <script type='text/javascript'>
 
 
-  main();
-    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    //CALENDARY STUFF
 
-    // show stats on a particular day.
-    function showStats(handle,day,diffs){
-       // console.log(day);
-    }
-
-
-
-    // selft study the selected day
-    //param: color is a number, 1 is for red. 0 is for green
-    function studyDay(handle,date,diffs,color){
-        
-        //console.log(handle.className );
-        gotoCalendarPage(date,color);
-    }
+function openTab(ref) {
+  
+  tabName=ref.innerHTML;
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
+}
 
 
-    // takes user to the special study page that has words form the database
-    function gotoCalendarPage(date,color){
-        
-        setDate(date,color);
-        
-      
-        //go to a new web page
-        var page ="/Dropbox/pure_code/modes/de_selftest.php?fileName=getCalendarWords.php&folder=../pure_code/material/german/duolingo&mode=de_selftest.php&cleanup=0&block=4";
+window.onload = function() {
+  openTab(document.getElementById('start'));
+};
 
-        window.location.href=page; 
-        
-
-    }
-
-
-    /**
-    //---------------------------------------------------------------------
-    // creates a SESSION varibles that hold the 'day' that the user clicked on calendar
-    //---------------------------------------------------------------------
-    */
-    function setDate(date,color){
-
-        var xmlhttp;    
-        
-        if (window.XMLHttpRequest){
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp=new XMLHttpRequest();
-        }
-        else{
-            // code for IE6, IE5
-            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange=function(){
-            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
-                 
-                //alert(xmlhttp.responseText);
-                
-            }
-        }
-
-
-
-        //TODO pass the global var date
-        
-
-        xmlhttp.open("GET",'/Dropbox/pure_code/modes/setDate.php?date='+date+'&color='+color,false); // TODO This is badpractice. Turn false into true. //////
-        xmlhttp.send();
-        
-    }
-
-
-   /**
-    //---------------------------------------------------------------------
-    // empty table
-    //---------------------------------------------------------------------
-    */
-    function emptyTable(){
-
-        var xmlhttp;    
-        
-        if (window.XMLHttpRequest){
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp=new XMLHttpRequest();
-        }
-        else{
-            // code for IE6, IE5
-            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange=function(){
-            if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
-                 
-                //alert(xmlhttp.responseText);
-                
-            }
-        }
-
-
-
-        //TODO pass the global var date
-        
-
-        xmlhttp.open("GET",'/Dropbox/pure_code/emptyTable.php',false); // TODO This is badpractice. Turn false into true. //////
-        xmlhttp.send();
-        
-    }
-
-    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 </script>
 
-<script type='text/javascript'>
-	// this functin is called by an href element. that element has properties name and value
-    // value should have the filename
-    // name should be the filepath
-    /// mode : global variable
-    function nextPage(handle,mode,block_length=4){
 
-        // these variables come from the href elements properties
-
-
-        name = handle.rel;
-        path = handle.name;
-
-        //make url
-
-        var page_template='/Dropbox/pure_code/modes/MODE?fileName=FILENAME&folder=PATH&mode=MODE&cleanup=0&block=BLOCK';
-        var new_page = page_template.replace(/FILENAME/g,name);
-        new_page = new_page.replace(/PATH/g,path);
-        new_page = new_page.replace(/MODE/g,mode);
-        new_page = new_page.replace(/BLOCK/g,block_length)
-        //new_page = "http://127.0.1.1"+new_page;
-
-
-        //go to a new web page
-
-        window.location.href=new_page; 
-
-        
-
-    }
-
-
-
-
- 
-</script>
 
 
 
@@ -329,10 +204,21 @@ div:hover{
 
 <body>
 
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button"  id='start' onclick="openTab(this)">1</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">2</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">3</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">4a</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">4b</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">5</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">6</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">7</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">8</button>
+  <button class="w3-bar-item w3-button" onclick="openTab(this)">all</button>
+</div>
 
 
-<h4>learn new words</h4>
-<div>
+<div class='tab' id='1'>
 <h5>Part 1</h5>
              <p>     
                   
@@ -352,7 +238,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"testvocab.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='2'>
                     <h5>tinycards-test2.txt</h5>
 <p>
                    read german:  <br/>
@@ -370,8 +256,8 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
-</div>
-<div>
+</div >
+<div class='tab' id='3'> 
                     <h5>tinycards-test3.txt</h5>
                     <p>
                    read german:       <br/>
@@ -390,7 +276,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='4a'>
                     <h5>tinycards-test4a.txt</h5>
                     <p>
                    read german:       <br/>
@@ -409,7 +295,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='4b'>
                     <h5>tinycards-test4b.txt</h5>
                     <p>
                    read german:       <br/>
@@ -428,7 +314,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='5'>
                     <h5>tinycards-test5.txt</h5>
                     <p>
                    read german: <br/>
@@ -447,7 +333,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='6'>
                     <h5>tinycards-test6.txt</h5>
                     <p>
                    read german: <br/>
@@ -466,7 +352,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='7'>
                     <h5>tinycards-test7.txt</h5>
                     <p>
                    read german: <br/>
@@ -485,7 +371,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='8'>
                     <h5>tinycards-test8.txt</h5>
                     <p>
                    read german: <br/>
@@ -504,7 +390,7 @@ div:hover{
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>blank</a>
 </p>
 </div>
-<div>
+<div class='tab' id='all' >
                     <h5>all-german-words.txt</h5>
                     <p>
                    read german: <br/>
