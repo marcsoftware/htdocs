@@ -150,6 +150,11 @@
        	margin-left: 110px;
        }
 
+       #more_labels{
+  			vertical-align: top;
+  
+		}
+
     </style>
 
 
