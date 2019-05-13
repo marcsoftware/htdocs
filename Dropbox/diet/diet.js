@@ -570,6 +570,7 @@
              }
 
              addNew(item);
+
              sendToDatabase(item);   
              softReset();
         }
@@ -843,6 +844,10 @@ function str_pad(n) {
         // pre-condition: should call doUnitConversion(item) before this one to make sure units match
         function doAlgebra(item){
 
+            item.cal_per_serv = item.cal_per_serv.replace(/\s+/g, '');
+            item.amount_per_serv = item.amount_per_serv.replace(/\s+/g, '');
+            item.total_amount = item.total_amount.replace(/\s+/g, '');
+            item.total_cals = item.total_cals.replace(/\s+/g, '');
 
             if(isTrue(item.cal_per_serv) && isTrue(item.amount_per_serv) && (item.total_amount || item.total_cals)){
                 //if true then we have enough info to work with
