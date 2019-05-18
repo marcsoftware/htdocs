@@ -175,6 +175,8 @@ div{
   padding: 0;
 }
 
+
+
 .clicked{
   background-color:white;
   color:red;
@@ -193,7 +195,31 @@ div{
 
 <script type='text/javascript'>
 
+    function nextPage(handle,mode,block_length=4){
 
+        // these variables come from the href elements properties
+
+
+        name = handle.rel;
+        path = handle.name;
+
+        //make url
+
+        var page_template='/Dropbox/pure_code/modes/MODE?fileName=FILENAME&folder=PATH&mode=MODE&cleanup=0&block=BLOCK';
+        var new_page = page_template.replace(/FILENAME/g,name);
+        new_page = new_page.replace(/PATH/g,path);
+        new_page = new_page.replace(/MODE/g,mode);
+        new_page = new_page.replace(/BLOCK/g,block_length)
+        //new_page = "http://127.0.1.1"+new_page;
+
+
+        //go to a new web page
+
+        window.location.href=new_page; 
+
+        
+
+    }
 
 function openTab(ref) {
   
