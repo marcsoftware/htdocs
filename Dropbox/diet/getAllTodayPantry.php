@@ -17,6 +17,7 @@
     $customer_name = $_SESSION["customer_name"];
     date_default_timezone_set('America/Denver');
  
+    $customer_pantry = $customer_name.'_pantry';
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
@@ -24,19 +25,27 @@
         die("Connection failed: " . $conn->connect_error);
     }
     
+    $date=date("Y/m/d");
+
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT distinct name  from diet where customer_name='$customer_name' or customer_name IS NULL   
-           
-            ORDER BY  date ASC";//ORDER BY article_rating DESC, article_time DESC
+    $sql = "SELECT * from $customer_pantry where date='$date'
+            ";//ORDER BY article_rating DESC, article_time DESC
     
 
     $result = $conn->query($sql);
     
     while($row = $result->fetch_assoc()) {
         // NOTE: id has to be the last field and be seperated by comma
-        echo $row["name"].",";
+
+        echo $row["upc"].",".$row["name"].",".
+             $row["amount_per_serv_unit"].",".
+             $row["amount_per_serv_label"].",".
+             $row["cal_per_serv"].",".
+             $row["total_cals"].",".
+             $row["id"].",".
+             "{END}";
       
     }
-echo $sql;
+
     $conn->close();
     ?>

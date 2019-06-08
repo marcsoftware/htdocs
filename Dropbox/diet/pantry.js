@@ -1,9 +1,9 @@
-
+var global_total_calories=0;
 window.onload=init();
  
  function init() {
- getMissingDataPantry();
 
+getAllToday();
     var x=document.getElementById("submit").addEventListener('click',saveUPC);
     
 };
@@ -13,9 +13,10 @@ function saveUPC(){
     
     var handle = document.getElementById('inputUPC');
     
-    saveUPCDatabase(handle.value);
+    //saveUPCDatabase(handle.value);
+    document.getElementById("aform").submit();
     document.getElementById('missingData').innerHTML='';
-    getMissingDataPantry();
+   getAllToday();
     
 }
 
@@ -48,12 +49,22 @@ function saveUPCDatabase(records){
     }
 
 
-   records=records.replace(/\n/g,',');
+   records=records.split("\n");
 
+   var records = records.filter(function (el) {
+        return el != '' && el != null;
+    });
+
+   records=records.join(',');
+
+   
+   if(!records.length){
+    return;
+   }
     
     document.getElementById('loader').style.display = "block";
     
-
+alert("/Dropbox/diet/saveUPC.php?records="+records);
     xmlhttp.open("GET","/Dropbox/diet/saveUPC.php?records="+records,
     false); // TODO This is badpractice. Turn false into true. //////
     xmlhttp.send();
@@ -98,11 +109,52 @@ function getMissingDataPantry(){
 
 }
 
+
+/**
+//---------------------------------------------------------------------
+// get empty UPC from the database
+//---------------------------------------------------------------------
+*/
+function getAllToday(){
+
+    var xmlhttp;
+
+    if (window.XMLHttpRequest){
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else{
+        // code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+            var list = (xmlhttp.responseText);
+            
+            list=list.replace(/\s/g,'');
+            list=list.split('{END}');
+            list.pop(); //delete last one since it is empty
+            
+            wrap(list);
+            document.getElementById('global_total_calories').innerHTML=global_total_calories;
+
+        }
+    }
+    
+
+    xmlhttp.open("GET","/Dropbox/diet/getAllTodayPantry.php",
+    true); // TODO This is badpractice. Turn false into true. //////
+    xmlhttp.send();
+
+}
+
 // turn the list from getMissingDataPantry() into an editable table
 // input: list ->array of UPCs
 //output: populates the 'missingData' html element with input-elements
+
+
 function wrap(list){
-    
+     
     for(var i =0;i<list.length;i++){
         
         var fields = list[i].split(",");
@@ -114,7 +166,14 @@ function wrap(list){
         var serv_per_container=fields[5];
         var id = fields[6];
         var name_string=`name="${id}"`; //use t
+       
+        if( !Number.isNaN(parseInt(serv_per_container)) ){
+
+                global_total_calories+=parseInt(serv_per_container);
+               
+        }
          var delete_button =`<span onclick="addOrRemove(${id},this)" >❌</span>`;   
+        
         document.getElementById('missingData').innerHTML+=
         `<input type=text  ${name_string}
             onchange="fix( ${id}  ,'name',this.value)"
@@ -125,14 +184,8 @@ function wrap(list){
             onchange="fix( ${id} ,'upc',this.value,this)"
             value=${UPC}>
         </input>
-        <input type=text  ${name_string}
-            onchange="fix( ${id}  ,'amount_per_serv',this.value)"
-            value=${serving_size}>
-        </input>
-        <input type=text  ${name_string}
-            onchange="fix( ${id}  ,'cal_per_serv',this.value)"
-            value=${cal_per_serv}>
-        </input>
+       
+      
         <input type=text  ${name_string}
             onchange="fix( ${id}  ,'serv_per_container',this.value)"
             value=${serv_per_container}>

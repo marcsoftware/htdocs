@@ -1,7 +1,6 @@
 
 
 
-
     /**
     //---------------------------------------------------------------------
     //  Program starts here
@@ -183,16 +182,16 @@
         //---------------------------------------------------------------------
         */         
         function removeDuplicates(arr){
+           
                 var unique_array = [];
                 for(var i = 0;i < arr.length; i++){
 
-                    if(arr[i].search(/[0-9\.]/)<0)
-                    {
+                    
                         if(unique_array.indexOf(arr[i]) == -1){
                             unique_array.push(arr[i]);
 
                         }
-                    }
+                    
                 }
                 return unique_array;
         }
@@ -245,7 +244,6 @@
         /**
         //---------------------------------------------------------------------
         // makes labels compatible for doing algebra
-
         //---------------------------------------------------------------------
         */
         function doUnitConversion(item){
@@ -598,11 +596,11 @@
 //
 //---------------------------------------------
 function stringDate(){
-	var today = new Date();
+    var today = new Date();
     today.setDate(today.getDate()+date);
-	var string_date = today.getFullYear()+'/'+(  str_pad(today.getMonth()+1)   )+'/'+(str_pad(today.getDate()));
-	
-	return string_date;
+    var string_date = today.getFullYear()+'/'+(  str_pad(today.getMonth()+1)   )+'/'+(str_pad(today.getDate()));
+    
+    return string_date;
 
 }
 
@@ -844,7 +842,21 @@ function str_pad(n) {
         // pre-condition: should call doUnitConversion(item) before this one to make sure units match
         function doAlgebra(item){
 
-        
+            if(typeof item.cal_per_serv === 'string'){
+                item.cal_per_serv = item.cal_per_serv.replace(/\s+/g, '');
+            }
+            if(typeof item.amount_per_serv === 'string'){
+                item.amount_per_serv = item.amount_per_serv.replace(/\s+/g, '');
+            }
+            if(typeof item.total_amount === 'string'){
+                item.total_amount = item.total_amount.replace(/\s+/g, '');
+            }
+            if(typeof item.total_cals === 'string'){
+                item.total_cals = item.total_cals.replace(/\s+/g, '');
+            }
+            
+          
+
             if(isTrue(item.cal_per_serv) && isTrue(item.amount_per_serv) && (item.total_amount || item.total_cals)){
                 //if true then we have enough info to work with
                 
@@ -1560,6 +1572,7 @@ console.log('getstats called');
                         result = global_suggestions.concat(result);
                         result = removeDuplicates(result);
                         global_suggestions =(result);
+                        
                         var options='';
                         var template = '<option value="ITEM_NAME" />';
                         for(var i=0;i<result.length;i++){
@@ -1692,7 +1705,3 @@ console.log('getstats called');
 
         }
         
-
-    
-    
-

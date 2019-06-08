@@ -1,15 +1,24 @@
+
+<?php include '../header.php';?>
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 // when user completes selfttest.php mode
 // save words to database
 
+function valid($var)
+{
+    // returns whether the input integer is odd
+
+    return strlen($var)==0;
+}
+
 //create table if it doesn't already exsist
-session_start();
+
 $customer_name = $_SESSION["customer_name"];
-echo $customer_name;
+
 $dbname='diet';
-$records=$_GET["records"];
+$records=$_POST["records"];
 
 require_once('../passwords/db_const.php');
 
@@ -27,28 +36,50 @@ $result = $conn->query($sql);
 $date=date("Y/m/d");
 
 //turn array into 3 array to make it easier to save
+$records = explode("\n", $records);
+
+
+
+
+$records = implode(",", $records);
 $records=str_replace("'","Z",$records); // turn quotes into HTML so they don't break the SQL command
 $records = preg_split("/,/", $records);
 
 //get letters
-$template = " insert INTO $customer_pantry (name,upc,date) VALUES('{NAME}','{UPC}',$date);";
+$template = " insert INTO $customer_pantry (name,upc,date,total_cals) VALUES('{NAME}','{UPC}','$date','{TOTAL_CALS}');";
 $list_sql='';
 $name='';
 for ($i = 0; $i < count($records); $i+=1) {
    	//get letters
  	//get letters
-
+    if(strlen($records[$i])==0){
+      continue;
+    }
    	preg_match('/[a-z\ ]+/', $records[$i], $matches); //get letts from UPC
     
-   	$matches=join('',$matches); //convert to STRING
-
+   	$name=join('',$matches); //convert to STRING
+     
     $records[$i]=str_replace($matches,"",$records[$i]); // delete name from UPC
-   	
+    $upc = trim($records[$i]);
+   	/*
+      SELECT *
+  FROM bob_pantry a, shared b
+  where b.total_cals is not null;
 
-   	$new_sql =str_replace("{UPC}", $records[$i], $template);
-    $new_sql =str_replace("{NAME}", $matches, $new_sql);
+
+    */
+     $total_cals=getPantryData($upc);
+     if(isset($total_cals) ){
+        $total_cals=getSharedData($upc);
+     }
+  
+   	$new_sql =str_replace("{UPC}", $upc, $template);
+    $new_sql =str_replace("{NAME}", $name, $new_sql);
+    $new_sql =str_replace("{TOTAL_CALS}", $total_cals, $new_sql);
    	$list_sql.=$new_sql;
+
 }
+
 //save words to the table
 
 //$list_sql=  json_encode($list_sql);
@@ -58,17 +89,98 @@ for ($i = 0; $i < count($records); $i+=1) {
 
 
 
-echo $list_sql;
 // execute queries
 
 if ($conn->multi_query($list_sql) === TRUE) {
-    echo "New records created successfully";
+    echo "New records created successfully<br/>";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error . '<br/>';
+    //echo "Error: " . $sql . "<br>" . $conn->error . '<br/>';
    // echo $list_sql;
 }
 
+//--------------------------------------------------------------------
+//  look for totcal_cals in the shared database
+//--------------------------------------------------------------------
+function getSharedData($upc){
+   global $servername;
+   global $username;
+   global $password;
+   global $dbname;
+   global $customer_pantry;
+    // Create connection
+    $conn = new mysqli( $servername,  $username,  $password,  $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    
 
 
+
+
+
+    $sql = "SELECT * from shared where upc='$upc' and
+        total_cals is not null
+          ;";
+
+
+    $result = $conn->query($sql);
+    
+
+    while($row = $result->fetch_assoc()) {
+        
+    
+
+       return($row["total_cals"]);
+
+      
+    }
+
+    return null; // none found
+}
+
+
+//--------------------------------------------------------------------
+//  look for totcal_cals in the shared database
+//--------------------------------------------------------------------
+function getPantryData($upc){
+   global $servername;
+   global $username;
+   global $password;
+   global $dbname;
+   global $customer_pantry;
+    // Create connection
+    $conn = new mysqli( $servername,  $username,  $password,  $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    
+
+
+
+
+
+    $sql = "SELECT * from $customer_pantry where upc='$upc' and
+        total_cals is not null
+          ;";
+
+
+    $result = $conn->query($sql);
+    
+
+    while($row = $result->fetch_assoc()) {
+        
+     
+
+       return($row["total_cals"]);
+       
+      
+    }
+  return null;
+   
+}
 
 $conn->close();
+?>
+<a href="javascript:history.back()">Go Back</a>

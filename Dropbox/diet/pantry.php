@@ -34,6 +34,7 @@
 
        input[type=text]{
             height: auto;
+            width: 14%;
 
        }
 
@@ -56,6 +57,23 @@
 
         }
 
+        
+       .title{
+        text-decoration:underline;
+        display: inline-block;
+         width: 14.5%;
+         
+         font-size: 24px;
+         margin-right:1px;
+         padding-left: 5px;
+        
+         border-color: red;
+         margin-bottom: 0px;  
+         padding:0px;
+         text-align: center;
+
+       }
+
         .loader {
             border: 16px solid #f3f3f3; /* Light grey */
             border-top: 16px solid #3498db; /* Blue */
@@ -70,6 +88,7 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
 
     </style>
 
@@ -87,16 +106,25 @@
 <br/>
 <div>
    
- <a href='allpantry.php'>all pantry</a>
-<textarea id='inputUPC'></textarea>
+<a href='allpantry.php'>all pantry</a>
+<a href='getAllTodayPantry.php'>today</a>
+<form method="POST" action="saveUPC.php" id="aform">
+    <textarea name='records' id='inputUPC'></textarea>
 
- <input type='button' value='submit' id='submit' onclick='saveUPC()' ></input>
-  <div class="loader" id='loader'></div> 
+     <input type="submit" value="Submit">
+</form>
+<div class="loader" id='loader'></div> 
 
- <div>
-    <h6>missing info:</h6>
-    <div id='missingData'></div>
+<div>
+<h6>Todays Items:</h6>
+<span  class='title padding' value="name" >name</span>
+    <span class='title'  value="total cals" >total cals</span>
+
+    <span  class='title' value="amount  serv" > calories per container</span>
+    
+<div id='missingData'></div>
 </body>
 <?php include '../header.php';?>
+total calories scanned:<span id='global_total_calories'></span>
 <script src="pantry.js"></script>
 </html> 
