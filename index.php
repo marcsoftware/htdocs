@@ -96,7 +96,9 @@ img{
 	<h2>Calorie Tracker</h2>
 	<table>
 		<tr>
-			<th>• quickly add food & calories counts to database in fewer clicks that other websites.</th>
+			<th>• quickly add food & calories counts to database in fewer clicks that other websites.<br/>
+				• has small pre-populated database of popular food items. <br/>
+			</th>
 			<th><img src="diet_picture.PNG" alt="screenshot of diet app" /></th>
 
 		</tr>
@@ -108,14 +110,31 @@ img{
 </div>
 
 
+<div class="box">
+	<h2>Pantry Calorie Tracker V2</h2>
+	<table>
+		<tr>
+			<th>• use barcode scanner to scan groceries and have the total-calories automatically calculated<br/>
+				
+			</th>
+			<th><img src="capture_pantry.PNG" alt="screenshot of pantry app" /></th>
 
+		</tr>
+
+	</table>
+	<br/>
+	<a href='/Dropbox/diet/pantry.php' class='button' >Live</a> 
+	<a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a>
+</div>
 
 
 <div class="box">
 	<h2>Flashcards</h2>
 	<table>
 		<tr>
-			<th>• quickly add food & calories counts to database in fewer clicks that other websites.</th>
+			<th>• vocabulary based on Duolingo-German course.<br/>
+				• many different modes to choose from.<br/>
+			</th>
 			<th>
 				<img src="capture_flashcards.PNG" alt="screenshot of flashcard app" /><br/>
 			</th>
@@ -135,7 +154,8 @@ img{
 	<table>
 		<tr>
 			<th> 
-				• target practice for FPS games but the target is not random so metrics are consistant.<br/> 
+				• target practice for FPS games.<br/> 
+				• target appears in same place each time so user will get a consistant score each time.<br/> 
 			 </th>
 			<th>
 				<img src="capture_skill.PNG" alt="screenshot of skill app" />
@@ -190,6 +210,8 @@ img{
 <a href='/Dropbox/todo/todo.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/todo' class='button'>Git</a>
 </div>
+
+
 
 
 
