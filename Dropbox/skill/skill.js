@@ -23,8 +23,8 @@ var canvs;
 
 function resizeCanvas() {
      canvs = document.getElementById("canvas");
-    canvs.width = 0.9*(window.innerWidth);
-    canvs.height = 0.9*(window.innerHeight);
+    canvs.width = 0.5*(window.innerWidth);
+    canvs.height = 0.5*(window.innerHeight);
 }
 
 var startTime;
@@ -92,12 +92,12 @@ function startListening(){
 }
 
 
-function drawMessage(message,offset=0,size=30){
+function drawMessage(message,offset=10,size=10){
 	//draw start
 	var ctx = canvs.getContext("2d");
 	ctx.font = size+"px Arial";
 	ctx.fillStyle = 'black';
-	ctx.fillText(message,cenX/2,cenY+offset); 
+	ctx.fillText(message,0+offset,cenY-offset); 
 }
 
 
