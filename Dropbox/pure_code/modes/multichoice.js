@@ -80,7 +80,7 @@ function drawButtons(){
 	shuffle(all);
 	for(var i =0;i<all.length;i++){
 
-		var template= `<input type=button class='userInput' value="${all[i]}" onclick='check(this.value)'></input>`;
+		var template= `<input type=button class='userInput' value="${all[i].toUpperCase()}" onclick='check(this.value)'></input>`;
 		if(i==9){
 			document.getElementById('buttons').innerHTML+='<br/>';
 		}
