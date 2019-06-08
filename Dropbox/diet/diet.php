@@ -155,6 +155,14 @@
   
 		}
 
+        .tutorial{
+             font-style: italic;
+             border-right-color: red;
+             
+             border-right-style: dotted;
+             text-align: right;
+             margin-top: 10px;
+        }
     </style>
 
 
@@ -183,16 +191,39 @@
 
         </datalist>
 
-        <input type='text' class='form' list="suggestions" id='name' value=''></input>name:<br/>
-        <input type='text' class='form' id='total_cals' value='' ></input>total cals:<br/>
-        <input type='text'  class='form' id='total_amount' list='suggestion_labels' value=''>total amount:</input><br/>
-        <span id='more_labels'> </span><br/>
+        
+        
+
+        
+
+       
+<table>
+  <tr> <td></td>
+    <td><input type='text' class='form' list="suggestions" id='name' value=''></input>name:<br/>
+<input type='text'  class='form' id='total_amount' list='suggestion_labels' value=''>total amount:</input><br/>
+    </td>
+   
+    
+  </tr>
+  <tr> <td class='tutorial'>the total-calories will<br/> automatically be calculated.</td>
+    <td><input type='text' class='form' id='total_cals' value='' ></input>total cals:<br/>
+        
+        <span id='more_labels'> </span><br/></td>
+   
+    
+  </tr>
+  <tr>
+      <td class='tutorial'>enter any ratio.<br/>example: 12oz is 140calories</td>
+    <td>
         <input type='text'  class='form' id='cal_per_serv' value=''></input>cal per serv:<br/>
-        <input type='text' class='form' id='amount_per_serv' list='suggestion_labels' value=''></input>amount per serv:<br/>
-        <input type='button' class='form' value='submit' id='submit' onclick='saveItem()'></input>
-
-        <a href="pantry.php">pantry</a>
-
+        <input type='text' class='form' id='amount_per_serv' list='suggestion_labels' value=''></input>amount per serv:<br/></td>
+  
+   
+  </tr>
+ 
+ 
+</table>
+<input type='button' class='form' value='submit' id='submit' onclick='saveItem()'></input> <a href="pantry.php">pantry</a>
     </div>
   ⚡<span id='consumedCal'></span> consumed<br/>
     <br/>
