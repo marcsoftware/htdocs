@@ -187,7 +187,7 @@ function wrap(list){
        
       
         <input type=text  ${name_string}
-            onchange="fix( ${id}  ,'serv_per_container',this.value)"
+            onchange="fix( ${id}  ,'total_cals',this.value)"
             value=${serv_per_container}>
         </input>
         ${delete_button}

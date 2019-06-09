@@ -68,9 +68,18 @@ for ($i = 0; $i < count($records); $i+=1) {
 
 
     */
-     $total_cals=getPantryData($upc);
-     if(isset($total_cals) ){
-        $total_cals=getSharedData($upc);
+     $both=getPantryData($upc);
+     $total_cals=$both[0];
+     $name=$both[1];
+     if(!isset($total_cals) ){
+        $both=getSharedData($upc);
+        $total_cals=$both[0];
+        $new_name=$both[1];
+     }
+
+     if(!isset($name) && isset($new_name)){
+        $name=$new_name;
+
      }
   
    	$new_sql =str_replace("{UPC}", $upc, $template);
@@ -131,7 +140,7 @@ function getSharedData($upc){
         
     
 
-       return($row["total_cals"]);
+       return([$row["total_cals"],$row['name']]);
 
       
     }
@@ -173,7 +182,7 @@ function getPantryData($upc){
         
      
 
-       return($row["total_cals"]);
+       return([$row["total_cals"],$row['name']]);
        
       
     }
