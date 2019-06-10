@@ -15,7 +15,7 @@
 
         var values = ["block","none"];
 
-        $(document).keyup(function(e,element){ // keyboard event is only attached to "input" elements
+     /*   $(document).keyup(function(e,element){ // keyboard event is only attached to "input" elements
             var target = (e.target.id);
 
             if(e.keyCode==13 && target !== 'name' ){ //13 is for the [ENTER] key
@@ -26,7 +26,7 @@
         });
 
 
-
+*/
 
 
   
