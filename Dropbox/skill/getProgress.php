@@ -23,7 +23,7 @@
     }
     
     //TODO edit $sql to update if entry already exsists
-    $sql = "SELECT  *,AVG(time) AS avg, DATE_FORMAT(date, '%Y,%m,%d') as duration   from skill where customer_name='$customer_name'  
+    $sql = "SELECT  *,MIN(time) AS avg, DATE_FORMAT(date, '%Y,%m,%d') as duration   from skill where customer_name='$customer_name'  
              group by DATE_FORMAT(date, '%Y,%m,%d') ";
     
 

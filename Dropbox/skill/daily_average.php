@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <title>graph</title>
 <html>
-<head>  <?php include '../header.php';?>
+<head>  
     <script src="Chart.min.js"></script>
 
 <style>
@@ -15,6 +15,10 @@
 
     body{
         width: 50%;
+        margin:auto;
+    }
+
+    a{
         margin:auto;
     }
 </style>
@@ -35,7 +39,7 @@ var myChart = new Chart(ctx, {
 
         labels: global_labels,
         datasets: [{
-            label: 'daily average in milliseconds',
+            label: 'Quickest Time For Each Day',
             data: global_data,
             pointBackgroundColor:'rgba(255, 0, 0, 255)',
             borderColor:'rgba(255, 0, 0, 255)',
@@ -130,7 +134,7 @@ var myChart = new Chart(ctx, {
 </head>
 <body>
   <canvas id="myChart" ></canvas>
-
+<a href="http://offline.com/Dropbox/skill/skill.php">go back</a>
 
 </body>
 
