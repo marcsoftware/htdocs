@@ -292,7 +292,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"learnspell.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>audio</a>
               
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"de_selftest_reverse.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"testvocab.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"testvocab.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='2'>
@@ -311,7 +311,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>audio</a>
                 
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div >
 <div class='tab' id='3'> 
@@ -330,7 +330,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>audio</a>
                  
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='4a'>
@@ -349,7 +349,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>audio</a>
                 
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='4b'>
@@ -368,7 +368,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>audio</a>
                   
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='5'>
@@ -387,7 +387,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>audio</a>
                  
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='6'>
@@ -405,7 +405,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>audio</a>
                    
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='7'>
@@ -424,7 +424,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>audio</a>
                   
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='8'>
@@ -443,7 +443,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>audio</a>
                   
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 </p>
 </div>
 <div class='tab' id='all' >
@@ -462,7 +462,7 @@ window.onload = function() {
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>audio</a>
                     
                     <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>blank</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
 
          </p>           
 
