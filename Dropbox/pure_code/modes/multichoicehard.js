@@ -69,10 +69,10 @@ function drawButtons(){
 		random_line = ( global_lines[Math.floor(Math.random()*global_lines.length)] );
 		one_word = random_line.split('\t');
 		one_word=one_word[0] ;// zero get the left side which is german
-		one_word = (one_word);
-		random_words.push(one_word); 
+		one_word = removeArticles(one_word);
+		random_words.push(one_word[0]);
 	}
-	random_words.push(global_ans_key);
+	random_words.push(global_ans_key[0]);
 
 
 	document.getElementById('buttons').innerHTML='';
@@ -80,7 +80,7 @@ function drawButtons(){
 	shuffle(all);
 	for(var i =0;i<all.length;i++){
 
-		var template= `<input type=button class='userInput' value="${all[i]}" onclick='check(this.value)'></input>`;
+		var template= `<input type=button class='userInput' value="${all[i].toUpperCase()}" onclick='check(this.value)'></input>`;
 		if(i==9){
 			document.getElementById('buttons').innerHTML+='<br/>';
 		}
