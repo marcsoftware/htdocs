@@ -106,8 +106,7 @@
 <br/>
 <div>
    
-<a href='allpantry.php'>all pantry</a>
-<a href='getAllTodayPantry.php'>today</a>
+Copy & Past a list of upc codes or use a barcode scanner:
 <form method="POST" action="saveUPC.php" id="aform">
     <textarea name='records' id='inputUPC'></textarea>
 
