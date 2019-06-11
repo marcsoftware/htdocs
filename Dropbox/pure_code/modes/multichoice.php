@@ -25,7 +25,7 @@
 </script>
 <script src="multichoice.js" content="text/html; charset=utf-8" ></script>
 
-<title>learn to spell</title>
+<title>flashcards</title>
 
 
 

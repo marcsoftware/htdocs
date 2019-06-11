@@ -46,6 +46,14 @@ body {
   padding:1px;
 }
 
+.userInput:hover{
+  background-color: #e6fff2;
+  color: #b3b3cc;
+ 
+
+ 
+}
+
 div{
   margin: 0px;
     padding: 0px;
