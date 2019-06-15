@@ -110,7 +110,7 @@
         display: block;
         margin:auto;
         float:none;
-        text-align: center;
+        text-align: left;
        
     }
 
