@@ -1,5 +1,4 @@
-
-
+<?php include '../header.php';?>
 <html>
     <title>diet-pantry</title>
 
@@ -123,7 +122,7 @@ Copy & Past a list of upc codes or use a barcode scanner:
     
 <div id='missingData'></div>
 </body>
-<?php include '../header.php';?>
+
 total calories scanned:<span id='global_total_calories'></span>
 <script src="pantry.js"></script>
 </html> 
