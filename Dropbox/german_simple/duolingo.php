@@ -1,7 +1,9 @@
 <?php include '../header.php';?>
 <?php 
 
-  
+   $completed='';
+
+
     if(isset($_SESSION["customer_name"])){
      
     
@@ -9,7 +11,7 @@
 
     //
     //create table if it doesn't already exsist
-    $customer_name = $_SESSION["customer_name"];
+     $customer_name = $_SESSION["customer_name"];
 
     $dbname='flashcards';
     
@@ -20,37 +22,93 @@
     $sql = "CREATE TABLE $customer_name LIKE _clone_user";
 
     $result = $conn->query($sql);
+
+    getCompleted();
 }
+
+
+//get list of all tast the user completed from the database
+
+
+
+function getCompleted(){
+  global $servername;
+  global $username;
+  global $password;
+  global $customer_name;
+  global $completed;
+ 
+   
+
+  $conn = new mysqli($servername, $username, $password, 'flashcards');
+    
+  $sql = "SELECT * from completed where user='$customer_name' ;";
+
+  
+  $result = $conn->query($sql);
+
+
+  while($row = $result->fetch_assoc()) {
+      
+      
+
+     ($completed.= $row["chapter"].",".$row["mode"]);
+   }
+ 
+  
+}
+
+
 
 
     $folder = '../pure_code/material/german/duolingo';
     //make the buttons
     //global var : mode
-    function makeButtons($file){
+    function makeButtons($file,$id){
 
         //  getTime($file,$folder,'read.php')
+
+
+        $check_list=array(); // contains a checkmark for each item the user completed
+        $check_list[0]=isCompleted($file,'multichoice.php');
+        $check_list[1]=isCompleted($file,'de_selftest.php');
+        $check_list[2]=isCompleted($file,'learnspell.php');
+        $check_list[3]=isCompleted($file,'de_selftest_reverse.php');
+        $check_list[4]=isCompleted($file,'testvocab.php');
         $folder = '../pure_code/material/german/duolingo';
-        $template = "<h5>$file</h5>
+        $template = "
+                  <div class='tab' id='$id'>
+                  <h5>$file</h5>
                    read german: 
 
-                  <a class='hyperlink' onclick=nextPage(this,'base.php') rel='$file' name='$folder'>racetrack</a>
-                  <a class='hyperlink' onclick=nextPage(this,'multichoice.php') rel='$file' name='$folder'>multichoice</a>
-                  <a class='hyperlink' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest</a>
-                  <a class='hyperlink' onclick=nextPage(this,'read.php') rel='$file' name='$folder'> r</a>
+                  
+                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='$file' name='$folder'>multichoice $check_list[0]</a>
+                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='$file' name='$folder'>selftest $check_list[1]</a>
+                  
 
                     <br/>
                     
                     type german:
-                    <a class='hyperlink' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>audio</a>
-                    <a class='hyperlink' onclick=nextPage(this,'typetrack.php') rel='$file' name='$folder'>typetrack</a>
-                    <a class='hyperlink' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest</a>
-                    <a class='hyperlink' onclick=nextPage(this,'testvocab.php') rel='$file' name='$folder'>blank</a>
-
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='$file' name='$folder'>audio $check_list[2]</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='$file' name='$folder'>selfttest $check_list[3]</a>
+                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='$file' name='$folder'>blank $check_list[4]</a>
+</div>
                     ";
         
         echo $template;
     }
 
+
+    function isCompleted($file,$mode){
+      
+       global $completed;
+      
+      if (strpos($completed, $file.','.$mode) !== false) {
+    
+    return  'true⭐️';
+}
+       return 'false';
+    }
 
     function makeOtherButtons($file){
 
@@ -89,6 +147,10 @@
 <meta charset="UTF-8">
 <html>
 <style>
+
+  .big{
+    font-size: 20px;
+  }
 
   body{
      background-color: #2ECC71;
@@ -245,6 +307,13 @@ window.onload = function() {
   openTab(document.getElementById('start'));
 };
 
+function getCheckmark(handle,mode){
+  
+  handle.innerHTML+= '<span class="big"> 🌟</span>';
+  
+
+}
+
 </script>
 
 
@@ -273,200 +342,37 @@ window.onload = function() {
   <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">8</button>
   <button class="w3-bar-item w3-button tab_button" onclick="openTab(this)">all</button>
 </div>
+<?php
+    $folder = '../pure_code/material/german/duolingo';
+    $file = 'tinycards-test1.txt';
+    makeButtons('tinycards-test1.txt','1');
+    
+    
 
+    makeButtons('tinycards-test2.txt','2');
+    
+    
 
-<div class='tab' id='1'>
-<h5>Part 1</h5>
-             <p>     
-                  
-   read german: <br/>
-                  
-               
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"multichoice.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"de_selftest.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-                
+    makeButtons('tinycards-test3.txt','3');
+    
+    
+    
+    makeButtons('tinycards-test4a.txt','4a');
+    makeButtons('tinycards-test4b.txt','4b');
+    
 
-                    <br/>
-               
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"learnspell.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>audio</a>
-              
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"de_selftest_reverse.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick='nextPage(this,"testvocab.php")' rel='tinycards-test1.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='2'>
-                    <h5>tinycards-test2.txt</h5>
-<p>
-                   read german:  <br/>
+    makeButtons('tinycards-test5.txt','5');
+    
+    
+    makeButtons('tinycards-test6.txt','6');
+    makeButtons('tinycards-test7.txt','7');
+    makeButtons('tinycards-test8.txt','8');
+    makeButtons('all-german-words.txt','all');
+    
+    
+    
+?>
 
-               
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-                 
-
-                    <br/>
-                    
-                    type german: <br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test2.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div >
-<div class='tab' id='3'> 
-                    <h5>tinycards-test3.txt</h5>
-                    <p>
-                   read german:       <br/>
-
-             
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-                  
-
-                    <br/>
-                    
-                    type german:      <br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                 
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test3.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='4a'>
-                    <h5>tinycards-test4a.txt</h5>
-                    <p>
-                   read german:       <br/>
-
-                 
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-               
-
-                    <br/>
-                    
-                    type german: <br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4a.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='4b'>
-                    <h5>tinycards-test4b.txt</h5>
-                    <p>
-                   read german:       <br/>
-
-               
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-               
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                  
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test4b.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='5'>
-                    <h5>tinycards-test5.txt</h5>
-                    <p>
-                   read german: <br/>
-
-        
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-              
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                 
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test5.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='6'>
-                    <h5>tinycards-test6.txt</h5>
-                    <p>
-                   read german: <br/>
-
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-        
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                   
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test6.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='7'>
-                    <h5>tinycards-test7.txt</h5>
-                    <p>
-                   read german: <br/>
-
-              
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-           
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                  
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test7.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='8'>
-                    <h5>tinycards-test8.txt</h5>
-                    <p>
-                   read german: <br/>
-
-              
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-             
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                  
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='tinycards-test8.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-</p>
-</div>
-<div class='tab' id='all' >
-                    <h5>all-german-words.txt</h5>
-                    <p>
-                   read german: <br/>
-
-             
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'multichoice.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>multichoice</a>
-                  <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>selftest</a>
-           
-
-                    <br/>
-                    
-                    type german:<br/>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'learnspell.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>audio</a>
-                    
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'de_selftest_reverse.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>selfttest</a>
-                    <a class='btn btn-4 btn-4a icon-arrow-right' onclick=nextPage(this,'testvocab.php') rel='all-german-words.txt' name='../pure_code/material/german/duolingo'>fill in blank</a>
-
-         </p>           
-
-</div>
 
 </body>
 </html>

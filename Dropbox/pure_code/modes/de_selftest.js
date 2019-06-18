@@ -73,6 +73,47 @@ function focusRedWords(){
 function endGame(){
     document.getElementById('focusredwords').disabled = true; 
     document.getElementById('file').innerHTML='YOU WON - your progress is saved.';
+    saveProgress();
+}
+
+
+
+/**
+//---------------------------------------------------------------------
+//  when user completes a task save it to database
+//---------------------------------------------------------------------
+*/
+var modeName='de_selftest.php'
+function saveProgress(){
+        var xmlhttp;    
+
+    
+             
+            if (window.XMLHttpRequest){
+                // code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else{
+                // code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange=function(){
+                if (xmlhttp.readyState==4 && xmlhttp.status==200){ //TODO make return text using echo() in php file to prevent false green borders
+                    
+                    var result = (xmlhttp.responseText);
+                  
+                    
+      
+                }
+            };
+
+
+          
+
+            
+         
+            xmlhttp.open("GET","/Dropbox/pure_code/saveProgress.php?fileName="+fileName+'&modeName='+modeName,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.send();
 }
 
 /**
