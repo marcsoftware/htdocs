@@ -47,7 +47,7 @@ session_set_cookie_params(36000000);
             document.getElementById('username').innerHTML=customer_name;
     	}else{
     		//if user is not logged in draw the login button
-    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/login.php'>login</a>`;
+    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/login.php'>login</a> `;
     		document.getElementById('log').innerHTML+=`<a href='/Dropbox/login/register.php'>register</a>`;
 
             
