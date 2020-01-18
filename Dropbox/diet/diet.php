@@ -1,10 +1,15 @@
-<?php include '../header.php';?>
 <?php 
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
     if(isset($_SESSION["customer_"])){
         echo $_SESSION["customer_name"];
     }
 
 ?>
+<?php include '../header.php';?>
+
 
 <html>
     <title>diet2</title>

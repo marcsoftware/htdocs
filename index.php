@@ -110,7 +110,7 @@ img{
 
 	</table>
 	<br/>
-	<a href='/Dropbox/diet/diet.php' class='button' >Live</a> 
+	<a href='Dropbox/diet/diet.php' class='button' >Live</a> 
 	<a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a>
 	<div class="tech">-PHP -MySQL -JavaScript</div>
 </div>
@@ -129,7 +129,7 @@ img{
 
 	</table>
 	<br/>
-	<a href='/Dropbox/diet/pantry.php' class='button' >Live</a> 
+	<a href='Dropbox/diet/pantry.php' class='button' >Live</a> 
 	<a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/diet" class='button'>Git</a>
 	<div class="tech">-PHP -MySQL -JavaScript</div>
 </div>
@@ -150,7 +150,7 @@ img{
 
 	</table>
 	<br/>
-	<a href='/Dropbox/german_simple/duolingo.php' class='button' >Live</a>
+	<a href='Dropbox/german_simple/duolingo.php' class='button' >Live</a>
 <a href="https://github.com/marcsoftware/htdocs/tree/master/Dropbox/pure_code" class='button'>Git</a>
 <div class="tech">-PHP -MySQL -JavaScript</div>
 </div>
@@ -173,7 +173,7 @@ img{
 
 	</table>
 	<br/>
-	<a href='/Dropbox/skill/skill.php' class='button'>Live</a>
+	<a href='Dropbox/skill/skill.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/skill' class='button'>Git</a>
 <div class="tech">-PHP -MySQL -JavaScript</div>
 </div>
@@ -196,7 +196,7 @@ img{
 
 	</table>
 	<br/>
-<a href='/Dropbox/quicktools/beatsaber.php' class='button'>Live</a>
+<a href='Dropbox/quicktools/beatsaber.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/quicktools' class='button'>Git</a>
 
 </div>
@@ -217,7 +217,7 @@ img{
 	</table>
 	-CSS -PHP
 	<br/>
-<a href='/Dropbox/todo/todo.php' class='button'>Live</a>
+<a href='Dropbox/todo/todo.php' class='button'>Live</a>
 <a href='https://github.com/marcsoftware/htdocs/tree/master/Dropbox/todo' class='button'>Git</a>
 <div class="tech">-PHP -MySQL -JavaScript</div>
 </div>

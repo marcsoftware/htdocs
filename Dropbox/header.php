@@ -43,12 +43,12 @@ session_set_cookie_params(36000000);
    
    		if(is_logged_in){
    			//if user is logged in draw the logout button
-    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/logout.php'>logout</a>`;
+    		document.getElementById('log').innerHTML=`<a href='Dropbox/login/logout.php'>logout</a>`;
             document.getElementById('username').innerHTML=customer_name;
     	}else{
     		//if user is not logged in draw the login button
-    		document.getElementById('log').innerHTML=`<a href='/Dropbox/login/login.php'>login</a> `;
-    		document.getElementById('log').innerHTML+=`<a href='/Dropbox/login/register.php'>register</a>`;
+    		document.getElementById('log').innerHTML=`<a href='/htdocs/Dropbox/login/login.php'>login</a> `;
+    		document.getElementById('log').innerHTML+=`<a href='/htdocs/Dropbox/login/register.php'>register</a>`;
 
             
     	}
