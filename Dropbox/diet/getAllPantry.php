@@ -14,7 +14,8 @@
     require_once('../passwords/db_const.php');
     $dbname = "diet";
     
-    $customer_name = $_SESSION["customer_name"];
+    
+    $customer_name="bob";
     $pantry_name = $customer_name.'_pantry';
     date_default_timezone_set('America/Denver');
  	
@@ -30,7 +31,7 @@
             name != null and ( (total_cals != 0) and (total_amount_unit !=0)) or ((cal_per_serv !=0) and (amount_per_serv_unit!=0 ))
             ORDER BY  date ASC";//ORDER BY article_rating DESC, article_time DESC
     
-
+echo $sql;
     $result = $conn->query($sql);
     
     while($row = $result->fetch_assoc()) {

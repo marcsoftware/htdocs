@@ -3,8 +3,12 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-    if(isset($_SESSION["customer_"])){
+    if(isset($_SESSION["customer_name"])){
         echo $_SESSION["customer_name"];
+    }else{
+        $_SESSION["customer_name"]="bob";
+        echo $_SESSION["customer_name"];
+
     }
 
 ?>

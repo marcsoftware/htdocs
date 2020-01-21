@@ -13,7 +13,8 @@
     //-----------------------------------------------------
     */
     session_start();
-    $customer_name = $_SESSION["customer_name"];
+    //$customer_name = $_SESSION["customer_name"];
+    $customer_name="bob";
     error_reporting(E_ALL);
 
     date_default_timezone_set('America/Denver');

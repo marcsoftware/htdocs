@@ -133,7 +133,7 @@
         //---------------------------------------------------------------------
         */
 
-        var global_list;
+        var global_list="";
         function getCustomLabel(item_name){
                   var xmlhttp;    
 
@@ -707,7 +707,8 @@ function str_pad(n) {
             }
 
             string_date='&date='+stringDate();
-
+alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
+amount_per_serv+total_amount+cal_per_serv+string_date);
             xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
@@ -1229,8 +1230,10 @@ console.log('getstats called');
             var burnedCal = (hour * calPerHour) + (min*calPerMin);
             
             consumedCal=0;
+
             //TODO calculate consumedCal
-            var new_result = result.split("<br/>");
+            var result="";
+            var new_result = result.split("<br/>");  ///
             
             for(var i=0;i<result.length-1 ;i++){
                 
