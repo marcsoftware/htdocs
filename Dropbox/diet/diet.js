@@ -171,7 +171,7 @@
 
             
          
-            xmlhttp.open("GET","/Dropbox/diet/getCustomLabel.php?item_name="+item_name,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.open("GET","/htdocs/Dropbox/diet/getCustomLabel.php?item_name="+item_name,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
 
          }
@@ -497,7 +497,7 @@
                 };
 
 
-                xmlhttp.open("GET","/Dropbox/diet/getLastLabel.php?item_name="+item_name,
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/getLastLabel.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
 
@@ -937,7 +937,7 @@ function str_pad(n) {
                 }
             };
             
-            xmlhttp.open("GET","/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.open("GET","/htdocs/Dropbox/diet/fixcookie.php?id="+id+'&field='+field+'&value='+value,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
 
         }
@@ -992,7 +992,7 @@ function str_pad(n) {
 
             //TODO pass the global var date
             
-            xmlhttp.open("GET","/Dropbox/diet/readCookie.php?date="+date,false); // TODO This is badpractice. Turn false into true. //////
+            xmlhttp.open("GET","/htdocs/Dropbox/diet/readCookie.php?date="+date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
         }
@@ -1118,7 +1118,7 @@ function str_pad(n) {
                
               
                 
-                xmlhttp.open("GET","/Dropbox/diet/deleteID.php?id="+id,
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/deleteID.php?id="+id,
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
         }
@@ -1171,7 +1171,7 @@ console.log('getstats called');
               item_name=item_name.replace(/[0-9]+/g,'');
               
                 
-                xmlhttp.open("GET","/Dropbox/diet/getStats.php?item_name="+item_name,
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/getStats.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
         }
@@ -1397,7 +1397,7 @@ console.log('getstats called');
                
               
 
-                xmlhttp.open("GET","/Dropbox/diet/readDatabase.php?item_name="+item_name,
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/readDatabase.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
 
@@ -1432,7 +1432,7 @@ console.log('getstats called');
                     }
                 };
 
-                xmlhttp.open("GET","/Dropbox/diet/searchHistory.php?item_name="+item_name,
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/searchHistory.php?item_name="+item_name,
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
 
@@ -1599,7 +1599,7 @@ console.log('getstats called');
                
               
 
-                xmlhttp.open("GET","/Dropbox/diet/getAllHistory.php",
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/getAllHistory.php",
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
 
@@ -1657,7 +1657,7 @@ console.log('getstats called');
                
               
 
-                xmlhttp.open("GET","/Dropbox/diet/getAllPantry.php",
+                xmlhttp.open("GET","/htdocs/Dropbox/diet/getAllPantry.php",
                 false); // TODO This is badpractice. Turn false into true. //////
                 xmlhttp.send();   
 

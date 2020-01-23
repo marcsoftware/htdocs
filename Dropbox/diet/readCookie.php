@@ -17,8 +17,8 @@
     $date = $_GET['date'];
     
     
-     $customer_name = $_SESSION["customer_name"];
-
+     //$customer_name = $_SESSION["customer_name"]; //bad
+$customer_name="bob";
   
    date_default_timezone_set('America/Denver');
 
