@@ -14,7 +14,8 @@
     require_once('../passwords/db_const.php');
     $dbname = "diet";
     
-    $customer_name = $_SESSION["customer_name"];
+    //$customer_name = $_SESSION["customer_name"];//bad
+    $customer_name="bob";
     date_default_timezone_set('America/Denver');
  
     // Create connection

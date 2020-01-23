@@ -707,9 +707,9 @@ function str_pad(n) {
             }
 
             string_date='&date='+stringDate();
-alert("/Dropbox/diet/createcookie.php?"+id+name+total_cals+
-amount_per_serv+total_amount+cal_per_serv+string_date);
-            xmlhttp.open("GET","/Dropbox/diet/createcookie.php?"+id+name+total_cals+
+
+
+            xmlhttp.open("GET","/htdocs/Dropbox/diet/createcookie.php?"+id+name+total_cals+
                             amount_per_serv+total_amount+cal_per_serv+string_date,false); // TODO This is badpractice. Turn false into true. //////
             xmlhttp.send();
             
@@ -1131,7 +1131,7 @@ amount_per_serv+total_amount+cal_per_serv+string_date);
         //---------------------------------------------------------------------
         */
         // function gets all the stats for the item_name and puts them in the form.
-        var global_stats;
+        var global_stats="";
         function getStats(item_name){
                var xmlhttp;
 console.log('getstats called');
@@ -1301,7 +1301,10 @@ console.log('getstats called');
           
 
             // calculate consumedCal
-            var new_result = result.split("<br/>");
+            var new_result="";
+            if(result.length>0){
+                 new_result = result.split("<br/>");
+            }
             consumedCal=0;
             for(var i=0;i<result.length-1 ;i++){
                 

@@ -12,6 +12,10 @@
     // param (text)   ($amount_per_serv) might be number with label appended like "1 cup"
     //-----------------------------------------------------
     */
+
+    ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
     session_start();
     //$customer_name = $_SESSION["customer_name"];
     $customer_name="bob";
