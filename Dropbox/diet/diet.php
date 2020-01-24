@@ -208,14 +208,14 @@ error_reporting(E_ALL);
        
 <table>
   <tr> <td></td>
-    <td><input type='text' class='form' list="suggestions" id='name' value='marcmelcher'></input>name:<br/>
-<input type='text'  class='form' id='total_amount' list='suggestion_labels' value='1cup'>total amount:</input><br/>
+    <td><input type='text' class='form' list="suggestions" id='name' value=''></input>name:<br/>
+<input type='text'  class='form' id='total_amount' list='suggestion_labels' value=''>total amount:</input><br/>
     </td>
    
     
   </tr>
   <tr> <td class='tutorial'>the total-calories will<br/> automatically be calculated.</td>
-    <td><input type='text' class='form' id='total_cals' value='100' ></input>total cals:<br/>
+    <td><input type='text' class='form' id='total_cals' value='' ></input>total cals:<br/>
         
         <span id='more_labels'> </span><br/></td>
    
